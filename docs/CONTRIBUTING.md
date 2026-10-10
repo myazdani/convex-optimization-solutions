@@ -26,3 +26,18 @@ Shared helpers:
 Do not edit another worker's chapter without coordination. Integration owns the
 CLI, shared helpers, manifest schema, README, and aggregate tests. Inventory
 research owns the initial `coverage/inventory.json` source audit.
+
+## GitHub Markdown mathematics
+
+Use GitHub's dollar/backtick pairs for inline math, as in $`x^2`$, and fenced
+`math` blocks for display equations. Keep
+inline formulas on one source line. Escaped parenthesis/bracket math delimiters
+are not supported by GitHub's Markdown renderer. In table formulas, use
+`\vert` or `\Vert` instead of pipe characters so they cannot split columns.
+Use `\mathrm{diag}`, `\mathrm{rank}`, and similar upright labels for named
+operators: GitHub currently rejects the `operatorname` macro.
+
+See [GitHub's math formatting guide](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions).
+Run `python -m pytest tests/test_docs_formatting.py -q`, then inspect the rendered
+GitHub Preview, including matrices, aligned equations, inline formulas, and
+tables. The source checks do not replace a rendering check.

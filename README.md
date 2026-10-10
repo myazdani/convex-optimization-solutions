@@ -9,7 +9,7 @@ explanations; it does not reproduce the textbook or its solution manual.
 
 ## Verified scope
 
-**16 runnable solutions, 95 passing tests, 19 generated figures.** The full
+**16 runnable solutions, 97 passing tests, 19 generated figures.** The full
 source audit covers all 337 numbered exercises and identifies 11 that explicitly
 request numerical algorithm execution or implementation. All 11 are implemented
 and verified, together with five concrete-data or visualization extras:
@@ -30,7 +30,9 @@ exercise collection are outside this scope. This is not a solution set for all
 
 The [verification report](coverage/verification.json) records the clean-environment
 installation, numerical tests, independent mathematical checks, full reproduction,
-and figure review. No known failures remain within the selected scope.
+and figure review. The [formatting regression log](coverage/formatting-tests.log)
+records a later full-suite run with two additional GitHub Markdown checks.
+No known failures remain within the selected scope.
 
 ## Setup
 
