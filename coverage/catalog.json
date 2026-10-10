@@ -55,9 +55,14 @@
   "summary": {
     "numbered_exercises": 337,
     "computational_exercises_verified": 16,
-    "other_exercises_pending": 321,
+    "numbered_exercises_verified": 49,
+    "other_exercises_total": 321,
+    "other_exercises_verified": 33,
+    "other_exercises_pending": 288,
     "worked_examples_catalogued": 62,
-    "worked_examples_reproduced": 2
+    "worked_examples_reproduced": 2,
+    "worked_examples_exact": 2,
+    "worked_examples_method": 0
   },
   "categories": [
     {
@@ -80,7 +85,7 @@
       "id": "other_exercises",
       "number": 3,
       "title": "All other exercises",
-      "description": "Every remaining numbered textbook exercise, including theoretical exercises; solutions pending.",
+      "description": "Every remaining numbered textbook exercise, with completion based on independent review.",
       "index_path": "docs/other-exercises/README.md",
       "count": 321
     }
@@ -99,6 +104,10 @@
       "sha256": "f018d0c361d30f91035c98c6fdb85eb57c3ac0ef714da63b1678123cc53b3b24"
     },
     {
+      "path": "coverage/exercise_solutions.json",
+      "sha256": "6bd8cfc22daa61473fae616ada7e92fc8f6b505faa45999023421bc57e5794c0"
+    },
+    {
       "path": "coverage/example_reproductions.json",
       "sha256": "672159adb2c071641aa20e7bb9d98d82ccc39d1dead777068a70ad523832825a"
     }
@@ -109,70 +118,90 @@
       "title": "Convex sets",
       "numbered_exercises": 39,
       "computational_exercises": 0,
-      "other_exercises": 39
+      "other_exercises": 39,
+      "other_exercises_verified": 10,
+      "other_exercises_pending": 29
     },
     {
       "chapter": 3,
       "title": "Convex functions",
       "numbered_exercises": 60,
       "computational_exercises": 0,
-      "other_exercises": 60
+      "other_exercises": 60,
+      "other_exercises_verified": 0,
+      "other_exercises_pending": 60
     },
     {
       "chapter": 4,
       "title": "Convex optimization problems",
       "numbered_exercises": 65,
       "computational_exercises": 1,
-      "other_exercises": 64
+      "other_exercises": 64,
+      "other_exercises_verified": 10,
+      "other_exercises_pending": 54
     },
     {
       "chapter": 5,
       "title": "Duality",
       "numbered_exercises": 44,
       "computational_exercises": 3,
-      "other_exercises": 41
+      "other_exercises": 41,
+      "other_exercises_verified": 0,
+      "other_exercises_pending": 41
     },
     {
       "chapter": 6,
       "title": "Approximation and fitting",
       "numbered_exercises": 14,
       "computational_exercises": 0,
-      "other_exercises": 14
+      "other_exercises": 14,
+      "other_exercises_verified": 13,
+      "other_exercises_pending": 1
     },
     {
       "chapter": 7,
       "title": "Statistical estimation",
       "numbered_exercises": 13,
       "computational_exercises": 0,
-      "other_exercises": 13
+      "other_exercises": 13,
+      "other_exercises_verified": 0,
+      "other_exercises_pending": 13
     },
     {
       "chapter": 8,
       "title": "Geometric problems",
       "numbered_exercises": 30,
       "computational_exercises": 0,
-      "other_exercises": 30
+      "other_exercises": 30,
+      "other_exercises_verified": 0,
+      "other_exercises_pending": 30
     },
     {
       "chapter": 9,
       "title": "Unconstrained minimization",
       "numbered_exercises": 32,
       "computational_exercises": 4,
-      "other_exercises": 28
+      "other_exercises": 28,
+      "other_exercises_verified": 0,
+      "other_exercises_pending": 28
     },
     {
       "chapter": 10,
       "title": "Equality constrained minimization",
       "numbered_exercises": 16,
       "computational_exercises": 3,
-      "other_exercises": 13
+      "other_exercises": 13,
+      "other_exercises_verified": 0,
+      "other_exercises_pending": 13
     },
     {
       "chapter": 11,
       "title": "Interior-point methods",
       "numbered_exercises": 24,
       "computational_exercises": 5,
-      "other_exercises": 19
+      "other_exercises": 19,
+      "other_exercises_verified": 0,
+      "other_exercises_pending": 19
     }
   ],
   "entries": [
@@ -3151,130 +3180,230 @@
       "id": "2.1",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.1",
+      "title": "Finite convex combinations",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.1.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "adaff6be4a3ea5872783caa48e3ddc357aa627579dcb6274d114d5b9c4730da1",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.2",
       "id": "2.2",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.2",
+      "title": "Testing convexity and affinity on lines",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.2.md",
+      "source_checked": true,
+      "subparts": [
+        "convex",
+        "affine"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f2ba3aa9086a2a451fd943cb0edf6557e7403030b2df5c6e8e2ffdfe61a3af9e",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.3",
       "id": "2.3",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.3",
+      "title": "Closed midpoint-convex sets",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.3.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2f8cbae40c1edd97a3570c8bcaadcda10e04303039cd4f46ecf2a6c18ecbf607",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.4",
       "id": "2.4",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.4",
+      "title": "The hull as the smallest convex superset",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.4.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "64bd17a89f50ab5653a4cd2465ba18520a2f912d58004a96fe4a5ad8f2b47df5",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.5",
       "id": "2.5",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.5",
+      "title": "Distance between parallel hyperplanes",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.5.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "54e92cf0f3f5a6f3577f021ec67ec1d071b15779c3e4898f4a4995764af2c990",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.6",
       "id": "2.6",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.6",
+      "title": "Containment and equality of halfspaces",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.6.md",
+      "source_checked": true,
+      "subparts": [
+        "containment",
+        "equality"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bcc59f9ad04dead85f330a34939742f4800f8d5fe2697720ef129342ae81b6a1",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.7",
       "id": "2.7",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Bisector halfspace picture",
+      "title": "A distance comparison is a halfspace",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.7.md",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "picture"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1ea92c345df0f49d2f9024e96f0fbca2a82a81cbd9ac674d1b56bfba083013fb",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.8",
       "id": "2.8",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.8",
+      "title": "Which sets are polyhedra?",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.8.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "58f04b567583925f737195302ff477f20220690616befa71a8741682048a01d7",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.9",
       "id": "2.9",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.9",
+      "title": "Voronoi polyhedra and a non-Voronoi partition",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 60,
       "source_pdf_page": 74,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.9.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3ee55cac32f3068c2ba46fb7c0353e8e4bc36c741ba82fd564889a46617eae06",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.10",
       "id": "2.10",
       "kind": "exercise",
       "chapter": 2,
-      "title": "Exercise 2.10",
+      "title": "Convex quadratic sublevel sets and slices",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 61,
       "source_pdf_page": 75,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/2.10.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "converses"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "64aa23157d08b6fbc2c8cc5fc466741cea58146d48c10505ff85f10c704ac9fb",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch02_batch001.json"
     },
     {
       "key": "exercise:2.11",
@@ -3287,7 +3416,7 @@
       "source_page": 61,
       "source_pdf_page": 75,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.12",
@@ -3300,7 +3429,7 @@
       "source_page": 61,
       "source_pdf_page": 75,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.13",
@@ -3313,7 +3442,7 @@
       "source_page": 61,
       "source_pdf_page": 75,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.14",
@@ -3326,7 +3455,7 @@
       "source_page": 61,
       "source_pdf_page": 75,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.15",
@@ -3339,7 +3468,7 @@
       "source_page": 62,
       "source_pdf_page": 76,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.16",
@@ -3352,7 +3481,7 @@
       "source_page": 62,
       "source_pdf_page": 76,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.17",
@@ -3365,7 +3494,7 @@
       "source_page": 62,
       "source_pdf_page": 76,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.18",
@@ -3378,7 +3507,7 @@
       "source_page": 62,
       "source_pdf_page": 76,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.19",
@@ -3391,7 +3520,7 @@
       "source_page": 62,
       "source_pdf_page": 76,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.20",
@@ -3404,7 +3533,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.21",
@@ -3417,7 +3546,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.22",
@@ -3430,7 +3559,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.23",
@@ -3443,7 +3572,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.24",
@@ -3456,7 +3585,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.25",
@@ -3469,7 +3598,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.26",
@@ -3482,7 +3611,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.27",
@@ -3495,7 +3624,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.28",
@@ -3508,7 +3637,7 @@
       "source_page": 63,
       "source_pdf_page": 77,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.29",
@@ -3521,7 +3650,7 @@
       "source_page": 64,
       "source_pdf_page": 78,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.30",
@@ -3534,7 +3663,7 @@
       "source_page": 64,
       "source_pdf_page": 78,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.31",
@@ -3547,7 +3676,7 @@
       "source_page": 64,
       "source_pdf_page": 78,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.32",
@@ -3560,7 +3689,7 @@
       "source_page": 64,
       "source_pdf_page": 78,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.33",
@@ -3573,7 +3702,7 @@
       "source_page": 64,
       "source_pdf_page": 78,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.34",
@@ -3586,7 +3715,7 @@
       "source_page": 64,
       "source_pdf_page": 78,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.35",
@@ -3599,7 +3728,7 @@
       "source_page": 64,
       "source_pdf_page": 78,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.36",
@@ -3612,7 +3741,7 @@
       "source_page": 65,
       "source_pdf_page": 79,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.37",
@@ -3625,7 +3754,7 @@
       "source_page": 65,
       "source_pdf_page": 79,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.38",
@@ -3638,7 +3767,7 @@
       "source_page": 66,
       "source_pdf_page": 80,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:2.39",
@@ -3651,7 +3780,7 @@
       "source_page": 66,
       "source_pdf_page": 80,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.1",
@@ -3664,7 +3793,7 @@
       "source_page": 113,
       "source_pdf_page": 127,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.2",
@@ -3677,7 +3806,7 @@
       "source_page": 113,
       "source_pdf_page": 127,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.3",
@@ -3690,7 +3819,7 @@
       "source_page": 114,
       "source_pdf_page": 128,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.4",
@@ -3703,7 +3832,7 @@
       "source_page": 114,
       "source_pdf_page": 128,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.5",
@@ -3716,7 +3845,7 @@
       "source_page": 114,
       "source_pdf_page": 128,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.6",
@@ -3729,7 +3858,7 @@
       "source_page": 114,
       "source_pdf_page": 128,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.7",
@@ -3742,7 +3871,7 @@
       "source_page": 114,
       "source_pdf_page": 128,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.8",
@@ -3755,7 +3884,7 @@
       "source_page": 114,
       "source_pdf_page": 128,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.9",
@@ -3768,7 +3897,7 @@
       "source_page": 114,
       "source_pdf_page": 128,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.10",
@@ -3781,7 +3910,7 @@
       "source_page": 114,
       "source_pdf_page": 128,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.11",
@@ -3794,7 +3923,7 @@
       "source_page": 115,
       "source_pdf_page": 129,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.12",
@@ -3807,7 +3936,7 @@
       "source_page": 115,
       "source_pdf_page": 129,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.13",
@@ -3820,7 +3949,7 @@
       "source_page": 115,
       "source_pdf_page": 129,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.14",
@@ -3833,7 +3962,7 @@
       "source_page": 115,
       "source_pdf_page": 129,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.15",
@@ -3846,7 +3975,7 @@
       "source_page": 115,
       "source_pdf_page": 129,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.16",
@@ -3859,7 +3988,7 @@
       "source_page": 116,
       "source_pdf_page": 130,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.17",
@@ -3872,7 +4001,7 @@
       "source_page": 116,
       "source_pdf_page": 130,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.18",
@@ -3885,7 +4014,7 @@
       "source_page": 116,
       "source_pdf_page": 130,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.19",
@@ -3898,7 +4027,7 @@
       "source_page": 116,
       "source_pdf_page": 130,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.20",
@@ -3911,7 +4040,7 @@
       "source_page": 116,
       "source_pdf_page": 130,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.21",
@@ -3924,7 +4053,7 @@
       "source_page": 117,
       "source_pdf_page": 131,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.22",
@@ -3937,7 +4066,7 @@
       "source_page": 117,
       "source_pdf_page": 131,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.23",
@@ -3950,7 +4079,7 @@
       "source_page": 117,
       "source_pdf_page": 131,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.24",
@@ -3963,7 +4092,7 @@
       "source_page": 117,
       "source_pdf_page": 131,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.25",
@@ -3976,7 +4105,7 @@
       "source_page": 118,
       "source_pdf_page": 132,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.26",
@@ -3989,7 +4118,7 @@
       "source_page": 118,
       "source_pdf_page": 132,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.27",
@@ -4002,7 +4131,7 @@
       "source_page": 118,
       "source_pdf_page": 132,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.28",
@@ -4015,7 +4144,7 @@
       "source_page": 119,
       "source_pdf_page": 133,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.29",
@@ -4028,7 +4157,7 @@
       "source_page": 119,
       "source_pdf_page": 133,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.30",
@@ -4041,7 +4170,7 @@
       "source_page": 119,
       "source_pdf_page": 133,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.31",
@@ -4054,7 +4183,7 @@
       "source_page": 119,
       "source_pdf_page": 133,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.32",
@@ -4067,7 +4196,7 @@
       "source_page": 119,
       "source_pdf_page": 133,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.33",
@@ -4080,7 +4209,7 @@
       "source_page": 119,
       "source_pdf_page": 133,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.34",
@@ -4093,7 +4222,7 @@
       "source_page": 119,
       "source_pdf_page": 133,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.35",
@@ -4106,7 +4235,7 @@
       "source_page": 120,
       "source_pdf_page": 134,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.36",
@@ -4119,7 +4248,7 @@
       "source_page": 120,
       "source_pdf_page": 134,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.37",
@@ -4132,7 +4261,7 @@
       "source_page": 120,
       "source_pdf_page": 134,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.38",
@@ -4145,7 +4274,7 @@
       "source_page": 120,
       "source_pdf_page": 134,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.39",
@@ -4158,7 +4287,7 @@
       "source_page": 120,
       "source_pdf_page": 134,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.40",
@@ -4171,7 +4300,7 @@
       "source_page": 121,
       "source_pdf_page": 135,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.41",
@@ -4184,7 +4313,7 @@
       "source_page": 121,
       "source_pdf_page": 135,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.42",
@@ -4197,7 +4326,7 @@
       "source_page": 121,
       "source_pdf_page": 135,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.43",
@@ -4210,7 +4339,7 @@
       "source_page": 121,
       "source_pdf_page": 135,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.44",
@@ -4223,7 +4352,7 @@
       "source_page": 121,
       "source_pdf_page": 135,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.45",
@@ -4236,7 +4365,7 @@
       "source_page": 122,
       "source_pdf_page": 136,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.46",
@@ -4249,7 +4378,7 @@
       "source_page": 122,
       "source_pdf_page": 136,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.47",
@@ -4262,7 +4391,7 @@
       "source_page": 122,
       "source_pdf_page": 136,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.48",
@@ -4275,7 +4404,7 @@
       "source_page": 122,
       "source_pdf_page": 136,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.49",
@@ -4288,7 +4417,7 @@
       "source_page": 122,
       "source_pdf_page": 136,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.50",
@@ -4301,7 +4430,7 @@
       "source_page": 123,
       "source_pdf_page": 137,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.51",
@@ -4314,7 +4443,7 @@
       "source_page": 123,
       "source_pdf_page": 137,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.52",
@@ -4327,7 +4456,7 @@
       "source_page": 123,
       "source_pdf_page": 137,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.53",
@@ -4340,7 +4469,7 @@
       "source_page": 123,
       "source_pdf_page": 137,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.54",
@@ -4353,7 +4482,7 @@
       "source_page": 123,
       "source_pdf_page": 137,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.55",
@@ -4366,7 +4495,7 @@
       "source_page": 124,
       "source_pdf_page": 138,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.56",
@@ -4379,7 +4508,7 @@
       "source_page": 124,
       "source_pdf_page": 138,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.57",
@@ -4392,7 +4521,7 @@
       "source_page": 124,
       "source_pdf_page": 138,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.58",
@@ -4405,7 +4534,7 @@
       "source_page": 124,
       "source_pdf_page": 138,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.59",
@@ -4418,7 +4547,7 @@
       "source_page": 124,
       "source_pdf_page": 138,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:3.60",
@@ -4431,7 +4560,7 @@
       "source_page": 125,
       "source_pdf_page": 139,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=139",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.1",
@@ -4440,24 +4569,49 @@
       "chapter": 4,
       "title": "Planar objective comparisons",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 189,
       "source_pdf_page": 203,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.1.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b50433cff97e58360674b4eca207c022c308479f55ec45d17beec46d49fc4ea7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.2",
       "id": "4.2",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.2",
+      "title": "Log-barrier recession and attainment",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 189,
       "source_pdf_page": 203,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.2.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "104b6b231e08c1341ac6aebd72e514032100913916a0a32456602587e763dcaa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.3",
@@ -4481,104 +4635,192 @@
       "id": "4.4",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.4",
+      "title": "Averaging under finite symmetries",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 189,
       "source_pdf_page": 203,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.4.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e8f448db1a525ed94f6ee30da68b7e5df01f4664b815069edcd869d8445449c1",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.5",
       "id": "4.5",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.5",
+      "title": "Three formulations of the Huber loss",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 190,
       "source_pdf_page": 204,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=204",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.5.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "80bb579e9e78f7f7ed171af0761a7f3327df6b3ae2f314ceddb8430dd227fe9a",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.6",
       "id": "4.6",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.6",
+      "title": "When a convex equality relaxation is exact",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 191,
       "source_pdf_page": 205,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.6.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2213984b7c805d3441aa5491ddc38389a7eb0715ea58f9f655831e25d1f7121a",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.7",
       "id": "4.7",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.7",
+      "title": "Convex fractional reformulations",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 191,
       "source_pdf_page": 205,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.7.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "849364361d7fb98ede46e3c2c85034c71d937a7cce2e423c80a13366934b55f7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.8",
       "id": "4.8",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.8",
+      "title": "Explicit solutions of elementary linear programs",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 192,
       "source_pdf_page": 206,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=206",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.8.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b0ae0e5d4a46a27a3765af69ce6b3e45edcc66c56f63239bef9588bbdf0111ce",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.9",
       "id": "4.9",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.9",
+      "title": "A square inequality-form linear program",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 193,
       "source_pdf_page": 207,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.9.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9397182b89e2de2efded0bafec820599deb71a779a3fb24038638e17bca732a2",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.10",
       "id": "4.10",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.10",
+      "title": "Converting a general linear program to standard form",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 193,
       "source_pdf_page": 207,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.10.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d8b589cd26c2e9258fa5a86c3f22abe8d70e0a674b7b7ec2bb8af74b42a48a28",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.11",
       "id": "4.11",
       "kind": "exercise",
       "chapter": 4,
-      "title": "Exercise 4.11",
+      "title": "Linear programs for one and infinity norms",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 193,
       "source_pdf_page": 207,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/4.11.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b0dd56d4b8c30feea504fbe118fc2cf771c47e2907dfc8927a52d9670c82d5b6",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch001.json"
     },
     {
       "key": "exercise:4.12",
@@ -4591,7 +4833,7 @@
       "source_page": 193,
       "source_pdf_page": 207,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.13",
@@ -4604,7 +4846,7 @@
       "source_page": 193,
       "source_pdf_page": 207,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.14",
@@ -4617,7 +4859,7 @@
       "source_page": 194,
       "source_pdf_page": 208,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.15",
@@ -4630,7 +4872,7 @@
       "source_page": 194,
       "source_pdf_page": 208,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.16",
@@ -4643,7 +4885,7 @@
       "source_page": 194,
       "source_pdf_page": 208,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.17",
@@ -4656,7 +4898,7 @@
       "source_page": 195,
       "source_pdf_page": 209,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.18",
@@ -4669,7 +4911,7 @@
       "source_page": 195,
       "source_pdf_page": 209,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.19",
@@ -4682,7 +4924,7 @@
       "source_page": 196,
       "source_pdf_page": 210,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.20",
@@ -4695,7 +4937,7 @@
       "source_page": 196,
       "source_pdf_page": 210,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.21",
@@ -4708,7 +4950,7 @@
       "source_page": 196,
       "source_pdf_page": 210,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.22",
@@ -4721,7 +4963,7 @@
       "source_page": 197,
       "source_pdf_page": 211,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.23",
@@ -4734,7 +4976,7 @@
       "source_page": 197,
       "source_pdf_page": 211,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.24",
@@ -4747,7 +4989,7 @@
       "source_page": 197,
       "source_pdf_page": 211,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.25",
@@ -4760,7 +5002,7 @@
       "source_page": 197,
       "source_pdf_page": 211,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.26",
@@ -4773,7 +5015,7 @@
       "source_page": 197,
       "source_pdf_page": 211,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.27",
@@ -4786,7 +5028,7 @@
       "source_page": 198,
       "source_pdf_page": 212,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.28",
@@ -4799,7 +5041,7 @@
       "source_page": 198,
       "source_pdf_page": 212,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.29",
@@ -4812,7 +5054,7 @@
       "source_page": 199,
       "source_pdf_page": 213,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.30",
@@ -4825,7 +5067,7 @@
       "source_page": 199,
       "source_pdf_page": 213,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.31",
@@ -4838,7 +5080,7 @@
       "source_page": 199,
       "source_pdf_page": 213,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.32",
@@ -4851,7 +5093,7 @@
       "source_page": 199,
       "source_pdf_page": 213,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.33",
@@ -4864,7 +5106,7 @@
       "source_page": 199,
       "source_pdf_page": 213,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.34",
@@ -4877,7 +5119,7 @@
       "source_page": 200,
       "source_pdf_page": 214,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.35",
@@ -4890,7 +5132,7 @@
       "source_page": 200,
       "source_pdf_page": 214,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.36",
@@ -4903,7 +5145,7 @@
       "source_page": 200,
       "source_pdf_page": 214,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.37",
@@ -4916,7 +5158,7 @@
       "source_page": 200,
       "source_pdf_page": 214,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.38",
@@ -4929,7 +5171,7 @@
       "source_page": 201,
       "source_pdf_page": 215,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.39",
@@ -4942,7 +5184,7 @@
       "source_page": 201,
       "source_pdf_page": 215,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.40",
@@ -4955,7 +5197,7 @@
       "source_page": 202,
       "source_pdf_page": 216,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.41",
@@ -4968,7 +5210,7 @@
       "source_page": 202,
       "source_pdf_page": 216,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.42",
@@ -4981,7 +5223,7 @@
       "source_page": 202,
       "source_pdf_page": 216,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.43",
@@ -4994,7 +5236,7 @@
       "source_page": 203,
       "source_pdf_page": 217,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.44",
@@ -5007,7 +5249,7 @@
       "source_page": 203,
       "source_pdf_page": 217,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.45",
@@ -5020,7 +5262,7 @@
       "source_page": 203,
       "source_pdf_page": 217,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.46",
@@ -5033,7 +5275,7 @@
       "source_page": 204,
       "source_pdf_page": 218,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.47",
@@ -5046,7 +5288,7 @@
       "source_page": 204,
       "source_pdf_page": 218,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.48",
@@ -5059,7 +5301,7 @@
       "source_page": 204,
       "source_pdf_page": 218,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.49",
@@ -5072,7 +5314,7 @@
       "source_page": 205,
       "source_pdf_page": 219,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.50",
@@ -5085,7 +5327,7 @@
       "source_page": 205,
       "source_pdf_page": 219,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.51",
@@ -5098,7 +5340,7 @@
       "source_page": 206,
       "source_pdf_page": 220,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.52",
@@ -5111,7 +5353,7 @@
       "source_page": 206,
       "source_pdf_page": 220,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.53",
@@ -5124,7 +5366,7 @@
       "source_page": 206,
       "source_pdf_page": 220,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.54",
@@ -5137,7 +5379,7 @@
       "source_page": 206,
       "source_pdf_page": 220,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.55",
@@ -5150,7 +5392,7 @@
       "source_page": 206,
       "source_pdf_page": 220,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.56",
@@ -5163,7 +5405,7 @@
       "source_page": 207,
       "source_pdf_page": 221,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.57",
@@ -5176,7 +5418,7 @@
       "source_page": 207,
       "source_pdf_page": 221,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.58",
@@ -5189,7 +5431,7 @@
       "source_page": 208,
       "source_pdf_page": 222,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.59",
@@ -5202,7 +5444,7 @@
       "source_page": 208,
       "source_pdf_page": 222,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.60",
@@ -5215,7 +5457,7 @@
       "source_page": 209,
       "source_pdf_page": 223,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=223",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.61",
@@ -5228,7 +5470,7 @@
       "source_page": 210,
       "source_pdf_page": 224,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.62",
@@ -5241,7 +5483,7 @@
       "source_page": 210,
       "source_pdf_page": 224,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.63",
@@ -5254,7 +5496,7 @@
       "source_page": 211,
       "source_pdf_page": 225,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.64",
@@ -5267,7 +5509,7 @@
       "source_page": 211,
       "source_pdf_page": 225,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:4.65",
@@ -5280,7 +5522,7 @@
       "source_page": 212,
       "source_pdf_page": 226,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=226",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.1",
@@ -5293,7 +5535,7 @@
       "source_page": 273,
       "source_pdf_page": 287,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.2",
@@ -5306,7 +5548,7 @@
       "source_page": 273,
       "source_pdf_page": 287,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.3",
@@ -5319,7 +5561,7 @@
       "source_page": 273,
       "source_pdf_page": 287,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.4",
@@ -5332,7 +5574,7 @@
       "source_page": 273,
       "source_pdf_page": 287,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.5",
@@ -5345,7 +5587,7 @@
       "source_page": 274,
       "source_pdf_page": 288,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.6",
@@ -5358,7 +5600,7 @@
       "source_page": 274,
       "source_pdf_page": 288,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.7",
@@ -5371,7 +5613,7 @@
       "source_page": 274,
       "source_pdf_page": 288,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.8",
@@ -5384,7 +5626,7 @@
       "source_page": 275,
       "source_pdf_page": 289,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.9",
@@ -5397,7 +5639,7 @@
       "source_page": 275,
       "source_pdf_page": 289,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.10",
@@ -5410,7 +5652,7 @@
       "source_page": 276,
       "source_pdf_page": 290,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.11",
@@ -5423,7 +5665,7 @@
       "source_page": 276,
       "source_pdf_page": 290,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.12",
@@ -5436,7 +5678,7 @@
       "source_page": 276,
       "source_pdf_page": 290,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.13",
@@ -5449,7 +5691,7 @@
       "source_page": 276,
       "source_pdf_page": 290,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.14",
@@ -5462,7 +5704,7 @@
       "source_page": 277,
       "source_pdf_page": 291,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.15",
@@ -5475,7 +5717,7 @@
       "source_page": 277,
       "source_pdf_page": 291,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.16",
@@ -5488,7 +5730,7 @@
       "source_page": 277,
       "source_pdf_page": 291,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.17",
@@ -5501,7 +5743,7 @@
       "source_page": 278,
       "source_pdf_page": 292,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.18",
@@ -5514,7 +5756,7 @@
       "source_page": 278,
       "source_pdf_page": 292,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.19",
@@ -5527,7 +5769,7 @@
       "source_page": 278,
       "source_pdf_page": 292,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.20",
@@ -5540,7 +5782,7 @@
       "source_page": 279,
       "source_pdf_page": 293,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=293",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.21",
@@ -5553,7 +5795,7 @@
       "source_page": 280,
       "source_pdf_page": 294,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.22",
@@ -5566,7 +5808,7 @@
       "source_page": 280,
       "source_pdf_page": 294,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.23",
@@ -5579,7 +5821,7 @@
       "source_page": 280,
       "source_pdf_page": 294,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.24",
@@ -5592,7 +5834,7 @@
       "source_page": 281,
       "source_pdf_page": 295,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.25",
@@ -5605,7 +5847,7 @@
       "source_page": 281,
       "source_pdf_page": 295,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.26",
@@ -5618,7 +5860,7 @@
       "source_page": 282,
       "source_pdf_page": 296,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.27",
@@ -5631,7 +5873,7 @@
       "source_page": 282,
       "source_pdf_page": 296,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.28",
@@ -5644,7 +5886,7 @@
       "source_page": 282,
       "source_pdf_page": 296,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.29",
@@ -5674,7 +5916,7 @@
       "source_page": 283,
       "source_pdf_page": 297,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.31",
@@ -5687,7 +5929,7 @@
       "source_page": 283,
       "source_pdf_page": 297,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.32",
@@ -5700,7 +5942,7 @@
       "source_page": 283,
       "source_pdf_page": 297,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.33",
@@ -5747,7 +5989,7 @@
       "source_page": 284,
       "source_pdf_page": 298,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=298",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.36",
@@ -5760,7 +6002,7 @@
       "source_page": 285,
       "source_pdf_page": 299,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.37",
@@ -5773,7 +6015,7 @@
       "source_page": 285,
       "source_pdf_page": 299,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.38",
@@ -5786,7 +6028,7 @@
       "source_page": 285,
       "source_pdf_page": 299,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.39",
@@ -5799,7 +6041,7 @@
       "source_page": 285,
       "source_pdf_page": 299,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.40",
@@ -5812,7 +6054,7 @@
       "source_page": 286,
       "source_pdf_page": 300,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.41",
@@ -5825,7 +6067,7 @@
       "source_page": 286,
       "source_pdf_page": 300,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.42",
@@ -5838,7 +6080,7 @@
       "source_page": 287,
       "source_pdf_page": 301,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.43",
@@ -5851,7 +6093,7 @@
       "source_page": 287,
       "source_pdf_page": 301,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:5.44",
@@ -5864,176 +6106,306 @@
       "source_page": 287,
       "source_pdf_page": 301,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:6.1",
       "id": "6.1",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.1",
+      "title": "Quadratic bounds for the logarithmic penalty",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 344,
       "source_pdf_page": 358,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.1.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8e18005e02a67420997ccf1efe48371a8fec988c57cc70be7b59a3e7e348ed52",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.2",
       "id": "6.2",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.2",
+      "title": "Best constant under three norms",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 344,
       "source_pdf_page": 358,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.2.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7b26c3f72c079b98b6b4ac78d00388ceabc5f325f3fc5ee61fdb87f33371c054",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.3",
       "id": "6.3",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.3",
+      "title": "Conic formulations of five approximation criteria",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 344,
       "source_pdf_page": 358,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.3.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5d6ee501f8bc9b5ef5aeddbc15da708c9b5ff34bd0d12c164621f50c3218cb71",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.4",
       "id": "6.4",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Smooth L1 approximation certificate",
+      "title": "A posteriori error bound for smooth one-norm fitting",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 345,
       "source_pdf_page": 359,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.4.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f9f61e180d63bb06b8f668db2e138b994475396553e44dafb7cfed02fba541c0",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.5",
       "id": "6.5",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.5",
+      "title": "Minimum prefix length is quasiconvex",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 345,
       "source_pdf_page": 359,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.5.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "21fb396bb41e0140210cf367b802fa1d57d59c17eb949ba9e898e636c414bafe",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.6",
       "id": "6.6",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.6",
+      "title": "Duals of four separable penalties",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 345,
       "source_pdf_page": 359,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.6.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4a8f22982c196f138bbb0c8555fc6aa82ac4ae18576b9aa5ba9606115378de47",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.7",
       "id": "6.7",
       "kind": "exercise",
       "chapter": 6,
-      "title": "SVD regularization trade-offs",
+      "title": "SVD solutions on norm trade-off curves",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 346,
       "source_pdf_page": 360,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.7.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5bae2fdabbdbfeb8c8a9852b4c77b74833a0e305a2b3288e45d3c5702ef5263a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.8",
       "id": "6.8",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.8",
+      "title": "Finite, interval, and polyhedral robust fitting",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 346,
       "source_pdf_page": 360,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.8.md",
+      "source_checked": true,
+      "subparts": [
+        "a:1,2,infinity",
+        "b:1,2,infinity",
+        "c:1,2,infinity"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8e01f3650fd9e97f3db4930eb042377a83133860c8de621a50a82be7327d19e2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.9",
       "id": "6.9",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.9",
+      "title": "Quasiconvex rational minimax fitting",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 347,
       "source_pdf_page": 361,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.9.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0c80e4d0eb49c94942b2935446805ae386c799277e3652b60663a5084f1bf215",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.10",
       "id": "6.10",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.10",
+      "title": "Shape-constrained quadratic regression",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 347,
       "source_pdf_page": 361,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.10.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "69db5e3d0b4c1f579226811fcd3f8fc009a65a605a8a54a973f1d42d5d8bb9c0",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.11",
       "id": "6.11",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.11",
+      "title": "Minimum-norm direction interpolation",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 347,
       "source_pdf_page": 361,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.11.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8b5b4b585b01a442c20f4614363efc08b1beeebae3ceaa022242a602b3e3f999",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.12",
       "id": "6.12",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.12",
+      "title": "Monotone and convex-monotone interpolation",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 347,
       "source_pdf_page": 361,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.12.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "97778191106581d86a3f6e95cce9dadefae16900ccec5dae8f366cab83d36ea2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.13",
       "id": "6.13",
       "kind": "exercise",
       "chapter": 6,
-      "title": "Exercise 6.13",
+      "title": "Quasiconvex interpolation by nested convex hulls",
       "category": "other_exercises",
-      "status": "pending",
+      "status": "verified",
       "source_page": 348,
       "source_pdf_page": 362,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362",
-      "status_note": "No solution is delivered in this repository yet."
+      "solution_path": "docs/solutions/6.13.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2f7e5e1359a4850e8c8af84f198bd5615cdd7bc77780de662a19a5f244258133",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch06_batch001.json"
     },
     {
       "key": "exercise:6.14",
@@ -6046,7 +6418,7 @@
       "source_page": 348,
       "source_pdf_page": 362,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.1",
@@ -6059,7 +6431,7 @@
       "source_page": 393,
       "source_pdf_page": 407,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.2",
@@ -6072,7 +6444,7 @@
       "source_page": 393,
       "source_pdf_page": 407,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.3",
@@ -6085,7 +6457,7 @@
       "source_page": 393,
       "source_pdf_page": 407,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.4",
@@ -6098,7 +6470,7 @@
       "source_page": 393,
       "source_pdf_page": 407,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.5",
@@ -6111,7 +6483,7 @@
       "source_page": 394,
       "source_pdf_page": 408,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.6",
@@ -6124,7 +6496,7 @@
       "source_page": 394,
       "source_pdf_page": 408,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.7",
@@ -6137,7 +6509,7 @@
       "source_page": 394,
       "source_pdf_page": 408,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.8",
@@ -6150,7 +6522,7 @@
       "source_page": 395,
       "source_pdf_page": 409,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.9",
@@ -6163,7 +6535,7 @@
       "source_page": 395,
       "source_pdf_page": 409,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.10",
@@ -6176,7 +6548,7 @@
       "source_page": 395,
       "source_pdf_page": 409,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.11",
@@ -6189,7 +6561,7 @@
       "source_page": 395,
       "source_pdf_page": 409,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.12",
@@ -6202,7 +6574,7 @@
       "source_page": 396,
       "source_pdf_page": 410,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:7.13",
@@ -6215,7 +6587,7 @@
       "source_page": 396,
       "source_pdf_page": 410,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.1",
@@ -6228,7 +6600,7 @@
       "source_page": 447,
       "source_pdf_page": 461,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.2",
@@ -6241,7 +6613,7 @@
       "source_page": 447,
       "source_pdf_page": 461,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.3",
@@ -6254,7 +6626,7 @@
       "source_page": 447,
       "source_pdf_page": 461,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.4",
@@ -6267,7 +6639,7 @@
       "source_page": 447,
       "source_pdf_page": 461,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.5",
@@ -6280,7 +6652,7 @@
       "source_page": 447,
       "source_pdf_page": 461,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.6",
@@ -6293,7 +6665,7 @@
       "source_page": 448,
       "source_pdf_page": 462,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.7",
@@ -6306,7 +6678,7 @@
       "source_page": 448,
       "source_pdf_page": 462,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.8",
@@ -6319,7 +6691,7 @@
       "source_page": 448,
       "source_pdf_page": 462,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.9",
@@ -6332,7 +6704,7 @@
       "source_page": 448,
       "source_pdf_page": 462,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.10",
@@ -6345,7 +6717,7 @@
       "source_page": 448,
       "source_pdf_page": 462,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.11",
@@ -6358,7 +6730,7 @@
       "source_page": 449,
       "source_pdf_page": 463,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.12",
@@ -6371,7 +6743,7 @@
       "source_page": 449,
       "source_pdf_page": 463,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.13",
@@ -6384,7 +6756,7 @@
       "source_page": 449,
       "source_pdf_page": 463,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.14",
@@ -6397,7 +6769,7 @@
       "source_page": 449,
       "source_pdf_page": 463,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.15",
@@ -6410,7 +6782,7 @@
       "source_page": 449,
       "source_pdf_page": 463,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.16",
@@ -6423,7 +6795,7 @@
       "source_page": 449,
       "source_pdf_page": 463,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.17",
@@ -6436,7 +6808,7 @@
       "source_page": 449,
       "source_pdf_page": 463,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.18",
@@ -6449,7 +6821,7 @@
       "source_page": 449,
       "source_pdf_page": 463,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.19",
@@ -6462,7 +6834,7 @@
       "source_page": 450,
       "source_pdf_page": 464,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.20",
@@ -6475,7 +6847,7 @@
       "source_page": 450,
       "source_pdf_page": 464,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.21",
@@ -6488,7 +6860,7 @@
       "source_page": 450,
       "source_pdf_page": 464,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.22",
@@ -6501,7 +6873,7 @@
       "source_page": 450,
       "source_pdf_page": 464,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.23",
@@ -6514,7 +6886,7 @@
       "source_page": 451,
       "source_pdf_page": 465,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.24",
@@ -6527,7 +6899,7 @@
       "source_page": 451,
       "source_pdf_page": 465,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.25",
@@ -6540,7 +6912,7 @@
       "source_page": 451,
       "source_pdf_page": 465,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.26",
@@ -6553,7 +6925,7 @@
       "source_page": 451,
       "source_pdf_page": 465,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.27",
@@ -6566,7 +6938,7 @@
       "source_page": 452,
       "source_pdf_page": 466,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.28",
@@ -6579,7 +6951,7 @@
       "source_page": 452,
       "source_pdf_page": 466,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.29",
@@ -6592,7 +6964,7 @@
       "source_page": 453,
       "source_pdf_page": 467,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:8.30",
@@ -6605,7 +6977,7 @@
       "source_page": 453,
       "source_pdf_page": 467,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.1",
@@ -6618,7 +6990,7 @@
       "source_page": 514,
       "source_pdf_page": 528,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.2",
@@ -6631,7 +7003,7 @@
       "source_page": 514,
       "source_pdf_page": 528,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.3",
@@ -6644,7 +7016,7 @@
       "source_page": 514,
       "source_pdf_page": 528,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.4",
@@ -6657,7 +7029,7 @@
       "source_page": 514,
       "source_pdf_page": 528,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.5",
@@ -6670,7 +7042,7 @@
       "source_page": 514,
       "source_pdf_page": 528,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.6",
@@ -6683,7 +7055,7 @@
       "source_page": 515,
       "source_pdf_page": 529,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.7",
@@ -6696,7 +7068,7 @@
       "source_page": 515,
       "source_pdf_page": 529,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.8",
@@ -6709,7 +7081,7 @@
       "source_page": 515,
       "source_pdf_page": 529,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.9",
@@ -6722,7 +7094,7 @@
       "source_page": 515,
       "source_pdf_page": 529,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.10",
@@ -6752,7 +7124,7 @@
       "source_page": 515,
       "source_pdf_page": 529,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.12",
@@ -6765,7 +7137,7 @@
       "source_page": 515,
       "source_pdf_page": 529,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.13",
@@ -6778,7 +7150,7 @@
       "source_page": 516,
       "source_pdf_page": 530,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.14",
@@ -6791,7 +7163,7 @@
       "source_page": 516,
       "source_pdf_page": 530,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.15",
@@ -6804,7 +7176,7 @@
       "source_page": 516,
       "source_pdf_page": 530,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.16",
@@ -6817,7 +7189,7 @@
       "source_page": 516,
       "source_pdf_page": 530,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.17",
@@ -6830,7 +7202,7 @@
       "source_page": 516,
       "source_pdf_page": 530,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.18",
@@ -6843,7 +7215,7 @@
       "source_page": 517,
       "source_pdf_page": 531,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.19",
@@ -6856,7 +7228,7 @@
       "source_page": 517,
       "source_pdf_page": 531,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.20",
@@ -6869,7 +7241,7 @@
       "source_page": 517,
       "source_pdf_page": 531,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.21",
@@ -6882,7 +7254,7 @@
       "source_page": 517,
       "source_pdf_page": 531,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.22",
@@ -6895,7 +7267,7 @@
       "source_page": 517,
       "source_pdf_page": 531,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.23",
@@ -6908,7 +7280,7 @@
       "source_page": 518,
       "source_pdf_page": 532,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.24",
@@ -6921,7 +7293,7 @@
       "source_page": 518,
       "source_pdf_page": 532,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.25",
@@ -6934,7 +7306,7 @@
       "source_page": 518,
       "source_pdf_page": 532,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.26",
@@ -6947,7 +7319,7 @@
       "source_page": 518,
       "source_pdf_page": 532,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.27",
@@ -6960,7 +7332,7 @@
       "source_page": 518,
       "source_pdf_page": 532,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.28",
@@ -6973,7 +7345,7 @@
       "source_page": 519,
       "source_pdf_page": 533,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.29",
@@ -6986,7 +7358,7 @@
       "source_page": 519,
       "source_pdf_page": 533,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:9.30",
@@ -7050,7 +7422,7 @@
       "source_page": 557,
       "source_pdf_page": 571,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.2",
@@ -7063,7 +7435,7 @@
       "source_page": 557,
       "source_pdf_page": 571,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.3",
@@ -7076,7 +7448,7 @@
       "source_page": 557,
       "source_pdf_page": 571,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.4",
@@ -7089,7 +7461,7 @@
       "source_page": 558,
       "source_pdf_page": 572,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.5",
@@ -7102,7 +7474,7 @@
       "source_page": 558,
       "source_pdf_page": 572,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.6",
@@ -7115,7 +7487,7 @@
       "source_page": 558,
       "source_pdf_page": 572,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.7",
@@ -7128,7 +7500,7 @@
       "source_page": 558,
       "source_pdf_page": 572,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.8",
@@ -7141,7 +7513,7 @@
       "source_page": 558,
       "source_pdf_page": 572,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.9",
@@ -7154,7 +7526,7 @@
       "source_page": 558,
       "source_pdf_page": 572,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.10",
@@ -7167,7 +7539,7 @@
       "source_page": 559,
       "source_pdf_page": 573,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.11",
@@ -7180,7 +7552,7 @@
       "source_page": 559,
       "source_pdf_page": 573,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.12",
@@ -7193,7 +7565,7 @@
       "source_page": 559,
       "source_pdf_page": 573,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.13",
@@ -7206,7 +7578,7 @@
       "source_page": 559,
       "source_pdf_page": 573,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:10.14",
@@ -7287,7 +7659,7 @@
       "source_page": 623,
       "source_pdf_page": 637,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.3",
@@ -7300,7 +7672,7 @@
       "source_page": 623,
       "source_pdf_page": 637,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.4",
@@ -7313,7 +7685,7 @@
       "source_page": 623,
       "source_pdf_page": 637,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.5",
@@ -7326,7 +7698,7 @@
       "source_page": 623,
       "source_pdf_page": 637,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.6",
@@ -7339,7 +7711,7 @@
       "source_page": 624,
       "source_pdf_page": 638,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.7",
@@ -7352,7 +7724,7 @@
       "source_page": 624,
       "source_pdf_page": 638,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.8",
@@ -7365,7 +7737,7 @@
       "source_page": 625,
       "source_pdf_page": 639,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.9",
@@ -7378,7 +7750,7 @@
       "source_page": 625,
       "source_pdf_page": 639,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.10",
@@ -7391,7 +7763,7 @@
       "source_page": 626,
       "source_pdf_page": 640,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.11",
@@ -7404,7 +7776,7 @@
       "source_page": 626,
       "source_pdf_page": 640,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.12",
@@ -7417,7 +7789,7 @@
       "source_page": 627,
       "source_pdf_page": 641,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.13",
@@ -7430,7 +7802,7 @@
       "source_page": 627,
       "source_pdf_page": 641,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.14",
@@ -7443,7 +7815,7 @@
       "source_page": 627,
       "source_pdf_page": 641,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.15",
@@ -7456,7 +7828,7 @@
       "source_page": 628,
       "source_pdf_page": 642,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.16",
@@ -7469,7 +7841,7 @@
       "source_page": 628,
       "source_pdf_page": 642,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.17",
@@ -7482,7 +7854,7 @@
       "source_page": 628,
       "source_pdf_page": 642,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.18",
@@ -7495,7 +7867,7 @@
       "source_page": 628,
       "source_pdf_page": 642,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.19",
@@ -7508,7 +7880,7 @@
       "source_page": 628,
       "source_pdf_page": 642,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.20",
@@ -7521,7 +7893,7 @@
       "source_page": 628,
       "source_pdf_page": 642,
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
-      "status_note": "No solution is delivered in this repository yet."
+      "status_note": "A complete, independently reviewed solution is not delivered yet."
     },
     {
       "key": "exercise:11.21",

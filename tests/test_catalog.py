@@ -16,7 +16,8 @@ def test_catalog_schema_coverage_statuses_and_evidence():
     summary = validate()
     assert summary["numbered_exercises"] == 337
     assert summary["computational_exercises_verified"] == 16
-    assert summary["other_exercises_pending"] == 321
+    assert summary["other_exercises_total"] == 321
+    assert summary["other_exercises_pending"] + summary["other_exercises_verified"] == 321
 
 
 def test_generated_category_pages_are_current():
@@ -43,7 +44,7 @@ def test_validation_rejects_misleading_catalog(mutation):
     elif mutation == "missing":
         catalog["entries"].pop()
     elif mutation == "unsubstantiated_solution":
-        pending = next(e for e in catalog["entries"] if e["category"] == "other_exercises")
+        pending = next(e for e in catalog["entries"] if e["category"] == "other_exercises" and e["status"] == "pending")
         pending["status"] = "verified"
     elif mutation == "unverified_computational":
         next(e for e in catalog["entries"] if e["category"] == "computational_exercises")["status"] = "implemented"

@@ -2,43 +2,43 @@
 
 [Book index](../README.md) · [1. Examples](../examples/README.md) · [2. Computational exercises](../computational-exercises/README.md) · [3. All other exercises](../other-exercises/README.md)
 
-**321 numbered exercises; 321 solutions pending.** This is the complete complement of the 16 delivered computational solutions within the book's 337 numbered exercises.
+**321 numbered exercises; 33 solutions verified, 288 still open.** This is the complete complement of the 16 delivered computational solutions within the book's 337 numbered exercises.
 
-Theoretical proofs, symbolic problems, modeling exercises, and additional numerical possibilities all belong here. Each entry links to its page in the official textbook. A catalog entry is not a solution, and no empty solution pages are provided.
+Theoretical proofs, symbolic problems, modeling exercises, and additional numerical possibilities all belong here. Verified entries link to complete original solutions and independent, source-checked review evidence. Category membership does not change when a solution is completed.
 
 ## Chapters
 
-| Chapter | Pending exercises | Numbered exercises in chapter |
-|---|---|---|
-| [Chapter 2: Convex sets](#chapter-2) | 39 | 39 |
-| [Chapter 3: Convex functions](#chapter-3) | 60 | 60 |
-| [Chapter 4: Convex optimization problems](#chapter-4) | 64 | 65 |
-| [Chapter 5: Duality](#chapter-5) | 41 | 44 |
-| [Chapter 6: Approximation and fitting](#chapter-6) | 14 | 14 |
-| [Chapter 7: Statistical estimation](#chapter-7) | 13 | 13 |
-| [Chapter 8: Geometric problems](#chapter-8) | 30 | 30 |
-| [Chapter 9: Unconstrained minimization](#chapter-9) | 28 | 32 |
-| [Chapter 10: Equality constrained minimization](#chapter-10) | 13 | 16 |
-| [Chapter 11: Interior-point methods](#chapter-11) | 19 | 24 |
+| Chapter | Verified | Open | Numbered exercises in chapter |
+|---|---|---|---|
+| [Chapter 2: Convex sets](#chapter-2) | 10 | 29 | 39 |
+| [Chapter 3: Convex functions](#chapter-3) | 0 | 60 | 60 |
+| [Chapter 4: Convex optimization problems](#chapter-4) | 10 | 54 | 65 |
+| [Chapter 5: Duality](#chapter-5) | 0 | 41 | 44 |
+| [Chapter 6: Approximation and fitting](#chapter-6) | 13 | 1 | 14 |
+| [Chapter 7: Statistical estimation](#chapter-7) | 0 | 13 | 13 |
+| [Chapter 8: Geometric problems](#chapter-8) | 0 | 30 | 30 |
+| [Chapter 9: Unconstrained minimization](#chapter-9) | 0 | 28 | 32 |
+| [Chapter 10: Equality constrained minimization](#chapter-10) | 0 | 13 | 16 |
+| [Chapter 11: Interior-point methods](#chapter-11) | 0 | 19 | 24 |
 
 Chapter 1 and the appendices contain no numbered end-of-chapter exercises. The separate supplementary exercise collection is not included in this book catalog.
 
 ## Chapter 2
 
-Convex sets · **39 pending**
+Convex sets · **10 verified, 29 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
-| 2.1 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.2 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.3 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.4 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.5 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.6 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.7 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.8 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.9 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | Pending |
-| 2.10 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | Pending |
+| 2.1 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.1.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.2 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.2.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.3 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.3.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.4 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.4.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.5 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.5.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.6 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.6.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.7 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.7.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.8 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.8.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.9 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.9.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
+| 2.10 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.10.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
 | 2.11 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | Pending |
 | 2.12 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | Pending |
 | 2.13 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | Pending |
@@ -71,7 +71,7 @@ Convex sets · **39 pending**
 
 ## Chapter 3
 
-Convex functions · **60 pending**
+Convex functions · **0 verified, 60 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -138,20 +138,20 @@ Convex functions · **60 pending**
 
 ## Chapter 4
 
-Convex optimization problems · **64 pending**
+Convex optimization problems · **10 verified, 54 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
-| 4.1 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | Pending |
-| 4.2 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | Pending |
-| 4.4 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | Pending |
-| 4.5 | [Printed p. 190 / PDF p. 204](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=204) | Pending |
-| 4.6 | [Printed p. 191 / PDF p. 205](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205) | Pending |
-| 4.7 | [Printed p. 191 / PDF p. 205](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205) | Pending |
-| 4.8 | [Printed p. 192 / PDF p. 206](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=206) | Pending |
-| 4.9 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | Pending |
-| 4.10 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | Pending |
-| 4.11 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | Pending |
+| 4.1 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | [Verified](../../docs/solutions/4.1.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.2 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | [Verified](../../docs/solutions/4.2.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.4 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | [Verified](../../docs/solutions/4.4.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.5 | [Printed p. 190 / PDF p. 204](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=204) | [Verified](../../docs/solutions/4.5.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.6 | [Printed p. 191 / PDF p. 205](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205) | [Verified](../../docs/solutions/4.6.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.7 | [Printed p. 191 / PDF p. 205](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205) | [Verified](../../docs/solutions/4.7.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.8 | [Printed p. 192 / PDF p. 206](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=206) | [Verified](../../docs/solutions/4.8.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.9 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.9.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.10 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.10.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.11 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.11.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
 | 4.12 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | Pending |
 | 4.13 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | Pending |
 | 4.14 | [Printed p. 194 / PDF p. 208](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208) | Pending |
@@ -209,7 +209,7 @@ Convex optimization problems · **64 pending**
 
 ## Chapter 5
 
-Duality · **41 pending**
+Duality · **0 verified, 41 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -257,28 +257,28 @@ Duality · **41 pending**
 
 ## Chapter 6
 
-Approximation and fitting · **14 pending**
+Approximation and fitting · **13 verified, 1 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
-| 6.1 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | Pending |
-| 6.2 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | Pending |
-| 6.3 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | Pending |
-| 6.4 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | Pending |
-| 6.5 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | Pending |
-| 6.6 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | Pending |
-| 6.7 | [Printed p. 346 / PDF p. 360](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360) | Pending |
-| 6.8 | [Printed p. 346 / PDF p. 360](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360) | Pending |
-| 6.9 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | Pending |
-| 6.10 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | Pending |
-| 6.11 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | Pending |
-| 6.12 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | Pending |
-| 6.13 | [Printed p. 348 / PDF p. 362](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362) | Pending |
+| 6.1 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | [Verified](../../docs/solutions/6.1.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.2 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | [Verified](../../docs/solutions/6.2.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.3 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | [Verified](../../docs/solutions/6.3.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.4 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | [Verified](../../docs/solutions/6.4.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.5 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | [Verified](../../docs/solutions/6.5.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.6 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | [Verified](../../docs/solutions/6.6.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.7 | [Printed p. 346 / PDF p. 360](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360) | [Verified](../../docs/solutions/6.7.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.8 | [Printed p. 346 / PDF p. 360](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360) | [Verified](../../docs/solutions/6.8.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.9 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | [Verified](../../docs/solutions/6.9.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.10 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | [Verified](../../docs/solutions/6.10.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.11 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | [Verified](../../docs/solutions/6.11.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.12 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | [Verified](../../docs/solutions/6.12.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.13 | [Printed p. 348 / PDF p. 362](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362) | [Verified](../../docs/solutions/6.13.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
 | 6.14 | [Printed p. 348 / PDF p. 362](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362) | Pending |
 
 ## Chapter 7
 
-Statistical estimation · **13 pending**
+Statistical estimation · **0 verified, 13 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -298,7 +298,7 @@ Statistical estimation · **13 pending**
 
 ## Chapter 8
 
-Geometric problems · **30 pending**
+Geometric problems · **0 verified, 30 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -335,7 +335,7 @@ Geometric problems · **30 pending**
 
 ## Chapter 9
 
-Unconstrained minimization · **28 pending**
+Unconstrained minimization · **0 verified, 28 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -370,7 +370,7 @@ Unconstrained minimization · **28 pending**
 
 ## Chapter 10
 
-Equality constrained minimization · **13 pending**
+Equality constrained minimization · **0 verified, 13 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -390,7 +390,7 @@ Equality constrained minimization · **13 pending**
 
 ## Chapter 11
 
-Interior-point methods · **19 pending**
+Interior-point methods · **0 verified, 19 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -416,4 +416,4 @@ Interior-point methods · **19 pending**
 
 ## Coverage
 
-The [category manifest](../../coverage/catalog.json) lists each numbered exercise exactly once. The [historical source audit](../../coverage/source_audit.json) supplies the original source-page checks; its former exclusions are not current scope exclusions.
+The [category manifest](../../coverage/catalog.json) lists each numbered exercise exactly once. The [work ledger](../../coverage/solution_progress.json) distinguishes active work, submitted solutions, accepted solutions, and exact blockers. The [historical source audit](../../coverage/source_audit.json) supplies source-page checks; its former exclusions are not current scope exclusions.

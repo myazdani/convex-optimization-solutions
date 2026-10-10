@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "6.1",
+      "reviewer": "duality_review",
+      "solution_sha256": "8e18005e02a67420997ccf1efe48371a8fec988c57cc70be7b59a3e7e348ed52",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked series bound, monotonic ratio, zero-vector extension, and executed -16*log(15/16)=1.0326163382011389. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.2",
+      "reviewer": "duality_review",
+      "solution_sha256": "7b26c3f72c079b98b6b4ac78d00388ceabc5f325f3fc5ee61fdb87f33371c054",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked mean by completing squares, full even/odd median interval via subgradients, midrange and repeated observations. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.3",
+      "reviewer": "duality_review",
+      "solution_sha256": "5d6ee501f8bc9b5ef5aeddbc15da708c9b5ff34bd0d12c164621f50c3218cb71",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "notes": "Checked all five original criteria, SOC product tree padding by t including t=0 and positive-domain recovery, Huber infimal convolution, reciprocal SOC and top-k threshold LP. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.4",
+      "reviewer": "duality_review",
+      "solution_sha256": "f9f61e180d63bb06b8f668db2e138b994475396553e44dafb7cfed02fba541c0",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked full-column-rank strict convexity/coercivity, stationarity-derived dual certificate, and exact a posteriori residual bound. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.5",
+      "reviewer": "duality_review",
+      "solution_sha256": "21fb396bb41e0140210cf367b802fa1d57d59c17eb949ba9e898e636c414bafe",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked integer-valued sublevel sets, zero-length convention, nested feasibility and infeasibility case. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.6",
+      "reviewer": "duality_review",
+      "solution_sha256": "4a8f22982c196f138bbb0c8555fc6aa82ac4ae18576b9aa5ba9606115378de47",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Independently differentiated all four conjugates, verified endpoint values/domains and Lagrangian signs, and checked regularity qualifications. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.7",
+      "reviewer": "duality_review",
+      "solution_sha256": "5bae2fdabbdbfeb8c8a9852b4c77b74833a0e305a2b3288e45d3c5702ef5263a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked SVD expansion, positive regularizer, both sphere secular equations, spectral endpoint hard cases, rank deficiency, and quadratic-difference global certificates. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.8",
+      "reviewer": "duality_review",
+      "solution_sha256": "8e01f3650fd9e97f3db4930eb042377a83133860c8de621a50a82be7327d19e2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a:1,2,infinity",
+        "b:1,2,infinity",
+        "c:1,2,infinity"
+      ],
+      "notes": "Checked all nine norm/uncertainty formulations, simultaneous independent row maximization, nonnegative monotonic epigraphs, and exact LP duals for bounded row polyhedra. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.9",
+      "reviewer": "duality_review",
+      "solution_sha256": "0c80e4d0eb49c94942b2935446805ae386c799277e3652b60663a5084f1bf215",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked rational sublevel cross-multiplication and full-interval positive denominator domain; negative error levels empty. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.10",
+      "reviewer": "duality_review",
+      "solution_sha256": "69db5e3d0b4c1f579226811fcd3f8fc009a65a605a8a54a973f1d42d5d8bb9c0",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked derivative sign equivalence on full-dimensional box, exact row-support formula, monotone minimum at lower corner, and Schur-complement SDP epigraph. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.11",
+      "reviewer": "duality_review",
+      "solution_sha256": "8b5b4b585b01a442c20f4614363efc08b1beeebae3ceaa022242a602b3e3f999",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked positive collinearity/minimum length equivalence, projection elimination, convex QP and feasibility/uniqueness statements. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.12",
+      "reviewer": "duality_review",
+      "solution_sha256": "97778191106581d86a3f6e95cce9dadefae16900ccec5dae8f366cab83d36ea2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked both necessity/sufficiency constructions, duplicate data, nonnegative full-domain subgradients, and max-affine interpolant. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    },
+    {
+      "id": "6.13",
+      "reviewer": "duality_review",
+      "solution_sha256": "2f7e5e1359a4850e8c8af84f198bd5615cdd7bc77780de662a19a5f244258133",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked strict quasiconvex sublevels, finite-hull separation and projection margin, nested-hull finite-valued construction, ties and single-level case. Directly checked PDF pages 358\u2013362. Source formatting tests passed; rendered GitHub preview remains a separate gate."
+    }
+  ]
+}

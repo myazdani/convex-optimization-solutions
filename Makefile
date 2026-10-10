@@ -23,9 +23,11 @@ check-results:
 	$(PYTHON) scripts/render_results.py --check
 
 catalog:
+	$(PYTHON) scripts/build_progress.py --refresh-submissions
 	$(PYTHON) scripts/build_catalog.py
 
 check-catalog:
+	$(PYTHON) scripts/build_progress.py --refresh-submissions
 	$(PYTHON) scripts/build_catalog.py --check
 	$(PYTHON) scripts/validate_catalog.py
 

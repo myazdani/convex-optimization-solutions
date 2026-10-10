@@ -2,18 +2,11 @@
 
 ## Three categories
 
-1. **[Examples](examples/README.md)**: numerical worked examples in the text with
-   supplied results or figures to reproduce: **2 verified, 60 pending** across 62 studies.
-   Start with [Example 7.4](examples/7.4.md) and [Example 8.3](examples/8.3.md).
-2. **[Computational exercises](computational-exercises/README.md)**: the 16 existing
-   numerical exercise solutions, including five numerical extensions, all verified.
-3. **[All other exercises](other-exercises/README.md)**: the other 321 numbered
-   exercises, including theoretical work, with chapter/source links and pending status.
+1. **[Examples](examples/README.md)**: **2 of 62** numerical worked-example studies reproduced and verified.
+2. **[Computational exercises](computational-exercises/README.md)**: the **16 already-delivered numerical solutions**, with original derivations, executable code, and actual result tables.
+3. **[All other exercises](other-exercises/README.md)**: **33 of 321** remaining numbered exercises have complete, independently verified solutions; **288 remain open**.
 
-All 337 numbered exercises appear exactly once in categories 2 and 3. The worked
-examples in category 1 are a different kind of book content and do not count toward
-those 337 exercises. The [canonical manifest](../coverage/catalog.json) records
-categories, status, source pages, and delivered files.
+All 337 numbered exercises appear exactly once in categories 2 and 3. Worked examples are separate and do not count toward those 337. The [canonical manifest](../coverage/catalog.json) records categories, status, sources, and delivered files. The [work ledger](../coverage/solution_progress.json) tracks completion and blockers across the full request.
 
 ## Existing solution links
 

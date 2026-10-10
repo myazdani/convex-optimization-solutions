@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "2.1",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "adaff6be4a3ea5872783caa48e3ddc357aa627579dcb6274d114d5b9c4730da1",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked induction including zero partial weight and endpoint cases."
+    },
+    {
+      "id": "2.2",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "f2ba3aa9086a2a451fd943cb0edf6557e7403030b2df5c6e8e2ffdfe61a3af9e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "convex",
+        "affine"
+      ],
+      "notes": "Checked both directions for convex and affine line intersections, including degenerate sets."
+    },
+    {
+      "id": "2.3",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "2f8cbae40c1edd97a3570c8bcaadcda10e04303039cd4f46ecf2a6c18ecbf607",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked dyadic midpoint induction, closure limit, and rational-set counterexample."
+    },
+    {
+      "id": "2.4",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "64bd17a89f50ab5653a4cd2465ba18520a2f912d58004a96fe4a5ad8f2b47df5",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked both hull inclusions, closure under finite combinations, and empty set convention."
+    },
+    {
+      "id": "2.5",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "54e92cf0f3f5a6f3577f021ec67ec1d071b15779c3e4898f4a4995764af2c990",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked Cauchy-Schwarz bound and attaining displacement; nonzero normal assumption explicit."
+    },
+    {
+      "id": "2.6",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "bcc59f9ad04dead85f330a34939742f4800f8d5fe2697720ef129342ae81b6a1",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "containment",
+        "equality"
+      ],
+      "notes": "Checked normal proportionality necessity, positive scalar, offset condition, and equality criterion."
+    },
+    {
+      "id": "2.7",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "1ea92c345df0f49d2f9024e96f0fbca2a82a81cbd9ac674d1b56bfba083013fb",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main",
+        "picture"
+      ],
+      "notes": "Checked squared-distance cancellation and inequality orientation; rendered SVG and visually verified the left halfspace and bisector."
+    },
+    {
+      "id": "2.8",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "58f04b567583925f737195302ff477f20220690616befa71a8741682048a01d7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked all four source subparts, explicit rank-two/one/zero H-representations, Euclidean nonpolyhedral proof and one-dimensional exception, infinity-norm box. Fixed stacked moment-row notation before approval."
+    },
+    {
+      "id": "2.9",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "3ee55cac32f3068c2ba46fb7c0353e8e4bc36c741ba82fd564889a46617eae06",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked halfspace coefficients, reflection construction and degenerate full-space case, interior/covering properties, and rigorous five-interval non-Voronoi counterexample."
+    },
+    {
+      "id": "2.10",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "64aa23157d08b6fbc2c8cc5fc466741cea58146d48c10505ff85f10c704ac9fb",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "converses"
+      ],
+      "notes": "Checked quadratic interpolation identity, PSD slice proof, and both nonempty converse counterexamples."
+    }
+  ]
+}

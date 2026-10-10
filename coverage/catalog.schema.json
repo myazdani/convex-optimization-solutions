@@ -30,7 +30,10 @@
         "computational_exercises_verified",
         "other_exercises_pending",
         "worked_examples_catalogued",
-        "worked_examples_reproduced"
+        "worked_examples_reproduced",
+        "numbered_exercises_verified",
+        "other_exercises_total",
+        "other_exercises_verified"
       ],
       "additionalProperties": {
         "type": "integer",

@@ -10,7 +10,7 @@ is the canonical organization of this repository:
 2. [Computational exercises](../docs/computational-exercises/README.md): the 16
    existing verified numerical exercise solutions, including five extensions.
 3. [All other exercises](../docs/other-exercises/README.md): the remaining 321
-   numbered exercises, including theoretical exercises; all are pending.
+   numbered exercises, including theoretical exercises, with independent review required for completion.
 
 The catalog contains all **337 numbered textbook exercises exactly once** across
 categories 2 and 3. This is complete numbered-exercise inventory coverage, not
@@ -31,6 +31,32 @@ The worked-example research inventory is supplemented by
 [`example_reproductions.json`](example_reproductions.json) when executed reproductions
 are delivered. This keeps research evidence and implementation evidence distinct.
 
+## Completion and independent review
+
+[`solution_progress.json`](solution_progress.json) tracks all 399 items in the
+request: the 18 prior verified deliverables and 381 newly requested items. A draft
+or a complete author submission stays open until a different reviewer checks the
+source, all subparts, assumptions, and correctness against the saved file hash.
+
+[`exercise_solutions.json`](exercise_solutions.json) is the accepted-proof overlay.
+The 321 exercises retain their category when completed. Proofs need original,
+complete arguments; they do not need fabricated numerical artifacts. When an
+exercise requires computation, the executed code/output must accompany its proof.
+
+Each new worked example is classified as `exact` or `method`. The user approved
+method reproductions on documented inputs when original textbook inputs are
+unavailable. These count as completed reproductions after execution and independent
+review, but must set `output_match_verified` to false and explicitly explain the
+data differences. Exact reproductions must verify the source's actual result.
+The catalog reports these totals separately.
+
+Review records under `reviews/` bind the exact solution bytes (and code/results
+bytes for examples) to the reviewer, source/subpart checks, and mathematical
+findings. The registration scripts reject self-review, changed files, missing
+subparts, and unsubstantiated completion. The
+[`preserved numerical baseline`](preserved_numerical_baseline.json) protects the
+115 original implementation, proof, output, and source files byte for byte.
+
 ## Build and validate
 
 ```sh
@@ -42,7 +68,7 @@ python -m pytest tests/test_catalog.py tests/test_docs_formatting.py -q
 
 The generator reads the source audit's complete numbered-exercise list, the
 historical computational inventory's delivered metadata, and the worked-example
-source/reproduction inventories. It writes the unified manifest and three catalog
+source/reproduction inventories, plus the verified exercise-solution overlay. It writes the unified manifest and three catalog
 pages. It does not solve exercises, run examples, or create solution stubs.
 Validation rejects numbering gaps, duplicate entries, category overlap, broken
 local links, unsubstantiated completion statuses, and stale generated indexes.

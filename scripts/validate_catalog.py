@@ -9,6 +9,8 @@ from urllib.parse import unquote, urlsplit
 import jsonschema
 
 from build_catalog import ROOT, generated_files
+from solution_evidence import validate_solution_evidence
+from example_evidence import validate_example_evidence
 
 
 def validate(catalog: dict | None = None) -> dict:
@@ -30,8 +32,9 @@ def validate(catalog: dict | None = None) -> dict:
     assert len(exercises) == len(source) == 337
     assert {e["id"] for e in exercises} == set(source), "Numbering gap or unexpected exercise"
     computed = [e for e in exercises if e["category"] == "computational_exercises"]
-    pending = [e for e in exercises if e["category"] == "other_exercises"]
-    assert len(computed) == 16 and len(pending) == 321
+    other = [e for e in exercises if e["category"] == "other_exercises"]
+    pending = [e for e in other if e["status"] != "verified"]
+    assert len(computed) == 16 and len(other) == 321
     assert all(e["status"] == "verified" for e in computed), "Computational completion is not verified"
     assert {e["id"] for e in computed} == {e["id"] for e in source.values() if e["selected_for_implementation"]}
     assert sum(e.get("textbook_role") == "explicit_computation" for e in computed) == 11
@@ -45,16 +48,21 @@ def validate(catalog: dict | None = None) -> dict:
     for e in pending:
         assert e["status"] == "pending"
         assert not any(k in e for k in ("solution_path", "results_path", "implementation_module")), "Pending exercise claims delivered files"
-        assert not (ROOT / "docs/solutions" / f"{e['id']}.md").exists(), "Unexpected pending solution stub"
+        # An unaccepted working draft does not change the public completion status.
+    for e in other:
+        if e["status"] == "verified":
+            validate_solution_evidence(e)
 
     for e in entries:
         if e["kind"] == "worked_example":
             assert e["category"] == "examples"
             assert e["key"] == f"example:{e['id']}"
             if e["status"] == "verified":
-                assert e.get("output_match_verified") is True, f"Unverified worked-example output: {e['key']}"
+                validate_example_evidence(e)
         if e["status"] == "verified":
-            assert "solution_path" in e and "results_path" in e, f"Missing evidence: {e['key']}"
+            assert "solution_path" in e, f"Missing solution: {e['key']}"
+            if e["category"] != "other_exercises":
+                assert "results_path" in e, f"Missing numerical evidence: {e['key']}"
             for key in ("solution_path", "results_path", "code_path", "verification_path"):
                 if key in e:
                     assert (ROOT / e[key]).is_file(), f"Missing file: {e[key]}"
@@ -63,6 +71,9 @@ def validate(catalog: dict | None = None) -> dict:
     assert catalog["summary"]["numbered_exercises"] == 337
     assert catalog["summary"]["computational_exercises_verified"] == len(computed)
     assert catalog["summary"]["other_exercises_pending"] == len(pending)
+    assert catalog["summary"]["other_exercises_total"] == len(other)
+    assert catalog["summary"]["other_exercises_verified"] == len(other) - len(pending)
+    assert catalog["summary"]["numbered_exercises_verified"] == len(computed) + len(other) - len(pending)
     examples = [e for e in entries if e["category"] == "examples"]
     assert catalog["summary"]["worked_examples_catalogued"] == len(examples)
     assert catalog["summary"]["worked_examples_reproduced"] == sum(e["status"] == "verified" for e in examples)
@@ -71,6 +82,8 @@ def validate(catalog: dict | None = None) -> dict:
         assert chapter["numbered_exercises"] == len(ch_entries)
         assert chapter["other_exercises"] == sum(e["category"] == "other_exercises" for e in ch_entries)
         assert chapter["computational_exercises"] == sum(e["category"] == "computational_exercises" for e in ch_entries)
+        assert chapter["other_exercises_verified"] == sum(e["category"] == "other_exercises" and e["status"] == "verified" for e in ch_entries)
+        assert chapter["other_exercises_pending"] == chapter["other_exercises"] - chapter["other_exercises_verified"]
     for relative, text in generated_files().items():
         assert (ROOT / relative).read_text() == text, f"Stale generated catalog: {relative}"
     check_local_links()

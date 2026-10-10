@@ -10,8 +10,9 @@ solution page.
   `docs/examples/`, standalone implementation under `examples/`, and executed
   artifacts under `artifacts/examples/`. Preserve its source identity and describe
   whether the book's exact inputs are available. Update `coverage/example_reproductions.json`
-  only with tested implementation evidence. Do not relabel a synthetic illustration
-  as an exact reproduction of unknown textbook data.
+  only with executed and independently reviewed evidence. The approved scope allows
+  method reproductions with documented new data when original inputs are missing;
+  label these `method`, never an exact match to an unknown textbook instance.
 - For a numbered theoretical exercise, give an original, complete proof or derivation
   with all hypotheses and subparts checked. Code and plots are required only when
   they support the requested mathematics; they do not replace a proof.
@@ -20,9 +21,8 @@ solution page.
 
 After adding verified work, update the relevant source/status records, regenerate
 with `python scripts/build_catalog.py`, and run `python scripts/validate_catalog.py`.
-The catalog's current 16/321 organization is a delivery snapshot; adding a solution
-requires deliberately updating its status and coverage checks rather than claiming
-that a new file automatically completes an entry.
+The 16/321 category organization remains stable when new solutions are added.
+Completion comes from the verified overlay, not file presence.
 
 ## Computational exercise contract
 
@@ -84,3 +84,31 @@ See [GitHub's math formatting guide](https://docs.github.com/en/get-started/writ
 Run `python -m pytest tests/test_docs_formatting.py -q`, then inspect the rendered
 GitHub Preview, including matrices, aligned equations, inline formulas, and
 tables. The source checks do not replace a rendering check.
+
+## Review and acceptance workflow
+
+Author submissions are staged under `coverage/submissions/chNN.json`. Each entry
+identifies its source, full subpart inventory, solution path and SHA-256, any
+required code/output, and assumptions checked. The source URL must agree with the
+canonical source audit. Do not submit sketches or partially solved exercises as
+complete.
+
+A different reviewer reads both the official source and the exact saved solution.
+The review record under `coverage/reviews/` includes the solution hash, the same
+subpart list, an acceptance decision, source/correctness/assumptions checks, and
+specific mathematical findings. Numerical-example review additionally binds the
+code/results hashes and checks the exact-versus-method classification, execution,
+feasibility or optimality certificates, numerical comparisons, and figure labels.
+
+```sh
+python scripts/register_solutions.py coverage/submissions/ch02.json coverage/reviews/ch02_batch001.json
+python scripts/build_progress.py
+python scripts/build_catalog.py
+python scripts/validate_catalog.py
+python -m pytest
+```
+
+Only independently accepted items are published as solutions. Drafts can exist in
+a working directory while their catalog entry remains open. The historical source
+inventory and 18 prior numerical deliverables must stay unchanged unless a genuine
+correction is separately documented and the affected experiments are rerun.

@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "4.1",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b50433cff97e58360674b4eca207c022c308479f55ec45d17beec46d49fc4ea7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "notes": "Checked original inequalities and all five optimal sets/values analytically; rendered and visually inspected feasible.svg, including exact vertices and unbounded-region caption. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.2",
+      "reviewer": "convexity_review",
+      "solution_sha256": "104b6b231e08c1341ac6aebd72e514032100913916a0a32456602587e763dcaa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked both recession equivalences, positive dual certificate, compactness in slack rather than decision space, stationarity, and the affine optimal set including null directions. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.4",
+      "reviewer": "convexity_review",
+      "solution_sha256": "e8f448db1a525ed94f6ee30da68b7e5df01f4664b815069edcd869d8445449c1",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked finite-group left multiplication, Jensen inequality, invariant feasible-set averaging, and the permutation fixed subspace; no unjustified orthogonality assumption. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.5",
+      "reviewer": "convexity_review",
+      "solution_sha256": "80bb579e9e78f7f7ed171af0761a7f3327df6b3ae2f314ceddb8430dd227fe9a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked scalar minimizations for both lifted Huber formulations, threshold/zero cases, maps in both directions, and residual-space attainment. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.6",
+      "reviewer": "convexity_review",
+      "solution_sha256": "2213984b7c805d3441aa5491ddc38389a7eb0715ea58f9f655831e25d1f7121a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked full-domain continuity, feasible small coordinate decrease and strict improvement; source distinguishes increasing from nondecreasing and solution explicitly identifies the necessary strict reading. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.7",
+      "reviewer": "convexity_review",
+      "solution_sha256": "849364361d7fb98ede46e3c2c85034c71d937a7cce2e423c80a13366934b55f7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked all perspective domains and inverse feasible maps, positive affine denominator without numerator sign restriction, use of nonnegative numerator for concave denominator, and determinant-root matrix specialization. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.8",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b0ae0e5d4a46a27a3765af69ce6b3e45edcc66c56f63239bef9588bbdf0111ce",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "notes": "Checked all six original LPs, infeasible/unbounded cases, ties/zero costs, both budget inequalities, integer and fractional capacities, weighted ratio ordering and optimizer/value formulas. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.9",
+      "reviewer": "convexity_review",
+      "solution_sha256": "9397182b89e2de2efded0bafec820599deb71a779a3fb24038638e17bca732a2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked bijective y=Ax change of variables, correct nonpositive coefficient criterion, zero-coefficient optimizer freedom, and explicit unbounded ray. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.10",
+      "reviewer": "convexity_review",
+      "solution_sha256": "d8b589cd26c2e9258fa5a86c3f22abe8d70e0a674b7b7ec2bb8af74b42a48a28",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked source page 147 transformation, all value-preserving lifts and inverse maps, objective constant, nonuniqueness, infeasibility/unboundedness, and optimizer/attainment equivalence. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    },
+    {
+      "id": "4.11",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b0dd56d4b8c30feea504fbe118fc2cf771c47e2907dfc8927a52d9670c82d5b6",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "notes": "Checked all five exact norm objectives and constraints against source, epigraph tightness, optimizer maps, and attainment/infeasibility qualifications. Source formatting tests passed (2 tests). GitHub remote Preview not part of this review."
+    }
+  ]
+}

@@ -4,12 +4,12 @@
 
 Numerical worked examples in the textbook narrative, where the book supplies a numerical result or plot to reproduce. These are separate from end-of-chapter exercises.
 
-**62 catalogued; 2 reproduced in this repository.** Verified entries link to original solution notes and executed output; every other entry is pending. A source's solution or figure alone is not evidence of a completed implementation here.
+**62 catalogued; 2 reproduced in this repository.** 2 exact-data and 0 method reproductions. Method reproductions use explicitly documented inputs when the original inputs are unavailable; they do not claim an exact figure match. Verified entries link to original solution notes and executed output; every other entry is pending. A source's solution or figure alone is not evidence of a completed implementation here.
 
 ## Available reproductions
 
-- [Binary hypothesis testing](7.4.md): original explanation and [executed output](../../artifacts/examples/7.4/results.json).
-- [Bounds on correlation coefficients](8.3.md): original explanation and [executed output](../../artifacts/examples/8.3/results.json).
+- [Binary hypothesis testing](7.4.md) (exact-data reproduction): original explanation and [executed output](../../artifacts/examples/7.4/results.json).
+- [Bounds on correlation coefficients](8.3.md) (exact-data reproduction): original explanation and [executed output](../../artifacts/examples/8.3/results.json).
 
 ## Inventory and reproducibility
 
@@ -88,7 +88,7 @@ The [worked-example source inventory](../../coverage/worked_examples.json) recor
 |---|---|---|---|
 | [figure 7.1; section 7.1.1](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=368) | Logistic maximum-likelihood regression | exact data available | Pending |
 | [example 7.2; figure 7.2; figure 7.3](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=376) | Maximum entropy and distribution bounds | self contained | Pending |
-| [example 7.4; figure 7.4](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=385) | Binary hypothesis testing | self contained | [Verified](7.4.md) · [Output](../../artifacts/examples/7.4/results.json) |
+| [example 7.4; figure 7.4](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=385) | Binary hypothesis testing | self contained | [Verified exact](7.4.md) · [Output](../../artifacts/examples/7.4/results.json) |
 | [figure 7.5; figure 7.6; figure 7.7; section 7.4.3](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=395) | Chebyshev bounds for symbol detection | exact data available | Pending |
 | [figure 7.8; section 7.4.3](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=396) | Chernoff and Monte Carlo detection bounds | exact data available | Pending |
 | [figure 7.9; figure 7.10; figure 7.11; figure 7.12; section 7.5.2](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=402) | D-, E- and A-optimal experiment design | exact data available | Pending |
@@ -107,7 +107,7 @@ The [worked-example source inventory](../../coverage/worked_examples.json) recor
 | Example / figure | Topic | Reproduction basis | Status |
 |---|---|---|---|
 | [example 8.1](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=411) | Projection of the origin on the unit-square boundary | self contained | Pending |
-| [example 8.3](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=422) | Bounds on correlation coefficients | self contained | [Verified](8.3.md) · [Output](../../artifacts/examples/8.3/results.json) |
+| [example 8.3](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=422) | Bounds on correlation coefficients | self contained | [Verified exact](8.3.md) · [Output](../../artifacts/examples/8.3/results.json) |
 | [figure 8.3; figure 8.4; section 8.4](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=426) | Minimum-volume enclosing and maximum-volume inscribed ellipsoids | exact data available | Pending |
 | [figure 8.5; figure 8.6; figure 8.7; section 8.5](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=431) | Three centers of a polyhedron | exact data available | Pending |
 | [figure 8.8; figure 8.9; section 8.6.1](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=437) | Linear and maximum-margin discrimination | official seeded generator | Pending |
