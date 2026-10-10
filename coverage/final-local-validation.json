@@ -2,7 +2,7 @@
   "schema_version": 1,
   "validated_at": "2026-10-10T06:58:26.490058+00:00",
   "status": "passed",
-  "publication_status": "Local final review only; this report does not assert GitHub publication.",
+  "publication_status": "Immutable GitHub content-candidate rendering checks passed; final main movement is verified externally.",
   "coverage": {
     "numbered_exercises": 337,
     "computational_exercises_verified": 16,
@@ -842,5 +842,12 @@
     "fenced_comparisons_changed": 64,
     "affected_pages": 40,
     "numerical_sources_and_outputs_changed": 0
+  },
+  "github_rendering": {
+    "content_candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+    "original_candidate_pages_checked": 286,
+    "corrected_pages_and_readme_rechecked": 41,
+    "unique_current_byte_pages_covered": 301,
+    "rendering_errors_remaining": 0
   }
 }

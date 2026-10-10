@@ -1,0 +1,2750 @@
+{
+  "schema_version": 1,
+  "repository": "myazdani/convex-optimization-solutions",
+  "branch": "main",
+  "previous_published_commit": "b82e16f5eac4543def3cc2f00831ab25c6d148de",
+  "content_candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+  "content_tree": "ee0a48f3f42bfa82f09fc82f85fbcd5a00501750",
+  "publication_note": "This record binds completed checks to immutable content candidates. The final metadata-only commit and main ref are verified externally, avoiding a self-referential commit hash.",
+  "summary": {
+    "numbered_exercises": 337,
+    "computational_exercises_verified": 16,
+    "numbered_exercises_verified": 337,
+    "other_exercises_total": 321,
+    "other_exercises_verified": 321,
+    "other_exercises_pending": 0,
+    "worked_examples_catalogued": 62,
+    "worked_examples_reproduced": 62,
+    "worked_examples_exact": 24,
+    "worked_examples_method": 38
+  },
+  "verified_items": 399,
+  "local_tests": 247,
+  "test_environment": {
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "original_candidate_pages_checked": 286,
+  "corrected_pages_and_readme_rechecked": 41,
+  "unique_current_byte_pages_covered": 301,
+  "rendering_errors_remaining": 0,
+  "mathematical_review": "321 new proofs and 60 new numerical studies independently accepted; 18 baseline items retained.",
+  "numerical_source_and_output_changes_in_render_correction": 0,
+  "baseline_markdown_only_exceptions": [
+    "docs/solutions/9.31.md",
+    "docs/solutions/10.16.md",
+    "docs/solutions/11.1.md"
+  ],
+  "regenerated_omitted_input_files": 21,
+  "full_monte_carlo_records": 6000,
+  "rendering": [
+    {
+      "path": "docs/examples/README.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "86fb43d21bc4010cf2998b8b5cd47789b203c16c7fa85e1d927bfae75530ac5f",
+      "math": 0,
+      "images": 0,
+      "tables": 8,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_11_1.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a67fa7762af3208632a269d4a32931532d6a2be95664d04758726b8e1012df27",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_11_3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "29945629d7723a8e25df4f10e9fa8c09088c37af60c6307ad6fdafd9f9e14c16",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_11_4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "46c08d3f3d0b0be67da531ccd257c82345f8fc3fef6dd5a897d81e2b4f2f7b06",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_4_1.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5424f7b1024f3f286e7af3edb6bef7be51b381edfca4bd56a86240e987d1c630",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_4_10.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "9f8369d13457bd053c2df746a4b6e4f2b9efb5365acd0a72c1416535d771efcd",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "92717357a201a3599b515e0facfcec76be2c6b74fa77e468024a24d1460ab523",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "57e07b5a4528b8aa4f51884456c6ba8eeb585fc0adbada02265030733fc299ad",
+      "math": 0,
+      "images": 1,
+      "tables": 3,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "708c14b484680e2203ba8b632ac4ad4af62a4703e46ca6fccdb1e2a46ff26d86",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c6ec19c50974dc55f0ff4712444f10675ad56ef3125f020280cf41101643aadb",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "baa90216df7701a1868584d1665a017cc617244b40629f13285d22db19950989",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "0f0d1c1dc2ec53ffb5bf62b9380b937f2832725dac4025e2fba26c6786223606",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "332096e7e8150983b6848be232fec3f261706818778e42bafd4eba311c63e3de",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_9.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6594b112d69e33609dd399d5b2d6f0a69b9b1410da7f0e1f3e9976df660dec23",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_7_2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1533331a889d834274c4312eeb791dbc9f765e056fbe5d584f821f353abfc528",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_8_1.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1ae600c61fac61ce47be73a7c010b768782f0b3cf0f581c589f7adab7d66f8c4",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_8_6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "24ceb90afa36b49c5ec67f246869feb77cc9f8d16a5da6125b14b5a0f7421e79",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_8_7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "56833594cfd8ff73b8082840b29b93da85bb479ebe319a1034e766519559712a",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_10_1.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "173ad9b9a994aa2f416eb2fe2a8c8d75e25367845f017a9404b7d7e582c5814a",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_10_3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1f0987af33096bd8182eb11d46be7332e62e4cf47e39d9f2fdcb541aee14afb5",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_10_5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c2185fa609564ea47f78d3f9cd82c50e1db8e4b7d8d48073addf611b04026014",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_10_6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "2bd0e3a3d79d333699480601f2125c977e83615ea1aa5295cc622c66d537ee04",
+      "math": 1,
+      "images": 3,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_10.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b5328178374d2d95e538982740b4ccfb78c341506b05b7985a43f1aa287dd695",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_15.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "bdd07935bd6b0b4922bbf6539f0c5af01d62c745b24d37ea8391f8883b3aac5d",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_17.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "10a853d00b5022b3f44961a287377f45e85c2115d027e09900a66d2f205c7b73",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_19.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "094f96a28baa57f96d5b485832ec2dc7d5ffd9eb29757b3edba16d21f1bc6fc2",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_20.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cc19473c9ca578d40888f8c0c2e04f1da27f0c746529a04bad84b13264d9f657",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_21.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "2e5c2974f5b56963e974eddda59dc265c6877c67eb9e98b5d2e77e6c6747f0dc",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_22.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d79003c55d9d91f2434a4243dda15425b339d0155a03b7b0011c99464f37a61e",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_23.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "30081adc7958e8abdfb249dd2b89f397e9b9ad68300ded8f966ee5ad1006b6c0",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "fa7cf92064d21eb4288747d1144061961d7dfde90691c976433ee7eb2def63f7",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b91c97c2cceb8adfd66794b036148a8a1ba21e7e9b7aba001dba7d1c32542dd6",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5ece874918d71b063113b781213e74155cd665bb9209a6b7ce2e00f4a31627a1",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e1d380cd4140dbfe2302972797f3c8617f8cb2dee6da72cf89bb467c51ef57f5",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_4_11.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1c5eccc754037cd245bdf29cfb0a11036805b56a1dd384ee17a0cea9f0dd4f3d",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_4_12.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "843793e38282ee60c9f8bbbbcf9240d12af9e6e76a99922d1a02e7ee9f621ac6",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_5_1_5_2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d946e68ad7b78330b9a3c26370632af5855570dad8f12d3da9f3bc689eda1e7c",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_11.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "f31554e1896a2a6d35a690fb7fb01e08c448a9fe0c4ede037c9dbdb8db9ed668",
+      "math": 0,
+      "images": 2,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cf8f8f12eb92dd590b34863feaddb0b67491118d7176d7fe279712e06e79495b",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_21.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "537f0987c5bdda592d864753d1f58da5634e865859e2bba49da0165ff5662439",
+      "math": 0,
+      "images": 3,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_24.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "65f962a8a5e006ddcbccb83e0b67084814a64f8dd137c03a6748975e69851b1e",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "2b47b91f91a4d9f16e945de32bf646671593cfb9c66024a2dd25c344b8c9670f",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_7_1.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1f965141d7a7b3aa81068076a9be64482c8e126cbb500649fb62e0d12b4652f9",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_7_5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b30db689b343703586ff7bb4ba812a7a798c7e7a621d84c5d17b66d2e92bdb53",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_7_8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b45f7456c485b774eb44f86cb018acc55c9f5addc2a7994266c8fdc3974f8ca8",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_7_9.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "aa67d6520d12cf9f4b72ed822da941bdd5cb3c9160793b2c3f1ab5063b0dd8be",
+      "math": 0,
+      "images": 2,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_10.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6b337227db8edf39222547f80a134225171cb1da97fac7225b5715f3272de3a1",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_13.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "29534a74c4f2bf610c4434cbb1d9149df54665325a0ad8c529bc26635e4580b2",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_14.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e459aa38bad5e6fa3d6d00b934ca2d4dee09bccfd697eb7ea42f568ee92c8942",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "97da607e88d9a8585db5a8f4efdf41174f7655bc2e615678af8b90fa52a54302",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a79d3a73a046d9e9f54cbea8300189d07b40eb9ca6de781b84e3794366d7d7ab",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a0367ef97001655c7dfc8583b5987b74fd635c885e4bcce882e97b0d1748b49c",
+      "math": 0,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_11.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "fa14d41b6867688e3d09ff062cdd192f313a44a7dbca988baf5f42c890d57696",
+      "math": 1,
+      "images": 3,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_19.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1974c9e27e5e1e9745c0a4a19713a9e1a1992538eabb23cdfa68628ddee2cf23",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "636182ce5703cc81f96ae455ed0426dc7f5ba944fa83f5139a1af688d2f571ca",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_21.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "3850e0983bfa778f80b99d7acab27b9348ebe8a2a8d5a7f28162de1ad27d4a28",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_23.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "3285225363d18efaa35f0b1f4f7431b265bd407c0bfcae86720bf2e0c8d006c0",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_25.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e48b03d7c67d750395b54147e543e789a738fe504585cfa6fac43c5d8385b0c3",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "38f991c66b76279f82721755f4ec42a94aa0da31a36e7021077524a108e83fe8",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "2455f9d1da8970240bc03f87d5771a3713c72ba569d7aba7c2cf9fc8d2de20e8",
+      "math": 1,
+      "images": 2,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "612f43def3198771cdb57c318a59b2af3528bea3486498d93f2c543fe0b2f609",
+      "math": 1,
+      "images": 1,
+      "tables": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.1.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "81f60f4280edeff53b1fe7cbb1c9fcfc40c319fd0885a3cac239a85b0887d062",
+      "math": 36,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.10.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a2b789a47e716a2f4adb88d2f82154e45f7a506a183ce91b2c552b81a9d38543",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.11.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "58c9b5bc4fb193f3def3f88b2fde2b314acadeffcb68cf67c2cf5bb07c044d3f",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.12.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "dde2edba5c91ffd51fc082f3e5681b6d235119891921fd5495b40f4088f2d06a",
+      "math": 45,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.13.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "278fcd89794f0e7fe5282ccc2d2c215cf54f33760ad1c9d5fc03d703a6e469ed",
+      "math": 40,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "644cb30b064c06608ac2f77905dbefd61b72ee9f4edcb1ef713c21b742bbdcdd",
+      "math": 26,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "ca9f350b387eddd18fa22d6f4b97c1c92643970ccb71a272bed5ff08a677b0d6",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "4f511fe7e6a9aeb7c3dceaf29a295fad341cc3c49914fbdcbae7a30e9cec0f34",
+      "math": 17,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7c61b4a5e1cd907dc467c178207009b74a96d279206b951df58a0ed300eeb4c0",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "508ccfe644fe4de1c0e1b4b8d3d88aa9f0c13d6c7486083aa893445cfc074031",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c9704001e88bb95816daa2fc5ea9330d5e727fba8d11ae934a9d6230b25ba1dd",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "880f29ec025a959a894684cc718402ac86871436349fe81c0b3940281082e53a",
+      "math": 6,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.9.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e00bb1fb9bce61d9b702665098cb2df84d69724ab13526927ffbdb91318b7300",
+      "math": 55,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.10.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a24b49ccb5a32c0e1c50589734fa659bb932cbad7808aaff856a5e2a6ec1a404",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.11.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "74d76cf94768f8b8e6441ebf53048edb86f774888f549a77e3469de45787c797",
+      "math": 70,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.12.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "4d93ca65e381771ac97dcebeab6de237a9c174662148480090a61e3b87caa8ca",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.13.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e6d2c91f47c48e128d879d4eff1a03ea4519064fb2a9dbb60bb1d4e0170458c5",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.14.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "4ecd398845bb9aac3e648a6b8c091f3d1b00d8aced3cfc2399c34a93b5b252c3",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.15.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "c463ebc4f7a749797b5279f5eb5830c53acae5394f1247ae7d7073887f79ae6b",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.16.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "11d8dc19612d0a5c3199cd721e98b9f8eac3d9f5eae7b46c489232a395cc4f83",
+      "math": 18,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.17.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "848c5be923e73e2c5b92b568e6a98fc441022ce792e4e4937d7e53c46f8cd264",
+      "math": 7,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.18.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a8a71fef3e4415a5364e187635352092fcbf2da477fdbd893de4dcdaecd19bf4",
+      "math": 21,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.19.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "9028dfae4c894cfc675bf9c1dbcbca6e0d399371569357ed19f7313ba992ef6a",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "0ffa67a133350db525c749ae62b2d8d54809c0ef5f4e11d43e4abc7eb7756270",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.20.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "4cf1e62d419920ae76eb67648e2f86bcb57c3faa808c2e0125ddb1b999831591",
+      "math": 41,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.3.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "299a75742caefc27246cc4f396462a4ff815a4baa50487c17dde772159ff3ef5",
+      "math": 18,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1870eadee5a577c36ad1f75ae64a32b840a15e1569b9d4efb811f801aa088416",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "51f960028e38cf7991b9c8c22bddd9ef9d36cf10e7bfae7c260e1d47962b718f",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "42ddb3e3e77040985b9192bb0b9f9248bde92bcc20fb4a39f9b39dfdfae497e9",
+      "math": 24,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d4c1274b39d9ba4dd8d1d63ef85970fe16b722bd54e0e0562522d1efeec0084b",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "0414ecc954b5966588d2910cdafa39c9c4592b5c88e2786cb3a1e68b23e1b9aa",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.9.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "876e33f188d765f21ce42813128a09581568c6cdcbb21064df76da272e374d3d",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.1.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1f6814b4827f2e0db29939010468b193488e15ef0c0dbe2b68856fe27b74043d",
+      "math": 21,
+      "images": 1,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.10.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "0cff8d9c5d55f0162c45dc0ce6a9f82bbc38611bac2e30d77414a710fd21de6a",
+      "math": 21,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.11.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "4fe857b46e0e1ad0dd01654df89c34be616eaea15e1c0af63f09005840a529e2",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.12.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "0f50076e8d34649ae8cbac649b52b041db7e5898de43558ad6c5208c7a39f74d",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.13.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d79e5704944e7945829e3d7e9dcf5f15ab253e3d19632573ecf988140b19af8b",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.14.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "8d0b9d4ba40f6522a8de590cb7d53303d73c16c03d94d7014ddbfd8403fde699",
+      "math": 26,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.15.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "573172ae245a6ffd70979235b59c095b1430900d5e1055c0f2e0e5d11442a30c",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.16.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "62cd461469ef6edcf1e44d4df6d06fcbd5f5ce64b0b2f5d76f1e9b811523b57f",
+      "math": 27,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.17.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1ede657b1c68b14c74241040b8930369bd2074c6a5333468a0de38beaafc113e",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.18.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "70f4011300e3b1f480440edce4f3cf1742645be9b54ffbebb1e171e2a1d976f8",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.19.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7cc6e6b02eea8cc578273f8dc3354750808a4acc1d2d69a67670e8f925dff3db",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "67c26c021d99f34ff429a7b9f84264c5e119636e91d826cce767ca8335cdde68",
+      "math": 4,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.20.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "557c0d720be5911243788aaaf51c4a7e35b885b7cfc861c80891edf843d2fb58",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.21.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "0f37429def32457c015367bcd846f23b31ddd82cd44ed64feea07150ee5cabac",
+      "math": 5,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.22.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6294de1d80c2c730b93f608975fa62b12bf43693751a81a0b99e98b887f42997",
+      "math": 33,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.23.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5882c9517e324240529de4c3a0f9a757b82ce5948ca78e8e7676f79dcd6feb5c",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.24.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "d7baee42e6f683ab62c8c45007adfa952a95598f3c689106a9d0250e3d8b5a7d",
+      "math": 34,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.25.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "b1ba821983ae94fdc07b51e84e9479c7b4880cbf1580dfe9919db5bc7903cff1",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.26.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "ea47c77fda68fd4917e1aa3672e5824c0a5288a865a8419155adaa886b6aa3d4",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.27.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "545adcd0af92afb583d305e9f5ce9b292c4e23f7927ead2e0e9ec94cdd41c91a",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.28.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "3675f3e8bcf3319218dfa69834d8b74b55269bde493c77f2a3c041ce0733c492",
+      "math": 43,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.29.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a6c1e24d8036d8d0e1e2c7a976b54e10195f15b1195e7e8a927d8f6d1837019f",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a9892d70c515b8e097f0116e644c044c62d53b2bdf506d7351db925d709f0492",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.30.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "68a62570a32410fd6dfb2b25f7b366232ae6647a6c621bbea5e9960e97d8d649",
+      "math": 27,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.31.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "277ecacb41ed9e635a5d5db6053f2a336153641cd3b2c9b304cc0714aa945162",
+      "math": 29,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.32.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "562cbe0ff61a1003d432b4f71eebffba3f8551eafce7ee38c124e47267580f2c",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.33.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c6595e19be449ee3eb7902fe571b5063c1cb2d28f5b172edfcf1dffe3f887c44",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.34.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "84b162ea9932c73f76b91bbe1caf72f67f7ce27db1e9b4741f17dfacf6594dc1",
+      "math": 51,
+      "images": 1,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.35.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b3f2dd8a5bbd03d0e79624e46fb9fcb50b13d9f06f732cd811a884a9ecc25b52",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.36.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "a9a9b2f14edd690b2db42d796f7fa881fac91dfaf36ea67d519798ac046265e3",
+      "math": 78,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.37.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "0c0cc0a46326b8619f992729f03fc96e7797923a90498282134113a6d333f3d9",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.38.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5e1cc115958b43b85147f67039f6c3782793c1b7e8937a374e9ac3cafda9b750",
+      "math": 40,
+      "images": 1,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.39.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d631f35ad090f807d778197417e01cfc0be40ed72aada45d318ffc405dcea05a",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "098bf65f8023abc510684ab5e8d1209d0427c996da3c89a7e3a729234bb71fd5",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.40.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "4fd3d6dfe8e062842186cc462f0bcc9f76d821f840cfdb2f9f667f84bb50c2e6",
+      "math": 18,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.41.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "8d039852c852d2b4ca5b5c07623977661cc9f9130aea54fa0a38303fb4db2563",
+      "math": 17,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.42.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a62e04cfcb941096e82ed61c54e9e740b80e66d6be156988cb037687cd08d72d",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.43.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c69f6530db857750f0652e7a05d83822e0f7d6b2141079afad364ca2d00db60e",
+      "math": 21,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.44.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6de3ebb39df28f2bc2b1aecfc5a626912fe1225ec67c73ff262b3d84c34d067f",
+      "math": 32,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.45.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "bdd1de019938b2132ba43474b4b61a1ea3418d4883d0d49c955e29b1642b8e23",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.46.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "40739f533ca836908ce74dcd4a2781b0e1d347493540cd44be1155472bb6a2b3",
+      "math": 30,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.47.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "498600496b2c1caf74c5783a63b06103bdee13ff25ead4a583a725935b114950",
+      "math": 7,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.48.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "8ec5ff58aaa76c3b636452810264686a5f51fdf0940611cac256c48e621bea82",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.49.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cfa6fbd5aab270bc0713ee94103516b326d4e52c1e1e8418807b1e392917c448",
+      "math": 21,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7ab92359507f3f98acd8e0c3c9986a76ad0b6275012b3d11f6cfa08e88a0ba13",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.50.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "abdf20c91d178d49d0995effb0f36f050743d1879a40747a3f8a9275c6f99f45",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.51.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "49694e433f53ec464202846abde93f14feaeca67dea007c6eb5427b3a689c916",
+      "math": 4,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.52.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "f8ab438c03ff88b4664735f2e96b696a5b0f531d44ee966dceb943d255dbf665",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.53.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b0169e887050d7220d4b5125a7990ef0274ef710279502a9ce56af8eb7e889bc",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.54.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6b11c2be3f5323d8903115d0e7667444f964f1045b021c07e7c2dd69bd811bb7",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.55.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "31d842989a5858c8391a2d51a31aec4852cb8e2503c085fc1b9e18b250b36e92",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.56.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "f5055fe52d7df3d2dbec4ba7c4d7cadaae5b84eab5fa709502a0c14f7593e353",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.57.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a78f78638c8113ef1d1cc2775cdb4fcb77b140cfeb2ec16b24ebdb6d4bd93ed0",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.58.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "02c0e72ac1302fab836231aa502c592e753c082f05ed696352a60b4fe30bc8f3",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.59.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c6d55e79dcbdfc8536334d1f134f15c761bf2863c206922e51343f27d8787436",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c554c555cbe626929705752279bf0547a54af3202402c6fba2968e84bb4694cf",
+      "math": 28,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.60.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "726034ebdbdbd58a50a192dd1091919e9c3df47b905dce1e66953ae0f2d8bf19",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cf6cd2bf76ba0bd4235cb6dd96896021ae3d2f18f8f0685888796ef3d2e89ec7",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "f34cd33f7e10940d103c9e544d06db4fbfc380ae253ec33669f9075e03ae13d4",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.9.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e0b33226817b0c77928b2748279360a1b2fb1b58b9e19564de65a6319014adcf",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.32.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "ff46085b43bb9d71bf74e1a059ebdfbf5481eff435c21fef7f5444579f40df55",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.33.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b81a91d3979e9762ca06ec59031cfc6959a1c955ef1b9deb2dfe5506bd7e5a34",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.34.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "8ddab9fdd47ae3099a7f9f28045f5b8826aec68d63827c12299352e281bebdfa",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.35.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "9f40062507cc9fd7b910b823a25a07a1b027ea5d8ce54f6875eec29550287258",
+      "math": 6,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.36.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "20c3bd6bd29ac5b08452c7e41875f8df72870620449779fa24ac97f039012773",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.37.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "3728322258d104a88b8b22cf3939ea90026d064fe35b6d005e09e7febc27bebf",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.38.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "6a5eb0bbe0532a40302fd353be9ab45c759e4cb2f60c4d27ac43c2714f1ff153",
+      "math": 30,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.39.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "df79d768a5c964ec24ca3d5946515232864b1e217e87245a58ec09f6a1765038",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.40.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7c7f2aca8238c1e4e8e0dfa0485ef9e3231548d219eebb7886aaa8a4853de6a3",
+      "math": 30,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.41.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "95ff998a8ebc8bf647d97a6fb04eee42bc18a166857c3df7aff6c78a7d625c4f",
+      "math": 21,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.42.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "0262c65fb2e23615909b7ffd7e773873f73688c18d6857f8ae956f0029bd67e9",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.43.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "4c96cb1083f21084a6f80b95a960fc8f924bfe66b0701d32a447c52e513996aa",
+      "math": 33,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.44.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6e0ff074a7bd26d96e3ba168a3c71d407d9c1295ec3bc508623765b08a4a18e2",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.45.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d0b016b559b2596afc02bd86a22c5ffd78e10626296c054e8ff00228909e627b",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.46.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "95e43a8d825cb69d9db3ee82e90f1bbc851c620dd2d8a86964268b1df59df7a3",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.47.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "82e68d411010e915435d9dbea8f1b5088491b83bb4380e5f4d056f6a2c6b6ce0",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.48.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b7f74e5a75916e7f957f54d0d5c286ab22ab5de80ecfa4afef0c671e6327c704",
+      "math": 33,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.49.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7ec31d322cebd6af802d77f593d2a92e38e3306db9f617689825481db75d2daa",
+      "math": 26,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.50.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cdc6eef1a20bcb45f3baab86b3b0724ca19d96130055d16cd8cb38a99e4678b7",
+      "math": 27,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.51.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "3411dd1d6a8d5a172e361b428760f988f6b877c6c196369a8749a5a0bfd59a88",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.52.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "ef33f62b105976523590ad70ad159d83c1a38c2bd3a08de089c24e7dae3e2dc5",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.53.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b673981b87479e9baaa1b1fd8677dc5e96c15704a6e893b32f8f6bdf0d29a80e",
+      "math": 36,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.54.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "54fdb9d2b8c97c7d71ccc4e86fa7e04cc23feb96772df856b4b3fd2ace4c562f",
+      "math": 21,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.55.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "56a450df3677b046b96d15be631cdbfac98024a16f26c7a7a5ed9a0081e5f47f",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.56.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b47fa29d47ff4896b0af9d0c07622ed3375f023771e4505c10ecb533ed1d1406",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.57.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "faffb32b58683cf9b2936964119596c6336304f8eb1d4c9fd9f90ee9110a139b",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.58.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "db45482c093329fd4c693d4ed5126d544701900eff3ce6f3392ff3a481b91cdd",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.59.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "090ba1916e3c485bcf699cdf3009f18e0fb40023fce60ca3b5ca239999980e5d",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.60.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "a07893470528438c1a8c884e90dd20cbcb1afd6b860058813ce4e010b5a27688",
+      "math": 6,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.61.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "49d04ba7dcbdc391c6a3b8a093ec780f37ed4f9a82a4c15ee63ec24873cd8f40",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.62.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "88cbe28bc439db0fbec3a409c90338492d15ae083b91ebe90a38b3a85a4bd9bf",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.63.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7f2b9e3aaee11a02e36f031e3f0fe84eea72bdfaf417951c65373be11dabbf4b",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.64.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "671cb90504708314a1ef2f51f30a5083be303c1ec59b07b5eacf0b4d2f3605b9",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.65.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "3c6775c6548529c699706b0fbd2a2142e3057211b4d5b70d4bfaad59a1ed0bf1",
+      "math": 43,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.1.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "f0b3139ba47caa0d7c5ee4ec201095efb90cdf55bcf5a576b6e3dcc743e43576",
+      "math": 34,
+      "images": 1,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.10.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "909ee3852119774eb4d024791c7858340ecd85e4ccfb2c77baec409cdf7ce5fa",
+      "math": 53,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.11.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "527e0b80afe38cc187165565ebc8d1c8ea74bf32727d496831675423ab28346e",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.12.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "822da4837ed96be8e22f6ef491588dd5cf7cc459faec579f79dd290867294da8",
+      "math": 17,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.13.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c099f40ef42206b86837718327bf3d151b59a53375890b9e5156682b02d2542e",
+      "math": 32,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.14.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "33e31ae745c89097388b0a96f00c9b141d0776937d6e9495cf9f64af1fe58692",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.15.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e9dea12c78373e6b3165b7318831827a24ece20c4de6363e725c56e10865f441",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.16.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "bdcbbaa7a7cdc166694a81762f263ed288b9216734c583faac15c152cce10270",
+      "math": 32,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.17.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5c53a7064f248b19d0146c228f62e4776a8649463eb892ece5584e27e0e22ff2",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.18.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "14247929f2d2f01a9e158ea6c6e9a81346178688396b0f4b987b408345fe28a5",
+      "math": 36,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.19.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "0e70e6a3727b7cdee5e1d2cafd40d7649c3d07eeecf5dfee047503fefea503ad",
+      "math": 27,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5df9550a01f813e1910f80748ebd909c4b1d095ead7f74051fb92ab33396e679",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.20.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "ccc6f9ae3fab1185c3fcce7727d25c13a4ed448fabfb48faf851d01fcbcbfa0b",
+      "math": 34,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.21.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "656fd15592fd28b243f553e70be3be21b019358759489d8cf0055adb4f1a506d",
+      "math": 30,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.22.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "e468bc714b3479c8fdc47277736f6b2faa96f8576cfe27075c70bd7265a9e7ee",
+      "math": 57,
+      "images": 1,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.23.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "43e501aa7f6238751b4c3af559ac44d0da122cd7a8b314bacd80f8ae4327b156",
+      "math": 28,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.24.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "8af905c0b62c7583b1a6163c0fe161c7f8f9ac0555423f726d2d605a08c6b4a5",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.25.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "d9e6a2e68864b936acb47177ce8bbcef640325e39d5e4e98dbbf93aa7b3073e9",
+      "math": 51,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.26.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5a9afb82c6ab56bbcc0280846e334e96632f7a5ecb22afe52cd229b48144f3da",
+      "math": 22,
+      "images": 1,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.27.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "dcf20f485a9a77a2c27d47b7feff79879cbea9fb17d9c8ce7dbfa265d88059c4",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.28.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "acbb8eb72872118a2e746b353de7ba3b918cbc0a3aca8768509a2a2010dd4ebd",
+      "math": 17,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "11fb881c866a59bdd75f9d63989ef35bb9c1dfcefe02f06fd9163b7c3b6b6282",
+      "math": 18,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.30.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1528f9276668c47ab69bb0e2ae8b46b686274b9d0eab83443a012243471a690c",
+      "math": 24,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.31.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5b8c7e29b23f4e2d58681c9591423ea33728ab0930ffeb0a94a60dfb05f9fee4",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.32.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "2072cec9c07925dbcc18bbc780fb48fec8494a40146e73646174b163076cf4ed",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.35.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "09f3e4eb188dca312a6d72a449f51be8d90a6ba450cc29709cec916cb787dcc9",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.36.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "02e338766e021174fa0988d103d8659aef58c917440d3004a83ba5fe8276dda9",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.37.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "f4b03fb55a540d9182413ff070961aecf2825f459cdff70e756b567d62b31f22",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.38.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "bb5b28199bc16412fe2969037c3da5316dcf74f1ef9bb611b1ff2d230785676e",
+      "math": 21,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.39.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "26adcf6ca166243888bc1ce54b742ba08ba79b92d0df7505e402dd07bfdd6b9d",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e35e9a0a08c87edf965d42bd1132e6ba492d4b5406cf4c8c8e24cd3f72e411a7",
+      "math": 39,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.40.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "79676dc8dc9c5bb545435d80974fb37dde6ca7ec6f39454c8fcd77a6ff10e075",
+      "math": 35,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.41.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "96863189d40391fe06e6917e69fd1b77ecb3dc85dd1bbe12b20b778c2433b684",
+      "math": 35,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.42.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b4a136d2feb5d5ace36a2f4c8dcbb38d7e130b63f9d8db63f6fd8f2583527f04",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.43.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d4b1134777f38bc17c35873dba817b59598b76d9295d5e20a07d0e26c7007afe",
+      "math": 32,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.44.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "31211140de98fbd1ff23db1cfba567c749fff1e1db089b39abaf8c1e3777a942",
+      "math": 45,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "8c81341f4cd795d290ff6c5d8e0a7c683416a749ce86648b759a4f0c70a59eff",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.6.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "d8b44432d7e97a214821cd9a5ac1c9732a3f845e2bab5400475ee756d1e1a0d5",
+      "math": 17,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "bd89cf10f86e39a994277d79cebd98acc3bcc28fc2cb625d9d694949d1e8f057",
+      "math": 35,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1eaa23a9e4797a11a4184476392d57ac3b061b6940fed445c5d019fa93675c2e",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/5.9.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "eb12a0de2c132948ac91f5acbe522dc64dbfeb7a3f5c157e1795995879602692",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.1.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "f2b27e3ce52745b9f5314644a0657c5e6e0753983b4978e148f7a1e2022ab870",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.10.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6acdd62446c60fa0a54470d9c002f16dab40a5f488902b9bed87fca736e8313e",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.11.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6240c4e8b82da76e0a7ec70427f5ad7bfd20966e1a955c8dacb9c7a0ebadf663",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.12.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "0a14a7366c02e74338194e777050db8cfdff60879084278fcc0b08b79d2ca55c",
+      "math": 31,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.13.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1f91eee07f81244e9d43d81948dadb2fbd7b3e18f719c3ff9817838cd45be8ab",
+      "math": 26,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.14.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "4b5158643f9716021499ec89ff8750f2395c26b84a5e769014627bc77180c0d8",
+      "math": 29,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.15.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "203217895051d5b72c44fa488c66ef051269de4bb3e1f6a0ac151f2eedc63d20",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.16.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "04c5b7b7b1a199c51053c03833dc34bbba13a74125936b3340ec959973be89ec",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.17.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "174f796ba3f897f08ce2e01965795b646f7488f454faae1ffdb35399de5d3ef3",
+      "math": 10,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.18.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "bf459a53611c45c6c6acf1f73f78fbeae22c7363a38315ca07a98e8edc95f958",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.19.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e147e29687ef6a3532f54763e8fcc8d5fe2ef70231ecc5b7840c72eb6b68a706",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "127e1c1474e30ae82e8dbefd77cd47da9112593aecae6ea90646cd1a86ac28d2",
+      "math": 66,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.20.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7c694e3fe55a987a1b2403444c56699d16b0e5b2f54516d6769a015adeaf4ef4",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.21.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "2c96626f7d88001427feb5f3f97e073f14ff7f5a48a3a9327c08b5156161f8f2",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.22.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "fb4740c58899b18be839a268d60a695096d6f9164d67ea1fd788d446595eb765",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.23.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "55d4ec3b595f80d4df2ff9810fc89d59c844ff85d60c0025b7e0e18a97576eb2",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.24.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "26697f1cb67e1909b9c06023e855b93967fb7e73004247c7e9ec7cd0b15d00ea",
+      "math": 7,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.25.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c276cb8cd124b1f49e015cb80478238ca3252af827168044751a3056fa85a6e3",
+      "math": 21,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.26.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "fb412dd0a8e9e6d1286ff90ed40e708f77c27393f21a5cc653691ac6a6b79e99",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.27.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "da68352f386e76e320159c1d03e38b104ff9e3599358bb748b034a5b6c676d7b",
+      "math": 4,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.28.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cadd7600565a75cd848bb88583509161f8ba90b9b815ffaaaf5c354f5f5ec279",
+      "math": 31,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.29.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "c1fa307865b3c03794eb3df062e7d66f65125debca0f24bd6850efddb81d3c47",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.3.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "25b89cdd053524081979a7e0b11a883cabbba126eca3c25a1a0fe53ee13ffb53",
+      "math": 30,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.30.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "806756d2dc7fdb61d2232371ebc7076671c03d1b34a787582f4cb3b060a0a505",
+      "math": 36,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cf5b297a45556d553c0bf891541510366b67411e17c0a0590c74d443b7591118",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.5.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "839c83b77bbef805614beb0d9ddba839cf4bd328ff859ced423ca7ceede2bfdc",
+      "math": 29,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "fba8d4005b3076e1555e79b1440a6e2862abb2c48f4c7262c6f9f488fd104dea",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "51523064b2e039a5165c172855223fa320d7a65984b944a30a0da48a7cb4f01f",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "f27756f70fd34b7ffa82e6375fef7d5bfffc1a0845ad41776a3c3b52aae0ba06",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/8.9.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "400cb64a9373dd285ed09cb515e049bd153f95cb152793bc4f15ddcf3f1f2041",
+      "math": 18,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.1.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7afb6549c2e2d36293cec32b87131dd46b653f77782a1a907a644f800abcd082",
+      "math": 17,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.11.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "1278fff28390bc116a7fe0c099721dffc77fcd28ef76988c630942a0bccb556c",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.12.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "8ee58214f4b1395c725e3bf24fe2e81c5b1339337d18b63ce4b6c12a6714b2f6",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.13.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7f9a92f75c1c10e7a100eac328c2e93eb72151c7f040e986d394f59aeed5c6ad",
+      "math": 11,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.14.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "7c5d0e7a44633c9df74017379b3d106b668103b66b4e7169bcde571e35d96438",
+      "math": 9,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.15.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "68403466fb1c654769a6a8d6b9536202286ad52192cdee93e80469f1903ea3e8",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.16.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "fab38e675bae8e0b9a523b996f5a9052f81a2af396f56472180f7012cf2c7696",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.17.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "589acfd9908f2e1c56989bcffde6bd68edb87b178cbbd2bea3e467511cbc6abd",
+      "math": 39,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.18.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cb04349d3de665be6323a276d08fdd14dab6322ed45691b2b0e76a1b5105188c",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.19.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "3d5fb616cfaffd0d65739e5c2effb68037deef0e40c4313e15c5e85440ca6170",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.2.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "5bcb6f456105414921f025cbd550465311a83efc3b30d25a22beadd99bbc4a83",
+      "math": 26,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.20.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "bc3c3decca60aed4802b1463c6db40684dd5d5ee026f4a31fbfb0975dbe52093",
+      "math": 18,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.21.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "dcc37cccb17b7cb7273feb0e4b42ea180a6ab054da7dade8185339cca0b25d33",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.22.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "782b9050e54751863e51f043f089fd8391e08703df384da00ca69cb47a0c49ba",
+      "math": 13,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.23.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d7f36e37c2b01975e290612f7bc9223bf1a3f8c6f1e2bce78fddca167bf7734e",
+      "math": 34,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.24.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "f8cf0515313815de71971db47afa651e58be597f27d7a0528c701371da3722ab",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.25.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "b84c790928019600598ab1c642807ba15b30014c89091f7443459e97aa165cbf",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.26.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "9cc874056db5a07b4120e6a9fae42d57d70dcb98a43d2af23ef5720f42e7b95c",
+      "math": 24,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.27.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "6db03808a0eefe4edda84ac9b19227b34c82d20ccc0a92d7c4a8e291bc71f708",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.28.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cc104c675a5ea04da320d2d13018119cc08500eb3259f9492e56c049b1a72d3a",
+      "math": 22,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.29.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "ebcb554f4b8bf0ce333f7e9ba2d3ac46ffce8a9a2a8e4e6bcaa7e5457cb1b14e",
+      "math": 19,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.3.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "323218de2d9c8b1d5f549e6e38f9bdebad7aefcc21f79d54a4e799d60c74d60e",
+      "math": 26,
+      "images": 1,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.4.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "d3921da9ad134228b2126f0bd230bf88e10b21866533f66fbe52f3e7ded6a99f",
+      "math": 15,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.5.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "00f655ac601bdc3580d7c50de4fac42200aa3a15dd7f8447164c9b10904a3175",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.6.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "da77db71884561d927fc5862202c6b2c4b0b7c507130413bef5401ffd4db93b3",
+      "math": 16,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.7.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "0dd8dae8742b075b34f98e264c8a22d709c15f6320539317d11d9796f1df5b3b",
+      "math": 14,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.8.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "e806b21cf615685c43666e542688a8b4ae12f83221d1f2138c527629b52326ec",
+      "math": 7,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.9.md",
+      "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "source_sha256": "cc994af4d9aeb8b3cb19da6f25817017528afd3e5fb104bb3abaecebe1846fc9",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.16.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "f5c44f8c23a64e8cb2df5362b0cea1ad99c7b87b95924f6df3886643e7fbe577",
+      "math": 31,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.1.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "2dd5694d71076bf4be57afbe17da7ce2f532f133e887c053e3b694478de905df",
+      "math": 22,
+      "images": 1,
+      "tables": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/2.15.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "5b413ad0cacc98e16f7650f02beac0de988277d96f765831cd227cc2ead38a91",
+      "math": 20,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/2.17.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "d36485ad354417ce2a5a4489634173a5733038cd3183a72d8d47d7447d758e54",
+      "math": 34,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/2.24.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "de38a4419937dadcbde0350fef363024dff1271d026c034e18d67334388e14b7",
+      "math": 17,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/2.38.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "6b641cf52c6c482b755620a46bc6035dc1780eb9652b76331b637234f2931990",
+      "math": 43,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.2.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "7a50accc7372a185e8637371144db4609469def5f0c29c041c472e79123b2f31",
+      "math": 34,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.22.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "0be611703c5a9a3cb1b890191bc82dc027e2c1c0401d90c5be1536122a79693b",
+      "math": 23,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.6.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "1698a3e9bc23d510b463e46d4e3407e1d176891a1d130d626c2a9ea9f0612867",
+      "math": 17,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/4.8.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "f15a4378290a735c851c385db715204fec08c72f48de803f2178ed991081f511",
+      "math": 54,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/6.2.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "71b4bcd2c65fcafcd21acb70c9f589e7abdd4ac35b01668a659fa999c0fe5369",
+      "math": 8,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/6.6.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "64bf8ae32d6149feb0031c250dc4f10b55091c27c6e51e7a8cdd5f280734c290",
+      "math": 41,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/7.3.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "888411ae102ed91e000b2b7a271784b67e455ba713dc108c20a1fb6a8640eb38",
+      "math": 12,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/9.31.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "f57d889bdd327628e5c94fcbc54721bc0d63e62f4e7afbdd94083bd53d95d9c9",
+      "math": 20,
+      "images": 1,
+      "tables": 3,
+      "passed": true
+    },
+    {
+      "path": "README.md",
+      "candidate": "ae2c7f0ca26892d0cb97b3c95820ac8b80f58e52",
+      "source_sha256": "a50549f460e839aad74b8a71d5be6b78c71d09fc232f332dc8d2b4c548b907ec",
+      "math": 0,
+      "images": 0,
+      "tables": 0,
+      "passed": true
+    }
+  ]
+}

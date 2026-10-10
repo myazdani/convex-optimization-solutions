@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "created_at": "2026-10-10T06:58:26.887722+00:00",
+  "created_at": "2026-10-10T07:03:41.945647+00:00",
   "algorithm": "sha256",
   "excluded_from_hash_inventory": [
     "coverage/final-file-manifest.json"
   ],
   "canonical_packaging_contract": "coverage/algorithm-canonical-delivery.json",
   "note": "This manifest hashes every other deliverable file in the compact frozen snapshot. Archive and manifest checksums are recorded outside the archive to avoid self-reference.",
-  "file_count": 963,
-  "total_uncompressed_bytes": 44621739,
+  "file_count": 965,
+  "total_uncompressed_bytes": 44738082,
   "files": [
     {
       "path": ".gitignore",
@@ -1707,8 +1707,8 @@
     },
     {
       "path": "coverage/final-local-validation.json",
-      "bytes": 20780,
-      "sha256": "a7fce759929b1a0940a950a1b12d62b9d6d59f591350dbef6cf54c3e6bf3523b"
+      "bytes": 21084,
+      "sha256": "9adf7ebbdac40292da9468e2ce15d9183da830d9339831c48522a5c620ee6e2e"
     },
     {
       "path": "coverage/formatting-tests.log",
@@ -1776,6 +1776,11 @@
       "sha256": "d97b7728b77b79f18f43d3ada4212489cfdb499a1d8b05bf8353e0ac96338c7f"
     },
     {
+      "path": "coverage/publications/batch003.json",
+      "bytes": 87177,
+      "sha256": "0b669e7b9b3d284d073b42b67afe42c90297d7751927c31aeb2c21e98a9b12bf"
+    },
+    {
       "path": "coverage/rendering/candidate_4ac945c_first.json",
       "bytes": 92461,
       "sha256": "241a7013923a59bf465dc3a1df52301f7d70962a0ee1067ed7201d5e3014a789"
@@ -1789,6 +1794,11 @@
       "path": "coverage/rendering/candidate_4ac945c_middle.json",
       "bytes": 56839,
       "sha256": "c42ed20179e9388eac5a773f9c51f20027b44c64b9c19bbab0d1d9d83ea7fff2"
+    },
+    {
+      "path": "coverage/rendering/candidate_ae2c7f0_corrected.json",
+      "bytes": 28862,
+      "sha256": "7f661512d326db2e966617ed19df0633c012620ea4b5400e578e9f783ac95de3"
     },
     {
       "path": "coverage/reproduction.log",
