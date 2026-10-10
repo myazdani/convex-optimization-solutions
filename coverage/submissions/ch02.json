@@ -220,7 +220,7 @@
         "i"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "7321e09f5e02eb306272e81769006beda7c60b8c64b8576aa650ee7e8da414cb",
+      "solution_sha256": "5b413ad0cacc98e16f7650f02beac0de988277d96f765831cd227cc2ead38a91",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -249,7 +249,7 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "ed4941c9750aca1a156320b550d9e8c3c4abb001df4641cdf9ab0f3fac67e268",
+      "solution_sha256": "d36485ad354417ce2a5a4489634173a5733038cd3183a72d8d47d7447d758e54",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -347,7 +347,7 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "0aabbbd6531e29d2dd56c623a013c6244454ae1102dacd43252f1c228352980e",
+      "solution_sha256": "de38a4419937dadcbde0350fef363024dff1271d026c034e18d67334388e14b7",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -562,7 +562,7 @@
         "c"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "414260c8304cb2bbea64189142b68615c3d5fd87b0ddb2e61ce326449a360afa",
+      "solution_sha256": "6b641cf52c6c482b755620a46bc6035dc1780eb9652b76331b637234f2931990",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {

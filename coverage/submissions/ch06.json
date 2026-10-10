@@ -25,7 +25,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "7b26c3f72c079b98b6b4ac78d00388ceabc5f325f3fc5ee61fdb87f33371c054",
+      "solution_sha256": "71b4bcd2c65fcafcd21acb70c9f589e7abdd4ac35b01668a659fa999c0fe5369",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
     },
     {
@@ -85,7 +85,7 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "4a8f22982c196f138bbb0c8555fc6aa82ac4ae18576b9aa5ba9606115378de47",
+      "solution_sha256": "64bf8ae32d6149feb0031c250dc4f10b55091c27c6e51e7a8cdd5f280734c290",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
     },
     {

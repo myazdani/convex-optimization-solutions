@@ -140,7 +140,7 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "c8ffd7e7231b5b29206fe33511fc59d1629e93e1a4f0b5d6d7e359417e700f06",
+      "solution_sha256": "0cff8d9c5d55f0162c45dc0ce6a9f82bbc38611bac2e30d77414a710fd21de6a",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -167,7 +167,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "1fd283095165c9658ee534e06ab3143b1aee9c45085b2a94b063064956da76b4",
+      "solution_sha256": "0f50076e8d34649ae8cbac649b52b041db7e5898de43558ad6c5208c7a39f74d",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -349,7 +349,7 @@
         "h"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "276c4ea14e26b171aaafb50ad1d60a7388bc2edaf32b0dc383c1df819fb0e445",
+      "solution_sha256": "d7baee42e6f683ab62c8c45007adfa952a95598f3c689106a9d0250e3d8b5a7d",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -364,7 +364,7 @@
         "extension"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "3ecedef660292a6664f23707af0d65d88013d8868e31b025125f8a56aa3e7af1",
+      "solution_sha256": "b1ba821983ae94fdc07b51e84e9479c7b4880cbf1580dfe9919db5bc7903cff1",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -406,7 +406,7 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "bd52d68df7c015029d48a0c9e81910ea58c764b733ca84e60fab69eb2acdc6eb",
+      "solution_sha256": "3675f3e8bcf3319218dfa69834d8b74b55269bde493c77f2a3c041ce0733c492",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -533,7 +533,7 @@
         "f"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "e0b597f34169998850a184ae9db6821b25c9add9245470e76b25e7a67ac64e3e",
+      "solution_sha256": "a9a9b2f14edd690b2db42d796f7fa881fac91dfaf36ea67d519798ac046265e3",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {
@@ -705,7 +705,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "20b364d0a5fc56d4d0c17f8092fd76f1f620e31be2fd9aef79f388638c4cc7fe",
+      "solution_sha256": "8ec5ff58aaa76c3b636452810264686a5f51fdf0940611cac256c48e621bea82",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked."
     },
     {

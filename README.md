@@ -46,6 +46,7 @@ catalog of the textbook itself.
 python -m venv .venv
 . .venv/bin/activate
 python -m pip install -e '.[dev]'
+export OPENBLAS_NUM_THREADS=1
 python -m pytest
 ```
 
@@ -54,7 +55,10 @@ no commercial solver or MATLAB license is required. For consistent, efficient
 runtimes on small dense systems, set `OPENBLAS_NUM_THREADS=1` before running. The validated Linux/Python 3.12 snapshot
 records all 35 relevant package versions in `requirements-lock.txt`.
 For exact reproduction of that snapshot, install that file before the editable
-project. Run in a fresh virtual environment to avoid unrelated package conflicts.
+project. Exact array-hash regeneration also requires `OPENBLAS_NUM_THREADS=1`,
+set before Python starts, as shown in each regeneration command. Parallel BLAS
+reductions can change the last floating-point bits of generated matrices. Run in
+a fresh virtual environment to avoid unrelated package conflicts.
 
 ## Run
 

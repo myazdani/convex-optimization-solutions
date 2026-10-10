@@ -1,5 +1,5 @@
 {
-  "snapshot_path": "/workspace/shared/full-book-final-review-snapshot",
+  "snapshot_path": "/workspace/shared/full-book-render-corrected-snapshot",
   "source_path": "/workspace/shared/convex-optimization",
   "accepted_count": 381,
   "accepted": [
@@ -3002,5 +3002,6 @@
       "/workspace/shared/convex-optimization/.venv/bin/python",
       "scripts/verify_outputs.py"
     ]
-  ]
+  ],
+  "formatting_carryforward": "coverage/reviews/markdown_math_proof_carryforward.json"
 }

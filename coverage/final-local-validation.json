@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "validated_at": "2026-10-10T05:42:42.941811+00:00",
+  "validated_at": "2026-10-10T06:58:26.490058+00:00",
   "status": "passed",
   "publication_status": "Local final review only; this report does not assert GitHub publication.",
   "coverage": {
@@ -22,26 +22,31 @@
     "blocked": 0
   },
   "test_suite": {
-    "collected": 240,
-    "passed": 240,
+    "collected": 247,
+    "passed": 247,
     "failures": 0,
     "errors": 0,
     "skipped": 0,
-    "duration_seconds": 23.83,
+    "duration_seconds": 23.309,
     "log_path": "coverage/final-local-tests.log",
     "junit_path": "coverage/final-local-tests.xml",
     "packaging_regression_cases": 6,
     "isolated_test_command": [
       "/workspace/shared/convex-optimization/.venv/bin/python",
-      "/workspace/shared/final-review-tools/test_compact_snapshot.py"
+      "/workspace/shared/final-review-tools/test_corrected_snapshot.py"
     ],
     "portable_equivalent_test_command": [
+      "env",
+      "OPENBLAS_NUM_THREADS=1",
       "python",
       "-m",
       "pytest",
       "-p",
       "no:cacheprovider"
-    ]
+    ],
+    "environment": {
+      "OPENBLAS_NUM_THREADS": "1"
+    }
   },
   "independent_review": {
     "new_proofs": 321,
@@ -60,8 +65,9 @@
     "svg_images": 11,
     "trial_shards_sha256_verified": 60,
     "trial_records_present": 6000,
-    "historical_baseline_files_sha256_verified": 115,
-    "solution_placeholders_found": 0
+    "historical_baseline_files_sha256_verified": 112,
+    "solution_placeholders_found": 0,
+    "independently_accepted_baseline_markdown_only_exceptions": 3
   },
   "environment": {
     "python": "3.12.14",
@@ -829,5 +835,12 @@
     "policy": "In the 28 algorithm artifact directories, package exactly the primary and supporting paths declared by their accepted submission. Exclude the two resumable per-trial staging directories. Preserve all unrelated application and historical artifacts.",
     "regression_test_path": "tests/test_package_repository.py"
   },
-  "final_archive_path": "/workspace/shared/convex-optimization-solutions-complete.zip"
+  "final_archive_path": "/workspace/shared/convex-optimization-solutions-complete.zip",
+  "markdown_math_correction": {
+    "equivalence_review": "coverage/reviews/markdown_math_equivalence.json",
+    "new_proof_carryforward": "coverage/reviews/markdown_math_proof_carryforward.json",
+    "fenced_comparisons_changed": 64,
+    "affected_pages": 40,
+    "numerical_sources_and_outputs_changed": 0
+  }
 }

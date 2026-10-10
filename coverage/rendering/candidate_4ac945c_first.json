@@ -1,0 +1,2721 @@
+{
+  "candidate": "4ac945c67e7c0daa74a08369416b7181df34c135",
+  "entries": [
+    {
+      "path": "docs/examples/README.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/README.md",
+      "expected": {
+        "path": "docs/examples/README.md",
+        "expected_math": 0,
+        "expected_images": 0,
+        "expected_tables": 8
+      },
+      "observed": {
+        "images": [],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 8,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/README.md",
+        "zeroSizedMath": []
+      },
+      "index": 0,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_11_1.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_11_1.md",
+      "expected": {
+        "path": "docs/examples/example_11_1.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 720,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_11_1/central_path.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_11_1.md",
+        "zeroSizedMath": []
+      },
+      "index": 1,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_11_3.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_11_3.md",
+      "expected": {
+        "path": "docs/examples/example_11_3.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 720,
+            "naturalWidth": 1600,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_11_3/central_path.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_11_3.md",
+        "zeroSizedMath": []
+      },
+      "index": 2,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_11_4.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_11_4.md",
+      "expected": {
+        "path": "docs/examples/example_11_4.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 640,
+            "naturalWidth": 1600,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_11_4/residuals.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_11_4.md",
+        "zeroSizedMath": []
+      },
+      "index": 3,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_4_1.md",
+      "index": 4,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/example_4_1.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 4
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 447,
+            "naturalWidth": 1130,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_4_1/objectives.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_4_1.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_4_10.md",
+      "index": 5,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/example_4_10.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 5
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 642,
+            "naturalWidth": 618,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_4_10/matrix_upper_bounds.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_4_10.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_2.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_2.md",
+      "expected": {
+        "path": "docs/examples/example_6_2.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 554,
+            "naturalWidth": 814,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_6_2/regression.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_2.md",
+        "zeroSizedMath": []
+      },
+      "index": 6,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_3.md",
+      "index": 7,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/example_6_3.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 3,
+        "index": 7
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 994,
+            "naturalWidth": 1286,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_6_3/input_output.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 3,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_3.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_4.md",
+      "index": 8,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/example_6_4.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 8
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 801,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_6_4/sparse_selection.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_4.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_5.md",
+      "index": 9,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/example_6_5.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 9
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 558,
+            "naturalWidth": 796,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_6_5/robust_interval.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_5.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_6.md",
+      "index": 10,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/example_6_6.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 10
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 919,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_6_6/disk_histograms.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_6.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_7.md",
+      "index": 11,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/example_6_7.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 11
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 834,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_6_7/fits.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_7.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_8.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_8.md",
+      "expected": {
+        "path": "docs/examples/example_6_8.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 554,
+            "naturalWidth": 834,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_6_8/fits.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_8.md",
+        "zeroSizedMath": []
+      },
+      "index": 12,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_6_9.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_9.md",
+      "expected": {
+        "path": "docs/examples/example_6_9.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 534,
+            "naturalWidth": 1256,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_6_9/preferences.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_6_9.md",
+        "zeroSizedMath": []
+      },
+      "index": 13,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_7_2.md",
+      "index": 14,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/example_7_2.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 14
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 1295,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_7_2/entropy_cdf.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_7_2.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_8_1.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_8_1.md",
+      "expected": {
+        "path": "docs/examples/example_8_1.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 526,
+            "naturalWidth": 570,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_8_1/boundary.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_8_1.md",
+        "zeroSizedMath": []
+      },
+      "index": 15,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_8_6.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_8_6.md",
+      "expected": {
+        "path": "docs/examples/example_8_6.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 932,
+            "naturalWidth": 1468,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_8_6/placements.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_8_6.md",
+        "zeroSizedMath": []
+      },
+      "index": 16,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/example_8_7.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_8_7.md",
+      "expected": {
+        "path": "docs/examples/example_8_7.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 1135,
+            "naturalWidth": 1114,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/example_8_7/floorplans.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/example_8_7.md",
+        "zeroSizedMath": []
+      },
+      "index": 17,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_10_1.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_10_1.md",
+      "expected": {
+        "path": "docs/examples/fig_10_1.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_10_1/convergence.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_10_1/steps.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_10_1.md",
+        "zeroSizedMath": []
+      },
+      "index": 18,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_10_3.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_10_3.md",
+      "expected": {
+        "path": "docs/examples/fig_10_3.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_10_3/convergence.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_10_3/steps.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_10_3.md",
+        "zeroSizedMath": []
+      },
+      "index": 19,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_10_5.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_10_5.md",
+      "expected": {
+        "path": "docs/examples/fig_10_5.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_10_5/convergence.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_10_5.md",
+        "zeroSizedMath": []
+      },
+      "index": 20,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_10_6.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_10_6.md",
+      "expected": {
+        "path": "docs/examples/fig_10_6.md",
+        "expected_math": 1,
+        "expected_images": 3,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_10_6/feasible_primal.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_10_6/dual.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_10_6/infeasible_KKT.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_10_6.md",
+        "zeroSizedMath": []
+      },
+      "index": 21,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_10.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_10.md",
+      "expected": {
+        "path": "docs/examples/fig_11_10.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 640,
+            "naturalWidth": 2240,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_10/boundary.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_10.md",
+        "zeroSizedMath": []
+      },
+      "index": 22,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_15.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_15.md",
+      "expected": {
+        "path": "docs/examples/fig_11_15.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 704,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_15/progress.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_15/mu_sweep.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_15.md",
+        "zeroSizedMath": []
+      },
+      "index": 23,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_17.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_17.md",
+      "expected": {
+        "path": "docs/examples/fig_11_17.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 704,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_17/progress.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_17/mu_sweep.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_17.md",
+        "zeroSizedMath": []
+      },
+      "index": 24,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_19.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_19.md",
+      "expected": {
+        "path": "docs/examples/fig_11_19.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 688,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_19/progress.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_19.md",
+        "zeroSizedMath": []
+      },
+      "index": 25,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_20.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_20.md",
+      "expected": {
+        "path": "docs/examples/fig_11_20.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 720,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_20/scaling.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_20.md",
+        "zeroSizedMath": []
+      },
+      "index": 26,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_21.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_21.md",
+      "expected": {
+        "path": "docs/examples/fig_11_21.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 704,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_21/progress.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_21/residual.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_21.md",
+        "zeroSizedMath": []
+      },
+      "index": 27,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_22.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_22.md",
+      "expected": {
+        "path": "docs/examples/fig_11_22.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 704,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_22/progress.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_22/residual.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_22.md",
+        "zeroSizedMath": []
+      },
+      "index": 28,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_23.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_23.md",
+      "expected": {
+        "path": "docs/examples/fig_11_23.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 720,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_23/scaling.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_23.md",
+        "zeroSizedMath": []
+      },
+      "index": 29,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_4.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_4.md",
+      "expected": {
+        "path": "docs/examples/fig_11_4.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 704,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_4/progress.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_4/mu_sweep.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_4.md",
+        "zeroSizedMath": []
+      },
+      "index": 30,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_6.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_6.md",
+      "expected": {
+        "path": "docs/examples/fig_11_6.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 704,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_6/progress.png"
+          },
+          {
+            "complete": true,
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_6/mu_sweep.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_6.md",
+        "zeroSizedMath": []
+      },
+      "index": 31,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_7.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_7.md",
+      "expected": {
+        "path": "docs/examples/fig_11_7.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 688,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_7/progress.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_7.md",
+        "zeroSizedMath": []
+      },
+      "index": 32,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_11_8.md",
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_8.md",
+      "expected": {
+        "path": "docs/examples/fig_11_8.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "naturalHeight": 720,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_11_8/scaling.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_11_8.md",
+        "zeroSizedMath": []
+      },
+      "index": 33,
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_4_11.md",
+      "index": 34,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_4_11.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 34
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 796,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_4_11/achievable_region.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_4_11.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_4_12.md",
+      "index": 35,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_4_12.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 35
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 1281,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_4_12/portfolio.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_4_12.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_5_1_5_2.md",
+      "index": 36,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_5_1_5_2.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 36
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 555,
+            "naturalWidth": 1240,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_5_1_5_2/nonconvex_duality.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_5_1_5_2.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_11.md",
+      "index": 37,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_6_11.md",
+        "expected_math": 0,
+        "expected_images": 2,
+        "expected_tables": 2,
+        "index": 37
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 1667,
+            "naturalWidth": 1667,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_6_11/tv_reconstructions.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 586,
+            "naturalWidth": 679,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_6_11/quadratic_tradeoff.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_6_11.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_2.md",
+      "index": 38,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_6_2.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 38
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 1104,
+            "naturalWidth": 913,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_6_2/penalty_histograms.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_6_2.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_21.md",
+      "index": 39,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_6_21.md",
+        "expected_math": 0,
+        "expected_images": 3,
+        "expected_tables": 2,
+        "index": 39
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 932,
+            "naturalWidth": 1392,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_6_21/CVX_endpoint_grid.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 932,
+            "naturalWidth": 1392,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_6_21/CVXOPT_k_over_501.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 932,
+            "naturalWidth": 1373,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_6_21/book_literal_0.005_grid.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_6_21.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_24.md",
+      "index": 40,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_6_24.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 40
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 796,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_6_24/convex_fit.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_6_24.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_6_8.md",
+      "index": 41,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_6_8.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 41
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 1217,
+            "naturalWidth": 1667,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_6_8/quadratic_smoothing.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_6_8.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_7_1.md",
+      "index": 42,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_7_1.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 42
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 803,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_7_1/logistic.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_7_1.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_7_5.md",
+      "index": 43,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_7_5.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 43
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 670,
+            "naturalWidth": 1354,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_7_5/chebyshev_bounds.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_7_5.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_7_8.md",
+      "index": 44,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_7_8.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 44
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 554,
+            "naturalWidth": 933,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_7_8/chernoff_monte_carlo.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_7_8.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_7_9.md",
+      "index": 45,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_7_9.md",
+        "expected_math": 0,
+        "expected_images": 2,
+        "expected_tables": 2,
+        "index": 45
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 332,
+            "naturalWidth": 1470,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_7_9/design_dual_ellipsoids.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 673,
+            "naturalWidth": 759,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_7_9/confidence_ellipsoids.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_7_9.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_10.md",
+      "index": 46,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_8_10.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 46
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 506,
+            "naturalWidth": 1516,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_8_10/classifiers.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_8_10.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_13.md",
+      "index": 47,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_8_13.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 47
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 642,
+            "naturalWidth": 441,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_8_13/quadratic_separator.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_8_13.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_14.md",
+      "index": 48,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_8_14.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 48
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 642,
+            "naturalWidth": 672,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_8_14/quartic_separator.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_8_14.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_3.md",
+      "index": 49,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_8_3.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 49
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 496,
+            "naturalWidth": 1257,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_8_3/extremal_ellipsoids.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_8_3.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_5.md",
+      "index": 50,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_8_5.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 50
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 437,
+            "naturalWidth": 1506,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_8_5/centers.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_8_5.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_8_8.md",
+      "index": 51,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_8_8.md",
+        "expected_math": 0,
+        "expected_images": 1,
+        "expected_tables": 2,
+        "index": 51
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 558,
+            "naturalWidth": 1079,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_8_8/linear_separators.png"
+          }
+        ],
+        "math": 0,
+        "mathErrors": [],
+        "renderers": 0,
+        "renderersWithoutMath": 0,
+        "tables": 2,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_8_8.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_11.md",
+      "index": 52,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_11.md",
+        "expected_math": 1,
+        "expected_images": 3,
+        "expected_tables": 1,
+        "index": 52
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 720,
+            "naturalWidth": 1920,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_11/trajectories.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 720,
+            "naturalWidth": 1920,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_11/transformed.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_11/convergence.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_11.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_19.md",
+      "index": 53,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_19.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1,
+        "index": 53
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 720,
+            "naturalWidth": 960,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_19/trajectories.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_19/convergence.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_19.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_2.md",
+      "index": 54,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_2.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1,
+        "index": 54
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_2/trajectories.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_2/convergence.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_2.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_21.md",
+      "index": 55,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_21.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1,
+        "index": 55
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_21/convergence.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_21/steps.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_21.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_23.md",
+      "index": 56,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_23.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1,
+        "index": 56
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_23/convergence.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_23.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_25.md",
+      "index": 57,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_25.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1,
+        "index": 57
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 720,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_25/self_concordant.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_25.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_3.md",
+      "index": 58,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_3.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1,
+        "index": 58
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 720,
+            "naturalWidth": 1920,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_3/trajectories.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_3/convergence.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_3.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_6.md",
+      "index": 59,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_6.md",
+        "expected_math": 1,
+        "expected_images": 2,
+        "expected_tables": 1,
+        "index": 59
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 672,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_6/convergence.png"
+          },
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 640,
+            "naturalWidth": 1120,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_6/steps.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_6.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/examples/fig_9_7.md",
+      "index": 60,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/examples/fig_9_7.md",
+        "expected_math": 1,
+        "expected_images": 1,
+        "expected_tables": 1,
+        "index": 60
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 640,
+            "naturalWidth": 1600,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/examples/fig_9_7/conditioning.png"
+          }
+        ],
+        "math": 1,
+        "mathErrors": [],
+        "renderers": 1,
+        "renderersWithoutMath": 0,
+        "tables": 1,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/examples/fig_9_7.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.1.md",
+      "index": 61,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.1.md",
+        "expected_math": 36,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 61
+      },
+      "observed": {
+        "images": [],
+        "math": 36,
+        "mathErrors": [],
+        "renderers": 36,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.1.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.10.md",
+      "index": 62,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.10.md",
+        "expected_math": 10,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 62
+      },
+      "observed": {
+        "images": [],
+        "math": 10,
+        "mathErrors": [],
+        "renderers": 10,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.10.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.11.md",
+      "index": 63,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.11.md",
+        "expected_math": 20,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 63
+      },
+      "observed": {
+        "images": [],
+        "math": 20,
+        "mathErrors": [],
+        "renderers": 20,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.11.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.12.md",
+      "index": 64,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.12.md",
+        "expected_math": 45,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 64
+      },
+      "observed": {
+        "images": [],
+        "math": 45,
+        "mathErrors": [],
+        "renderers": 45,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.12.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.13.md",
+      "index": 65,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.13.md",
+        "expected_math": 40,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 65
+      },
+      "observed": {
+        "images": [],
+        "math": 40,
+        "mathErrors": [],
+        "renderers": 40,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.13.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.2.md",
+      "index": 66,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.2.md",
+        "expected_math": 26,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 66
+      },
+      "observed": {
+        "images": [],
+        "math": 26,
+        "mathErrors": [],
+        "renderers": 26,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.2.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.3.md",
+      "index": 67,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.3.md",
+        "expected_math": 16,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 67
+      },
+      "observed": {
+        "images": [],
+        "math": 16,
+        "mathErrors": [],
+        "renderers": 16,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.3.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.4.md",
+      "index": 68,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.4.md",
+        "expected_math": 17,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 68
+      },
+      "observed": {
+        "images": [],
+        "math": 17,
+        "mathErrors": [],
+        "renderers": 17,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.4.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.5.md",
+      "index": 69,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.5.md",
+        "expected_math": 11,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 69
+      },
+      "observed": {
+        "images": [],
+        "math": 11,
+        "mathErrors": [],
+        "renderers": 11,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.5.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.6.md",
+      "index": 70,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.6.md",
+        "expected_math": 9,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 70
+      },
+      "observed": {
+        "images": [],
+        "math": 9,
+        "mathErrors": [],
+        "renderers": 9,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.6.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.7.md",
+      "index": 71,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.7.md",
+        "expected_math": 15,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 71
+      },
+      "observed": {
+        "images": [],
+        "math": 15,
+        "mathErrors": [],
+        "renderers": 15,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.7.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.8.md",
+      "index": 72,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.8.md",
+        "expected_math": 6,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 72
+      },
+      "observed": {
+        "images": [],
+        "math": 6,
+        "mathErrors": [],
+        "renderers": 6,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.8.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/10.9.md",
+      "index": 73,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/10.9.md",
+        "expected_math": 55,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 73
+      },
+      "observed": {
+        "images": [],
+        "math": 55,
+        "mathErrors": [],
+        "renderers": 55,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/10.9.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.10.md",
+      "index": 74,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.10.md",
+        "expected_math": 13,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 74
+      },
+      "observed": {
+        "images": [],
+        "math": 13,
+        "mathErrors": [],
+        "renderers": 13,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.10.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.11.md",
+      "index": 75,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.11.md",
+        "expected_math": 70,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 75
+      },
+      "observed": {
+        "images": [],
+        "math": 70,
+        "mathErrors": [],
+        "renderers": 70,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.11.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.12.md",
+      "index": 76,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.12.md",
+        "expected_math": 23,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 76
+      },
+      "observed": {
+        "images": [],
+        "math": 23,
+        "mathErrors": [],
+        "renderers": 23,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.12.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.13.md",
+      "index": 77,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.13.md",
+        "expected_math": 14,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 77
+      },
+      "observed": {
+        "images": [],
+        "math": 14,
+        "mathErrors": [],
+        "renderers": 14,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.13.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.14.md",
+      "index": 78,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.14.md",
+        "expected_math": 16,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 78
+      },
+      "observed": {
+        "images": [],
+        "math": 16,
+        "mathErrors": [],
+        "renderers": 16,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.14.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.15.md",
+      "index": 79,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.15.md",
+        "expected_math": 16,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 79
+      },
+      "observed": {
+        "images": [],
+        "math": 16,
+        "mathErrors": [],
+        "renderers": 16,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.15.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.16.md",
+      "index": 80,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.16.md",
+        "expected_math": 18,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 80
+      },
+      "observed": {
+        "images": [],
+        "math": 18,
+        "mathErrors": [],
+        "renderers": 18,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.16.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.17.md",
+      "index": 81,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.17.md",
+        "expected_math": 7,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 81
+      },
+      "observed": {
+        "images": [],
+        "math": 7,
+        "mathErrors": [],
+        "renderers": 7,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.17.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.18.md",
+      "index": 82,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.18.md",
+        "expected_math": 21,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 82
+      },
+      "observed": {
+        "images": [],
+        "math": 21,
+        "mathErrors": [],
+        "renderers": 21,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.18.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.19.md",
+      "index": 83,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.19.md",
+        "expected_math": 16,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 83
+      },
+      "observed": {
+        "images": [],
+        "math": 16,
+        "mathErrors": [],
+        "renderers": 16,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.19.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.2.md",
+      "index": 84,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.2.md",
+        "expected_math": 10,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 84
+      },
+      "observed": {
+        "images": [],
+        "math": 10,
+        "mathErrors": [],
+        "renderers": 10,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.2.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.20.md",
+      "index": 85,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.20.md",
+        "expected_math": 41,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 85
+      },
+      "observed": {
+        "images": [],
+        "math": 41,
+        "mathErrors": [],
+        "renderers": 41,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.20.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.3.md",
+      "index": 86,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.3.md",
+        "expected_math": 18,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 86
+      },
+      "observed": {
+        "images": [],
+        "math": 18,
+        "mathErrors": [],
+        "renderers": 18,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.3.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.4.md",
+      "index": 87,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.4.md",
+        "expected_math": 8,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 87
+      },
+      "observed": {
+        "images": [],
+        "math": 8,
+        "mathErrors": [],
+        "renderers": 8,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.4.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.5.md",
+      "index": 88,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.5.md",
+        "expected_math": 19,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 88
+      },
+      "observed": {
+        "images": [],
+        "math": 19,
+        "mathErrors": [],
+        "renderers": 19,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.5.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.6.md",
+      "index": 89,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.6.md",
+        "expected_math": 24,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 89
+      },
+      "observed": {
+        "images": [],
+        "math": 24,
+        "mathErrors": [],
+        "renderers": 24,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.6.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.7.md",
+      "index": 90,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.7.md",
+        "expected_math": 8,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 90
+      },
+      "observed": {
+        "images": [],
+        "math": 8,
+        "mathErrors": [],
+        "renderers": 8,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.7.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.8.md",
+      "index": 91,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.8.md",
+        "expected_math": 8,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 91
+      },
+      "observed": {
+        "images": [],
+        "math": 8,
+        "mathErrors": [],
+        "renderers": 8,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.8.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/11.9.md",
+      "index": 92,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/11.9.md",
+        "expected_math": 20,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 92
+      },
+      "observed": {
+        "images": [],
+        "math": 20,
+        "mathErrors": [],
+        "renderers": 20,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/11.9.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.1.md",
+      "index": 93,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/3.1.md",
+        "expected_math": 21,
+        "expected_images": 1,
+        "expected_tables": 0,
+        "index": 93
+      },
+      "observed": {
+        "images": [
+          {
+            "complete": true,
+            "loading": "auto",
+            "naturalHeight": 384,
+            "naturalWidth": 576,
+            "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/docs/figures/ex_3_1.svg"
+          }
+        ],
+        "math": 21,
+        "mathErrors": [],
+        "renderers": 21,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/3.1.md"
+      },
+      "passed": true
+    },
+    {
+      "path": "docs/solutions/3.10.md",
+      "index": 94,
+      "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+      "expected": {
+        "path": "docs/solutions/3.10.md",
+        "expected_math": 21,
+        "expected_images": 0,
+        "expected_tables": 0,
+        "index": 94
+      },
+      "observed": {
+        "images": [],
+        "math": 21,
+        "mathErrors": [],
+        "renderers": 21,
+        "renderersWithoutMath": 0,
+        "tables": 0,
+        "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/3.10.md"
+      },
+      "passed": true
+    }
+  ]
+}

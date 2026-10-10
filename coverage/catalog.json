@@ -105,7 +105,7 @@
     },
     {
       "path": "coverage/exercise_solutions.json",
-      "sha256": "ad02ba4468f26d0f59bd927dce3c8355879318f0627506452b20dc10df1d91ee"
+      "sha256": "a9ba9719dc9963941052e55f76e0697334b9aa4b2098a9b3b93d2becf76368aa"
     },
     {
       "path": "coverage/example_reproductions.json",
@@ -6843,10 +6843,10 @@
         "i"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "7321e09f5e02eb306272e81769006beda7c60b8c64b8576aa650ee7e8da414cb",
+      "solution_sha256": "5b413ad0cacc98e16f7650f02beac0de988277d96f765831cd227cc2ead38a91",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch02_batch002.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:2.16",
@@ -6890,10 +6890,10 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "ed4941c9750aca1a156320b550d9e8c3c4abb001df4641cdf9ab0f3fac67e268",
+      "solution_sha256": "d36485ad354417ce2a5a4489634173a5733038cd3183a72d8d47d7447d758e54",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch02_batch002.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:2.18",
@@ -7051,10 +7051,10 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "0aabbbd6531e29d2dd56c623a013c6244454ae1102dacd43252f1c228352980e",
+      "solution_sha256": "de38a4419937dadcbde0350fef363024dff1271d026c034e18d67334388e14b7",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch02_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:2.25",
@@ -7392,10 +7392,10 @@
         "c"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "414260c8304cb2bbea64189142b68615c3d5fd87b0ddb2e61ce326449a360afa",
+      "solution_sha256": "6b641cf52c6c482b755620a46bc6035dc1780eb9652b76331b637234f2931990",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch02_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:2.39",
@@ -7645,10 +7645,10 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "c8ffd7e7231b5b29206fe33511fc59d1629e93e1a4f0b5d6d7e359417e700f06",
+      "solution_sha256": "0cff8d9c5d55f0162c45dc0ce6a9f82bbc38611bac2e30d77414a710fd21de6a",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch03_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.11",
@@ -7690,10 +7690,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "1fd283095165c9658ee534e06ab3143b1aee9c45085b2a94b063064956da76b4",
+      "solution_sha256": "0f50076e8d34649ae8cbac649b52b041db7e5898de43558ad6c5208c7a39f74d",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch03_batch002.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.13",
@@ -7980,10 +7980,10 @@
         "h"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "276c4ea14e26b171aaafb50ad1d60a7388bc2edaf32b0dc383c1df819fb0e445",
+      "solution_sha256": "d7baee42e6f683ab62c8c45007adfa952a95598f3c689106a9d0250e3d8b5a7d",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch03_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.25",
@@ -8004,10 +8004,10 @@
         "extension"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "3ecedef660292a6664f23707af0d65d88013d8868e31b025125f8a56aa3e7af1",
+      "solution_sha256": "b1ba821983ae94fdc07b51e84e9479c7b4880cbf1580dfe9919db5bc7903cff1",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch03_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.26",
@@ -8073,10 +8073,10 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "bd52d68df7c015029d48a0c9e81910ea58c764b733ca84e60fab69eb2acdc6eb",
+      "solution_sha256": "3675f3e8bcf3319218dfa69834d8b74b55269bde493c77f2a3c041ce0733c492",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch03_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.29",
@@ -8272,10 +8272,10 @@
         "f"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "e0b597f34169998850a184ae9db6821b25c9add9245470e76b25e7a67ac64e3e",
+      "solution_sha256": "a9a9b2f14edd690b2db42d796f7fa881fac91dfaf36ea67d519798ac046265e3",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch03_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.37",
@@ -8552,10 +8552,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "20b364d0a5fc56d4d0c17f8092fd76f1f620e31be2fd9aef79f388638c4cc7fe",
+      "solution_sha256": "8ec5ff58aaa76c3b636452810264686a5f51fdf0940611cac256c48e621bea82",
       "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
       "author": "solve_convexity_exercises",
-      "verification_path": "coverage/reviews/ch03_batch005.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.49",
@@ -8878,10 +8878,10 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "104b6b231e08c1341ac6aebd72e514032100913916a0a32456602587e763dcaa",
+      "solution_sha256": "7a50accc7372a185e8637371144db4609469def5f0c29c041c472e79123b2f31",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch04_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.3",
@@ -8966,10 +8966,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "2213984b7c805d3441aa5491ddc38389a7eb0715ea58f9f655831e25d1f7121a",
+      "solution_sha256": "1698a3e9bc23d510b463e46d4e3407e1d176891a1d130d626c2a9ea9f0612867",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch04_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.7",
@@ -9017,10 +9017,10 @@
         "f"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "b0ae0e5d4a46a27a3765af69ce6b3e45edcc66c56f63239bef9588bbdf0111ce",
+      "solution_sha256": "f15a4378290a735c851c385db715204fec08c72f48de803f2178ed991081f511",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch04_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.9",
@@ -9334,10 +9334,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "92657329719fd851b9715d506df79d961798c0578a6b2b330703aa030e7e4eb3",
+      "solution_sha256": "0be611703c5a9a3cb1b890191bc82dc027e2c1c0401d90c5be1536122a79693b",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch04_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.23",
@@ -9695,10 +9695,10 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "bdb8f9be35dc4a4011f182117fc3ccb2f96979450db62b20903883306e405e2b",
+      "solution_sha256": "6a5eb0bbe0532a40302fd353be9ab45c759e4cb2f60c4d27ac43c2714f1ff153",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch04_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.39",
@@ -9908,10 +9908,10 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "3a68bfa9e594f0f8414db6e3c1f3cfa87cbc2a595648860b11c9c3978f9c2aa3",
+      "solution_sha256": "82e68d411010e915435d9dbea8f1b5088491b83bb4380e5f4d056f6a2c6b6ce0",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch04_batch005.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.48",
@@ -10345,10 +10345,10 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "8887e9cd4c916e6c0d32702ed63144db1d18f601b7166ad668a2a5fb94f1798e",
+      "solution_sha256": "f0b3139ba47caa0d7c5ee4ec201095efb90cdf55bcf5a576b6e3dcc743e43576",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.2",
@@ -10458,10 +10458,10 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "7c07d827e7eb6980b6d00b0f5124a7e45f25b7b257246dcaa3e2bac1b5c5f109",
+      "solution_sha256": "d8b44432d7e97a214821cd9a5ac1c9732a3f845e2bab5400475ee756d1e1a0d5",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.7",
@@ -10801,10 +10801,10 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "59edf93d9159f61c969596fb5ff4680e7815057c053f23303269e134a13513b9",
+      "solution_sha256": "656fd15592fd28b243f553e70be3be21b019358759489d8cf0055adb4f1a506d",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch05_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.22",
@@ -10828,10 +10828,10 @@
         "f"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "069ed535272e20f375e8ac481374d10bbdbb416745fee3a2eb3a56937a449635",
+      "solution_sha256": "e468bc714b3479c8fdc47277736f6b2faa96f8576cfe27075c70bd7265a9e7ee",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch05_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.23",
@@ -10900,10 +10900,10 @@
         "e"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "40ce4d03bc9c58e783aee8003b89e9fde471d47932b956b483babd29f7b47a33",
+      "solution_sha256": "d9e6a2e68864b936acb47177ce8bbcef640325e39d5e4e98dbbf93aa7b3073e9",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch05_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.26",
@@ -11129,10 +11129,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "47433a129779a7da8bae48d444b4cf7d77666bef668cc85e19166d2373219e7f",
+      "solution_sha256": "02e338766e021174fa0988d103d8659aef58c917440d3004a83ba5fe8276dda9",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch05_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.37",
@@ -11151,10 +11151,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "1345525d0f1de83ed92ca1f9064b51aae47262d00ad0cb25f1e31dc749b2e269",
+      "solution_sha256": "f4b03fb55a540d9182413ff070961aecf2825f459cdff70e756b567d62b31f22",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
       "author": "solve_optimization_duality_exercises",
-      "verification_path": "coverage/reviews/ch05_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.38",
@@ -11353,10 +11353,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "7b26c3f72c079b98b6b4ac78d00388ceabc5f325f3fc5ee61fdb87f33371c054",
+      "solution_sha256": "71b4bcd2c65fcafcd21acb70c9f589e7abdd4ac35b01668a659fa999c0fe5369",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch06_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:6.3",
@@ -11449,10 +11449,10 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "4a8f22982c196f138bbb0c8555fc6aa82ac4ae18576b9aa5ba9606115378de47",
+      "solution_sha256": "64bf8ae32d6149feb0031c250dc4f10b55091c27c6e51e7a8cdd5f280734c290",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch06_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:6.7",
@@ -11700,10 +11700,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "9f81dc4ffd9725fe23e03a8e7970de971d0405ff26498fbbdd0a631398f2c3c9",
+      "solution_sha256": "888411ae102ed91e000b2b7a271784b67e455ba713dc108c20a1fb6a8640eb38",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch07_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:7.4",
@@ -11948,10 +11948,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "1da610419bae013b94872be31ae8b189a1a667066d9b37f296ee7bb36df9057b",
+      "solution_sha256": "f2b27e3ce52745b9f5314644a0657c5e6e0753983b4978e148f7a1e2022ab870",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch08_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:8.2",
@@ -12043,10 +12043,10 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "26101578104576929ed0b6f8aa6bb8e2a78a4530a8f35012ee125f00e4af90f7",
+      "solution_sha256": "839c83b77bbef805614beb0d9ddba839cf4bd328ff859ced423ca7ceede2bfdc",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch08_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:8.6",
@@ -12202,10 +12202,10 @@
         "covering uniqueness"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "65a75e1a4e10df7d575e83302c952655a50627d38e2ba0bcd6e934674fbfd349",
+      "solution_sha256": "0a14a7366c02e74338194e777050db8cfdff60879084278fcc0b08b79d2ca55c",
       "notes": "States necessary convex-body/existence hypotheses and gives counterexamples to an unrestricted reading.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch08_batch002.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:8.13",
@@ -12605,10 +12605,10 @@
         "extreme trade-offs"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "cfc8db738c34b0dfefd75111c1ab88292ff4189a8f8120a9076459725a7030ef",
+      "solution_sha256": "806756d2dc7fdb61d2232371ebc7076671c03d1b34a787582f4cb3b060a0a505",
       "notes": "Corrects source arc/joint indexing; proves convexity and addresses open-angle endpoint attainment.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch08_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:9.1",
@@ -12675,14 +12675,14 @@
         "c"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "6fee34d943a96b62ba7dd0ef68f257400b9b085e3ac1dd53e7996842cf4f3d49",
+      "solution_sha256": "323218de2d9c8b1d5f549e6e38f9bdebad7aefcc21f79d54a4e799d60c74d60e",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "code_path": "examples/geometry/ex_9_3_diagram.py",
       "figure_paths": [
         "docs/figures/ex_9_3.svg"
       ],
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch09_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:9.4",
@@ -13080,10 +13080,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "4363c0052ddc82bfc7929dd503d020448f2a0ccaa6849c7e239a8cb051505e1a",
+      "solution_sha256": "dcc37cccb17b7cb7273feb0e4b42ea180a6ab054da7dade8185339cca0b25d33",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch09_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:9.22",
@@ -13722,10 +13722,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "97c9fb473dfb3be082191e4e05cd6cde35f6a19325998a6d97ee4416c5c71697",
+      "solution_sha256": "299a75742caefc27246cc4f396462a4ff815a4baa50487c17dde772159ff3ef5",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:11.4",
@@ -13905,10 +13905,10 @@
         "counterexample to unqualified point convergence"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "a3e39b8834348bde1aee5c065db84ed397c8ed7a960829a6c1ae088152ed0ed9",
+      "solution_sha256": "74d76cf94768f8b8e6441ebf53048edb86f774888f549a77e3469de45787c797",
       "notes": "All requested guarantees resolved: complete contraction and stopping proof; original C2 convex compact-feasible counterexample disproves whole-sequence point convergence despite unique centers for every level.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch11_batch002_root.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:11.12",
@@ -13973,10 +13973,10 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "e174f504a04b39e8eadca44177b078577a74444d6dea92472c9cb2021babe4da",
+      "solution_sha256": "4ecd398845bb9aac3e648a6b8c091f3d1b00d8aced3cfc2399c34a93b5b252c3",
       "notes": "Literal ambient Hessian claim with equalities disproved; full proof supplied for intended reduced-Hessian/no-equality version.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:11.15",
@@ -13996,10 +13996,10 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "437bd3818957a6bb3de1df5a7b9193e5a82568f35b70c26cee443f6292029ee4",
+      "solution_sha256": "c463ebc4f7a749797b5279f5eb5830c53acae5394f1247ae7d7073887f79ae6b",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "author": "solve_applications_algorithm_exercises",
-      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:11.16",

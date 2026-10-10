@@ -70,3 +70,15 @@ def test_markdown_contains_no_hidden_control_characters():
                 'check accidentally interpreted LaTeX escapes'
             )
             assert ord(char) != 127, f'{path}: DEL control byte at character {offset}'
+
+
+def test_fenced_math_uses_explicit_less_than_command():
+    # GitHub can treat <letter as an HTML tag, even within a math renderer,
+    # producing either a parse error or silent truncation of a valid formula.
+    for path in MARKDOWN:
+        fence = None
+        for number, line in enumerate(path.read_text().splitlines(), 1):
+            if line.startswith('```'):
+                fence = line[3:] if fence is None else None
+            elif fence == 'math':
+                assert '<' not in line, f'{path}:{number}: use \\lt in fenced math'

@@ -42,7 +42,7 @@
         "c"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "6fee34d943a96b62ba7dd0ef68f257400b9b085e3ac1dd53e7996842cf4f3d49",
+      "solution_sha256": "323218de2d9c8b1d5f549e6e38f9bdebad7aefcc21f79d54a4e799d60c74d60e",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
       "code_path": "examples/geometry/ex_9_3_diagram.py",
       "figure_paths": [
@@ -277,7 +277,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "4363c0052ddc82bfc7929dd503d020448f2a0ccaa6849c7e239a8cb051505e1a",
+      "solution_sha256": "dcc37cccb17b7cb7273feb0e4b42ea180a6ab054da7dade8185339cca0b25d33",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
     },
     {

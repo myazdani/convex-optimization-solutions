@@ -1,0 +1,2138 @@
+[
+  {
+    "path": "docs/solutions/5.12.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.12.md",
+    "expected": {
+      "path": "docs/solutions/5.12.md",
+      "expected_math": 17,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.12: The analytic-center dual",
+      "images": [],
+      "math": 17,
+      "mathErrors": [],
+      "renderers": 17,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:29.507Z"
+  },
+  {
+    "path": "docs/solutions/5.13.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.13.md",
+    "expected": {
+      "path": "docs/solutions/5.13.md",
+      "expected_math": 32,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.13: Boolean Lagrangian relaxation equals the box LP bound",
+      "images": [],
+      "math": 32,
+      "mathErrors": [],
+      "renderers": 32,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:43.358Z"
+  },
+  {
+    "path": "docs/solutions/5.14.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.14.md",
+    "expected": {
+      "path": "docs/solutions/5.14.md",
+      "expected_math": 9,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.14: A dual certificate from an equality penalty",
+      "images": [],
+      "math": 9,
+      "mathErrors": [],
+      "renderers": 9,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:45.859Z"
+  },
+  {
+    "path": "docs/solutions/5.15.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.15.md",
+    "expected": {
+      "path": "docs/solutions/5.15.md",
+      "expected_math": 11,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.15: Dual certificates from increasing convex penalties",
+      "images": [],
+      "math": 11,
+      "mathErrors": [],
+      "renderers": 11,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:48.257Z"
+  },
+  {
+    "path": "docs/solutions/5.16.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.16.md",
+    "expected": {
+      "path": "docs/solutions/5.16.md",
+      "expected_math": 32,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.16: An exact maximum-violation penalty",
+      "images": [],
+      "math": 32,
+      "mathErrors": [],
+      "renderers": 32,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:49.528Z"
+  },
+  {
+    "path": "docs/solutions/5.17.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.17.md",
+    "expected": {
+      "path": "docs/solutions/5.17.md",
+      "expected_math": 10,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.17: Exact LP robustification of polyhedral row uncertainty",
+      "images": [],
+      "math": 10,
+      "mathErrors": [],
+      "renderers": 10,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:50.666Z"
+  },
+  {
+    "path": "docs/solutions/5.18.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.18.md",
+    "expected": {
+      "path": "docs/solutions/5.18.md",
+      "expected_math": 36,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.18: Strict polyhedral separation through LP multipliers",
+      "images": [],
+      "math": 36,
+      "mathErrors": [],
+      "renderers": 36,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:52.927Z"
+  },
+  {
+    "path": "docs/solutions/5.19.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.19.md",
+    "expected": {
+      "path": "docs/solutions/5.19.md",
+      "expected_math": 27,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.19: A compact LP representation for largest-coordinate sums",
+      "images": [],
+      "math": 27,
+      "mathErrors": [],
+      "renderers": 27,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:55.351Z"
+  },
+  {
+    "path": "docs/solutions/5.2.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.2.md",
+    "expected": {
+      "path": "docs/solutions/5.2.md",
+      "expected_math": 11,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.2: Weak duality at extended optimal values",
+      "images": [],
+      "math": 11,
+      "mathErrors": [],
+      "renderers": 11,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:56.508Z"
+  },
+  {
+    "path": "docs/solutions/5.20.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.20.md",
+    "expected": {
+      "path": "docs/solutions/5.20.md",
+      "expected_math": 34,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.20: A simplified dual for channel capacity",
+      "images": [],
+      "math": 34,
+      "mathErrors": [],
+      "renderers": 34,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:46:58.791Z"
+  },
+  {
+    "path": "docs/solutions/5.21.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.21.md",
+    "expected": {
+      "path": "docs/solutions/5.21.md",
+      "expected_math": 30,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.21: A convex problem with a positive duality gap",
+      "images": [],
+      "math": 30,
+      "mathErrors": [],
+      "renderers": 30,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:01.067Z"
+  },
+  {
+    "path": "docs/solutions/5.22.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.22.md",
+    "expected": {
+      "path": "docs/solutions/5.22.md",
+      "expected_math": 57,
+      "expected_images": 1,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.22: Six geometries of Lagrange duality",
+      "images": [
+        {
+          "alt": "Six original sketches of G and A",
+          "complete": true,
+          "naturalHeight": 768,
+          "naturalWidth": 1152,
+          "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/exercises/5.22/geometry.svg"
+        }
+      ],
+      "math": 57,
+      "mathErrors": [],
+      "renderers": 57,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:07.135Z"
+  },
+  {
+    "path": "docs/solutions/5.23.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.23.md",
+    "expected": {
+      "path": "docs/solutions/5.23.md",
+      "expected_math": 28,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.23: Strong LP duality from active normals and alternatives",
+      "images": [],
+      "math": 28,
+      "mathErrors": [],
+      "renderers": 28,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:32.881Z"
+  },
+  {
+    "path": "docs/solutions/5.24.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.24.md",
+    "expected": {
+      "path": "docs/solutions/5.24.md",
+      "expected_math": 15,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.24: The weak max-min inequality",
+      "images": [],
+      "math": 15,
+      "mathErrors": [],
+      "renderers": 15,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:35.263Z"
+  },
+  {
+    "path": "docs/solutions/5.25.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.25.md",
+    "expected": {
+      "path": "docs/solutions/5.25.md",
+      "expected_math": 51,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.25: Convex-concave minimax through conjugacy",
+      "images": [],
+      "math": 51,
+      "mathErrors": [],
+      "renderers": 51,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:37.648Z"
+  },
+  {
+    "path": "docs/solutions/5.26.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.26.md",
+    "expected": {
+      "path": "docs/solutions/5.26.md",
+      "expected_math": 22,
+      "expected_images": 1,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.26: Tangent disks: zero gap without KKT multipliers",
+      "images": [
+        {
+          "alt": "Tangent feasible disks and circular objective levels",
+          "complete": true,
+          "naturalHeight": 480,
+          "naturalWidth": 480,
+          "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/artifacts/exercises/5.26/tangent_disks.svg"
+        }
+      ],
+      "math": 22,
+      "mathErrors": [],
+      "renderers": 22,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:39.930Z"
+  },
+  {
+    "path": "docs/solutions/5.27.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.27.md",
+    "expected": {
+      "path": "docs/solutions/5.27.md",
+      "expected_math": 20,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.27: Equality-constrained least squares in closed form",
+      "images": [],
+      "math": 20,
+      "mathErrors": [],
+      "renderers": 20,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:42.254Z"
+  },
+  {
+    "path": "docs/solutions/5.28.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.28.md",
+    "expected": {
+      "path": "docs/solutions/5.28.md",
+      "expected_math": 17,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.28: An exact LP optimum and uniqueness certificate",
+      "images": [],
+      "math": 17,
+      "mathErrors": [],
+      "renderers": 17,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:44.438Z"
+  },
+  {
+    "path": "docs/solutions/5.3.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.3.md",
+    "expected": {
+      "path": "docs/solutions/5.3.md",
+      "expected_math": 18,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.3: One inequality and the conjugate perspective",
+      "images": [],
+      "math": 18,
+      "mathErrors": [],
+      "renderers": 18,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:46.709Z"
+  },
+  {
+    "path": "docs/solutions/5.30.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.30.md",
+    "expected": {
+      "path": "docs/solutions/5.30.md",
+      "expected_math": 24,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.30: A log-determinant matrix secant update",
+      "images": [],
+      "math": 24,
+      "mathErrors": [],
+      "renderers": 24,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:48.989Z"
+  },
+  {
+    "path": "docs/solutions/5.31.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.31.md",
+    "expected": {
+      "path": "docs/solutions/5.31.md",
+      "expected_math": 10,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.31: KKT conditions imply the supporting-gradient criterion",
+      "images": [],
+      "math": 10,
+      "mathErrors": [],
+      "renderers": 10,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:51.188Z"
+  },
+  {
+    "path": "docs/solutions/5.32.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.32.md",
+    "expected": {
+      "path": "docs/solutions/5.32.md",
+      "expected_math": 19,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.32: Convexity of the perturbed optimal value",
+      "images": [],
+      "math": 19,
+      "mathErrors": [],
+      "renderers": 19,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:53.324Z"
+  },
+  {
+    "path": "docs/solutions/5.35.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.35.md",
+    "expected": {
+      "path": "docs/solutions/5.35.md",
+      "expected_math": 16,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.35: Relative sensitivity of geometric programs",
+      "images": [],
+      "math": 16,
+      "mathErrors": [],
+      "renderers": 16,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:47:58.960Z"
+  },
+  {
+    "path": "docs/solutions/5.36.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.36.md",
+    "expected": {
+      "path": "docs/solutions/5.36.md",
+      "expected_math": 15,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.36: Linear equality alternatives from inequality alternatives",
+      "images": [],
+      "math": 15,
+      "mathErrors": [],
+      "renderers": 15,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:01.564Z"
+  },
+  {
+    "path": "docs/solutions/5.37.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.37.md",
+    "expected": {
+      "path": "docs/solutions/5.37.md",
+      "expected_math": 12,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.37: A stationary Markov distribution from Farkas lemma",
+      "images": [],
+      "math": 12,
+      "mathErrors": [],
+      "renderers": 12,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:03.718Z"
+  },
+  {
+    "path": "docs/solutions/5.38.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.38.md",
+    "expected": {
+      "path": "docs/solutions/5.38.md",
+      "expected_math": 21,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.38: Unique no-arbitrage price in a two-state market",
+      "images": [],
+      "math": 21,
+      "mathErrors": [],
+      "renderers": 21,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:05.945Z"
+  },
+  {
+    "path": "docs/solutions/5.39.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.39.md",
+    "expected": {
+      "path": "docs/solutions/5.39.md",
+      "expected_math": 15,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.39: Two equivalent semidefinite partitioning bounds",
+      "images": [],
+      "math": 15,
+      "mathErrors": [],
+      "renderers": 15,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:08.098Z"
+  },
+  {
+    "path": "docs/solutions/5.4.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.4.md",
+    "expected": {
+      "path": "docs/solutions/5.4.md",
+      "expected_math": 39,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.4: Aggregated-halfspace bounds and the LP dual",
+      "images": [],
+      "math": 39,
+      "mathErrors": [],
+      "renderers": 39,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:10.353Z"
+  },
+  {
+    "path": "docs/solutions/5.40.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.40.md",
+    "expected": {
+      "path": "docs/solutions/5.40.md",
+      "expected_math": 35,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.40: A simple SDP dual for E-optimal design",
+      "images": [],
+      "math": 35,
+      "mathErrors": [],
+      "renderers": 35,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:12.642Z"
+  },
+  {
+    "path": "docs/solutions/5.41.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.41.md",
+    "expected": {
+      "path": "docs/solutions/5.41.md",
+      "expected_math": 35,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.41: Dual of the fastest mixing Markov chain problem",
+      "images": [],
+      "math": 35,
+      "mathErrors": [],
+      "renderers": 35,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:14.917Z"
+  },
+  {
+    "path": "docs/solutions/5.42.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.42.md",
+    "expected": {
+      "path": "docs/solutions/5.42.md",
+      "expected_math": 19,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.42: Dual of a conic inequality problem",
+      "images": [],
+      "math": 19,
+      "mathErrors": [],
+      "renderers": 19,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:17.099Z"
+  },
+  {
+    "path": "docs/solutions/5.43.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.43.md",
+    "expected": {
+      "path": "docs/solutions/5.43.md",
+      "expected_math": 32,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.43: Two derivations of the SOCP dual",
+      "images": [],
+      "math": 32,
+      "mathErrors": [],
+      "renderers": 32,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:48:19.524Z"
+  },
+  {
+    "path": "docs/solutions/5.44.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.44.md",
+    "expected": {
+      "path": "docs/solutions/5.44.md",
+      "expected_math": 45,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.44: Strong alternatives for nonstrict linear matrix inequalities",
+      "images": [],
+      "math": 45,
+      "mathErrors": [],
+      "renderers": 45,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:13.125Z"
+  },
+  {
+    "path": "docs/solutions/5.5.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.5.md",
+    "expected": {
+      "path": "docs/solutions/5.5.md",
+      "expected_math": 9,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.5: The dual of a general linear program",
+      "images": [],
+      "math": 9,
+      "mathErrors": [],
+      "renderers": 9,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:20.091Z"
+  },
+  {
+    "path": "docs/solutions/5.6.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.6.md",
+    "expected": {
+      "path": "docs/solutions/5.6.md",
+      "expected_math": 17,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.6: Least-squares certificates for Chebyshev approximation",
+      "images": [],
+      "math": 17,
+      "mathErrors": [],
+      "renderers": 17,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:22.541Z"
+  },
+  {
+    "path": "docs/solutions/5.7.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.7.md",
+    "expected": {
+      "path": "docs/solutions/5.7.md",
+      "expected_math": 35,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.7: Piecewise-linear duals and log-sum-exp approximation",
+      "images": [],
+      "math": 35,
+      "mathErrors": [],
+      "renderers": 35,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:24.729Z"
+  },
+  {
+    "path": "docs/solutions/5.8.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.8.md",
+    "expected": {
+      "path": "docs/solutions/5.8.md",
+      "expected_math": 19,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.8: Eliminating box-constraint dual multipliers",
+      "images": [],
+      "math": 19,
+      "mathErrors": [],
+      "renderers": 19,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:26.852Z"
+  },
+  {
+    "path": "docs/solutions/5.9.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/5.9.md",
+    "expected": {
+      "path": "docs/solutions/5.9.md",
+      "expected_math": 23,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 5.9: A volume bound for a simple enclosing ellipsoid",
+      "images": [],
+      "math": 23,
+      "mathErrors": [],
+      "renderers": 23,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:29.036Z"
+  },
+  {
+    "path": "docs/solutions/8.1.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.1.md",
+    "expected": {
+      "path": "docs/solutions/8.1.md",
+      "expected_math": 8,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.1: Uniqueness of metric projection",
+      "images": [],
+      "math": 8,
+      "mathErrors": [],
+      "renderers": 8,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:31.544Z"
+  },
+  {
+    "path": "docs/solutions/8.10.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.10.md",
+    "expected": {
+      "path": "docs/solutions/8.10.md",
+      "expected_math": 22,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.10: Minimax fitting of vector angles",
+      "images": [],
+      "math": 22,
+      "mathErrors": [],
+      "renderers": 22,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:33.698Z"
+  },
+  {
+    "path": "docs/solutions/8.11.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.11.md",
+    "expected": {
+      "path": "docs/solutions/8.11.md",
+      "expected_math": 22,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.11: The narrowest circular cone through given directions",
+      "images": [],
+      "math": 22,
+      "mathErrors": [],
+      "renderers": 22,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:35.873Z"
+  },
+  {
+    "path": "docs/solutions/8.12.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.12.md",
+    "expected": {
+      "path": "docs/solutions/8.12.md",
+      "expected_math": 31,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.12: Uniqueness of extremal ellipsoids",
+      "images": [],
+      "math": 31,
+      "mathErrors": [],
+      "renderers": 31,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:38.148Z"
+  },
+  {
+    "path": "docs/solutions/8.13.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.13.md",
+    "expected": {
+      "path": "docs/solutions/8.13.md",
+      "expected_math": 26,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.13: The covering ellipsoid of a simplex",
+      "images": [],
+      "math": 26,
+      "mathErrors": [],
+      "renderers": 26,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:40.438Z"
+  },
+  {
+    "path": "docs/solutions/8.14.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.14.md",
+    "expected": {
+      "path": "docs/solutions/8.14.md",
+      "expected_math": 29,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.14: Dimension factors for an inscribed ellipsoid",
+      "images": [],
+      "math": 29,
+      "mathErrors": [],
+      "renderers": 29,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:42.695Z"
+  },
+  {
+    "path": "docs/solutions/8.15.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.15.md",
+    "expected": {
+      "path": "docs/solutions/8.15.md",
+      "expected_math": 16,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.15: An ellipsoid covering several ellipsoids",
+      "images": [],
+      "math": 16,
+      "mathErrors": [],
+      "renderers": 16,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:44.968Z"
+  },
+  {
+    "path": "docs/solutions/8.16.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.16.md",
+    "expected": {
+      "path": "docs/solutions/8.16.md",
+      "expected_math": 12,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.16: Maximum-volume axis-aligned rectangle",
+      "images": [],
+      "math": 12,
+      "mathErrors": [],
+      "renderers": 12,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:49:47.167Z"
+  },
+  {
+    "path": "docs/solutions/8.17.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.17.md",
+    "expected": {
+      "path": "docs/solutions/8.17.md",
+      "expected_math": 10,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.17: Invariance properties of the analytic center",
+      "images": [],
+      "math": 10,
+      "mathErrors": [],
+      "renderers": 10,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:50:16.209Z"
+  },
+  {
+    "path": "docs/solutions/8.18.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.18.md",
+    "expected": {
+      "path": "docs/solutions/8.18.md",
+      "expected_math": 20,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.18: Moving an analytic center with redundant inequalities",
+      "images": [],
+      "math": 20,
+      "mathErrors": [],
+      "renderers": 20,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:50:18.471Z"
+  },
+  {
+    "path": "docs/solutions/8.19.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.19.md",
+    "expected": {
+      "path": "docs/solutions/8.19.md",
+      "expected_math": 23,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.19: A sufficient redundancy certificate at the analytic center",
+      "images": [],
+      "math": 23,
+      "mathErrors": [],
+      "renderers": 23,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:50:20.943Z"
+  },
+  {
+    "path": "docs/solutions/8.2.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.2.md",
+    "expected": {
+      "path": "docs/solutions/8.2.md",
+      "expected_math": 66,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.2: Chebyshev sets are closed and convex",
+      "images": [],
+      "math": 66,
+      "mathErrors": [],
+      "renderers": 66,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:50:22.346Z"
+  },
+  {
+    "path": "docs/solutions/8.20.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.20.md",
+    "expected": {
+      "path": "docs/solutions/8.20.md",
+      "expected_math": 19,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.20: Analytic-center ellipsoids for an LMI",
+      "images": [],
+      "math": 19,
+      "mathErrors": [],
+      "renderers": 19,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:50:58.005Z"
+  },
+  {
+    "path": "docs/solutions/8.21.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.21.md",
+    "expected": {
+      "path": "docs/solutions/8.21.md",
+      "expected_math": 8,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.21: Analytic center as a maximum-likelihood estimate",
+      "images": [],
+      "math": 8,
+      "mathErrors": [],
+      "renderers": 8,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:00.316Z"
+  },
+  {
+    "path": "docs/solutions/8.22.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.22.md",
+    "expected": {
+      "path": "docs/solutions/8.22.md",
+      "expected_math": 9,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.22: Center of gravity minimizes integrated squared distance",
+      "images": [],
+      "math": 9,
+      "mathErrors": [],
+      "renderers": 9,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:02.478Z"
+  },
+  {
+    "path": "docs/solutions/8.23.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.23.md",
+    "expected": {
+      "path": "docs/solutions/8.23.md",
+      "expected_math": 16,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.23: Margin maximization and the hard-margin quadratic program",
+      "images": [],
+      "math": 16,
+      "mathErrors": [],
+      "renderers": 16,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:04.731Z"
+  },
+  {
+    "path": "docs/solutions/8.24.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.24.md",
+    "expected": {
+      "path": "docs/solutions/8.24.md",
+      "expected_math": 7,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.24: A classifier robust to perturbing its weights",
+      "images": [],
+      "math": 7,
+      "mathErrors": [],
+      "renderers": 7,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:07.015Z"
+  },
+  {
+    "path": "docs/solutions/8.25.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.25.md",
+    "expected": {
+      "path": "docs/solutions/8.25.md",
+      "expected_math": 21,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.25: A separating ellipsoid of minimum eccentricity",
+      "images": [],
+      "math": 21,
+      "mathErrors": [],
+      "renderers": 21,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:09.356Z"
+  },
+  {
+    "path": "docs/solutions/8.26.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.26.md",
+    "expected": {
+      "path": "docs/solutions/8.26.md",
+      "expected_math": 13,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.26: Quadratic placement by a graph Laplacian",
+      "images": [],
+      "math": 13,
+      "mathErrors": [],
+      "renderers": 13,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:10.595Z"
+  },
+  {
+    "path": "docs/solutions/8.27.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.27.md",
+    "expected": {
+      "path": "docs/solutions/8.27.md",
+      "expected_math": 4,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.27: Convex restrictions for minimum separations",
+      "images": [],
+      "math": 4,
+      "mathErrors": [],
+      "renderers": 4,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:12.843Z"
+  },
+  {
+    "path": "docs/solutions/8.28.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.28.md",
+    "expected": {
+      "path": "docs/solutions/8.28.md",
+      "expected_math": 31,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.28: Inscribed and covering homothetic symmetric polyhedra",
+      "images": [],
+      "math": 31,
+      "mathErrors": [],
+      "renderers": 31,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:28.454Z"
+  },
+  {
+    "path": "docs/solutions/8.29.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.29.md",
+    "expected": {
+      "path": "docs/solutions/8.29.md",
+      "expected_math": 23,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.29: Outer polyhedral approximation using support functions",
+      "images": [],
+      "math": 23,
+      "mathErrors": [],
+      "renderers": 23,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:30.967Z"
+  },
+  {
+    "path": "docs/solutions/8.3.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.3.md",
+    "expected": {
+      "path": "docs/solutions/8.3.md",
+      "expected_math": 30,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.3: Projections on three proper cones",
+      "images": [],
+      "math": 30,
+      "mathErrors": [],
+      "renderers": 30,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:33.295Z"
+  },
+  {
+    "path": "docs/solutions/8.30.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.30.md",
+    "expected": {
+      "path": "docs/solutions/8.30.md",
+      "expected_math": 36,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.30: Convex trade-off between arc length and tangent jumps",
+      "images": [],
+      "math": 36,
+      "mathErrors": [],
+      "renderers": 36,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:35.695Z"
+  },
+  {
+    "path": "docs/solutions/8.4.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.4.md",
+    "expected": {
+      "path": "docs/solutions/8.4.md",
+      "expected_math": 11,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.4: A non-Euclidean projection need not give the Euclidean separator",
+      "images": [],
+      "math": 11,
+      "mathErrors": [],
+      "renderers": 11,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:37.807Z"
+  },
+  {
+    "path": "docs/solutions/8.5.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.5.md",
+    "expected": {
+      "path": "docs/solutions/8.5.md",
+      "expected_math": 29,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.5: Depth and signed distance of a convex set",
+      "images": [],
+      "math": 29,
+      "mathErrors": [],
+      "renderers": 29,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:39.989Z"
+  },
+  {
+    "path": "docs/solutions/8.6.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.6.md",
+    "expected": {
+      "path": "docs/solutions/8.6.md",
+      "expected_math": 14,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.6: Convexity of distances between translated and scaled sets",
+      "images": [],
+      "math": 14,
+      "mathErrors": [],
+      "renderers": 14,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:42.288Z"
+  },
+  {
+    "path": "docs/solutions/8.7.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.7.md",
+    "expected": {
+      "path": "docs/solutions/8.7.md",
+      "expected_math": 8,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.7: Strict separation of two ellipsoids",
+      "images": [],
+      "math": 8,
+      "mathErrors": [],
+      "renderers": 8,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:44.574Z"
+  },
+  {
+    "path": "docs/solutions/8.8.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.8.md",
+    "expected": {
+      "path": "docs/solutions/8.8.md",
+      "expected_math": 19,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.8: Polyhedral intersection and containment",
+      "images": [],
+      "math": 19,
+      "mathErrors": [],
+      "renderers": 19,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:46.931Z"
+  },
+  {
+    "path": "docs/solutions/8.9.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/8.9.md",
+    "expected": {
+      "path": "docs/solutions/8.9.md",
+      "expected_math": 18,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 8.9: Least-squares fitting of Euclidean distances",
+      "images": [],
+      "math": 18,
+      "mathErrors": [],
+      "renderers": 18,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:49.181Z"
+  },
+  {
+    "path": "docs/solutions/9.1.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.1.md",
+    "expected": {
+      "path": "docs/solutions/9.1.md",
+      "expected_math": 17,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.1: Unbounded quadratic minimization",
+      "images": [],
+      "math": 17,
+      "mathErrors": [],
+      "renderers": 17,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:51:59.434Z"
+  },
+  {
+    "path": "docs/solutions/9.11.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.11.md",
+    "expected": {
+      "path": "docs/solutions/9.11.md",
+      "expected_math": 16,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.11: Gradient and Newton methods after an increasing composition",
+      "images": [],
+      "math": 16,
+      "mathErrors": [],
+      "renderers": 16,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:01.814Z"
+  },
+  {
+    "path": "docs/solutions/9.12.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.12.md",
+    "expected": {
+      "path": "docs/solutions/9.12.md",
+      "expected_math": 15,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.12: A trust region produces a regularized Newton model",
+      "images": [],
+      "math": 15,
+      "mathErrors": [],
+      "renderers": 15,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:03.266Z"
+  },
+  {
+    "path": "docs/solutions/9.13.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.13.md",
+    "expected": {
+      "path": "docs/solutions/9.13.md",
+      "expected_math": 11,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.13: Self-concordance of an inverse-slack penalty",
+      "images": [],
+      "math": 11,
+      "mathErrors": [],
+      "renderers": 11,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:05.625Z"
+  },
+  {
+    "path": "docs/solutions/9.14.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.14.md",
+    "expected": {
+      "path": "docs/solutions/9.14.md",
+      "expected_math": 9,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.14: The logarithmic-composition rule",
+      "images": [],
+      "math": 9,
+      "mathErrors": [],
+      "renderers": 9,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:07.853Z"
+  },
+  {
+    "path": "docs/solutions/9.15.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.15.md",
+    "expected": {
+      "path": "docs/solutions/9.15.md",
+      "expected_math": 23,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.15: Three self-concordant conic barriers",
+      "images": [],
+      "math": 23,
+      "mathErrors": [],
+      "renderers": 23,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:10.099Z"
+  },
+  {
+    "path": "docs/solutions/9.16.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.16.md",
+    "expected": {
+      "path": "docs/solutions/9.16.md",
+      "expected_math": 15,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.16: Curvature of a one-dimensional self-concordant function",
+      "images": [],
+      "math": 15,
+      "mathErrors": [],
+      "renderers": 15,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:12.248Z"
+  },
+  {
+    "path": "docs/solutions/9.17.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.17.md",
+    "expected": {
+      "path": "docs/solutions/9.17.md",
+      "expected_math": 39,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.17: Mixed derivatives, fixed nullspace, and Hessian comparison",
+      "images": [],
+      "math": 39,
+      "mathErrors": [],
+      "renderers": 39,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:14.456Z"
+  },
+  {
+    "path": "docs/solutions/9.18.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.18.md",
+    "expected": {
+      "path": "docs/solutions/9.18.md",
+      "expected_math": 20,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.18: Quadratic contraction of the Newton decrement",
+      "images": [],
+      "math": 20,
+      "mathErrors": [],
+      "renderers": 20,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:16.605Z"
+  },
+  {
+    "path": "docs/solutions/9.19.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.19.md",
+    "expected": {
+      "path": "docs/solutions/9.19.md",
+      "expected_math": 23,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.19: Attainment and distance from the optimum",
+      "images": [],
+      "math": 23,
+      "mathErrors": [],
+      "renderers": 23,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:18.224Z"
+  },
+  {
+    "path": "docs/solutions/9.2.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.2.md",
+    "expected": {
+      "path": "docs/solutions/9.2.md",
+      "expected_math": 26,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.2: A closed quadratic-over-linear minimization",
+      "images": [],
+      "math": 26,
+      "mathErrors": [],
+      "renderers": 26,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:29.271Z"
+  },
+  {
+    "path": "docs/solutions/9.20.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.20.md",
+    "expected": {
+      "path": "docs/solutions/9.20.md",
+      "expected_math": 18,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.20: Legendre duality preserves self-concordance",
+      "images": [],
+      "math": 18,
+      "mathErrors": [],
+      "renderers": 18,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:31.716Z"
+  },
+  {
+    "path": "docs/solutions/9.21.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.21.md",
+    "expected": {
+      "path": "docs/solutions/9.21.md",
+      "expected_math": 12,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.21: Optimizing the stated Newton complexity bound",
+      "images": [],
+      "math": 12,
+      "mathErrors": [],
+      "renderers": 12,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:34.185Z"
+  },
+  {
+    "path": "docs/solutions/9.22.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.22.md",
+    "expected": {
+      "path": "docs/solutions/9.22.md",
+      "expected_math": 13,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.22: Newton complexity under a scaled third-derivative condition",
+      "images": [],
+      "math": 13,
+      "mathErrors": [],
+      "renderers": 13,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:36.376Z"
+  },
+  {
+    "path": "docs/solutions/9.23.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.23.md",
+    "expected": {
+      "path": "docs/solutions/9.23.md",
+      "expected_math": 34,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.23: Precomputations for efficient line searches",
+      "images": [],
+      "math": 34,
+      "mathErrors": [],
+      "renderers": 34,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:37.615Z"
+  },
+  {
+    "path": "docs/solutions/9.24.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.24.md",
+    "expected": {
+      "path": "docs/solutions/9.24.md",
+      "expected_math": 12,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.24: Block-diagonal Newton systems and separability",
+      "images": [],
+      "math": 12,
+      "mathErrors": [],
+      "renderers": 12,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:38.813Z"
+  },
+  {
+    "path": "docs/solutions/9.25.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.25.md",
+    "expected": {
+      "path": "docs/solutions/9.25.md",
+      "expected_math": 23,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.25: Hessian structure for one- and two-dimensional smoothing",
+      "images": [],
+      "math": 23,
+      "mathErrors": [],
+      "renderers": 23,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:40.786Z"
+  },
+  {
+    "path": "docs/solutions/9.26.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.26.md",
+    "expected": {
+      "path": "docs/solutions/9.26.md",
+      "expected_math": 24,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.26: Sparse lifted Newton equations for affine compositions",
+      "images": [],
+      "math": 24,
+      "mathErrors": [],
+      "renderers": 24,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:43.115Z"
+  },
+  {
+    "path": "docs/solutions/9.27.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.27.md",
+    "expected": {
+      "path": "docs/solutions/9.27.md",
+      "expected_math": 22,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.27: Efficient analytic-center Newton steps with box bounds",
+      "images": [],
+      "math": 22,
+      "mathErrors": [],
+      "renderers": 22,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:44.299Z"
+  },
+  {
+    "path": "docs/solutions/9.28.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.28.md",
+    "expected": {
+      "path": "docs/solutions/9.28.md",
+      "expected_math": 22,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.28: Sparse-plus-low-rank Newton steps for quadratic barriers",
+      "images": [],
+      "math": 22,
+      "mathErrors": [],
+      "renderers": 22,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:45.543Z"
+  },
+  {
+    "path": "docs/solutions/9.29.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.29.md",
+    "expected": {
+      "path": "docs/solutions/9.29.md",
+      "expected_math": 19,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.29: Arrowhead elimination for two-stage optimization",
+      "images": [],
+      "math": 19,
+      "mathErrors": [],
+      "renderers": 19,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:55.319Z"
+  },
+  {
+    "path": "docs/solutions/9.3.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.3.md",
+    "expected": {
+      "path": "docs/solutions/9.3.md",
+      "expected_math": 26,
+      "expected_images": 1,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.3: A nonclosed sublevel set breaks gradient convergence",
+      "images": [
+        {
+          "alt": "The disk cap sublevel set and the gradient iterates approaching its excluded boundary",
+          "complete": true,
+          "naturalHeight": 499,
+          "naturalWidth": 538,
+          "src": "https://github.com/myazdani/convex-optimization-solutions/raw/4ac945c67e7c0daa74a08369416b7181df34c135/docs/figures/ex_9_3.svg"
+        }
+      ],
+      "math": 26,
+      "mathErrors": [],
+      "renderers": 26,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:52:57.725Z"
+  },
+  {
+    "path": "docs/solutions/9.4.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.4.md",
+    "expected": {
+      "path": "docs/solutions/9.4.md",
+      "expected_math": 15,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.4: Why the perspective formulation is not a routine Newton problem",
+      "images": [],
+      "math": 15,
+      "mathErrors": [],
+      "renderers": 15,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:53:09.529Z"
+  },
+  {
+    "path": "docs/solutions/9.5.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.5.md",
+    "expected": {
+      "path": "docs/solutions/9.5.md",
+      "expected_math": 12,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.5: An explicit backtracking bound",
+      "images": [],
+      "math": 12,
+      "mathErrors": [],
+      "renderers": 12,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:53:25.606Z"
+  },
+  {
+    "path": "docs/solutions/9.6.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.6.md",
+    "expected": {
+      "path": "docs/solutions/9.6.md",
+      "expected_math": 16,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.6: Exact iterates for a two-dimensional quadratic",
+      "images": [],
+      "math": 16,
+      "mathErrors": [],
+      "renderers": 16,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:53:34.854Z"
+  },
+  {
+    "path": "docs/solutions/9.7.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.7.md",
+    "expected": {
+      "path": "docs/solutions/9.7.md",
+      "expected_math": 14,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.7: Steepest descent and the dual norm",
+      "images": [],
+      "math": 14,
+      "mathErrors": [],
+      "renderers": 14,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:53:37.222Z"
+  },
+  {
+    "path": "docs/solutions/9.8.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.8.md",
+    "expected": {
+      "path": "docs/solutions/9.8.md",
+      "expected_math": 7,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.8: Steepest descent in the infinity norm",
+      "images": [],
+      "math": 7,
+      "mathErrors": [],
+      "renderers": 7,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:53:39.394Z"
+  },
+  {
+    "path": "docs/solutions/9.9.md",
+    "sha": "4ac945c67e7c0daa74a08369416b7181df34c135",
+    "url": "https://github.com/myazdani/convex-optimization-solutions/blob/4ac945c67e7c0daa74a08369416b7181df34c135/docs/solutions/9.9.md",
+    "expected": {
+      "path": "docs/solutions/9.9.md",
+      "expected_math": 12,
+      "expected_images": 0,
+      "expected_tables": 0
+    },
+    "actual": {
+      "heading": "Exercise 9.9: Variational characterization of the Newton decrement",
+      "images": [],
+      "math": 12,
+      "mathErrors": [],
+      "renderers": 12,
+      "renderersWithoutMath": 0,
+      "tables": 0
+    },
+    "errors": [],
+    "observedAt": "2026-10-10T06:53:40.559Z"
+  }
+]

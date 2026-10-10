@@ -862,7 +862,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
       "solution_path": "docs/solutions/2.15.md",
-      "verification_path": "coverage/reviews/ch02_batch002.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:2.16",
@@ -884,7 +884,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
       "solution_path": "docs/solutions/2.17.md",
-      "verification_path": "coverage/reviews/ch02_batch002.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:2.18",
@@ -961,7 +961,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
       "solution_path": "docs/solutions/2.24.md",
-      "verification_path": "coverage/reviews/ch02_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:2.25",
@@ -1115,7 +1115,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80",
       "solution_path": "docs/solutions/2.38.md",
-      "verification_path": "coverage/reviews/ch02_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:2.39",
@@ -1236,7 +1236,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
       "solution_path": "docs/solutions/3.10.md",
-      "verification_path": "coverage/reviews/ch03_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.11",
@@ -1258,7 +1258,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
       "solution_path": "docs/solutions/3.12.md",
-      "verification_path": "coverage/reviews/ch03_batch002.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.13",
@@ -1390,7 +1390,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
       "solution_path": "docs/solutions/3.24.md",
-      "verification_path": "coverage/reviews/ch03_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.25",
@@ -1401,7 +1401,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
       "solution_path": "docs/solutions/3.25.md",
-      "verification_path": "coverage/reviews/ch03_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.26",
@@ -1434,7 +1434,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
       "solution_path": "docs/solutions/3.28.md",
-      "verification_path": "coverage/reviews/ch03_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.29",
@@ -1522,7 +1522,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
       "solution_path": "docs/solutions/3.36.md",
-      "verification_path": "coverage/reviews/ch03_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.37",
@@ -1654,7 +1654,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
       "solution_path": "docs/solutions/3.48.md",
-      "verification_path": "coverage/reviews/ch03_batch005.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:3.49",
@@ -1808,7 +1808,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
       "solution_path": "docs/solutions/4.2.md",
-      "verification_path": "coverage/reviews/ch04_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.3",
@@ -1852,7 +1852,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205",
       "solution_path": "docs/solutions/4.6.md",
-      "verification_path": "coverage/reviews/ch04_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.7",
@@ -1874,7 +1874,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=206",
       "solution_path": "docs/solutions/4.8.md",
-      "verification_path": "coverage/reviews/ch04_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.9",
@@ -2028,7 +2028,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
       "solution_path": "docs/solutions/4.22.md",
-      "verification_path": "coverage/reviews/ch04_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.23",
@@ -2204,7 +2204,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
       "solution_path": "docs/solutions/4.38.md",
-      "verification_path": "coverage/reviews/ch04_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.39",
@@ -2303,7 +2303,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
       "solution_path": "docs/solutions/4.47.md",
-      "verification_path": "coverage/reviews/ch04_batch005.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:4.48",
@@ -2512,7 +2512,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
       "solution_path": "docs/solutions/5.1.md",
-      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.2",
@@ -2567,7 +2567,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
       "solution_path": "docs/solutions/5.6.md",
-      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.7",
@@ -2732,7 +2732,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
       "solution_path": "docs/solutions/5.21.md",
-      "verification_path": "coverage/reviews/ch05_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.22",
@@ -2743,7 +2743,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
       "solution_path": "docs/solutions/5.22.md",
-      "verification_path": "coverage/reviews/ch05_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.23",
@@ -2776,7 +2776,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
       "solution_path": "docs/solutions/5.25.md",
-      "verification_path": "coverage/reviews/ch05_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.26",
@@ -2897,7 +2897,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
       "solution_path": "docs/solutions/5.36.md",
-      "verification_path": "coverage/reviews/ch05_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.37",
@@ -2908,7 +2908,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
       "solution_path": "docs/solutions/5.37.md",
-      "verification_path": "coverage/reviews/ch05_batch004.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:5.38",
@@ -3007,7 +3007,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
       "solution_path": "docs/solutions/6.2.md",
-      "verification_path": "coverage/reviews/ch06_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:6.3",
@@ -3051,7 +3051,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
       "solution_path": "docs/solutions/6.6.md",
-      "verification_path": "coverage/reviews/ch06_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:6.7",
@@ -3172,7 +3172,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
       "solution_path": "docs/solutions/7.3.md",
-      "verification_path": "coverage/reviews/ch07_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:7.4",
@@ -3293,7 +3293,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
       "solution_path": "docs/solutions/8.1.md",
-      "verification_path": "coverage/reviews/ch08_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:8.2",
@@ -3337,7 +3337,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
       "solution_path": "docs/solutions/8.5.md",
-      "verification_path": "coverage/reviews/ch08_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:8.6",
@@ -3414,7 +3414,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
       "solution_path": "docs/solutions/8.12.md",
-      "verification_path": "coverage/reviews/ch08_batch002.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:8.13",
@@ -3612,7 +3612,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
       "solution_path": "docs/solutions/8.30.md",
-      "verification_path": "coverage/reviews/ch08_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:9.1",
@@ -3645,7 +3645,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
       "solution_path": "docs/solutions/9.3.md",
-      "verification_path": "coverage/reviews/ch09_batch001.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:9.4",
@@ -3843,7 +3843,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
       "solution_path": "docs/solutions/9.21.md",
-      "verification_path": "coverage/reviews/ch09_batch003.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:9.22",
@@ -4173,7 +4173,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
       "solution_path": "docs/solutions/11.3.md",
-      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:11.4",
@@ -4261,7 +4261,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
       "solution_path": "docs/solutions/11.11.md",
-      "verification_path": "coverage/reviews/ch11_batch002_root.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:11.12",
@@ -4294,7 +4294,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
       "solution_path": "docs/solutions/11.14.md",
-      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:11.15",
@@ -4305,7 +4305,7 @@
       "state": "verified",
       "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
       "solution_path": "docs/solutions/11.15.md",
-      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+      "verification_path": "coverage/reviews/markdown_math_proof_carryforward.json"
     },
     {
       "key": "exercise:11.16",

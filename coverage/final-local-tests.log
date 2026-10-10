@@ -1,34 +1,35 @@
 ============================= test session starts ==============================
 platform linux -- Python 3.12.14, pytest-9.1.1, pluggy-1.6.0
-rootdir: /workspace/shared/full-book-final-review-snapshot
+rootdir: /workspace/shared/full-book-render-corrected-snapshot
 configfile: pyproject.toml
 testpaths: tests
 plugins: anyio-4.14.2
-collected 240 items
+collected 247 items
 
 tests/test_catalog.py .........                                          [  3%]
 tests/test_chapter04_05.py ..........................                    [ 14%]
-tests/test_chapter10.py .............                                    [ 20%]
-tests/test_chapter11.py ..................                               [ 27%]
-tests/test_cli.py ....                                                   [ 29%]
-tests/test_docs_formatting.py ...                                        [ 30%]
-tests/test_ex_9_10.py ..                                                 [ 31%]
+tests/test_chapter10.py .............                                    [ 19%]
+tests/test_chapter11.py ..................                               [ 26%]
+tests/test_cli.py ....                                                   [ 28%]
+tests/test_docs_formatting.py ....                                       [ 29%]
+tests/test_ex_9_10.py ..                                                 [ 30%]
 tests/test_ex_9_30.py ......                                             [ 33%]
-tests/test_ex_9_31.py .........                                          [ 37%]
-tests/test_ex_9_32.py .......                                            [ 40%]
-tests/test_example_evidence.py ........                                  [ 43%]
-tests/test_generated_results.py ..................                       [ 51%]
-tests/test_infrastructure.py ......                                      [ 53%]
-tests/test_inventory.py ....                                             [ 55%]
-tests/test_package_repository.py ......                                  [ 57%]
-tests/test_solution_evidence.py .............                            [ 63%]
-tests/test_worked_algorithms_ch09.py .......                             [ 66%]
-tests/test_worked_algorithms_ch10.py ....                                [ 67%]
-tests/test_worked_algorithms_ch11.py .............                       [ 73%]
+tests/test_ex_9_31.py .........                                          [ 36%]
+tests/test_ex_9_32.py .......                                            [ 39%]
+tests/test_example_evidence.py ........                                  [ 42%]
+tests/test_generated_results.py ..................                       [ 50%]
+tests/test_infrastructure.py ......                                      [ 52%]
+tests/test_inventory.py ....                                             [ 54%]
+tests/test_markdown_math.py ......                                       [ 56%]
+tests/test_package_repository.py ......                                  [ 59%]
+tests/test_solution_evidence.py .............                            [ 64%]
+tests/test_worked_algorithms_ch09.py .......                             [ 67%]
+tests/test_worked_algorithms_ch10.py ....                                [ 68%]
+tests/test_worked_algorithms_ch11.py .............                       [ 74%]
 tests/test_worked_applications.py ...................................... [ 89%]
 ...                                                                      [ 90%]
 tests/test_worked_examples_7_4_8_3.py .......................            [100%]
 
-- generated xml file: /workspace/shared/full-book-final-review-snapshot/coverage/final-local-tests.xml -
-============================= 240 passed in 23.83s =============================
+- generated xml file: /workspace/shared/full-book-render-corrected-snapshot/coverage/final-local-tests.xml -
+============================= 247 passed in 23.32s =============================
 ISOLATION PASS: no original-source or excluded-file reads; all 21 omitted NPZs regenerated and array hashes verified.

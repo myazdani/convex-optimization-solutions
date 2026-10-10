@@ -2,8 +2,8 @@
   "status": "passed",
   "original_source_and_holding_reads_blocked": true,
   "attempted_forbidden_reads": [],
-  "module_path": "/workspace/shared/full-book-final-review-snapshot/src/convex_solutions/__init__.py",
-  "algorithm_root": "/workspace/shared/full-book-final-review-snapshot",
+  "module_path": "/workspace/shared/full-book-render-corrected-snapshot/src/convex_solutions/__init__.py",
+  "algorithm_root": "/workspace/shared/full-book-render-corrected-snapshot",
   "omitted_inputs_regenerated_and_hash_verified": [
     {
       "id": "fig_10_6",
@@ -132,5 +132,5 @@
       "passed": true
     }
   ],
-  "elapsed_seconds_including_tests_and_regeneration": 26.77299084799961
+  "elapsed_seconds_including_tests_and_regeneration": 26.22467948299891
 }

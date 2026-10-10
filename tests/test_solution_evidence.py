@@ -9,6 +9,7 @@ import pytest
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / 'scripts'))
 from solution_evidence import validate_solution_evidence
+from markdown_math import validate_baseline_markdown_exception
 
 
 @pytest.fixture
@@ -56,5 +57,12 @@ def test_independent_review_gate(accepted, mutation):
 
 def test_original_numerical_deliverables_are_unchanged():
     baseline = json.loads((ROOT / 'coverage/preserved_numerical_baseline.json').read_text())
+    exceptions = json.loads((ROOT / 'coverage/markdown_rendering_exceptions.json').read_text())['entries']
+    assert {x['path'] for x in exceptions} == {'docs/solutions/9.31.md', 'docs/solutions/10.16.md', 'docs/solutions/11.1.md'}
+    by_path = {x['path']: x for x in exceptions}
     for relative, expected in baseline['sha256'].items():
-        assert hashlib.sha256((ROOT / relative).read_bytes()).hexdigest() == expected, relative
+        actual = (ROOT / relative).read_bytes()
+        if relative in by_path:
+            validate_baseline_markdown_exception(relative, expected, actual, by_path[relative])
+        else:
+            assert hashlib.sha256(actual).hexdigest() == expected, relative

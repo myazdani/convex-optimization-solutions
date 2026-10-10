@@ -15,7 +15,7 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "8887e9cd4c916e6c0d32702ed63144db1d18f601b7166ad668a2a5fb94f1798e",
+      "solution_sha256": "f0b3139ba47caa0d7c5ee4ec201095efb90cdf55bcf5a576b6e3dcc743e43576",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
     },
     {
@@ -83,7 +83,7 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "7c07d827e7eb6980b6d00b0f5124a7e45f25b7b257246dcaa3e2bac1b5c5f109",
+      "solution_sha256": "d8b44432d7e97a214821cd9a5ac1c9732a3f845e2bab5400475ee756d1e1a0d5",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
     },
     {
@@ -291,7 +291,7 @@
         "d"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "59edf93d9159f61c969596fb5ff4680e7815057c053f23303269e134a13513b9",
+      "solution_sha256": "656fd15592fd28b243f553e70be3be21b019358759489d8cf0055adb4f1a506d",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
     },
     {
@@ -309,7 +309,7 @@
         "f"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "069ed535272e20f375e8ac481374d10bbdbb416745fee3a2eb3a56937a449635",
+      "solution_sha256": "e468bc714b3479c8fdc47277736f6b2faa96f8576cfe27075c70bd7265a9e7ee",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
     },
     {
@@ -354,7 +354,7 @@
         "e"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "40ce4d03bc9c58e783aee8003b89e9fde471d47932b956b483babd29f7b47a33",
+      "solution_sha256": "d9e6a2e68864b936acb47177ce8bbcef640325e39d5e4e98dbbf93aa7b3073e9",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
     },
     {
@@ -460,7 +460,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "47433a129779a7da8bae48d444b4cf7d77666bef668cc85e19166d2373219e7f",
+      "solution_sha256": "02e338766e021174fa0988d103d8659aef58c917440d3004a83ba5fe8276dda9",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
     },
     {
@@ -473,7 +473,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "1345525d0f1de83ed92ca1f9064b51aae47262d00ad0cb25f1e31dc749b2e269",
+      "solution_sha256": "f4b03fb55a540d9182413ff070961aecf2825f459cdff70e756b567d62b31f22",
       "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
     },
     {

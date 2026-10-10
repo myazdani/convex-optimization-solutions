@@ -12,7 +12,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "1da610419bae013b94872be31ae8b189a1a667066d9b37f296ee7bb36df9057b",
+      "solution_sha256": "f2b27e3ce52745b9f5314644a0657c5e6e0753983b4978e148f7a1e2022ab870",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
     },
     {
@@ -71,7 +71,7 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "26101578104576929ed0b6f8aa6bb8e2a78a4530a8f35012ee125f00e4af90f7",
+      "solution_sha256": "839c83b77bbef805614beb0d9ddba839cf4bd328ff859ced423ca7ceede2bfdc",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
     },
     {
@@ -167,7 +167,7 @@
         "covering uniqueness"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "65a75e1a4e10df7d575e83302c952655a50627d38e2ba0bcd6e934674fbfd349",
+      "solution_sha256": "0a14a7366c02e74338194e777050db8cfdff60879084278fcc0b08b79d2ca55c",
       "notes": "States necessary convex-body/existence hypotheses and gives counterexamples to an unrestricted reading."
     },
     {
@@ -408,7 +408,7 @@
         "extreme trade-offs"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "cfc8db738c34b0dfefd75111c1ab88292ff4189a8f8120a9076459725a7030ef",
+      "solution_sha256": "806756d2dc7fdb61d2232371ebc7076671c03d1b34a787582f4cb3b060a0a505",
       "notes": "Corrects source arc/joint indexing; proves convexity and addresses open-angle endpoint attainment."
     }
   ]

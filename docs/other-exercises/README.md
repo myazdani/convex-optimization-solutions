@@ -43,16 +43,16 @@ Convex sets · **39 verified, 0 open**
 | 2.12 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.12.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
 | 2.13 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.13.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
 | 2.14 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.14.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
-| 2.15 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.15.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.15 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.15.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 2.16 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.16.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
-| 2.17 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.17.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.17 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.17.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 2.18 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.18.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
 | 2.19 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.19.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
 | 2.20 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.20.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
 | 2.21 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.21.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
 | 2.22 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.22.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
 | 2.23 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.23.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
-| 2.24 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.24.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.24 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.24.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 2.25 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.25.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
 | 2.26 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.26.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
 | 2.27 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.27.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
@@ -66,7 +66,7 @@ Convex sets · **39 verified, 0 open**
 | 2.35 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | [Verified](../../docs/solutions/2.35.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
 | 2.36 | [Printed p. 65 / PDF p. 79](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79) | [Verified](../../docs/solutions/2.36.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
 | 2.37 | [Printed p. 65 / PDF p. 79](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79) | [Verified](../../docs/solutions/2.37.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
-| 2.38 | [Printed p. 66 / PDF p. 80](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80) | [Verified](../../docs/solutions/2.38.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.38 | [Printed p. 66 / PDF p. 80](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80) | [Verified](../../docs/solutions/2.38.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 2.39 | [Printed p. 66 / PDF p. 80](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80) | [Verified](../../docs/solutions/2.39.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
 
 ## Chapter 3
@@ -84,9 +84,9 @@ Convex functions · **60 verified, 0 open**
 | 3.7 | [Printed p. 114 / PDF p. 128](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128) | [Verified](../../docs/solutions/3.7.md) · [Review](../../coverage/reviews/ch03_batch001.json) |
 | 3.8 | [Printed p. 114 / PDF p. 128](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128) | [Verified](../../docs/solutions/3.8.md) · [Review](../../coverage/reviews/ch03_batch001.json) |
 | 3.9 | [Printed p. 114 / PDF p. 128](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128) | [Verified](../../docs/solutions/3.9.md) · [Review](../../coverage/reviews/ch03_batch001.json) |
-| 3.10 | [Printed p. 114 / PDF p. 128](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128) | [Verified](../../docs/solutions/3.10.md) · [Review](../../coverage/reviews/ch03_batch001.json) |
+| 3.10 | [Printed p. 114 / PDF p. 128](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128) | [Verified](../../docs/solutions/3.10.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 3.11 | [Printed p. 115 / PDF p. 129](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129) | [Verified](../../docs/solutions/3.11.md) · [Review](../../coverage/reviews/ch03_batch002.json) |
-| 3.12 | [Printed p. 115 / PDF p. 129](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129) | [Verified](../../docs/solutions/3.12.md) · [Review](../../coverage/reviews/ch03_batch002.json) |
+| 3.12 | [Printed p. 115 / PDF p. 129](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129) | [Verified](../../docs/solutions/3.12.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 3.13 | [Printed p. 115 / PDF p. 129](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129) | [Verified](../../docs/solutions/3.13.md) · [Review](../../coverage/reviews/ch03_batch002.json) |
 | 3.14 | [Printed p. 115 / PDF p. 129](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129) | [Verified](../../docs/solutions/3.14.md) · [Review](../../coverage/reviews/ch03_batch002.json) |
 | 3.15 | [Printed p. 115 / PDF p. 129](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129) | [Verified](../../docs/solutions/3.15.md) · [Review](../../coverage/reviews/ch03_batch002.json) |
@@ -98,11 +98,11 @@ Convex functions · **60 verified, 0 open**
 | 3.21 | [Printed p. 117 / PDF p. 131](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131) | [Verified](../../docs/solutions/3.21.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
 | 3.22 | [Printed p. 117 / PDF p. 131](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131) | [Verified](../../docs/solutions/3.22.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
 | 3.23 | [Printed p. 117 / PDF p. 131](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131) | [Verified](../../docs/solutions/3.23.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
-| 3.24 | [Printed p. 117 / PDF p. 131](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131) | [Verified](../../docs/solutions/3.24.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
-| 3.25 | [Printed p. 118 / PDF p. 132](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132) | [Verified](../../docs/solutions/3.25.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
+| 3.24 | [Printed p. 117 / PDF p. 131](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131) | [Verified](../../docs/solutions/3.24.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
+| 3.25 | [Printed p. 118 / PDF p. 132](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132) | [Verified](../../docs/solutions/3.25.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 3.26 | [Printed p. 118 / PDF p. 132](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132) | [Verified](../../docs/solutions/3.26.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
 | 3.27 | [Printed p. 118 / PDF p. 132](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132) | [Verified](../../docs/solutions/3.27.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
-| 3.28 | [Printed p. 119 / PDF p. 133](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133) | [Verified](../../docs/solutions/3.28.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
+| 3.28 | [Printed p. 119 / PDF p. 133](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133) | [Verified](../../docs/solutions/3.28.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 3.29 | [Printed p. 119 / PDF p. 133](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133) | [Verified](../../docs/solutions/3.29.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
 | 3.30 | [Printed p. 119 / PDF p. 133](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133) | [Verified](../../docs/solutions/3.30.md) · [Review](../../coverage/reviews/ch03_batch003.json) |
 | 3.31 | [Printed p. 119 / PDF p. 133](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133) | [Verified](../../docs/solutions/3.31.md) · [Review](../../coverage/reviews/ch03_batch004.json) |
@@ -110,7 +110,7 @@ Convex functions · **60 verified, 0 open**
 | 3.33 | [Printed p. 119 / PDF p. 133](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133) | [Verified](../../docs/solutions/3.33.md) · [Review](../../coverage/reviews/ch03_batch004.json) |
 | 3.34 | [Printed p. 119 / PDF p. 133](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133) | [Verified](../../docs/solutions/3.34.md) · [Review](../../coverage/reviews/ch03_batch004.json) |
 | 3.35 | [Printed p. 120 / PDF p. 134](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134) | [Verified](../../docs/solutions/3.35.md) · [Review](../../coverage/reviews/ch03_batch004.json) |
-| 3.36 | [Printed p. 120 / PDF p. 134](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134) | [Verified](../../docs/solutions/3.36.md) · [Review](../../coverage/reviews/ch03_batch004.json) |
+| 3.36 | [Printed p. 120 / PDF p. 134](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134) | [Verified](../../docs/solutions/3.36.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 3.37 | [Printed p. 120 / PDF p. 134](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134) | [Verified](../../docs/solutions/3.37.md) · [Review](../../coverage/reviews/ch03_batch004.json) |
 | 3.38 | [Printed p. 120 / PDF p. 134](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134) | [Verified](../../docs/solutions/3.38.md) · [Review](../../coverage/reviews/ch03_batch004.json) |
 | 3.39 | [Printed p. 120 / PDF p. 134](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134) | [Verified](../../docs/solutions/3.39.md) · [Review](../../coverage/reviews/ch03_batch004.json) |
@@ -122,7 +122,7 @@ Convex functions · **60 verified, 0 open**
 | 3.45 | [Printed p. 122 / PDF p. 136](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136) | [Verified](../../docs/solutions/3.45.md) · [Review](../../coverage/reviews/ch03_batch005.json) |
 | 3.46 | [Printed p. 122 / PDF p. 136](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136) | [Verified](../../docs/solutions/3.46.md) · [Review](../../coverage/reviews/ch03_batch005.json) |
 | 3.47 | [Printed p. 122 / PDF p. 136](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136) | [Verified](../../docs/solutions/3.47.md) · [Review](../../coverage/reviews/ch03_batch005.json) |
-| 3.48 | [Printed p. 122 / PDF p. 136](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136) | [Verified](../../docs/solutions/3.48.md) · [Review](../../coverage/reviews/ch03_batch005.json) |
+| 3.48 | [Printed p. 122 / PDF p. 136](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136) | [Verified](../../docs/solutions/3.48.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 3.49 | [Printed p. 122 / PDF p. 136](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136) | [Verified](../../docs/solutions/3.49.md) · [Review](../../coverage/reviews/ch03_batch005.json) |
 | 3.50 | [Printed p. 123 / PDF p. 137](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137) | [Verified](../../docs/solutions/3.50.md) · [Review](../../coverage/reviews/ch03_batch005.json) |
 | 3.51 | [Printed p. 123 / PDF p. 137](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137) | [Verified](../../docs/solutions/3.51.md) · [Review](../../coverage/reviews/ch03_batch006.json) |
@@ -143,12 +143,12 @@ Convex optimization problems · **64 verified, 0 open**
 | Exercise | Source in official book | Status |
 |---|---|---|
 | 4.1 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | [Verified](../../docs/solutions/4.1.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
-| 4.2 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | [Verified](../../docs/solutions/4.2.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.2 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | [Verified](../../docs/solutions/4.2.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 4.4 | [Printed p. 189 / PDF p. 203](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203) | [Verified](../../docs/solutions/4.4.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
 | 4.5 | [Printed p. 190 / PDF p. 204](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=204) | [Verified](../../docs/solutions/4.5.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
-| 4.6 | [Printed p. 191 / PDF p. 205](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205) | [Verified](../../docs/solutions/4.6.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.6 | [Printed p. 191 / PDF p. 205](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205) | [Verified](../../docs/solutions/4.6.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 4.7 | [Printed p. 191 / PDF p. 205](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205) | [Verified](../../docs/solutions/4.7.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
-| 4.8 | [Printed p. 192 / PDF p. 206](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=206) | [Verified](../../docs/solutions/4.8.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
+| 4.8 | [Printed p. 192 / PDF p. 206](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=206) | [Verified](../../docs/solutions/4.8.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 4.9 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.9.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
 | 4.10 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.10.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
 | 4.11 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.11.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
@@ -162,7 +162,7 @@ Convex optimization problems · **64 verified, 0 open**
 | 4.19 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | [Verified](../../docs/solutions/4.19.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
 | 4.20 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | [Verified](../../docs/solutions/4.20.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
 | 4.21 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | [Verified](../../docs/solutions/4.21.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
-| 4.22 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.22.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.22 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.22.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 4.23 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.23.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
 | 4.24 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.24.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
 | 4.25 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.25.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
@@ -178,7 +178,7 @@ Convex optimization problems · **64 verified, 0 open**
 | 4.35 | [Printed p. 200 / PDF p. 214](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214) | [Verified](../../docs/solutions/4.35.md) · [Review](../../coverage/reviews/ch04_batch004.json) |
 | 4.36 | [Printed p. 200 / PDF p. 214](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214) | [Verified](../../docs/solutions/4.36.md) · [Review](../../coverage/reviews/ch04_batch004.json) |
 | 4.37 | [Printed p. 200 / PDF p. 214](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214) | [Verified](../../docs/solutions/4.37.md) · [Review](../../coverage/reviews/ch04_batch004.json) |
-| 4.38 | [Printed p. 201 / PDF p. 215](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215) | [Verified](../../docs/solutions/4.38.md) · [Review](../../coverage/reviews/ch04_batch004.json) |
+| 4.38 | [Printed p. 201 / PDF p. 215](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215) | [Verified](../../docs/solutions/4.38.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 4.39 | [Printed p. 201 / PDF p. 215](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215) | [Verified](../../docs/solutions/4.39.md) · [Review](../../coverage/reviews/ch04_batch004.json) |
 | 4.40 | [Printed p. 202 / PDF p. 216](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216) | [Verified](../../docs/solutions/4.40.md) · [Review](../../coverage/reviews/ch04_batch004.json) |
 | 4.41 | [Printed p. 202 / PDF p. 216](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216) | [Verified](../../docs/solutions/4.41.md) · [Review](../../coverage/reviews/ch04_batch004.json) |
@@ -187,7 +187,7 @@ Convex optimization problems · **64 verified, 0 open**
 | 4.44 | [Printed p. 203 / PDF p. 217](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217) | [Verified](../../docs/solutions/4.44.md) · [Review](../../coverage/reviews/ch04_batch005.json) |
 | 4.45 | [Printed p. 203 / PDF p. 217](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217) | [Verified](../../docs/solutions/4.45.md) · [Review](../../coverage/reviews/ch04_batch005.json) |
 | 4.46 | [Printed p. 204 / PDF p. 218](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218) | [Verified](../../docs/solutions/4.46.md) · [Review](../../coverage/reviews/ch04_batch005.json) |
-| 4.47 | [Printed p. 204 / PDF p. 218](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218) | [Verified](../../docs/solutions/4.47.md) · [Review](../../coverage/reviews/ch04_batch005.json) |
+| 4.47 | [Printed p. 204 / PDF p. 218](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218) | [Verified](../../docs/solutions/4.47.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 4.48 | [Printed p. 204 / PDF p. 218](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218) | [Verified](../../docs/solutions/4.48.md) · [Review](../../coverage/reviews/ch04_batch005.json) |
 | 4.49 | [Printed p. 205 / PDF p. 219](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219) | [Verified](../../docs/solutions/4.49.md) · [Review](../../coverage/reviews/ch04_batch005.json) |
 | 4.50 | [Printed p. 205 / PDF p. 219](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219) | [Verified](../../docs/solutions/4.50.md) · [Review](../../coverage/reviews/ch04_batch005.json) |
@@ -213,12 +213,12 @@ Duality · **41 verified, 0 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
-| 5.1 | [Printed p. 273 / PDF p. 287](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287) | [Verified](../../docs/solutions/5.1.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
+| 5.1 | [Printed p. 273 / PDF p. 287](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287) | [Verified](../../docs/solutions/5.1.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 5.2 | [Printed p. 273 / PDF p. 287](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287) | [Verified](../../docs/solutions/5.2.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
 | 5.3 | [Printed p. 273 / PDF p. 287](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287) | [Verified](../../docs/solutions/5.3.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
 | 5.4 | [Printed p. 273 / PDF p. 287](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287) | [Verified](../../docs/solutions/5.4.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
 | 5.5 | [Printed p. 274 / PDF p. 288](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288) | [Verified](../../docs/solutions/5.5.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
-| 5.6 | [Printed p. 274 / PDF p. 288](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288) | [Verified](../../docs/solutions/5.6.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
+| 5.6 | [Printed p. 274 / PDF p. 288](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288) | [Verified](../../docs/solutions/5.6.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 5.7 | [Printed p. 274 / PDF p. 288](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288) | [Verified](../../docs/solutions/5.7.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
 | 5.8 | [Printed p. 275 / PDF p. 289](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289) | [Verified](../../docs/solutions/5.8.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
 | 5.9 | [Printed p. 275 / PDF p. 289](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289) | [Verified](../../docs/solutions/5.9.md) · [Review](../../coverage/reviews/ch05_batch001_convexity_secondary.json) |
@@ -233,11 +233,11 @@ Duality · **41 verified, 0 open**
 | 5.18 | [Printed p. 278 / PDF p. 292](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292) | [Verified](../../docs/solutions/5.18.md) · [Review](../../coverage/reviews/ch05_batch002.json) |
 | 5.19 | [Printed p. 278 / PDF p. 292](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292) | [Verified](../../docs/solutions/5.19.md) · [Review](../../coverage/reviews/ch05_batch002.json) |
 | 5.20 | [Printed p. 279 / PDF p. 293](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=293) | [Verified](../../docs/solutions/5.20.md) · [Review](../../coverage/reviews/ch05_batch002.json) |
-| 5.21 | [Printed p. 280 / PDF p. 294](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294) | [Verified](../../docs/solutions/5.21.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
-| 5.22 | [Printed p. 280 / PDF p. 294](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294) | [Verified](../../docs/solutions/5.22.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
+| 5.21 | [Printed p. 280 / PDF p. 294](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294) | [Verified](../../docs/solutions/5.21.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
+| 5.22 | [Printed p. 280 / PDF p. 294](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294) | [Verified](../../docs/solutions/5.22.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 5.23 | [Printed p. 280 / PDF p. 294](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294) | [Verified](../../docs/solutions/5.23.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
 | 5.24 | [Printed p. 281 / PDF p. 295](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295) | [Verified](../../docs/solutions/5.24.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
-| 5.25 | [Printed p. 281 / PDF p. 295](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295) | [Verified](../../docs/solutions/5.25.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
+| 5.25 | [Printed p. 281 / PDF p. 295](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295) | [Verified](../../docs/solutions/5.25.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 5.26 | [Printed p. 282 / PDF p. 296](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296) | [Verified](../../docs/solutions/5.26.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
 | 5.27 | [Printed p. 282 / PDF p. 296](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296) | [Verified](../../docs/solutions/5.27.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
 | 5.28 | [Printed p. 282 / PDF p. 296](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296) | [Verified](../../docs/solutions/5.28.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
@@ -245,8 +245,8 @@ Duality · **41 verified, 0 open**
 | 5.31 | [Printed p. 283 / PDF p. 297](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297) | [Verified](../../docs/solutions/5.31.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
 | 5.32 | [Printed p. 283 / PDF p. 297](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297) | [Verified](../../docs/solutions/5.32.md) · [Review](../../coverage/reviews/ch05_batch003.json) |
 | 5.35 | [Printed p. 284 / PDF p. 298](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=298) | [Verified](../../docs/solutions/5.35.md) · [Review](../../coverage/reviews/ch05_batch004.json) |
-| 5.36 | [Printed p. 285 / PDF p. 299](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299) | [Verified](../../docs/solutions/5.36.md) · [Review](../../coverage/reviews/ch05_batch004.json) |
-| 5.37 | [Printed p. 285 / PDF p. 299](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299) | [Verified](../../docs/solutions/5.37.md) · [Review](../../coverage/reviews/ch05_batch004.json) |
+| 5.36 | [Printed p. 285 / PDF p. 299](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299) | [Verified](../../docs/solutions/5.36.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
+| 5.37 | [Printed p. 285 / PDF p. 299](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299) | [Verified](../../docs/solutions/5.37.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 5.38 | [Printed p. 285 / PDF p. 299](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299) | [Verified](../../docs/solutions/5.38.md) · [Review](../../coverage/reviews/ch05_batch004.json) |
 | 5.39 | [Printed p. 285 / PDF p. 299](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299) | [Verified](../../docs/solutions/5.39.md) · [Review](../../coverage/reviews/ch05_batch004.json) |
 | 5.40 | [Printed p. 286 / PDF p. 300](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300) | [Verified](../../docs/solutions/5.40.md) · [Review](../../coverage/reviews/ch05_batch004.json) |
@@ -262,11 +262,11 @@ Approximation and fitting · **14 verified, 0 open**
 | Exercise | Source in official book | Status |
 |---|---|---|
 | 6.1 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | [Verified](../../docs/solutions/6.1.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
-| 6.2 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | [Verified](../../docs/solutions/6.2.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.2 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | [Verified](../../docs/solutions/6.2.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 6.3 | [Printed p. 344 / PDF p. 358](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358) | [Verified](../../docs/solutions/6.3.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
 | 6.4 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | [Verified](../../docs/solutions/6.4.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
 | 6.5 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | [Verified](../../docs/solutions/6.5.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
-| 6.6 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | [Verified](../../docs/solutions/6.6.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
+| 6.6 | [Printed p. 345 / PDF p. 359](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359) | [Verified](../../docs/solutions/6.6.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 6.7 | [Printed p. 346 / PDF p. 360](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360) | [Verified](../../docs/solutions/6.7.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
 | 6.8 | [Printed p. 346 / PDF p. 360](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360) | [Verified](../../docs/solutions/6.8.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
 | 6.9 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | [Verified](../../docs/solutions/6.9.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
@@ -284,7 +284,7 @@ Statistical estimation · **13 verified, 0 open**
 |---|---|---|
 | 7.1 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.1.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
 | 7.2 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.2.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
-| 7.3 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.3.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.3 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.3.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 7.4 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.4.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
 | 7.5 | [Printed p. 394 / PDF p. 408](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408) | [Verified](../../docs/solutions/7.5.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
 | 7.6 | [Printed p. 394 / PDF p. 408](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408) | [Verified](../../docs/solutions/7.6.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
@@ -302,18 +302,18 @@ Geometric problems · **30 verified, 0 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
-| 8.1 | [Printed p. 447 / PDF p. 461](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461) | [Verified](../../docs/solutions/8.1.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
+| 8.1 | [Printed p. 447 / PDF p. 461](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461) | [Verified](../../docs/solutions/8.1.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 8.2 | [Printed p. 447 / PDF p. 461](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461) | [Verified](../../docs/solutions/8.2.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
 | 8.3 | [Printed p. 447 / PDF p. 461](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461) | [Verified](../../docs/solutions/8.3.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
 | 8.4 | [Printed p. 447 / PDF p. 461](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461) | [Verified](../../docs/solutions/8.4.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
-| 8.5 | [Printed p. 447 / PDF p. 461](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461) | [Verified](../../docs/solutions/8.5.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
+| 8.5 | [Printed p. 447 / PDF p. 461](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461) | [Verified](../../docs/solutions/8.5.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 8.6 | [Printed p. 448 / PDF p. 462](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462) | [Verified](../../docs/solutions/8.6.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
 | 8.7 | [Printed p. 448 / PDF p. 462](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462) | [Verified](../../docs/solutions/8.7.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
 | 8.8 | [Printed p. 448 / PDF p. 462](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462) | [Verified](../../docs/solutions/8.8.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
 | 8.9 | [Printed p. 448 / PDF p. 462](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462) | [Verified](../../docs/solutions/8.9.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
 | 8.10 | [Printed p. 448 / PDF p. 462](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462) | [Verified](../../docs/solutions/8.10.md) · [Review](../../coverage/reviews/ch08_batch001.json) |
 | 8.11 | [Printed p. 449 / PDF p. 463](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463) | [Verified](../../docs/solutions/8.11.md) · [Review](../../coverage/reviews/ch08_batch002.json) |
-| 8.12 | [Printed p. 449 / PDF p. 463](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463) | [Verified](../../docs/solutions/8.12.md) · [Review](../../coverage/reviews/ch08_batch002.json) |
+| 8.12 | [Printed p. 449 / PDF p. 463](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463) | [Verified](../../docs/solutions/8.12.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 8.13 | [Printed p. 449 / PDF p. 463](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463) | [Verified](../../docs/solutions/8.13.md) · [Review](../../coverage/reviews/ch08_batch002.json) |
 | 8.14 | [Printed p. 449 / PDF p. 463](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463) | [Verified](../../docs/solutions/8.14.md) · [Review](../../coverage/reviews/ch08_batch002.json) |
 | 8.15 | [Printed p. 449 / PDF p. 463](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463) | [Verified](../../docs/solutions/8.15.md) · [Review](../../coverage/reviews/ch08_batch002.json) |
@@ -331,7 +331,7 @@ Geometric problems · **30 verified, 0 open**
 | 8.27 | [Printed p. 452 / PDF p. 466](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466) | [Verified](../../docs/solutions/8.27.md) · [Review](../../coverage/reviews/ch08_batch003.json) |
 | 8.28 | [Printed p. 452 / PDF p. 466](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466) | [Verified](../../docs/solutions/8.28.md) · [Review](../../coverage/reviews/ch08_batch003.json) |
 | 8.29 | [Printed p. 453 / PDF p. 467](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467) | [Verified](../../docs/solutions/8.29.md) · [Review](../../coverage/reviews/ch08_batch003.json) |
-| 8.30 | [Printed p. 453 / PDF p. 467](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467) | [Verified](../../docs/solutions/8.30.md) · [Review](../../coverage/reviews/ch08_batch003.json) |
+| 8.30 | [Printed p. 453 / PDF p. 467](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467) | [Verified](../../docs/solutions/8.30.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 
 ## Chapter 9
 
@@ -341,7 +341,7 @@ Unconstrained minimization · **28 verified, 0 open**
 |---|---|---|
 | 9.1 | [Printed p. 514 / PDF p. 528](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528) | [Verified](../../docs/solutions/9.1.md) · [Review](../../coverage/reviews/ch09_batch001.json) |
 | 9.2 | [Printed p. 514 / PDF p. 528](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528) | [Verified](../../docs/solutions/9.2.md) · [Review](../../coverage/reviews/ch09_batch001.json) |
-| 9.3 | [Printed p. 514 / PDF p. 528](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528) | [Verified](../../docs/solutions/9.3.md) · [Review](../../coverage/reviews/ch09_batch001.json) |
+| 9.3 | [Printed p. 514 / PDF p. 528](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528) | [Verified](../../docs/solutions/9.3.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 9.4 | [Printed p. 514 / PDF p. 528](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528) | [Verified](../../docs/solutions/9.4.md) · [Review](../../coverage/reviews/ch09_batch001.json) |
 | 9.5 | [Printed p. 514 / PDF p. 528](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528) | [Verified](../../docs/solutions/9.5.md) · [Review](../../coverage/reviews/ch09_batch001.json) |
 | 9.6 | [Printed p. 515 / PDF p. 529](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529) | [Verified](../../docs/solutions/9.6.md) · [Review](../../coverage/reviews/ch09_batch001.json) |
@@ -358,7 +358,7 @@ Unconstrained minimization · **28 verified, 0 open**
 | 9.18 | [Printed p. 517 / PDF p. 531](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531) | [Verified](../../docs/solutions/9.18.md) · [Review](../../coverage/reviews/ch09_batch002_root.json) |
 | 9.19 | [Printed p. 517 / PDF p. 531](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531) | [Verified](../../docs/solutions/9.19.md) · [Review](../../coverage/reviews/ch09_batch002_root.json) |
 | 9.20 | [Printed p. 517 / PDF p. 531](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531) | [Verified](../../docs/solutions/9.20.md) · [Review](../../coverage/reviews/ch09_batch002_root.json) |
-| 9.21 | [Printed p. 517 / PDF p. 531](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531) | [Verified](../../docs/solutions/9.21.md) · [Review](../../coverage/reviews/ch09_batch003.json) |
+| 9.21 | [Printed p. 517 / PDF p. 531](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531) | [Verified](../../docs/solutions/9.21.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 9.22 | [Printed p. 517 / PDF p. 531](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531) | [Verified](../../docs/solutions/9.22.md) · [Review](../../coverage/reviews/ch09_batch003.json) |
 | 9.23 | [Printed p. 518 / PDF p. 532](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532) | [Verified](../../docs/solutions/9.23.md) · [Review](../../coverage/reviews/ch09_batch003.json) |
 | 9.24 | [Printed p. 518 / PDF p. 532](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532) | [Verified](../../docs/solutions/9.24.md) · [Review](../../coverage/reviews/ch09_batch003.json) |
@@ -395,7 +395,7 @@ Interior-point methods · **19 verified, 0 open**
 | Exercise | Source in official book | Status |
 |---|---|---|
 | 11.2 | [Printed p. 623 / PDF p. 637](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637) | [Verified](../../docs/solutions/11.2.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
-| 11.3 | [Printed p. 623 / PDF p. 637](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637) | [Verified](../../docs/solutions/11.3.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
+| 11.3 | [Printed p. 623 / PDF p. 637](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637) | [Verified](../../docs/solutions/11.3.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 11.4 | [Printed p. 623 / PDF p. 637](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637) | [Verified](../../docs/solutions/11.4.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
 | 11.5 | [Printed p. 623 / PDF p. 637](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637) | [Verified](../../docs/solutions/11.5.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
 | 11.6 | [Printed p. 624 / PDF p. 638](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638) | [Verified](../../docs/solutions/11.6.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
@@ -403,11 +403,11 @@ Interior-point methods · **19 verified, 0 open**
 | 11.8 | [Printed p. 625 / PDF p. 639](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639) | [Verified](../../docs/solutions/11.8.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
 | 11.9 | [Printed p. 625 / PDF p. 639](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639) | [Verified](../../docs/solutions/11.9.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
 | 11.10 | [Printed p. 626 / PDF p. 640](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640) | [Verified](../../docs/solutions/11.10.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
-| 11.11 | [Printed p. 626 / PDF p. 640](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640) | [Verified](../../docs/solutions/11.11.md) · [Review](../../coverage/reviews/ch11_batch002_root.json) |
+| 11.11 | [Printed p. 626 / PDF p. 640](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640) | [Verified](../../docs/solutions/11.11.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 11.12 | [Printed p. 627 / PDF p. 641](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641) | [Verified](../../docs/solutions/11.12.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
 | 11.13 | [Printed p. 627 / PDF p. 641](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641) | [Verified](../../docs/solutions/11.13.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
-| 11.14 | [Printed p. 627 / PDF p. 641](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641) | [Verified](../../docs/solutions/11.14.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
-| 11.15 | [Printed p. 628 / PDF p. 642](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642) | [Verified](../../docs/solutions/11.15.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
+| 11.14 | [Printed p. 627 / PDF p. 641](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641) | [Verified](../../docs/solutions/11.14.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
+| 11.15 | [Printed p. 628 / PDF p. 642](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642) | [Verified](../../docs/solutions/11.15.md) · [Review](../../coverage/reviews/markdown_math_proof_carryforward.json) |
 | 11.16 | [Printed p. 628 / PDF p. 642](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642) | [Verified](../../docs/solutions/11.16.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
 | 11.17 | [Printed p. 628 / PDF p. 642](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642) | [Verified](../../docs/solutions/11.17.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |
 | 11.18 | [Printed p. 628 / PDF p. 642](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642) | [Verified](../../docs/solutions/11.18.md) · [Review](../../coverage/reviews/ch11_batch001_root.json) |

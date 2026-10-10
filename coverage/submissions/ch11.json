@@ -25,7 +25,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "97c9fb473dfb3be082191e4e05cd6cde35f6a19325998a6d97ee4416c5c71697",
+      "solution_sha256": "299a75742caefc27246cc4f396462a4ff815a4baa50487c17dde772159ff3ef5",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
     },
     {
@@ -161,7 +161,7 @@
         "main"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "e174f504a04b39e8eadca44177b078577a74444d6dea92472c9cb2021babe4da",
+      "solution_sha256": "4ecd398845bb9aac3e648a6b8c091f3d1b00d8aced3cfc2399c34a93b5b252c3",
       "notes": "Literal ambient Hessian claim with equalities disproved; full proof supplied for intended reduced-Hessian/no-equality version."
     },
     {
@@ -175,7 +175,7 @@
         "b"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "437bd3818957a6bb3de1df5a7b9193e5a82568f35b70c26cee443f6292029ee4",
+      "solution_sha256": "c463ebc4f7a749797b5279f5eb5830c53acae5394f1247ae7d7073887f79ae6b",
       "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
     },
     {
@@ -260,7 +260,7 @@
         "counterexample to unqualified point convergence"
       ],
       "all_subparts_completed": true,
-      "solution_sha256": "a3e39b8834348bde1aee5c065db84ed397c8ed7a960829a6c1ae088152ed0ed9",
+      "solution_sha256": "74d76cf94768f8b8e6441ebf53048edb86f774888f549a77e3469de45787c797",
       "notes": "All requested guarantees resolved: complete contraction and stopping proof; original C2 convex compact-feasible counterexample disproves whole-sequence point convergence despite unique centers for every level."
     }
   ]

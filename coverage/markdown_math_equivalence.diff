@@ -1,0 +1,514 @@
+--- original/docs/solutions/10.16.md
++++ corrected/docs/solutions/10.16.md
+@@ -13,7 +13,7 @@
+ 
+ ```math
+ f(u,v)=u^TAv+b^Tu+c^Tv-\log(1-u^Tu)+\log(1-v^Tv),
+-\qquad \|u\|_2<1,\ \|v\|_2<1.
++\qquad \|u\|_2\lt 1,\ \|v\|_2\lt 1.
+ ```
+ 
+ We use $`p=q=100`$, matching the dimensions of the book's example. A seeded
+--- original/docs/solutions/11.1.md
++++ corrected/docs/solutions/11.1.md
+@@ -7,7 +7,7 @@
+ For the two inequalities $`2-x\le0`$ and $`x-4\le0`$, the logarithmic barrier is
+ 
+ ```math
+-\phi(x)=-\log(x-2)-\log(4-x),\qquad 2<x<4.
++\phi(x)=-\log(x-2)-\log(4-x),\qquad 2\lt x\lt 4.
+ ```
+ 
+ At a fixed positive $`t`$, the centering objective is
+--- original/docs/solutions/11.11.md
++++ corrected/docs/solutions/11.11.md
+@@ -94,7 +94,7 @@
+ ```
+ Taking logarithms gives
+ ```math
+-\log\eta_k-\log\eta_{k+1}\le\tfrac14\log3<\pi/3.\tag{7}
++\log\eta_k-\log\eta_{k+1}\le\tfrac14\log3\lt \pi/3.\tag{7}
+ ```
+ Yet $`\log\eta_k\to-\infty`$. Such a sequence must visit infinitely many bands where its sine is at least $`1/2`$, and infinitely many where it is at most $`-1/2`$: each corresponding logarithmic phase band has width $`2\pi/3`$, larger than the largest downward jump allowed by (7). More explicitly, at the first downward crossing of a band's upper endpoint, the new point cannot jump past the band's lower endpoint. These crossings occur for arbitrarily negative bands because the logarithms tend to minus infinity. Monotonicity of the logarithm sequence is not needed.
+ 
+--- original/docs/solutions/11.14.md
++++ corrected/docs/solutions/11.14.md
+@@ -11,7 +11,7 @@
+ ```
+ The original feasible set $`[-1,1]\times\{0\}`$ is bounded. Its centering function
+ ```math
+-F(x)=-\log(1-x_1)-\log(1+x_1),\qquad |x_1|<1,
++F(x)=-\log(1-x_1)-\log(1+x_1),\qquad |x_1|\lt 1,
+ ```
+ is closed and self-concordant, but its Hessian has a zero $`x_2`$ row and column everywhere.
+ 
+--- original/docs/solutions/11.15.md
++++ corrected/docs/solutions/11.15.md
+@@ -16,6 +16,6 @@
+ Suppose this dual vector were on the boundary. Compactness of the unit directions in the closed cone and the dual-interior characterization imply a nonzero $`w\in K`$ with $`w^T\nabla\psi(y)=0`$. For sufficiently small $`\epsilon>0`$, $`y+\epsilon w`$ is still in the interior, but
+ ```math
+ w^T\nabla\psi(y+\epsilon w)
+-=\epsilon\,w^T\nabla^2\psi(y)w+o(\epsilon)<0,
++=\epsilon\,w^T\nabla^2\psi(y)w+o(\epsilon)\lt 0,
+ ```
+ contradicting part (a). Therefore the gradient is in $`\mathrm{int}K^*`$. In particular along a nonzero cone displacement between interior points, integration of its positive gradient pairing makes the function strictly increase, giving the stated cone-monotonicity interpretation.
+--- original/docs/solutions/11.3.md
++++ corrected/docs/solutions/11.3.md
+@@ -6,7 +6,7 @@
+ 
+ Boundedness of the original sublevel set at level $`f_0(x_0)+1`$ supplies $`R>0`$ such that every feasible point at distance $`R`$ from $`x_0`$ has objective greater than that level. If a feasible $`x`$ has $`r>R`$, its segment point $`z=x_0+(R/r)(x-x_0)`$ is feasible, and convexity gives
+ ```math
+-f_0(x_0)+1<f_0(z)
++f_0(x_0)+1\lt f_0(z)
+ \le f_0(x_0)+\frac Rr(f_0(x)-f_0(x_0)).
+ ```
+ Thus $`f_0(x)>f_0(x_0)+r/R`$ outside that ball.
+@@ -17,7 +17,7 @@
+ ```
+ so at a strictly feasible point its positive slack satisfies
+ ```math
+-0<-f_i(x)\le a_i+b_i r,
++0\lt -f_i(x)\le a_i+b_i r,
+ \qquad a_i=-f_i(x_0)>0,\quad b_i=\|\nabla f_i(x_0)\|.
+ ```
+ Consequently, for fixed $`t>0`$ and $`r>R`$,
+--- original/docs/solutions/2.15.md
++++ corrected/docs/solutions/2.15.md
+@@ -42,7 +42,7 @@
+ 
+ Convex, although generally not closed. The first quartile is the earliest support value whose cumulative probability reaches $`1/4`$. It is at least $`\alpha`$ exactly when
+ ```math
+-\sum_{i:a_i<\alpha}p_i<\frac14.
++\sum_{i:a_i\lt \alpha}p_i\lt \frac14.
+ ```
+ To check the strict inequality, if this sum reaches $`1/4`$, some support value strictly below $`\alpha`$ already attains the threshold. If it is less than $`1/4`$, none can. A strict affine halfspace is convex.
+ 
+--- original/docs/solutions/2.17.md
++++ corrected/docs/solutions/2.17.md
+@@ -21,7 +21,7 @@
+ \begin{cases}
+ \{z:f^Tz+g>0\},&h>0,\\
+ \{z:f^Tz+g=0\},&h=0,\\
+-\{z:f^Tz+g<0\},&h<0.
++\{z:f^Tz+g\lt 0\},&h\lt 0.
+ \end{cases}
+ ```
+ These formulas also handle $`f=0`$: the displayed set is then empty or all of space as determined by the scalar condition.
+@@ -39,7 +39,7 @@
+ For an explicit description in $`z`$ alone, let $`u_i=F_{i,:}z+g_i`$. Its necessary and sufficient conditions are
+ ```math
+ u_i\le0\quad(h_i=0),\qquad
+-u_j<0\quad(h_j<0),\qquad
+-\frac{u_i}{h_i}\le\frac{u_j}{h_j}\quad(h_i>0,\ h_j<0).
++u_j\lt 0\quad(h_j\lt 0),\qquad
++\frac{u_i}{h_i}\le\frac{u_j}{h_j}\quad(h_i>0,\ h_j\lt 0).
+ ```
+ To prove sufficiency, the positive-$`h`$ rows impose lower bounds on $`s`$, and the negative-$`h`$ rows impose upper bounds. All upper bounds are strictly positive by the second condition, and each lower bound is no larger than each upper bound by the third. Thus a positive $`s`$ between them exists. If there are no upper bounds, take $`s`$ sufficiently large; if there are no lower bounds, take a sufficiently small positive $`s`$. Necessity follows immediately from such an $`s`$. The mixed inequalities are affine after multiplying by the fixed nonzero denominators. Strict inequalities are essential: perspective images need not be closed polyhedra.
+--- original/docs/solutions/2.24.md
++++ corrected/docs/solutions/2.24.md
+@@ -20,7 +20,7 @@
+ ```
+ Each term on the left is at most its corresponding term on the right. Equality therefore holds exactly when
+ ```math
+-a_i=0\quad\text{if }|\widehat x_i|<1,\qquad
++a_i=0\quad\text{if }|\widehat x_i|\lt 1,\qquad
+  a_i\ge0\quad\text{if }\widehat x_i=1,\qquad
+  a_i\le0\quad\text{if }\widehat x_i=-1.
+ ```
+--- original/docs/solutions/2.38.md
++++ corrected/docs/solutions/2.38.md
+@@ -15,7 +15,7 @@
+ 
+ Now suppose $`C`$ is nonempty, closed, and convex, and write $`B(C)`$ for its barrier cone. If $`y\in R(C)`$ and $`a\in B(C)`$, then
+ ```math
+-a^T(x-ty)=a^Tx-t a^Ty\le S_C(a)<+\infty\qquad(t\ge0).
++a^T(x-ty)=a^Tx-t a^Ty\le S_C(a)\lt +\infty\qquad(t\ge0).
+ ```
+ This is impossible for $`a^Ty<0`$, so $`y\in B(C)^*`$.
+ 
+--- original/docs/solutions/3.10.md
++++ corrected/docs/solutions/3.10.md
+@@ -10,7 +10,7 @@
+ ```math
+ \mathrm{var}(v)=2>1=\mathrm{var}(w),
+ \qquad
+-\mathbb E f(v)=1/5<1=\mathbb E f(w).
++\mathbb E f(v)=1/5\lt 1=\mathbb E f(w).
+ ```
+ Thus variance does not order all convex expected losses.
+ 
+--- original/docs/solutions/3.12.md
++++ corrected/docs/solutions/3.12.md
+@@ -6,7 +6,7 @@
+ 
+ Consider the open convex subsets of $`\mathbb R^{n+1}`$
+ ```math
+-U=\{(x,t):t>f(x)\},\qquad V=\{(x,t):t<g(x)\}.
++U=\{(x,t):t>f(x)\},\qquad V=\{(x,t):t\lt g(x)\}.
+ ```
+ They are open because finite convex and concave functions on all of space are continuous, and disjoint because $`g\le f`$. Separation gives $`(a,b)\ne0`$ and $`c`$ such that
+ ```math
+--- original/docs/solutions/3.24.md
++++ corrected/docs/solutions/3.24.md
+@@ -30,7 +30,7 @@
+ ```math
+ \{p:q(p)\le t\}=\left\{p:\sum_{a_i\le t}p_i\ge\tfrac14\right\},
+ \qquad
+-\{p:q(p)\ge t\}=\left\{p:\sum_{a_i<t}p_i<\tfrac14\right\}.
++\{p:q(p)\ge t\}=\left\{p:\sum_{a_i\lt t}p_i\lt \tfrac14\right\}.
+ ```
+ Both sets are convex. It is neither convex nor concave. Restrict to the first two support values and write $`s=p_1`$. The quartile is $`a_1`$ for $`s\ge1/4`$ and $`a_2`$ otherwise. The midpoint of $`s=0.3`$ and $`s=0`$ is $`0.15`$, violating convexity; the midpoint of $`s=0.5`$ and $`s=0`$ is $`0.25`$, violating concavity.
+ 
+@@ -39,7 +39,7 @@
+ Let $`c(p)`$ be this integer-valued quantity. For $`1\le k\le n`$,
+ ```math
+ c(p)\ge k\quad\Longleftrightarrow\quad
+-\sum_{i=1}^{k-1}p_{[i]}<0.9.
++\sum_{i=1}^{k-1}p_{[i]}\lt 0.9.
+ ```
+ The empty sum for $`k=1`$ is zero. A largest-coordinate sum is convex, so its strict sublevel set is convex. Every real superlevel of the integer-valued function reduces to one of these sets, proving quasiconcavity.
+ 
+@@ -50,7 +50,7 @@
+ The minimum is attained by an interval whose endpoints are support values; there are only finitely many such intervals. Write its width as $`w(p)`$. For every real $`r`$,
+ ```math
+ w(p)\ge r\quad\Longleftrightarrow\quad
+-\sum_{i:a_i\in I}p_i<0.9
+-\quad\text{for every support-endpoint interval }I\text{ of width }<r.
++\sum_{i:a_i\in I}p_i\lt 0.9
++\quad\text{for every support-endpoint interval }I\text{ of width }\lt r.
+ ```
+ This is an intersection of strict affine halfspaces, so $`w`$ is quasiconcave. It is neither quasiconvex nor convex: point masses at two different support points have width zero, whereas their equal mixture requires the positive distance between them. It is not concave: on those two points, the distribution $`(0.89,0.11)`$ requires their full distance, while $`(1,0)`$ and their midpoint both have width zero.
+--- original/docs/solutions/3.25.md
++++ corrected/docs/solutions/3.25.md
+@@ -6,7 +6,7 @@
+ 
+ Let $`r=p-q`$. Since both vectors have total mass one, $`\sum_i r_i=0`$. The positive and negative total masses therefore agree:
+ ```math
+-\sum_{r_i>0}r_i=-\sum_{r_i<0}r_i=\tfrac12\sum_i|r_i|.
++\sum_{r_i>0}r_i=-\sum_{r_i\lt 0}r_i=\tfrac12\sum_i|r_i|.
+ ```
+ For every event $`C`$, $`\sum_{i\in C}r_i`$ lies between the negative total and the positive total. The event $`C=\{i:r_i>0\}`$ attains the upper endpoint. Hence
+ ```math
+--- original/docs/solutions/3.28.md
++++ corrected/docs/solutions/3.28.md
+@@ -16,7 +16,7 @@
+ 
+ Fix $`x`$ and a finite number $`r<f(x)`$. Since the epigraph is closed, strict separation of $`(x,r)`$ from it gives $`(a,b)\ne0`$ and $`c`$ with
+ ```math
+-a^Tx+br<c\le a^Tz+bt\qquad((z,t)\in\mathrm{epi}\,f).
++a^Tx+br\lt c\le a^Tz+bt\qquad((z,t)\in\mathrm{epi}\,f).
+ ```
+ Again $`b\ge0`$. If $`b>0`$, the affine minorant $`(c-a^Tz)/b`$ has value greater than $`r`$ at $`x`$.
+ 
+--- original/docs/solutions/3.36.md
++++ corrected/docs/solutions/3.36.md
+@@ -25,7 +25,7 @@
+ f^*(y)=
+ \begin{cases}
+ (y-a_i)\xi_i-b_i,&a_i\le y\le a_{i+1},\\
+-+\infty,&y<a_1\text{ or }y>a_m.
+++\infty,&y\lt a_1\text{ or }y>a_m.
+ \end{cases}
+ ```
+ For $`y\in[a_i,a_{i+1}]`$, the slope $`y`$ is a convex combination of the two active affine slopes at $`\xi_i`$. Their same combination supplies a global affine minorant of $`f`$ touching there, proving that $`x=\xi_i`$ maximizes the conjugate expression and giving the formula. At an endpoint slope it gives $`-b_i`$ and agrees across adjacent pieces. Outside the slope range, send $`x`$ to the appropriate infinity. Equivalently, without any preprocessing,
+@@ -49,7 +49,7 @@
+ For $`p<0`$,
+ ```math
+ f^*(y)=\begin{cases}
+-(p-1)(y/p)^{p/(p-1)},&y<0,\\
++(p-1)(y/p)^{p/(p-1)},&y\lt 0,\\
+ 0,&y=0,\\
+ +\infty,&y>0.
+ \end{cases}
+@@ -61,7 +61,7 @@
+ The conjugate is
+ ```math
+ f^*(y)=\begin{cases}
+-0,&y_i<0\ \forall i,\quad\prod_i(-y_i)\ge n^{-n},\\
++0,&y_i\lt 0\ \forall i,\quad\prod_i(-y_i)\ge n^{-n},\\
+ +\infty,&\text{otherwise}.
+ \end{cases}
+ ```
+@@ -73,7 +73,7 @@
+ Use dual coordinates $`(y,s)`$ for $`(x,t)`$ and set $`\delta=s^2-\|y\|_2^2`$. The answer is
+ ```math
+ f^*(y,s)=\begin{cases}
+-\log4-2-\log\delta,&s<-\|y\|_2,\\
++\log4-2-\log\delta,&s\lt -\|y\|_2,\\
+ +\infty,&\text{otherwise}.
+ \end{cases}
+ ```
+--- original/docs/solutions/3.48.md
++++ corrected/docs/solutions/3.48.md
+@@ -8,6 +8,6 @@
+ ```math
+ \phi(s)=\log(e^s-a),\qquad
+ \phi'(s)=\frac{e^s}{e^s-a}>0,\qquad
+-\phi''(s)=-\frac{ae^s}{(e^s-a)^2}<0.
++\phi''(s)=-\frac{ae^s}{(e^s-a)^2}\lt 0.
+ ```
+ Thus $`\phi`$ is concave and increasing, so $`\log(f-a)=\phi\circ h`$ is concave on the new domain. Therefore $`g=f-a`$ is log-concave wherever it is positive, including the possible empty-domain case.
+--- original/docs/solutions/4.2.md
++++ corrected/docs/solutions/4.2.md
+@@ -15,7 +15,7 @@
+ For the converse use the stated theorem of alternatives: absence of such a direction gives $`z\succ0`$ with $`A^Tz=0`$. Then every feasible slack satisfies
+ 
+ ```math
+-z^Ts=z^Tb=z^Ts(x^0)=C>0,\qquad 0<s_i\le C/z_i.
++z^Ts=z^Tb=z^Ts(x^0)=C>0,\qquad 0\lt s_i\le C/z_i.
+ ```
+ 
+ Thus $`f_0(x)\ge-\sum_i\log(C/z_i)>-\infty`$. This proves the contrapositive and the equivalence. If there are no rows, the empty sum is identically zero and parts (b)–(d) hold directly; below assume at least one row.
+--- original/docs/solutions/4.22.md
++++ corrected/docs/solutions/4.22.md
+@@ -27,7 +27,7 @@
+ 
+ ```math
+ h(\lambda)=\sum_i\frac{a_i^2}{(p_i+\lambda)^2},\qquad
+-h'(\lambda)=-2\sum_i\frac{a_i^2}{(p_i+\lambda)^3}<0
++h'(\lambda)=-2\sum_i\frac{a_i^2}{(p_i+\lambda)^3}\lt 0
+ ```
+ 
+ when $`q\ne0`$. Also $`h(\lambda)\to0`$. Therefore $`h(0)>1`$ gives one and only one positive root, obtainable by scalar bisection. It is the largest real root of the secular equation: no larger positive root can exist, and negative roots are smaller. When $`h(0)\le1`$, there are no positive roots, and any largest defined root is nonpositive, so taking its maximum with zero recovers $`\lambda=0`$.
+--- original/docs/solutions/4.38.md
++++ corrected/docs/solutions/4.38.md
+@@ -17,7 +17,7 @@
+ Congruence preserves semidefinite order, so $`tB\preceq A`$ is equivalent to $`tb_i\le a_i`$ for every $`i`$. Define
+ 
+ ```math
+-L=\max_{i:b_i<0}\frac{a_i}{b_i},\qquad
++L=\max_{i:b_i\lt 0}\frac{a_i}{b_i},\qquad
+ U=\min_{i:b_i>0}\frac{a_i}{b_i},
+ ```
+ 
+--- original/docs/solutions/4.47.md
++++ corrected/docs/solutions/4.47.md
+@@ -33,7 +33,7 @@
+ ```math
+ D^2\log\det X[H,H]
+ =-\mathrm{tr}(X^{-1}HX^{-1}H)
+-=-\|X^{-1/2}HX^{-1/2}\|_F^2<0.
++=-\|X^{-1/2}HX^{-1/2}\|_F^2\lt 0.
+ ```
+ 
+ Consequently two distinct maximizers cannot exist. At the unique maximizer $`X^\star`$, every unspecified off-diagonal pair admits small perturbations in both directions $`H=e_ie_j^T+e_je_i^T`$, because positive definiteness is open and no specified entry changes. Stationarity yields
+--- original/docs/solutions/4.6.md
++++ corrected/docs/solutions/4.6.md
+@@ -7,13 +7,13 @@
+ Because $`h`$ is finite and convex on all of $`\mathbb R^n`$, it is continuous. Thus for all sufficiently small $`\epsilon>0`$,
+ 
+ ```math
+-h(x^\star-\epsilon e_r)<0.
++h(x^\star-\epsilon e_r)\lt 0.
+ ```
+ 
+ Decreasing coordinate $`r`$ cannot increase any $`f_i`$, $`i\ge1`$, so this perturbed point is feasible for the relaxation. Strict increase of the objective in that coordinate gives
+ 
+ ```math
+-f_0(x^\star-\epsilon e_r)<f_0(x^\star),
++f_0(x^\star-\epsilon e_r)\lt f_0(x^\star),
+ ```
+ 
+ a contradiction. Every relaxed optimizer therefore satisfies the equality. Since the equality-feasible set is contained in the relaxed feasible set, such an optimizer solves the original problem as well, with the same value.
+--- original/docs/solutions/4.8.md
++++ corrected/docs/solutions/4.8.md
+@@ -15,7 +15,7 @@
+ Independence of coordinates gives
+ 
+ ```math
+-x_i^\star=\begin{cases}l_i&c_i>0,\\u_i&c_i<0,\\\text{any point of }[l_i,u_i]&c_i=0,\end{cases}
++x_i^\star=\begin{cases}l_i&c_i>0,\\u_i&c_i\lt 0,\\\text{any point of }[l_i,u_i]&c_i=0,\end{cases}
+ \qquad
+ p^\star=\sum_i\min(c_il_i,c_iu_i).
+ ```
+--- original/docs/solutions/5.1.md
++++ corrected/docs/solutions/5.1.md
+@@ -41,7 +41,7 @@
+ 
+ ```math
+ p^\star(u)=\begin{cases}
+-+\infty,&u<-1,\\
+++\infty,&u\lt -1,\\
+ 1+(3-\sqrt{1+u})^2,&-1\le u\le8,\\
+ 1,&u\ge8.
+ \end{cases}
+--- original/docs/solutions/5.21.md
++++ corrected/docs/solutions/5.21.md
+@@ -25,7 +25,7 @@
+ For $`u<0`$ the constraint is infeasible. For $`u=0`$ its value is one as above. For $`u>0`$, choose $`x=k>0,y=k^2/u`$; the constraint is tight and the objective tends to zero. Therefore
+ 
+ ```math
+-p^\star(u)=\begin{cases}+\infty,&u<0,\\1,&u=0,\\0,&u>0.\end{cases}
++p^\star(u)=\begin{cases}+\infty,&u\lt 0,\\1,&u=0,\\0,&u>0.\end{cases}
+ ```
+ 
+ For positive $`u`$ this infimum is unattained. Fix any finite optimal multiplier $`\lambda^\star\ge0`$. If it is zero, every positive $`u`$ violates $`0\ge1-\lambda^\star u`$. If it is positive, choose $`0<u<1/\lambda^\star`$ for the same contradiction. The valid weak-duality bound uses $`d^\star-\lambda^\star u= -\lambda^\star u`$, not $`p^\star(0)-\lambda^\star u`$ when strong duality fails.
+--- original/docs/solutions/5.22.md
++++ corrected/docs/solutions/5.22.md
+@@ -35,7 +35,7 @@
+ The graph is $`G=\{(f_1(t),t):t\in\mathbb R\}`$ with the three affine branches specified in the source. Solving each branch inequality gives
+ 
+ ```math
+-A=\{u<-1,\ t\ge2-u\}\ \cup\ \{u\ge-1,\ t\ge-2-u\}.
++A=\{u\lt -1,\ t\ge2-u\}\ \cup\ \{u\ge-1,\ t\ge-2-u\}.
+ ```
+ 
+ In particular the actual primal feasible set is $`[-2,0]\cup[2,\infty)`$, so its unique optimizer is $`x=-2`$ and its value is $`-2`$. If $`\lambda<1`$, the Lagrangian tends to $`-\infty`$ along $`x\to-\infty`$; if $`\lambda>1`$, it does so along $`x\to+\infty`$. At $`\lambda=1`$, its infimum is $`-2`$, attained on the left branch. Thus the dual optimum is $`\lambda^\star=1,d^\star=-2`$, and strong duality holds. The constraint function is not convex (its slope drops from one to minus one at $`x=1`$). Strictly feasible points exist, for example $`x=-1`$, but the convexity premise of Slater's theorem does not hold.
+--- original/docs/solutions/5.25.md
++++ corrected/docs/solutions/5.25.md
+@@ -39,8 +39,8 @@
+ Choose $`w_0\in W,z_0\in Z`$. A proper closed convex function with bounded domain has a finite attained minimum: a nonempty sublevel is closed and bounded, hence compact, and lower semicontinuity gives a finite minimum there. Apply this to $`g_{z_0}`$ and $`h_{w_0}`$. It follows that
+ 
+ ```math
+--\infty<\inf_{w\in W} f(w,z_0)
+-\le p(0)\le\sup_{z\in Z}f(w_0,z)<+\infty.
++-\infty\lt \inf_{w\in W} f(w,z_0)
++\le p(0)\le\sup_{z\in Z}f(w_0,z)\lt +\infty.
+ ```
+ 
+ If $`\|z\|\le M`$ on $`Z`$, then for every $`w`$, adding $`u^Tz`$ changes its supremum by at most $`M\|u\|`$. Taking infima gives $`|p(u)-p(0)|\le M\|u\|`$. Thus $`p`$ is finite everywhere and in particular $`0\in\mathrm{int}\,\mathrm{dom}p`$. The stated biconjugacy result yields the minimax equality. Boundedness of the domains did not have to imply they themselves are closed; closedness of the extended functions supplied compact sublevels.
+--- original/docs/solutions/5.36.md
++++ corrected/docs/solutions/5.36.md
+@@ -7,7 +7,7 @@
+ ```math
+ \lambda_+,\lambda_-\succeq0,\qquad
+ A^T(\lambda_+-\lambda_-)=0,\qquad
+-b^T(\lambda_+-\lambda_-)<0
++b^T(\lambda_+-\lambda_-)\lt 0
+ ```
+ 
+ is feasible. Setting $`y=\lambda_+-\lambda_-`$ gives the alternative $`A^Ty=0,b^Ty<0`$. Conversely any such $`y`$ decomposes into its componentwise positive and negative parts, producing the two nonnegative multipliers.
+--- original/docs/solutions/5.37.md
++++ corrected/docs/solutions/5.37.md
+@@ -12,7 +12,7 @@
+ The desired distribution is a nonnegative vector $`y`$ satisfying $`By=d`$. If none existed, Farkas' lemma would give $`v\in\mathbb R^n`$ and $`\alpha\in\mathbb R`$ with
+ 
+ ```math
+-(P-I)^Tv+\alpha\mathbf1\succeq0,\qquad\alpha<0.
++(P-I)^Tv+\alpha\mathbf1\succeq0,\qquad\alpha\lt 0.
+ ```
+ 
+ Thus $`P^Tv\succeq v-\alpha\mathbf1\succ v`$. Choose an index $`j`$ where $`v_j`$ is largest. Since column $`j`$ of $`P`$ is a probability vector,
+--- original/docs/solutions/5.6.md
++++ corrected/docs/solutions/5.6.md
+@@ -24,7 +24,7 @@
+ \qquad
+ b^T\widetilde\nu=\frac{\|r\|_2^2}{\|r\|_1}>0,
+ \qquad
+-b^T\widehat\nu=-\frac{\|r\|_2^2}{\|r\|_1}<0.
++b^T\widehat\nu=-\frac{\|r\|_2^2}{\|r\|_1}\lt 0.
+ ```
+ 
+ The positive-sign residual gives the better bound; the negative one is worse even than the trivial zero lower bound. Moreover
+--- original/docs/solutions/6.2.md
++++ corrected/docs/solutions/6.2.md
+@@ -13,7 +13,7 @@
+ 
+ For the one-norm, the subdifferential of the objective at $`x`$ is
+ ```math
+-\#\{i:b_i<x\}-\#\{i:b_i>x\}
++\#\{i:b_i\lt x\}-\#\{i:b_i>x\}
+ +[-\#\{i:b_i=x\},\#\{i:b_i=x\}].
+ ```
+ It contains zero exactly when at most half the observations lie strictly on either side. The full solution set is the median interval $`[b_{(\lceil m/2\rceil)},b_{(\lfloor m/2\rfloor+1)}]`$.
+--- original/docs/solutions/6.6.md
++++ corrected/docs/solutions/6.6.md
+@@ -34,7 +34,7 @@
+ On $`0<u\le1`$, maximize $`vu-1/u`$; on $`u\ge1`$, maximize $`(v-1)u`$. If $`v>1`$ the second supremum is infinite. If $`-1\le v\le1`$, both branches are maximized at $`u=1`$, giving $`v-1`$. If $`v<-1`$, the first branch has maximizer $`u=1/\sqrt{-v}`$, giving $`-2\sqrt{-v}`$, which dominates $`v-1`$. Therefore
+ ```math
+ \phi^*(v)=\begin{cases}
+--2\sqrt{-v},&v<-1,\\
++-2\sqrt{-v},&v\lt -1,\\
+ v-1,&-1\le v\le1,\\
+ +\infty,&v>1.
+ \end{cases}
+--- original/docs/solutions/7.3.md
++++ corrected/docs/solutions/7.3.md
+@@ -13,6 +13,6 @@
+ For completeness, writing the Gaussian density as $`\varphi`$, the second derivative of $`\log\Phi(t)`$ is
+ ```math
+ -\frac{\varphi(t)}{\Phi(t)}
+-\left(t+\frac{\varphi(t)}{\Phi(t)}\right)<0.
++\left(t+\frac{\varphi(t)}{\Phi(t)}\right)\lt 0.
+ ```
+ For $`t\ge0`$ the bracket is positive. For $`t<0`$, integration of $`\varphi'(s)=-s\varphi(s)`$ yields $`\varphi(t)=\int_{-\infty}^t(-s)\varphi(s)ds>(-t)\Phi(t)`$, giving the same conclusion. Affine composition and summation prove convexity. With separated data the infimum may be approached only by diverging parameters; the formulation does not falsely promise a finite maximizer or identifiability when the design is rank deficient.
+--- original/docs/solutions/8.1.md
++++ corrected/docs/solutions/8.1.md
+@@ -7,6 +7,6 @@
+ If two distinct nearest points $`p,q`$ existed, their common distance $`d`$ would be positive (distance zero permits only $`x_0`$). Strict convexity of the norm's unit ball gives
+ ```math
+ \left\|\frac{p+q}{2}-x_0\right\|
+-=d\left\|\frac{(p-x_0)/d+(q-x_0)/d}{2}\right\|<d.
++=d\left\|\frac{(p-x_0)/d+(q-x_0)/d}{2}\right\|\lt d.
+ ```
+ Their midpoint is in $`C`$, contradicting minimality. Thus the projection exists and is unique. Here “strictly convex norm” means strict convexity of its unit ball, not strict convexity along a ray, which no norm has.
+--- original/docs/solutions/8.12.md
++++ corrected/docs/solutions/8.12.md
+@@ -16,7 +16,7 @@
+ ```math
+ \|Ax+\bar b\|^2
+ =\tfrac12\|Ax+b_1\|^2+\tfrac12\|Ax+b_2\|^2
+--\tfrac14\|b_1-b_2\|^2\le\rho^2<1.
++-\tfrac14\|b_1-b_2\|^2\le\rho^2\lt 1.
+ ```
+ Full dimensionality implies $`\rho>0`$. Dividing $`A,\bar b`$ by $`\rho`$ produces a feasible ellipsoid of volume $`\rho^n`$ times as large, a contradiction. Hence its offset and center are unique.
+ 
+--- original/docs/solutions/8.30.md
++++ corrected/docs/solutions/8.30.md
+@@ -21,7 +21,7 @@
+ \text{minimize with respect to }\mathbb R_+^2\quad
+ \left(\sum_{i=1}^{n-1}d_i g(\theta_i),
+ \ \sum_{i=2}^{n-1}|\theta_{i-1}+\theta_i+\psi_i|\right),
+-\qquad-\pi<\theta_i<\pi.
++\qquad-\pi\lt \theta_i\lt \pi.
+ ```
+ Both components are convex. Absolute values can be replaced by epigraph variables $`s_i\ge\pm(\theta_{i-1}+\theta_i+\psi_i)`$. Weighted minimization $`L+\lambda D`$, $`\lambda\ge0`$, or minimizing $`L`$ subject to $`D\le d`$, traces the supported Pareto trade-off; every weakly efficient objective point is supported by nonnegative weights because the upper image is convex.
+ 
+--- original/docs/solutions/8.5.md
++++ corrected/docs/solutions/8.5.md
+@@ -14,7 +14,7 @@
+ ## (b) Convexity of signed distance
+ First suppose $`C`$ has nonempty interior and is a proper subset of space. Replacing it by its closure changes neither outside distance nor inside depth, and boundary points have both values zero. Let $`h_C(a)=\sup_{z\in C}a^Tz`$. We claim
+ ```math
+-s(x)=\sup_{\substack{\|a\|_*=1\\h_C(a)<\infty}}
++s(x)=\sup_{\substack{\|a\|_*=1\\h_C(a)\lt \infty}}
+ \{a^Tx-h_C(a)\}.\tag{1}
+ ```
+ For an interior $`x`$, a norm ball of radius $`r`$ about $`x`$ lies in the closed convex set exactly when $`a^Tx+r\|a\|_*\le h_C(a)`$ for every supporting functional. This follows from the halfspace representation of a closed convex set and the definition of the dual norm. Taking the largest $`r`$ proves (1) inside, including the boundary limit.
+--- original/docs/solutions/9.21.md
++++ corrected/docs/solutions/9.21.md
+@@ -5,7 +5,7 @@
+ Apart from the tolerance term, the coefficient in (9.56) is
+ ```math
+ C(\alpha,\beta)=\frac{20-8\alpha}{\alpha\beta(1-2\alpha)^2},
+-\qquad0<\alpha<\tfrac12,\quad0<\beta<1.
++\qquad0\lt \alpha\lt \tfrac12,\quad0\lt \beta\lt 1.
+ ```
+ For any fixed $`\alpha`$ it decreases strictly as $`\beta`$ increases. Thus the best possible coefficient is an infimum as $`\beta\uparrow1`$, not an attained minimum for the permitted backtracking parameter range.
+ 
+--- original/docs/solutions/9.3.md
++++ corrected/docs/solutions/9.3.md
+@@ -18,10 +18,10 @@
+ The negative gradient is $`-2x`$, so every iterate remains on the ray $`x_1=x_2=s`$, starting with $`s_0=2`$. With standard parameters $`0<\alpha<1/2`$, $`0<\beta<1`$, feasibility of a step requires
+ ```math
+ s(1-2t)>1\quad\Longleftrightarrow\quad
+-0<t<\frac{s-1}{2s}<\frac12.
++0\lt t\lt \frac{s-1}{2s}\lt \frac12.
+ ```
+ The Armijo condition for this quadratic is $`t\le1-\alpha`$, and is automatically satisfied by every feasible step. Therefore backtracking selects the first power of $`\beta`$ strictly below $`T=(s-1)/(2s)`$. The previous power is at least $`T`$, giving $`t\ge\beta T`$. Hence
+ ```math
+-0<s_{k+1}-1=s_k-1-2t_ks_k\le(1-\beta)(s_k-1).
++0\lt s_{k+1}-1=s_k-1-2t_ks_k\le(1-\beta)(s_k-1).
+ ```
+ Thus $`s_k\downarrow1`$, the iterates converge to the excluded point $`(1,1)`$, and $`f(x^{(k)})\to2>p^\star`$. Strong convexity alone does not rescue the convergence theorem when the required sublevel-set closedness fails.
+--- original/docs/solutions/9.31.md
++++ corrected/docs/solutions/9.31.md
+@@ -13,7 +13,7 @@
+ For each $`N\in\{2,5,10,20\}`$, refresh $`H=\nabla^2 f(x_k)`$ and its Cholesky factors whenever $`k`$ is a multiple of $`N`$, including $`k=0`$. On intervening iterations use the stored factors to solve $`Hd=-\nabla f(x_k)`$. The matrix is stale, but remains positive definite, so
+ 
+ ```math
+-\nabla f(x_k)^Td=-\nabla f(x_k)^TH^{-1}\nabla f(x_k)<0
++\nabla f(x_k)^Td=-\nabla f(x_k)^TH^{-1}\nabla f(x_k)\lt 0
+ ```
+ 
+ away from stationarity. Consequently feasible backtracking can still find a decreasing step. The code counts actual Hessian evaluations and factorizations; it does not secretly recompute the current Hessian during reuse steps.
