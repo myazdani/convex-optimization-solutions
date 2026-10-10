@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "fig_9_23",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "3285225363d18efaa35f0b1f4f7431b265bd407c0bfcae86720bf2e0c8d006c0",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "9d4c09bad2e5e7f5edd1f1a5728418a0873a0daf1bb372afebe15f79f006f9d6",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Full100000-by10000 sparse matrix and final slack/gradient/objective recomputed; explicit book-versus-companion row-count choice verified. Sources, derivations, actual result tables and plots inspected;11 combined chapter9/10 tests passed. Execution/source/data hashes verified. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_9_25",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "e48b03d7c67d750395b54147e543e789a738fe504585cfa6fac43c5d8385b0c3",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "c0e9123b41dca1475d485795dcdcebe35f8da6bb2d4c3b1f7421336028234966",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "All15 saved instances, all150 start feasibility and initial objective gaps recomputed; requested full dimensional families, rejection disclosure, and all final decrement thresholds verified. Sources, derivations, actual result tables and plots inspected;11 combined chapter9/10 tests passed. Execution/source/data hashes verified. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_10_1",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "173ad9b9a994aa2f416eb2fe2a8c8d75e25367845f017a9404b7d7e582c5814a",
+      "code_sha256": "9c7ff3781d2ec29366829e06b2fdc63bbb700ad0fd50a4cef1c936b02dc2a269",
+      "results_sha256": "8b781266b38ce83512902d79ae04d2459ffd684d8b25e5fe2865c0e8fadf1262",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Positive primal/dual feasibility certificate and final analytic-center KKT equations independently recomputed. Sources, derivations, actual result tables and plots inspected;11 combined chapter9/10 tests passed. Execution/source/data hashes verified. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_10_3",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "1f0987af33096bd8182eb11d46be7332e62e4cf47e39d9f2fdcb541aee14afb5",
+      "code_sha256": "9c7ff3781d2ec29366829e06b2fdc63bbb700ad0fd50a4cef1c936b02dc2a269",
+      "results_sha256": "4a7d7ebdd5306fd711af7a43927c495554a6b06276c7b720e64514e50f2db134",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Farkas certificate independently proves infeasibility; nonvanishing residual and shrinking steps are correctly interpreted rather than mistaken for convergence. Sources, derivations, actual result tables and plots inspected;11 combined chapter9/10 tests passed. Execution/source/data hashes verified. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_10_5",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "c2185fa609564ea47f78d3f9cd82c50e1db8e4b7d8d48073addf611b04026014",
+      "code_sha256": "9c7ff3781d2ec29366829e06b2fdc63bbb700ad0fd50a4cef1c936b02dc2a269",
+      "results_sha256": "c792af1d334b679e5a745268b1a320274cba461645a7abca4f14013718fc974c",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Convex-concave Hessian signs, both book/source starts, ball domains and final saddle gradients independently checked. Sources, derivations, actual result tables and plots inspected;11 combined chapter9/10 tests passed. Execution/source/data hashes verified. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_10_6",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "2bd0e3a3d79d333699480601f2125c977e83615ea1aa5295cc622c66d537ee04",
+      "code_sha256": "9c7ff3781d2ec29366829e06b2fdc63bbb700ad0fd50a4cef1c936b02dc2a269",
+      "results_sha256": "9738a31809c30eb51703e8ef9bf9ae283e94d2d4a4c71ee8fe15f737add39757",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "All12 full-size500-variable runs compared through primal recovery and objective values; nullspace and Schur-complement equations checked against source; disclosed Armijo source corrections verified. Sources, derivations, actual result tables and plots inspected;11 combined chapter9/10 tests passed. Execution/source/data hashes verified. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    }
+  ]
+}

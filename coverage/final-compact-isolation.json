@@ -1,0 +1,136 @@
+{
+  "status": "passed",
+  "original_source_and_holding_reads_blocked": true,
+  "attempted_forbidden_reads": [],
+  "module_path": "/workspace/shared/full-book-final-review-snapshot/src/convex_solutions/__init__.py",
+  "algorithm_root": "/workspace/shared/full-book-final-review-snapshot",
+  "omitted_inputs_regenerated_and_hash_verified": [
+    {
+      "id": "fig_10_6",
+      "file": "instance.npz",
+      "array_count": 5,
+      "passed": true
+    },
+    {
+      "id": "fig_11_17",
+      "file": "instance.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_11_19",
+      "file": "instance_1000.npz",
+      "array_count": 2,
+      "passed": true
+    },
+    {
+      "id": "fig_11_19",
+      "file": "instance_500.npz",
+      "array_count": 2,
+      "passed": true
+    },
+    {
+      "id": "fig_11_7",
+      "file": "instance_1000.npz",
+      "array_count": 7,
+      "passed": true
+    },
+    {
+      "id": "fig_11_7",
+      "file": "instance_500.npz",
+      "array_count": 7,
+      "passed": true
+    },
+    {
+      "id": "fig_9_21",
+      "file": "instance.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_23",
+      "file": "A.npz",
+      "array_count": 5,
+      "passed": true
+    },
+    {
+      "id": "fig_9_23",
+      "file": "instance.npz",
+      "array_count": 2,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem1.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem2.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem3.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem4.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem5.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem1.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem2.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem3.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem4.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem5.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_6",
+      "file": "instance.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_7",
+      "file": "instance.npz",
+      "array_count": 4,
+      "passed": true
+    }
+  ],
+  "elapsed_seconds_including_tests_and_regeneration": 26.77299084799961
+}

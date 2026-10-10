@@ -60,3 +60,13 @@ def test_github_tables_preserve_columns():
             if expected is None:
                 expected = columns
             assert columns == expected, f"{path}:{number}: inconsistent table columns"
+
+
+def test_markdown_contains_no_hidden_control_characters():
+    for path in MARKDOWN:
+        for offset, char in enumerate(path.read_text()):
+            assert ord(char) >= 32 or char in '\n\r\t', (
+                f'{path}: hidden control byte {ord(char)} at character {offset}; '
+                'check accidentally interpreted LaTeX escapes'
+            )
+            assert ord(char) != 127, f'{path}: DEL control byte at character {offset}'

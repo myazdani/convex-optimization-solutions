@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "10.1",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "81f60f4280edeff53b1fe7cbb1c9fcfc40c319fd0885a3cac239a85b0887d062",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked all four nonsingularity equivalences and congruence argument giving n positive and p negative eigenvalues."
+    },
+    {
+      "id": "10.2",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "644cb30b064c06608ac2f77905dbefd61b72ee9f4edcb1ef713c21b742bbdcdd",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked least-squares multiplier and orthogonal projection, isometric reduced coordinates and sufficient backtracking convergence assumptions."
+    },
+    {
+      "id": "10.3",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "ca9f350b387eddd18fa22d6f4b97c1c92643970ccb71a272bed5ff08a677b0d6",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked implicit dual derivatives, Newton residual sign and principal-block inverse bound for strong concavity."
+    },
+    {
+      "id": "10.4",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "4f511fe7e6a9aeb7c3dceaf29a295fad341cc3c49914fbdcbae7a30e9cec0f34",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked inverse-KKT bound, PSD square inequality and singular-value factors for reduced curvature and Hessian Lipschitz constants."
+    },
+    {
+      "id": "10.5",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "7c61b4a5e1cd907dc467c178207009b74a96d279206b951df58a0ed300eeb4c0",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked feasible Newton invariance and cancellation for infeasible-start increments; residual line-search qualification correct."
+    },
+    {
+      "id": "10.6",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "508ccfe644fe4de1c0e1b4b8d3d88aa9f0c13d6c7486083aa893445cfc074031",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked KKT model-improvement identity and reduced positive-definiteness condition with singular full Hessian allowed."
+    },
+    {
+      "id": "10.7",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "c9704001e88bb95816daa2fc5ea9330d5e727fba8d11ae934a9d6230b25ba1dd",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked closed residual norm proof using bounded gradients and closed objective; exact derivative block identity and restricted-set qualification."
+    },
+    {
+      "id": "10.8",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "880f29ec025a959a894684cc718402ac86871436349fe81c0b3940281082e53a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked exact residual scaling, coordinate invariance and full-step necessity when a previously unsatisfied equality becomes exactly satisfied."
+    },
+    {
+      "id": "10.9",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "e00bb1fb9bce61d9b702665098cb2df84d69724ab13526927ffbdb91318b7300",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Independently verified entropy coercivity/interior optimizer, nonclosed objective sublevel, explicit counterexample to full residual-set assumption, corrected compact feasible-slice proof, and dual coercivity/curvature assumptions."
+    },
+    {
+      "id": "10.10",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "a2b789a47e716a2f4adb88d2f82154e45f7a506a183ce91b2c552b81a9d38543",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked symmetric part of residual Jacobian, minimum singular-value bound and orthogonal relation to payoff Hessian."
+    },
+    {
+      "id": "10.11",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "58c9b5bc4fb193f3def3f88b2fde2b314acadeffcb68cf67c2cf5bb07c044d3f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked Sherman-Morrison reduced solve, dual derivative signs and direct KKT scalar elimination; all O(n) claims match allowed scalar primitives."
+    },
+    {
+      "id": "10.12",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "dde2edba5c91ffd51fc082f3e5681b6d235119891921fd5495b40f4088f2d06a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "primal step",
+        "dual derivation",
+        "dual step complexity"
+      ],
+      "notes": "Checked trace-inverse Hessian and eigenbasis inverse weights, primal Schur system, singular PSD dual boundary and dual Hessian; dense structured complexity O(n^4)."
+    },
+    {
+      "id": "10.13",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "278fcd89794f0e7fe5282ccc2d2c215cf54f33760ad1c9d5fc03d703a6e469ed",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked block elimination signs and positive complements, whitening option and leading dense/block-diagonal flop counts."
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "author": "solve_applications_algorithm_exercises",
+  "entries": [
+    {
+      "id": "9.1",
+      "title": "Unbounded quadratic minimization",
+      "solution_path": "docs/solutions/9.1.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7afb6549c2e2d36293cec32b87131dd46b653f77782a1a907a644f800abcd082",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.2",
+      "title": "A closed quadratic-over-linear minimization",
+      "solution_path": "docs/solutions/9.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5bcb6f456105414921f025cbd550465311a83efc3b30d25a22beadd99bbc4a83",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.3",
+      "title": "A nonclosed sublevel set breaks gradient convergence",
+      "solution_path": "docs/solutions/9.3.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6fee34d943a96b62ba7dd0ef68f257400b9b085e3ac1dd53e7996842cf4f3d49",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "code_path": "examples/geometry/ex_9_3_diagram.py",
+      "figure_paths": [
+        "docs/figures/ex_9_3.svg"
+      ]
+    },
+    {
+      "id": "9.4",
+      "title": "Why the perspective formulation is not a routine Newton problem",
+      "solution_path": "docs/solutions/9.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d3921da9ad134228b2126f0bd230bf88e10b21866533f66fbe52f3e7ded6a99f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.5",
+      "title": "An explicit backtracking bound",
+      "solution_path": "docs/solutions/9.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "00f655ac601bdc3580d7c50de4fac42200aa3a15dd7f8447164c9b10904a3175",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.6",
+      "title": "Exact iterates for a two-dimensional quadratic",
+      "solution_path": "docs/solutions/9.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "da77db71884561d927fc5862202c6b2c4b0b7c507130413bef5401ffd4db93b3",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.7",
+      "title": "Steepest descent and the dual norm",
+      "solution_path": "docs/solutions/9.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0dd8dae8742b075b34f98e264c8a22d709c15f6320539317d11d9796f1df5b3b",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.8",
+      "title": "Steepest descent in the infinity norm",
+      "solution_path": "docs/solutions/9.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e806b21cf615685c43666e542688a8b4ae12f83221d1f2138c527629b52326ec",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.9",
+      "title": "Variational characterization of the Newton decrement",
+      "solution_path": "docs/solutions/9.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cc994af4d9aeb8b3cb19da6f25817017528afd3e5fb104bb3abaecebe1846fc9",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.11",
+      "title": "Gradient and Newton methods after an increasing composition",
+      "solution_path": "docs/solutions/9.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1278fff28390bc116a7fe0c099721dffc77fcd28ef76988c630942a0bccb556c",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.12",
+      "title": "A trust region produces a regularized Newton model",
+      "solution_path": "docs/solutions/9.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8ee58214f4b1395c725e3bf24fe2e81c5b1339337d18b63ce4b6c12a6714b2f6",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.13",
+      "title": "Self-concordance of an inverse-slack penalty",
+      "solution_path": "docs/solutions/9.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7f9a92f75c1c10e7a100eac328c2e93eb72151c7f040e986d394f59aeed5c6ad",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.14",
+      "title": "The logarithmic-composition rule",
+      "solution_path": "docs/solutions/9.14.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c5d0e7a44633c9df74017379b3d106b668103b66b4e7169bcde571e35d96438",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.15",
+      "title": "Three self-concordant conic barriers",
+      "solution_path": "docs/solutions/9.15.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "68403466fb1c654769a6a8d6b9536202286ad52192cdee93e80469f1903ea3e8",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.16",
+      "title": "Curvature of a one-dimensional self-concordant function",
+      "solution_path": "docs/solutions/9.16.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "fab38e675bae8e0b9a523b996f5a9052f81a2af396f56472180f7012cf2c7696",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.17",
+      "title": "Mixed derivatives, fixed nullspace, and Hessian comparison",
+      "solution_path": "docs/solutions/9.17.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "589acfd9908f2e1c56989bcffde6bd68edb87b178cbbd2bea3e467511cbc6abd",
+      "notes": "Corrects source reciprocal typo in admissible t range; mixed derivative proof includes singular Hessians."
+    },
+    {
+      "id": "9.18",
+      "title": "Quadratic contraction of the Newton decrement",
+      "solution_path": "docs/solutions/9.18.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cb04349d3de665be6323a276d08fdd14dab6322ed45691b2b0e76a1b5105188c",
+      "notes": "Proves exact decrement estimate and explicitly supplies missing full-step domain/closedness qualification."
+    },
+    {
+      "id": "9.19",
+      "title": "Attainment and distance from the optimum",
+      "solution_path": "docs/solutions/9.19.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3d5fb616cfaffd0d65739e5c2effb68037deef0e40c4313e15c5e85440ca6170",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.20",
+      "title": "Legendre duality preserves self-concordance",
+      "solution_path": "docs/solutions/9.20.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bc3c3decca60aed4802b1463c6db40684dd5d5ee026f4a31fbfb0975dbe52093",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.21",
+      "title": "Optimizing the stated Newton complexity bound",
+      "solution_path": "docs/solutions/9.21.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4363c0052ddc82bfc7929dd503d020448f2a0ccaa6849c7e239a8cb051505e1a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.22",
+      "title": "Newton complexity under a scaled third-derivative condition",
+      "solution_path": "docs/solutions/9.22.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "782b9050e54751863e51f043f089fd8391e08703df384da00ca69cb47a0c49ba",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.23",
+      "title": "Precomputations for efficient line searches",
+      "solution_path": "docs/solutions/9.23.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d7f36e37c2b01975e290612f7bc9223bf1a3f8c6f1e2bce78fddca167bf7734e",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.24",
+      "title": "Block-diagonal Newton systems and separability",
+      "solution_path": "docs/solutions/9.24.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f8cf0515313815de71971db47afa651e58be597f27d7a0528c701371da3722ab",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.25",
+      "title": "Hessian structure for one- and two-dimensional smoothing",
+      "solution_path": "docs/solutions/9.25.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b84c790928019600598ab1c642807ba15b30014c89091f7443459e97aa165cbf",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.26",
+      "title": "Sparse lifted Newton equations for affine compositions",
+      "solution_path": "docs/solutions/9.26.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9cc874056db5a07b4120e6a9fae42d57d70dcb98a43d2af23ef5720f42e7b95c",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.27",
+      "title": "Efficient analytic-center Newton steps with box bounds",
+      "solution_path": "docs/solutions/9.27.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6db03808a0eefe4edda84ac9b19227b34c82d20ccc0a92d7c4a8e291bc71f708",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.28",
+      "title": "Sparse-plus-low-rank Newton steps for quadratic barriers",
+      "solution_path": "docs/solutions/9.28.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cc104c675a5ea04da320d2d13018119cc08500eb3259f9492e56c049b1a72d3a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "9.29",
+      "title": "Arrowhead elimination for two-stage optimization",
+      "solution_path": "docs/solutions/9.29.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ebcb554f4b8bf0ce333f7e9ba2d3ac46ffce8a9a2a8e4e6bcaa7e5457cb1b14e",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    }
+  ]
+}

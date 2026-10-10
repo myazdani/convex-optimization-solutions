@@ -41,3 +41,28 @@ def validate_example_evidence(entry: dict, root: Path = ROOT) -> None:
     assert r.get('notes'), f'Missing mathematical review notes: {eid}'
     evidence = entry.get('verification', {})
     assert evidence.get('test_command') and evidence.get('test_result') and evidence.get('independent_checks'), f'Missing execution/check evidence: {eid}'
+    validate_execution_envelope(entry, root)
+
+
+def validate_execution_envelope(entry: dict, root: Path = ROOT) -> None:
+    """Validate actual-run metadata and bind every recorded runtime dependency."""
+    eid = entry['id']
+    result = json.loads((root / entry['results_path']).read_text())
+    execution = result.get('execution', result)
+    assert execution.get('executed_at'), f'Missing execution timestamp: {eid}'
+    assert execution.get('duration_seconds', execution.get('elapsed_seconds', 0)) > 0, f'Missing execution duration: {eid}'
+    assert execution.get('reproduction_command', execution.get('execution_command')), f'Missing runnable command: {eid}'
+    assert execution.get('python') and execution.get('numpy'), f'Missing runtime versions: {eid}'
+    hashes = execution.get('source_hashes', result.get('runtime_source_sha256', {}))
+    assert hashes and entry['code_path'] in hashes, f'Missing runtime code hashes: {eid}'
+    for relative, expected in hashes.items():
+        path = (root / relative).resolve()
+        assert path.is_relative_to(root.resolve()) and path.is_file(), f'Missing runtime dependency: {eid}: {relative}'
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == expected, f'Changed runtime dependency since execution: {eid}: {relative}'
+    for relative, expected in result.get('input_file_sha256', {}).items():
+        path = (root / relative).resolve()
+        assert path.is_relative_to(root.resolve()) and path.is_file(), f'Missing executed input: {eid}: {relative}'
+        assert hashlib.sha256(path.read_bytes()).hexdigest() == expected, f'Changed executed input: {eid}: {relative}'
+    for relative in entry.get('supporting_paths', []):
+        path = (root / relative).resolve()
+        assert path.is_relative_to(root.resolve()) and path.is_file(), f'Missing supporting file: {eid}: {relative}'

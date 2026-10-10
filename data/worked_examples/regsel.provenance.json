@@ -1,0 +1,11 @@
+{
+  "kind": "upstream_numeric_data",
+  "source_url": "https://cvxopt.org/_downloads/9563108e5c0de500dfc9b13feb67f082/regsel.bin",
+  "original_filename": "regsel.bin",
+  "original_sha256": "3f4785f872f24a263cb92f5fe361c9bb127e8ac8d180312b5ff33e17cc31c036",
+  "sha256": "a0d73bd61f1ad6371821b21bbf4739a3435835e4960ac9cacdcc487f11f45575",
+  "rights": "CVXOPT data: GPL-3.0-or-later; see LICENSE-CVXOPT-DATA.txt and https://cvxopt.org/copyright.html",
+  "transformations": [
+    "Restricted pickle decoder only allows real cvxopt.base.matrix construction; preserve column-major shape; serialize numeric arrays as JSON."
+  ]
+}

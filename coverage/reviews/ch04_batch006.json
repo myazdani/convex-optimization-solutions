@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "4.52",
+      "reviewer": "convexity_review",
+      "solution_sha256": "ef33f62b105976523590ad70ad159d83c1a38c2bd3a08de089c24e7dae3e2dc5",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked achieved-set membership, interior domination argument using nonzero cone vector, and no unjustified convexity/closure assumption on the achievable set."
+    },
+    {
+      "id": "4.53",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b673981b87479e9baaa1b1fd8677dc5e96c15704a6e893b32f8f6bdf0d29a80e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked convex upper image via cone convexity and both minimal-element directions, including pointedness at the final equality step."
+    },
+    {
+      "id": "4.54",
+      "reviewer": "convexity_review",
+      "solution_sha256": "54fdb9d2b8c97c7d71ccc4e86fa7e04cc23feb96772df856b4b3fd2ace4c562f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked every-positive-weight scalarization necessity and converse through density of interior dual weights and bipolarity; same-point quantifier preserved."
+    },
+    {
+      "id": "4.55",
+      "reviewer": "convexity_review",
+      "solution_sha256": "56a450df3677b046b96d15be631cdbfac98024a16f26c7a7a5ed9a0081e5f47f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main",
+        "unique maximum scalarization"
+      ],
+      "notes": "Checked strict scalar monotonicity contradiction, interior dual special case and separate unique-max-objective proof, with counterexample without uniqueness."
+    },
+    {
+      "id": "4.56",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b47fa29d47ff4896b0af9d0c07622ed3375f023771e4505c10ecb533ed1d1406",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked source zero-scale perspective convention, convexity without closure, grouping arbitrary convex combinations by sets, empty sets and exact feasible projection."
+    },
+    {
+      "id": "4.57",
+      "reviewer": "convexity_review",
+      "solution_sha256": "faffb32b58683cf9b2936964119596c6336304f8eb1d4c9fd9f90ee9110a139b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked all mutual-information terms and base-two logarithms, continuous zero-probability entropy convention, concavity and simplex attainment."
+    },
+    {
+      "id": "4.58",
+      "reviewer": "convexity_review",
+      "solution_sha256": "db45482c093329fd4c693d4ed5126d544701900eff3ce6f3392ff3a481b91cdd",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked concave-return dynamics inequality, exact recovery by recomputing higher physical capital with unchanged consumption, weak-increase case and optional strictness claims."
+    },
+    {
+      "id": "4.59",
+      "reviewer": "convexity_review",
+      "solution_sha256": "090ba1916e3c485bcf699cdf3009f18e0fb40023fce60ca3b5ca239999980e5d",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked expectation and supremum convexity without joint-u convexity, domains/integrability, finite-scenario expressions and exact epigraph."
+    },
+    {
+      "id": "4.60",
+      "reviewer": "convexity_review",
+      "solution_sha256": "a07893470528438c1a8c884e90dd20cbcb1afd6b860058813ce4e010b5a27688",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked log-return domains, zero probability omission, concave Hessian and separation of convexity from IID long-run interpretation."
+    },
+    {
+      "id": "4.61",
+      "reviewer": "convexity_review",
+      "solution_sha256": "49d04ba7dcbdc391c6a3b8a093ec780f37ed4f9a82a4c15ee63ec24873cd8f40",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked monotone logistic LP formulation including unbounded-score nonattainment, positive-profit logarithmic objective and both inverse value transformations."
+    },
+    {
+      "id": "4.62",
+      "reviewer": "convexity_review",
+      "solution_sha256": "88cbe28bc439db0fbec3a409c90338492d15ae083b91ebe90a38b3a85a4bd9bf",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked rate perspective, all zero-bandwidth limits, resource equalities, rate hypograph projection with weak utility monotonicity and compactness."
+    },
+    {
+      "id": "4.63",
+      "reviewer": "convexity_review",
+      "solution_sha256": "7f2b9e3aaee11a02e36f031e3f0fe84eea72bdfaf417951c65373be11dabbf4b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked log-concave yield frontier proof using approximate supremizers, cost-slice infimum identity, recovery and explicit limits of an approximate outer grid search."
+    },
+    {
+      "id": "4.64",
+      "reviewer": "convexity_review",
+      "solution_sha256": "671cb90504708314a1ef2f51f30a5083be303c1ec59b07b5eacf0b4d2f3605b9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked common first-stage variable and all scenario recourse variables, expected objective equivalence, convexity and inner-infimum nonattainment caveat."
+    },
+    {
+      "id": "4.65",
+      "reviewer": "convexity_review",
+      "solution_sha256": "3c6775c6548529c699706b0fbd2a2142e3057211b4d5b70d4bfaad59a1ed0bf1",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked source full eta>0 range and unfixed cyclic initial charge. Independently verified capped-recursion induction, fixed-point existence, adjusted regenerative power and compensating brake, all motor/energy bounds, unchanged fuel, and eta>=1 zero-slack argument."
+    }
+  ]
+}

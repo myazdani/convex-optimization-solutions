@@ -1,0 +1,906 @@
+{
+  "schema_version": 1,
+  "author": "solve_optimization_duality_exercises",
+  "entries": [
+    {
+      "id": "4.1",
+      "title": "Planar objective comparisons",
+      "solution_path": "docs/solutions/4.1.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b50433cff97e58360674b4eca207c022c308479f55ec45d17beec46d49fc4ea7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.2",
+      "title": "Log-barrier recession and attainment",
+      "solution_path": "docs/solutions/4.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "104b6b231e08c1341ac6aebd72e514032100913916a0a32456602587e763dcaa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.4",
+      "title": "Averaging under finite symmetries",
+      "solution_path": "docs/solutions/4.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e8f448db1a525ed94f6ee30da68b7e5df01f4664b815069edcd869d8445449c1",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.5",
+      "title": "Three formulations of the Huber loss",
+      "solution_path": "docs/solutions/4.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=204",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "80bb579e9e78f7f7ed171af0761a7f3327df6b3ae2f314ceddb8430dd227fe9a",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.6",
+      "title": "When a convex equality relaxation is exact",
+      "solution_path": "docs/solutions/4.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2213984b7c805d3441aa5491ddc38389a7eb0715ea58f9f655831e25d1f7121a",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.7",
+      "title": "Convex fractional reformulations",
+      "solution_path": "docs/solutions/4.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "849364361d7fb98ede46e3c2c85034c71d937a7cce2e423c80a13366934b55f7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.8",
+      "title": "Explicit solutions of elementary linear programs",
+      "solution_path": "docs/solutions/4.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=206",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b0ae0e5d4a46a27a3765af69ce6b3e45edcc66c56f63239bef9588bbdf0111ce",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.9",
+      "title": "A square inequality-form linear program",
+      "solution_path": "docs/solutions/4.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9397182b89e2de2efded0bafec820599deb71a779a3fb24038638e17bca732a2",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.10",
+      "title": "Converting a general linear program to standard form",
+      "solution_path": "docs/solutions/4.10.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d8b589cd26c2e9258fa5a86c3f22abe8d70e0a674b7b7ec2bb8af74b42a48a28",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.11",
+      "title": "Linear programs for one and infinity norms",
+      "solution_path": "docs/solutions/4.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b0dd56d4b8c30feea504fbe118fc2cf771c47e2907dfc8927a52d9670c82d5b6",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.12",
+      "title": "A linear program for network flow",
+      "solution_path": "docs/solutions/4.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e7bcc1e8559d65dc541697649291422cd8feaa62153010f0534f2cbdf3d0276b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.13",
+      "title": "Robust linear inequalities with interval coefficients",
+      "solution_path": "docs/solutions/4.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6424c0bf41505e3c3189128ff06a0cf7d8228fb425fc499e70388023f2471124",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.14",
+      "title": "Matrix approximation in the induced infinity norm",
+      "solution_path": "docs/solutions/4.14.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c564d69d93e0df8c3d94d3e61979e00b75e6f24048945617fda863daf605be81",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.15",
+      "title": "Bounds and certificates from a Boolean relaxation",
+      "solution_path": "docs/solutions/4.15.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a9893b583ea1d6a33436a170ae29bf37fd18167b38ef63a1b523a32bd91a04ed",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.16",
+      "title": "Minimum-fuel control as a linear program",
+      "solution_path": "docs/solutions/4.16.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "20100174d3f50f9d9b5fbe7e21452fbad6ec3a758c79cd1dc065ede5fcf0e1dd",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.17",
+      "title": "Activity planning with quantity discounts",
+      "solution_path": "docs/solutions/4.17.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "38460da4b30c8815714763564a85d345aa3c7b560921a078a7bc7a892927d96a",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.18",
+      "title": "Separating points by hyperplanes or spheres",
+      "solution_path": "docs/solutions/4.18.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "aecc037bc723ad745b6a1e6140ad82c7f5ed24401f6f9972b250b32df94256a6",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.19",
+      "title": "Fractional one-norm approximation on a box",
+      "solution_path": "docs/solutions/4.19.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6485e00d1adb86b664ad65e29f6fa71087c603cbfd733010183fa0dad9df29a7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.20",
+      "title": "Wireless max-min SINR as a fractional program",
+      "solution_path": "docs/solutions/4.20.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "de6977d58b5e4fae229d4c4a9c55854df5d822544961ceac685bd9698876c4fa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.21",
+      "title": "Linear and quadratic optimization on ellipsoids",
+      "solution_path": "docs/solutions/4.21.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f0a7d802d98a88891c46ab181a547898874ab649d8cd22509feb4bbbc0e6cbdb",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.22",
+      "title": "The positive-definite trust-region secular equation",
+      "solution_path": "docs/solutions/4.22.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "92657329719fd851b9715d506df79d961798c0578a6b2b330703aa030e7e4eb3",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.23",
+      "title": "Fourth-norm approximation as a convex QCQP",
+      "solution_path": "docs/solutions/4.23.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d80d8ccbb01e9bd9a40668763139c8f5bf67391278388f407939ef73eea5d8b7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.24",
+      "title": "Real conic formulations for complex norm fitting",
+      "solution_path": "docs/solutions/4.24.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "source_checked": true,
+      "subparts": [
+        "p=1",
+        "p=2",
+        "p=infinity"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e834c95787abd0ef2e8120c238ea61fd332e10dbd7df64cc4799b84ba231ce13",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.25",
+      "title": "Strict separation of ellipsoids by an SOCP",
+      "solution_path": "docs/solutions/4.25.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6e2b11acfd5337910a86d1608119f41bad5fd92c9918cdd4465fcdec1d5dc851",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.26",
+      "title": "Hyperbolic constraints and mean maximization",
+      "solution_path": "docs/solutions/4.26.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "source_checked": true,
+      "subparts": [
+        "identity",
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b9cd902a610e379fdadfd97747de8cb83e3c26237be424b6f1ba5efd09ae0015",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.27",
+      "title": "A matrix-fractional objective as an SOCP",
+      "solution_path": "docs/solutions/4.27.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8c4a97313d1843f4abe4f17643f9fed3816b1873d2864908c6133aca6c092eb5",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.28",
+      "title": "Three robust quadratic-program formulations",
+      "solution_path": "docs/solutions/4.28.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6af92992ba387d7bc7e44aafbae2b18e21070e282683852a6de403de205dddb1",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.29",
+      "title": "Maximizing a Gaussian linear-inequality probability",
+      "solution_path": "docs/solutions/4.29.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2ee7374a3e7f1566baab334c893bc53ed598f63e4f369f75d87ba6011621d0e6",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.30",
+      "title": "Pipe and insulation design as a geometric program",
+      "solution_path": "docs/solutions/4.30.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "63e5125465c3575a149e541c9accdc1f6ca1ad3b402357d064cd64a7dbe1fcee",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.31",
+      "title": "Exact recursive beam-design geometric programming",
+      "solution_path": "docs/solutions/4.31.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d0718774fefc9b979cc08260c11a06d9eaf9baeb734b0d20212333035c453460",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.32",
+      "title": "A first-order matching monomial",
+      "solution_path": "docs/solutions/4.32.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ff46085b43bb9d71bf74e1a059ebdfbf5481eff435c21fef7f5444579f40df55",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.33",
+      "title": "Convex formulations of posynomial combinations",
+      "solution_path": "docs/solutions/4.33.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b81a91d3979e9762ca06ec59031cfc6959a1c955ef1b9deb2dfe5506bd7e5a34",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.34",
+      "title": "Log-convexity of the Perron eigenvalue",
+      "solution_path": "docs/solutions/4.34.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8ddab9fdd47ae3099a7f9f28045f5b8826aec68d63827c12299352e281bebdfa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.35",
+      "title": "A sign-pattern class of signomial programs is geometric",
+      "solution_path": "docs/solutions/4.35.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9f40062507cc9fd7b910b823a25a07a1b027ea5d8ce54f6875eec29550287258",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.36",
+      "title": "Reducing every GP posynomial to two terms",
+      "solution_path": "docs/solutions/4.36.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "20c3bd6bd29ac5b08452c7e41875f8df72870620449779fa24ac97f039012773",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.37",
+      "title": "Lifting generalized posynomials into a GP",
+      "solution_path": "docs/solutions/4.37.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3728322258d104a88b8b22cf3939ea90026d064fe35b6d005e09e7febc27bebf",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.38",
+      "title": "One-variable LMIs by simultaneous congruence",
+      "solution_path": "docs/solutions/4.38.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bdb8f9be35dc4a4011f182117fc3ccb2f96979450db62b20903883306e405e2b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.39",
+      "title": "Congruence reductions of semidefinite programs",
+      "solution_path": "docs/solutions/4.39.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "df79d768a5c964ec24ca3d5946515232864b1e217e87245a58ec09f6a1765038",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.40",
+      "title": "Linear and conic programs as semidefinite programs",
+      "solution_path": "docs/solutions/4.40.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b:QP",
+        "b:QCQP",
+        "b:SOCP",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c7f2aca8238c1e4e8e0dfa0485ef9e3231548d219eebb7886aaa8a4853de6a3",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.41",
+      "title": "Semidefinite sufficient tests for copositivity and P0",
+      "solution_path": "docs/solutions/4.41.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "95ff998a8ebc8bf647d97a6fb04eee42bc18a166857c3df7aff6c78a7d625c4f",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.42",
+      "title": "Realifying complex Hermitian LMIs",
+      "solution_path": "docs/solutions/4.42.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0262c65fb2e23615909b7ffd7e773873f73688c18d6857f8ae956f0029bd67e9",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.43",
+      "title": "Semidefinite eigenvalue optimization",
+      "solution_path": "docs/solutions/4.43.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4c96cb1083f21084a6f80b95a960fc8f924bfe66b0701d32a447c52e513996aa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.44",
+      "title": "Maximizing a polynomial lower bound by SDP",
+      "solution_path": "docs/solutions/4.44.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6e0ff074a7bd26d96e3ba168a3c71d407d9c1295ec3bc508623765b08a4a18e2",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.45",
+      "title": "Sum-of-squares Gram matrices and a bivariate quartic",
+      "solution_path": "docs/solutions/4.45.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d0b016b559b2596afc02bd86a22c5ffd78e10626296c054e8ff00228909e627b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.46",
+      "title": "The multivariate moment matrix",
+      "solution_path": "docs/solutions/4.46.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "95e43a8d825cb69d9db3ee82e90f1bbc851c620dd2d8a86964268b1df59df7a3",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.47",
+      "title": "Positive semidefinite and maximum-determinant completion",
+      "solution_path": "docs/solutions/4.47.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3a68bfa9e594f0f8414db6e3c1f3cfa87cbc2a595648860b11c9c3978f9c2aa3",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.48",
+      "title": "Generalized eigenvalues and perspective search",
+      "solution_path": "docs/solutions/4.48.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b7f74e5a75916e7f957f54d0d5c286ab22ab5de80ecfa4afef0c671e6327c704",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.49",
+      "title": "Cone-valued denominators and fractional quasiconvexity",
+      "solution_path": "docs/solutions/4.49.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "linear-fractional representation",
+        "generalized-eigenvalue representation"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7ec31d322cebd6af802d77f593d2a92e38e3306db9f617689825481db75d2daa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.50",
+      "title": "Reading a least-squares trade-off figure",
+      "solution_path": "docs/solutions/4.50.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cdc6eef1a20bcb45f3baab86b3b0724ca19d96130055d16cd8cb38a99e4678b7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.51",
+      "title": "Order transformations: a counterexample and corrected theorem",
+      "solution_path": "docs/solutions/4.51.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "componentwise special case"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3411dd1d6a8d5a172e361b428760f988f6b877c6c196369a8749a5a0bfd59a88",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.52",
+      "title": "Pareto values lie on the achievable boundary",
+      "solution_path": "docs/solutions/4.52.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ef33f62b105976523590ad70ad159d83c1a38c2bd3a08de089c24e7dae3e2dc5",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.53",
+      "title": "The convex upper image and its minimal elements",
+      "solution_path": "docs/solutions/4.53.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b673981b87479e9baaa1b1fd8677dc5e96c15704a6e893b32f8f6bdf0d29a80e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.54",
+      "title": "Optimal points and every positive scalarization",
+      "solution_path": "docs/solutions/4.54.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "54fdb9d2b8c97c7d71ccc4e86fa7e04cc23feb96772df856b4b3fd2ace4c562f",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.55",
+      "title": "Increasing scalar objectives and Pareto optimality",
+      "solution_path": "docs/solutions/4.55.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "unique maximum scalarization"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "56a450df3677b046b96d15be631cdbfac98024a16f26c7a7a5ed9a0081e5f47f",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.56",
+      "title": "Convex hulls of unions through perspectives",
+      "solution_path": "docs/solutions/4.56.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b47fa29d47ff4896b0af9d0c07622ed3375f023771e4505c10ecb533ed1d1406",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.57",
+      "title": "Channel capacity as entropy maximization",
+      "solution_path": "docs/solutions/4.57.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "faffb32b58683cf9b2936964119596c6336304f8eb1d4c9fd9f90ee9110a139b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.58",
+      "title": "Consumption planning with concave returns",
+      "solution_path": "docs/solutions/4.58.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "db45482c093329fd4c693d4ed5126d544701900eff3ce6f3392ff3a481b91cdd",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.59",
+      "title": "Convexity under stochastic and worst-case uncertainty",
+      "solution_path": "docs/solutions/4.59.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "090ba1916e3c485bcf699cdf3009f18e0fb40023fce60ca3b5ca239999980e5d",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.60",
+      "title": "Convexity of log-optimal portfolio allocation",
+      "solution_path": "docs/solutions/4.60.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=223",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a07893470528438c1a8c884e90dd20cbcb1afd6b860058813ce4e010b5a27688",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.61",
+      "title": "Convex optimization of logistic purchase probabilities",
+      "solution_path": "docs/solutions/4.61.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "49d04ba7dcbdc391c6a3b8a093ec780f37ed4f9a82a4c15ee63ec24873cd8f40",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.62",
+      "title": "Joint power and bandwidth allocation",
+      "solution_path": "docs/solutions/4.62.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "88cbe28bc439db0fbec3a409c90338492d15ae083b91ebe90a38b3a85a4bd9bf",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.63",
+      "title": "Manufacturing cost versus log-concave yield",
+      "solution_path": "docs/solutions/4.63.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7f2b9e3aaee11a02e36f031e3f0fe84eea72bdfaf417951c65373be11dabbf4b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.64",
+      "title": "A convex formulation for two-stage recourse",
+      "solution_path": "docs/solutions/4.64.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "671cb90504708314a1ef2f51f30a5083be303c1ec59b07b5eacf0b4d2f3605b9",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "4.65",
+      "title": "Convex hybrid-vehicle fuel optimization",
+      "solution_path": "docs/solutions/4.65.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=226",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3c6775c6548529c699706b0fbd2a2142e3057211b4d5b70d4bfaad59a1ed0bf1",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "4.42",
+      "reviewer": "convexity_review",
+      "solution_sha256": "0262c65fb2e23615909b7ffd7e773873f73688c18d6857f8ae956f0029bd67e9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified Hermitian realification quadratic form and imaginary-block signs; real decision variables remain unchanged and singular matrices included."
+    },
+    {
+      "id": "4.43",
+      "reviewer": "convexity_review",
+      "solution_sha256": "4c96cb1083f21084a6f80b95a960fc8f924bfe66b0701d32a447c52e513996aa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Verified all four spectral SDP epigraphs, positive scalar domain via extra 2x2 LMI, condition-number recovery and trace-norm decomposition lower/equality certificates."
+    },
+    {
+      "id": "4.44",
+      "reviewer": "convexity_review",
+      "solution_sha256": "6e0ff074a7bd26d96e3ba168a3c71d407d9c1295ec3bc508623765b08a4a18e2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified univariate nonnegative polynomial Gram equivalence, all coefficient matching indices, sample inequalities and finite lower-bound/attainment qualifications."
+    },
+    {
+      "id": "4.45",
+      "reviewer": "convexity_review",
+      "solution_sha256": "d0b016b559b2596afc02bd86a22c5ffd78e10626296c054e8ff00228909e627b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Verified two-way SOS Gram factorization and every one of the fifteen bivariate quartic coefficient equations, including doubled off-diagonal terms."
+    },
+    {
+      "id": "4.46",
+      "reviewer": "convexity_review",
+      "solution_sha256": "95e43a8d825cb69d9db3ee82e90f1bbc851c620dd2d8a86964268b1df59df7a3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified multivariate moment indexing, dimension, exact expectation quadratic form and necessary-only PSD condition."
+    },
+    {
+      "id": "4.47",
+      "reviewer": "convexity_review",
+      "solution_sha256": "3a68bfa9e594f0f8414db6e3c1f3cfa87cbc2a595648860b11c9c3978f9c2aa3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Verified existential common-diagonal family reduction (not an arbitrary fixed bound), feasibility SDP, compactness with fixed diagonal, strict-concavity uniqueness and stationarity inverse zeros; tridiagonal application follows."
+    },
+    {
+      "id": "4.48",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b7f74e5a75916e7f957f54d0d5c286ab22ab5de80ecfa4afef0c671e6327c704",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Verified scalar and matrix level functions, exact strict B domain, scalar perspective maps and source s=0 attainment caveat with explicit counterexample and infimum-closure proof."
+    },
+    {
+      "id": "4.49",
+      "reviewer": "convexity_review",
+      "solution_sha256": "7ec31d322cebd6af802d77f593d2a92e38e3306db9f617689825481db75d2daa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main",
+        "linear-fractional representation",
+        "generalized-eigenvalue representation"
+      ],
+      "notes": "Verified finite attained threshold for proper-cone interior denominator, closed sublevel equivalence, ratio supremum and both generalized fractional specializations."
+    },
+    {
+      "id": "4.50",
+      "reviewer": "convexity_review",
+      "solution_sha256": "cdc6eef1a20bcb45f3baab86b3b0724ca19d96130055d16cd8cb38a99e4678b7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "notes": "Rendered and inspected actual PDF Figure4.11; independently reran graphical read-off script on source PDF in /tmp and matched 5.47046 and 6.15737 estimates. Checked squared axes, both norm constraints, rank argument and explicit graphical precision limitations."
+    },
+    {
+      "id": "4.51",
+      "reviewer": "convexity_review",
+      "solution_sha256": "3411dd1d6a8d5a172e361b428760f988f6b877c6c196369a8749a5a0bfd59a88",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main",
+        "componentwise special case"
+      ],
+      "notes": "Verified printed hypothesis is one-way only; counterexample satisfies strict order preservation yet changes Pareto and minimum sets. Checked valid implications, corrected order-embedding theorem and coordinatewise increasing special case."
+    }
+  ]
+}

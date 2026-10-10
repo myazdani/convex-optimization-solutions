@@ -1,0 +1,549 @@
+{
+  "schema_version": 1,
+  "id": "fig_9_25",
+  "generator": "PCG64 via pinned NumPy/SciPy; source implementation has explicit seeds and sampling order",
+  "files": {
+    "family1_problem1.npz": {
+      "published_binary": true,
+      "bytes": 44331,
+      "arrays": {
+        "A": {
+          "shape": [
+            100,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "34d38d203a1e84cfada7ef03302bf4fe9f5e55ffe8dd0ccae29bf9b09126fb78"
+        },
+        "b": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "4a55ae736e333b599841e98d2d01eabe8255b02b446d63654f19a328e996f04e"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "7b1ec27375f4819350ca9135086ec8df42443baf7a1505771b0a8f9d6834272e"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "b97e34d97ec3df8a1d16c3649f78ae276b1da8f3c1129aa080b2b47a1d6857d0"
+        }
+      }
+    },
+    "family1_problem2.npz": {
+      "published_binary": true,
+      "bytes": 44308,
+      "arrays": {
+        "A": {
+          "shape": [
+            100,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "aa2a2fa5f35482c6812d52bb057afa87ff6e6b04b680cad438201e47913fa1c4"
+        },
+        "b": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "462763fbc095276d980815f5aba4694ac761ee8e258e033bbca52237bfd3b227"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "91cf7686a906fef77efa3edd086ef765661c76d7b3b545e4f68d0a24f54703e7"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "81c2ad4807a63ec7e1b2158e10e1864600df593d978794993afdb192cd446df4"
+        }
+      }
+    },
+    "family1_problem3.npz": {
+      "published_binary": true,
+      "bytes": 44336,
+      "arrays": {
+        "A": {
+          "shape": [
+            100,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "bb219bece79731858e8acc396b32911749af3f46ef4dabfb3f1a8070a9e03547"
+        },
+        "b": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "7e7650c2fc088c0a99c90db2b4283cad4d08f37550380fa8c34d9c65f647b288"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "136d521716bf9402faa86b0334201351965ce63f112a51945e6218986ecaa0de"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "457665cc21e69fc598104f1ee5a4ae40e7d5faf9798819f860a8c72ad14aa31f"
+        }
+      }
+    },
+    "family1_problem4.npz": {
+      "published_binary": true,
+      "bytes": 44331,
+      "arrays": {
+        "A": {
+          "shape": [
+            100,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "f288474f95e4fd893ed0a6760f0551becbbd12089a561e88c0b5d21ef03d3448"
+        },
+        "b": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "e54a1d64766495df3339ba52b5e01bc1f9d93d92f42b78b5c961aba2020c2f74"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "3f98eb34eb6d26c82a28ec09d2c8da657b33d97f835da001b4490f07c0f1dfe1"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "7b0fe03a5783c294acf34715e42696a0b36f78eadbb4cac71657915ea84c0476"
+        }
+      }
+    },
+    "family1_problem5.npz": {
+      "published_binary": true,
+      "bytes": 44346,
+      "arrays": {
+        "A": {
+          "shape": [
+            100,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "2e977f8817df8829cac4ffb4319650abc68fd1dfa3e5087440a32630cbde6744"
+        },
+        "b": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "a953555a0b863c2d75a60f90f202564fd13abc6d8a1e4608baf8e89640d4a96a"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "9a30e31e6c70eb8ab735f9813b49e065c6c6f781cb301bebe5ed6ca1326ed70f"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "006f182abbd89f8c084346ffa9b9d4e31bb0421b8125a46d62ab72ba32063c27"
+        }
+      }
+    },
+    "family2_problem1.npz": {
+      "published_binary": false,
+      "bytes": 3893680,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "5683dac45dbfdd1cae2f8f976d93ca2b1e9b9a3d76ba8bbcf41e4c70af36cf1c"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "31715279ebea6305066897795d8131fc82877dc815b1204baa3b3bdc0e024115"
+        },
+        "starts": {
+          "shape": [
+            10,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "2da89947177662b9d8f3f4df148c911a52009ea67cb8df0bb74fd55b39b2791a"
+        },
+        "xstar": {
+          "shape": [
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "e2119ab17ab1184af1ff6d55c0f3d34bb77a90240b664ee5a338dfa8140f0796"
+        }
+      }
+    },
+    "family2_problem2.npz": {
+      "published_binary": false,
+      "bytes": 3893202,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "0b2f8e20eb53d8f09d75106186c862aec8ff398953337703ffc8e38cf5b03d9b"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "48babf8b0f3d210a435bfd82f4d623e3fa4c2ece54b848164e8ab82c35a374b9"
+        },
+        "starts": {
+          "shape": [
+            10,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "9ae1efdf860d1594bbdce80fd56ba8961ea55876ce24a886689f9bcc9f5639b7"
+        },
+        "xstar": {
+          "shape": [
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "d2415b534d616ceb94b136fb2a4885d2ce1bd8e44c412250770111239a57a3b1"
+        }
+      }
+    },
+    "family2_problem3.npz": {
+      "published_binary": false,
+      "bytes": 3893335,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "82122344b9bf613e1dd4d8b5c8ee9cb86065aac92ccc501a6cfe3f2752eb85b6"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "68f0fa925cfd8b0d8cdc33816c9db377fe9a6f432b27791778fac0849274f7ba"
+        },
+        "starts": {
+          "shape": [
+            10,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "d0496cc2022187288e0065ff7cc5601e84dc24b2d3f9f09b750ccc9819f2661b"
+        },
+        "xstar": {
+          "shape": [
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "2484a09cb07647e1bf1e77b8c53e5a587c53a4e20880c2114b5163d9bcc99303"
+        }
+      }
+    },
+    "family2_problem4.npz": {
+      "published_binary": false,
+      "bytes": 3893569,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "c313b15e3e0680fbc6cb342e798e494fef617702f67f11eef567db03b0ad1a19"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "eee95ae653659a5d78063955aa7511709f23747e3cab690820f21a6ce9e4b4bd"
+        },
+        "starts": {
+          "shape": [
+            10,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "e33d063c379cbc6039ce1453a264a6c44722640d10e17ea71269bb991e1eb87e"
+        },
+        "xstar": {
+          "shape": [
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "c070c91a9d941601efd1a7de9a5b4991624beeb871baa163d1dd1d81637086f3"
+        }
+      }
+    },
+    "family2_problem5.npz": {
+      "published_binary": false,
+      "bytes": 3893622,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "6f0da9b259b40a80718788daae1612022f58528c9c5bba3e25fdfa685aed80d8"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "7f47bffdfa678e061f77c21088db1f77334c347ff425176326c7cb2bba7fbe00"
+        },
+        "starts": {
+          "shape": [
+            10,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "e7078cc74b140ac0cda5106d26ef5ca317a318dcb382c73a94a2c0617a1072f2"
+        },
+        "xstar": {
+          "shape": [
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "5d1c1ddb640c5a6a397905a70f80dbb942543b956617edbd2cb1b98f160bc167"
+        }
+      }
+    },
+    "family3_problem1.npz": {
+      "published_binary": false,
+      "bytes": 396939,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "9b94291fc9e5034cf5b2f1fa674d4d05865729015dd2929b6f740c015c61a3f3"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "63043bd8d8cea89d3b454800e491cd3d0e0ce3d75ee5e5ae335e8bea4965910d"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "0fd30b6413ab44b6de2c0cec3119aa2f3cb134c9ec327922726e92a318aa207e"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "49c2677abd5e3f2c0dae0adc6cedadd2cfc906db513386805b57cd0b5d4f8f05"
+        }
+      }
+    },
+    "family3_problem2.npz": {
+      "published_binary": false,
+      "bytes": 396940,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "264108702b2dc5099d18823412f4e71126a925348895d42b8c0235d1cf8302fb"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "d02c13f13a60f802b039290213de929faa600b526989592199c7ccd29d5faab0"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "aff84d42ddcc27a4a25b0494efa35f035dbecbfb6015398157a09ec2ff932782"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "be74c8b93f4e8e283de436caa66048998981ecb09d7a23a96c756d9bd7dfe759"
+        }
+      }
+    },
+    "family3_problem3.npz": {
+      "published_binary": false,
+      "bytes": 396948,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "46bef436d8e518323e3f974ae58035c18269f19ad662694229c00b8c4e0a731f"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "2181b74f19cc09ae7adb2830d9cdab15f70c151789a0942fad6d72daead6d9f8"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "a840790e36b9fbe3fc928a320c2664beed8708910b443ff18bd259dc8e1d5fb1"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "aa844d0135fd48b715cbf6baf53355ed0ba2fa01a62669c0c7467a1e3c9ae0ff"
+        }
+      }
+    },
+    "family3_problem4.npz": {
+      "published_binary": false,
+      "bytes": 396939,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "ceb19b04f5bfbab6961104c9f38427e42aeb1e1de23c3391d18c39b082373876"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "d87d5b190cef30d21501943d6f8bacc8ab475a7629ca2800d63da3d94cbd9c2c"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "e97bcc6fcd3a77d7938d25aa03ccc716479d70069f6e0818f79d845849ff9e26"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "5237a2ca59a5a4574ceeb059754547c63dec13629eb4bda5bcd0fab5f127bf6d"
+        }
+      }
+    },
+    "family3_problem5.npz": {
+      "published_binary": false,
+      "bytes": 396957,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "b31acae541fd14441ae5bda270146cb4caea91131e20ea491c16b12e7195c8d2"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "6d2b424f3667d292eb6a46d1acc1e6ad94a54a59a29aad41857c9bd16d558d36"
+        },
+        "starts": {
+          "shape": [
+            10,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "08640ad8889247b870e6641ec7aefc64c9db89e50ba7794c001448650c51cd9f"
+        },
+        "xstar": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "5a4dca06c253ba90b28423f1fdc654ecad19467f6f6da6599eff7c75bad7c164"
+        }
+      }
+    }
+  },
+  "regeneration_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithm_evidence verify fig_9_25",
+  "note": "Published binaries below256KiB are retained. Larger matrices are regenerated and each array is SHA256-checked. Raw numerical scope is unchanged."
+}

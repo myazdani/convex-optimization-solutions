@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "5.21",
+      "reviewer": "convexity_review",
+      "solution_sha256": "59edf93d9159f61c969596fb5ff4680e7815057c053f23303269e134a13513b9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked convex perspective domain, zero dual infimum for every nonnegative multiplier, primal attainment, failed Slater, all perturbation cases and failure of every finite-multiplier sensitivity bound."
+    },
+    {
+      "id": "5.22",
+      "reviewer": "convexity_review",
+      "solution_sha256": "069ed535272e20f375e8ac481374d10bbdbb416745fee3a2eb3a56937a449635",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "notes": "Independently derived all six G/A sets and scalar duals; checked nonconvex branch geometry, strict feasibility versus Slater applicability, nonattainment cases, and nonnegative-domain cubic. Reran sketch script and visually inspected all six panels.",
+      "supporting_artifact_sha256": {
+        "artifacts/exercises/5.22/plot_geometry.py": "6be8607b5acf369735dc905436ebb4c4d448acd715d63370bba6d9af8384dee3",
+        "artifacts/exercises/5.22/geometry.svg": "55b09975840d81d6e75fac097f79e5543695b84b77e529a89c4c3d3b7c4c860f"
+      }
+    },
+    {
+      "id": "5.23",
+      "reviewer": "convexity_review",
+      "solution_sha256": "43e501aa7f6238751b4c3af559ac44d0da122cd7a8b314bacd80f8ae4327b156",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked closed active-normal cone separation, small feasible descent contradiction, exact dual matching, infeasibility alternative and improving dual ray, and both-infeasible exception."
+    },
+    {
+      "id": "5.24",
+      "reviewer": "convexity_review",
+      "solution_sha256": "8af905c0b62c7583b1a6163c0fe161c7f8f9ac0555423f726d2d605a08c6b4a5",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked monotone extrema argument and all three empty-set cases under extended-value conventions."
+    },
+    {
+      "id": "5.25",
+      "reviewer": "convexity_review",
+      "solution_sha256": "40ce4d03bc9c58e783aee8003b89e9fde471d47932b956b483babd29f7b47a33",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "notes": "Checked proper section extensions, joint convexity and partial infimum, conjugate exchange of suprema only, biconjugacy, finite bounds on possibly nonclosed bounded domains, and compact-sublevel lower-semicontinuity proof including infinite lower limits."
+    },
+    {
+      "id": "5.26",
+      "reviewer": "convexity_review",
+      "solution_sha256": "5a9afb82c6ab56bbcc0280846e334e96632f7a5ecb22afe52cd229b48144f3da",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked tangent-disk singleton algebra, every KKT condition and impossible horizontal stationarity, exact completed-square dual and unattained supremum. Reran plot script and visually inspected disks and objective levels.",
+      "supporting_artifact_sha256": {
+        "artifacts/exercises/5.26/plot_disks.py": "662bc0644adff3fde47d2c19a9ca3a3f4022584d9f75be26074e97e6ceda8c37",
+        "artifacts/exercises/5.26/tangent_disks.svg": "af66ba7c7f90b0abf63bfe8f3ef83b845c2f67b13f1bd7e5502d9d8f4c1c44c0"
+      }
+    },
+    {
+      "id": "5.27",
+      "reviewer": "convexity_review",
+      "solution_sha256": "dcf20f485a9a77a2c27d47b7feff79879cbea9fb17d9c8ce7dbfa265d88059c4",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked rank hypotheses, positive definite Schur complement, signs and factors of two in primal/dual formulas, unique solutions, feasibility and completed-square objective."
+    },
+    {
+      "id": "5.28",
+      "reviewer": "convexity_review",
+      "solution_sha256": "acbb8eb72872118a2e746b353de7ba3b918cbc0a3aca8768509a2a2010dd4ebd",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Independently checked integer source data, certificate (3,2,2,7,0), matching value 64, positive active multipliers and displayed hand-elimination uniqueness; no optimization solver required."
+    },
+    {
+      "id": "5.30",
+      "reviewer": "convexity_review",
+      "solution_sha256": "1528f9276668c47ab69bb0e2ae8b46b686274b9d0eab83443a012243471a690c",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked symmetric-matrix derivative, positive definiteness, secant equality, inverse identity, explicit multiplier and strict-convexity uniqueness."
+    },
+    {
+      "id": "5.31",
+      "reviewer": "convexity_review",
+      "solution_sha256": "5b8c7e29b23f4e2d58681c9591423ea33728ab0930ffeb0a94a60dfb05f9fee4",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked convex constraint gradient inequalities, sign-preserving multiplier sum, complementary slackness and stationarity supporting-gradient implication without invoking Slater."
+    },
+    {
+      "id": "5.32",
+      "reviewer": "convexity_review",
+      "solution_sha256": "2072cec9c07925dbcc18bbc780fb48fec8494a40146e73646174b163076cf4ed",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked approximate-minimizer proof of convex epigraph, affine perturbation equality, minus-infinity and infeasible values, and distinction between convexity and closedness."
+    }
+  ]
+}

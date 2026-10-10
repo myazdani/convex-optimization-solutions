@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "author": "solve_applications_algorithm_exercises",
+  "entries": [
+    {
+      "id": "11.2",
+      "title": "A centering problem with no minimizer",
+      "solution_path": "docs/solutions/11.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0ffa67a133350db525c749ae62b2d8d54809c0ef5f4e11d43e4abc7eb7756270",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.3",
+      "title": "Bounded original sublevels imply bounded centering sublevels",
+      "solution_path": "docs/solutions/11.3.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "97c9fb473dfb3be082191e4e05cd6cde35f6a19325998a6d97ee4416c5c71697",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.4",
+      "title": "Uniform curvature from a Euclidean ball constraint",
+      "solution_path": "docs/solutions/11.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1870eadee5a577c36ad1f75ae64a32b840a15e1569b9d4efb811f801aa088416",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.5",
+      "title": "A scalar-barrier formulation of an SOCP",
+      "solution_path": "docs/solutions/11.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "51f960028e38cf7991b9c8c22bddd9ef9d36cf10e7bfae7c260e1d47962b718f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.6",
+      "title": "General scalar barriers and their duality gaps",
+      "solution_path": "docs/solutions/11.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "42ddb3e3e77040985b9192bb0b9f9248bde92bcc20fb4a39f9b39dfdfae497e9",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.7",
+      "title": "The central-path tangent and objective monotonicity",
+      "solution_path": "docs/solutions/11.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d4c1274b39d9ba4dd8d1d63ef85970fe16b722bd54e0e0562522d1efeec0084b",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.8",
+      "title": "First-order prediction versus a new centering Newton step",
+      "solution_path": "docs/solutions/11.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0414ecc954b5966588d2910cdafa39c9c4592b5c88e2786cb3a1e68b23e1b9aa",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.9",
+      "title": "A dual certificate near a quadratic central path",
+      "solution_path": "docs/solutions/11.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "876e33f188d765f21ce42813128a09581568c6cdcbb21064df76da272e374d3d",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.10",
+      "title": "The objective-bound parametrization of the central path",
+      "solution_path": "docs/solutions/11.10.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a24b49ccb5a32c0e1c50589734fa659bb932cbad7808aaff856a5e2a6ec1a404",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.12",
+      "title": "Barrier approximation of a convex-concave game",
+      "solution_path": "docs/solutions/11.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4d93ca65e381771ac97dcebeab6de237a9c174662148480090a61e3b87caa8ca",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.13",
+      "title": "Entropy becomes self-concordant after adding a log barrier",
+      "solution_path": "docs/solutions/11.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e6d2c91f47c48e128d879d4eff1a03ea4519064fb2a9dbb60bb1d4e0170458c5",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.14",
+      "title": "Positive curvature of centering problems: the equality qualification",
+      "solution_path": "docs/solutions/11.14.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e174f504a04b39e8eadca44177b078577a74444d6dea92472c9cb2021babe4da",
+      "notes": "Literal ambient Hessian claim with equalities disproved; full proof supplied for intended reduced-Hessian/no-equality version."
+    },
+    {
+      "id": "11.15",
+      "title": "A generalized logarithm is strictly cone-increasing",
+      "solution_path": "docs/solutions/11.15.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "437bd3818957a6bb3de1df5a7b9193e5a82568f35b70c26cee443f6292029ee4",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.16",
+      "title": "Differential identities for logarithmic homogeneity",
+      "solution_path": "docs/solutions/11.16.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "11d8dc19612d0a5c3199cd721e98b9f8eac3d9f5eae7b46c489232a395cc4f83",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.17",
+      "title": "Log homogeneity of the dual logarithm",
+      "solution_path": "docs/solutions/11.17.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "848c5be923e73e2c5b92b568e6a98fc441022ce792e4e4937d7e53c46f8cd264",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.18",
+      "title": "A degree-one logarithm for the second-order cone",
+      "solution_path": "docs/solutions/11.18.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a8a71fef3e4415a5364e187635352092fcbf2da477fdbd893de4dcdaecd19bf4",
+      "notes": "Actual PDF domain typo explicitly checked; literal negative answer and complete intended SOC-domain positive answer both supplied."
+    },
+    {
+      "id": "11.19",
+      "title": "A lifted linear system for barrier Newton steps",
+      "solution_path": "docs/solutions/11.19.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9028dfae4c894cfc675bf9c1dbcbca6e0d399371569357ed19f7313ba992ef6a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "11.20",
+      "title": "A dual barrier method for network utility maximization",
+      "solution_path": "docs/solutions/11.20.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4cf1e62d419920ae76eb67648e2f86bcb57c3faa808c2e0125ddb1b999831591",
+      "notes": "Corrects conjugate-domain endpoint claim using U=-1/x counterexample; gives full dual barrier and sparse complexity comparison."
+    },
+    {
+      "id": "11.11",
+      "title": "Method of analytic centers: certificates and a point-limit counterexample",
+      "solution_path": "docs/solutions/11.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
+      "source_checked": true,
+      "subparts": [
+        "objective contraction",
+        "stopping certificate",
+        "optimal-set convergence",
+        "counterexample to unqualified point convergence"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a3e39b8834348bde1aee5c065db84ed397c8ed7a960829a6c1ae088152ed0ed9",
+      "notes": "All requested guarantees resolved: complete contraction and stopping proof; original C2 convex compact-feasible counterexample disproves whole-sequence point convergence despite unique centers for every level."
+    }
+  ]
+}

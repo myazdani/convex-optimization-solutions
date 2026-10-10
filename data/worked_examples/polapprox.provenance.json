@@ -1,0 +1,11 @@
+{
+  "kind": "upstream_numeric_data",
+  "source_url": "https://cvxopt.org/_downloads/7e1f992be338a8c8dea5f5e165b529df/polapprox.bin",
+  "original_filename": "polapprox.bin",
+  "original_sha256": "bd181e2d598f6cb03bd8d1364fce8075e0dc18e3347cfaa820948ca35a345d69",
+  "sha256": "6eef02dc6cad723719610924b93b160de88a2b1500baf0d7d3d9d6fe3c5acdfd",
+  "rights": "CVXOPT data: GPL-3.0-or-later; see LICENSE-CVXOPT-DATA.txt and https://cvxopt.org/copyright.html",
+  "transformations": [
+    "Restricted pickle decoder only allows real cvxopt.base.matrix construction; preserve column-major shape; serialize numeric arrays as JSON."
+  ]
+}

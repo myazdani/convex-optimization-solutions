@@ -1,0 +1,415 @@
+{
+  "schema_version": 1,
+  "author": "solve_applications_algorithm_exercises",
+  "entries": [
+    {
+      "id": "8.1",
+      "title": "Uniqueness of metric projection",
+      "solution_path": "docs/solutions/8.1.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1da610419bae013b94872be31ae8b189a1a667066d9b37f296ee7bb36df9057b",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.2",
+      "title": "Chebyshev sets are closed and convex",
+      "solution_path": "docs/solutions/8.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "127e1c1474e30ae82e8dbefd77cd47da9112593aecae6ea90646cd1a86ac28d2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.3",
+      "title": "Projections on three proper cones",
+      "solution_path": "docs/solutions/8.3.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "25b89cdd053524081979a7e0b11a883cabbba126eca3c25a1a0fe53ee13ffb53",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.4",
+      "title": "A non-Euclidean projection need not give the Euclidean separator",
+      "solution_path": "docs/solutions/8.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cf5b297a45556d553c0bf891541510366b67411e17c0a0590c74d443b7591118",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.5",
+      "title": "Depth and signed distance of a convex set",
+      "solution_path": "docs/solutions/8.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "26101578104576929ed0b6f8aa6bb8e2a78a4530a8f35012ee125f00e4af90f7",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.6",
+      "title": "Convexity of distances between translated and scaled sets",
+      "solution_path": "docs/solutions/8.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "fba8d4005b3076e1555e79b1440a6e2862abb2c48f4c7262c6f9f488fd104dea",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.7",
+      "title": "Strict separation of two ellipsoids",
+      "solution_path": "docs/solutions/8.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "51523064b2e039a5165c172855223fa320d7a65984b944a30a0da48a7cb4f01f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.8",
+      "title": "Polyhedral intersection and containment",
+      "solution_path": "docs/solutions/8.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "source_checked": true,
+      "subparts": [
+        "H:a",
+        "H:b",
+        "V:a",
+        "V:b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f27756f70fd34b7ffa82e6375fef7d5bfffc1a0845ad41776a3c3b52aae0ba06",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.9",
+      "title": "Least-squares fitting of Euclidean distances",
+      "solution_path": "docs/solutions/8.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "400cb64a9373dd285ed09cb515e049bd153f95cb152793bc4f15ddcf3f1f2041",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.10",
+      "title": "Minimax fitting of vector angles",
+      "solution_path": "docs/solutions/8.10.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6acdd62446c60fa0a54470d9c002f16dab40a5f488902b9bed87fca736e8313e",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.11",
+      "title": "The narrowest circular cone through given directions",
+      "solution_path": "docs/solutions/8.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6240c4e8b82da76e0a7ec70427f5ad7bfd20966e1a955c8dacb9c7a0ebadf663",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.12",
+      "title": "Uniqueness of extremal ellipsoids",
+      "solution_path": "docs/solutions/8.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "source_checked": true,
+      "subparts": [
+        "inscribed uniqueness",
+        "covering uniqueness"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "65a75e1a4e10df7d575e83302c952655a50627d38e2ba0bcd6e934674fbfd349",
+      "notes": "States necessary convex-body/existence hypotheses and gives counterexamples to an unrestricted reading."
+    },
+    {
+      "id": "8.13",
+      "title": "The covering ellipsoid of a simplex",
+      "solution_path": "docs/solutions/8.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1f91eee07f81244e9d43d81948dadb2fbd7b3e18f719c3ff9817838cd45be8ab",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.14",
+      "title": "Dimension factors for an inscribed ellipsoid",
+      "solution_path": "docs/solutions/8.14.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4b5158643f9716021499ec89ff8750f2395c26b84a5e769014627bc77180c0d8",
+      "notes": "Adds necessary boundedness/existence caveat; derives contact-weight identities from KKT and proves both factors."
+    },
+    {
+      "id": "8.15",
+      "title": "An ellipsoid covering several ellipsoids",
+      "solution_path": "docs/solutions/8.15.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "203217895051d5b72c44fa488c66ef051269de4bb3e1f6a0ac151f2eedc63d20",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.16",
+      "title": "Maximum-volume axis-aligned rectangle",
+      "solution_path": "docs/solutions/8.16.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "04c5b7b7b1a199c51053c03833dc34bbba13a74125936b3340ec959973be89ec",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.17",
+      "title": "Invariance properties of the analytic center",
+      "solution_path": "docs/solutions/8.17.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "source_checked": true,
+      "subparts": [
+        "affine invariance",
+        "positive scaling"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "174f796ba3f897f08ce2e01965795b646f7488f454faae1ffdb35399de5d3ef3",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.18",
+      "title": "Moving an analytic center with redundant inequalities",
+      "solution_path": "docs/solutions/8.18.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bf459a53611c45c6c6acf1f73f78fbeae22c7363a38315ca07a98e8edc95f958",
+      "notes": "Printed assumptions alone are insufficient; explicit halfline counterexample plus complete intended bounded-polyhedron construction."
+    },
+    {
+      "id": "8.19",
+      "title": "A sufficient redundancy certificate at the analytic center",
+      "solution_path": "docs/solutions/8.19.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e147e29687ef6a3532f54763e8fcc8d5fe2ef70231ecc5b7840c72eb6b68a706",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.20",
+      "title": "Analytic-center ellipsoids for an LMI",
+      "solution_path": "docs/solutions/8.20.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c694e3fe55a987a1b2403444c56699d16b0e5b2f54516d6769a015adeaf4ef4",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.21",
+      "title": "Analytic center as a maximum-likelihood estimate",
+      "solution_path": "docs/solutions/8.21.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2c96626f7d88001427feb5f3f97e073f14ff7f5a48a3a9327c08b5156161f8f2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.22",
+      "title": "Center of gravity minimizes integrated squared distance",
+      "solution_path": "docs/solutions/8.22.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "fb4740c58899b18be839a268d60a695096d6f9164d67ea1fd788d446595eb765",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.23",
+      "title": "Margin maximization and the hard-margin quadratic program",
+      "solution_path": "docs/solutions/8.23.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "55d4ec3b595f80d4df2ff9810fc89d59c844ff85d60c0025b7e0e18a97576eb2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.24",
+      "title": "A classifier robust to perturbing its weights",
+      "solution_path": "docs/solutions/8.24.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "26697f1cb67e1909b9c06023e855b93967fb7e73004247c7e9ec7cd0b15d00ea",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.25",
+      "title": "A separating ellipsoid of minimum eccentricity",
+      "solution_path": "docs/solutions/8.25.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c276cb8cd124b1f49e015cb80478238ca3252af827168044751a3056fa85a6e3",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.26",
+      "title": "Quadratic placement by a graph Laplacian",
+      "solution_path": "docs/solutions/8.26.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "fb412dd0a8e9e6d1286ff90ed40e708f77c27393f21a5cc653691ac6a6b79e99",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.27",
+      "title": "Convex restrictions for minimum separations",
+      "solution_path": "docs/solutions/8.27.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "da68352f386e76e320159c1d03e38b104ff9e3599358bb748b034a5b6c676d7b",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "8.28",
+      "title": "Inscribed and covering homothetic symmetric polyhedra",
+      "solution_path": "docs/solutions/8.28.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cadd7600565a75cd848bb88583509161f8ba90b9b815ffaaaf5c354f5f5ec279",
+      "notes": "Handles unbounded template and scale-zero recession/lineality distinction explicitly."
+    },
+    {
+      "id": "8.29",
+      "title": "Outer polyhedral approximation using support functions",
+      "solution_path": "docs/solutions/8.29.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c1fa307865b3c03794eb3df062e7d66f65125debca0f24bd6850efddb81d3c47",
+      "notes": "Finite support LP derived; exactness at t=0 qualified for unbounded templates."
+    },
+    {
+      "id": "8.30",
+      "title": "Convex trade-off between arc length and tangent jumps",
+      "solution_path": "docs/solutions/8.30.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
+      "source_checked": true,
+      "subparts": [
+        "arc length",
+        "convexity",
+        "bi-criterion formulation",
+        "extreme trade-offs"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cfc8db738c34b0dfefd75111c1ab88292ff4189a8f8120a9076459725a7030ef",
+      "notes": "Corrects source arc/joint indexing; proves convexity and addresses open-angle endpoint attainment."
+    }
+  ]
+}

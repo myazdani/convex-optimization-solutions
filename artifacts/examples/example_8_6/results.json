@@ -1,0 +1,264 @@
+{
+  "summary": {
+    "fixed_nodes": 8,
+    "free_nodes": 6,
+    "edges": 28,
+    "objectives": {
+      "1": 22.174457982209866,
+      "2": 21.152362395581008,
+      "4": 21.496152514622146
+    }
+  },
+  "solutions": {
+    "1": {
+      "free_locations": [
+        [
+          0.2677252104379239,
+          -0.21580836259610903
+        ],
+        [
+          0.02726226606354038,
+          -0.3214185812439276
+        ],
+        [
+          0.23823697944017722,
+          -0.3155811242612119
+        ],
+        [
+          0.0272622742416869,
+          -0.3214185300776888
+        ],
+        [
+          0.11153792225517901,
+          -0.09664504868357966
+        ],
+        [
+          0.027262275204382756,
+          -0.32141853242476814
+        ]
+      ],
+      "edge_lengths": [
+        0.26263269248058757,
+        0.10403922211194144,
+        0.19645448422598,
+        1.4193013570016815,
+        1.0729319137775606,
+        0.785487908371916,
+        1.2273229895895692,
+        0.2110554561919192,
+        5.181569331338892e-08,
+        4.96675480316424e-08,
+        1.1860402357866457,
+        1.2311541354188775,
+        0.7156262149036601,
+        0.21105544660173103,
+        1.024066451437587,
+        0.7837686018342299,
+        0.2400531249247173,
+        1.2311541704441922,
+        1.6737427256639184,
+        1.0344129927289338,
+        2.536841511610916e-09,
+        0.2400531267844281,
+        1.4113806100385733,
+        1.5614566645967385,
+        1.0967057428737106,
+        1.231154169953804,
+        0.9889944498337074,
+        1.034412990613173
+      ],
+      "objective": 22.174457982209866
+    },
+    "2": {
+      "free_locations": [
+        [
+          0.4619746012343336,
+          0.04998015193760674
+        ],
+        [
+          -0.16900318669605613,
+          -0.5908744010462873
+        ],
+        [
+          0.39947976436992627,
+          -0.4360018318138671
+        ],
+        [
+          -0.2955716504121931,
+          -0.13911476661414388
+        ],
+        [
+          0.029911570494874393,
+          0.42497741561707014
+        ],
+        [
+          -0.08693251130326798,
+          -0.36100243575496266
+        ]
+      ],
+      "edge_lengths": [
+        0.7807901200744,
+        0.4899837682676097,
+        0.5721026221744241,
+        1.0917916657629545,
+        1.17980068197127,
+        0.769382542849958,
+        1.016643164365574,
+        0.5892014751791944,
+        0.46915492463548425,
+        0.2440834205478208,
+        1.2385282419972379,
+        0.9262502142728734,
+        0.41029813325706677,
+        0.7558031480971288,
+        0.8238437273649128,
+        0.6039207886241207,
+        0.6512597923612451,
+        1.1123590628771007,
+        1.3393288435710617,
+        0.7070546735206916,
+        0.30457253337236245,
+        0.7946174338724603,
+        1.1277067586966678,
+        1.1795629765254767,
+        0.5792783100556405,
+        1.1144550803087794,
+        1.0957840147556825,
+        0.9183346346047303
+      ],
+      "objective": 21.152362395581008
+    },
+    "4": {
+      "free_locations": [
+        [
+          0.5119918414911087,
+          0.08109173436919138
+        ],
+        [
+          -0.13142309139185432,
+          -0.6617657121652514
+        ],
+        [
+          0.3676087530726705,
+          -0.4502075839211742
+        ],
+        [
+          -0.41018956688854186,
+          -0.049093415683722316
+        ],
+        [
+          0.0002489587253729342,
+          0.5240629179910881
+        ],
+        [
+          -0.06090777806452702,
+          -0.3999071164706898
+        ]
+      ],
+      "edge_lengths": [
+        0.9313252510564585,
+        0.5505682898942271,
+        0.6768339881985609,
+        1.0404539218129076,
+        1.1861329187290208,
+        0.7588277581397731,
+        1.0070400578427134,
+        0.5420236373220296,
+        0.67311075666401,
+        0.271186897826534,
+        1.1808982365986411,
+        0.9321095856359178,
+        0.34511624977872246,
+        0.8751358765902055,
+        0.8379680124969541,
+        0.63434846408679,
+        0.7049595492932021,
+        1.1189725998000024,
+        1.2035253806372614,
+        0.6088096124381839,
+        0.49504345330885013,
+        0.9259917769818953,
+        1.1072570842224758,
+        1.1077066784408003,
+        0.48627808532415906,
+        1.1144530811847693,
+        1.0656190214570234,
+        0.9836937628646248
+      ],
+      "objective": 21.496152514622146
+    }
+  },
+  "checks": [
+    {
+      "name": "linear placement independent dual gap",
+      "measured": 6.382453676678779e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "quadratic placement versus independent least squares",
+      "measured": 4.234082115195381e-07,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "quartic placement stationarity",
+      "measured": 7.676052905591924e-05,
+      "tolerance": 0.0001,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "placements.png"
+  ],
+  "caveats": [
+    "Official placement.py explicitly states its data differ from the book. Published placement.bin has 28 edges, not the inventory\u2019s earlier count of 27. This is a complete method reproduction on that companion instance."
+  ],
+  "id": "example_8_6",
+  "executed_at": "2026-10-10T05:03:40.787634+00:00",
+  "elapsed_seconds": 0.3154739290002908,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=448",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/placement.html",
+      "https://cvxopt.org/_downloads/d5f22d58ce9353c155230e4f39a5a2e2/placement.py",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/placement_lin.m",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/placement_quad.m",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/placement_quar.m"
+    ],
+    "official_data_files": [
+      {
+        "url": "https://cvxopt.org/_downloads/4bd45910c021ff3cac4d723f947594ef/placement.bin",
+        "bytes": 666,
+        "sha256": "7fd8e2b2e7135cbf92379aeeb36bb37da86b01f53bd154032706ec5078fc1eb5",
+        "download_verified": true,
+        "format": "legacy Python pickle; read only after reviewing source and using a controlled conversion"
+      }
+    ],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+  "runtime_source_sha256": {
+    "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {
+    "data/worked_examples/placement.json": "83dfae0a4c6ab78b3574e7063850b18acc0dd3f3354390d61705ca224fc59a2d"
+  },
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py example_8_6",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

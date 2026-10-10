@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "id": "fig_9_23",
+  "generator": "PCG64 via pinned NumPy/SciPy; source implementation has explicit seeds and sampling order",
+  "files": {
+    "A.npz": {
+      "published_binary": false,
+      "bytes": 449838,
+      "arrays": {
+        "indices": {
+          "shape": [
+            220800
+          ],
+          "dtype": "<i4",
+          "sha256": "cca7b04736a33ad6f8767175cbc41282f5f2e49a6b45b5d19f02790004fff786"
+        },
+        "indptr": {
+          "shape": [
+            100001
+          ],
+          "dtype": "<i4",
+          "sha256": "ae64db0f99e9e500d78967cc964bc609772559a85a639f7692ced21358f18b16"
+        },
+        "format": {
+          "shape": [
+            1
+          ],
+          "dtype": "|S3",
+          "sha256": "c27338c453067b437471afbce792704d816112c6031bb996b62c698ea599ef80"
+        },
+        "shape": {
+          "shape": [
+            2
+          ],
+          "dtype": "<i8",
+          "sha256": "8ea4540193efa10da3809a8e3f1cc4bd2b9335658507fd8ebca338bad29caa57"
+        },
+        "data": {
+          "shape": [
+            220800
+          ],
+          "dtype": "<f8",
+          "sha256": "4ecb11342b7f73da7d9842918da7500123c2b20971ff587ac257e24c71d52c1f"
+        }
+      }
+    },
+    "instance.npz": {
+      "published_binary": false,
+      "bytes": 605193,
+      "arrays": {
+        "b": {
+          "shape": [
+            100000
+          ],
+          "dtype": "<f8",
+          "sha256": "a56542273f1a90591bdacc9d5c707a8889c2c8fa993dc7f99ed2aed25344f556"
+        },
+        "seed": {
+          "shape": [
+            1
+          ],
+          "dtype": "<i8",
+          "sha256": "4a28ec0d6ba9ea3e68b3294d77d05e084cc93d8498d820161dc857fc7204758c"
+        }
+      }
+    }
+  },
+  "regeneration_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithm_evidence verify fig_9_23",
+  "note": "Published binaries below256KiB are retained. Larger matrices are regenerated and each array is SHA256-checked. Raw numerical scope is unchanged."
+}

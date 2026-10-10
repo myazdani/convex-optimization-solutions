@@ -1,0 +1,10 @@
+{
+  "kind": "upstream_literal_numeric_constants",
+  "source_url": "https://cvxopt.org/examples/book/expdesign.html",
+  "source_sha256": "269d85d595bed6dd7eae6920dbefef6dbfab8b37952b10aca2069194f05b8750",
+  "sha256": "76b44ac3be58d3d201aee99d3b74122c779fa54a852b72569c7ccbc6ab966848",
+  "rights": "CVXOPT numeric constants; GPL-3.0-or-later; see LICENSE-CVXOPT-DATA.txt",
+  "transformations": [
+    "Extract only literal matrix values using ast.literal_eval, not execution."
+  ]
+}

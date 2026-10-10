@@ -1,0 +1,442 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "fig_8_14",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked source point-generation structure and disclosed seed selection. Independently evaluated every saved Farkas witness for degrees 1\u20133 and every degree-4 margin using all monomials. Quartic contour visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "1 Farkas certificate",
+          "measured": 9.992007221626409e-16,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "2 Farkas certificate",
+          "measured": 1.1278153704155523e-15,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "3 Farkas certificate",
+          "measured": 1.749685465957107e-15,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "4 full separator",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_classification_methods.py": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "e459aa38bad5e6fa3d6d00b934ca2d4dee09bccfd697eb7ea42f568ee92c8942",
+      "code_sha256": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+      "results_sha256": "0191b6b4b5a0b414ae633ebccdfd7850bdd6dceff6c082f763b737c81537eb39"
+    },
+    {
+      "id": "fig_7_5",
+      "reproduction_kind": "exact",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked exact published constellation, all 453 SDP runs, nonnegative quadratic majorants and open-boundary convention. Independently reconstructed each sigma=1 PSD majorant, full dual moment identity, primal-dual gap and atomic moments. Complete outer Voronoi rays and three bound curves visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "nonnegative quadratic",
+          "measured": 3.540098552842763e-12,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "outside indicator majorant 0",
+          "measured": 6.313775378751322e-11,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "outside indicator majorant 1",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "outside indicator majorant 2",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "outside indicator majorant 3",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "outside indicator majorant 4",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "outside indicator majorant 5",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "dual moment identity",
+          "measured": 8.19135870244736e-11,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "independent dual gap",
+          "measured": 6.888023484918904e-11,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "atomic full moment identity",
+          "measured": 2.0963863978096242e-10,
+          "tolerance": 2e-05
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_probability.py": "d05e453a3b5a565ba2bc85772bd39e92433ceed39bc83b554d3dbabe4b8fc0ae",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "b30db689b343703586ff7bb4ba812a7a798c7e7a621d84c5d17b66d2e92bdb53",
+      "code_sha256": "d05e453a3b5a565ba2bc85772bd39e92433ceed39bc83b554d3dbabe4b8fc0ae",
+      "results_sha256": "a997abd5d023668e59c169300555058ac8a07e55d8aaf13e02db6b85f048b058"
+    },
+    {
+      "id": "fig_7_8",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked exact constellation and projection-based Chernoff derivation. Independently recomputed all 201 Chernoff bounds and repeated every Monte Carlo count from the documented 100000-sample seed. Reviewed 11-point quadrature and Wilson intervals; method label correctly reflects new Monte Carlo samples.",
+      "independent_recomputed_checks": [
+        {
+          "name": "Chernoff formula",
+          "measured": 0.0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "all 201 independently recounted Monte Carlo estimates",
+          "measured": 0.0,
+          "tolerance": 0
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_probability.py": "d05e453a3b5a565ba2bc85772bd39e92433ceed39bc83b554d3dbabe4b8fc0ae",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "b45f7456c485b774eb44f86cb018acc55c9f5addc2a7994266c8fdc3974f8ca8",
+      "code_sha256": "d05e453a3b5a565ba2bc85772bd39e92433ceed39bc83b554d3dbabe4b8fc0ae",
+      "results_sha256": "9a781f5459f0103800b070647ae8d230cf72327eac798a603adf9fac4c17cd22"
+    },
+    {
+      "id": "fig_6_2",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked all four source penalty definitions on full 100x30 replacement data and strict log domain. Independently solved absolute/deadzone LPs and recomputed quadratic/barrier stationarity and residuals. Histograms visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "absolute stored residual",
+          "measured": 0.0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "absolute independent LP optimum",
+          "measured": 1.8286883118889818e-10,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "quadratic stored residual",
+          "measured": 0.0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "least-squares normal equations",
+          "measured": 3.9968028886505635e-15,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "deadzone stored residual",
+          "measured": 0.0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "deadzone independent LP optimum",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "log_barrier stored residual",
+          "measured": 0.0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "barrier stationarity",
+          "measured": 3.0085242974653426e-07,
+          "tolerance": 0.0002
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_signals.py": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "cf8f8f12eb92dd590b34863feaddb0b67491118d7176d7fe279712e06e79495b",
+      "code_sha256": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+      "results_sha256": "acdefca02e330233789b96ae85169eb2a25f8997d7465f2dc51cfbc7029152ec"
+    },
+    {
+      "id": "fig_6_8",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Requested and verified correction to exact book residual targets 8,3,1. Checked 4000-sample source formula/noise and 50-point tradeoff, independently solved each saved normal system with sparse factorization and recomputed target norms. Final plot visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "quadratic 0 target",
+          "measured": 5.861977570020827e-14,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "quadratic 0 independent sparse solve",
+          "measured": 1.7208456881689926e-14,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "quadratic 1 target",
+          "measured": 1.3322676295501878e-15,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "quadratic 1 independent sparse solve",
+          "measured": 3.3306690738754696e-16,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "quadratic 2 target",
+          "measured": 2.220446049250313e-16,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "quadratic 2 independent sparse solve",
+          "measured": 1.1102230246251565e-16,
+          "tolerance": 1e-08
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_signals.py": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "2b47b91f91a4d9f16e945de32bf646671593cfb9c66024a2dd25c344b8c9670f",
+      "code_sha256": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+      "results_sha256": "d4c8b614fa7fe5f1326a7e6998fd47531341f6ec831c52cdb7b114b03e4ae1fc"
+    },
+    {
+      "id": "fig_6_11",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Requested and verified exact book TV budgets 10,8,5, separate from the 15-point companion sweep. Checked full 2000-point source signal, 100-point quadratic sweep and all dual formulas. Independently recomputed saved TV box feasibility/global gaps and every quadratic target; final reconstruction/tradeoff figures visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "quadratic 0 target",
+          "measured": 2.1316282072803006e-14,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "quadratic 0 independent sparse solve",
+          "measured": 3.3084646133829665e-14,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "quadratic 1 target",
+          "measured": 8.881784197001252e-16,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "quadratic 1 independent sparse solve",
+          "measured": 1.84297022087776e-14,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "quadratic 2 target",
+          "measured": 8.881784197001252e-16,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "quadratic 2 independent sparse solve",
+          "measured": 8.881784197001252e-16,
+          "tolerance": 1e-08
+        },
+        {
+          "name": "TV budget 10.0 certificate",
+          "measured": 6.111893213756048e-09,
+          "tolerance": 1e-05
+        },
+        {
+          "name": "TV budget 8.0 certificate",
+          "measured": 1.9884556223814798e-09,
+          "tolerance": 1e-05
+        },
+        {
+          "name": "TV budget 5.0 certificate",
+          "measured": 1.3119958452989522e-09,
+          "tolerance": 1e-05
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_signals.py": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "f31554e1896a2a6d35a690fb7fb01e08c448a9fe0c4ede037c9dbdb8db9ed668",
+      "code_sha256": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+      "results_sha256": "7b88e997cb24021301fdf20464a0cee822f0d58a06ba8baccbc1102c127f09dd"
+    },
+    {
+      "id": "fig_5_1_5_2",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked original source scope and unavailable formulas; both new quartics are explicitly disclosed. Verified feasible interval and endpoint primal optimum, all real stationary roots of coercive Lagrangians, and concavity/weak-duality claims. Independently constructed exact feasible saddle multiplier and global lower bound, confirming the reported optimum; figures inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "exact feasible saddle certificate",
+          "measured": 2.599161437188968e-07,
+          "tolerance": 1e-06
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_signals.py": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "d946e68ad7b78330b9a3c26370632af5855570dad8f12d3da9f3bc689eda1e7c",
+      "code_sha256": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+      "results_sha256": "939dccbe4ad63b3ea7546cb633478cf1a691ab3cbfba1db997859bff4b204ddd"
+    },
+    {
+      "id": "fig_6_21",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Requested and verified full pre-threshold primal and feasible dual vectors for all three grid conventions. Independently rebuilt every full 501x30561 dictionary, checked all 30561 dual correlations, recomputed global gaps and refit normal equations. Sampling/truncation ambiguity and 42-atom textbook comparison are disclosed; all three complete figure sets inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "CVX_endpoint_grid full 30561-column feasibility",
+          "measured": 0.0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "CVX_endpoint_grid recomputed global dual gap",
+          "measured": 2.0474502093748015e-09,
+          "tolerance": 2e-06
+        },
+        {
+          "name": "CVX_endpoint_grid least-squares normal equation",
+          "measured": 7.973878718772753e-14,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "CVXOPT_k_over_501 full 30561-column feasibility",
+          "measured": 0.0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "CVXOPT_k_over_501 recomputed global dual gap",
+          "measured": 1.1495746576883903e-09,
+          "tolerance": 2e-06
+        },
+        {
+          "name": "CVXOPT_k_over_501 least-squares normal equation",
+          "measured": 1.0112911359852684e-13,
+          "tolerance": 1e-07
+        },
+        {
+          "name": "book_literal_0.005_grid full 30561-column feasibility",
+          "measured": 0.0,
+          "tolerance": 1e-09
+        },
+        {
+          "name": "book_literal_0.005_grid recomputed global dual gap",
+          "measured": 3.017362359969411e-09,
+          "tolerance": 2e-06
+        },
+        {
+          "name": "book_literal_0.005_grid least-squares normal equation",
+          "measured": 1.9865402725582904e-14,
+          "tolerance": 1e-07
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_basis.py": "b754f9476a03a99592ebb71879bd7a5937162f32f13ef1b043046bd746e1c787",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "537f0987c5bdda592d864753d1f58da5634e865859e2bba49da0165ff5662439",
+      "code_sha256": "b754f9476a03a99592ebb71879bd7a5937162f32f13ef1b043046bd746e1c787",
+      "results_sha256": "a0a0c1a8780ac1b6db5b92587c5218ec39248d6702e9f44c4516856a7c03edbc"
+    }
+  ]
+}

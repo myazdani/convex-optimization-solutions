@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "fig_11_8",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "e1d380cd4140dbfe2302972797f3c8617f8cb2dee6da72cf89bb467c51ef57f5",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "0dc8f1198c4967d5777a88ee1ded03ef14d1ee08b49163ce46be721fd3382a5d",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Full source experiment, algorithm, generator and source-data substitutions checked. All 20 SHA256-bound shards, all 2000 unique seeds/trial kernel hashes/timings/histories and stated diagnostic thresholds checked; every mean, sample standard deviation, minimum and maximum recomputed. Four representative full-size trial reruns per study checked independently as specified below, not a claim that all 2000 terminal vectors were independently regenerated. Standard LP barrier: full n=2m sizes; initial centering excluded; exact t ratio 10000, with actual certified gap ratios correctly checked within approximate-centering tolerance. Mean counts at m=10/1000 are 18.84/25.23. Regenerated endpoint replicate 0 plus (m,replicate)=(144,7),(1000,53), independently recomputing primal/dual equations, strict positivity and objective gaps. Six full-sweep aggregate/regeneration tests passed. Actual tables and error-bar plot visually inspected. Aggregate execution envelope and per-trial execution evidence are distinct and both preserved."
+    },
+    {
+      "id": "fig_11_20",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "cc19473c9ca578d40888f8c0c2e04f1da27f0c746529a04bad84b13264d9f657",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "9ff87c544b3d32555c4dfc5068f298d8586587fc93b0945a3b740a6c1a89d58b",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Full source experiment, algorithm, generator and source-data substitutions checked. All 20 SHA256-bound shards, all 2000 unique seeds/trial kernel hashes/timings/histories and stated diagnostic thresholds checked; every mean, sample standard deviation, minimum and maximum recomputed. Four representative full-size trial reruns per study checked independently as specified below, not a claim that all 2000 terminal vectors were independently regenerated. Diagonal SDP barrier: full orders 10 through 1000, Gaussian diagonal retained and spectral normalization checked; exact t ratio 8000. Mean counts at n=10/1000 are 16.2/23.82. Regenerated endpoint replicate 0 plus (n,replicate)=(144,7),(1000,71), including the 59-step outlier; independently recomputed primal/dual eigenvalues, unit dual diagonal and trace/objective gaps. Six full-sweep aggregate/regeneration tests passed. Actual tables and error-bar plot visually inspected. Aggregate execution envelope and per-trial execution evidence are distinct and both preserved."
+    },
+    {
+      "id": "fig_11_23",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "30081adc7958e8abdfb249dd2b89f397e9b9ad68300ded8f966ee5ad1006b6c0",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "56ef0c6f56d78bdd377138ab24ca08626b3b0273f1b08212fc19fb759bfba338",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Full source experiment, algorithm, generator and source-data substitutions checked. All 20 SHA256-bound shards, all 2000 unique seeds/trial kernel hashes/timings/histories and stated diagnostic thresholds checked; every mean, sample standard deviation, minimum and maximum recomputed. Four representative full-size trial reruns per study checked independently as specified below, not a claim that all 2000 terminal vectors were independently regenerated. Standard LP primal-dual: same 2000 generated instances as barrier sweep, initial x=s=1 and y=0, gap 2m; all final gaps and both residuals meet 1e-8. Mean counts at m=10/1000 are 13.29/29.15. Checked algebraic equivalence of the stable augmented Newton solve. Regenerated endpoint replicate 0 plus (m,replicate)=(144,7),(1000,53), including a maximum-count 32-step run, and independently recomputed certificates. Six full-sweep aggregate/regeneration tests passed. Actual tables and error-bar plot visually inspected. Aggregate execution envelope and per-trial execution evidence are distinct and both preserved."
+    }
+  ]
+}

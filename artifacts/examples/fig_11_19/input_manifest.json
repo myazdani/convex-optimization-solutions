@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "fig_11_19",
+  "generator": "PCG64 via pinned NumPy/SciPy; source implementation has explicit seeds and sampling order",
+  "files": {
+    "instance_1000.npz": {
+      "published_binary": false,
+      "bytes": 7651830,
+      "arrays": {
+        "B": {
+          "shape": [
+            1000,
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "3da79a02c197df48232d77d15ee4e59feb335651c2c2940e78694a4beb937446"
+        },
+        "seed": {
+          "shape": [
+            1
+          ],
+          "dtype": "<i8",
+          "sha256": "82daa44ede03c170ec18a9ea4bbe65e2cb3414ed0eed78e268c44fba93a7dfe5"
+        }
+      }
+    },
+    "instance_50.npz": {
+      "published_binary": true,
+      "bytes": 13048,
+      "arrays": {
+        "B": {
+          "shape": [
+            50,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "1e4e5826f4ae22a291aa657f96bbb09154eaa80595a5d263f2477441dcd6225c"
+        },
+        "seed": {
+          "shape": [
+            1
+          ],
+          "dtype": "<i8",
+          "sha256": "90932eae65d851837d111e4406b6c6a7d3769857cf34e850a4d6a9210c1b7b29"
+        }
+      }
+    },
+    "instance_500.npz": {
+      "published_binary": false,
+      "bytes": 1900376,
+      "arrays": {
+        "B": {
+          "shape": [
+            500,
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "b9c92cdf4bb0878113cfaa00f0366d2b6f6cda6a66055d197d738f6e34922a3a"
+        },
+        "seed": {
+          "shape": [
+            1
+          ],
+          "dtype": "<i8",
+          "sha256": "54b02eb9c1f7a1714ff4efebd1051c3e87dc1d170363747bb94c1114fdb5dac2"
+        }
+      }
+    }
+  },
+  "regeneration_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithm_evidence verify fig_11_19",
+  "note": "Published binaries below256KiB are retained. Larger matrices are regenerated and each array is SHA256-checked. Raw numerical scope is unchanged."
+}

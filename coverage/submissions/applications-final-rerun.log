@@ -1,0 +1,112 @@
+example_4_1 PASS 1.513 {'minimizer': 0.36787944871214484, 'minimum': -0.3678794411714423, 'reciprocal_infimum': 0, 'reciprocal_attained': False, 'negative_log_infimum': '-infinity'}
+fig_4_11 PASS 0.343 {'least_squares_residual_squared': 2.0000000000000004, 'least_squares_solution_squared': 9.000000000000005, 'zero_solution_residual_squared': 10.000000000000002, 'boundary_sdps': 48}
+fig_4_12 PASS 0.254 {'portfolios': 103, 'risk_free_return': 0.03, 'maximum_return': 0.12, 'maximum_risk': 0.2}
+example_6_2 PASS 0.067 {'least_squares_intercept': 4.184072009206104, 'least_squares_slope': 0.5754837533561795, 'huber_intercept': 4.935910507163158, 'huber_slope': 0.9684116402989513, 'huber_objective': 113.6319355154691}
+example_6_3 PASS 0.285 {'cases': 3, 'normalization': 'Book: Jtrack and Jmag divide by n=201; Jder divides by n-1=200.'}
+example_8_1 PASS 0.106 {'l1_distance': 1.0, 'l2_distance': 1.0, 'linfinity_distance': 1.0, 'l1_l2_minimizers': [[1, 0], [-1, 0], [0, 1], [0, -1]]}
+example_6_7 PASS 1.397 {'basis': 'degree-five monomials', 'least_squares_residual_l2': 0.11174315508454628, 'least_squares_residual_linf': 0.037518913169135804, 'minimax_residual_l2': 0.1191695177415338, 'minimax_residual_linf': 0.03015605910502464}
+example_6_8 PASS 0.073 {'basis': 'C2 cubic truncated powers', 'least_squares_residual_l2': 0.11660335753242362, 'least_squares_residual_linf': 0.03929952548014616, 'minimax_residual_l2': 0.1266091147074785, 'minimax_residual_linf': 0.03203833452631877}
+fig_6_24 PASS 0.083 {'samples': 51, 'squared_error': 5.172285063758417, 'support_inequalities': 2601}
+example_6_5 PASS 0.099 {'worst_case_residual': 3.9207687471767074, 'nominal_expected_squared_residual': 16.776873275898797, 'stochastic_expected_squared_residual': 12.518499808277578}
+example_6_6 PASS 0.228 {'nominal': {'nominal_residual': 0.5237497700218717, 'disk_maximum': 4.904797717256438, 'sample_mean': 3.114831024300449, 'sample_maximum': 4.90010375032021}, 'Tikhonov_delta_1_book': {'nominal_residual': 2.510121276748666, 'disk_maximum': 2.944902478057493, 'sample_mean': 2.624183948354698, 'sample_maximum': 2.9443959252088763}, 'Tikhonov_delta_0.1_companion': {'nominal_residual': 1.2604526362631758, 'disk_maximum': 3.234391974483682, 'sample_mean': 2.2770968615629, 'sample_maximum': 3.234104315188231}, 'robust': {'nominal_residual': 2.0534467014085833, 'disk_maximum': 2.5999037676460657, 'sample_mean': 2.3242446956253007, 'sample_maximum': 2.5997964927819166}}
+cardinality 1 subsets 20
+cardinality 2 subsets 190
+cardinality 3 subsets 1140
+cardinality 4 subsets 4845
+cardinality 5 subsets 15504
+cardinality 6 subsets 38760
+cardinality 7 subsets 77520
+cardinality 8 subsets 125970
+cardinality 9 subsets 167960
+example_6_4 PASS 10.828 {'matrix_shape': [10, 20], 'subsets_enumerated': 431910, 'reproduction': 'official companion data; explicitly different from book'}
+fig_7_1 PASS 1.426 {'observations': 100, 'slope': 0.9847790534024208, 'intercept': -4.981977522572031, 'negative_log_likelihood': 32.97970267092131}
+example_7_2 PASS 0.423 {'entropy': 4.386294337666051, 'mean': 0.05636171453647122, 'second_moment': 0.49999999998777256, 'cubic_moment': -0.20000000000590504, 'negative_probability': 0.39999999995668745, 'cdf_lps': 200}
+example_6_9 PASS 2.631 {'preferred': 14, 'rejected': 21, 'unresolved': 5}
+fig_7_9 PASS 0.324 {'D': {'selected_indices_one_based': [1, 10], 'selected_weights': [0.49999998254252487, 0.5000000091871821], 'objective': -2.3149884279300115}, 'E': {'selected_indices_one_based': [10, 20], 'selected_weights': [0.20000000000621218, 0.7999999999761945], 'objective': 1.7999999999927048}, 'A': {'selected_indices_one_based': [1, 10, 20], 'selected_weights': [0.29660432074358456, 0.37796360072301344, 0.3254320777838453], 'objective': 0.8495327564772762}}
+fig_8_3 PASS 1.469 {'enclosing': {'area': 0.43610350298031236, 'center': [0.14022620349413456, 0.02155390679359742]}, 'inscribed': {'area': 0.2965923119885617, 'center': [0.11152760332570773, 0.011759883582039912]}}
+fig_8_5 PASS 0.262 {'Chebyshev_center': [0.16050776756592386, 0.02690464518140243], 'Chebyshev_radius': 0.2782152380556206, 'maximum_volume_center': [0.11152760332570773, 0.011759883582039912], 'analytic_center': [0.14038886195804942, 0.06126227818159585]}
+example_4_10 PASS 0.095 {'instance': 'new explicit 2x2 matrices and positive-definite objective weights', 'weighted_objectives': [2.2933034371229195, 5.440121945327011]}
+fig_8_10 PASS 0.207 {'LP_slack': {'a': [2.0647121426855635, -2.959732514566787], 'b': -0.7178103785481117, 'objective': 6.148569432367733, 'misclassified': 1, 'correct_inside_slab': 4}, 'SVM': {'a': [0.5117662413307719, -0.6128169393276824], 'b': -0.06487031573431688, 'objective': 1.8257002191379126, 'misclassified': 3, 'correct_inside_slab': 14}, 'logistic': {'a': [3.198511497340165, -4.7008606594691145], 'b': -1.4818989261516615, 'objective': 6.125421437042971, 'misclassified': 2, 'correct_inside_slab': 3}}
+example_8_6 PASS 0.315 {'fixed_nodes': 8, 'free_nodes': 6, 'edges': 28, 'objectives': {'1': 22.174457982209866, '2': 21.152362395581008, '4': 21.496152514622146}}
+example_8_7 PASS 0.398 {'half_perimeters': [47.93446178780976, 47.1562220587648, 48.669203564181565, 48.54574638321826], 'widths': [25.573781946772858, 23.86901512698037, 25.00000048112376, 25.09366748638375], 'heights': [22.3606798410369, 23.287206931784425, 23.669203083057806, 23.45207889683451]}
+fig_7_5 PASS 3.343 {'sigma1_correct_detection_lower_bound': 0.20476190478309342, 'sweep_sdps': 453, 'extremal_atoms': 6}
+fig_7_8 PASS 0.132 {'minimum_squared_distances': [1.8000000000006502, 4.500000001657998, 4.000000000329983, 3.2000000000097337, 2.7692307693198175, 1.470588235322992], 'sigma0.5_bound': 0.9138197052197047, 'sigma0.5_estimate': 0.98835, 'samples_per_sigma': 100000, 'seed': 708, 'standardized_maximum_MC_error': 2.2551936294093133}
+fig_8_8 PASS 1.475 {'class_sizes': [10, 6], 'maximum_slab_width': 1.6892295447774852, 'seed': 0}
+fig_8_13 PASS 0.055 {'class_sizes': [50, 50], 'center': [-0.04378858162399606, 0.07239837417480682], 'maximum_inner_polynomial': -0.9999999999993339, 'minimum_outer_polynomial': 0.9999999999901066, 'seed': 813}
+fig_8_14 PASS 0.237 {'class_sizes': [61, 151], 'degree_status': {'1': 'infeasible', '2': 'infeasible', '3': 'infeasible', '4': 'feasible'}, 'seed': 0}
+fig_6_2 PASS 1.877 {'absolute': 20.867713970207973, 'quadratic': 7.878377931416464, 'deadzone': 0.0, 'log_barrier': 8.984200120761528}
+fig_6_8 PASS 0.37 {'length': 4000, 'seed': 608, 'tradeoff_points': 50, 'reconstruction_residuals': [8.000000000000059, 3.0999999999999717, 1.0000000000000002]}
+fig_6_11 PASS 1.127 {'length': 2000, 'seed': 611, 'TV_tradeoff_points': 15, 'quadratic_tradeoff_points': 100, 'selected_TV': [16.49161537793919, 7.984852501761469, 5.3831864241819165]}
+fig_5_1_5_2 PASS 0.16 {'new_primal_minimizer': -0.46, 'new_primal_value': 0.52957456, 'dual_optimal_lambda': 5.757994940173157, 'dual_optimal_value': 0.5295745599999997, 'gap': 3.3306690738754696e-16}
+active 0 60 gap 194.14609888942738
+active 1 109 gap 100.70012886090959
+active 2 113 gap 57.756471198628944
+active 3 117 gap 36.33442552726504
+active 4 120 gap 29.43366158236692
+active 5 120 gap 16.139562703734864
+active 6 121 gap 12.196501626653617
+active 7 124 gap 10.296643057544014
+active 8 126 gap 9.605775404513782
+active 9 130 gap 7.698615866819804
+active 10 139 gap 5.438725497070958
+active 11 136 gap 6.026559155216793
+active 12 140 gap 3.7092368296708393
+active 13 137 gap 3.5429668319011824
+active 14 141 gap 2.141969691744814
+active 15 145 gap 2.602986557927899
+active 16 142 gap 1.6177581427144059
+active 17 144 gap 1.0344241519170385
+active 18 141 gap 0.8947368027712521
+active 19 146 gap 3.1413878473804555
+active 20 147 gap 0.6339224651464157
+active 21 147 gap 1.074120790118247
+active 22 151 gap 1.4186832331488723
+active 23 153 gap 0.06983463173291149
+active 24 150 gap 0.08998389032606191
+active 25 144 gap 0.0055026635161556925
+active 26 104 gap 2.0474502093748015e-09
+active 0 60 gap 194.4812399973814
+active 1 108 gap 100.83291162615296
+active 2 114 gap 57.68445354759767
+active 3 118 gap 36.224054280726094
+active 4 125 gap 29.309114088770663
+active 5 121 gap 15.98976977422857
+active 6 122 gap 12.158436073055453
+active 7 124 gap 11.119858192978835
+active 8 124 gap 10.033925346540997
+active 9 129 gap 7.341950238812809
+active 10 131 gap 5.473964587618596
+active 11 139 gap 5.035843591534853
+active 12 136 gap 4.8822785244827465
+active 13 135 gap 3.6629886384172234
+active 14 135 gap 3.598314604081976
+active 15 137 gap 2.4905262403773953
+active 16 140 gap 1.821554878299274
+active 17 155 gap 2.33776418680754
+active 18 141 gap 0.8346186609441908
+active 19 143 gap 1.0264219744776035
+active 20 147 gap 0.7332331645298176
+active 21 143 gap 0.2253224440168129
+active 22 145 gap 0.24824491994311693
+active 23 176 gap 1.0062362181638296
+active 24 178 gap 0.020423332147972317
+active 25 103 gap 1.1495746576883903e-09
+active 0 60 gap 241.16561032329003
+active 1 132 gap 202.3364044656562
+active 2 119 gap 180.72786372592807
+active 3 182 gap 159.81572384817963
+active 4 175 gap 147.8940757618312
+active 5 124 gap 129.47429196899225
+active 6 130 gap 86.9005908328056
+active 7 131 gap 49.69090060640946
+active 8 132 gap 31.429412146088794
+active 9 133 gap 15.704523320582751
+active 10 143 gap 6.26434981387618
+active 11 152 gap 3.649541390447382
+active 12 165 gap 4.830362980660681
+active 13 206 gap 1.089175202390578
+active 14 264 gap 1.7954857979201222
+active 15 163 gap 0.40834368909818863
+active 16 200 gap 0.0075588945477989
+active 17 155 gap 3.0173907816788414e-09
+fig_6_21 PASS 19.431 {'CVX_endpoint_grid': {'selected_atoms': 45, 'relative_squared_refit_error': 6.757245875044248e-05, 'primal_dual_gap': 2.0474502093748015e-09}, 'CVXOPT_k_over_501': {'selected_atoms': 46, 'relative_squared_refit_error': 6.383690991371087e-05, 'primal_dual_gap': 1.1495746576883903e-09}, 'book_literal_0.005_grid': {'selected_atoms': 48, 'relative_squared_refit_error': 0.5778275777905207, 'primal_dual_gap': 3.0173907816788414e-09}}

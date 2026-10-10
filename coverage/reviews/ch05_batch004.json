@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "5.35",
+      "reviewer": "convexity_review",
+      "solution_sha256": "09f3e4eb188dca312a6d72a449f51be8d90a6ba450cc29709cec916cb787dcc9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked logarithmic substitution and value transformation, positive finite baseline, differentiability/continuity regularity for strong-dual sensitivity, original-unit chain rule and percent scaling; zero-infimum qualification explicit."
+    },
+    {
+      "id": "5.36",
+      "reviewer": "convexity_review",
+      "solution_sha256": "47433a129779a7da8bae48d444b4cf7d77666bef668cc85e19166d2373219e7f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked equality-to-two-inequalities alternative, nonnegative multiplier decomposition and sign reversal equivalence of negative and nonzero pairing."
+    },
+    {
+      "id": "5.37",
+      "reviewer": "convexity_review",
+      "solution_sha256": "1345525d0f1de83ed92ca1f9064b51aae47262d00ad0cb25f1e31dc749b2e269",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked exact Farkas matrix and sign of scalar certificate; maximal component contradicts strict increase under the column-stochastic transpose without irreducibility assumptions."
+    },
+    {
+      "id": "5.38",
+      "reviewer": "convexity_review",
+      "solution_sha256": "bb5b28199bc16412fe2969037c3da5316dcf74f1ef9bb611b1ff2d230785676e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked unique positive state prices, both replication equations and initial cost, necessity and sufficiency of option price, all strike regimes. Author added exact S=0 bond-replication case; nonzero negative S also covered algebraically."
+    },
+    {
+      "id": "5.39",
+      "reviewer": "convexity_review",
+      "solution_sha256": "26adcf6ca166243888bc1ce54b742ba08ba79b92d0df7505e402dd07bfdd6b9d",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked rank-one PSD/sign-vector equivalence, lower-bound direction and recovery, conic dual signs, compact correlation-matrix feasible set and Slater equality/attainment of both SDP bounds."
+    },
+    {
+      "id": "5.40",
+      "reviewer": "convexity_review",
+      "solution_sha256": "79676dc8dc9c5bb545435d80974fb37dde6ca7ec6f39454c8fcd77a6ff10e075",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked spectral inverse reformulation, scalar infimum including zero trace, dual scaling to trace-maximizing SDP, spanning/strict feasibility and nonspanning unbounded dual ray."
+    },
+    {
+      "id": "5.41",
+      "reviewer": "convexity_review",
+      "solution_sha256": "96863189d40391fe06e6917e69fd1b77ecb3dc85dd1bbe12b20b778c2433b684",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Independently derived symmetric diagonal/off-diagonal multiplier coefficients. Visually inspected source PDF page 300 and confirmed printed factor-of-two error. Corrected half-factor dual and equivalent rescaling verified; one-state counterexample violates weak duality for printed target. Polyhedral feasibility/attainment qualification checked."
+    },
+    {
+      "id": "5.42",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b4a136d2feb5d5ace36a2f4c8dcbb38d7e130b63f9d8db63f6fd8f2583527f04",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked proper dual-cone sign, unrestricted-variable stationarity equality, exact dual objective, nonnegative gap pairing and qualified Slater statement."
+    },
+    {
+      "id": "5.43",
+      "reviewer": "convexity_review",
+      "solution_sha256": "d4b1134777f38bc17c35873dba817b59598b76d9295d5e20a07d0e26c7007afe",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked both requested derivations, every scalar/equality multiplier sign, free-variable effective-domain conditions, self-dual SOC pairing, explicit gap and correction of printed vector dimension."
+    },
+    {
+      "id": "5.44",
+      "reviewer": "convexity_review",
+      "solution_sha256": "31211140de98fbd1ff23db1cfba567c749fff1e1db089b39abaf8c1e3777a942",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked basis reduction including zero span, positive uniform eigenvalue bound on the sphere, coercivity/attainment at every auxiliary value including zero, auxiliary SDP Slater dual certificate and mutual exclusivity. Exact 2x2 counterexample and unattained zero value verified."
+    }
+  ]
+}

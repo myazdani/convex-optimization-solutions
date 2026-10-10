@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "9.21",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "4363c0052ddc82bfc7929dd503d020448f2a0ccaa6849c7e239a8cb051505e1a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked the coefficient against equation 9.56, derivative polynomial, unique interior alpha optimum and unattained beta-up-to-one infimum. Independent scalar minimization confirms alpha 0.1748161864 and coefficient 251.5636022058. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.22",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "782b9050e54751863e51f043f089fd8391e08703df384da00ca69cb47a0c49ba",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked k^2/4 scaling against equation 9.42, Newton/Armijo invariance, scaled objective tolerance and decrement, and the theorem assumptions/small-tolerance qualification. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.23",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "d7f36e37c2b01975e290612f7bc9223bf1a3f8c6f1e2bce78fddca167bf7734e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked all three objective and directional derivative formulas, dense setup/trial costs and exact domain tests. Independently checked the Cholesky-whitened symmetric-pencil value and derivative identities; no simultaneous-diagonalization assumption is made. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.24",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "f8cf0515313815de71971db47afa651e58be597f27d7a0528c701371da3722ab",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked independent block solves and cubic cost sums. Global separability proof correctly requires a fixed block partition throughout an open convex domain and distinguishes coupled domains from additive formulas. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.25",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "b84c790928019600598ab1c642807ba15b30014c89091f7443459e97aa165cbf",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked both Hessians, endpoint/grid degrees, factors of two, connected-Laplacian nullspaces and the positive-data-curvature criterion. Banded and nested-dissection complexities have the correct n-by-n grid scaling. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.26",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "9cc874056db5a07b4120e6a9fae42d57d70dcb98a43d2af23ef5720f42e7b95c",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked the lifted symmetric KKT signs, elimination to A-transpose B A, nonsingularity under positive-definite global Hessian despite singular local blocks, and qualified sparse-fill costs. Independent dense elimination agrees to machine precision. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.27",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "6db03808a0eefe4edda84ac9b19227b34c82d20ccc0a92d7c4a8e291bc71f708",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked barrier derivatives, positive diagonal term, both dimension regimes and Woodbury signs. Independent sparse-plus-low-rank algebra checks passed for both tall and wide cases. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.28",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "cc104c675a5ea04da320d2d13018119cc08500eb3259f9492e56c049b1a72d3a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked the source Hessian decomposition, positive sparse base, multi-right-hand-side solves, low-rank correction and assembly/fill qualifications. Independent Woodbury residual checks passed. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.29",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "ebcb554f4b8bf0ce333f7e9ba2d3ac46ffce8a9a2a8e4e6bcaa7e5457cb1b14e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked against Exercise 4.64, including probability weights, removal of zero-weight scenarios, arrowhead blocks and Schur/right-hand-side signs. Independent block elimination matches the full system; stated cost is linear in scenario count for fixed block sizes. Full official exercise text and referenced section/equations checked."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "summary": {
+    "class_sizes": [
+      10,
+      6
+    ],
+    "maximum_slab_width": 1.6892295447774852,
+    "seed": 0
+  },
+  "points": {
+    "X": [
+      [
+        2.4946414276656075,
+        -5.155420121612061
+      ],
+      [
+        2.421811804118585,
+        -1.0157715237465064
+      ],
+      [
+        4.552851310556682,
+        -0.938970583949448
+      ],
+      [
+        2.420291950225201,
+        -2.0442427591817025
+      ],
+      [
+        0.5572604841496931,
+        -3.5312574815649267
+      ],
+      [
+        -0.027150596147684336,
+        -3.6597509088859934
+      ],
+      [
+        0.17291781229118885,
+        -2.0038211149605454
+      ],
+      [
+        0.8978768774974213,
+        -0.0170963836172236
+      ],
+      [
+        -0.3907017041334375,
+        -3.647771030021506
+      ],
+      [
+        -0.284814620293112,
+        -0.5518876791937403
+      ]
+    ],
+    "Y": [
+      [
+        0.9822698691668812,
+        4.233730311353668
+      ],
+      [
+        0.5262667895497863,
+        3.262057062967182
+      ],
+      [
+        -3.547893122057267,
+        0.7329521788292968
+      ],
+      [
+        -4.1357430592451445,
+        -0.9259428249390653
+      ],
+      [
+        -2.2108795519135933,
+        -0.28221829823581535
+      ],
+      [
+        -1.7789430962149977,
+        1.944247013603972
+      ]
+    ]
+  },
+  "feasible_separator": {
+    "a": [
+      0.9370652128860851,
+      -0.7236696807700924
+    ],
+    "b": -0.8675054921800774
+  },
+  "maximum_margin": {
+    "a": [
+      0.7914591215280126,
+      -0.6112221027738356
+    ],
+    "b": -0.7327079538319184,
+    "half_width": 0.8446147723887426
+  },
+  "checks": [
+    {
+      "name": "minimum-norm versus max-margin formulation",
+      "measured": 6.881473169073615e-11,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "convex-hull distance duality",
+      "measured": 4.5501202805553476e-10,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "margin feasibility",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "linear_separators.png"
+  ],
+  "caveats": [
+    "Uses NumPy PCG64 seed 0 with the official point-cloud dimensions, Gaussian construction and linear transform. This is not MATLAB randn(state,3), and the exact original points/figure are not claimed. Seeds3,808,8 were checked and gave nonseparable replacement instances; seed0 was selected to demonstrate the prescribed separable case."
+  ],
+  "id": "fig_8_8",
+  "executed_at": "2026-10-10T05:03:47.882879+00:00",
+  "elapsed_seconds": 1.4751749670012941,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=437",
+    "official_code_urls": [
+      "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/linear_discr.m",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/robust_lin_discr.m"
+    ],
+    "official_data_files": [],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+  "runtime_source_sha256": {
+    "examples/application_classification_methods.py": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {},
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_classification_methods.py fig_8_8",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

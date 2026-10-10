@@ -1,0 +1,122 @@
+{"verified": 399, "in_progress": 0, "in_review": 0, "blocked": 0}
+Three-category catalog and indexes are current.
+{
+  "numbered_exercises": 337,
+  "computational_exercises_verified": 16,
+  "numbered_exercises_verified": 337,
+  "other_exercises_total": 321,
+  "other_exercises_verified": 321,
+  "other_exercises_pending": 0,
+  "worked_examples_catalogued": 62,
+  "worked_examples_reproduced": 62,
+  "worked_examples_exact": 24,
+  "worked_examples_method": 38
+}
+Validated 71 exercise records
+{
+  "audit_status": "complete",
+  "required_count": 11,
+  "status_counts": {
+    "blocked": 0,
+    "implemented": 0,
+    "not_applicable": 0,
+    "pending": 55,
+    "verified": 16
+  },
+  "implemented_ids": [
+    "4.3",
+    "5.29",
+    "5.33",
+    "5.34",
+    "9.10",
+    "9.30",
+    "9.31",
+    "9.32",
+    "10.14",
+    "10.15",
+    "10.16",
+    "11.1",
+    "11.21",
+    "11.22",
+    "11.23",
+    "11.24"
+  ],
+  "missing_required": [],
+  "selected_count": 16,
+  "missing_selected": [],
+  "required_complete": true,
+  "selected_complete": true,
+  "issues": [],
+  "complete": true
+}
+Verified results for 16 exercises (0 changed)
+{
+  "verified_artifact_structure": [
+    {
+      "id": "4.3",
+      "png_count": 0
+    },
+    {
+      "id": "5.29",
+      "png_count": 1
+    },
+    {
+      "id": "5.33",
+      "png_count": 1
+    },
+    {
+      "id": "5.34",
+      "png_count": 1
+    },
+    {
+      "id": "9.10",
+      "png_count": 1
+    },
+    {
+      "id": "9.30",
+      "png_count": 4
+    },
+    {
+      "id": "9.31",
+      "png_count": 1
+    },
+    {
+      "id": "9.32",
+      "png_count": 1
+    },
+    {
+      "id": "10.14",
+      "png_count": 1
+    },
+    {
+      "id": "10.15",
+      "png_count": 1
+    },
+    {
+      "id": "10.16",
+      "png_count": 1
+    },
+    {
+      "id": "11.1",
+      "png_count": 1
+    },
+    {
+      "id": "11.21",
+      "png_count": 1
+    },
+    {
+      "id": "11.22",
+      "png_count": 1
+    },
+    {
+      "id": "11.23",
+      "png_count": 2
+    },
+    {
+      "id": "11.24",
+      "png_count": 1
+    }
+  ],
+  "count": 16
+}
+CANONICAL COMPACT INVENTORY PASS: 220 algorithm payload files including 180 artifacts; 254 total example artifacts; 4022 superseded/staging files excluded; all seven required evidence metadata files retained.

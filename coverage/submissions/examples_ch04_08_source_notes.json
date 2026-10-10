@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "findings": [
+    {
+      "id": "example_6_4",
+      "finding": "Official regsel.py explicitly states that the problem data differ from the book.",
+      "recommended_catalog_change": {
+        "reproducibility": "official_companion_different_data",
+        "data_availability": "Published regsel.bin supplies a 10-by-20 companion instance, explicitly different from the book. Exact book random arrays are not recovered."
+      },
+      "resolution": "Complete exhaustive-support and l1-heuristic method reproduction, 431910 supports below rank ten; output_match_verified false.",
+      "book_source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=324",
+      "official_code_urls": [
+        "https://cvxopt.org/examples/book/regsel.html",
+        "https://cvxopt.org/_downloads/3a5455dbfc777addda64cfe2dc058632/regsel.py",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/regressor_cvx.m"
+      ],
+      "evidence_results": "artifacts/examples/example_6_4/results.json"
+    },
+    {
+      "id": "example_8_6",
+      "finding": "Official placement.py explicitly states its data differ from the book; placement.bin contains 28 edges, whereas Example 8.6 states 27.",
+      "recommended_catalog_change": {
+        "reproducibility": "official_companion_different_data",
+        "data_availability": "Eight fixed points, six free points and 28 companion edges are published in placement.bin; this differs from the printed 27-link instance."
+      },
+      "resolution": "Complete linear/quadratic/quartic placement method reproduction; output_match_verified false.",
+      "book_source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=448",
+      "official_code_urls": [
+        "https://cvxopt.org/examples/book/placement.html",
+        "https://cvxopt.org/_downloads/d5f22d58ce9353c155230e4f39a5a2e2/placement.py",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/placement_lin.m",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/placement_quad.m",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/placement_quar.m"
+      ],
+      "evidence_results": "artifacts/examples/example_8_6/results.json"
+    },
+    {
+      "id": "fig_7_1",
+      "finding": "Restricted data conversion finds 100 observations; both official source programs also specify m=100. Earlier catalog statement of 50 was incorrect.",
+      "recommended_catalog_change": {
+        "data_availability": "One hundred observations are published in logreg.bin; CVX also supplies a seeded generator."
+      },
+      "resolution": "Uses all 100 official observations; independent Newton and conic objectives agree.",
+      "book_source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=368",
+      "official_code_urls": [
+        "https://cvxopt.org/examples/book/logreg.html",
+        "https://cvxopt.org/_downloads/3524328e70d5d80efced606f6ec4f894/logreg.py",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch07_statistical_estim/logistics.m",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch07_statistical_estim/logistics_gp.m"
+      ],
+      "evidence_results": "artifacts/examples/fig_7_1/results.json"
+    },
+    {
+      "id": "fig_8_10",
+      "finding": "On published linsep.bin, certified solutions reproduce misclassification counts 1/3/2, but correctly classified strict-slab counts are 4/14/3 instead of printed 4/15/3.",
+      "resolution": "Retain actual counts and explicit 1e-6 boundary tolerance; dual gaps certify the LP/SVM objectives; use conservative method classification with no exact-output-match claim.",
+      "book_source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=440",
+      "official_code_urls": [
+        "https://cvxopt.org/examples/book/linsep.html",
+        "https://cvxopt.org/_downloads/dcf8e07bee53213cc48e8418ad9a582a/linsep.py",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/svm_1.m",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/svm_2.m"
+      ],
+      "evidence_results": "artifacts/examples/fig_8_10/results.json"
+    },
+    {
+      "id": "fig_6_2",
+      "finding": "CVXOPT penalties.py explicitly says its data differ from the book. Its displayed least-squares code initializes the right-hand side to zero rather than -b.",
+      "resolution": "Original implementation correctly solves A x+b against a new fully documented 100-by-30 PCG64 instance; all four penalty losses independently verified.",
+      "book_source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=310",
+      "official_code_urls": [
+        "https://cvxopt.org/examples/book/penalties.html",
+        "https://cvxopt.org/_downloads/d69ceac6463de6e4146ad32d11708d99/penalties.py",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/penalty_comp_cvx.m"
+      ],
+      "evidence_results": "artifacts/examples/fig_6_2/results.json"
+    },
+    {
+      "id": "example_6_3",
+      "finding": "CVXOPT stacking omits the relative n/(n-1) normalization of the derivative term.",
+      "resolution": "Use the textbook/CVX normalization with n=201, derivative divisor 200; all three prescribed cases executed and checked against an independent QP.",
+      "book_source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=321",
+      "official_code_urls": [
+        "https://cvxopt.org/examples/book/inputdesign.html",
+        "https://cvxopt.org/_downloads/04cc18744c2680be02ff1f2deef0df21/inputdesign.py",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/fig6_6.m"
+      ],
+      "evidence_results": "artifacts/examples/example_6_3/results.json"
+    },
+    {
+      "id": "example_6_6",
+      "finding": "Book delta=1 differs from companion delta=0.1. Original Monte Carlo samples are not supplied.",
+      "resolution": "Execute both Tikhonov variants and nominal/robust designs on published matrices; use 100000 recorded-seed area-uniform disk samples; independent disk-boundary maximization checks SDP value.",
+      "book_source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=338",
+      "official_code_urls": [
+        "https://cvxopt.org/examples/book/robls.html",
+        "https://cvxopt.org/_downloads/7265e17252d497aeb7049a020a125d9c/robls.py",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/wcrobls.m"
+      ],
+      "evidence_results": "artifacts/examples/example_6_6/results.json"
+    },
+    {
+      "id": "fig_6_21",
+      "finding": "Three distinct sample conventions: book prose interval [0,1] with printed 0.005k, CVX k/500 with Gaussian-tail truncation, CVXOPT k/501 without truncation.",
+      "resolution": "Execute all three full 501-by-30561 dictionary variants. Certified solutions select 45/46/48 atoms at threshold1e-5; least-squares refit relative squared errors 6.757e-5/6.384e-5/0.5778. Disclose disagreement with book42/2.6e-4.",
+      "book_source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=348",
+      "official_code_urls": [
+        "https://cvxopt.org/examples/book/basispursuit.html",
+        "https://cvxopt.org/_downloads/1ab809e118eaf84a74c5a3d776d973bc/basispursuit.py",
+        "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/basispursuit.m"
+      ],
+      "evidence_results": "artifacts/examples/fig_6_21/results.json"
+    }
+  ],
+  "remaining_input_blockers": [],
+  "scope_resolution": "User approved explicitly labeled method reproductions where exact book inputs are unavailable."
+}

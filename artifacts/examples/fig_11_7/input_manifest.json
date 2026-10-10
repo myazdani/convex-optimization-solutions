@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "id": "fig_11_7",
+  "generator": "PCG64 via pinned NumPy/SciPy; source implementation has explicit seeds and sampling order",
+  "files": {
+    "instance_1000.npz": {
+      "published_binary": false,
+      "bytes": 15432747,
+      "arrays": {
+        "A": {
+          "shape": [
+            1000,
+            2000
+          ],
+          "dtype": "<f8",
+          "sha256": "a14a9abaa13ca55d9f5e6ecb69c272278149886b61215c9e9ebe2e6bfe2e3488"
+        },
+        "b": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "f7b872667601dbdd696166087ec3de25aaf5e2d0554d8d967e8b48e398bebc46"
+        },
+        "c": {
+          "shape": [
+            2000
+          ],
+          "dtype": "<f8",
+          "sha256": "40e4214111932e5610bfc940553b804b17d22a6e66fdba11d08d517bcd587fec"
+        },
+        "x0": {
+          "shape": [
+            2000
+          ],
+          "dtype": "<f8",
+          "sha256": "ea4798c1778c5bd80cb3a2e8194ee459cd754827d09e25be48663004f10f25e3"
+        },
+        "y0": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "c4bfce364a3b9ea7928ba3736a1fc1128b06ee2f5d57ed4ab2bce065ebb21df1"
+        },
+        "s0": {
+          "shape": [
+            2000
+          ],
+          "dtype": "<f8",
+          "sha256": "7df0380025d4ef320f799b61f2d4f06768f19746e26e5d1388ad7f5063869151"
+        },
+        "seed": {
+          "shape": [
+            1
+          ],
+          "dtype": "<i8",
+          "sha256": "00fb654fa90789988ccde40f8c81a6d1682505cd2729bbfa8bd5cf7bddea715d"
+        }
+      }
+    },
+    "instance_50.npz": {
+      "published_binary": true,
+      "bytes": 43026,
+      "arrays": {
+        "A": {
+          "shape": [
+            50,
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "8b21697c5202e03ce94e985e59ea67b6f0df6c84cc6225ec6c98d12825134d41"
+        },
+        "b": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "f8d4fe96e220a3e3c367a39fe41ad8a851304bd312eedee76a480221b544f453"
+        },
+        "c": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "19efdb11b0f280f09047780d2cc4013a7661dbbf707f327b6d0a9ec93e5c09b4"
+        },
+        "x0": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "068c3ed197a15cb9420f74d6f5445fdddf38b240b0849cff11ac9a916575c295"
+        },
+        "y0": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "bbcc5aabadf53ac9511d15ca3fe8fbb25d3553c21b84a22b9d3be0902113c561"
+        },
+        "s0": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "7082cc93a3c8b351aecbda71dfaf835450c0deb4b19c49cddd5b783523d84f5f"
+        },
+        "seed": {
+          "shape": [
+            1
+          ],
+          "dtype": "<i8",
+          "sha256": "56ca490c02088b0fccdea05cfe102d2e4b58f5f95b7d65fd723639e563ba5505"
+        }
+      }
+    },
+    "instance_500.npz": {
+      "published_binary": false,
+      "bytes": 3874500,
+      "arrays": {
+        "A": {
+          "shape": [
+            500,
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "b42a72b2527f82250a91fbc4d8c023e40fed23866d81b6e116e7bcdbad691f13"
+        },
+        "b": {
+          "shape": [
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "8c363f74bafdf046d388d8161cb001f1168928d1dd7d4fbc91aa104c0d23afa7"
+        },
+        "c": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "998313497cf797e7877dd5971982333b5cf0586badc1120db143f4c540a35c92"
+        },
+        "x0": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "ec6590c14d38977bbb58a3a71fd1bc9d2cac9402a0e0e861f56c04c4608bf008"
+        },
+        "y0": {
+          "shape": [
+            500
+          ],
+          "dtype": "<f8",
+          "sha256": "348f4b92e7ee5776eb6e086845c0801efc9ae33511326d81fd03aad63f12e1cb"
+        },
+        "s0": {
+          "shape": [
+            1000
+          ],
+          "dtype": "<f8",
+          "sha256": "2ad13b66f051325453f82d7f27b77f6f4dc2985178b462a31ae9bd55d052a6b1"
+        },
+        "seed": {
+          "shape": [
+            1
+          ],
+          "dtype": "<i8",
+          "sha256": "1e35c001f0f4fd22e8d4c071ae96ae41f3ecaf55278731e2178b3c7ea74cf3d7"
+        }
+      }
+    }
+  },
+  "regeneration_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithm_evidence verify fig_11_7",
+  "note": "Published binaries below256KiB are retained. Larger matrices are regenerated and each array is SHA256-checked. Raw numerical scope is unchanged."
+}

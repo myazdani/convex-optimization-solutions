@@ -1,0 +1,268 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "11.2",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "0ffa67a133350db525c749ae62b2d8d54809c0ef5f4e11d43e4abc7eb7756270",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked unbounded centering escape and infeasible stationarity, despite attained original LP optimum."
+    },
+    {
+      "id": "11.3",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "97c9fb473dfb3be082191e4e05cd6cde35f6a19325998a6d97ee4416c5c71697",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked convex radial linear growth from bounded original sublevels and logarithmic slack lower bound domination on the equality slice."
+    },
+    {
+      "id": "11.4",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "1870eadee5a577c36ad1f75ae64a32b840a15e1569b9d4efb811f801aa088416",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked ball-barrier Hessian and uniform2/R^2 bound; strict-domain qualification correct."
+    },
+    {
+      "id": "11.5",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "51f960028e38cf7991b9c8c22bddd9ef9d36cf10e7bfae7c260e1d47962b718f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked scalar SOC barrier identity and explicit self-dual SOC multipliers giving2m/t gap valid at original cone boundary."
+    },
+    {
+      "id": "11.6",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "42ddb3e3e77040985b9192bb0b9f9248bde92bcc20fb4a39f9b39dfdfae497e9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked composition Hessian, finite dual-value certificate, inverse-barrier gap and necessity/sufficiency of scaled logarithms for universal gap."
+    },
+    {
+      "id": "11.7",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "d4c1274b39d9ba4dd8d1d63ef85970fe16b722bd54e0e0562522d1efeec0084b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked implicit tangent solve under nonsingularity and objective monotonicity independently from two minimizing inequalities."
+    },
+    {
+      "id": "11.8",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "0414ecc954b5966588d2910cdafa39c9c4592b5c88e2786cb3a1e68b23e1b9aa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked old versus new Hessian predictor/Newton formulas, linear-objective coincidence and feasibility caveat."
+    },
+    {
+      "id": "11.9",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "876e33f188d765f21ce42813128a09581568c6cdcbb21064df76da272e374d3d",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked proposed small-step positive multipliers, affine quadratic gradients and cancellation producing a finite global Lagrangian lower bound."
+    },
+    {
+      "id": "11.10",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "a24b49ccb5a32c0e1c50589734fa659bb932cbad7808aaff856a5e2a6ec1a404",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked both positive-parameter conversions and stationarity equivalence including equality multiplier scaling convention."
+    },
+    {
+      "id": "11.12",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "4d93ca65e381771ac97dcebeab6de237a9c174662148480090a61e3b87caa8ca",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked convex-concavity signs and both one-sided dual gap bounds, yielding total saddle error(m+mtilde)/t."
+    },
+    {
+      "id": "11.13",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "e6d2c91f47c48e128d879d4eff1a03ea4519064fb2a9dbb60bb1d4e0170458c5",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked derivative ratios and polynomial inequality establishing augmented entropy self-concordance for everyt>0."
+    },
+    {
+      "id": "11.14",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "e174f504a04b39e8eadca44177b078577a74444d6dea92472c9cb2021babe4da",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked fixed-nullspace/closed-line argument and explicit equality counterexample; reduced-Hessian correction and KKT implication sound."
+    },
+    {
+      "id": "11.15",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "437bd3818957a6bb3de1df5a7b9193e5a82568f35b70c26cee443f6292029ee4",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked supporting-plane homogeneity argument for dual cone membership and negative-definite Hessian contradiction establishing interior membership."
+    },
+    {
+      "id": "11.16",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "11d8dc19612d0a5c3199cd721e98b9f8eac3d9f5eae7b46c489232a395cc4f83",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked all four differential homogeneity identities and signs, correcting printed Hessian notation."
+    },
+    {
+      "id": "11.17",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "848c5be923e73e2c5b92b568e6a98fc441022ce792e4e4937d7e53c46f8cd264",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked cone-interior scaling substitution and preservation of logarithmic degree without optimizer assumptions."
+    },
+    {
+      "id": "11.18",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "a8a71fef3e4415a5364e187635352092fcbf2da477fdbd893de4dcdaecd19bf4",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked literal printed-domain counterexample, corrected SOC quadratic-over-linear concavity, strict Hessian negativity, degreeone and boundary closedness."
+    },
+    {
+      "id": "11.19",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "9028dfae4c894cfc675bf9c1dbcbca6e0d399371569357ed19f7313ba992ef6a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked lifted system elimination and converse, sparse structure rationale and equality residual extension."
+    },
+    {
+      "id": "11.20",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "4cf1e62d419920ae76eb67648e2f86bcb57c3faa808c2e0125ddb1b999831591",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked scalar conjugate root/domain boundary, bounded utility counterexample, price-gradient/Hessian signs, primal recovery L/t gap and both sparsity/complexity alternatives."
+    }
+  ]
+}

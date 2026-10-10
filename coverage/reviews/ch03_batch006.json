@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "3.51",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "49694e433f53ec464202846abde93f14feaeca67dea007c6eb5427b3a689c916",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked real-root factorization, multiplicities, constant and zero cases, and log curvature on positive intervals."
+    },
+    {
+      "id": "3.52",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "f8ab438c03ff88b4664735f2e96b696a5b0f531d44ee966dceb943d255dbf665",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "moments",
+        "gamma"
+      ],
+      "notes": "Checked Holder exponents, finite-domain convexity, zero measure and extended integral qualifications, and gamma argument translation."
+    },
+    {
+      "id": "3.53",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "b0169e887050d7220d4b5125a7990ef0274ef710279502a9ce56af8eb7e889bc",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked independent convolution formula, joint log-concavity, marginalization theorem and Tonelli normalization."
+    },
+    {
+      "id": "3.54",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "6b11c2be3f5323d8903115d0e7667444f964f1045b021c07e7c2dd69bd811bb7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked all four requested steps including exponential tail integral sign and Gaussian curvature inequality."
+    },
+    {
+      "id": "3.55",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "31d842989a5858c8391a2d51a31aec4852cb8e2503c085fc1b9e18b250b36e92",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked CDF derivatives, tangent bound, convergent exponential integral for negative slope and support qualification."
+    },
+    {
+      "id": "3.56",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "f5055fe52d7df3d2dbec4ba7c4d7cadaae5b84eab5fa709502a0c14f7593e353",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked gamma and Dirichlet parameter boundaries, normalization constants and nonnegative concave-log coefficients."
+    },
+    {
+      "id": "3.57",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "a78f78638c8113ef1d1cc2775cdb4fcb77b140cfeb2ec16b24ebdb6d4bd93ed0",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked variational quadratic form representation and semidefinite order argument without commutativity."
+    },
+    {
+      "id": "3.58",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "02c0e72ac1302fab836231aa502c592e753c082f05ed696352a60b4fe30bc8f3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked joint block-matrix variational minimum, minimizing vector and matrix concavity."
+    },
+    {
+      "id": "3.59",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "c6d55e79dcbdfc8536334d1f134f15c761bf2863c206922e51343f27d8787436",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "necessity",
+        "sufficiency"
+      ],
+      "notes": "Checked dual cone scalarization equivalence and Hessian test, including relative-domain qualification."
+    },
+    {
+      "id": "3.60",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "726034ebdbdbd58a50a192dd1091919e9c3df47b905dce1e66953ae0f2d8bf19",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked cone order addition and both epigraph directions, including convexity of the projected domain."
+    }
+  ]
+}

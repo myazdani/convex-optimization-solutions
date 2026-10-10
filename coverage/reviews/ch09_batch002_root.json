@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "9.11",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "1278fff28390bc116a7fe0c099721dffc77fcd28ef76988c630942a0bccb556c",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked chain derivatives and rank-one inverse scaling; exact-ray line search equivalence and nondecreasing/zero-derivative qualifications."
+    },
+    {
+      "id": "9.12",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "8ee58214f4b1395c725e3bf24fe2e81c5b1339337d18b63ce4b6c12a6714b2f6",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked trust-region Slater KKT and regularized quadratic minimization, active-boundary and singular Hessian cases."
+    },
+    {
+      "id": "9.13",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "7f9a92f75c1c10e7a100eac328c2e93eb72151c7f040e986d394f59aeed5c6ad",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked scalar derivative ratio and alpha threshold, affine slack composition and summation self-concordance."
+    },
+    {
+      "id": "9.14",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "7c5d0e7a44633c9df74017379b3d106b668103b66b4e7169bcde571e35d96438",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked logarithmic derivatives and normalization into the supplied cubic inequality; convex domain verified."
+    },
+    {
+      "id": "9.15",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "68403466fb1c654769a6a8d6b9536202286ad52192cdee93e80469f1903ea3e8",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked all three line restrictions, logarithmic-composition bounds, fixed-y lines and convex domains."
+    },
+    {
+      "id": "9.16",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "fab38e675bae8e0b9a523b996f5a9052f81a2af396f56472180f7012cf2c7696",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked reciprocal-curvature equivalence, both extreme log forms and impossibility of finite interior positive-curvature component boundary."
+    },
+    {
+      "id": "9.17",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "589acfd9908f2e1c56989bcffde6bd68edb87b178cbbd2bea3e467511cbc6abd",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked mixed-derivative norm argument, fixed Hessian nullspace proof and integrated Hessian comparison. Printed reciprocal range error independently confirmed by supplied negative-log counterexample."
+    },
+    {
+      "id": "9.18",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "cb04349d3de665be6323a276d08fdd14dab6322ed45691b2b0e76a1b5105188c",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked normalized gradient integral bound and decrement contraction. Domain qualification and restricted-quadratic counterexample valid; closedness supplies full-step inclusion."
+    },
+    {
+      "id": "9.19",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "3d5fb616cfaffd0d65739e5c2effb68037deef0e40c4313e15c5e85440ca6170",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked integrated curvature lower bound, compact-sublevel attainment/distance estimate and damped-Newton contradiction for bounded-below case."
+    },
+    {
+      "id": "9.20",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "bc3c3decca60aed4802b1463c6db40684dd5d5ee026f4a31fbfb0975dbe52093",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked tilted-function attainment hypotheses, open conjugate domain and inverse-gradient map, matching second/opposite third derivatives and resulting self-concordance."
+    }
+  ]
+}

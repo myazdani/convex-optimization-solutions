@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "3.21",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "0f37429def32457c015367bcd846f23b31ddd82cd44ed64feea07150ee5cabac",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked maximum convexity inequality and signed-subset representation of largest absolute coordinates."
+    },
+    {
+      "id": "3.22",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "6294de1d80c2c730b93f608975fa62b12bf43693751a81a0b99e98b887f42997",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "notes": "Checked all five composition rules, monotonicity signs, convex domains, factorization, and t=0 cone extension."
+    },
+    {
+      "id": "3.23",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "5882c9517e324240529de4c3a0f9a757b82ce5948ca78e8e7676f79dcd6feb5c",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked both perspective identities and affine inverse-image domains, including rank and c=0 cases."
+    },
+    {
+      "id": "3.24",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "276c4ea14e26b171aaafb50ad1d60a7388bc2edaf32b0dc383c1df819fb0e445",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "notes": "Checked all eight requested classifications, every counterexample, strict quartile threshold, integer-cardinality superlevels, and finite support interval-width superlevels including endpoints."
+    },
+    {
+      "id": "3.25",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "3ecedef660292a6664f23707af0d65d88013d8868e31b025125f8a56aa3e7af1",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "formula",
+        "convexity",
+        "extension"
+      ],
+      "notes": "Checked positive/negative mass argument, joint convexity, and distinction between two off-simplex extensions."
+    },
+    {
+      "id": "3.26",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "ea47c77fda68fd4917e1aa3672e5824c0a5288a865a8419155adaa886b6aa3d4",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked use of supplied variational identities, supremum/infimum curvature, positive log interchange and eigenvalue multiplicities."
+    },
+    {
+      "id": "3.27",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "545adcd0af92afb583d305e9f5ce9b292c4e23f7927ead2e0e9ec94cdd41c91a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked matrix-fractional variational identity, positive Schur complement, increasing square-root composition and i=1 case."
+    },
+    {
+      "id": "3.28",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "bd52d68df7c015029d48a0c9e81910ea58c764b733ca84e60fab69eb2acdc6eb",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked supporting hyperplane proof on interior/relative interior, existence of affine minorant, vertical-separator perturbation and off-domain infinity conclusion."
+    },
+    {
+      "id": "3.29",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "a6c1e24d8036d8d0e1e2c7a976b54e10195f15b1195e7e8a927d8f6d1837019f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked supporting affine pieces at interior points and coverage argument including boundaries and redundant pieces."
+    },
+    {
+      "id": "3.30",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "68a62570a32410fd6dfb2b25f7b366232ae6647a6c621bbea5e9960e97d8d649",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "convexity",
+        "underestimation",
+        "maximality",
+        "epigraph-qualification"
+      ],
+      "notes": "Checked fiber-infimum convexity and greatest-minorant argument, proper/improper qualification, and explicit positive Gaussian counterexample to literal epigraph equality."
+    }
+  ]
+}

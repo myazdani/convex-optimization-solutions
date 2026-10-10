@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "9.1",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "7afb6549c2e2d36293cec32b87131dd46b653f77782a1a907a644f800abcd082",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Both unboundedness rays checked: negative curvature dominates the linear term, and the nullspace projection of q gives strict linear descent when q is outside the range. Finite complementary case is consistent. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.2",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "5bcb6f456105414921f025cbd550465311a83efc3b30d25a22beadd99bbc4a83",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked least-squares orthogonality, boundary blowup, positive-denominator root, coercivity and c=0/empty-domain cases. Independently checked 20 random stationary solutions and feasible sampled comparisons. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.3",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "6fee34d943a96b62ba7dd0ef68f257400b9b085e3ac1dd53e7996842cf4f3d49",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked disk-cap geometry, excluded boundary, Hessian 2I, Armijo threshold, first feasible backtracking power and geometric approach to (1,1), with limiting value 2 versus infimum 1. Diagram and its generator inspected visually and mathematically. Full official exercise text and referenced section/equations checked.",
+      "code_sha256": "02d66671aeee4c636f6bd2ea8ed0c61b173882883609a546b7802e722a5ee658",
+      "supporting_sha256": {
+        "docs/figures/ex_9_3.svg": "b28e96dc9b825bdfb6a09206f45f356e9d0c16df30f1f5874a07d942274c2b86"
+      }
+    },
+    {
+      "id": "9.4",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "d3921da9ad134228b2126f0bd230bf88e10b21866533f66fbe52f3e7ded6a99f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked the factor-of-two infimum identity, failure of attainment when residuals vanish, and rank-at-most-m Hessian on n+m variables. Counterexample and singular-Newton obstruction are valid. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.5",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "00f655ac601bdc3580d7c50de4fac42200aa3a15dd7f8447164c9b10904a3175",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked the descent lemma, sufficient Armijo threshold, logarithm sign in the ceiling bound and distinction between reductions/function tests. Domain-feasibility qualification prevents an unsupported global claim. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.6",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "da77db71884561d927fc5862202c6b2c4b0b7c507130413bef5401ffd4db93b3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked exact line-search formula against section 9.3.2, preservation of the coordinate-square relation, alternating signs and objective contraction. Direct recurrence checks passed for five gamma values, including gamma=1. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.7",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "0dd8dae8742b075b34f98e264c8a22d709c15f6320539317d11d9796f1df5b3b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked all three identities using symmetry, dual-norm attainment and completion of the scalar norm square. Nonunique exposed faces and the zero-gradient case are handled correctly. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.8",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "e806b21cf615685c43666e542688a8b4ae12f83221d1f2138c527629b52326ec",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked coordinatewise infinity-ball minimization, dual one-norm scaling, zero partial derivatives and the equal-magnitude interpretation. Full official exercise text and referenced section/equations checked."
+    },
+    {
+      "id": "9.9",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "cc994af4d9aeb8b3cb19da6f25817017528afd3e5fb104bb3abaecebe1846fc9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked the Hessian whitening proof, equality direction, zero gradient and positive-definiteness requirement in both supremum formulas. Full official exercise text and referenced section/equations checked."
+    }
+  ]
+}

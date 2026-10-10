@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "fig_6_24",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "65f962a8a5e006ddcbccb83e0b67084814a64f8dd137c03a6748975e69851b1e",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "e600554b29e9a199d2ad82092d8cef6717bf99cef163da2d0d8315e85e15ee0d",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked convex supporting-plane inequalities with correct index orientation and equivalent sorted monotone-slope QP; 51-point input and all2601 support constraints preserved. Saved fitted values agree with independent formulation. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_fitting.py": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/cvxfit.json": "4e80f77ce8abcd2a24fef393ec325500c82670f4feafdaf7df418e261a8ff41b"
+      }
+    },
+    {
+      "id": "example_6_5",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "c6ec19c50974dc55f0ff4712444f10675ad56ef3125f020280cf41101643aadb",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "84b12776ff3ff7b7a894d6e7907345e19adc1be7db993155aa1b854a9b8a509c",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Verified uniform interval variance1/3 expected residual formula, convex endpoint maximum, and Schur-complement S-lemma SDP dimensions/signs. Objective agreement and normal-equation residuals independently tested. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_fitting.py": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/robls.json": "5509492153fe4cb356981fc501c084d071aa8c0049f7210e58757e4e1767f141"
+      }
+    },
+    {
+      "id": "example_6_6",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "baa90216df7701a1868584d1665a017cc617244b40629f13285d22db19950989",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "048ec266e86dc8a43991631c83ffc1bb23be144eae3d8786710e4fe8636403d3",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Verified exact matrices and disk-uncertainty S-lemma; sample radii sqrt(U) are area-uniform, all100000 draws used, both source delta0.1 and book delta1 explicitly run. New Monte Carlo seed correctly makes overall study method reproduction. Histogram inspected. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_fitting.py": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/robls.json": "5509492153fe4cb356981fc501c084d071aa8c0049f7210e58757e4e1767f141"
+      }
+    },
+    {
+      "id": "example_6_4",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "708c14b484680e2203ba8b632ac4ad4af62a4703e46ca6fccdb1e2a46ff26d86",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "8b6b631d11b38e0d787eb18d2236494ee71995a97fd328005e50517985dfd9dd",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Verified enumeration of all431910 supports below cardinality10, numerical interpolation at rank10, and99 l1-budget heuristic/refit runs. Official regsel.py expressly calls data different from book, correctly labeled method. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_fitting.py": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/regsel.json": "a0d73bd61f1ad6371821b21bbf4739a3435835e4960ac9cacdcc487f11f45575"
+      }
+    },
+    {
+      "id": "fig_7_1",
+      "reviewer": "algorithm_examples_review",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Verified100observations against official data, logistic likelihood gradient/Hessian and independent trust-exact solver; corrected input-count sentence read. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "solution_sha256": "1f965141d7a7b3aa81068076a9be64482c8e126cbb500649fb62e0d12b4652f9",
+      "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+      "results_sha256": "f90e91869616dbf9b7da7bd856ce218b26fa8cf1b5de573cdb2fe0d353a7198a",
+      "runtime_source_sha256": {
+        "examples/application_statistics.py": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/logreg.json": "26368ceca422ce61a86254401f31676ef11f57bb4f4c996250714d754f0a6141"
+      }
+    },
+    {
+      "id": "example_7_2",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "1533331a889d834274c4312eeb791dbc9f765e056fbe5d584f821f353abfc528",
+      "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+      "results_sha256": "510af79ceab5191c64aa8b66fde1defae6a4403bfdbc1ae9e531d2df96658969",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked all four printed moment bounds/support size100 against maxent.py, entropy convex dual derivation and200CDF bounding LPs; all primal-dual gaps tested; distribution/CDF image inspected. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_statistics.py": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {}
+    },
+    {
+      "id": "example_6_9",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "6594b112d69e33609dd399d5b2d6f0a69b9b1410da7f0e1f3e9976df660dec23",
+      "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+      "results_sha256": "11c73314d94faa6e63310a356f78648831912fdbb3a8a2e4ed43c83641bdbd5f",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Verified40literal baskets, strict utility order and concave monotone supergradient constraints, unit-gap normalization legitimacy, treatment of unbounded LPs; 14/21/5 class counts reproduced. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_statistics.py": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/consumerpref.json": "7ffdaea121e4a4f89cfb705f840bf6ec0611b27f72779984e4b679ef149906f5"
+      }
+    },
+    {
+      "id": "fig_7_9",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "aa67d6520d12cf9f4b72ed822da941bdd5cb3c9160793b2c3f1ab5063b0dd8be",
+      "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+      "results_sha256": "56407e368b2cc07732711024538a83bc0f68beef36b201d5395028b4b2cee5c6",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Verified20candidate coordinates, D/E/A information objectives, E PSD-dual and D/A inverse-matrix enclosing-ellipse KKT formulas, simplex weights and90%chi-square confidence scaling. All independent SLSQP checks and conic containment pass; figures inspected. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_statistics.py": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/expdesign.json": "76b44ac3be58d3d201aee99d3b74122c779fa54a852b72569c7ccbc6ab966848"
+      }
+    }
+  ]
+}

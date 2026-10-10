@@ -1,0 +1,350 @@
+{
+  "summary": {
+    "D": {
+      "selected_indices_one_based": [
+        1,
+        10
+      ],
+      "selected_weights": [
+        0.49999998254252487,
+        0.5000000091871821
+      ],
+      "objective": -2.3149884279300115
+    },
+    "E": {
+      "selected_indices_one_based": [
+        10,
+        20
+      ],
+      "selected_weights": [
+        0.20000000000621218,
+        0.7999999999761945
+      ],
+      "objective": 1.7999999999927048
+    },
+    "A": {
+      "selected_indices_one_based": [
+        1,
+        10,
+        20
+      ],
+      "selected_weights": [
+        0.29660432074358456,
+        0.37796360072301344,
+        0.3254320777838453
+      ],
+      "objective": 0.8495327564772762
+    }
+  },
+  "candidate_vectors": [
+    [
+      -2.1213,
+      -2.2981,
+      -2.4575,
+      -2.5981,
+      -2.7189,
+      -2.8191,
+      -2.8978,
+      -2.9544,
+      -2.9886,
+      -3.0,
+      1.5,
+      1.4772,
+      1.4095,
+      1.299,
+      1.1491,
+      0.9642,
+      0.75,
+      0.513,
+      0.2605,
+      0.0
+    ],
+    [
+      2.1213,
+      1.9284,
+      1.7207,
+      1.5,
+      1.2679,
+      1.0261,
+      0.7765,
+      0.5209,
+      0.2615,
+      0.0,
+      0.0,
+      -0.2605,
+      -0.513,
+      -0.75,
+      -0.9642,
+      -1.1491,
+      -1.299,
+      -1.4095,
+      -1.4772,
+      -1.5
+    ]
+  ],
+  "designs": {
+    "D": {
+      "weights": [
+        0.49999998254252487,
+        1.3659375174701933e-09,
+        6.903612493939596e-10,
+        4.877876979705252e-10,
+        4.342587196638821e-10,
+        4.451727103807541e-10,
+        5.214681532522893e-10,
+        7.252366868934462e-10,
+        1.4337066250365502e-09,
+        0.5000000091871821,
+        1.2980815338060434e-11,
+        -1.505464108372616e-11,
+        -3.240714562315508e-11,
+        -4.1799321265447334e-11,
+        -3.047063781414393e-11,
+        4.98639630947183e-12,
+        7.414343859183274e-11,
+        1.9940172001042166e-10,
+        4.28154112982957e-10,
+        1.1999239715701144e-09
+      ],
+      "information": [
+        [
+          6.749956894015137,
+          -2.2499567837941874
+        ],
+        [
+          -2.2499567837941874,
+          2.2499567805405922
+        ]
+      ],
+      "covariance": [
+        [
+          0.22222221693988387,
+          0.22222221726123279
+        ],
+        [
+          0.2222222172612328,
+          0.666675199368184
+        ]
+      ],
+      "objective": -2.3149884279300115,
+      "dual_ellipsoid_matrix": [
+        [
+          0.22222221693988387,
+          0.22222221726123279
+        ],
+        [
+          0.2222222172612328,
+          0.666675199368184
+        ]
+      ],
+      "dual_ellipsoid_bound": 2.0,
+      "selected_indices_one_based": [
+        1,
+        10
+      ]
+    },
+    "E": {
+      "weights": [
+        1.1986933232058922e-11,
+        2.0894555186485467e-12,
+        6.062340511702321e-13,
+        1.717103306890925e-13,
+        1.352222168023646e-13,
+        2.387706363038755e-13,
+        5.052282836803092e-13,
+        1.1315887145494297e-12,
+        2.7514474287802773e-12,
+        0.20000000000621218,
+        -1.011602348416546e-12,
+        -1.0665074822787964e-12,
+        -1.0948890727327697e-12,
+        -1.1227227870436581e-12,
+        -1.158546988607796e-12,
+        -1.162010518716236e-12,
+        -9.88212211755247e-13,
+        -1.154367379077591e-13,
+        5.696519329257223e-12,
+        0.7999999999761945
+      ],
+      "information": [
+        [
+          1.800000000155814,
+          -6.889691800972574e-11
+        ],
+        [
+          -6.889691800972574e-11,
+          1.8000000000185283
+        ]
+      ],
+      "covariance": [
+        [
+          0.5555555555074648,
+          2.126448086513969e-11
+        ],
+        [
+          2.126448086513969e-11,
+          0.5555555555498369
+        ]
+      ],
+      "objective": 1.7999999999927048,
+      "dual_ellipsoid_matrix": [
+        [
+          0.20000000000217444,
+          0.35421914324015513
+        ],
+        [
+          0.35421914324015513,
+          0.8000000000022042
+        ]
+      ],
+      "dual_ellipsoid_bound": 1.7999999999927048,
+      "selected_indices_one_based": [
+        10,
+        20
+      ]
+    },
+    "A": {
+      "weights": [
+        0.29660432074358456,
+        1.1173607204486148e-10,
+        5.496484096861398e-11,
+        3.682936816627286e-11,
+        3.248750447947155e-11,
+        3.363278578139619e-11,
+        4.017486508522321e-11,
+        5.683981249888467e-11,
+        1.1120817672764518e-10,
+        0.37796360072301344,
+        4.757818868828355e-12,
+        -9.261692318978507e-13,
+        -3.872711741856887e-12,
+        -4.8749579586133914e-12,
+        -2.0820216577015376e-12,
+        5.746477939184608e-12,
+        2.245060916453311e-11,
+        6.089432724325446e-11,
+        1.8997274282533865e-10,
+        0.3254320777838453
+      ],
+      "information": [
+        [
+          4.736366253476108,
+          -1.334693844907566
+        ],
+        [
+          -1.334693844907566,
+          2.0669160198121026
+        ]
+      ],
+      "covariance": [
+        [
+          0.2580978994327023,
+          0.16666457391322342
+        ],
+        [
+          0.16666457391322342,
+          0.591434857172983
+        ]
+      ],
+      "objective": 0.8495327564772762,
+      "dual_ellipsoid_matrix": [
+        [
+          0.09439160588924962,
+          0.1415870149050127
+        ],
+        [
+          0.1415870149050127,
+          0.37757227047690317
+        ]
+      ],
+      "dual_ellipsoid_bound": 0.8495327566056854,
+      "selected_indices_one_based": [
+        1,
+        10,
+        20
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "D versus SLSQP objective",
+      "measured": 4.878653481199535e-09,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "D dual ellipsoid containment",
+      "measured": 5.7298352729162616e-08,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "E versus SLSQP objective",
+      "measured": 1.1374907682437652e-09,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "E dual ellipsoid containment",
+      "measured": 2.6865176749879538e-11,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "A versus SLSQP objective",
+      "measured": 9.784939525303571e-11,
+      "tolerance": 2e-06,
+      "passed": true
+    },
+    {
+      "name": "A dual ellipsoid containment",
+      "measured": 5.258445231803854e-06,
+      "tolerance": 2e-05,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "design_dual_ellipsoids.png",
+    "confidence_ellipsoids.png"
+  ],
+  "caveats": [
+    "Official candidate coordinates are rounded to four decimal places; optimal weights should be compared at book precision."
+  ],
+  "id": "fig_7_9",
+  "executed_at": "2026-10-10T05:03:37.575858+00:00",
+  "elapsed_seconds": 0.32421477400021104,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=402",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/expdesign.html",
+      "https://cvxopt.org/_downloads/092ec0dafbdb3d6700157d0c0b0d4313/expdesign.py",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch07_statistical_estim/expdesign.m"
+    ],
+    "official_data_files": [],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+  "runtime_source_sha256": {
+    "examples/application_statistics.py": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {
+    "data/worked_examples/expdesign.json": "76b44ac3be58d3d201aee99d3b74122c779fa54a852b72569c7ccbc6ab966848"
+  },
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_statistics.py fig_7_9",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

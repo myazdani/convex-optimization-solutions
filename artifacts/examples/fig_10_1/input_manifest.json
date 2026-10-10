@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "id": "fig_10_1",
+  "generator": "PCG64 via pinned NumPy/SciPy; source implementation has explicit seeds and sampling order",
+  "files": {
+    "instance.npz": {
+      "published_binary": true,
+      "bytes": 41031,
+      "arrays": {
+        "A": {
+          "shape": [
+            50,
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "660deacc23ae4dc7505537c4797c66ce173608a0648fda778b2bb330a28ecb3e"
+        },
+        "b": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "a7d4932a0c0a5bfd9e02eaec7602cd07c11cf207b4fa881201299b1868794222"
+        },
+        "x0": {
+          "shape": [
+            100
+          ],
+          "dtype": "<f8",
+          "sha256": "e1acdda01f00e2efcd83d80c3852fa2d518e30b44742d8e913b5e11dc51116b4"
+        },
+        "seed": {
+          "shape": [
+            1
+          ],
+          "dtype": "<i8",
+          "sha256": "07f88a936600bc8919c6026cf5004d0ffdd3e8caeba883f1cbfe795427029ac3"
+        },
+        "certificate": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "aacdc8fb0084b5daaaadd7270d69382c4130cf40f37db0b13b7fc460e378c93e"
+        }
+      }
+    }
+  },
+  "regeneration_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithm_evidence verify fig_10_1",
+  "note": "Published binaries below256KiB are retained. Larger matrices are regenerated and each array is SHA256-checked. Raw numerical scope is unchanged."
+}

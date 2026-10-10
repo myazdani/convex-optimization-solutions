@@ -1,0 +1,198 @@
+{
+  "summary": {
+    "matrix_shape": [
+      10,
+      20
+    ],
+    "subsets_enumerated": 431910,
+    "reproduction": "official companion data; explicitly different from book"
+  },
+  "optimal_residuals": [
+    5.736297973670492,
+    4.444239373128946,
+    2.977305698634886,
+    1.8999224915819097,
+    1.6092194488482443,
+    0.9159212867468497,
+    0.37095892456489094,
+    0.09896621915361739,
+    0.011451897526295832,
+    1.7972961456686825e-05,
+    0.0
+  ],
+  "optimal_subsets_zero_based": [
+    [],
+    [
+      1
+    ],
+    [
+      1,
+      18
+    ],
+    [
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      1,
+      3,
+      6
+    ],
+    [
+      1,
+      2,
+      3,
+      4,
+      12
+    ],
+    [
+      5,
+      8,
+      10,
+      11,
+      13,
+      15
+    ],
+    [
+      5,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    [
+      4,
+      5,
+      8,
+      10,
+      11,
+      12,
+      13,
+      15
+    ],
+    [
+      0,
+      4,
+      5,
+      6,
+      7,
+      10,
+      14,
+      16,
+      17
+    ],
+    [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  "subsets_per_cardinality": [
+    1,
+    20,
+    190,
+    1140,
+    4845,
+    15504,
+    38760,
+    77520,
+    125970,
+    167960,
+    1
+  ],
+  "heuristic_residuals": {
+    "0": 5.736297973670492,
+    "1": 4.444239373128946,
+    "2": 2.977305698634886,
+    "3": 2.5302683612060504,
+    "4": 1.7099376833371125,
+    "5": 1.5644534875352,
+    "6": 1.2842049044431738,
+    "7": 0.8379262042836226,
+    "8": 0.7513385780499732,
+    "9": 0.2793792693715272,
+    "10": 2.7605288630897186e-15
+  },
+  "checks": [
+    {
+      "name": "heuristic never beats exhaustive optimum",
+      "measured": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "enumerated all supports below rank",
+      "measured": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "rank-ten support achieves zero residual",
+      "measured": 1.3668035872266427e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "sparse_selection.png"
+  ],
+  "caveats": [
+    "Official regsel.py explicitly states its problem data differ from the book. This is a complete method reproduction on the published companion instance."
+  ],
+  "id": "example_6_4",
+  "executed_at": "2026-10-10T05:03:31.933295+00:00",
+  "elapsed_seconds": 10.827599288000783,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=324",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/regsel.html",
+      "https://cvxopt.org/_downloads/3a5455dbfc777addda64cfe2dc058632/regsel.py",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/regressor_cvx.m"
+    ],
+    "official_data_files": [
+      {
+        "url": "https://cvxopt.org/_downloads/9563108e5c0de500dfc9b13feb67f082/regsel.bin",
+        "bytes": 4772,
+        "sha256": "3f4785f872f24a263cb92f5fe361c9bb127e8ac8d180312b5ff33e17cc31c036",
+        "download_verified": true,
+        "format": "legacy Python pickle; read only after reviewing source and using a controlled conversion"
+      }
+    ],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+  "runtime_source_sha256": {
+    "examples/application_fitting.py": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {
+    "data/worked_examples/regsel.json": "a0d73bd61f1ad6371821b21bbf4739a3435835e4960ac9cacdcc487f11f45575"
+  },
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_fitting.py example_6_4",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

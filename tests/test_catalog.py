@@ -44,8 +44,10 @@ def test_validation_rejects_misleading_catalog(mutation):
     elif mutation == "missing":
         catalog["entries"].pop()
     elif mutation == "unsubstantiated_solution":
-        pending = next(e for e in catalog["entries"] if e["category"] == "other_exercises" and e["status"] == "pending")
-        pending["status"] = "verified"
+        # Keep exercising missing evidence after every exercise is completed.
+        solution = next(e for e in catalog["entries"] if e["category"] == "other_exercises")
+        solution["status"] = "verified"
+        solution.pop("solution_sha256", None)
     elif mutation == "unverified_computational":
         next(e for e in catalog["entries"] if e["category"] == "computational_exercises")["status"] = "implemented"
     else:

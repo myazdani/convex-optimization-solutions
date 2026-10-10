@@ -656,6 +656,999 @@
       "verification_path": "coverage/reviews/ch02_batch004.json"
     },
     {
+      "id": "3.1",
+      "title": "Secant slopes and derivatives of a convex function",
+      "solution_path": "docs/solutions/3.1.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "picture"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1f6814b4827f2e0db29939010468b193488e15ef0c0dbe2b68856fe27b74043d",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.2",
+      "title": "What the two contour diagrams permit",
+      "solution_path": "docs/solutions/3.2.md",
+      "source_checked": true,
+      "subparts": [
+        "first-diagram",
+        "second-diagram"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "67c26c021d99f34ff429a7b9f84264c5e119636e91d826cce767ca8335cdde68",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.3",
+      "title": "Inverse of an increasing convex function",
+      "solution_path": "docs/solutions/3.3.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a9892d70c515b8e097f0116e644c044c62d53b2bdf506d7351db925d709f0492",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.4",
+      "title": "An integral characterization of convexity",
+      "solution_path": "docs/solutions/3.4.md",
+      "source_checked": true,
+      "subparts": [
+        "forward",
+        "converse"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "098bf65f8023abc510684ab5e8d1209d0427c996da3c89a7e3a729234bb71fd5",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.5",
+      "title": "Convexity of a running average",
+      "solution_path": "docs/solutions/3.5.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7ab92359507f3f98acd8e0c3c9986a76ad0b6275012b3d11f6cfa08e88a0ba13",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.6",
+      "title": "Halfspace, conic, and polyhedral epigraphs",
+      "solution_path": "docs/solutions/3.6.md",
+      "source_checked": true,
+      "subparts": [
+        "halfspace",
+        "convex-cone",
+        "polyhedron"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c554c555cbe626929705752279bf0547a54af3202402c6fba2968e84bb4694cf",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.7",
+      "title": "A globally upper-bounded convex function is constant",
+      "solution_path": "docs/solutions/3.7.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cf6cd2bf76ba0bd4235cb6dd96896021ae3d2f18f8f0685888796ef3d2e89ec7",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.8",
+      "title": "The Hessian characterization of convexity",
+      "solution_path": "docs/solutions/3.8.md",
+      "source_checked": true,
+      "subparts": [
+        "necessity",
+        "sufficiency"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f34cd33f7e10940d103c9e544d06db4fbfc380ae253ec33669f9075e03ae13d4",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.9",
+      "title": "Convexity after restriction to an affine set",
+      "solution_path": "docs/solutions/3.9.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e0b33226817b0c77928b2748279360a1b2fb1b58b9e19564de65a6319014adcf",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.10",
+      "title": "Variance alone versus scaled zero-mean noise",
+      "solution_path": "docs/solutions/3.10.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c8ffd7e7231b5b29206fe33511fc59d1629e93e1a4f0b5d6d7e359417e700f06",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
+    },
+    {
+      "id": "3.11",
+      "title": "Monotone gradients and a non-gradient monotone map",
+      "solution_path": "docs/solutions/3.11.md",
+      "source_checked": true,
+      "subparts": [
+        "gradient-monotonicity",
+        "converse"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4fe857b46e0e1ad0dd01654df89c34be616eaea15e1c0af63f09005840a529e2",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.12",
+      "title": "An affine function between convex and concave functions",
+      "solution_path": "docs/solutions/3.12.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1fd283095165c9658ee534e06ab3143b1aee9c45085b2a94b063064956da76b4",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.13",
+      "title": "Nonnegativity and equality of KL divergence",
+      "solution_path": "docs/solutions/3.13.md",
+      "source_checked": true,
+      "subparts": [
+        "nonnegativity",
+        "equality"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d79e5704944e7945829e3d7e9dcf5f15ab253e3d19632573ecf988140b19af8b",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.14",
+      "title": "Convex-concave functions and saddle points",
+      "solution_path": "docs/solutions/3.14.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8d0b9d4ba40f6522a8de590cb7d53303d73c16c03d94d7014ddbfd8403fde699",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.15",
+      "title": "Power and logarithmic utility functions",
+      "solution_path": "docs/solutions/3.15.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "573172ae245a6ffd70979235b59c095b1430900d5e1055c0f2e0e5d11442a30c",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.16",
+      "title": "Convexity and quasiconvexity classifications",
+      "solution_path": "docs/solutions/3.16.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "62cd461469ef6edcf1e44d4df6d06fcbd5f5ce64b0b2f5d76f1e9b811523b57f",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.17",
+      "title": "Concavity of power means below order one",
+      "solution_path": "docs/solutions/3.17.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1ede657b1c68b14c74241040b8930369bd2074c6a5333468a0de38beaafc113e",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.18",
+      "title": "Trace inverse and determinant-root curvature",
+      "solution_path": "docs/solutions/3.18.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "70f4011300e3b1f480440edce4f3cf1742645be9b54ffbebb1e171e2a1d976f8",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.19",
+      "title": "Ordered weighted sums and an integrated log barrier",
+      "solution_path": "docs/solutions/3.19.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7cc6e6b02eea8cc578273f8dc3354750808a4acc1d2d69a67670e8f925dff3db",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.20",
+      "title": "Affine composition examples",
+      "solution_path": "docs/solutions/3.20.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "557c0d720be5911243788aaaf51c4a7e35b885b7cfc861c80891edf843d2fb58",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
+    },
+    {
+      "id": "3.21",
+      "title": "Convexity of maxima and ordered absolute sums",
+      "solution_path": "docs/solutions/3.21.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0f37429def32457c015367bcd846f23b31ddd82cd44ed64feea07150ee5cabac",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.22",
+      "title": "Convexity by composition rules",
+      "solution_path": "docs/solutions/3.22.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6294de1d80c2c730b93f608975fa62b12bf43693751a81a0b99e98b887f42997",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.23",
+      "title": "Two perspective constructions",
+      "solution_path": "docs/solutions/3.23.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5882c9517e324240529de4c3a0f9a757b82ce5948ca78e8e7676f79dcd6feb5c",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.24",
+      "title": "Function classifications on the probability simplex",
+      "solution_path": "docs/solutions/3.24.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "276c4ea14e26b171aaafb50ad1d60a7388bc2edaf32b0dc383c1df819fb0e445",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.25",
+      "title": "Maximum event-probability distance",
+      "solution_path": "docs/solutions/3.25.md",
+      "source_checked": true,
+      "subparts": [
+        "formula",
+        "convexity",
+        "extension"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3ecedef660292a6664f23707af0d65d88013d8868e31b025125f8a56aa3e7af1",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.26",
+      "title": "Further convexity properties of eigenvalue functions",
+      "solution_path": "docs/solutions/3.26.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ea47c77fda68fd4917e1aa3672e5824c0a5288a865a8419155adaa886b6aa3d4",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.27",
+      "title": "Concavity of Cholesky diagonal entries",
+      "solution_path": "docs/solutions/3.27.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "545adcd0af92afb583d305e9f5ce9b292c4e23f7927ead2e0e9ec94cdd41c91a",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.28",
+      "title": "Affine minorants of a convex function",
+      "solution_path": "docs/solutions/3.28.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bd52d68df7c015029d48a0c9e81910ea58c764b733ca84e60fab69eb2acdc6eb",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.29",
+      "title": "A convex piecewise-affine function is a maximum",
+      "solution_path": "docs/solutions/3.29.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a6c1e24d8036d8d0e1e2c7a976b54e10195f15b1195e7e8a927d8f6d1837019f",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.30",
+      "title": "The convex envelope as the greatest convex minorant",
+      "solution_path": "docs/solutions/3.30.md",
+      "source_checked": true,
+      "subparts": [
+        "convexity",
+        "underestimation",
+        "maximality",
+        "epigraph-qualification"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "68a62570a32410fd6dfb2b25f7b366232ae6647a6c621bbea5e9960e97d8d649",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
+    },
+    {
+      "id": "3.31",
+      "title": "The largest positively homogeneous minorant",
+      "solution_path": "docs/solutions/3.31.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "zero-scale-qualification"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "277ecacb41ed9e635a5d5db6053f2a336153641cd3b2c9b304cc0714aa945162",
+      "notes": "All parts proved with explicit correction: homogeneity at scale zero and properness do not follow from the source hypotheses alone.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.32",
+      "title": "Products and ratios on an interval",
+      "solution_path": "docs/solutions/3.32.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "562cbe0ff61a1003d432b4f71eebffba3f8551eafce7ee38c124e47267580f2c",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.33",
+      "title": "Direct proof of perspective convexity",
+      "solution_path": "docs/solutions/3.33.md",
+      "source_checked": true,
+      "subparts": [
+        "domain",
+        "inequality"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c6595e19be449ee3eb7902fe571b5063c1cb2d28f5b172edfcf1dffe3f887c44",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.34",
+      "title": "The Minkowski functional and norms",
+      "solution_path": "docs/solutions/3.34.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "picture"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "84b162ea9932c73f76b91bbe1caf72f67f7ce27db1e9b4741f17dfacf6594dc1",
+      "notes": "All parts and picture complete; explicitly corrects zero-scale homogeneity/domain when the source does not assume 0 in C.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.35",
+      "title": "Support-function identities and set inclusion",
+      "solution_path": "docs/solutions/3.35.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b3f2dd8a5bbd03d0e79624e46fb9fcb50b13d9f06f732cd811a884a9ecc25b52",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.36",
+      "title": "Six conjugate calculations",
+      "solution_path": "docs/solutions/3.36.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d-positive",
+        "d-negative",
+        "e",
+        "f"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e0b597f34169998850a184ae9db6821b25c9add9245470e76b25e7a67ac64e3e",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.37",
+      "title": "Conjugate of the trace inverse",
+      "solution_path": "docs/solutions/3.37.md",
+      "source_checked": true,
+      "subparts": [
+        "formula",
+        "singular-boundary",
+        "outside-domain"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0c0cc0a46326b8619f992729f03fc96e7797923a90498282134113a6d333f3d9",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.38",
+      "title": "Inverse-function integrals and Young inequality",
+      "solution_path": "docs/solutions/3.38.md",
+      "source_checked": true,
+      "subparts": [
+        "conjugacy",
+        "inequality",
+        "picture"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5e1cc115958b43b85147f67039f6c3782793c1b7e8937a374e9ac3cafda9b750",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.39",
+      "title": "Conjugate transformation rules",
+      "solution_path": "docs/solutions/3.39.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "c-affine-image",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d631f35ad090f807d778197417e01cfc0be40ed72aada45d318ffc405dcea05a",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.40",
+      "title": "Derivatives of the conjugate via an inverse gradient",
+      "solution_path": "docs/solutions/3.40.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4fd3d6dfe8e062842186cc462f0bcc9f76d821f840cfdb2f9f667f84bb50c2e6",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
+    },
+    {
+      "id": "3.41",
+      "title": "Conjugate of negative normalized entropy",
+      "solution_path": "docs/solutions/3.41.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8d039852c852d2b4ca5b5c07623977661cc9f9130aea54fa0a38303fb4db2563",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.42",
+      "title": "Quasiconcavity of approximation width",
+      "solution_path": "docs/solutions/3.42.md",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "empty-initial-interval"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a62e04cfcb941096e82ed61c54e9e740b80e66d6be156988cb037687cd08d72d",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.43",
+      "title": "The first-order test for quasiconvexity",
+      "solution_path": "docs/solutions/3.43.md",
+      "source_checked": true,
+      "subparts": [
+        "necessity",
+        "sufficiency"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c69f6530db857750f0652e7a05d83822e0f7d6b2141079afad364ca2d00db60e",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.44",
+      "title": "Rank-one updates and bordered-Hessian inertia",
+      "solution_path": "docs/solutions/3.44.md",
+      "source_checked": true,
+      "subparts": [
+        "a-weak",
+        "a-strict",
+        "b-weak",
+        "b-strict"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6de3ebb39df28f2bc2b1aecfc5a626912fe1225ec67c73ff262b3d84c34d067f",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.45",
+      "title": "First- and second-order tests for the negative product",
+      "solution_path": "docs/solutions/3.45.md",
+      "source_checked": true,
+      "subparts": [
+        "first-order",
+        "second-order"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bdd1de019938b2132ba43474b4b61a1ea3418d4883d0d49c955e29b1642b8e23",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.46",
+      "title": "Full-domain continuous quasilinear functions",
+      "solution_path": "docs/solutions/3.46.md",
+      "source_checked": true,
+      "subparts": [
+        "representation",
+        "converse"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "40739f533ca836908ce74dcd4a2781b0e1d347493540cd44be1155472bb6a2b3",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.47",
+      "title": "A first-order criterion for log-concavity",
+      "solution_path": "docs/solutions/3.47.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "498600496b2c1caf74c5783a63b06103bdee13ff25ead4a583a725935b114950",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.48",
+      "title": "Subtracting a nonnegative constant preserves log-concavity",
+      "solution_path": "docs/solutions/3.48.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "20b364d0a5fc56d4d0c17f8092fd76f1f620e31be2fd9aef79f388638c4cc7fe",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.49",
+      "title": "Four log-concave functions",
+      "solution_path": "docs/solutions/3.49.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cfa6fbd5aab270bc0713ee94103516b326d4e52c1e1e8418807b1e392917c448",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.50",
+      "title": "Log-concavity of polynomial coefficients in negative roots",
+      "solution_path": "docs/solutions/3.50.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "abdf20c91d178d49d0995effb0f36f050743d1879a40747a3f8a9275c6f99f45",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
+    },
+    {
+      "id": "3.51",
+      "title": "Real-rooted polynomials on their positive intervals",
+      "solution_path": "docs/solutions/3.51.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "49694e433f53ec464202846abde93f14feaeca67dea007c6eb5427b3a689c916",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.52",
+      "title": "Log-convexity of moments and the gamma function",
+      "solution_path": "docs/solutions/3.52.md",
+      "source_checked": true,
+      "subparts": [
+        "moments",
+        "gamma"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f8ab438c03ff88b4664735f2e96b696a5b0f531d44ee966dceb943d255dbf665",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.53",
+      "title": "Log-concavity of the density of an independent sum",
+      "solution_path": "docs/solutions/3.53.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b0169e887050d7220d4b5125a7990ef0274ef710279502a9ce56af8eb7e889bc",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.54",
+      "title": "A direct proof for the Gaussian cumulative distribution",
+      "solution_path": "docs/solutions/3.54.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6b11c2be3f5323d8903115d0e7667444f964f1045b021c07e7c2dd69bd811bb7",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.55",
+      "title": "A direct proof for cumulative log-concave densities",
+      "solution_path": "docs/solutions/3.55.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "31d842989a5858c8391a2d51a31aec4852cb8e2503c085fc1b9e18b250b36e92",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.56",
+      "title": "Gamma and Dirichlet log-concavity",
+      "solution_path": "docs/solutions/3.56.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f5055fe52d7df3d2dbec4ba7c4d7cadaae5b84eab5fa709502a0c14f7593e353",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.57",
+      "title": "Matrix convexity of the inverse",
+      "solution_path": "docs/solutions/3.57.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a78f78638c8113ef1d1cc2775cdb4fcb77b140cfeb2ec16b24ebdb6d4bd93ed0",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.58",
+      "title": "Matrix concavity of the Schur complement",
+      "solution_path": "docs/solutions/3.58.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "02c0e72ac1302fab836231aa502c592e753c082f05ed696352a60b4fe30bc8f3",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.59",
+      "title": "Second derivatives and cone-convexity",
+      "solution_path": "docs/solutions/3.59.md",
+      "source_checked": true,
+      "subparts": [
+        "necessity",
+        "sufficiency"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c6d55e79dcbdfc8536334d1f134f15c761bf2863c206922e51343f27d8787436",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
+      "id": "3.60",
+      "title": "Cone sublevels and cone epigraphs",
+      "solution_path": "docs/solutions/3.60.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "726034ebdbdbd58a50a192dd1091919e9c3df47b905dce1e66953ae0f2d8bf19",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked.",
+      "status": "verified",
+      "author": "solve_convexity_exercises",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
+    },
+    {
       "id": "4.1",
       "title": "Planar objective comparisons",
       "solution_path": "docs/solutions/4.1.md",
@@ -1140,6 +2133,1201 @@
       "verification_path": "coverage/reviews/ch04_batch003.json"
     },
     {
+      "id": "4.32",
+      "title": "A first-order matching monomial",
+      "solution_path": "docs/solutions/4.32.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ff46085b43bb9d71bf74e1a059ebdfbf5481eff435c21fef7f5444579f40df55",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.33",
+      "title": "Convex formulations of posynomial combinations",
+      "solution_path": "docs/solutions/4.33.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b81a91d3979e9762ca06ec59031cfc6959a1c955ef1b9deb2dfe5506bd7e5a34",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.34",
+      "title": "Log-convexity of the Perron eigenvalue",
+      "solution_path": "docs/solutions/4.34.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8ddab9fdd47ae3099a7f9f28045f5b8826aec68d63827c12299352e281bebdfa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.35",
+      "title": "A sign-pattern class of signomial programs is geometric",
+      "solution_path": "docs/solutions/4.35.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9f40062507cc9fd7b910b823a25a07a1b027ea5d8ce54f6875eec29550287258",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.36",
+      "title": "Reducing every GP posynomial to two terms",
+      "solution_path": "docs/solutions/4.36.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "20c3bd6bd29ac5b08452c7e41875f8df72870620449779fa24ac97f039012773",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.37",
+      "title": "Lifting generalized posynomials into a GP",
+      "solution_path": "docs/solutions/4.37.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3728322258d104a88b8b22cf3939ea90026d064fe35b6d005e09e7febc27bebf",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.38",
+      "title": "One-variable LMIs by simultaneous congruence",
+      "solution_path": "docs/solutions/4.38.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bdb8f9be35dc4a4011f182117fc3ccb2f96979450db62b20903883306e405e2b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.39",
+      "title": "Congruence reductions of semidefinite programs",
+      "solution_path": "docs/solutions/4.39.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "df79d768a5c964ec24ca3d5946515232864b1e217e87245a58ec09f6a1765038",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.40",
+      "title": "Linear and conic programs as semidefinite programs",
+      "solution_path": "docs/solutions/4.40.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b:QP",
+        "b:QCQP",
+        "b:SOCP",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c7f2aca8238c1e4e8e0dfa0485ef9e3231548d219eebb7886aaa8a4853de6a3",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.41",
+      "title": "Semidefinite sufficient tests for copositivity and P0",
+      "solution_path": "docs/solutions/4.41.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "95ff998a8ebc8bf647d97a6fb04eee42bc18a166857c3df7aff6c78a7d625c4f",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
+    },
+    {
+      "id": "4.42",
+      "title": "Realifying complex Hermitian LMIs",
+      "solution_path": "docs/solutions/4.42.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0262c65fb2e23615909b7ffd7e773873f73688c18d6857f8ae956f0029bd67e9",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.43",
+      "title": "Semidefinite eigenvalue optimization",
+      "solution_path": "docs/solutions/4.43.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4c96cb1083f21084a6f80b95a960fc8f924bfe66b0701d32a447c52e513996aa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.44",
+      "title": "Maximizing a polynomial lower bound by SDP",
+      "solution_path": "docs/solutions/4.44.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6e0ff074a7bd26d96e3ba168a3c71d407d9c1295ec3bc508623765b08a4a18e2",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.45",
+      "title": "Sum-of-squares Gram matrices and a bivariate quartic",
+      "solution_path": "docs/solutions/4.45.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d0b016b559b2596afc02bd86a22c5ffd78e10626296c054e8ff00228909e627b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.46",
+      "title": "The multivariate moment matrix",
+      "solution_path": "docs/solutions/4.46.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "95e43a8d825cb69d9db3ee82e90f1bbc851c620dd2d8a86964268b1df59df7a3",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.47",
+      "title": "Positive semidefinite and maximum-determinant completion",
+      "solution_path": "docs/solutions/4.47.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3a68bfa9e594f0f8414db6e3c1f3cfa87cbc2a595648860b11c9c3978f9c2aa3",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.48",
+      "title": "Generalized eigenvalues and perspective search",
+      "solution_path": "docs/solutions/4.48.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b7f74e5a75916e7f957f54d0d5c286ab22ab5de80ecfa4afef0c671e6327c704",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.49",
+      "title": "Cone-valued denominators and fractional quasiconvexity",
+      "solution_path": "docs/solutions/4.49.md",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "linear-fractional representation",
+        "generalized-eigenvalue representation"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7ec31d322cebd6af802d77f593d2a92e38e3306db9f617689825481db75d2daa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.50",
+      "title": "Reading a least-squares trade-off figure",
+      "solution_path": "docs/solutions/4.50.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cdc6eef1a20bcb45f3baab86b3b0724ca19d96130055d16cd8cb38a99e4678b7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.51",
+      "title": "Order transformations: a counterexample and corrected theorem",
+      "solution_path": "docs/solutions/4.51.md",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "componentwise special case"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3411dd1d6a8d5a172e361b428760f988f6b877c6c196369a8749a5a0bfd59a88",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
+    },
+    {
+      "id": "4.52",
+      "title": "Pareto values lie on the achievable boundary",
+      "solution_path": "docs/solutions/4.52.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ef33f62b105976523590ad70ad159d83c1a38c2bd3a08de089c24e7dae3e2dc5",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.53",
+      "title": "The convex upper image and its minimal elements",
+      "solution_path": "docs/solutions/4.53.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b673981b87479e9baaa1b1fd8677dc5e96c15704a6e893b32f8f6bdf0d29a80e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.54",
+      "title": "Optimal points and every positive scalarization",
+      "solution_path": "docs/solutions/4.54.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "54fdb9d2b8c97c7d71ccc4e86fa7e04cc23feb96772df856b4b3fd2ace4c562f",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.55",
+      "title": "Increasing scalar objectives and Pareto optimality",
+      "solution_path": "docs/solutions/4.55.md",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "unique maximum scalarization"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "56a450df3677b046b96d15be631cdbfac98024a16f26c7a7a5ed9a0081e5f47f",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.56",
+      "title": "Convex hulls of unions through perspectives",
+      "solution_path": "docs/solutions/4.56.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b47fa29d47ff4896b0af9d0c07622ed3375f023771e4505c10ecb533ed1d1406",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.57",
+      "title": "Channel capacity as entropy maximization",
+      "solution_path": "docs/solutions/4.57.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "faffb32b58683cf9b2936964119596c6336304f8eb1d4c9fd9f90ee9110a139b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.58",
+      "title": "Consumption planning with concave returns",
+      "solution_path": "docs/solutions/4.58.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "db45482c093329fd4c693d4ed5126d544701900eff3ce6f3392ff3a481b91cdd",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.59",
+      "title": "Convexity under stochastic and worst-case uncertainty",
+      "solution_path": "docs/solutions/4.59.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "090ba1916e3c485bcf699cdf3009f18e0fb40023fce60ca3b5ca239999980e5d",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.60",
+      "title": "Convexity of log-optimal portfolio allocation",
+      "solution_path": "docs/solutions/4.60.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a07893470528438c1a8c884e90dd20cbcb1afd6b860058813ce4e010b5a27688",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.61",
+      "title": "Convex optimization of logistic purchase probabilities",
+      "solution_path": "docs/solutions/4.61.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "49d04ba7dcbdc391c6a3b8a093ec780f37ed4f9a82a4c15ee63ec24873cd8f40",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.62",
+      "title": "Joint power and bandwidth allocation",
+      "solution_path": "docs/solutions/4.62.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "88cbe28bc439db0fbec3a409c90338492d15ae083b91ebe90a38b3a85a4bd9bf",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.63",
+      "title": "Manufacturing cost versus log-concave yield",
+      "solution_path": "docs/solutions/4.63.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7f2b9e3aaee11a02e36f031e3f0fe84eea72bdfaf417951c65373be11dabbf4b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.64",
+      "title": "A convex formulation for two-stage recourse",
+      "solution_path": "docs/solutions/4.64.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "671cb90504708314a1ef2f51f30a5083be303c1ec59b07b5eacf0b4d2f3605b9",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "4.65",
+      "title": "Convex hybrid-vehicle fuel optimization",
+      "solution_path": "docs/solutions/4.65.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3c6775c6548529c699706b0fbd2a2142e3057211b4d5b70d4bfaad59a1ed0bf1",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
+    },
+    {
+      "id": "5.1",
+      "title": "A scalar primal-dual and sensitivity example",
+      "solution_path": "docs/solutions/5.1.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8887e9cd4c916e6c0d32702ed63144db1d18f601b7166ad668a2a5fb94f1798e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.2",
+      "title": "Weak duality at extended optimal values",
+      "solution_path": "docs/solutions/5.2.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5df9550a01f813e1910f80748ebd909c4b1d095ead7f74051fb92ab33396e679",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.3",
+      "title": "One inequality and the conjugate perspective",
+      "solution_path": "docs/solutions/5.3.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "11fb881c866a59bdd75f9d63989ef35bb9c1dfcefe02f06fd9163b7c3b6b6282",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.4",
+      "title": "Aggregated-halfspace bounds and the LP dual",
+      "solution_path": "docs/solutions/5.4.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e35e9a0a08c87edf965d42bd1132e6ba492d4b5406cf4c8c8e24cd3f72e411a7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.5",
+      "title": "The dual of a general linear program",
+      "solution_path": "docs/solutions/5.5.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8c81341f4cd795d290ff6c5d8e0a7c683416a749ce86648b759a4f0c70a59eff",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.6",
+      "title": "Least-squares certificates for Chebyshev approximation",
+      "solution_path": "docs/solutions/5.6.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c07d827e7eb6980b6d00b0f5124a7e45f25b7b257246dcaa3e2bac1b5c5f109",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.7",
+      "title": "Piecewise-linear duals and log-sum-exp approximation",
+      "solution_path": "docs/solutions/5.7.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bd89cf10f86e39a994277d79cebd98acc3bcc28fc2cb625d9d694949d1e8f057",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.8",
+      "title": "Eliminating box-constraint dual multipliers",
+      "solution_path": "docs/solutions/5.8.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1eaa23a9e4797a11a4184476392d57ac3b061b6940fed445c5d019fa93675c2e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.9",
+      "title": "A volume bound for a simple enclosing ellipsoid",
+      "solution_path": "docs/solutions/5.9.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "eb12a0de2c132948ac91f5acbe522dc64dbfeb7a3f5c157e1795995879602692",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.10",
+      "title": "Duals for D- and A-optimal experiment design",
+      "solution_path": "docs/solutions/5.10.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "909ee3852119774eb4d024791c7858340ecd85e4ccfb2c77baec409cdf7ce5fa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
+    },
+    {
+      "id": "5.11",
+      "title": "A dual for regularized sum-of-norms fitting",
+      "solution_path": "docs/solutions/5.11.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "527e0b80afe38cc187165565ebc8d1c8ea74bf32727d496831675423ab28346e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.12",
+      "title": "The analytic-center dual",
+      "solution_path": "docs/solutions/5.12.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "822da4837ed96be8e22f6ef491588dd5cf7cc459faec579f79dd290867294da8",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.13",
+      "title": "Boolean Lagrangian relaxation equals the box LP bound",
+      "solution_path": "docs/solutions/5.13.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c099f40ef42206b86837718327bf3d151b59a53375890b9e5156682b02d2542e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.14",
+      "title": "A dual certificate from an equality penalty",
+      "solution_path": "docs/solutions/5.14.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "33e31ae745c89097388b0a96f00c9b141d0776937d6e9495cf9f64af1fe58692",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.15",
+      "title": "Dual certificates from increasing convex penalties",
+      "solution_path": "docs/solutions/5.15.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e9dea12c78373e6b3165b7318831827a24ece20c4de6363e725c56e10865f441",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.16",
+      "title": "An exact maximum-violation penalty",
+      "solution_path": "docs/solutions/5.16.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bdcbbaa7a7cdc166694a81762f263ed288b9216734c583faac15c152cce10270",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.17",
+      "title": "Exact LP robustification of polyhedral row uncertainty",
+      "solution_path": "docs/solutions/5.17.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5c53a7064f248b19d0146c228f62e4776a8649463eb892ece5584e27e0e22ff2",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.18",
+      "title": "Strict polyhedral separation through LP multipliers",
+      "solution_path": "docs/solutions/5.18.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "14247929f2d2f01a9e158ea6c6e9a81346178688396b0f4b987b408345fe28a5",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.19",
+      "title": "A compact LP representation for largest-coordinate sums",
+      "solution_path": "docs/solutions/5.19.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0e70e6a3727b7cdee5e1d2cafd40d7649c3d07eeecf5dfee047503fefea503ad",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.20",
+      "title": "A simplified dual for channel capacity",
+      "solution_path": "docs/solutions/5.20.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ccc6f9ae3fab1185c3fcce7727d25c13a4ed448fabfb48faf851d01fcbcbfa0b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
+    },
+    {
+      "id": "5.21",
+      "title": "A convex problem with a positive duality gap",
+      "solution_path": "docs/solutions/5.21.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "59edf93d9159f61c969596fb5ff4680e7815057c053f23303269e134a13513b9",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.22",
+      "title": "Six geometries of Lagrange duality",
+      "solution_path": "docs/solutions/5.22.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "069ed535272e20f375e8ac481374d10bbdbb416745fee3a2eb3a56937a449635",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.23",
+      "title": "Strong LP duality from active normals and alternatives",
+      "solution_path": "docs/solutions/5.23.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "43e501aa7f6238751b4c3af559ac44d0da122cd7a8b314bacd80f8ae4327b156",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.24",
+      "title": "The weak max-min inequality",
+      "solution_path": "docs/solutions/5.24.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8af905c0b62c7583b1a6163c0fe161c7f8f9ac0555423f726d2d605a08c6b4a5",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.25",
+      "title": "Convex-concave minimax through conjugacy",
+      "solution_path": "docs/solutions/5.25.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "40ce4d03bc9c58e783aee8003b89e9fde471d47932b956b483babd29f7b47a33",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.26",
+      "title": "Tangent disks: zero gap without KKT multipliers",
+      "solution_path": "docs/solutions/5.26.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5a9afb82c6ab56bbcc0280846e334e96632f7a5ecb22afe52cd229b48144f3da",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.27",
+      "title": "Equality-constrained least squares in closed form",
+      "solution_path": "docs/solutions/5.27.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "dcf20f485a9a77a2c27d47b7feff79879cbea9fb17d9c8ce7dbfa265d88059c4",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.28",
+      "title": "An exact LP optimum and uniqueness certificate",
+      "solution_path": "docs/solutions/5.28.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "acbb8eb72872118a2e746b353de7ba3b918cbc0a3aca8768509a2a2010dd4ebd",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.30",
+      "title": "A log-determinant matrix secant update",
+      "solution_path": "docs/solutions/5.30.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1528f9276668c47ab69bb0e2ae8b46b686274b9d0eab83443a012243471a690c",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.31",
+      "title": "KKT conditions imply the supporting-gradient criterion",
+      "solution_path": "docs/solutions/5.31.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5b8c7e29b23f4e2d58681c9591423ea33728ab0930ffeb0a94a60dfb05f9fee4",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.32",
+      "title": "Convexity of the perturbed optimal value",
+      "solution_path": "docs/solutions/5.32.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2072cec9c07925dbcc18bbc780fb48fec8494a40146e73646174b163076cf4ed",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
+    },
+    {
+      "id": "5.35",
+      "title": "Relative sensitivity of geometric programs",
+      "solution_path": "docs/solutions/5.35.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "09f3e4eb188dca312a6d72a449f51be8d90a6ba450cc29709cec916cb787dcc9",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.36",
+      "title": "Linear equality alternatives from inequality alternatives",
+      "solution_path": "docs/solutions/5.36.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "47433a129779a7da8bae48d444b4cf7d77666bef668cc85e19166d2373219e7f",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.37",
+      "title": "A stationary Markov distribution from Farkas lemma",
+      "solution_path": "docs/solutions/5.37.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1345525d0f1de83ed92ca1f9064b51aae47262d00ad0cb25f1e31dc749b2e269",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.38",
+      "title": "Unique no-arbitrage price in a two-state market",
+      "solution_path": "docs/solutions/5.38.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bb5b28199bc16412fe2969037c3da5316dcf74f1ef9bb611b1ff2d230785676e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.39",
+      "title": "Two equivalent semidefinite partitioning bounds",
+      "solution_path": "docs/solutions/5.39.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "26adcf6ca166243888bc1ce54b742ba08ba79b92d0df7505e402dd07bfdd6b9d",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.40",
+      "title": "A simple SDP dual for E-optimal design",
+      "solution_path": "docs/solutions/5.40.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "79676dc8dc9c5bb545435d80974fb37dde6ca7ec6f39454c8fcd77a6ff10e075",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.41",
+      "title": "Dual of the fastest mixing Markov chain problem",
+      "solution_path": "docs/solutions/5.41.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "96863189d40391fe06e6917e69fd1b77ecb3dc85dd1bbe12b20b778c2433b684",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.42",
+      "title": "Dual of a conic inequality problem",
+      "solution_path": "docs/solutions/5.42.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b4a136d2feb5d5ace36a2f4c8dcbb38d7e130b63f9d8db63f6fd8f2583527f04",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.43",
+      "title": "Two derivations of the SOCP dual",
+      "solution_path": "docs/solutions/5.43.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d4b1134777f38bc17c35873dba817b59598b76d9295d5e20a07d0e26c7007afe",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
+      "id": "5.44",
+      "title": "Strong alternatives for nonstrict linear matrix inequalities",
+      "solution_path": "docs/solutions/5.44.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "31211140de98fbd1ff23db1cfba567c749fff1e1db089b39abaf8c1e3777a942",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review.",
+      "status": "verified",
+      "author": "solve_optimization_duality_exercises",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
+    },
+    {
       "id": "6.1",
       "title": "Quadratic bounds for the logarithmic penalty",
       "solution_path": "docs/solutions/6.1.md",
@@ -1566,6 +3754,1424 @@
       "status": "verified",
       "author": "solve_applications_algorithm_exercises",
       "verification_path": "coverage/reviews/ch07_batch001.json"
+    },
+    {
+      "id": "8.1",
+      "title": "Uniqueness of metric projection",
+      "solution_path": "docs/solutions/8.1.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1da610419bae013b94872be31ae8b189a1a667066d9b37f296ee7bb36df9057b",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.2",
+      "title": "Chebyshev sets are closed and convex",
+      "solution_path": "docs/solutions/8.2.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "127e1c1474e30ae82e8dbefd77cd47da9112593aecae6ea90646cd1a86ac28d2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.3",
+      "title": "Projections on three proper cones",
+      "solution_path": "docs/solutions/8.3.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "25b89cdd053524081979a7e0b11a883cabbba126eca3c25a1a0fe53ee13ffb53",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.4",
+      "title": "A non-Euclidean projection need not give the Euclidean separator",
+      "solution_path": "docs/solutions/8.4.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cf5b297a45556d553c0bf891541510366b67411e17c0a0590c74d443b7591118",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.5",
+      "title": "Depth and signed distance of a convex set",
+      "solution_path": "docs/solutions/8.5.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "26101578104576929ed0b6f8aa6bb8e2a78a4530a8f35012ee125f00e4af90f7",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.6",
+      "title": "Convexity of distances between translated and scaled sets",
+      "solution_path": "docs/solutions/8.6.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "fba8d4005b3076e1555e79b1440a6e2862abb2c48f4c7262c6f9f488fd104dea",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.7",
+      "title": "Strict separation of two ellipsoids",
+      "solution_path": "docs/solutions/8.7.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "51523064b2e039a5165c172855223fa320d7a65984b944a30a0da48a7cb4f01f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.8",
+      "title": "Polyhedral intersection and containment",
+      "solution_path": "docs/solutions/8.8.md",
+      "source_checked": true,
+      "subparts": [
+        "H:a",
+        "H:b",
+        "V:a",
+        "V:b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f27756f70fd34b7ffa82e6375fef7d5bfffc1a0845ad41776a3c3b52aae0ba06",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.9",
+      "title": "Least-squares fitting of Euclidean distances",
+      "solution_path": "docs/solutions/8.9.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "400cb64a9373dd285ed09cb515e049bd153f95cb152793bc4f15ddcf3f1f2041",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.10",
+      "title": "Minimax fitting of vector angles",
+      "solution_path": "docs/solutions/8.10.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6acdd62446c60fa0a54470d9c002f16dab40a5f488902b9bed87fca736e8313e",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
+    },
+    {
+      "id": "8.11",
+      "title": "The narrowest circular cone through given directions",
+      "solution_path": "docs/solutions/8.11.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6240c4e8b82da76e0a7ec70427f5ad7bfd20966e1a955c8dacb9c7a0ebadf663",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.12",
+      "title": "Uniqueness of extremal ellipsoids",
+      "solution_path": "docs/solutions/8.12.md",
+      "source_checked": true,
+      "subparts": [
+        "inscribed uniqueness",
+        "covering uniqueness"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "65a75e1a4e10df7d575e83302c952655a50627d38e2ba0bcd6e934674fbfd349",
+      "notes": "States necessary convex-body/existence hypotheses and gives counterexamples to an unrestricted reading.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.13",
+      "title": "The covering ellipsoid of a simplex",
+      "solution_path": "docs/solutions/8.13.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1f91eee07f81244e9d43d81948dadb2fbd7b3e18f719c3ff9817838cd45be8ab",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.14",
+      "title": "Dimension factors for an inscribed ellipsoid",
+      "solution_path": "docs/solutions/8.14.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4b5158643f9716021499ec89ff8750f2395c26b84a5e769014627bc77180c0d8",
+      "notes": "Adds necessary boundedness/existence caveat; derives contact-weight identities from KKT and proves both factors.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.15",
+      "title": "An ellipsoid covering several ellipsoids",
+      "solution_path": "docs/solutions/8.15.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "203217895051d5b72c44fa488c66ef051269de4bb3e1f6a0ac151f2eedc63d20",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.16",
+      "title": "Maximum-volume axis-aligned rectangle",
+      "solution_path": "docs/solutions/8.16.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "04c5b7b7b1a199c51053c03833dc34bbba13a74125936b3340ec959973be89ec",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.17",
+      "title": "Invariance properties of the analytic center",
+      "solution_path": "docs/solutions/8.17.md",
+      "source_checked": true,
+      "subparts": [
+        "affine invariance",
+        "positive scaling"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "174f796ba3f897f08ce2e01965795b646f7488f454faae1ffdb35399de5d3ef3",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.18",
+      "title": "Moving an analytic center with redundant inequalities",
+      "solution_path": "docs/solutions/8.18.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bf459a53611c45c6c6acf1f73f78fbeae22c7363a38315ca07a98e8edc95f958",
+      "notes": "Printed assumptions alone are insufficient; explicit halfline counterexample plus complete intended bounded-polyhedron construction.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.19",
+      "title": "A sufficient redundancy certificate at the analytic center",
+      "solution_path": "docs/solutions/8.19.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e147e29687ef6a3532f54763e8fcc8d5fe2ef70231ecc5b7840c72eb6b68a706",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.20",
+      "title": "Analytic-center ellipsoids for an LMI",
+      "solution_path": "docs/solutions/8.20.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c694e3fe55a987a1b2403444c56699d16b0e5b2f54516d6769a015adeaf4ef4",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
+    },
+    {
+      "id": "8.21",
+      "title": "Analytic center as a maximum-likelihood estimate",
+      "solution_path": "docs/solutions/8.21.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2c96626f7d88001427feb5f3f97e073f14ff7f5a48a3a9327c08b5156161f8f2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.22",
+      "title": "Center of gravity minimizes integrated squared distance",
+      "solution_path": "docs/solutions/8.22.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "fb4740c58899b18be839a268d60a695096d6f9164d67ea1fd788d446595eb765",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.23",
+      "title": "Margin maximization and the hard-margin quadratic program",
+      "solution_path": "docs/solutions/8.23.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "55d4ec3b595f80d4df2ff9810fc89d59c844ff85d60c0025b7e0e18a97576eb2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.24",
+      "title": "A classifier robust to perturbing its weights",
+      "solution_path": "docs/solutions/8.24.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "26697f1cb67e1909b9c06023e855b93967fb7e73004247c7e9ec7cd0b15d00ea",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.25",
+      "title": "A separating ellipsoid of minimum eccentricity",
+      "solution_path": "docs/solutions/8.25.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c276cb8cd124b1f49e015cb80478238ca3252af827168044751a3056fa85a6e3",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.26",
+      "title": "Quadratic placement by a graph Laplacian",
+      "solution_path": "docs/solutions/8.26.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "fb412dd0a8e9e6d1286ff90ed40e708f77c27393f21a5cc653691ac6a6b79e99",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.27",
+      "title": "Convex restrictions for minimum separations",
+      "solution_path": "docs/solutions/8.27.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "da68352f386e76e320159c1d03e38b104ff9e3599358bb748b034a5b6c676d7b",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.28",
+      "title": "Inscribed and covering homothetic symmetric polyhedra",
+      "solution_path": "docs/solutions/8.28.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cadd7600565a75cd848bb88583509161f8ba90b9b815ffaaaf5c354f5f5ec279",
+      "notes": "Handles unbounded template and scale-zero recession/lineality distinction explicitly.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.29",
+      "title": "Outer polyhedral approximation using support functions",
+      "solution_path": "docs/solutions/8.29.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c1fa307865b3c03794eb3df062e7d66f65125debca0f24bd6850efddb81d3c47",
+      "notes": "Finite support LP derived; exactness at t=0 qualified for unbounded templates.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "8.30",
+      "title": "Convex trade-off between arc length and tangent jumps",
+      "solution_path": "docs/solutions/8.30.md",
+      "source_checked": true,
+      "subparts": [
+        "arc length",
+        "convexity",
+        "bi-criterion formulation",
+        "extreme trade-offs"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cfc8db738c34b0dfefd75111c1ab88292ff4189a8f8120a9076459725a7030ef",
+      "notes": "Corrects source arc/joint indexing; proves convexity and addresses open-angle endpoint attainment.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
+    },
+    {
+      "id": "9.1",
+      "title": "Unbounded quadratic minimization",
+      "solution_path": "docs/solutions/9.1.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7afb6549c2e2d36293cec32b87131dd46b653f77782a1a907a644f800abcd082",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.2",
+      "title": "A closed quadratic-over-linear minimization",
+      "solution_path": "docs/solutions/9.2.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5bcb6f456105414921f025cbd550465311a83efc3b30d25a22beadd99bbc4a83",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.3",
+      "title": "A nonclosed sublevel set breaks gradient convergence",
+      "solution_path": "docs/solutions/9.3.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6fee34d943a96b62ba7dd0ef68f257400b9b085e3ac1dd53e7996842cf4f3d49",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "code_path": "examples/geometry/ex_9_3_diagram.py",
+      "figure_paths": [
+        "docs/figures/ex_9_3.svg"
+      ],
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.4",
+      "title": "Why the perspective formulation is not a routine Newton problem",
+      "solution_path": "docs/solutions/9.4.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d3921da9ad134228b2126f0bd230bf88e10b21866533f66fbe52f3e7ded6a99f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.5",
+      "title": "An explicit backtracking bound",
+      "solution_path": "docs/solutions/9.5.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "00f655ac601bdc3580d7c50de4fac42200aa3a15dd7f8447164c9b10904a3175",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.6",
+      "title": "Exact iterates for a two-dimensional quadratic",
+      "solution_path": "docs/solutions/9.6.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "da77db71884561d927fc5862202c6b2c4b0b7c507130413bef5401ffd4db93b3",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.7",
+      "title": "Steepest descent and the dual norm",
+      "solution_path": "docs/solutions/9.7.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0dd8dae8742b075b34f98e264c8a22d709c15f6320539317d11d9796f1df5b3b",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.8",
+      "title": "Steepest descent in the infinity norm",
+      "solution_path": "docs/solutions/9.8.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e806b21cf615685c43666e542688a8b4ae12f83221d1f2138c527629b52326ec",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.9",
+      "title": "Variational characterization of the Newton decrement",
+      "solution_path": "docs/solutions/9.9.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cc994af4d9aeb8b3cb19da6f25817017528afd3e5fb104bb3abaecebe1846fc9",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
+    },
+    {
+      "id": "9.11",
+      "title": "Gradient and Newton methods after an increasing composition",
+      "solution_path": "docs/solutions/9.11.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1278fff28390bc116a7fe0c099721dffc77fcd28ef76988c630942a0bccb556c",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.12",
+      "title": "A trust region produces a regularized Newton model",
+      "solution_path": "docs/solutions/9.12.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8ee58214f4b1395c725e3bf24fe2e81c5b1339337d18b63ce4b6c12a6714b2f6",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.13",
+      "title": "Self-concordance of an inverse-slack penalty",
+      "solution_path": "docs/solutions/9.13.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7f9a92f75c1c10e7a100eac328c2e93eb72151c7f040e986d394f59aeed5c6ad",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.14",
+      "title": "The logarithmic-composition rule",
+      "solution_path": "docs/solutions/9.14.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c5d0e7a44633c9df74017379b3d106b668103b66b4e7169bcde571e35d96438",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.15",
+      "title": "Three self-concordant conic barriers",
+      "solution_path": "docs/solutions/9.15.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "68403466fb1c654769a6a8d6b9536202286ad52192cdee93e80469f1903ea3e8",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.16",
+      "title": "Curvature of a one-dimensional self-concordant function",
+      "solution_path": "docs/solutions/9.16.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "fab38e675bae8e0b9a523b996f5a9052f81a2af396f56472180f7012cf2c7696",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.17",
+      "title": "Mixed derivatives, fixed nullspace, and Hessian comparison",
+      "solution_path": "docs/solutions/9.17.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "589acfd9908f2e1c56989bcffde6bd68edb87b178cbbd2bea3e467511cbc6abd",
+      "notes": "Corrects source reciprocal typo in admissible t range; mixed derivative proof includes singular Hessians.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.18",
+      "title": "Quadratic contraction of the Newton decrement",
+      "solution_path": "docs/solutions/9.18.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cb04349d3de665be6323a276d08fdd14dab6322ed45691b2b0e76a1b5105188c",
+      "notes": "Proves exact decrement estimate and explicitly supplies missing full-step domain/closedness qualification.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.19",
+      "title": "Attainment and distance from the optimum",
+      "solution_path": "docs/solutions/9.19.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3d5fb616cfaffd0d65739e5c2effb68037deef0e40c4313e15c5e85440ca6170",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.20",
+      "title": "Legendre duality preserves self-concordance",
+      "solution_path": "docs/solutions/9.20.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bc3c3decca60aed4802b1463c6db40684dd5d5ee026f4a31fbfb0975dbe52093",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
+    },
+    {
+      "id": "9.21",
+      "title": "Optimizing the stated Newton complexity bound",
+      "solution_path": "docs/solutions/9.21.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4363c0052ddc82bfc7929dd503d020448f2a0ccaa6849c7e239a8cb051505e1a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "9.22",
+      "title": "Newton complexity under a scaled third-derivative condition",
+      "solution_path": "docs/solutions/9.22.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "782b9050e54751863e51f043f089fd8391e08703df384da00ca69cb47a0c49ba",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "9.23",
+      "title": "Precomputations for efficient line searches",
+      "solution_path": "docs/solutions/9.23.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d7f36e37c2b01975e290612f7bc9223bf1a3f8c6f1e2bce78fddca167bf7734e",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "9.24",
+      "title": "Block-diagonal Newton systems and separability",
+      "solution_path": "docs/solutions/9.24.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f8cf0515313815de71971db47afa651e58be597f27d7a0528c701371da3722ab",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "9.25",
+      "title": "Hessian structure for one- and two-dimensional smoothing",
+      "solution_path": "docs/solutions/9.25.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b84c790928019600598ab1c642807ba15b30014c89091f7443459e97aa165cbf",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "9.26",
+      "title": "Sparse lifted Newton equations for affine compositions",
+      "solution_path": "docs/solutions/9.26.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9cc874056db5a07b4120e6a9fae42d57d70dcb98a43d2af23ef5720f42e7b95c",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "9.27",
+      "title": "Efficient analytic-center Newton steps with box bounds",
+      "solution_path": "docs/solutions/9.27.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6db03808a0eefe4edda84ac9b19227b34c82d20ccc0a92d7c4a8e291bc71f708",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "9.28",
+      "title": "Sparse-plus-low-rank Newton steps for quadratic barriers",
+      "solution_path": "docs/solutions/9.28.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cc104c675a5ea04da320d2d13018119cc08500eb3259f9492e56c049b1a72d3a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "9.29",
+      "title": "Arrowhead elimination for two-stage optimization",
+      "solution_path": "docs/solutions/9.29.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ebcb554f4b8bf0ce333f7e9ba2d3ac46ffce8a9a2a8e4e6bcaa7e5457cb1b14e",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
+    },
+    {
+      "id": "10.1",
+      "title": "Nonsingularity and inertia of a KKT matrix",
+      "solution_path": "docs/solutions/10.1.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "81f60f4280edeff53b1fe7cbb1c9fcfc40c319fd0885a3cac239a85b0887d062",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.2",
+      "title": "Projected gradient descent and the reduced problem",
+      "solution_path": "docs/solutions/10.2.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "644cb30b064c06608ac2f77905dbefd61b72ee9f4edcb1ef713c21b742bbdcdd",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.3",
+      "title": "Newton steps for the equality-constrained dual",
+      "solution_path": "docs/solutions/10.3.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ca9f350b387eddd18fa22d6f4b97c1c92643970ccb71a272bed5ff08a677b0d6",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.4",
+      "title": "Curvature and smoothness after eliminating equalities",
+      "solution_path": "docs/solutions/10.4.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4f511fe7e6a9aeb7c3dceaf29a295fad341cc3c49914fbdcbae7a30e9cec0f34",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.5",
+      "title": "A quadratic equality penalty leaves Newton directions unchanged",
+      "solution_path": "docs/solutions/10.5.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c61b4a5e1cd907dc467c178207009b74a96d279206b951df58a0ed300eeb4c0",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.6",
+      "title": "The constrained Newton decrement is model improvement",
+      "solution_path": "docs/solutions/10.6.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "508ccfe644fe4de1c0e1b4b8d3d88aa9f0c13d6c7486083aa893445cfc074031",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.7",
+      "title": "Closedness and Lipschitz properties of the KKT residual",
+      "solution_path": "docs/solutions/10.7.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c9704001e88bb95816daa2fc5ea9330d5e727fba8d11ae934a9d6230b25ba1dd",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.8",
+      "title": "Propagation of feasibility in infeasible-start Newton iterations",
+      "solution_path": "docs/solutions/10.8.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "880f29ec025a959a894684cc718402ac86871436349fe81c0b3940281082e53a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.9",
+      "title": "Equality-constrained entropy: existence and Newton assumptions",
+      "solution_path": "docs/solutions/10.9.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e00bb1fb9bce61d9b702665098cb2df84d69724ab13526927ffbdb91318b7300",
+      "notes": "Part(c) full residual-set claim is false as printed: explicit counterexample; proves intended invariant-feasible-slice convergence conditions and full dual conditions.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.10",
+      "title": "A uniformly bounded inverse for a strongly convex-concave game",
+      "solution_path": "docs/solutions/10.10.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a2b789a47e716a2f4adb88d2f82154e45f7a506a183ce91b2c552b81a9d38543",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.11",
+      "title": "Linear-time Newton steps for resource allocation",
+      "solution_path": "docs/solutions/10.11.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "58c9b5bc4fb193f3def3f88b2fde2b314acadeffcb68cf67c2cf5bb07c044d3f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.12",
+      "title": "Structured Newton steps for trace-inverse optimization",
+      "solution_path": "docs/solutions/10.12.md",
+      "source_checked": true,
+      "subparts": [
+        "primal step",
+        "dual derivation",
+        "dual step complexity"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "dde2edba5c91ffd51fc082f3e5681b6d235119891921fd5495b40f4088f2d06a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "10.13",
+      "title": "Eliminating blocks in a convex-concave Newton system",
+      "solution_path": "docs/solutions/10.13.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "278fcd89794f0e7fe5282ccc2d2c215cf54f33760ad1c9d5fc03d703a6e469ed",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
+    },
+    {
+      "id": "11.2",
+      "title": "A centering problem with no minimizer",
+      "solution_path": "docs/solutions/11.2.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0ffa67a133350db525c749ae62b2d8d54809c0ef5f4e11d43e4abc7eb7756270",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.3",
+      "title": "Bounded original sublevels imply bounded centering sublevels",
+      "solution_path": "docs/solutions/11.3.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "97c9fb473dfb3be082191e4e05cd6cde35f6a19325998a6d97ee4416c5c71697",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.4",
+      "title": "Uniform curvature from a Euclidean ball constraint",
+      "solution_path": "docs/solutions/11.4.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1870eadee5a577c36ad1f75ae64a32b840a15e1569b9d4efb811f801aa088416",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.5",
+      "title": "A scalar-barrier formulation of an SOCP",
+      "solution_path": "docs/solutions/11.5.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "51f960028e38cf7991b9c8c22bddd9ef9d36cf10e7bfae7c260e1d47962b718f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.6",
+      "title": "General scalar barriers and their duality gaps",
+      "solution_path": "docs/solutions/11.6.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "42ddb3e3e77040985b9192bb0b9f9248bde92bcc20fb4a39f9b39dfdfae497e9",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.7",
+      "title": "The central-path tangent and objective monotonicity",
+      "solution_path": "docs/solutions/11.7.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d4c1274b39d9ba4dd8d1d63ef85970fe16b722bd54e0e0562522d1efeec0084b",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.8",
+      "title": "First-order prediction versus a new centering Newton step",
+      "solution_path": "docs/solutions/11.8.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0414ecc954b5966588d2910cdafa39c9c4592b5c88e2786cb3a1e68b23e1b9aa",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.9",
+      "title": "A dual certificate near a quadratic central path",
+      "solution_path": "docs/solutions/11.9.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "876e33f188d765f21ce42813128a09581568c6cdcbb21064df76da272e374d3d",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.10",
+      "title": "The objective-bound parametrization of the central path",
+      "solution_path": "docs/solutions/11.10.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a24b49ccb5a32c0e1c50589734fa659bb932cbad7808aaff856a5e2a6ec1a404",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.11",
+      "title": "Method of analytic centers: certificates and a point-limit counterexample",
+      "solution_path": "docs/solutions/11.11.md",
+      "source_checked": true,
+      "subparts": [
+        "objective contraction",
+        "stopping certificate",
+        "optimal-set convergence",
+        "counterexample to unqualified point convergence"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a3e39b8834348bde1aee5c065db84ed397c8ed7a960829a6c1ae088152ed0ed9",
+      "notes": "All requested guarantees resolved: complete contraction and stopping proof; original C2 convex compact-feasible counterexample disproves whole-sequence point convergence despite unique centers for every level.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch002_root.json"
+    },
+    {
+      "id": "11.12",
+      "title": "Barrier approximation of a convex-concave game",
+      "solution_path": "docs/solutions/11.12.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4d93ca65e381771ac97dcebeab6de237a9c174662148480090a61e3b87caa8ca",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.13",
+      "title": "Entropy becomes self-concordant after adding a log barrier",
+      "solution_path": "docs/solutions/11.13.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e6d2c91f47c48e128d879d4eff1a03ea4519064fb2a9dbb60bb1d4e0170458c5",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.14",
+      "title": "Positive curvature of centering problems: the equality qualification",
+      "solution_path": "docs/solutions/11.14.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e174f504a04b39e8eadca44177b078577a74444d6dea92472c9cb2021babe4da",
+      "notes": "Literal ambient Hessian claim with equalities disproved; full proof supplied for intended reduced-Hessian/no-equality version.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.15",
+      "title": "A generalized logarithm is strictly cone-increasing",
+      "solution_path": "docs/solutions/11.15.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "437bd3818957a6bb3de1df5a7b9193e5a82568f35b70c26cee443f6292029ee4",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.16",
+      "title": "Differential identities for logarithmic homogeneity",
+      "solution_path": "docs/solutions/11.16.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "11d8dc19612d0a5c3199cd721e98b9f8eac3d9f5eae7b46c489232a395cc4f83",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.17",
+      "title": "Log homogeneity of the dual logarithm",
+      "solution_path": "docs/solutions/11.17.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "848c5be923e73e2c5b92b568e6a98fc441022ce792e4e4937d7e53c46f8cd264",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.18",
+      "title": "A degree-one logarithm for the second-order cone",
+      "solution_path": "docs/solutions/11.18.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a8a71fef3e4415a5364e187635352092fcbf2da477fdbd893de4dcdaecd19bf4",
+      "notes": "Actual PDF domain typo explicitly checked; literal negative answer and complete intended SOC-domain positive answer both supplied.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.19",
+      "title": "A lifted linear system for barrier Newton steps",
+      "solution_path": "docs/solutions/11.19.md",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9028dfae4c894cfc675bf9c1dbcbca6e0d399371569357ed19f7313ba992ef6a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
+    },
+    {
+      "id": "11.20",
+      "title": "A dual barrier method for network utility maximization",
+      "solution_path": "docs/solutions/11.20.md",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4cf1e62d419920ae76eb67648e2f86bcb57c3faa808c2e0125ddb1b999831591",
+      "notes": "Corrects conjugate-domain endpoint claim using U=-1/x counterexample; gives full dual barrier and sparse complexity comparison.",
+      "status": "verified",
+      "author": "solve_applications_algorithm_exercises",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     }
   ]
 }

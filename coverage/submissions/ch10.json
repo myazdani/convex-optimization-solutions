@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "author": "solve_applications_algorithm_exercises",
+  "entries": [
+    {
+      "id": "10.1",
+      "title": "Nonsingularity and inertia of a KKT matrix",
+      "solution_path": "docs/solutions/10.1.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "81f60f4280edeff53b1fe7cbb1c9fcfc40c319fd0885a3cac239a85b0887d062",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.2",
+      "title": "Projected gradient descent and the reduced problem",
+      "solution_path": "docs/solutions/10.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "644cb30b064c06608ac2f77905dbefd61b72ee9f4edcb1ef713c21b742bbdcdd",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.3",
+      "title": "Newton steps for the equality-constrained dual",
+      "solution_path": "docs/solutions/10.3.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ca9f350b387eddd18fa22d6f4b97c1c92643970ccb71a272bed5ff08a677b0d6",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.4",
+      "title": "Curvature and smoothness after eliminating equalities",
+      "solution_path": "docs/solutions/10.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4f511fe7e6a9aeb7c3dceaf29a295fad341cc3c49914fbdcbae7a30e9cec0f34",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.5",
+      "title": "A quadratic equality penalty leaves Newton directions unchanged",
+      "solution_path": "docs/solutions/10.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c61b4a5e1cd907dc467c178207009b74a96d279206b951df58a0ed300eeb4c0",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.6",
+      "title": "The constrained Newton decrement is model improvement",
+      "solution_path": "docs/solutions/10.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "508ccfe644fe4de1c0e1b4b8d3d88aa9f0c13d6c7486083aa893445cfc074031",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.7",
+      "title": "Closedness and Lipschitz properties of the KKT residual",
+      "solution_path": "docs/solutions/10.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c9704001e88bb95816daa2fc5ea9330d5e727fba8d11ae934a9d6230b25ba1dd",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.8",
+      "title": "Propagation of feasibility in infeasible-start Newton iterations",
+      "solution_path": "docs/solutions/10.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "880f29ec025a959a894684cc718402ac86871436349fe81c0b3940281082e53a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.9",
+      "title": "Equality-constrained entropy: existence and Newton assumptions",
+      "solution_path": "docs/solutions/10.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e00bb1fb9bce61d9b702665098cb2df84d69724ab13526927ffbdb91318b7300",
+      "notes": "Part(c) full residual-set claim is false as printed: explicit counterexample; proves intended invariant-feasible-slice convergence conditions and full dual conditions."
+    },
+    {
+      "id": "10.10",
+      "title": "A uniformly bounded inverse for a strongly convex-concave game",
+      "solution_path": "docs/solutions/10.10.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a2b789a47e716a2f4adb88d2f82154e45f7a506a183ce91b2c552b81a9d38543",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.11",
+      "title": "Linear-time Newton steps for resource allocation",
+      "solution_path": "docs/solutions/10.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "58c9b5bc4fb193f3def3f88b2fde2b314acadeffcb68cf67c2cf5bb07c044d3f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.12",
+      "title": "Structured Newton steps for trace-inverse optimization",
+      "solution_path": "docs/solutions/10.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "source_checked": true,
+      "subparts": [
+        "primal step",
+        "dual derivation",
+        "dual step complexity"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "dde2edba5c91ffd51fc082f3e5681b6d235119891921fd5495b40f4088f2d06a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "10.13",
+      "title": "Eliminating blocks in a convex-concave Newton system",
+      "solution_path": "docs/solutions/10.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "278fcd89794f0e7fe5282ccc2d2c215cf54f33760ad1c9d5fc03d703a6e469ed",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    }
+  ]
+}

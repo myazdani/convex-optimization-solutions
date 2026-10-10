@@ -77,6 +77,13 @@ The [organization verification record](category-verification.json) and
 [147-test regression log](category-tests.log) record this catalog/pilot snapshot,
 including byte-for-byte preservation of 103 existing numerical files.
 
+## Incremental publication evidence
+
+The [`publications/`](publications/) directory records each verified GitHub batch,
+its exact commit, accepted-solution totals, local test log, preserved baseline, and
+GitHub math/image rendering checks. These records distinguish the published
+snapshot from any newer work still awaiting review.
+
 ## Historical computational inventory
 
 `inventory.json`, `inventory.schema.json`, and `source_audit.json` preserve the

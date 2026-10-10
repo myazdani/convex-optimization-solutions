@@ -1,6 +1,962 @@
 {
   "entries": [
     {
+      "id": "example_11_1",
+      "title": "Central path of a two-variable linear program",
+      "solution_path": "docs/examples/example_11_1.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/example_11_1/results.json",
+      "supporting_paths": [
+        "artifacts/examples/example_11_1/central_path.png",
+        "artifacts/examples/example_11_1/input_manifest.json",
+        "artifacts/examples/example_11_1/instance.npz",
+        "artifacts/examples/example_11_1/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_phase.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "a67fa7762af3208632a269d4a32931532d6a2be95664d04758726b8e1012df27",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The book does not publish the pictured polytope coordinates. This replacement uses unit normals at angles 2 pi j/m + 0.17, offsets 1 + 0.15 sin(2 angle), and c = (1,0.65). The dimension and number of inequalities follow the book separately: six for Example 11.1 and five for Example 11.3."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "14a5324b34e08a9fce86d361b607929852d55a488eaa33026c001f0d399b928d"
+    },
+    {
+      "id": "example_11_3",
+      "title": "Central path as a force equilibrium",
+      "solution_path": "docs/examples/example_11_3.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/example_11_3/results.json",
+      "supporting_paths": [
+        "artifacts/examples/example_11_3/central_path.png",
+        "artifacts/examples/example_11_3/input_manifest.json",
+        "artifacts/examples/example_11_3/instance.npz",
+        "artifacts/examples/example_11_3/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_phase.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "29945629d7723a8e25df4f10e9fa8c09088c37af60c6307ad6fdafd9f9e14c16",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The book does not publish the pictured polytope coordinates. This replacement uses unit normals at angles 2 pi j/m + 0.17, offsets 1 + 0.15 sin(2 angle), and c = (1,0.65). The dimension and number of inequalities follow the book separately: six for Example 11.1 and five for Example 11.3."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "fb15c3d43853ed9b159e37b1a94d160a901a698de550b6efe1180dfbbdbf64bc"
+    },
+    {
+      "id": "example_11_4",
+      "title": "Comparing maximum and total phase-I infeasibility",
+      "solution_path": "docs/examples/example_11_4.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/example_11_4/results.json",
+      "supporting_paths": [
+        "artifacts/examples/example_11_4/input_manifest.json",
+        "artifacts/examples/example_11_4/instance.npz",
+        "artifacts/examples/example_11_4/residuals.png",
+        "artifacts/examples/example_11_4/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_phase.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "46c08d3f3d0b0be67da531ccd257c82345f8fc3fef6dd5a897d81e2b4f2f7b06",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The original 100-by-50 matrix is unpublished. The replacement seed is 1114; its first two rows are opposite normals with offsets -0.4, supplying an explicit infeasibility certificate. The book counts 39 and 79 apply only to its missing instance; the actual replacement counts are reported above."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "6c0331ffda202677cdf5c004ff22f02975673b9afc30ae19b4d80aa06049f5b1"
+    },
+    {
+      "id": "example_4_1",
+      "title": "Scalar optimal values, attainment, and unboundedness",
+      "solution_path": "docs/examples/example_4_1.md",
+      "code_path": "examples/application_basic.py",
+      "results_path": "artifacts/examples/example_4_1/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "5424f7b1024f3f286e7af3edb6bef7be51b381edfca4bd56a86240e987d1c630",
+      "reproduction_basis": "For x>0, compare 1/x, -log(x), and x log(x). The first tends to zero as x tends to infinity and remains positive, so the infimum is not attained. The second decreases without bound. The last has derivative 1+log(x) and positive second derivative 1/x, so its unique minimum is x=1/e, with value -1/e. A bounded scalar optimizer independently checks this last value.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basic.py example_4_1; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "numerical minimizer versus 1/e",
+            "measured": 7.540702506858565e-09,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "objective versus -1/e",
+            "measured": 5.551115123125783e-17,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "first derivative at 1/e",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_4_1/objectives.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_basic.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "1e1d7fbb86ce9f1c1edc9884235a065a11a2bfbafb59efe6eed4476b74da8942"
+    },
+    {
+      "id": "example_4_10",
+      "title": "Minimal matrix upper bounds via weighted SDP",
+      "solution_path": "docs/examples/example_4_10.md",
+      "code_path": "examples/application_geometry.py",
+      "results_path": "artifacts/examples/example_4_10/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "9f8369d13457bd053c2df746a4b6e4f2b9efb5365acd0a72c1416535d771efcd",
+      "reproduction_basis": "For three explicitly published new positive-definite 2-by-2 matrices, solve min tr(WX) subject to X−Aᵢ positive semidefinite. Use two positive-definite weights, I and diag(4,1), to obtain different minimal upper bounds. The dual matrices sum to W and their weighted traces give an independent lower bound; stationarity and primal-dual gaps certify both results. Since W is positive definite, a strictly smaller feasible matrix in the PSD order would strictly improve the objective, proving minimality.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py example_4_10; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "weight 1 dual stationarity",
+            "measured": 2.490718742365061e-10,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "weight 1 primal-dual gap",
+            "measured": 3.889586430716463e-10,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "weight 2 dual stationarity",
+            "measured": 4.587583646298299e-10,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "weight 2 primal-dual gap",
+            "measured": 8.567289100369635e-10,
+            "tolerance": 1e-07,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_4_10/matrix_upper_bounds.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_geometry.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "Original Figure 4.10 numerical matrices and weights were not supplied in the textbook or located in the official indexes. This new instance demonstrates the same weighted-SDP minimal-upper-bound construction. Positive-definite W ensures no strictly smaller PSD-feasible upper bound can dominate the computed solution."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "c6f1fb1fd735d97e567b8bde2892b2a699222de6069f0cc838fbdeb196856f44"
+    },
+    {
+      "id": "example_6_2",
+      "title": "Huber regression with two outliers",
+      "solution_path": "docs/examples/example_6_2.md",
+      "code_path": "examples/application_basic.py",
+      "results_path": "artifacts/examples/example_6_2/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "92717357a201a3599b515e0facfcec76be2c6b74fa77e468024a24d1460ab523",
+      "reproduction_basis": "Fit y≈α+βt to the 42 published points. Least squares minimizes the sum of squared residuals. The robust fit minimizes the sum of Huber losses with threshold M=1: r² for |r|≤1 and 2|r|−1 otherwise. The second expression is continuous at the threshold; the comment in the old companion code omits its constant but its QP implements the correct loss. Compare the convex solve against an independent analytic-gradient minimization and check the normal equations.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basic.py example_6_2; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "Huber gradient",
+            "measured": 1.4224504241155955e-08,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          {
+            "name": "Huber independent BFGS objective",
+            "measured": 0.0,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "least-squares normal equations",
+            "measured": 5.258016244624741e-13,
+            "tolerance": 1e-08,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_6_2/regression.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/huber.json",
+        "data/worked_examples/huber.provenance.json",
+        "examples/application_basic.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "4049e9f5d9f3429753e89831210e54f967962223fba545ae9cac17c93fe879ad"
+    },
+    {
+      "id": "example_6_3",
+      "title": "Regularized input design",
+      "solution_path": "docs/examples/example_6_3.md",
+      "code_path": "examples/application_basic.py",
+      "results_path": "artifacts/examples/example_6_3/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "57e07b5a4528b8aa4f51884456c6ba8eeb585fc0adbada02265030733fc299ad",
+      "reproduction_basis": "The 201-point convolution matrix uses h(t)=0.9^t(1−0.4 cos(2t))/9. Solve Jtrack+η Jmag+δ Jder for the three stated weight pairs. Tracking and magnitude divide their squared norms by 201; the derivative term divides by 200. A stacked least-squares factorization and independently constructed convex QP agree. The official CVXOPT stacking lacks the relative 201/200 derivative factor; the implementation follows the printed model and CVX version.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basic.py example_6_3; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "case 1 QR versus convex QP",
+            "measured": 7.620126751817224e-10,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "case 2 QR versus convex QP",
+            "measured": 2.90143908898699e-09,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "case 3 QR versus convex QP",
+            "measured": 4.9032777837965114e-11,
+            "tolerance": 1e-07,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_6_3/input_output.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_basic.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "CVXOPT stacking omits the relative n/(n-1) derivative normalization. This implementation follows the book and CVX convention."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "1d7864fa1c6bbdb5b2ddcf59ed18392b93e3afe12baf5226987d42a60446dec4"
+    },
+    {
+      "id": "example_6_4",
+      "title": "Sparse regressor selection",
+      "solution_path": "docs/examples/example_6_4.md",
+      "code_path": "examples/application_fitting.py",
+      "results_path": "artifacts/examples/example_6_4/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "708c14b484680e2203ba8b632ac4ad4af62a4703e46ca6fccdb1e2a46ff26d86",
+      "reproduction_basis": "Enumerate every support of cardinality zero through nine of the published 10-by-20 companion instance, solving least squares on each support. This is 431910 supports, not a heuristic substitute for exhaustive search. Rank ten permits exact interpolation. Separately solve 99 ℓ1-budget problems, discard coefficients below 10% of their maximum magnitude and refit each chosen support. Compare best residual by cardinality. The upstream script explicitly states these data differ from the book.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_fitting.py example_6_4; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "heuristic never beats exhaustive optimum",
+            "measured": 0.0,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "enumerated all supports below rank",
+            "measured": 0.0,
+            "tolerance": 0,
+            "passed": true
+          },
+          {
+            "name": "rank-ten support achieves zero residual",
+            "measured": 1.3668035872266427e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_6_4/sparse_selection.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/regsel.json",
+        "data/worked_examples/regsel.provenance.json",
+        "examples/application_fitting.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "Official regsel.py explicitly states its problem data differ from the book. This is a complete method reproduction on the published companion instance."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "8b6b631d11b38e0d787eb18d2236494ee71995a97fd328005e50517985dfd9dd"
+    },
+    {
+      "id": "example_6_5",
+      "title": "Nominal, stochastic and worst-case least squares",
+      "solution_path": "docs/examples/example_6_5.md",
+      "code_path": "examples/application_fitting.py",
+      "results_path": "artifacts/examples/example_6_5/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "c6ec19c50974dc55f0ff4712444f10675ad56ef3125f020280cf41101643aadb",
+      "reproduction_basis": "For A+uB with u uniform on [−1,1], the expected squared residual is ||Ax−b||²+||Bx||²/3. The nominal and stochastic designs follow from linear least-squares equations. The worst residual on the interval occurs at an endpoint by convexity, giving a two-cone minimax model. An independent S-lemma semidefinite formulation certifies the same worst-case objective. Plot all three residuals on [−2,2].",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_fitting.py example_6_5; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "SOCP versus S-lemma SDP",
+            "measured": 1.1484155848506816e-08,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "stochastic normal equations",
+            "measured": 1.9539925233402755e-14,
+            "tolerance": 1e-08,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_6_5/robust_interval.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/robls.json",
+        "data/worked_examples/robls.provenance.json",
+        "examples/application_fitting.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "84b12776ff3ff7b7a894d6e7907345e19adc1be7db993155aa1b854a9b8a509c"
+    },
+    {
+      "id": "example_6_6",
+      "title": "Robust least squares with disk uncertainty",
+      "solution_path": "docs/examples/example_6_6.md",
+      "code_path": "examples/application_fitting.py",
+      "results_path": "artifacts/examples/example_6_6/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "baa90216df7701a1868584d1665a017cc617244b40629f13285d22db19950989",
+      "reproduction_basis": "Use the published 50-by-20 matrix instance with two-dimensional unit-disk uncertainty. The robust squared-residual epigraph follows from the S-lemma and is solved as an SDP. Independently maximize the resulting residual over the circular boundary using a grid and bounded scalar refinements. Compare nominal least squares, both Tikhonov parameters, and robust fitting on 100000 area-uniform disk draws. The book specifies δ=1; both companion programs use δ=0.1, so both are retained.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_fitting.py example_6_6; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "SDP objective versus independently maximized disk boundary",
+            "measured": 1.978115449219331e-10,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "all disk draws feasible",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_6_6/disk_histograms.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/robls.json",
+        "data/worked_examples/robls.provenance.json",
+        "examples/application_fitting.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "Both book delta=1 and companion delta=0.1 are executed. The seed-606 Monte Carlo sample is newly generated and is not the unpublished original histogram sample."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "048ec266e86dc8a43991631c83ffc1bb23be144eae3d8786710e4fe8636403d3"
+    },
+    {
+      "id": "example_6_7",
+      "title": "Degree-five polynomial fitting",
+      "solution_path": "docs/examples/example_6_7.md",
+      "code_path": "examples/application_fitting.py",
+      "results_path": "artifacts/examples/example_6_7/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "0f0d1c1dc2ec53ffb5bf62b9380b937f2832725dac4025e2fba26c6786223606",
+      "reproduction_basis": "Build a degree-five Vandermonde design matrix on the 40 published pairs. Solve the least-squares fit by QR/SVD and the maximum-residual fit as a linear program. A separately assembled SciPy/HiGHS epigraph LP checks the latter; normal equations check the former. Both fitted curves and the original observations appear below.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_fitting.py example_6_7; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "minimax objective versus independent HiGHS LP",
+            "measured": 2.8124239048743505e-12,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "LS normal equations",
+            "measured": 2.942091015256665e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_6_7/fits.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/polapprox.json",
+        "data/worked_examples/polapprox.provenance.json",
+        "examples/application_fitting.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "9863cfc209cbba815265a3bae0c47ccd746ab4acac0ee1c9875d537d5548dd04"
+    },
+    {
+      "id": "example_6_8",
+      "title": "Cubic spline fitting",
+      "solution_path": "docs/examples/example_6_8.md",
+      "code_path": "examples/application_fitting.py",
+      "results_path": "artifacts/examples/example_6_8/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "332096e7e8150983b6848be232fec3f261706818778e42bafd4eba311c63e3de",
+      "reproduction_basis": "Represent a C² piecewise cubic on the three intervals with knots −1/3 and 1/3 using 1,t,t²,t³,(t+1/3)₊³,(t−1/3)₊³. This six-dimensional basis exactly spans the twelve-coefficient, six-continuity-constraint formulation. Fit the same 40 points under least-squares and maximum-residual losses. The knots have continuous value, first derivative and second derivative by construction. An independent epigraph LP verifies the minimax objective.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_fitting.py example_6_8; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "minimax objective versus independent HiGHS LP",
+            "measured": 3.4124855718964398e-12,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "LS normal equations",
+            "measured": 6.141773063497773e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_6_8/fits.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/polapprox.json",
+        "data/worked_examples/polapprox.provenance.json",
+        "examples/application_fitting.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "613d9ec21ace33da299caf7ebe9ca4289ee23aceb863071011ffedba8df140e4"
+    },
+    {
+      "id": "example_6_9",
+      "title": "Consumer preference bounds",
+      "solution_path": "docs/examples/example_6_9.md",
+      "code_path": "examples/application_statistics.py",
+      "results_path": "artifacts/examples/example_6_9/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "6594b112d69e33609dd399d5b2d6f0a69b9b1410da7f0e1f3e9976df660dec23",
+      "reproduction_basis": "Use the forty literal companion baskets and preference ordering induced by (1.1√x1+0.8√x2)/1.9. Represent a monotone concave utility by values and nonnegative supergradients at all baskets and the comparison basket (0.5,0.5), normalized to utility zero there. Enforce unit gaps in the known strict preference ordering. Two LPs per basket bound its utility; unbounded sides remain explicitly unbounded. A strictly positive lower bound proves preference and a negative upper bound proves rejection. Dual certificates and the printed classification totals are checked.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_statistics.py example_6_9; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "basket 1, sign 1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 2, sign -1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 4, sign -1: LP dual gap",
+            "measured": 4.440892098500626e-16,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 5, sign -1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 6, sign -1: LP dual gap",
+            "measured": 7.105427357601002e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 7, sign -1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 8, sign -1: LP dual gap",
+            "measured": 8.881784197001252e-16,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 9, sign 1: LP dual gap",
+            "measured": 8.881784197001252e-16,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 10, sign 1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 11, sign -1: LP dual gap",
+            "measured": 7.105427357601002e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 12, sign 1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 14, sign -1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 15, sign -1: LP dual gap",
+            "measured": 7.105427357601002e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 16, sign 1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 17, sign 1: LP dual gap",
+            "measured": 1.7763568394002505e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 18, sign -1: LP dual gap",
+            "measured": 1.7763568394002505e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 19, sign 1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 20, sign -1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 21, sign 1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 22, sign -1: LP dual gap",
+            "measured": 6.661338147750939e-16,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 23, sign 1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 24, sign 1: LP dual gap",
+            "measured": 1.7763568394002505e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 25, sign -1: LP dual gap",
+            "measured": 4.440892098500626e-16,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 27, sign 1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 28, sign 1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 29, sign -1: LP dual gap",
+            "measured": 1.4210854715202004e-14,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 30, sign -1: LP dual gap",
+            "measured": 8.881784197001252e-16,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 31, sign -1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 33, sign -1: LP dual gap",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 34, sign -1: LP dual gap",
+            "measured": 8.881784197001252e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 36, sign -1: LP dual gap",
+            "measured": 7.105427357601002e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 37, sign -1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 38, sign -1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 39, sign 1: LP dual gap",
+            "measured": 8.881784197001252e-16,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "basket 40, sign 1: LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "printed classification counts",
+            "measured": 0.0,
+            "tolerance": 0,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_6_9/preferences.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/consumerpref.json",
+        "data/worked_examples/consumerpref.provenance.json",
+        "examples/application_statistics.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json",
+      "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+      "results_sha256": "11c73314d94faa6e63310a356f78648831912fdbb3a8a2e4ed43c83641bdbd5f"
+    },
+    {
+      "id": "example_7_2",
+      "title": "Maximum entropy and distribution bounds",
+      "solution_path": "docs/examples/example_7_2.md",
+      "code_path": "examples/application_statistics.py",
+      "results_path": "artifacts/examples/example_7_2/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "1533331a889d834274c4312eeb791dbc9f765e056fbe5d584f821f353abfc528",
+      "reproduction_basis": "On 100 equally spaced support points in [−1,1], maximize Shannon entropy under the four printed moment intervals and probability-simplex constraints. Compute every upper and lower CDF value through 200 independently assembled HiGHS LPs, retaining dual gap checks. A separately implemented exponential-family dual checks the entropy objective. All four moments are recomputed rather than substituted from the printed rounded benchmark.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_statistics.py example_7_2; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "moment feasibility",
+            "measured": 1.4449774710101337e-11,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "entropy primal versus independent exponential-family dual",
+            "measured": 6.080291825583117e-11,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "all 200 HiGHS primal-dual gaps",
+            "measured": 8.881784197001252e-16,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "CDF contains maximum entropy distribution",
+            "measured": 1.4449663687798875e-11,
+            "tolerance": 1e-07,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_7_2/entropy_cdf.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_statistics.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json",
+      "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+      "results_sha256": "510af79ceab5191c64aa8b66fde1defae6a4403bfdbc1ae9e531d2df96658969"
+    },
+    {
       "code_path": "examples/ex_7_4.py",
       "id": "example_7_4",
       "output_match_verified": true,
@@ -23,6 +979,56 @@
       "verification_path": "coverage/example-probability-verification.json"
     },
     {
+      "id": "example_8_1",
+      "title": "Projection of the origin on the unit-square boundary",
+      "solution_path": "docs/examples/example_8_1.md",
+      "code_path": "examples/application_basic.py",
+      "results_path": "artifacts/examples/example_8_1/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "1ae600c61fac61ce47be73a7c010b768782f0b3cf0f581c589f7adab7d66f8c4",
+      "reproduction_basis": "The boundary of the centered unit square is {x:max(|x1|,|x2|)=1}. Consequently all boundary points have infinity norm one. For the 1- and 2-norms the minimum is one and is achieved only at the four axis points. A dense enumeration of all four edges supplements the exact norm inequality proof. The nonconvex boundary is never incorrectly passed to a convex solver.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basic.py example_8_1; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "all infinity-norm values equal one",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "l1 and l2 exact minimum",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_8_1/boundary.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_basic.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "cc7c935d1c3f561478b31b453a479d62f7f71a3e0130930ffbd3caa7e2f453a5"
+    },
+    {
       "code_path": "examples/ex_8_3.py",
       "id": "example_8_3",
       "output_match_verified": true,
@@ -43,6 +1049,2792 @@
         "test_result": "25 passed; 23 worked-example tests and 2 repository-wide Markdown-format tests"
       },
       "verification_path": "coverage/example-probability-verification.json"
+    },
+    {
+      "id": "example_8_6",
+      "title": "Linear, quadratic and fourth-order placement",
+      "solution_path": "docs/examples/example_8_6.md",
+      "code_path": "examples/application_geometry.py",
+      "results_path": "artifacts/examples/example_8_6/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "24ceb90afa36b49c5ec67f246869feb77cc9f8d16a5da6125b14b5a0f7421e79",
+      "reproduction_basis": "Use the published companion graph with six free and eight fixed nodes. Its 28 edges differ from the book’s 27-link instance. Minimize sums of edge lengths, squared lengths, and fourth powers of lengths. The linear formulation is checked against an independently assembled conic dual, the quadratic solution against ordinary least squares, and the quartic solution against its analytic stationarity equations. Show all three layouts and corresponding length distributions.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py example_8_6; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "linear placement independent dual gap",
+            "measured": 6.382453676678779e-09,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "quadratic placement versus independent least squares",
+            "measured": 4.234082115195381e-07,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "quartic placement stationarity",
+            "measured": 7.676052905591924e-05,
+            "tolerance": 0.0001,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_8_6/placements.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/placement.json",
+        "data/worked_examples/placement.provenance.json",
+        "examples/application_geometry.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "Official placement.py explicitly states its data differ from the book. Published placement.bin has 28 edges, not the inventory’s earlier count of 27. This is a complete method reproduction on that companion instance."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "37591723c43fd27beaa5a05b2a5d57313d3a492195ac1378be282e769ff986ad"
+    },
+    {
+      "id": "example_8_7",
+      "title": "Five-cell floor planning",
+      "solution_path": "docs/examples/example_8_7.md",
+      "code_path": "examples/application_geometry.py",
+      "results_path": "artifacts/examples/example_8_7/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "56833594cfd8ff73b8082840b29b93da85bb479ebe319a1034e766519559712a",
+      "reproduction_basis": "Choose positions, widths and heights of five rectangles while minimizing W+H, half the bounding perimeter. Enforce the source’s ordering graph, one-unit spacing, aspect ratio between 1/5 and 5, and wᵢhᵢ≥Aᵢ. The latter is represented by Aᵢ/hᵢ≤wᵢ and independently by the equivalent rotated quadratic cone ||(2√Aᵢ,wᵢ−hᵢ)||≤wᵢ+hᵢ. Execute all four published area vectors. Check the two formulations’ objectives and recompute every attained area.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py example_8_7; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "layout 1 reciprocal versus rotated-cone objective",
+            "measured": 3.896779787737614e-09,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "layout 1 min-area satisfaction",
+            "measured": 3.40740371029824e-07,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "layout 2 reciprocal versus rotated-cone objective",
+            "measured": 5.7673737785535195e-08,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "layout 2 min-area satisfaction",
+            "measured": 2.858516722881177e-06,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "layout 3 reciprocal versus rotated-cone objective",
+            "measured": 2.5642954426530196e-08,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "layout 3 min-area satisfaction",
+            "measured": 3.396504439479031e-06,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "layout 4 reciprocal versus rotated-cone objective",
+            "measured": 6.385973705391734e-08,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "layout 4 min-area satisfaction",
+            "measured": 2.746383700014121e-06,
+            "tolerance": 2e-05,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/example_8_7/floorplans.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_geometry.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "21b011544744ddd26e32eefd2de91d8ed1b3a5094f51330a3a9e0dffbaa94249"
+    },
+    {
+      "id": "fig_10_1",
+      "title": "Infeasible-start Newton on a feasible analytic-center problem",
+      "solution_path": "docs/examples/fig_10_1.md",
+      "code_path": "examples/algorithms_ch10.py",
+      "results_path": "artifacts/examples/fig_10_1/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_10_1/convergence.png",
+        "artifacts/examples/fig_10_1/input_manifest.json",
+        "artifacts/examples/fig_10_1/instance.npz",
+        "artifacts/examples/fig_10_1/results.json",
+        "artifacts/examples/fig_10_1/steps.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "examples/algorithms_ch10.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch10.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "173ad9b9a994aa2f416eb2fe2a8c8d75e25367845f017a9404b7d7e582c5814a",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The substituted random family is conditioned by rejection: feasible experiments require a positive primal point and a strictly positive dual image; infeasible experiments require a Farkas certificate with A-transpose y nonnegative and b-transpose y = -1. This prevents assuming that a new random draw has the same feasibility outcome as the original MATLAB draw."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json",
+      "code_sha256": "9c7ff3781d2ec29366829e06b2fdc63bbb700ad0fd50a4cef1c936b02dc2a269",
+      "results_sha256": "8b781266b38ce83512902d79ae04d2459ffd684d8b25e5fe2865c0e8fadf1262"
+    },
+    {
+      "id": "fig_10_3",
+      "title": "Infeasible-start Newton on an infeasible problem",
+      "solution_path": "docs/examples/fig_10_3.md",
+      "code_path": "examples/algorithms_ch10.py",
+      "results_path": "artifacts/examples/fig_10_3/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_10_3/convergence.png",
+        "artifacts/examples/fig_10_3/input_manifest.json",
+        "artifacts/examples/fig_10_3/instance.npz",
+        "artifacts/examples/fig_10_3/results.json",
+        "artifacts/examples/fig_10_3/steps.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "examples/algorithms_ch10.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch10.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "1f0987af33096bd8182eb11d46be7332e62e4cf47e39d9f2fdcb541aee14afb5",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The substituted random family is conditioned by rejection: feasible experiments require a positive primal point and a strictly positive dual image; infeasible experiments require a Farkas certificate with A-transpose y nonnegative and b-transpose y = -1. This prevents assuming that a new random draw has the same feasibility outcome as the original MATLAB draw."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json",
+      "code_sha256": "9c7ff3781d2ec29366829e06b2fdc63bbb700ad0fd50a4cef1c936b02dc2a269",
+      "results_sha256": "4a7d7ebdd5306fd711af7a43927c495554a6b06276c7b720e64514e50f2db134"
+    },
+    {
+      "id": "fig_10_5",
+      "title": "Newton method for a convex-concave game",
+      "solution_path": "docs/examples/fig_10_5.md",
+      "code_path": "examples/algorithms_ch10.py",
+      "results_path": "artifacts/examples/fig_10_5/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_10_5/convergence.png",
+        "artifacts/examples/fig_10_5/input_manifest.json",
+        "artifacts/examples/fig_10_5/instance.npz",
+        "artifacts/examples/fig_10_5/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "examples/algorithms_ch10.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch10.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "c2185fa609564ea47f78d3f9cd82c50e1db8e4b7d8d48073addf611b04026014",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The book starts at zero and the companion starts at 0.01 in every coordinate. Both are evaluated on the same replacement instance and reported separately."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json",
+      "code_sha256": "9c7ff3781d2ec29366829e06b2fdc63bbb700ad0fd50a4cef1c936b02dc2a269",
+      "results_sha256": "c792af1d334b679e5a745268b1a320274cba461645a7abca4f14013718fc974c"
+    },
+    {
+      "id": "fig_10_6",
+      "title": "Three Newton formulations for analytic centering",
+      "solution_path": "docs/examples/fig_10_6.md",
+      "code_path": "examples/algorithms_ch10.py",
+      "results_path": "artifacts/examples/fig_10_6/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_10_6/dual.png",
+        "artifacts/examples/fig_10_6/feasible_primal.png",
+        "artifacts/examples/fig_10_6/infeasible_KKT.png",
+        "artifacts/examples/fig_10_6/input_manifest.json",
+        "artifacts/examples/fig_10_6/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "examples/algorithms_ch10.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch10.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "2bd0e3a3d79d333699480601f2125c977e83615ea1aa5295cc622c66d537ee04",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "Corrections to the published MATLAB script: the feasible-primal Armijo expression uses log(x+s dx), not log(1+x+s dx); its BETA*S typo is corrected; both primal and dual Armijo right-hand sides include the step length. These are implementation errors in the source, not changes to the textbook algorithms."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json",
+      "code_sha256": "9c7ff3781d2ec29366829e06b2fdc63bbb700ad0fd50a4cef1c936b02dc2a269",
+      "results_sha256": "9738a31809c30eb51703e8ef9bf9ae283e94d2d4a4c71ee8fe15f737add39757"
+    },
+    {
+      "id": "fig_11_10",
+      "title": "Feasibility difficulty near the boundary",
+      "solution_path": "docs/examples/fig_11_10.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_10/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_10/boundary.png",
+        "artifacts/examples/fig_11_10/input_manifest.json",
+        "artifacts/examples/fig_11_10/instance.npz",
+        "artifacts/examples/fig_11_10/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_phase.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "b5328178374d2d95e538982740b4ccfb78c341506b05b7985a43f1aa287dd695",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The unpublished original A, b and perturbation are replaced by the explicit seed-1110 family above. The 40-value main sweep, positive/negative near-boundary range down to 1e-6 and 25 positive infeasible-start tests are executed. Exact counts and slopes depend on the instance, so no claim is made to match the original curves."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "3a41dcc079d8c18140d881da04c27d2276381d3128407209eacc82b653aef5fb"
+    },
+    {
+      "id": "fig_11_15",
+      "title": "Barrier method on a small SOCP",
+      "solution_path": "docs/examples/fig_11_15.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_15/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_15/input_manifest.json",
+        "artifacts/examples/fig_11_15/instance.npz",
+        "artifacts/examples/fig_11_15/mu_sweep.png",
+        "artifacts/examples/fig_11_15/progress.png",
+        "artifacts/examples/fig_11_15/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "bdd07935bd6b0b4922bbf6539f0c5af01d62c745b24d37ea8391f8883b3aac5d",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "A Newton correction is applied to the central-path dual variables, enforcing dual linear equations despite approximate centering. The corrected feasible-dual objective gap is plotted; nominal degree/t is retained separately in the JSON. Cone or entropy-dual feasibility is checked independently."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "9bc60a504492bd4741ab3e19a598998c0517a202c832e4430211ebf8731bddc6"
+    },
+    {
+      "id": "fig_11_17",
+      "title": "Barrier method on a small SDP",
+      "solution_path": "docs/examples/fig_11_17.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_17/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_17/input_manifest.json",
+        "artifacts/examples/fig_11_17/mu_sweep.png",
+        "artifacts/examples/fig_11_17/progress.png",
+        "artifacts/examples/fig_11_17/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "10a853d00b5022b3f44961a287377f45e85c2115d027e09900a66d2f205c7b73",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The textbook uses 100 variables and order-100 matrices; the published MATLAB source sets n = 50, m = 100. This implementation deliberately follows the textbook 100-variable dimension. The source comment calling its parameter sweep Figure 11.19 is a typo; it corresponds to Figure 11.18."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "fb1dd30b7f4d55c7082590f4eac791cb48698a7d4a05b46b58d88469e2d2d243"
+    },
+    {
+      "id": "fig_11_19",
+      "title": "Barrier method on three SDP sizes",
+      "solution_path": "docs/examples/fig_11_19.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_19/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_19/input_manifest.json",
+        "artifacts/examples/fig_11_19/instance_50.npz",
+        "artifacts/examples/fig_11_19/progress.png",
+        "artifacts/examples/fig_11_19/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "094f96a28baa57f96d5b485832ec2dc7d5ffd9eb29757b3edba16d21f1bc6fc2",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The textbook stops after relative gap reduction 10000 (LP) or 8000 (SDP); the companion instead requests absolute gaps 0.001 or 0.0001. This implementation follows the book relative-reduction experiment. For SDP it also retains the textbook random diagonal, unlike the companion zero-diagonal construction."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "5c2a49fdba5cb16c2a91ee351a4c0f343485efc70aa6d2537fd626c1619475f4"
+    },
+    {
+      "id": "fig_11_20",
+      "title": "Barrier-method scaling across 2000 SDPs",
+      "solution_path": "docs/examples/fig_11_20.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_20/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_20/input_manifest.json",
+        "artifacts/examples/fig_11_20/results.json",
+        "artifacts/examples/fig_11_20/scaling.png",
+        "artifacts/examples/fig_11_20/trials_10.json",
+        "artifacts/examples/fig_11_20/trials_1000.json",
+        "artifacts/examples/fig_11_20/trials_113.json",
+        "artifacts/examples/fig_11_20/trials_13.json",
+        "artifacts/examples/fig_11_20/trials_144.json",
+        "artifacts/examples/fig_11_20/trials_16.json",
+        "artifacts/examples/fig_11_20/trials_183.json",
+        "artifacts/examples/fig_11_20/trials_21.json",
+        "artifacts/examples/fig_11_20/trials_234.json",
+        "artifacts/examples/fig_11_20/trials_26.json",
+        "artifacts/examples/fig_11_20/trials_298.json",
+        "artifacts/examples/fig_11_20/trials_34.json",
+        "artifacts/examples/fig_11_20/trials_379.json",
+        "artifacts/examples/fig_11_20/trials_43.json",
+        "artifacts/examples/fig_11_20/trials_483.json",
+        "artifacts/examples/fig_11_20/trials_55.json",
+        "artifacts/examples/fig_11_20/trials_616.json",
+        "artifacts/examples/fig_11_20/trials_70.json",
+        "artifacts/examples/fig_11_20/trials_785.json",
+        "artifacts/examples/fig_11_20/trials_89.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithm_scaling_pack.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "cc19473c9ca578d40888f8c0c2e04f1da27f0c746529a04bad84b13264d9f657",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The original 20 dimension values and seeds are not published; the replacement uses 20 rounded geometric spacings from 10 through 1000. Every trial seed and independently recomputed feasibility/certificate check is saved. No sample count or maximum dimension is reduced.",
+        "The SDP companion zeros the diagonal of its random matrix, whereas the textbook samples the diagonal normally. These scaling experiments follow the textbook distribution."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch003.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "9ff87c544b3d32555c4dfc5068f298d8586587fc93b0945a3b740a6c1a89d58b"
+    },
+    {
+      "id": "fig_11_21",
+      "title": "Primal-dual method on a small LP",
+      "solution_path": "docs/examples/fig_11_21.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_21/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_21/input_manifest.json",
+        "artifacts/examples/fig_11_21/instance.npz",
+        "artifacts/examples/fig_11_21/progress.png",
+        "artifacts/examples/fig_11_21/residual.png",
+        "artifacts/examples/fig_11_21/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "2e5c2974f5b56963e974eddda59dc265c6877c67eb9e98b5d2e77e6c6747f0dc",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "90b894f6e17ebdc1cea16f1ec432201c21d5edcb2251f15e44329b641b19d915"
+    },
+    {
+      "id": "fig_11_22",
+      "title": "Primal-dual method on a small GP",
+      "solution_path": "docs/examples/fig_11_22.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_22/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_22/input_manifest.json",
+        "artifacts/examples/fig_11_22/instance.npz",
+        "artifacts/examples/fig_11_22/progress.png",
+        "artifacts/examples/fig_11_22/residual.png",
+        "artifacts/examples/fig_11_22/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "d79003c55d9d91f2434a4243dda15425b339d0155a03b7b0011c99464f37a61e",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The primal-dual method plots the surrogate gap minus f(x)-transpose lambda and the combined KKT residual. It stops only when both are below 1e-8. Its lambda multipliers and saved primal point permit independent positivity, feasibility, stationarity and complementarity checks; no entropy-dual correction or nominal degree/t quantity is used in this experiment."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "efae245fd6bbdd6cc9ec0685b4c873fc0dafc9d4bd562b2b86bb552eec789b00"
+    },
+    {
+      "id": "fig_11_23",
+      "title": "Primal-dual scaling across 2000 LPs",
+      "solution_path": "docs/examples/fig_11_23.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_23/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_23/input_manifest.json",
+        "artifacts/examples/fig_11_23/results.json",
+        "artifacts/examples/fig_11_23/scaling.png",
+        "artifacts/examples/fig_11_23/trials_10.json",
+        "artifacts/examples/fig_11_23/trials_1000.json",
+        "artifacts/examples/fig_11_23/trials_113.json",
+        "artifacts/examples/fig_11_23/trials_13.json",
+        "artifacts/examples/fig_11_23/trials_144.json",
+        "artifacts/examples/fig_11_23/trials_16.json",
+        "artifacts/examples/fig_11_23/trials_183.json",
+        "artifacts/examples/fig_11_23/trials_21.json",
+        "artifacts/examples/fig_11_23/trials_234.json",
+        "artifacts/examples/fig_11_23/trials_26.json",
+        "artifacts/examples/fig_11_23/trials_298.json",
+        "artifacts/examples/fig_11_23/trials_34.json",
+        "artifacts/examples/fig_11_23/trials_379.json",
+        "artifacts/examples/fig_11_23/trials_43.json",
+        "artifacts/examples/fig_11_23/trials_483.json",
+        "artifacts/examples/fig_11_23/trials_55.json",
+        "artifacts/examples/fig_11_23/trials_616.json",
+        "artifacts/examples/fig_11_23/trials_70.json",
+        "artifacts/examples/fig_11_23/trials_785.json",
+        "artifacts/examples/fig_11_23/trials_89.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithm_scaling_pack.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "30081adc7958e8abdfb249dd2b89f397e9b9ad68300ded8f966ee5ad1006b6c0",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The original 20 dimension values and seeds are not published; the replacement uses 20 rounded geometric spacings from 10 through 1000. Every trial seed and independently recomputed feasibility/certificate check is saved. No sample count or maximum dimension is reduced."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch003.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "56ef0c6f56d78bdd377138ab24ca08626b3b0273f1b08212fc19fb759bfba338"
+    },
+    {
+      "id": "fig_11_4",
+      "title": "Barrier method on a small inequality-form LP",
+      "solution_path": "docs/examples/fig_11_4.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_4/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_4/input_manifest.json",
+        "artifacts/examples/fig_11_4/instance.npz",
+        "artifacts/examples/fig_11_4/mu_sweep.png",
+        "artifacts/examples/fig_11_4/progress.png",
+        "artifacts/examples/fig_11_4/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "fa7cf92064d21eb4288747d1144061961d7dfde90691c976433ee7eb2def63f7",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The companion generator uses c = A-transpose z but labels z a strictly feasible dual multiplier, which would require c = -A-transpose z. The replacement enforces that negative sign, guaranteeing the declared strict dual feasibility. Its mu = 150 curve is mislabeled mu = 100 in one source annotation; the numeric parameter 150 is retained."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "4804f1e620914c812359108e2998035d34fedf9bf53dc461feae2e0d8f2537c2"
+    },
+    {
+      "id": "fig_11_6",
+      "title": "Barrier method on a small geometric program",
+      "solution_path": "docs/examples/fig_11_6.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_6/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_6/input_manifest.json",
+        "artifacts/examples/fig_11_6/instance.npz",
+        "artifacts/examples/fig_11_6/mu_sweep.png",
+        "artifacts/examples/fig_11_6/progress.png",
+        "artifacts/examples/fig_11_6/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "b91c97c2cceb8adfd66794b036148a8a1ba21e7e9b7aba001dba7d1c32542dd6",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "A Newton correction is applied to the central-path dual variables, enforcing dual linear equations despite approximate centering. The corrected feasible-dual objective gap is plotted; nominal degree/t is retained separately in the JSON. Cone or entropy-dual feasibility is checked independently."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "be65cb418b9031aae4595ca7d0ace876d99ca8b119b7eba82c215f815dbf7c98"
+    },
+    {
+      "id": "fig_11_7",
+      "title": "Barrier method on three standard-form LP sizes",
+      "solution_path": "docs/examples/fig_11_7.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_7/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_7/input_manifest.json",
+        "artifacts/examples/fig_11_7/instance_50.npz",
+        "artifacts/examples/fig_11_7/progress.png",
+        "artifacts/examples/fig_11_7/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "5ece874918d71b063113b781213e74155cd665bb9209a6b7ce2e00f4a31627a1",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The textbook stops after relative gap reduction 10000 (LP) or 8000 (SDP); the companion instead requests absolute gaps 0.001 or 0.0001. This implementation follows the book relative-reduction experiment. For SDP it also retains the textbook random diagonal, unlike the companion zero-diagonal construction."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "06a638549be86e4b7ae87c8bf3b63528aad707cdb6401c6a9213f2324c5a3e1a"
+    },
+    {
+      "id": "fig_11_8",
+      "title": "Barrier-method scaling across 2000 LPs",
+      "solution_path": "docs/examples/fig_11_8.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_8/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_8/input_manifest.json",
+        "artifacts/examples/fig_11_8/results.json",
+        "artifacts/examples/fig_11_8/scaling.png",
+        "artifacts/examples/fig_11_8/trials_10.json",
+        "artifacts/examples/fig_11_8/trials_1000.json",
+        "artifacts/examples/fig_11_8/trials_113.json",
+        "artifacts/examples/fig_11_8/trials_13.json",
+        "artifacts/examples/fig_11_8/trials_144.json",
+        "artifacts/examples/fig_11_8/trials_16.json",
+        "artifacts/examples/fig_11_8/trials_183.json",
+        "artifacts/examples/fig_11_8/trials_21.json",
+        "artifacts/examples/fig_11_8/trials_234.json",
+        "artifacts/examples/fig_11_8/trials_26.json",
+        "artifacts/examples/fig_11_8/trials_298.json",
+        "artifacts/examples/fig_11_8/trials_34.json",
+        "artifacts/examples/fig_11_8/trials_379.json",
+        "artifacts/examples/fig_11_8/trials_43.json",
+        "artifacts/examples/fig_11_8/trials_483.json",
+        "artifacts/examples/fig_11_8/trials_55.json",
+        "artifacts/examples/fig_11_8/trials_616.json",
+        "artifacts/examples/fig_11_8/trials_70.json",
+        "artifacts/examples/fig_11_8/trials_785.json",
+        "artifacts/examples/fig_11_8/trials_89.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithm_scaling_pack.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "e1d380cd4140dbfe2302972797f3c8617f8cb2dee6da72cf89bb467c51ef57f5",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The original 20 dimension values and seeds are not published; the replacement uses 20 rounded geometric spacings from 10 through 1000. Every trial seed and independently recomputed feasibility/certificate check is saved. No sample count or maximum dimension is reduced."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch11_batch003.json",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "0dc8f1198c4967d5777a88ee1ded03ef14d1ee08b49163ce46be721fd3382a5d"
+    },
+    {
+      "id": "fig_4_11",
+      "title": "Regularized least-squares achievable set and Pareto curve",
+      "solution_path": "docs/examples/fig_4_11.md",
+      "code_path": "examples/application_basic.py",
+      "results_path": "artifacts/examples/fig_4_11/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "1c5eccc754037cd245bdf29cfb0a11036805b56a1dd384ee17a0cea9f0dd4f3d",
+      "reproduction_basis": "Write H=A^T A and g=A^T b. On each sphere ||x||²=α, diagonalizing H reduces stationarity to a scalar secular equation in a Lagrange multiplier. Its root on the positive-semidefinite branch gives the minimum; the corresponding negative-definite branch gives the maximum. Both boundaries of the achievable set are computed. Independent two-variable semidefinite duals certify all nonzero-radius extrema. The lower-left boundary through the zero and least-squares endpoints is the Pareto frontier.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basic.py fig_4_11; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "all secular extrema versus SDP dual bounds",
+            "measured": 3.210432852895906e-08,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "SDP feasibility",
+            "measured": 2.8569137348089176e-09,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "sphere norm constraints",
+            "measured": 2.531308496145357e-13,
+            "tolerance": 1e-07,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_4_11/achievable_region.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/rls.json",
+        "data/worked_examples/rls.provenance.json",
+        "examples/application_basic.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "829fa1e5a4730ab8cca6b72e951110b80f0d879b67829f7dcab8221296a055ec"
+    },
+    {
+      "id": "fig_4_12",
+      "title": "Four-asset portfolio risk-return trade-off",
+      "solution_path": "docs/examples/fig_4_12.md",
+      "code_path": "examples/application_basic.py",
+      "results_path": "artifacts/examples/fig_4_12/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "843793e38282ee60c9f8bbbbcf9240d12af9e6e76a99922d1a02e7ee9f621ac6",
+      "reproduction_basis": "For each μ>0 solve min (μ/2)w^TΣw−r^Tw, subject to w≥0 and 1^Tw=1. The covariance and expected returns are the printed four-asset constants. Include the two limiting portfolios explicitly. Plot return against standard deviation and stacked allocations. Independent constrained SciPy optimization checks every QP objective. The factor 1/2 follows the companion QP convention and changes only the parameterization of the frontier.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basic.py fig_4_12; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "independent SLSQP objective agreement",
+            "measured": 8.485535329949556e-10,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "simplex violation",
+            "measured": 5.306866057708248e-14,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "frontier return monotonicity",
+            "measured": 1.3375116569847023e-09,
+            "tolerance": 1e-07,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_4_12/portfolio.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_basic.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "d5b513f3916aa5e70f1aa90e8065629ceba92b1d0a6254b99c6c8a997e04f9c7"
+    },
+    {
+      "id": "fig_5_1_5_2",
+      "title": "Nonconvex scalar primal and Lagrangian dual numerical illustration",
+      "solution_path": "docs/examples/fig_5_1_5_2.md",
+      "code_path": "examples/application_signals.py",
+      "results_path": "artifacts/examples/fig_5_1_5_2/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "d946e68ad7b78330b9a3c26370632af5855570dad8f12d3da9f3bc689eda1e7c",
+      "reproduction_basis": "The original plotted functions are unavailable, so use two explicitly new nonconvex quartics: f₀(x)=(x²−1)²+0.2x and f₁(x)=(x²−0.46²)(x²+0.1). The feasible interval is[−0.46,0.46]; direct derivative analysis and endpoint comparison locate the primal optimum. For every nonnegative multiplier, the Lagrangian remains coercive quartic, so enumerating all real roots of its cubic derivative obtains the global infimum. Plot the objective, constraint, ten Lagrangians and concave dual; verify stationary roots, weak duality and discrete concavity. The new objective value is deliberately distinguished from the book’s1.54.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_signals.py fig_5_1_5_2; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "weak duality over 501 multipliers",
+            "measured": 0.0,
+            "tolerance": 1e-09,
+            "passed": true
+          },
+          {
+            "name": "dual discrete concavity",
+            "measured": 0.0,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.1 stationarity",
+            "measured": 3.7192471324942744e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.2 stationarity",
+            "measured": 3.7192471324942744e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.3 stationarity",
+            "measured": 6.050715484207103e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.4 stationarity",
+            "measured": 3.7192471324942744e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.5 stationarity",
+            "measured": 2.942091015256665e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.6 stationarity",
+            "measured": 1.942890293094024e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.7 stationarity",
+            "measured": 3.2751579226442118e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.8 stationarity",
+            "measured": 2.3869795029440866e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda0.9 stationarity",
+            "measured": 3.2751579226442118e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "lambda1.0 stationarity",
+            "measured": 2.4980018054066022e-15,
+            "tolerance": 1e-08,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_5_1_5_2/nonconvex_duality.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_signals.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "The original formulas for Figures5.1–5.2 were not published or located in official companion sources. Both functions here are newly specified nonconvex quartics. Their feasible interval is[-0.46,0.46], but the new objective value is not the book’s1.54. All ten Lagrangian curves and the concave dual function belong to this explicitly different instance."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json",
+      "code_sha256": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+      "results_sha256": "939dccbe4ad63b3ea7546cb633478cf1a691ab3cbfba1db997859bff4b204ddd"
+    },
+    {
+      "id": "fig_6_11",
+      "title": "Total-variation signal reconstruction",
+      "solution_path": "docs/examples/fig_6_11.md",
+      "code_path": "examples/application_signals.py",
+      "results_path": "artifacts/examples/fig_6_11/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "f31554e1896a2a6d35a690fb7fb01e08c448a9fe0c4ede037c9dbdb8db9ed668",
+      "reproduction_basis": "Generate the source’s2000-point piecewise signal and new standard-deviation0.1 noise. Compute the100-point quadratic-smoothing trade-off and three comparison reconstructions. Solve fifteen TV problems min(1/2)||x−y||²+λ||Dx||₁; separately solve the book’s exact variation budgets10,8,5 as constrained QPs. The source15-point sweep and its nearest-grid comparisons remain separately recorded. Dual box-constrained difference variables provide feasible lower bounds and stationarity certificates. Report both absolute and normalized primal-dual gaps, with relative acceptance1e−6, avoiding misleading absolute tolerances across widely different objective scales.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_signals.py fig_6_11; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "weight0.001 TV relative primal-dual gap",
+            "measured": 2.6900858260204237e-10,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.001 TV stationarity",
+            "measured": 1.0455178389712216e-14,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.0026827 TV relative primal-dual gap",
+            "measured": 3.4007186874697745e-10,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.0026827 TV stationarity",
+            "measured": 2.444398849998919e-14,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.00719686 TV relative primal-dual gap",
+            "measured": 1.3366105154600856e-10,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.00719686 TV stationarity",
+            "measured": 8.066464163292153e-16,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.019307 TV relative primal-dual gap",
+            "measured": 5.537542839356509e-10,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.019307 TV stationarity",
+            "measured": 2.0192181260370035e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.0517947 TV relative primal-dual gap",
+            "measured": 1.64636454878376e-10,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.0517947 TV stationarity",
+            "measured": 3.3861802251067274e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.13895 TV relative primal-dual gap",
+            "measured": 8.674749573582436e-11,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.13895 TV stationarity",
+            "measured": 6.328271240363392e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.372759 TV relative primal-dual gap",
+            "measured": 5.987165376834128e-11,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight0.372759 TV stationarity",
+            "measured": 2.2537527399890678e-14,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight1 TV relative primal-dual gap",
+            "measured": 4.1622114796511424e-12,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight1 TV stationarity",
+            "measured": 3.6637359812630166e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight2.6827 TV relative primal-dual gap",
+            "measured": 6.354599035775031e-13,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight2.6827 TV stationarity",
+            "measured": 1.5543122344752192e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight7.19686 TV relative primal-dual gap",
+            "measured": 1.7214946652698894e-12,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight7.19686 TV stationarity",
+            "measured": 5.551115123125783e-15,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight19.307 TV relative primal-dual gap",
+            "measured": 1.0438960947755602e-12,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight19.307 TV stationarity",
+            "measured": 1.0524914273446484e-12,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight51.7947 TV relative primal-dual gap",
+            "measured": 5.27622062776485e-12,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight51.7947 TV stationarity",
+            "measured": 2.0261570199409107e-14,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight138.95 TV relative primal-dual gap",
+            "measured": 5.47217529611005e-13,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight138.95 TV stationarity",
+            "measured": 4.8627768478581856e-14,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight372.759 TV relative primal-dual gap",
+            "measured": 6.455966960062558e-09,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight372.759 TV stationarity",
+            "measured": 2.3936408410918375e-13,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight1000 TV relative primal-dual gap",
+            "measured": 4.3792950079211196e-07,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "weight1000 TV stationarity",
+            "measured": 1.238231739364437e-12,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "book TV budget10.0 primal-dual gap",
+            "measured": 3.137678561415669e-09,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          {
+            "name": "book TV budget10.0 attained target",
+            "measured": 6.111893213756048e-09,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          {
+            "name": "book TV budget8.0 primal-dual gap",
+            "measured": 1.5454464374897725e-09,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          {
+            "name": "book TV budget8.0 attained target",
+            "measured": 1.9884556223814798e-09,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          {
+            "name": "book TV budget5.0 primal-dual gap",
+            "measured": 1.3119887398715946e-09,
+            "tolerance": 1e-05,
+            "passed": true
+          },
+          {
+            "name": "book TV budget5.0 attained target",
+            "measured": 2.8169466759209172e-11,
+            "tolerance": 1e-05,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_6_11/quadratic_tradeoff.png",
+        "artifacts/examples/fig_6_11/tv_reconstructions.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_signals.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "New PCG64 seed611 replaces original unseeded noise; the 2000-point signal and noise standard deviation0.1 follow the companion. The book reconstructions are separately solved at exact TV budgets10,8,5. The companion15-point weight sweep and nearest-grid20,8,5 comparisons are also retained, clearly separate from the book targets."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json",
+      "code_sha256": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+      "results_sha256": "7b88e997cb24021301fdf20464a0cee822f0d58a06ba8baccbc1102c127f09dd"
+    },
+    {
+      "id": "fig_6_2",
+      "title": "Comparing four residual penalties",
+      "solution_path": "docs/examples/fig_6_2.md",
+      "code_path": "examples/application_signals.py",
+      "results_path": "artifacts/examples/fig_6_2/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "cf8f8f12eb92dd590b34863feaddb0b67491118d7176d7fe279712e06e79495b",
+      "reproduction_basis": "On a new100-by-30 PCG64 instance, minimize four residual losses: absolute, squared, deadzone max(|r|−0.5,0), and logarithmic −log(1−r²). Scale the shared response so x=0 is strictly in the barrier domain. Compare four residual histograms. Independent HiGHS LPs check the piecewise-linear losses; normal equations check least squares; analytic-gradient BFGS checks the barrier objective. The old CVXOPT least-squares branch accidentally solves with a zero right-hand side; this implementation solves the actual stated A x+b problem.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_signals.py fig_6_2; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "absolute independent HiGHS objective",
+            "measured": 1.8286883118889818e-10,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "quadratic normal equations",
+            "measured": 3.9968028886505635e-15,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "quadratic least-squares coefficients",
+            "measured": 1.1449174941446927e-16,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "deadzone independent HiGHS objective",
+            "measured": 0.0,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "barrier versus independent BFGS",
+            "measured": 3.552713678800501e-15,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "barrier residual domain",
+            "measured": 0.0,
+            "tolerance": 0,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_6_2/penalty_histograms.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_signals.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "New PCG64 seed602 100-by-30 instance. Common b is scaled by 1/(1.1 max|b|), making x=0 strictly feasible for the logarithmic loss. This follows the CVXOPT input convention; its source explicitly says its own data differ from the book. Unlike the old CVXOPT least-squares branch, the right-hand side is actually -b rather than a zero vector."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json",
+      "code_sha256": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+      "results_sha256": "acdefca02e330233789b96ae85169eb2a25f8997d7465f2dc51cfbc7029152ec"
+    },
+    {
+      "id": "fig_6_21",
+      "title": "Gabor basis pursuit and time-frequency recovery",
+      "solution_path": "docs/examples/fig_6_21.md",
+      "code_path": "examples/application_basis.py",
+      "results_path": "artifacts/examples/fig_6_21/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "537f0987c5bdda592d864753d1f58da5634e865859e2bba49da0165ff5662439",
+      "reproduction_basis": "Build the full501-by-30561 Gabor dictionary and minimize ||Ax−y||²+||x||₁. An active-column strategy is only a computational device: every iteration computes all30561 dual correlations, and termination requires a valid full-dictionary primal-dual gap. Refit least squares on coefficients exceeding1e−5 and report count and relative squared error. Execute the CVX endpoint grid with0.001 tail truncation, CVXOPT k/501 untruncated grid, and the book’s literal0.005k grid ending at2.5. Plot dictionary examples, signals, residuals and selected time-frequency atoms separately for all three conventions.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basis.py fig_6_21; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "CVX_endpoint_grid full-dictionary primal-dual gap",
+            "measured": 2.0474502093748015e-09,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "CVX_endpoint_grid refit normal equations",
+            "measured": 7.973878718772753e-14,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "CVXOPT_k_over_501 full-dictionary primal-dual gap",
+            "measured": 1.1495746576883903e-09,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "CVXOPT_k_over_501 refit normal equations",
+            "measured": 1.0112911359852684e-13,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "book_literal_0.005_grid full-dictionary primal-dual gap",
+            "measured": 3.0173907816788414e-09,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "book_literal_0.005_grid refit normal equations",
+            "measured": 1.9865402725582904e-14,
+            "tolerance": 1e-07,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_6_21/CVXOPT_k_over_501.png",
+        "artifacts/examples/fig_6_21/CVX_endpoint_grid.png",
+        "artifacts/examples/fig_6_21/book_literal_0.005_grid.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_basis.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "The text says501 equally spaced samples on[0,1], but prints0.005k, whose endpoint is2.5. CVX usesk/500 and removes Gaussian tails below0.001. CVXOPT usesk/501 without truncation. All three conventions are executed and reported separately.",
+        "The full dictionary has30561 columns. Active-column optimization is accepted only after a full-dictionary dual certificate; this is not a reduced-dictionary substitute. The l1 optimum is followed by least-squares refitting on coefficients exceeding1e-5, matching the source workflow.",
+        "The book reports42 selected atoms and relative squared error2.6e-4. Those are comparison benchmarks; source ambiguities and solver-sensitive support thresholds preclude silently asserting that every convention must recover them."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json",
+      "code_sha256": "b754f9476a03a99592ebb71879bd7a5937162f32f13ef1b043046bd746e1c787",
+      "results_sha256": "a0a0c1a8780ac1b6db5b92587c5218ec39248d6702e9f44c4516856a7c03edbc"
+    },
+    {
+      "id": "fig_6_24",
+      "title": "Convex least-squares function fitting",
+      "solution_path": "docs/examples/fig_6_24.md",
+      "code_path": "examples/application_fitting.py",
+      "results_path": "artifacts/examples/fig_6_24/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "65f962a8a5e006ddcbccb83e0b67084814a64f8dd137c03a6748975e69851b1e",
+      "reproduction_basis": "Choose fitted values z and subgradients g minimizing ||z−y||², subject to z_j≥z_i+g_i(u_j−u_i) for every pair. The reported convex function is max_i{z_i+g_i(t−u_i)}. Independently sort the abscissas and impose nondecreasing adjacent slopes, giving a different QP representation of the same fitted values. Check objective agreement, values and all supporting-hyperplane inequalities.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_fitting.py fig_6_24; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "support feasibility",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "objective versus independent monotone-slope formulation",
+            "measured": 5.0663473416534544e-11,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "fit versus monotone-slope formulation",
+            "measured": 6.65324406678991e-10,
+            "tolerance": 2e-05,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_6_24/convex_fit.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/cvxfit.json",
+        "data/worked_examples/cvxfit.provenance.json",
+        "examples/application_fitting.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "e600554b29e9a199d2ad82092d8cef6717bf99cef163da2d0d8315e85e15ee0d"
+    },
+    {
+      "id": "fig_6_8",
+      "title": "Quadratic signal smoothing",
+      "solution_path": "docs/examples/fig_6_8.md",
+      "code_path": "examples/application_signals.py",
+      "results_path": "artifacts/examples/fig_6_8/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "2b47b91f91a4d9f16e945de32bf646671593cfb9c66024a2dd25c344b8c9670f",
+      "reproduction_basis": "Generate the published4000-point oscillatory signal with new Gaussian noise of standard deviation0.05. Solve min||x−y||²+λ||Dx||² for fifty log-spaced weights using the exact symmetric tridiagonal normal system. Find three weights whose residual norms equal8,3,1 and independently check each reconstruction with a convex QP. Plot original/noisy signals, the complete trade-off and all three reconstructions. The new seed is fully recorded and does not claim MATLAB-RNG equivalence.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_signals.py fig_6_8; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "reconstruction1 tridiagonal versus QP",
+            "measured": 1.840194663316197e-13,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "reconstruction2 tridiagonal versus QP",
+            "measured": 4.6074255521944e-15,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "reconstruction3 tridiagonal versus QP",
+            "measured": 2.220446049250313e-16,
+            "tolerance": 2e-06,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_6_8/quadratic_smoothing.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_signals.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "New PCG64 seed608 noise replaces the unpublished MATLAB realization. Formula, length4000 and noise standard deviation0.05 match the source. Exact target residuals8,3,1 are found by a scalar root instead of picking the closest point on the coarse trade-off grid."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json",
+      "code_sha256": "e75b3ab4c983e080fec73442fb449f66fe092801a91ef5beb51e5edbb5ddac48",
+      "results_sha256": "d4c8b614fa7fe5f1326a7e6998fd47531341f6ec831c52cdb7b114b03e4ae1fc"
+    },
+    {
+      "id": "fig_7_1",
+      "title": "Logistic maximum-likelihood regression",
+      "solution_path": "docs/examples/fig_7_1.md",
+      "code_path": "examples/application_statistics.py",
+      "results_path": "artifacts/examples/fig_7_1/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "1f965141d7a7b3aa81068076a9be64482c8e126cbb500649fb62e0d12b4652f9",
+      "reproduction_basis": "Fit logit probability sigmoid(au+b) by minimizing Σ log(1+exp(au_i+b))−y_i(au_i+b). Stable log-add-exp arithmetic avoids overflow. Compare the exponential-cone formulation with an independent Newton trust-region method using the exact gradient and Hessian. The published input has 100 observations, consistent with both official scripts; the earlier inventory statement of 50 was incorrect.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_statistics.py fig_7_1; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "independent Newton versus exponential-cone objective",
+            "measured": 6.252776074688882e-13,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "likelihood gradient",
+            "measured": 1.0835776720341528e-13,
+            "tolerance": 1e-07,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_7_1/logistic.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/logreg.json",
+        "data/worked_examples/logreg.provenance.json",
+        "examples/application_statistics.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "The data file and both official scripts contain 100 observations. The earlier catalog count of 50 was incorrect."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json",
+      "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+      "results_sha256": "f90e91869616dbf9b7da7bd856ce218b26fa8cf1b5de573cdb2fe0d353a7198a"
+    },
+    {
+      "id": "fig_7_5",
+      "title": "Chebyshev bounds for symbol detection",
+      "solution_path": "docs/examples/fig_7_5.md",
+      "code_path": "examples/application_probability.py",
+      "results_path": "artifacts/examples/fig_7_5/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "b30db689b343703586ff7bb4ba812a7a798c7e7a621d84c5d17b66d2e92bdb53",
+      "reproduction_basis": "Use the six published Voronoi vertices to recover all seven constellation symbols. For each of the first three symbols and151 noise levels, minimize E[q(X)] over nonnegative quadratic majorants of the outside-cell indicator. Semidefinite constraints implement the halfspace S-lemma. The lower detection bound is1−E[q(X)]. At unit variance, dual PSD matrices recover an extremal atomic distribution; its total mass, zero mean and identity covariance are checked independently. Plot the constellation, atoms, quadratic level set and all three bound curves.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_probability.py fig_7_5; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "printed sigma=1 benchmark",
+            "measured": 3.809521690659179e-05,
+            "tolerance": 5e-05,
+            "passed": true
+          },
+          {
+            "name": "all SDP feasibility",
+            "measured": 7.820874724610342e-10,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "dual mass/mean/covariance matrix",
+            "measured": 8.19135870244736e-11,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "atomic mean",
+            "measured": 5.104114863159833e-11,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "atomic covariance",
+            "measured": 2.0963863978096242e-10,
+            "tolerance": 2e-05,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_7_5/chebyshev_bounds.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_probability.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "Extremal outside atoms can lie exactly on Voronoi boundaries. The strict/open-cell worst-case probability is the limiting distribution under arbitrarily small outward perturbations; a tie-breaking convention should not be mistaken for a discrepancy in the moment bound."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json",
+      "code_sha256": "d05e453a3b5a565ba2bc85772bd39e92433ceed39bc83b554d3dbabe4b8fc0ae",
+      "results_sha256": "a997abd5d023668e59c169300555058ac8a07e55d8aaf13e02db6b85f048b058"
+    },
+    {
+      "id": "fig_7_8",
+      "title": "Chernoff and Monte Carlo detection bounds",
+      "solution_path": "docs/examples/fig_7_8.md",
+      "code_path": "examples/application_probability.py",
+      "results_path": "artifacts/examples/fig_7_8/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "b45f7456c485b774eb44f86cb018acc55c9f5addc2a7994266c8fdc3974f8ca8",
+      "reproduction_basis": "Project the origin onto each competing Voronoi region. If its squared distance is dᵢ², the Gaussian Chernoff union bound gives detection probability at least1−Σexp(−dᵢ²/(2σ²)). Independently verify all six projection QPs with SciPy. Run100000 new standard-Gaussian draws across201 noise levels, using common random numbers; display pointwise95% Wilson intervals. Independent one-dimensional Gaussian quadrature at eleven noise levels checks the simulation and verifies the deterministic bounds.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_probability.py fig_7_8; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "region1 projection versus SLSQP",
+            "measured": 6.257216966787382e-13,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "region2 projection versus SLSQP",
+            "measured": 1.6579848605147163e-09,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "region3 projection versus SLSQP",
+            "measured": 3.299582829185965e-10,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "region4 projection versus SLSQP",
+            "measured": 9.706457859692819e-12,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "region5 projection versus SLSQP",
+            "measured": 8.905320925123306e-11,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "region6 projection versus SLSQP",
+            "measured": 2.885824912368662e-11,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "Monte Carlo versus independent Gaussian quadrature (six sigma)",
+            "measured": 0.0,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "Chernoff lower bounds below exact Gaussian probability",
+            "measured": 0.0,
+            "tolerance": 1e-09,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_7_8/chernoff_monte_carlo.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_probability.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "The deterministic bounds use the published constellation. A new PCG64 seed708 Gaussian sample is used, with common random numbers across noise levels and pointwise uncertainty intervals. Original Monte Carlo samples were not published."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json",
+      "code_sha256": "d05e453a3b5a565ba2bc85772bd39e92433ceed39bc83b554d3dbabe4b8fc0ae",
+      "results_sha256": "9a781f5459f0103800b070647ae8d230cf72327eac798a603adf9fac4c17cd22"
+    },
+    {
+      "id": "fig_7_9",
+      "title": "D-, E- and A-optimal experiment design",
+      "solution_path": "docs/examples/fig_7_9.md",
+      "code_path": "examples/application_statistics.py",
+      "results_path": "artifacts/examples/fig_7_9/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "aa67d6520d12cf9f4b72ed822da941bdd5cb3c9160793b2c3f1ab5063b0dd8be",
+      "reproduction_basis": "For the 20 published candidate vectors form information M=Σw_i v_i v_i^T on the simplex. D design maximizes log det M, E design maximizes its smallest eigenvalue, and A design minimizes tr(M⁻¹). Independent constrained SciPy objectives check all three solutions. The relevant dual quadratic forms give enclosing ellipsoids; direct containment inequalities are verified. Covariance M⁻¹ yields the 90% Gaussian confidence ellipsoids using the two-dimensional χ² quantile, compared with uniform allocation.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_statistics.py fig_7_9; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "D versus SLSQP objective",
+            "measured": 4.878653481199535e-09,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "D dual ellipsoid containment",
+            "measured": 5.7298352729162616e-08,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "E versus SLSQP objective",
+            "measured": 1.1374907682437652e-09,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "E dual ellipsoid containment",
+            "measured": 2.6865176749879538e-11,
+            "tolerance": 2e-05,
+            "passed": true
+          },
+          {
+            "name": "A versus SLSQP objective",
+            "measured": 9.784939525303571e-11,
+            "tolerance": 2e-06,
+            "passed": true
+          },
+          {
+            "name": "A dual ellipsoid containment",
+            "measured": 5.258445231803854e-06,
+            "tolerance": 2e-05,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_7_9/confidence_ellipsoids.png",
+        "artifacts/examples/fig_7_9/design_dual_ellipsoids.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/expdesign.json",
+        "data/worked_examples/expdesign.provenance.json",
+        "examples/application_statistics.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "Official candidate coordinates are rounded to four decimal places; optimal weights should be compared at book precision."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json",
+      "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+      "results_sha256": "56407e368b2cc07732711024538a83bc0f68beef36b201d5395028b4b2cee5c6"
+    },
+    {
+      "id": "fig_8_10",
+      "title": "Approximate linear classification comparison",
+      "solution_path": "docs/examples/fig_8_10.md",
+      "code_path": "examples/application_geometry.py",
+      "results_path": "artifacts/examples/fig_8_10/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "6b337227db8edf39222547f80a134225171cb1da97fac7225b5715f3272de3a1",
+      "reproduction_basis": "Compare sum of hinge slacks, ||a||₂+0.1 times hinge slacks, and logistic negative log-likelihood on the same two published fifty-point classes. The margin is yᵢ(aᵀxᵢ−b). Independent dual optimization verifies both hinge classifiers; the logistic gradient certifies its optimum. Misclassifications have negative margin and correctly classified points strictly inside the slab have margin in (0,1), excluding a 1e−6 boundary tolerance. The verified companion result has fourteen such SVM points, while the book caption says fifteen; this discrepancy is explicit and prevents an exact-output-match claim.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py fig_8_10; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "LP_slack independent dual gap",
+            "measured": 1.4364269773636806e-09,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "LP_slack objective re-evaluation",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "SVM independent dual gap",
+            "measured": 8.121481265277453e-11,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "SVM objective re-evaluation",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "logistic gradient",
+            "measured": 8.169851462014321e-09,
+            "tolerance": 0.0001,
+            "passed": true
+          },
+          {
+            "name": "logistic objective re-evaluation",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "printed misclassification counts",
+            "measured": 0.0,
+            "tolerance": 0,
+            "passed": true
+          },
+          {
+            "name": "verified companion correctly-classified slab counts",
+            "measured": 0.0,
+            "tolerance": 0,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_8_10/classifiers.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "data/worked_examples/linsep.json",
+        "data/worked_examples/linsep.provenance.json",
+        "examples/application_geometry.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "Book reports correctly classified strict-slab counts 4/15/3; this published companion instance gives 4/14/3 at 1e-6 boundary tolerance. Misclassification counts match 1/3/2. Boundary points are reported separately from strict interior points; no count is silently forced to the book."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "016db3d2043bdd735b9b071f6b2bf48482c4609356eba0708cd0763b6050ecca"
+    },
+    {
+      "id": "fig_8_13",
+      "title": "Quadratic ellipsoidal discrimination",
+      "solution_path": "docs/examples/fig_8_13.md",
+      "code_path": "examples/application_classification_methods.py",
+      "results_path": "artifacts/examples/fig_8_13/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "29534a74c4f2bf610c4434cbb1d9149df54665325a0ad8c529bc26635e4580b2",
+      "reproduction_basis": "Generate fifty inside and fifty outside points using the published radial ranges and linear transform with new PCG64 randomness. Find a convex quadratic q(x)=xᵀPx+qᵀx+r whose values are at most−1 on the inner class and at least1 on the outer class, with P≽I. Trace minimization selects one feasible ellipse. Check all inequalities, recover its center and principal axes, and independently construct a separating quadratic from the known inverse transform and radial gap.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_classification_methods.py fig_8_13; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "SDP feasibility",
+            "measured": 9.891643060200295e-12,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "independent radial separator inner inequality",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "independent radial separator outer inequality",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_8_13/quadratic_separator.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_classification_methods.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "New PCG64 seed813 replaces the legacy MATLAB random streams. The 50+50 points retain the stated inside/outside radial construction and transform. A trace objective selects one valid ellipse from the feasible set."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json",
+      "code_sha256": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+      "results_sha256": "453e80bf136b8efcee262f3d554ae4142da279eb9d1341d780a4cb457a8550dd"
+    },
+    {
+      "id": "fig_8_14",
+      "title": "Minimum-degree polynomial discrimination",
+      "solution_path": "docs/examples/fig_8_14.md",
+      "code_path": "examples/application_classification_methods.py",
+      "results_path": "artifacts/examples/fig_8_14/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "e459aa38bad5e6fa3d6d00b934ca2d4dee09bccfd697eb7ea42f568ee92c8942",
+      "reproduction_basis": "Generate the source’s 100/120 initial radial points and exchanged wedge using new seed0. For each degree one through four, construct all bivariate monomials and solve the signed-margin feasibility LP. Degree-three infeasibility is independently certified by nonnegative weights summing to one whose weighted signed feature rows sum to zero, a Farkas witness. Degree four admits a separator; minimize its coefficient norm to select a stable witness and plot its zero contour. The seed selection and unsuccessful first trial are disclosed.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_classification_methods.py fig_8_14; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "degree 1 independent Farkas certificate",
+            "measured": 1.470178145890344e-16,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "degree 2 independent Farkas certificate",
+            "measured": 1.1278153704155523e-15,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "degree 3 independent Farkas certificate",
+            "measured": 1.749685465957107e-15,
+            "tolerance": 1e-07,
+            "passed": true
+          },
+          {
+            "name": "degree 4 separator feasibility",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_8_14/quartic_separator.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_classification_methods.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "PCG64 seed0 replaces the original MATLAB uniform generator. The same 100/120 initial sizes, radial construction and exchanged wedge are retained. Infeasibility of degrees1–3 is certified by Farkas witnesses, not inferred from a failed numerical solve. Initial trial seed814 admitted a cubic separator; seed0 was selected from a disclosed generator check to demonstrate the stated cubic-versus-quartic phenomenon."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json",
+      "code_sha256": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+      "results_sha256": "0191b6b4b5a0b414ae633ebccdfd7850bdd6dceff6c082f763b737c81537eb39"
+    },
+    {
+      "id": "fig_8_3",
+      "title": "Minimum-volume enclosing and maximum-volume inscribed ellipsoids",
+      "solution_path": "docs/examples/fig_8_3.md",
+      "code_path": "examples/application_geometry.py",
+      "results_path": "artifacts/examples/fig_8_3/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "97da607e88d9a8585db5a8f4efdf41174f7655bc2e615678af8b90fa52a54302",
+      "reproduction_basis": "The enclosing ellipse is {x:||Ax+b||₂≤1}; minimize −log det A with each polygon vertex inside. For the inscribed ellipse {c+Bu:||u||₂≤1}, maximize log det B subject to aᵢᵀc+||Baᵢ||₂≤bᵢ. The same six published vertices define both problems. Independently check the explicit matrix KKT stationarity conditions using returned conic multipliers. Also verify both factor-two containment statements directly: half the enclosing ellipse is inside the polygon, and twice the inscribed ellipse contains every vertex.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py fig_8_3; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "enclosing KKT stationarity",
+            "measured": 7.2733998873851635e-06,
+            "tolerance": 0.0002,
+            "passed": true
+          },
+          {
+            "name": "inscribed KKT stationarity",
+            "measured": 4.6859096965778946e-05,
+            "tolerance": 0.0002,
+            "passed": true
+          },
+          {
+            "name": "enclosing feasibility",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "inscribed feasibility",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "half-sized enclosing ellipse inside polygon",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "twice-sized inscribed ellipse contains vertices",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_8_3/extremal_ellipsoids.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_geometry.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "37c3b4f71cff19568a484cacb0a9cf8416b42c3049cfef553e7b902ea526c1e8"
+    },
+    {
+      "id": "fig_8_5",
+      "title": "Three centers of a polyhedron",
+      "solution_path": "docs/examples/fig_8_5.md",
+      "code_path": "examples/application_geometry.py",
+      "results_path": "artifacts/examples/fig_8_5/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "a79d3a73a046d9e9f54cbea8300189d07b40eb9ca6de781b84e3794366d7d7ab",
+      "reproduction_basis": "The Chebyshev center solves the LP maximizing radius with aᵢᵀc+r||aᵢ||≤bᵢ. The maximum-volume center is the center of the log-determinant inscribed ellipse. The analytic center minimizes −Σlog(bᵢ−aᵢᵀx); a separate exact-gradient/Hessian trust-region solve agrees with the convex exponential-cone formulation. Plot the three centers, barrier contours and the local Hessian ellipse. LP duality and all center feasibility conditions are checked.",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py fig_8_5; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "enclosing KKT stationarity",
+            "measured": 7.2733998873851635e-06,
+            "tolerance": 0.0002,
+            "passed": true
+          },
+          {
+            "name": "inscribed KKT stationarity",
+            "measured": 4.6859096965778946e-05,
+            "tolerance": 0.0002,
+            "passed": true
+          },
+          {
+            "name": "enclosing feasibility",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "inscribed feasibility",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "half-sized enclosing ellipse inside polygon",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "twice-sized inscribed ellipse contains vertices",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "analytic center convex versus Newton objective",
+            "measured": 5.941913627793838e-13,
+            "tolerance": 1e-08,
+            "passed": true
+          },
+          {
+            "name": "analytic center gradient",
+            "measured": 1.3988317845447072e-13,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "Chebyshev LP dual gap",
+            "measured": 0.0,
+            "tolerance": 1e-08,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_8_5/centers.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_geometry.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "89f64819c163a16dd4361705cdece0a4253a278b35cccb0edeb2a32dc228814b"
+    },
+    {
+      "id": "fig_8_8",
+      "title": "Linear and maximum-margin discrimination",
+      "solution_path": "docs/examples/fig_8_8.md",
+      "code_path": "examples/application_classification_methods.py",
+      "results_path": "artifacts/examples/fig_8_8/results.json",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "a0367ef97001655c7dfc8583b5987b74fd635c885e4bcce882e97b0d1748b49c",
+      "reproduction_basis": "Generate new 10-point and 6-point Gaussian clouds using the companion dimensions and transform, with explicitly identified PCG64 seed0. Solve a feasible margin-one separation and independently maximize slab half-width under ||a||≤1. A third formulation minimizes the distance between the two convex hulls; its objective must equal the full slab width. Seed selection is disclosed because not every new Gaussian realization is separable.",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 python examples/application_classification_methods.py fig_8_8; python -m pytest tests/test_worked_applications.py -q",
+        "test_result": "passed executed embedded mathematical/independent-solver assertions",
+        "independent_checks": [
+          {
+            "name": "minimum-norm versus max-margin formulation",
+            "measured": 6.881473169073615e-11,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "convex-hull distance duality",
+            "measured": 4.5501202805553476e-10,
+            "tolerance": 1e-06,
+            "passed": true
+          },
+          {
+            "name": "margin feasibility",
+            "measured": 0.0,
+            "tolerance": 1e-06,
+            "passed": true
+          }
+        ]
+      },
+      "supporting_paths": [
+        "artifacts/examples/fig_8_8/linear_separators.png",
+        "data/worked_examples/LICENSE-CVXOPT-DATA.txt",
+        "data/worked_examples/README.md",
+        "examples/application_classification_methods.py",
+        "examples/application_support.py",
+        "scripts/prepare_worked_example_data.py",
+        "scripts/render_application_studies.py",
+        "src/convex_solutions/io.py",
+        "src/convex_solutions/numerics.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_applications.py"
+      ],
+      "notes": [
+        "Uses NumPy PCG64 seed 0 with the official point-cloud dimensions, Gaussian construction and linear transform. This is not MATLAB randn(state,3), and the exact original points/figure are not claimed. Seeds3,808,8 were checked and gave nonseparable replacement instances; seed0 was selected to demonstrate the prescribed separable case."
+      ],
+      "author": "reproduce_application_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json",
+      "code_sha256": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+      "results_sha256": "b70bdd2b82bf9f191039338869e36ea68c549b0c16ff2b57eff806f1a35a7b36"
+    },
+    {
+      "id": "fig_9_11",
+      "title": "Steepest descent under two quadratic norms",
+      "solution_path": "docs/examples/fig_9_11.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_11/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_11/convergence.png",
+        "artifacts/examples/fig_9_11/input_manifest.json",
+        "artifacts/examples/fig_9_11/results.json",
+        "artifacts/examples/fig_9_11/trajectories.png",
+        "artifacts/examples/fig_9_11/transformed.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "fa14d41b6867688e3d09ff062cdd192f313a44a7dbca988baf5f42c890d57696",
+      "reproduction_basis": "self_contained_exact_instance",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The exact optimum is derived by symmetry: x2 = 0 and exp(2 x1) = 1/2. It provides an independent benchmark, rather than taking the last iterate as the optimum.",
+        "The companion approximates exact line search by bisection with a 0.001 interval width and caps backtracking at ten reductions. This implementation solves the directional derivative to numerical precision and requires the Armijo inequality before every accepted step. Thus the same instance and methods are reproduced, without claiming pixel-identical paths under the companion stopping approximations."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "625214de9c0d0b2c6322e2bac48a174a4766a670d6d7e3e4c34b92d8b728fd7d"
+    },
+    {
+      "id": "fig_9_19",
+      "title": "Newton descent on the two-variable exponential objective",
+      "solution_path": "docs/examples/fig_9_19.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_19/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_19/convergence.png",
+        "artifacts/examples/fig_9_19/input_manifest.json",
+        "artifacts/examples/fig_9_19/results.json",
+        "artifacts/examples/fig_9_19/trajectories.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "1974c9e27e5e1e9745c0a4a19713a9e1a1992538eabb23cdfa68628ddee2cf23",
+      "reproduction_basis": "self_contained_exact_instance",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The exact optimum is derived by symmetry: x2 = 0 and exp(2 x1) = 1/2. It provides an independent benchmark, rather than taking the last iterate as the optimum.",
+        "The companion approximates exact line search by bisection with a 0.001 interval width and caps backtracking at ten reductions. This implementation solves the directional derivative to numerical precision and requires the Armijo inequality before every accepted step. Thus the same instance and methods are reproduced, without claiming pixel-identical paths under the companion stopping approximations."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "221fdce8e6ab153ece72a01217f774cfb4ab66dd36d78cae2f8948cd6a0c95d3"
+    },
+    {
+      "id": "fig_9_2",
+      "title": "Gradient descent on an ill-conditioned quadratic",
+      "solution_path": "docs/examples/fig_9_2.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_2/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_2/convergence.png",
+        "artifacts/examples/fig_9_2/input_manifest.json",
+        "artifacts/examples/fig_9_2/results.json",
+        "artifacts/examples/fig_9_2/trajectories.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "636182ce5703cc81f96ae455ed0426dc7f5ba944fa83f5139a1af688d2f571ca",
+      "reproduction_basis": "self_contained_exact_instance",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The companion contour code omits the objective factor 1/2. The book normalization is used here; this does not change the exact-search iterates."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "601a537fe0de72a5296cf2251275c4741060aebad79cece870b6b0fb79a76659"
+    },
+    {
+      "id": "fig_9_21",
+      "title": "Newton convergence and step lengths in 100 variables",
+      "solution_path": "docs/examples/fig_9_21.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_21/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_21/convergence.png",
+        "artifacts/examples/fig_9_21/input_manifest.json",
+        "artifacts/examples/fig_9_21/results.json",
+        "artifacts/examples/fig_9_21/steps.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "3850e0983bfa778f80b99d7acab27b9348ebe8a2a8d5a7f28162de1ad27d4a28",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "Reference-data substitution: b is uniform (0.01,1), rather than the companion uniform (0,1). Domain tests require strictly positive slacks; the companion permits a small negative slack in an intermediate test, which is unsafe for real logarithms."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "eebe95374a3771efe5de76a40f48b9edb7c14a390dcc6f61340ed5e12e103b5c"
+    },
+    {
+      "id": "fig_9_23",
+      "title": "Sparse Newton solve with 10000 variables",
+      "solution_path": "docs/examples/fig_9_23.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_23/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_23/convergence.png",
+        "artifacts/examples/fig_9_23/input_manifest.json",
+        "artifacts/examples/fig_9_23/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "3285225363d18efaa35f0b1f4f7431b265bd407c0bfcae86720bf2e0c8d006c0",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "Target choice: the companion has 100000 total rows including 20000 box rows; the book states 100000 additional log terms. This implementation follows the source dimensions and explicitly does not certify the larger book interpretation. The replacement b distribution is uniform (0.001,1)."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "9d4c09bad2e5e7f5edd1f1a5728418a0873a0daf1bb372afebe15f79f006f9d6"
+    },
+    {
+      "id": "fig_9_25",
+      "title": "Newton iteration counts for self-concordant functions",
+      "solution_path": "docs/examples/fig_9_25.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_25/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_25/family1_problem1.npz",
+        "artifacts/examples/fig_9_25/family1_problem2.npz",
+        "artifacts/examples/fig_9_25/family1_problem3.npz",
+        "artifacts/examples/fig_9_25/family1_problem4.npz",
+        "artifacts/examples/fig_9_25/family1_problem5.npz",
+        "artifacts/examples/fig_9_25/input_manifest.json",
+        "artifacts/examples/fig_9_25/results.json",
+        "artifacts/examples/fig_9_25/self_concordant.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "e48b03d7c67d750395b54147e543e789a738fe504585cfa6fac43c5d8385b0c3",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The source uses MATLAB v4 seed semantics, unlike the state-based figures elsewhere. New PCG64 arrays are saved explicitly. The center rejection threshold is squared decrement 1e-12 after at most 20 steps; the source uses decrement 1e-8. The replacement right-hand sides use uniform (0.001,1). Rejection is recorded, rather than conflating nonconvergence in 20 steps with a mathematical proof of unboundedness."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "c0e9123b41dca1475d485795dcdcebe35f8da6bb2d4c3b1f7421336028234966"
+    },
+    {
+      "id": "fig_9_3",
+      "title": "Gradient descent on a two-variable exponential objective",
+      "solution_path": "docs/examples/fig_9_3.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_3/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_3/convergence.png",
+        "artifacts/examples/fig_9_3/input_manifest.json",
+        "artifacts/examples/fig_9_3/results.json",
+        "artifacts/examples/fig_9_3/trajectories.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "38f991c66b76279f82721755f4ec42a94aa0da31a36e7021077524a108e83fe8",
+      "reproduction_basis": "self_contained_exact_instance",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The exact optimum is derived by symmetry: x2 = 0 and exp(2 x1) = 1/2. It provides an independent benchmark, rather than taking the last iterate as the optimum.",
+        "The companion approximates exact line search by bisection with a 0.001 interval width and caps backtracking at ten reductions. This implementation solves the directional derivative to numerical precision and requires the Armijo inequality before every accepted step. Thus the same instance and methods are reproduced, without claiming pixel-identical paths under the companion stopping approximations."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "c33d302975b738cccf92261a80d0af49aff304e300abae7181c3903d6097f7cb"
+    },
+    {
+      "id": "fig_9_6",
+      "title": "Gradient descent for a 100-variable log-barrier objective",
+      "solution_path": "docs/examples/fig_9_6.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_6/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_6/convergence.png",
+        "artifacts/examples/fig_9_6/input_manifest.json",
+        "artifacts/examples/fig_9_6/results.json",
+        "artifacts/examples/fig_9_6/steps.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "2455f9d1da8970240bc03f87d5771a3713c72ba569d7aba7c2cf9fc8d2de20e8",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "Reference-data substitution: b is uniform (0.01,1), rather than the companion uniform (0,1). Domain tests require strictly positive slacks; the companion permits a small negative slack in an intermediate test, which is unsafe for real logarithms."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "114bfe39d64185a24be26f5593f094fa9435c52d6b0b1c7ea9823041febf9813"
+    },
+    {
+      "id": "fig_9_7",
+      "title": "Conditioning and gradient-method convergence",
+      "solution_path": "docs/examples/fig_9_7.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_7/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_7/conditioning.png",
+        "artifacts/examples/fig_9_7/input_manifest.json",
+        "artifacts/examples/fig_9_7/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "612f43def3198771cdb57c318a59b2af3528bea3486498d93f2c543fe0b2f609",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The source uses a uniform (0,1) right-hand side. This reproducible replacement uses uniform (0.01,1) to avoid accidental near-zero initialization slacks. Unconverged gradient runs are explicitly censored at the published 5000-update cap."
+      ],
+      "author": "algorithm_worked_examples",
+      "status": "verified",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "757cb65730b759e6ed33df5590ad7b8856c43835ee6cb1041767e08e18d1f1e9"
     }
   ],
   "schema_version": 1,

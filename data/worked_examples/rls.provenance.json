@@ -1,0 +1,11 @@
+{
+  "kind": "upstream_numeric_data",
+  "source_url": "https://cvxopt.org/_downloads/ae5082f8c98ecb01b98907b9b0cbea52/rls.bin",
+  "original_filename": "rls.bin",
+  "original_sha256": "b6eb7186d4ee7cbb4abd610edd517aca171d738f988368ffe38ea60357103b1f",
+  "sha256": "092ffd58327bc8ee5b7bfbd7717a393cf03ec33fb21db1fce687b603112ae107",
+  "rights": "CVXOPT data: GPL-3.0-or-later; see LICENSE-CVXOPT-DATA.txt and https://cvxopt.org/copyright.html",
+  "transformations": [
+    "Restricted pickle decoder only allows real cvxopt.base.matrix construction; preserve column-major shape; serialize numeric arrays as JSON."
+  ]
+}

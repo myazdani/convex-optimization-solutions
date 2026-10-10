@@ -1,0 +1,711 @@
+{
+  "summary": {
+    "preferred": 14,
+    "rejected": 21,
+    "unresolved": 5
+  },
+  "baskets": [
+    [
+      0.45,
+      0.96
+    ],
+    [
+      0.21,
+      0.34
+    ],
+    [
+      0.28,
+      0.87
+    ],
+    [
+      0.96,
+      0.03
+    ],
+    [
+      0.08,
+      0.92
+    ],
+    [
+      0.02,
+      0.22
+    ],
+    [
+      0.0,
+      0.39
+    ],
+    [
+      0.26,
+      0.64
+    ],
+    [
+      0.35,
+      0.97
+    ],
+    [
+      0.91,
+      0.78
+    ],
+    [
+      0.12,
+      0.14
+    ],
+    [
+      0.58,
+      0.84
+    ],
+    [
+      0.32,
+      0.73
+    ],
+    [
+      0.49,
+      0.27
+    ],
+    [
+      0.07,
+      0.8
+    ],
+    [
+      0.93,
+      0.87
+    ],
+    [
+      0.44,
+      0.86
+    ],
+    [
+      0.33,
+      0.42
+    ],
+    [
+      0.89,
+      0.9
+    ],
+    [
+      0.49,
+      0.07
+    ],
+    [
+      0.95,
+      0.33
+    ],
+    [
+      0.66,
+      0.26
+    ],
+    [
+      0.95,
+      0.73
+    ],
+    [
+      0.42,
+      0.91
+    ],
+    [
+      0.68,
+      0.2
+    ],
+    [
+      0.87,
+      0.17
+    ],
+    [
+      0.52,
+      0.62
+    ],
+    [
+      0.77,
+      0.63
+    ],
+    [
+      0.02,
+      0.29
+    ],
+    [
+      0.98,
+      0.02
+    ],
+    [
+      0.05,
+      0.79
+    ],
+    [
+      0.79,
+      0.19
+    ],
+    [
+      0.62,
+      0.06
+    ],
+    [
+      0.69,
+      0.1
+    ],
+    [
+      0.69,
+      0.37
+    ],
+    [
+      0.0,
+      0.72
+    ],
+    [
+      0.63,
+      0.04
+    ],
+    [
+      0.04,
+      0.46
+    ],
+    [
+      0.36,
+      0.95
+    ],
+    [
+      0.82,
+      0.67
+    ]
+  ],
+  "utility_order_zero_based": [
+    6,
+    5,
+    28,
+    35,
+    10,
+    37,
+    30,
+    1,
+    19,
+    14,
+    36,
+    32,
+    4,
+    17,
+    33,
+    13,
+    7,
+    29,
+    3,
+    24,
+    21,
+    12,
+    31,
+    2,
+    25,
+    34,
+    26,
+    8,
+    38,
+    16,
+    23,
+    0,
+    20,
+    11,
+    27,
+    39,
+    22,
+    9,
+    18,
+    15
+  ],
+  "bounds": [
+    {
+      "basket": 1,
+      "lower": 13.033557046979855,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 2,
+      "lower": "-infinity",
+      "upper": -23.287677534497664,
+      "classification": "rejected"
+    },
+    {
+      "basket": 3,
+      "lower": "-infinity",
+      "upper": "infinity",
+      "classification": "unresolved"
+    },
+    {
+      "basket": 4,
+      "lower": "-infinity",
+      "upper": -3.6432242112099877,
+      "classification": "rejected"
+    },
+    {
+      "basket": 5,
+      "lower": "-infinity",
+      "upper": -14.806851311953356,
+      "classification": "rejected"
+    },
+    {
+      "basket": 6,
+      "lower": "-infinity",
+      "upper": -40.25451642180916,
+      "classification": "rejected"
+    },
+    {
+      "basket": 7,
+      "lower": "-infinity",
+      "upper": -41.44683608617785,
+      "classification": "rejected"
+    },
+    {
+      "basket": 8,
+      "lower": "-infinity",
+      "upper": -6.318584070796458,
+      "classification": "rejected"
+    },
+    {
+      "basket": 9,
+      "lower": 6.503355704697983,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 10,
+      "lower": 23.604985618408424,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 11,
+      "lower": "-infinity",
+      "upper": -37.18214486394602,
+      "classification": "rejected"
+    },
+    {
+      "basket": 12,
+      "lower": 15.210027635215132,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 13,
+      "lower": "-infinity",
+      "upper": "infinity",
+      "classification": "unresolved"
+    },
+    {
+      "basket": 14,
+      "lower": "-infinity",
+      "upper": -9.255033557046964,
+      "classification": "rejected"
+    },
+    {
+      "basket": 15,
+      "lower": "-infinity",
+      "upper": -19.586301972396853,
+      "classification": "rejected"
+    },
+    {
+      "basket": 16,
+      "lower": 25.604985618408413,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 17,
+      "lower": 11.033557046979855,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 18,
+      "lower": "-infinity",
+      "upper": -11.255033557046971,
+      "classification": "rejected"
+    },
+    {
+      "basket": 19,
+      "lower": 24.604985618408424,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 20,
+      "lower": "-infinity",
+      "upper": -21.76405986801117,
+      "classification": "rejected"
+    },
+    {
+      "basket": 21,
+      "lower": 14.033557046979855,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 22,
+      "lower": "-infinity",
+      "upper": -1.2517708940688959,
+      "classification": "rejected"
+    },
+    {
+      "basket": 23,
+      "lower": 22.604985618408424,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 24,
+      "lower": 12.033557046979855,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 25,
+      "lower": "-infinity",
+      "upper": -2.6432242112099873,
+      "classification": "rejected"
+    },
+    {
+      "basket": 26,
+      "lower": "-infinity",
+      "upper": "infinity",
+      "classification": "unresolved"
+    },
+    {
+      "basket": 27,
+      "lower": 5.503355704697976,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 28,
+      "lower": 16.210027635215134,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 29,
+      "lower": "-infinity",
+      "upper": -39.213314043188866,
+      "classification": "rejected"
+    },
+    {
+      "basket": 30,
+      "lower": "-infinity",
+      "upper": -4.643224211209987,
+      "classification": "rejected"
+    },
+    {
+      "basket": 31,
+      "lower": "-infinity",
+      "upper": -24.28767753449767,
+      "classification": "rejected"
+    },
+    {
+      "basket": 32,
+      "lower": "-infinity",
+      "upper": "infinity",
+      "classification": "unresolved"
+    },
+    {
+      "basket": 33,
+      "lower": "-infinity",
+      "upper": -17.531325802078143,
+      "classification": "rejected"
+    },
+    {
+      "basket": 34,
+      "lower": "-infinity",
+      "upper": -10.255033557046964,
+      "classification": "rejected"
+    },
+    {
+      "basket": 35,
+      "lower": "-infinity",
+      "upper": "infinity",
+      "classification": "unresolved"
+    },
+    {
+      "basket": 36,
+      "lower": "-infinity",
+      "upper": -38.182144863946036,
+      "classification": "rejected"
+    },
+    {
+      "basket": 37,
+      "lower": "-infinity",
+      "upper": -18.54515044317417,
+      "classification": "rejected"
+    },
+    {
+      "basket": 38,
+      "lower": "-infinity",
+      "upper": -28.476197525016143,
+      "classification": "rejected"
+    },
+    {
+      "basket": 39,
+      "lower": 7.503355704697982,
+      "upper": "infinity",
+      "classification": "preferred"
+    },
+    {
+      "basket": 40,
+      "lower": 18.529343187523015,
+      "upper": "infinity",
+      "classification": "preferred"
+    }
+  ],
+  "checks": [
+    {
+      "name": "basket 1, sign 1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 2, sign -1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 4, sign -1: LP dual gap",
+      "measured": 4.440892098500626e-16,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 5, sign -1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 6, sign -1: LP dual gap",
+      "measured": 7.105427357601002e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 7, sign -1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 8, sign -1: LP dual gap",
+      "measured": 8.881784197001252e-16,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 9, sign 1: LP dual gap",
+      "measured": 8.881784197001252e-16,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 10, sign 1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 11, sign -1: LP dual gap",
+      "measured": 7.105427357601002e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 12, sign 1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 14, sign -1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 15, sign -1: LP dual gap",
+      "measured": 7.105427357601002e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 16, sign 1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 17, sign 1: LP dual gap",
+      "measured": 1.7763568394002505e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 18, sign -1: LP dual gap",
+      "measured": 1.7763568394002505e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 19, sign 1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 20, sign -1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 21, sign 1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 22, sign -1: LP dual gap",
+      "measured": 6.661338147750939e-16,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 23, sign 1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 24, sign 1: LP dual gap",
+      "measured": 1.7763568394002505e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 25, sign -1: LP dual gap",
+      "measured": 4.440892098500626e-16,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 27, sign 1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 28, sign 1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 29, sign -1: LP dual gap",
+      "measured": 1.4210854715202004e-14,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 30, sign -1: LP dual gap",
+      "measured": 8.881784197001252e-16,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 31, sign -1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 33, sign -1: LP dual gap",
+      "measured": 3.552713678800501e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 34, sign -1: LP dual gap",
+      "measured": 8.881784197001252e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 36, sign -1: LP dual gap",
+      "measured": 7.105427357601002e-15,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 37, sign -1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 38, sign -1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 39, sign 1: LP dual gap",
+      "measured": 8.881784197001252e-16,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "basket 40, sign 1: LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "printed classification counts",
+      "measured": 0.0,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "preferences.png"
+  ],
+  "id": "example_6_9",
+  "executed_at": "2026-10-10T05:03:37.247917+00:00",
+  "elapsed_seconds": 2.631259587000386,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=355",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/consumerpref.html",
+      "https://cvxopt.org/_downloads/b749d1b815c1a4f3d804af9f1b1b917d/consumerpref.py",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/preference_regions.m"
+    ],
+    "official_data_files": [],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+  "runtime_source_sha256": {
+    "examples/application_statistics.py": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {
+    "data/worked_examples/consumerpref.json": "7ffdaea121e4a4f89cfb705f840bf6ec0611b27f72779984e4b679ef149906f5"
+  },
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_statistics.py example_6_9",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

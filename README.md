@@ -9,9 +9,9 @@ are not reproduced.
 
 ## Start here
 
-1. **[Examples](docs/examples/README.md)**: **2 of 62** numerical worked-example studies reproduced and verified.
+1. **[Examples](docs/examples/README.md)**: **62 of 62** numerical worked-example studies reproduced and verified.
 2. **[Computational exercises](docs/computational-exercises/README.md)**: the **16 already-delivered numerical solutions**, with original derivations, executable code, and actual result tables.
-3. **[All other exercises](docs/other-exercises/README.md)**: **96 of 321** remaining numbered exercises have complete, independently verified solutions; **225 remain open**.
+3. **[All other exercises](docs/other-exercises/README.md)**: **321 of 321** remaining numbered exercises have complete, independently verified solutions; **0 remain open**.
 
 The [canonical category manifest](coverage/catalog.json) accounts for all **337 numbered exercises exactly once** across categories 2 and 3. Worked examples are tracked separately. The [work ledger](coverage/solution_progress.json) records all 399 items and distinguishes active work, independent review, completion, and exact blockers. Inventory coverage is not solution completion.
 

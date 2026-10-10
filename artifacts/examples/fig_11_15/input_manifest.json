@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "id": "fig_11_15",
+  "generator": "PCG64 via pinned NumPy/SciPy; source implementation has explicit seeds and sampling order",
+  "files": {
+    "instance.npz": {
+      "published_binary": true,
+      "bytes": 119287,
+      "arrays": {
+        "A": {
+          "shape": [
+            50,
+            6,
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "8979492e3148c2ce4f9903842fb18805ed11ed11eb100d1b38d7439e17971611"
+        },
+        "b": {
+          "shape": [
+            50,
+            6
+          ],
+          "dtype": "<f8",
+          "sha256": "6745f1cb8fe97b7699e9018c3cf6700fb3e11d4189d2ebc15c206a7170cd401b"
+        },
+        "x0": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "3e896e657924d738c998883273c5223c238fb562ec72f260557ebc977d135226"
+        },
+        "c": {
+          "shape": [
+            50
+          ],
+          "dtype": "<f8",
+          "sha256": "2527b98c0122226340705169517f809194f85ee85204757ed49e58d809baa64e"
+        }
+      }
+    }
+  },
+  "regeneration_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithm_evidence verify fig_11_15",
+  "note": "Published binaries below256KiB are retained. Larger matrices are regenerated and each array is SHA256-checked. Raw numerical scope is unchanged."
+}

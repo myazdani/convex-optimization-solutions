@@ -1,0 +1,879 @@
+{
+  "schema_version": 1,
+  "author": "solve_convexity_exercises",
+  "entries": [
+    {
+      "id": "3.1",
+      "title": "Secant slopes and derivatives of a convex function",
+      "solution_path": "docs/solutions/3.1.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "picture"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1f6814b4827f2e0db29939010468b193488e15ef0c0dbe2b68856fe27b74043d",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.2",
+      "title": "What the two contour diagrams permit",
+      "solution_path": "docs/solutions/3.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
+      "source_checked": true,
+      "subparts": [
+        "first-diagram",
+        "second-diagram"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "67c26c021d99f34ff429a7b9f84264c5e119636e91d826cce767ca8335cdde68",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.3",
+      "title": "Inverse of an increasing convex function",
+      "solution_path": "docs/solutions/3.3.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a9892d70c515b8e097f0116e644c044c62d53b2bdf506d7351db925d709f0492",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.4",
+      "title": "An integral characterization of convexity",
+      "solution_path": "docs/solutions/3.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "source_checked": true,
+      "subparts": [
+        "forward",
+        "converse"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "098bf65f8023abc510684ab5e8d1209d0427c996da3c89a7e3a729234bb71fd5",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.5",
+      "title": "Convexity of a running average",
+      "solution_path": "docs/solutions/3.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7ab92359507f3f98acd8e0c3c9986a76ad0b6275012b3d11f6cfa08e88a0ba13",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.6",
+      "title": "Halfspace, conic, and polyhedral epigraphs",
+      "solution_path": "docs/solutions/3.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "source_checked": true,
+      "subparts": [
+        "halfspace",
+        "convex-cone",
+        "polyhedron"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c554c555cbe626929705752279bf0547a54af3202402c6fba2968e84bb4694cf",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.7",
+      "title": "A globally upper-bounded convex function is constant",
+      "solution_path": "docs/solutions/3.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cf6cd2bf76ba0bd4235cb6dd96896021ae3d2f18f8f0685888796ef3d2e89ec7",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.8",
+      "title": "The Hessian characterization of convexity",
+      "solution_path": "docs/solutions/3.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "source_checked": true,
+      "subparts": [
+        "necessity",
+        "sufficiency"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f34cd33f7e10940d103c9e544d06db4fbfc380ae253ec33669f9075e03ae13d4",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.9",
+      "title": "Convexity after restriction to an affine set",
+      "solution_path": "docs/solutions/3.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e0b33226817b0c77928b2748279360a1b2fb1b58b9e19564de65a6319014adcf",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.10",
+      "title": "Variance alone versus scaled zero-mean noise",
+      "solution_path": "docs/solutions/3.10.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c8ffd7e7231b5b29206fe33511fc59d1629e93e1a4f0b5d6d7e359417e700f06",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.11",
+      "title": "Monotone gradients and a non-gradient monotone map",
+      "solution_path": "docs/solutions/3.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "source_checked": true,
+      "subparts": [
+        "gradient-monotonicity",
+        "converse"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4fe857b46e0e1ad0dd01654df89c34be616eaea15e1c0af63f09005840a529e2",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.12",
+      "title": "An affine function between convex and concave functions",
+      "solution_path": "docs/solutions/3.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1fd283095165c9658ee534e06ab3143b1aee9c45085b2a94b063064956da76b4",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.13",
+      "title": "Nonnegativity and equality of KL divergence",
+      "solution_path": "docs/solutions/3.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "source_checked": true,
+      "subparts": [
+        "nonnegativity",
+        "equality"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d79e5704944e7945829e3d7e9dcf5f15ab253e3d19632573ecf988140b19af8b",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.14",
+      "title": "Convex-concave functions and saddle points",
+      "solution_path": "docs/solutions/3.14.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8d0b9d4ba40f6522a8de590cb7d53303d73c16c03d94d7014ddbfd8403fde699",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.15",
+      "title": "Power and logarithmic utility functions",
+      "solution_path": "docs/solutions/3.15.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "573172ae245a6ffd70979235b59c095b1430900d5e1055c0f2e0e5d11442a30c",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.16",
+      "title": "Convexity and quasiconvexity classifications",
+      "solution_path": "docs/solutions/3.16.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "62cd461469ef6edcf1e44d4df6d06fcbd5f5ce64b0b2f5d76f1e9b811523b57f",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.17",
+      "title": "Concavity of power means below order one",
+      "solution_path": "docs/solutions/3.17.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1ede657b1c68b14c74241040b8930369bd2074c6a5333468a0de38beaafc113e",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.18",
+      "title": "Trace inverse and determinant-root curvature",
+      "solution_path": "docs/solutions/3.18.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "70f4011300e3b1f480440edce4f3cf1742645be9b54ffbebb1e171e2a1d976f8",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.19",
+      "title": "Ordered weighted sums and an integrated log barrier",
+      "solution_path": "docs/solutions/3.19.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7cc6e6b02eea8cc578273f8dc3354750808a4acc1d2d69a67670e8f925dff3db",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.20",
+      "title": "Affine composition examples",
+      "solution_path": "docs/solutions/3.20.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "557c0d720be5911243788aaaf51c4a7e35b885b7cfc861c80891edf843d2fb58",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.21",
+      "title": "Convexity of maxima and ordered absolute sums",
+      "solution_path": "docs/solutions/3.21.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0f37429def32457c015367bcd846f23b31ddd82cd44ed64feea07150ee5cabac",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.22",
+      "title": "Convexity by composition rules",
+      "solution_path": "docs/solutions/3.22.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6294de1d80c2c730b93f608975fa62b12bf43693751a81a0b99e98b887f42997",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.23",
+      "title": "Two perspective constructions",
+      "solution_path": "docs/solutions/3.23.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5882c9517e324240529de4c3a0f9a757b82ce5948ca78e8e7676f79dcd6feb5c",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.24",
+      "title": "Function classifications on the probability simplex",
+      "solution_path": "docs/solutions/3.24.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "276c4ea14e26b171aaafb50ad1d60a7388bc2edaf32b0dc383c1df819fb0e445",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.25",
+      "title": "Maximum event-probability distance",
+      "solution_path": "docs/solutions/3.25.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "source_checked": true,
+      "subparts": [
+        "formula",
+        "convexity",
+        "extension"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "3ecedef660292a6664f23707af0d65d88013d8868e31b025125f8a56aa3e7af1",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.26",
+      "title": "Further convexity properties of eigenvalue functions",
+      "solution_path": "docs/solutions/3.26.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ea47c77fda68fd4917e1aa3672e5824c0a5288a865a8419155adaa886b6aa3d4",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.27",
+      "title": "Concavity of Cholesky diagonal entries",
+      "solution_path": "docs/solutions/3.27.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "545adcd0af92afb583d305e9f5ce9b292c4e23f7927ead2e0e9ec94cdd41c91a",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.28",
+      "title": "Affine minorants of a convex function",
+      "solution_path": "docs/solutions/3.28.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bd52d68df7c015029d48a0c9e81910ea58c764b733ca84e60fab69eb2acdc6eb",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.29",
+      "title": "A convex piecewise-affine function is a maximum",
+      "solution_path": "docs/solutions/3.29.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a6c1e24d8036d8d0e1e2c7a976b54e10195f15b1195e7e8a927d8f6d1837019f",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.30",
+      "title": "The convex envelope as the greatest convex minorant",
+      "solution_path": "docs/solutions/3.30.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "source_checked": true,
+      "subparts": [
+        "convexity",
+        "underestimation",
+        "maximality",
+        "epigraph-qualification"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "68a62570a32410fd6dfb2b25f7b366232ae6647a6c621bbea5e9960e97d8d649",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.31",
+      "title": "The largest positively homogeneous minorant",
+      "solution_path": "docs/solutions/3.31.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "zero-scale-qualification"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "277ecacb41ed9e635a5d5db6053f2a336153641cd3b2c9b304cc0714aa945162",
+      "notes": "All parts proved with explicit correction: homogeneity at scale zero and properness do not follow from the source hypotheses alone."
+    },
+    {
+      "id": "3.32",
+      "title": "Products and ratios on an interval",
+      "solution_path": "docs/solutions/3.32.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "562cbe0ff61a1003d432b4f71eebffba3f8551eafce7ee38c124e47267580f2c",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.33",
+      "title": "Direct proof of perspective convexity",
+      "solution_path": "docs/solutions/3.33.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "source_checked": true,
+      "subparts": [
+        "domain",
+        "inequality"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c6595e19be449ee3eb7902fe571b5063c1cb2d28f5b172edfcf1dffe3f887c44",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.34",
+      "title": "The Minkowski functional and norms",
+      "solution_path": "docs/solutions/3.34.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "picture"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "84b162ea9932c73f76b91bbe1caf72f67f7ce27db1e9b4741f17dfacf6594dc1",
+      "notes": "All parts and picture complete; explicitly corrects zero-scale homogeneity/domain when the source does not assume 0 in C."
+    },
+    {
+      "id": "3.35",
+      "title": "Support-function identities and set inclusion",
+      "solution_path": "docs/solutions/3.35.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b3f2dd8a5bbd03d0e79624e46fb9fcb50b13d9f06f732cd811a884a9ecc25b52",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.36",
+      "title": "Six conjugate calculations",
+      "solution_path": "docs/solutions/3.36.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d-positive",
+        "d-negative",
+        "e",
+        "f"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e0b597f34169998850a184ae9db6821b25c9add9245470e76b25e7a67ac64e3e",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.37",
+      "title": "Conjugate of the trace inverse",
+      "solution_path": "docs/solutions/3.37.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "source_checked": true,
+      "subparts": [
+        "formula",
+        "singular-boundary",
+        "outside-domain"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0c0cc0a46326b8619f992729f03fc96e7797923a90498282134113a6d333f3d9",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.38",
+      "title": "Inverse-function integrals and Young inequality",
+      "solution_path": "docs/solutions/3.38.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "source_checked": true,
+      "subparts": [
+        "conjugacy",
+        "inequality",
+        "picture"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5e1cc115958b43b85147f67039f6c3782793c1b7e8937a374e9ac3cafda9b750",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.39",
+      "title": "Conjugate transformation rules",
+      "solution_path": "docs/solutions/3.39.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "c-affine-image",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d631f35ad090f807d778197417e01cfc0be40ed72aada45d318ffc405dcea05a",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.40",
+      "title": "Derivatives of the conjugate via an inverse gradient",
+      "solution_path": "docs/solutions/3.40.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4fd3d6dfe8e062842186cc462f0bcc9f76d821f840cfdb2f9f667f84bb50c2e6",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.41",
+      "title": "Conjugate of negative normalized entropy",
+      "solution_path": "docs/solutions/3.41.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8d039852c852d2b4ca5b5c07623977661cc9f9130aea54fa0a38303fb4db2563",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.42",
+      "title": "Quasiconcavity of approximation width",
+      "solution_path": "docs/solutions/3.42.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "source_checked": true,
+      "subparts": [
+        "main",
+        "empty-initial-interval"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a62e04cfcb941096e82ed61c54e9e740b80e66d6be156988cb037687cd08d72d",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.43",
+      "title": "The first-order test for quasiconvexity",
+      "solution_path": "docs/solutions/3.43.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "source_checked": true,
+      "subparts": [
+        "necessity",
+        "sufficiency"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c69f6530db857750f0652e7a05d83822e0f7d6b2141079afad364ca2d00db60e",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.44",
+      "title": "Rank-one updates and bordered-Hessian inertia",
+      "solution_path": "docs/solutions/3.44.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "source_checked": true,
+      "subparts": [
+        "a-weak",
+        "a-strict",
+        "b-weak",
+        "b-strict"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6de3ebb39df28f2bc2b1aecfc5a626912fe1225ec67c73ff262b3d84c34d067f",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.45",
+      "title": "First- and second-order tests for the negative product",
+      "solution_path": "docs/solutions/3.45.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "source_checked": true,
+      "subparts": [
+        "first-order",
+        "second-order"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bdd1de019938b2132ba43474b4b61a1ea3418d4883d0d49c955e29b1642b8e23",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.46",
+      "title": "Full-domain continuous quasilinear functions",
+      "solution_path": "docs/solutions/3.46.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "source_checked": true,
+      "subparts": [
+        "representation",
+        "converse"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "40739f533ca836908ce74dcd4a2781b0e1d347493540cd44be1155472bb6a2b3",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.47",
+      "title": "A first-order criterion for log-concavity",
+      "solution_path": "docs/solutions/3.47.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "498600496b2c1caf74c5783a63b06103bdee13ff25ead4a583a725935b114950",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.48",
+      "title": "Subtracting a nonnegative constant preserves log-concavity",
+      "solution_path": "docs/solutions/3.48.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "20b364d0a5fc56d4d0c17f8092fd76f1f620e31be2fd9aef79f388638c4cc7fe",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.49",
+      "title": "Four log-concave functions",
+      "solution_path": "docs/solutions/3.49.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "cfa6fbd5aab270bc0713ee94103516b326d4e52c1e1e8418807b1e392917c448",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.50",
+      "title": "Log-concavity of polynomial coefficients in negative roots",
+      "solution_path": "docs/solutions/3.50.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "abdf20c91d178d49d0995effb0f36f050743d1879a40747a3f8a9275c6f99f45",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.51",
+      "title": "Real-rooted polynomials on their positive intervals",
+      "solution_path": "docs/solutions/3.51.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "49694e433f53ec464202846abde93f14feaeca67dea007c6eb5427b3a689c916",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.52",
+      "title": "Log-convexity of moments and the gamma function",
+      "solution_path": "docs/solutions/3.52.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "source_checked": true,
+      "subparts": [
+        "moments",
+        "gamma"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f8ab438c03ff88b4664735f2e96b696a5b0f531d44ee966dceb943d255dbf665",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.53",
+      "title": "Log-concavity of the density of an independent sum",
+      "solution_path": "docs/solutions/3.53.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b0169e887050d7220d4b5125a7990ef0274ef710279502a9ce56af8eb7e889bc",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.54",
+      "title": "A direct proof for the Gaussian cumulative distribution",
+      "solution_path": "docs/solutions/3.54.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6b11c2be3f5323d8903115d0e7667444f964f1045b021c07e7c2dd69bd811bb7",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.55",
+      "title": "A direct proof for cumulative log-concave densities",
+      "solution_path": "docs/solutions/3.55.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "31d842989a5858c8391a2d51a31aec4852cb8e2503c085fc1b9e18b250b36e92",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.56",
+      "title": "Gamma and Dirichlet log-concavity",
+      "solution_path": "docs/solutions/3.56.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f5055fe52d7df3d2dbec4ba7c4d7cadaae5b84eab5fa709502a0c14f7593e353",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.57",
+      "title": "Matrix convexity of the inverse",
+      "solution_path": "docs/solutions/3.57.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "a78f78638c8113ef1d1cc2775cdb4fcb77b140cfeb2ec16b24ebdb6d4bd93ed0",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.58",
+      "title": "Matrix concavity of the Schur complement",
+      "solution_path": "docs/solutions/3.58.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "02c0e72ac1302fab836231aa502c592e753c082f05ed696352a60b4fe30bc8f3",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.59",
+      "title": "Second derivatives and cone-convexity",
+      "solution_path": "docs/solutions/3.59.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "source_checked": true,
+      "subparts": [
+        "necessity",
+        "sufficiency"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c6d55e79dcbdfc8536334d1f134f15c761bf2863c206922e51343f27d8787436",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    },
+    {
+      "id": "3.60",
+      "title": "Cone sublevels and cone epigraphs",
+      "solution_path": "docs/solutions/3.60.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=139",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "726034ebdbdbd58a50a192dd1091919e9c3df47b905dce1e66953ae0f2d8bf19",
+      "notes": "All requested subparts, hypotheses, and degenerate cases checked."
+    }
+  ]
+}

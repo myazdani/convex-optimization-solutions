@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "5.1",
+      "reviewer": "convexity_review",
+      "solution_sha256": "8887e9cd4c916e6c0d32702ed63144db1d18f601b7166ad668a2a5fb94f1798e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked exact primal interval and optimum, full dual effective domain, gap identity, optimizer and perturbation branches. Independently reran plot/check script; numeric checks matched and rendered/visually inspected all three requested panels. Rechecked final embedded numeric results against the independently rerun script: gap residual 1.6237e-15 and central difference -2.0000000000131024; refreshed exact final-document hash."
+    },
+    {
+      "id": "5.2",
+      "reviewer": "convexity_review",
+      "solution_sha256": "5df9550a01f813e1910f80748ebd909c4b1d095ead7f74051fb92ab33396e679",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked both extended-value weak-duality cases through pointwise bounds without undefined infinity arithmetic."
+    },
+    {
+      "id": "5.3",
+      "reviewer": "convexity_review",
+      "solution_sha256": "11fb881c866a59bdd75f9d63989ef35bb9c1dfcefe02f06fd9163b7c3b6b6282",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked nonconvex-f conjugate dual perspective, positive multiplier formula and separate zero multiplier for restricted domains."
+    },
+    {
+      "id": "5.4",
+      "reviewer": "convexity_review",
+      "solution_sha256": "e35e9a0a08c87edf965d42bd1132e6ba492d4b5406cf4c8c8e24cd3f72e411a7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked every aggregated-halfspace case including zero normal and empty halfspace; finite-bound dual rescaling and explicit infeasible-primal counterexample correctly qualify geometric/dual equivalence."
+    },
+    {
+      "id": "5.5",
+      "reviewer": "convexity_review",
+      "solution_sha256": "8c81341f4cd795d290ff6c5d8e0a7c683416a749ce86648b759a4f0c70a59eff",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked general LP multiplier signs, free equality multipliers and effective-domain stationarity equality."
+    },
+    {
+      "id": "5.6",
+      "reviewer": "convexity_review",
+      "solution_sha256": "7c07d827e7eb6980b6d00b0f5124a7e45f25b7b257246dcaa3e2bac1b5c5f109",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked residual normal equations, both normalized dual signs, exact b^T r identity and dominance of the improved certificate over the norm bound; zero residual covered."
+    },
+    {
+      "id": "5.7",
+      "reviewer": "convexity_review",
+      "solution_sha256": "bd89cf10f86e39a994277d79cebd98acc3bcc28fc2cb625d9d694949d1e8f057",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked equality-lift and LP dual derivations, simplex constraints, log-sum-exp approximation bounds and temperature scaling/nonattainment qualifications."
+    },
+    {
+      "id": "5.8",
+      "reviewer": "convexity_review",
+      "solution_sha256": "1eaa23a9e4797a11a4184476392d57ac3b061b6940fed445c5d019fa93675c2e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Read exact Example5.9; verified positive/negative multiplier parts and objective signs, uniqueness of zero common slack for strict box widths and both dual value/optimizer maps."
+    },
+    {
+      "id": "5.9",
+      "reviewer": "convexity_review",
+      "solution_sha256": "eb12a0de2c132948ac91f5acbe522dc64dbfeb7a3f5c157e1795995879602692",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked two Schur complements, uniform dual weight n/m, primal-dual log-volume gap and exponent n/2, plus spanning-based attainment."
+    },
+    {
+      "id": "5.10",
+      "reviewer": "convexity_review",
+      "solution_sha256": "909ee3852119774eb4d024791c7858340ecd85e4ccfb2c77baec409cdf7ce5fa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked both matrix infima including singular A-dual matrices, D normalization constants, A normalized value squaring, primal Slater/attainment and nonspanning infeasibility versus dual unboundedness."
+    }
+  ]
+}

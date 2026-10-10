@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "3.41",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "8d039852c852d2b4ca5b5c07623977661cc9f9130aea54fa0a38303fb4db2563",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified probability-simplex reduction and entropy variational bound, closed exponential-sum domain and attainment cases."
+    },
+    {
+      "id": "3.42",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "a62e04cfcb941096e82ed61c54e9e740b80e66d6be156988cb037687cd08d72d",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main",
+        "empty-initial-interval"
+      ],
+      "notes": "Verified nested affine-slab superlevels, endpoint continuity, empty-width conventions and infinite-width case."
+    },
+    {
+      "id": "3.43",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "c69f6530db857750f0652e7a05d83822e0f7d6b2141079afad364ca2d00db60e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "necessity",
+        "sufficiency"
+      ],
+      "notes": "Checked both first-order implications and mean-value contradiction on a superlevel component."
+    },
+    {
+      "id": "3.44",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "6de3ebb39df28f2bc2b1aecfc5a626912fe1225ec67c73ff262b3d84c34d067f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a-weak",
+        "a-strict",
+        "b-weak",
+        "b-strict"
+      ],
+      "notes": "Checked rank-one Schur complement criterion and bordered-matrix congruence inertia, including zero gradient and singular tangent blocks."
+    },
+    {
+      "id": "3.45",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "bdd1de019938b2132ba43474b4b61a1ea3418d4883d0d49c955e29b1642b8e23",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "first-order",
+        "second-order"
+      ],
+      "notes": "Checked AM-GM first-order inequality and strict positive tangent Hessian on the positive orthant."
+    },
+    {
+      "id": "3.46",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "40739f533ca836908ce74dcd4a2781b0e1d347493540cd44be1155472bb6a2b3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "representation",
+        "converse"
+      ],
+      "notes": "Checked separating halfspace equality from a closed/open convex partition, common orientation of nested proper halfspaces and monotone scalar representation."
+    },
+    {
+      "id": "3.47",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "498600496b2c1caf74c5783a63b06103bdee13ff25ead4a583a725935b114950",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified reversible logarithm and exponential transformation of the concavity first-order criterion."
+    },
+    {
+      "id": "3.48",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "20b364d0a5fc56d4d0c17f8092fd76f1f620e31be2fd9aef79f388638c4cc7fe",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked positive-domain convexity and both derivatives of the increasing concave outer function."
+    },
+    {
+      "id": "3.49",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "cfa6fbd5aab270bc0713ee94103516b326d4e52c1e1e8418807b1e392917c448",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked all four log-concavity proofs, scalar and matrix Cauchy-Schwarz bounds, noncommuting matrix directions and n=1. Corrected form-feed defect independently rescanned."
+    },
+    {
+      "id": "3.50",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "abdf20c91d178d49d0995effb0f36f050743d1879a40747a3f8a9275c6f99f45",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked elementary symmetric coefficient indexing and use of the supplied root-concavity theorem followed by logarithm and affine composition."
+    }
+  ]
+}

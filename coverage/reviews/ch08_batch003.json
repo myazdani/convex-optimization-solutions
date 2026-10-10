@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "8.21",
+      "reviewer": "duality_review",
+      "solution_sha256": "2c96626f7d88001427feb5f3f97e073f14ff7f5a48a3a9327c08b5156161f8f2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked density support, factorization into both linear slacks, positive exponent, strict consistency and nullspace/uniqueness distinctions. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.22",
+      "reviewer": "duality_review",
+      "solution_sha256": "fb4740c58899b18be839a268d60a695096d6f9164d67ea1fd788d446595eb765",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked integrated completion of squares, strict quadratic Hessian and necessary volume/second-moment integrability qualifications. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.23",
+      "reviewer": "duality_review",
+      "solution_sha256": "55d4ec3b595f80d4df2ff9810fc89d59c844ff85d60c0025b7e0e18a97576eb2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked strict separation versus weak separation, norm saturation, both positive-margin scaling maps, reciprocal optimal values and literal-QP squaring. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.24",
+      "reviewer": "duality_review",
+      "solution_sha256": "26697f1cb67e1909b9c06023e855b93967fb7e73004247c7e9ec7cd0b15d00ea",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked worst-case weight-error support functions for both classes, affine sample-norm constraints, zero samples and normalization. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.25",
+      "reviewer": "duality_review",
+      "solution_sha256": "c276cb8cd124b1f49e015cb80478238ca3252af827168044751a3056fa85a6e3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked homogeneous positive-definite normalization, affine sample constraints, exact condition-number bounds, center recovery and nondegenerate replacement when all positive points coincide. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.26",
+      "reviewer": "duality_review",
+      "solution_sha256": "fb412dd0a8e9e6d1286ff90ed40e708f77c27393f21a5cc653691ac6a6b79e99",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked graph edge counting, Laplacian blocks and degree entries, two coordinate right-hand sides, anchored-component positive definiteness and unanchored translations. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.27",
+      "reviewer": "duality_review",
+      "solution_sha256": "da68352f386e76e320159c1d03e38b104ff9e3599358bb748b034a5b6c676d7b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked convex affine restriction, Cauchy\u2013Schwarz feasibility guarantee, objective bound direction and coincident approximate-point caveat. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.28",
+      "reviewer": "duality_review",
+      "solution_sha256": "cadd7600565a75cd848bb88583509161f8ba90b9b815ffaaaf5c354f5f5ec279",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked row-support LPs for both inclusion directions, infinite supports, singleton tests, and rank-deficient zero-scale closure versus actual set scaling. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.29",
+      "reviewer": "duality_review",
+      "solution_sha256": "c1fa307865b3c03794eb3df062e7d66f65125debca0f24bd6850efddb81d3c47",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked support-function inequality and general unbounded-template zero-scale issue, explicit epsilon translation construction, empty-set/template cases. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    },
+    {
+      "id": "8.30",
+      "reviewer": "duality_review",
+      "solution_sha256": "cfc8db738c34b0dfefd75111c1ab88292ff4189a8f8120a9076459725a7030ef",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "arc length",
+        "convexity",
+        "bi-criterion formulation",
+        "extreme trade-offs"
+      ],
+      "notes": "Checked exact source indexing inconsistency, circular arc length for signed minor/major arcs, second derivative positivity and zero limit, convex joint-jump epigraph, and both extreme trade-off endpoint/nonattainment procedures. Source PDF pages464\u2013467 read directly; GitHub visual preview remains separate."
+    }
+  ]
+}

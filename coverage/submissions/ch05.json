@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "author": "solve_optimization_duality_exercises",
+  "entries": [
+    {
+      "id": "5.1",
+      "title": "A scalar primal-dual and sensitivity example",
+      "solution_path": "docs/solutions/5.1.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8887e9cd4c916e6c0d32702ed63144db1d18f601b7166ad668a2a5fb94f1798e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.2",
+      "title": "Weak duality at extended optimal values",
+      "solution_path": "docs/solutions/5.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5df9550a01f813e1910f80748ebd909c4b1d095ead7f74051fb92ab33396e679",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.3",
+      "title": "One inequality and the conjugate perspective",
+      "solution_path": "docs/solutions/5.3.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "11fb881c866a59bdd75f9d63989ef35bb9c1dfcefe02f06fd9163b7c3b6b6282",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.4",
+      "title": "Aggregated-halfspace bounds and the LP dual",
+      "solution_path": "docs/solutions/5.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e35e9a0a08c87edf965d42bd1132e6ba492d4b5406cf4c8c8e24cd3f72e411a7",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.5",
+      "title": "The dual of a general linear program",
+      "solution_path": "docs/solutions/5.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8c81341f4cd795d290ff6c5d8e0a7c683416a749ce86648b759a4f0c70a59eff",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.6",
+      "title": "Least-squares certificates for Chebyshev approximation",
+      "solution_path": "docs/solutions/5.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7c07d827e7eb6980b6d00b0f5124a7e45f25b7b257246dcaa3e2bac1b5c5f109",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.7",
+      "title": "Piecewise-linear duals and log-sum-exp approximation",
+      "solution_path": "docs/solutions/5.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bd89cf10f86e39a994277d79cebd98acc3bcc28fc2cb625d9d694949d1e8f057",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.8",
+      "title": "Eliminating box-constraint dual multipliers",
+      "solution_path": "docs/solutions/5.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1eaa23a9e4797a11a4184476392d57ac3b061b6940fed445c5d019fa93675c2e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.9",
+      "title": "A volume bound for a simple enclosing ellipsoid",
+      "solution_path": "docs/solutions/5.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "eb12a0de2c132948ac91f5acbe522dc64dbfeb7a3f5c157e1795995879602692",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.10",
+      "title": "Duals for D- and A-optimal experiment design",
+      "solution_path": "docs/solutions/5.10.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "909ee3852119774eb4d024791c7858340ecd85e4ccfb2c77baec409cdf7ce5fa",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.11",
+      "title": "A dual for regularized sum-of-norms fitting",
+      "solution_path": "docs/solutions/5.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "527e0b80afe38cc187165565ebc8d1c8ea74bf32727d496831675423ab28346e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.12",
+      "title": "The analytic-center dual",
+      "solution_path": "docs/solutions/5.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "822da4837ed96be8e22f6ef491588dd5cf7cc459faec579f79dd290867294da8",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.13",
+      "title": "Boolean Lagrangian relaxation equals the box LP bound",
+      "solution_path": "docs/solutions/5.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "c099f40ef42206b86837718327bf3d151b59a53375890b9e5156682b02d2542e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.14",
+      "title": "A dual certificate from an equality penalty",
+      "solution_path": "docs/solutions/5.14.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "33e31ae745c89097388b0a96f00c9b141d0776937d6e9495cf9f64af1fe58692",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.15",
+      "title": "Dual certificates from increasing convex penalties",
+      "solution_path": "docs/solutions/5.15.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "e9dea12c78373e6b3165b7318831827a24ece20c4de6363e725c56e10865f441",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.16",
+      "title": "An exact maximum-violation penalty",
+      "solution_path": "docs/solutions/5.16.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bdcbbaa7a7cdc166694a81762f263ed288b9216734c583faac15c152cce10270",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.17",
+      "title": "Exact LP robustification of polyhedral row uncertainty",
+      "solution_path": "docs/solutions/5.17.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5c53a7064f248b19d0146c228f62e4776a8649463eb892ece5584e27e0e22ff2",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.18",
+      "title": "Strict polyhedral separation through LP multipliers",
+      "solution_path": "docs/solutions/5.18.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "14247929f2d2f01a9e158ea6c6e9a81346178688396b0f4b987b408345fe28a5",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.19",
+      "title": "A compact LP representation for largest-coordinate sums",
+      "solution_path": "docs/solutions/5.19.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0e70e6a3727b7cdee5e1d2cafd40d7649c3d07eeecf5dfee047503fefea503ad",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.20",
+      "title": "A simplified dual for channel capacity",
+      "solution_path": "docs/solutions/5.20.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=293",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ccc6f9ae3fab1185c3fcce7727d25c13a4ed448fabfb48faf851d01fcbcbfa0b",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.21",
+      "title": "A convex problem with a positive duality gap",
+      "solution_path": "docs/solutions/5.21.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "59edf93d9159f61c969596fb5ff4680e7815057c053f23303269e134a13513b9",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.22",
+      "title": "Six geometries of Lagrange duality",
+      "solution_path": "docs/solutions/5.22.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "069ed535272e20f375e8ac481374d10bbdbb416745fee3a2eb3a56937a449635",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.23",
+      "title": "Strong LP duality from active normals and alternatives",
+      "solution_path": "docs/solutions/5.23.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "43e501aa7f6238751b4c3af559ac44d0da122cd7a8b314bacd80f8ae4327b156",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.24",
+      "title": "The weak max-min inequality",
+      "solution_path": "docs/solutions/5.24.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8af905c0b62c7583b1a6163c0fe161c7f8f9ac0555423f726d2d605a08c6b4a5",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.25",
+      "title": "Convex-concave minimax through conjugacy",
+      "solution_path": "docs/solutions/5.25.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "40ce4d03bc9c58e783aee8003b89e9fde471d47932b956b483babd29f7b47a33",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.26",
+      "title": "Tangent disks: zero gap without KKT multipliers",
+      "solution_path": "docs/solutions/5.26.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5a9afb82c6ab56bbcc0280846e334e96632f7a5ecb22afe52cd229b48144f3da",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.27",
+      "title": "Equality-constrained least squares in closed form",
+      "solution_path": "docs/solutions/5.27.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "dcf20f485a9a77a2c27d47b7feff79879cbea9fb17d9c8ce7dbfa265d88059c4",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.28",
+      "title": "An exact LP optimum and uniqueness certificate",
+      "solution_path": "docs/solutions/5.28.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "acbb8eb72872118a2e746b353de7ba3b918cbc0a3aca8768509a2a2010dd4ebd",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.30",
+      "title": "A log-determinant matrix secant update",
+      "solution_path": "docs/solutions/5.30.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1528f9276668c47ab69bb0e2ae8b46b686274b9d0eab83443a012243471a690c",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.31",
+      "title": "KKT conditions imply the supporting-gradient criterion",
+      "solution_path": "docs/solutions/5.31.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5b8c7e29b23f4e2d58681c9591423ea33728ab0930ffeb0a94a60dfb05f9fee4",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.32",
+      "title": "Convexity of the perturbed optimal value",
+      "solution_path": "docs/solutions/5.32.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2072cec9c07925dbcc18bbc780fb48fec8494a40146e73646174b163076cf4ed",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.35",
+      "title": "Relative sensitivity of geometric programs",
+      "solution_path": "docs/solutions/5.35.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=298",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "09f3e4eb188dca312a6d72a449f51be8d90a6ba450cc29709cec916cb787dcc9",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.36",
+      "title": "Linear equality alternatives from inequality alternatives",
+      "solution_path": "docs/solutions/5.36.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "47433a129779a7da8bae48d444b4cf7d77666bef668cc85e19166d2373219e7f",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.37",
+      "title": "A stationary Markov distribution from Farkas lemma",
+      "solution_path": "docs/solutions/5.37.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1345525d0f1de83ed92ca1f9064b51aae47262d00ad0cb25f1e31dc749b2e269",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.38",
+      "title": "Unique no-arbitrage price in a two-state market",
+      "solution_path": "docs/solutions/5.38.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bb5b28199bc16412fe2969037c3da5316dcf74f1ef9bb611b1ff2d230785676e",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.39",
+      "title": "Two equivalent semidefinite partitioning bounds",
+      "solution_path": "docs/solutions/5.39.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "26adcf6ca166243888bc1ce54b742ba08ba79b92d0df7505e402dd07bfdd6b9d",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.40",
+      "title": "A simple SDP dual for E-optimal design",
+      "solution_path": "docs/solutions/5.40.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "79676dc8dc9c5bb545435d80974fb37dde6ca7ec6f39454c8fcd77a6ff10e075",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.41",
+      "title": "Dual of the fastest mixing Markov chain problem",
+      "solution_path": "docs/solutions/5.41.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "96863189d40391fe06e6917e69fd1b77ecb3dc85dd1bbe12b20b778c2433b684",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.42",
+      "title": "Dual of a conic inequality problem",
+      "solution_path": "docs/solutions/5.42.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "b4a136d2feb5d5ace36a2f4c8dcbb38d7e130b63f9d8db63f6fd8f2583527f04",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.43",
+      "title": "Two derivations of the SOCP dual",
+      "solution_path": "docs/solutions/5.43.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "d4b1134777f38bc17c35873dba817b59598b76d9295d5e20a07d0e26c7007afe",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    },
+    {
+      "id": "5.44",
+      "title": "Strong alternatives for nonstrict linear matrix inequalities",
+      "solution_path": "docs/solutions/5.44.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "31211140de98fbd1ff23db1cfba567c749fff1e1db089b39abaf8c1e3777a942",
+      "notes": "Original derivation; domains, degeneracy, solution maps, and requested subparts checked. Awaiting independent review."
+    }
+  ]
+}

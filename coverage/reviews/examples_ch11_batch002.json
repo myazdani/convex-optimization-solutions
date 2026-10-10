@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "fig_11_10",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "b5328178374d2d95e538982740b4ccfb78c341506b05b7985a43f1aa287dd695",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "3a41dcc079d8c18140d881da04c27d2276381d3128407209eacc82b653aef5fb",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked original 50-by-20 dimensions, all 40 main and 60 near-boundary gamma values and 25 infeasible-start values. Independently solved the boundary LP, recomputed all 100 saved feasible-x/negative-auxiliary-s or normalized Farkas-dual certificates, and independently solved four infeasible-start paths using the full symmetric KKT system (48/8/3/0 steps at selected gamma values), agreeing with the Schur implementation. The revised stopping rule now matches the book auxiliary s<0 test. Full source text and companion algorithm checked; displayed tables and every plot inspected. Execution/source/data and compact-publication hashes verified. Focused chapter 11 certificate/derivative tests passed."
+    },
+    {
+      "id": "fig_11_15",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "bdd07935bd6b0b4922bbf6539f0c5af01d62c745b24d37ea8391f8883b3aac5d",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "9bc60a504492bd4741ab3e19a598998c0517a202c832e4430211ebf8731bddc6",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked full 50-variable, 50 Lorentz-cone instance, the three requested mu values 2/50/200 and complete 25-point sweep. Recomputed strict primal/dual cone membership, linear dual equations, objective gaps and independent derivatives. Separate CLARABEL SOC solve returns optimal objective 0.99999997374454 and maximum feasibility violation 8.3e-12, agreeing with the stored certified solutions. Full source text and companion algorithm checked; displayed tables and every plot inspected. Execution/source/data and compact-publication hashes verified. Focused chapter 11 certificate/derivative tests passed."
+    },
+    {
+      "id": "fig_11_17",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "10a853d00b5022b3f44961a287377f45e85c2115d027e09900a66d2f205c7b73",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "fb1dd30b7f4d55c7082590f4eac791cb48698a7d4a05b46b58d88469e2d2d243",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Regenerated full 100-by-100-by-100 coefficient arrays with exact hashes and checked source/book dimension discrepancy. Independently recomputed all primal and dual minimum eigenvalues (positive), dual linear residuals below 2e-7, trace and objective gaps below 1e-6, all three histories and complete 17-point parameter sweep. Barrier derivatives were independently finite-differenced. Full source text and companion algorithm checked; displayed tables and every plot inspected. Execution/source/data and compact-publication hashes verified. Focused chapter 11 certificate/derivative tests passed."
+    },
+    {
+      "id": "fig_11_19",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "094f96a28baa57f96d5b485832ec2dc7d5ffd9eb29757b3edba16d21f1bc6fc2",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "5c2a49fdba5cb16c2a91ee351a4c0f343485efc70aa6d2537fd626c1619475f4",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Regenerated all matrices at orders 50/500/1000 byte-for-byte and checked spectral norm one, symmetry and the textbook random diagonal convention. Reconstructed every omitted corrected dual matrix byte-for-byte using the published lower-Cholesky/Newton algorithm; independently checked positive eigenvalues, unit diagonals, trace/objective gaps 0.0062499834/0.0624999743/0.1249997259 and relative reductions near 8000. Initial centering exclusion and book/companion stopping distinction verified. Full source text and companion algorithm checked; displayed tables and every plot inspected. Execution/source/data and compact-publication hashes verified. Focused chapter 11 certificate/derivative tests passed."
+    },
+    {
+      "id": "fig_11_21",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "2e5c2974f5b56963e974eddda59dc265c6877c67eb9e98b5d2e77e6c6747f0dc",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "90b894f6e17ebdc1cea16f1ec432201c21d5edcb2251f15e44329b641b19d915",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked exact same saved replacement LP as barrier study, initial surrogate gap 100, mu=10, alpha=.01, beta=.5 and both 1e-8 stopping requirements. Independently recomputed positive slacks/multipliers, stationarity, complementarity and objective against HiGHS optimum 1. Final gap 2.056e-9; both progress and residual plots inspected. Full source text and companion algorithm checked; displayed tables and every plot inspected. Execution/source/data and compact-publication hashes verified. Focused chapter 11 certificate/derivative tests passed."
+    },
+    {
+      "id": "fig_11_22",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "d79003c55d9d91f2434a4243dda15425b339d0155a03b7b0011c99464f37a61e",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "efae245fd6bbdd6cc9ec0685b4c873fc0dafc9d4bd562b2b86bb552eec789b00",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked same full 101-by-5-by-50 GP arrays as barrier study, initial surrogate gap 100 and stated primal-dual parameters. Independently recomputed log-sum-exp values/gradients, positive multipliers, strict feasibility, stationarity below 1e-8 and complementarity gap 9.82e-9; objective 0.99999997024 agrees with the independent exponential-cone reference within 1e-8. Corrected page explicitly distinguishes surrogate gap from a corrected entropy-dual certificate. Full source text and companion algorithm checked; displayed tables and every plot inspected. Execution/source/data and compact-publication hashes verified. Focused chapter 11 certificate/derivative tests passed."
+    }
+  ]
+}

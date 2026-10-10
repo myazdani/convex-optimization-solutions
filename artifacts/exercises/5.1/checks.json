@@ -1,0 +1,8 @@
+{
+  "primal_x": 2,
+  "primal_value": 5,
+  "dual_lambda": 2,
+  "dual_value": 5,
+  "gap_identity_max_abs_error": 1.6237011735142914e-15,
+  "sensitivity_central_difference": -2.0000000000131024
+}

@@ -1,0 +1,11 @@
+{
+  "kind": "upstream_numeric_data",
+  "source_url": "https://cvxopt.org/_downloads/79c404697770003ca62bd2ecf26ce2f4/logreg.bin",
+  "original_filename": "logreg.bin",
+  "original_sha256": "25fefcfe575e18274fdeeb38839986b937c927c35f9034b2de9d0ffee5ccaf7f",
+  "sha256": "26368ceca422ce61a86254401f31676ef11f57bb4f4c996250714d754f0a6141",
+  "rights": "CVXOPT data: GPL-3.0-or-later; see LICENSE-CVXOPT-DATA.txt and https://cvxopt.org/copyright.html",
+  "transformations": [
+    "Restricted pickle decoder only allows real cvxopt.base.matrix construction; preserve column-major shape; serialize numeric arrays as JSON."
+  ]
+}

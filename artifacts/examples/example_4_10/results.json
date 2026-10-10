@@ -1,0 +1,152 @@
+{
+  "summary": {
+    "instance": "new explicit 2x2 matrices and positive-definite objective weights",
+    "weighted_objectives": [
+      2.2933034371229195,
+      5.440121945327011
+    ]
+  },
+  "input_matrices": [
+    [
+      [
+        1.0,
+        0.3
+      ],
+      [
+        0.3,
+        0.5
+      ]
+    ],
+    [
+      [
+        0.5,
+        -0.2
+      ],
+      [
+        -0.2,
+        1.1
+      ]
+    ],
+    [
+      [
+        0.8,
+        0.15
+      ],
+      [
+        0.15,
+        0.8
+      ]
+    ]
+  ],
+  "solutions": [
+    {
+      "weight": [
+        [
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          1.103150448213515,
+          0.0331862255761498
+        ],
+        [
+          0.0331862255761498,
+          1.1901529889094045
+        ]
+      ],
+      "objective": 2.2933034371229195
+    },
+    {
+      "weight": [
+        [
+          4.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0
+        ]
+      ],
+      "matrix": [
+        [
+          1.0243686819847901,
+          0.1567023995453789
+        ],
+        [
+          0.1567023995453789,
+          1.34264721738785
+        ]
+      ],
+      "objective": 5.440121945327011
+    }
+  ],
+  "checks": [
+    {
+      "name": "weight 1 dual stationarity",
+      "measured": 2.490718742365061e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "weight 1 primal-dual gap",
+      "measured": 3.889586430716463e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "weight 2 dual stationarity",
+      "measured": 4.587583646298299e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "weight 2 primal-dual gap",
+      "measured": 8.567289100369635e-10,
+      "tolerance": 1e-07,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "matrix_upper_bounds.png"
+  ],
+  "caveats": [
+    "Original Figure 4.10 numerical matrices and weights were not supplied in the textbook or located in the official indexes. This new instance demonstrates the same weighted-SDP minimal-upper-bound construction. Positive-definite W ensures no strictly smaller PSD-feasible upper bound can dominate the computed solution."
+  ],
+  "id": "example_4_10",
+  "executed_at": "2026-10-10T05:03:40.258398+00:00",
+  "elapsed_seconds": 0.09503612300068198,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=194",
+    "official_code_urls": [],
+    "official_data_files": [],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+  "runtime_source_sha256": {
+    "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {},
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py example_4_10",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

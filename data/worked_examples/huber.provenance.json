@@ -1,0 +1,11 @@
+{
+  "kind": "upstream_numeric_data",
+  "source_url": "https://cvxopt.org/_downloads/0da371743999afbbd02ededb651d77e6/huber.bin",
+  "original_filename": "huber.bin",
+  "original_sha256": "efce5fbab1428361d776d8d01d73d8801e9531cf513d889374e65ca2a5c97515",
+  "sha256": "3aae0e7883faaeb11108d195ab35e26b35ae3e1b6aba301ffd9e9d6ce04b9004",
+  "rights": "CVXOPT data: GPL-3.0-or-later; see LICENSE-CVXOPT-DATA.txt and https://cvxopt.org/copyright.html",
+  "transformations": [
+    "Restricted pickle decoder only allows real cvxopt.base.matrix construction; preserve column-major shape; serialize numeric arrays as JSON."
+  ]
+}

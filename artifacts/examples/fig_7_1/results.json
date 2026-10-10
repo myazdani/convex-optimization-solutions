@@ -1,0 +1,78 @@
+{
+  "summary": {
+    "observations": 100,
+    "slope": 0.9847790534024208,
+    "intercept": -4.981977522572031,
+    "negative_log_likelihood": 32.97970267092131
+  },
+  "coefficients": [
+    0.9847790534024208,
+    -4.981977522572031
+  ],
+  "checks": [
+    {
+      "name": "independent Newton versus exponential-cone objective",
+      "measured": 6.252776074688882e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "likelihood gradient",
+      "measured": 1.0835776720341528e-13,
+      "tolerance": 1e-07,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "logistic.png"
+  ],
+  "caveats": [
+    "The data file and both official scripts contain 100 observations. The earlier catalog count of 50 was incorrect."
+  ],
+  "id": "fig_7_1",
+  "executed_at": "2026-10-10T05:03:34.186564+00:00",
+  "elapsed_seconds": 1.4259694810007204,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=368",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/logreg.html",
+      "https://cvxopt.org/_downloads/3524328e70d5d80efced606f6ec4f894/logreg.py",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch07_statistical_estim/logistics.m",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch07_statistical_estim/logistics_gp.m"
+    ],
+    "official_data_files": [
+      {
+        "url": "https://cvxopt.org/_downloads/79c404697770003ca62bd2ecf26ce2f4/logreg.bin",
+        "bytes": 2617,
+        "sha256": "25fefcfe575e18274fdeeb38839986b937c927c35f9034b2de9d0ffee5ccaf7f",
+        "download_verified": true,
+        "format": "legacy Python pickle; read only after reviewing source and using a controlled conversion"
+      }
+    ],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+  "runtime_source_sha256": {
+    "examples/application_statistics.py": "0746804aa24266efafbcd2fa792612b4e69069e02dec4f05a80b18781446771a",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {
+    "data/worked_examples/logreg.json": "26368ceca422ce61a86254401f31676ef11f57bb4f4c996250714d754f0a6141"
+  },
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_statistics.py fig_7_1",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

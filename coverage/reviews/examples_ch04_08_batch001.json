@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "example_4_1",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "5424f7b1024f3f286e7af3edb6bef7be51b381edfca4bd56a86240e987d1c630",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "1e1d7fbb86ce9f1c1edc9884235a065a11a2bfbafb59efe6eed4476b74da8942",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Verified domains and limiting sequences distinguish unattained finite infimum from unboundedness; derivative 1+log(x) and positive 1/x certify unique x=1/e; checked actual scalar output. Focused application tests passed. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_basic.py": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {}
+    },
+    {
+      "id": "fig_4_11",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "1c5eccc754037cd245bdf29cfb0a11036805b56a1dd384ee17a0cea9f0dd4f3d",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "829fa1e5a4730ab8cca6b72e951110b80f0d879b67829f7dcab8221296a055ec",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Reviewed both secular branches and SDP duals, the exact rls fixture hash, and image. Both sphere-extremum curves plus full Pareto arc are present; endpoint squared values are (10,0) and (2,9). Focused application tests passed. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_basic.py": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/rls.json": "092ffd58327bc8ee5b7bfbd7717a393cf03ec33fb21db1fce687b603112ae107"
+      }
+    },
+    {
+      "id": "fig_4_12",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "843793e38282ee60c9f8bbbbcf9240d12af9e6e76a99922d1a02e7ee9f621ac6",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "d5b513f3916aa5e70f1aa90e8065629ceba92b1d0a6254b99c6c8a997e04f9c7",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Reconstructed covariance from printed standard deviations/correlations and checked all 103 simplex portfolios, variance evaluation, endpoint 3%/0 and 12%/20%, independent SLSQP agreement. Focused application tests passed. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_basic.py": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {}
+    },
+    {
+      "id": "example_6_2",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "92717357a201a3599b515e0facfcec76be2c6b74fa77e468024a24d1460ab523",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "4049e9f5d9f3429753e89831210e54f967962223fba545ae9cac17c93fe879ad",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked published 42 points and Huber M=1 piecewise formula, linear coefficient orientation, analytic clipped residual gradient, independent BFGS value and least-squares normal equations. Focused application tests passed. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_basic.py": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/huber.json": "3aae0e7883faaeb11108d195ab35e26b35ae3e1b6aba301ffd9e9d6ce04b9004"
+      }
+    },
+    {
+      "id": "example_6_3",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "57e07b5a4528b8aa4f51884456c6ba8eeb585fc0adbada02265030733fc299ad",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "1d7864fa1c6bbdb5b2ddcf59ed18392b93e3afe12baf5226987d42a60446dec4",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Compared convolution, 201 desired samples and three weight pairs against official inputdesign.py; verified explicit 201 versus 200 normalization correction and QR/QP agreement; inspected full six-panel input-output plot. Focused application tests passed. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_basic.py": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {}
+    },
+    {
+      "id": "example_8_1",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "1ae600c61fac61ce47be73a7c010b768782f0b3cf0f581c589f7adab7d66f8c4",
+      "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+      "results_sha256": "cc7c935d1c3f561478b31b453a479d62f7f71a3e0130930ffbd3caa7e2f453a5",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Analytic edge geometry proves infinity norm one throughout; l1/l2 equality cases are precisely the four axis points. Numerical edge sampling agrees and respects nonconvex boundary. Focused application tests passed. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_basic.py": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {}
+    },
+    {
+      "id": "example_6_7",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "0f0d1c1dc2ec53ffb5bf62b9380b937f2832725dac4025e2fba26c6786223606",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "9863cfc209cbba815265a3bae0c47ccd746ab4acac0ee1c9875d537d5548dd04",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked degree-five six-column Vandermonde against official 40-point fixture and polapprox.py; LS normal equations and independently assembled minimax LP certify reported norms. Focused application tests passed. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_fitting.py": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/polapprox.json": "6eef02dc6cad723719610924b93b160de88a2b1500baf0d7d3d9d6fe3c5acdfd"
+      }
+    },
+    {
+      "id": "example_6_8",
+      "reviewer": "algorithm_examples_review",
+      "solution_sha256": "332096e7e8150983b6848be232fec3f261706818778e42bafd4eba311c63e3de",
+      "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+      "results_sha256": "613d9ec21ace33da299caf7ebe9ca4289ee23aceb863071011ffedba8df140e4",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked truncated cubic-power basis has six dimensions and exactly enforces six C2 continuity equations of official 12-coefficient spline formulation; knots \u00b11/3 and both norms correct; inspected fitted curves. Focused application tests passed. Final rerun/provenance refresh reviewed: numerical module bytes unchanged, helper hashes and published fixture hashes match;39focused tests pass. Input-design case table and logistic100-observation correction inspected.",
+      "runtime_source_sha256": {
+        "examples/application_fitting.py": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/polapprox.json": "6eef02dc6cad723719610924b93b160de88a2b1500baf0d7d3d9d6fe3c5acdfd"
+      }
+    }
+  ]
+}

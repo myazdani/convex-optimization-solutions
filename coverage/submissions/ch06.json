@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "author": "solve_applications_algorithm_exercises",
+  "entries": [
+    {
+      "id": "6.1",
+      "title": "Quadratic bounds for the logarithmic penalty",
+      "solution_path": "docs/solutions/6.1.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8e18005e02a67420997ccf1efe48371a8fec988c57cc70be7b59a3e7e348ed52",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.2",
+      "title": "Best constant under three norms",
+      "solution_path": "docs/solutions/6.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "7b26c3f72c079b98b6b4ac78d00388ceabc5f325f3fc5ee61fdb87f33371c054",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.3",
+      "title": "Conic formulations of five approximation criteria",
+      "solution_path": "docs/solutions/6.3.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5d6ee501f8bc9b5ef5aeddbc15da708c9b5ff34bd0d12c164621f50c3218cb71",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.4",
+      "title": "A posteriori error bound for smooth one-norm fitting",
+      "solution_path": "docs/solutions/6.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "f9f61e180d63bb06b8f668db2e138b994475396553e44dafb7cfed02fba541c0",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.5",
+      "title": "Minimum prefix length is quasiconvex",
+      "solution_path": "docs/solutions/6.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "21fb396bb41e0140210cf367b802fa1d57d59c17eb949ba9e898e636c414bafe",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.6",
+      "title": "Duals of four separable penalties",
+      "solution_path": "docs/solutions/6.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4a8f22982c196f138bbb0c8555fc6aa82ac4ae18576b9aa5ba9606115378de47",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.7",
+      "title": "SVD solutions on norm trade-off curves",
+      "solution_path": "docs/solutions/6.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "5bae2fdabbdbfeb8c8a9852b4c77b74833a0e305a2b3288e45d3c5702ef5263a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.8",
+      "title": "Finite, interval, and polyhedral robust fitting",
+      "solution_path": "docs/solutions/6.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360",
+      "source_checked": true,
+      "subparts": [
+        "a:1,2,infinity",
+        "b:1,2,infinity",
+        "c:1,2,infinity"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8e01f3650fd9e97f3db4930eb042377a83133860c8de621a50a82be7327d19e2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.9",
+      "title": "Quasiconvex rational minimax fitting",
+      "solution_path": "docs/solutions/6.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "0c80e4d0eb49c94942b2935446805ae386c799277e3652b60663a5084f1bf215",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.10",
+      "title": "Shape-constrained quadratic regression",
+      "solution_path": "docs/solutions/6.10.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "69db5e3d0b4c1f579226811fcd3f8fc009a65a605a8a54a973f1d42d5d8bb9c0",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.11",
+      "title": "Minimum-norm direction interpolation",
+      "solution_path": "docs/solutions/6.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8b5b4b585b01a442c20f4614363efc08b1beeebae3ceaa022242a602b3e3f999",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.12",
+      "title": "Monotone and convex-monotone interpolation",
+      "solution_path": "docs/solutions/6.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "97778191106581d86a3f6e95cce9dadefae16900ccec5dae8f366cab83d36ea2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.13",
+      "title": "Quasiconvex interpolation by nested convex hulls",
+      "solution_path": "docs/solutions/6.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2f7e5e1359a4850e8c8af84f198bd5615cdd7bc77780de662a19a5f244258133",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "6.14",
+      "title": "Positive-real interpolation and the Pick cone",
+      "solution_path": "docs/solutions/6.14.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "696b46a1ad515c2b927a27a23990e4b2c0958527cbc5a03a0e78ce0cc6179ed3",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    }
+  ]
+}

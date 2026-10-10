@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "5.11",
+      "reviewer": "convexity_review",
+      "solution_sha256": "527e0b80afe38cc187165565ebc8d1c8ea74bf32727d496831675423ab28346e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified norm conjugate domains, quadratic completion, dual data signs, recovery map and strong-convex primal uniqueness/dual compact attainment."
+    },
+    {
+      "id": "5.12",
+      "reviewer": "convexity_review",
+      "solution_sha256": "822da4837ed96be8e22f6ef491588dd5cf7cc459faec579f79dd290867294da8",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified scalar negative-log infimum including nonpositive multiplier exclusion, nullspace equality, stationarity, exact dual value and unbounded-domain alternatives."
+    },
+    {
+      "id": "5.13",
+      "reviewer": "convexity_review",
+      "solution_sha256": "c099f40ef42206b86837718327bf3d151b59a53375890b9e5156682b02d2542e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Verified every scalar quadratic effective-domain case, equality-multiplier sign, elimination at mu=abs(c+A^T lambda), exact box-LP dual and infeasibility case."
+    },
+    {
+      "id": "5.14",
+      "reviewer": "convexity_review",
+      "solution_sha256": "33e31ae745c89097388b0a96f00c9b141d0776937d6e9495cf9f64af1fe58692",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified multiplier 2 alpha residual, global convex Lagrangian stationarity, and lower bound with twice the penalty term rather than a primal upper bound."
+    },
+    {
+      "id": "5.15",
+      "reviewer": "convexity_review",
+      "solution_sha256": "e9dea12c78373e6b3165b7318831827a24ece20c4de6363e725c56e10865f441",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified increasing-convex composition, nonnegative derivative multipliers, global stationarity and evaluated dual lower bound without strong-duality assumptions."
+    },
+    {
+      "id": "5.16",
+      "reviewer": "convexity_review",
+      "solution_sha256": "bdcbbaa7a7cdc166694a81762f263ed288b9216734c583faac15c152cce10270",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Verified auxiliary multiplier budget, Slater construction, strict alpha threshold proof for every optimizer and equality-threshold counterexample."
+    },
+    {
+      "id": "5.17",
+      "reviewer": "convexity_review",
+      "solution_sha256": "5c53a7064f248b19d0146c228f62e4776a8649463eb892ece5584e27e0e22ff2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified support-LP dual signs, nonempty uncertainty assumption, dual attainment when support finite and infinite-support exclusion, with exact outer projection."
+    },
+    {
+      "id": "5.18",
+      "reviewer": "convexity_review",
+      "solution_sha256": "14247929f2d2f01a9e158ea6c6e9a81346178688396b0f4b987b408345fe28a5",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified strict polyhedral separation via positive attained distance of closed difference, exact LP dual signs and unit-gap normalization. Author added requested constructive empty-set cases: both empty, one proper nonempty, and nonempty full-space impossibility for a genuine normal."
+    },
+    {
+      "id": "5.19",
+      "reviewer": "convexity_review",
+      "solution_sha256": "0e70e6a3727b7cdee5e1d2cafd40d7649c3d07eeecf5dfee047503fefea503ad",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Verified threshold LP certificate including ties, dual sign/effective domain, explicit auxiliary optimizer and floor-zero diversification case."
+    },
+    {
+      "id": "5.20",
+      "reviewer": "convexity_review",
+      "solution_sha256": "ccc6f9ae3fab1185c3fcce7727d25c13a4ed448fabfb48faf851d01fcbcbfa0b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified entropy conjugate, equality multiplier signs, common-shift elimination using column sums, information-radius expression and zero-row dual nonattainment handling."
+    }
+  ]
+}

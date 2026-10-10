@@ -1,0 +1,132 @@
+{
+  "executed_at": "2026-10-10T05:09:06.278917+00:00",
+  "helper_sha256": "f729b9739f9167181d4b09e9f8afdff17d8446e707d5f90a49e96bf4a00530e5",
+  "checks": [
+    {
+      "id": "fig_10_6",
+      "file": "instance.npz",
+      "array_count": 5,
+      "passed": true
+    },
+    {
+      "id": "fig_11_17",
+      "file": "instance.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_11_19",
+      "file": "instance_1000.npz",
+      "array_count": 2,
+      "passed": true
+    },
+    {
+      "id": "fig_11_19",
+      "file": "instance_500.npz",
+      "array_count": 2,
+      "passed": true
+    },
+    {
+      "id": "fig_11_7",
+      "file": "instance_1000.npz",
+      "array_count": 7,
+      "passed": true
+    },
+    {
+      "id": "fig_11_7",
+      "file": "instance_500.npz",
+      "array_count": 7,
+      "passed": true
+    },
+    {
+      "id": "fig_9_21",
+      "file": "instance.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_23",
+      "file": "A.npz",
+      "array_count": 5,
+      "passed": true
+    },
+    {
+      "id": "fig_9_23",
+      "file": "instance.npz",
+      "array_count": 2,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem1.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem2.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem3.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem4.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family2_problem5.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem1.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem2.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem3.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem4.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_25",
+      "file": "family3_problem5.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_6",
+      "file": "instance.npz",
+      "array_count": 4,
+      "passed": true
+    },
+    {
+      "id": "fig_9_7",
+      "file": "instance.npz",
+      "array_count": 4,
+      "passed": true
+    }
+  ]
+}

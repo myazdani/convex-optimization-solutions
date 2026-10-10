@@ -1,0 +1,400 @@
+{
+  "summary": [
+    {
+      "dimension": 10,
+      "count": 100,
+      "mean_iterations": 13.29,
+      "std_iterations": 0.8795660086863087,
+      "min_iterations": 12,
+      "max_iterations": 16,
+      "maximum_gap": 9.928687295191186e-09,
+      "maximum_dual_residual": 4.977465500091126e-15
+    },
+    {
+      "dimension": 13,
+      "count": 100,
+      "mean_iterations": 13.77,
+      "std_iterations": 0.8628704737939841,
+      "min_iterations": 12,
+      "max_iterations": 16,
+      "maximum_gap": 9.517333166683668e-09,
+      "maximum_dual_residual": 6.685637779697366e-15
+    },
+    {
+      "dimension": 16,
+      "count": 100,
+      "mean_iterations": 14.36,
+      "std_iterations": 0.8589399151150083,
+      "min_iterations": 12,
+      "max_iterations": 17,
+      "maximum_gap": 9.960933008132496e-09,
+      "maximum_dual_residual": 7.358539132560923e-15
+    },
+    {
+      "dimension": 21,
+      "count": 100,
+      "mean_iterations": 15.11,
+      "std_iterations": 0.8749603165604459,
+      "min_iterations": 13,
+      "max_iterations": 17,
+      "maximum_gap": 9.972627682635596e-09,
+      "maximum_dual_residual": 9.185544104277495e-15
+    },
+    {
+      "dimension": 26,
+      "count": 100,
+      "mean_iterations": 15.71,
+      "std_iterations": 0.9877532918986227,
+      "min_iterations": 14,
+      "max_iterations": 20,
+      "maximum_gap": 9.9100171080553e-09,
+      "maximum_dual_residual": 1.15978541720833e-14
+    },
+    {
+      "dimension": 34,
+      "count": 100,
+      "mean_iterations": 16.42,
+      "std_iterations": 0.9447355463436593,
+      "min_iterations": 14,
+      "max_iterations": 18,
+      "maximum_gap": 9.836088363348791e-09,
+      "maximum_dual_residual": 1.4452908162762056e-14
+    },
+    {
+      "dimension": 43,
+      "count": 100,
+      "mean_iterations": 17.24,
+      "std_iterations": 1.0261234296756374,
+      "min_iterations": 15,
+      "max_iterations": 20,
+      "maximum_gap": 9.772412025263188e-09,
+      "maximum_dual_residual": 2.074573320346323e-14
+    },
+    {
+      "dimension": 55,
+      "count": 100,
+      "mean_iterations": 17.93,
+      "std_iterations": 0.9347932305266143,
+      "min_iterations": 15,
+      "max_iterations": 20,
+      "maximum_gap": 9.840072390418511e-09,
+      "maximum_dual_residual": 2.6821610225763594e-14
+    },
+    {
+      "dimension": 70,
+      "count": 100,
+      "mean_iterations": 18.74,
+      "std_iterations": 0.9808262853432314,
+      "min_iterations": 17,
+      "max_iterations": 21,
+      "maximum_gap": 9.474701453462554e-09,
+      "maximum_dual_residual": 4.2367738960056177e-14
+    },
+    {
+      "dimension": 89,
+      "count": 100,
+      "mean_iterations": 19.51,
+      "std_iterations": 1.0870681541270408,
+      "min_iterations": 17,
+      "max_iterations": 22,
+      "maximum_gap": 9.934031580660878e-09,
+      "maximum_dual_residual": 4.632242228965926e-14
+    },
+    {
+      "dimension": 113,
+      "count": 100,
+      "mean_iterations": 20.5,
+      "std_iterations": 1.1236664374387368,
+      "min_iterations": 18,
+      "max_iterations": 24,
+      "maximum_gap": 9.903825149939141e-09,
+      "maximum_dual_residual": 5.887059658613785e-14
+    },
+    {
+      "dimension": 144,
+      "count": 100,
+      "mean_iterations": 21.34,
+      "std_iterations": 1.1121005695384194,
+      "min_iterations": 19,
+      "max_iterations": 24,
+      "maximum_gap": 9.95448803356186e-09,
+      "maximum_dual_residual": 8.159611008301252e-14
+    },
+    {
+      "dimension": 183,
+      "count": 100,
+      "mean_iterations": 22.17,
+      "std_iterations": 1.0736043324364255,
+      "min_iterations": 19,
+      "max_iterations": 25,
+      "maximum_gap": 9.681865287692686e-09,
+      "maximum_dual_residual": 1.1666380129063862e-13
+    },
+    {
+      "dimension": 234,
+      "count": 100,
+      "mean_iterations": 23.14,
+      "std_iterations": 1.1808232019838678,
+      "min_iterations": 21,
+      "max_iterations": 26,
+      "maximum_gap": 9.908914012663647e-09,
+      "maximum_dual_residual": 1.618266820799794e-13
+    },
+    {
+      "dimension": 298,
+      "count": 100,
+      "mean_iterations": 24.05,
+      "std_iterations": 1.1043989178267832,
+      "min_iterations": 22,
+      "max_iterations": 27,
+      "maximum_gap": 9.947842008749756e-09,
+      "maximum_dual_residual": 2.2017126146191876e-13
+    },
+    {
+      "dimension": 379,
+      "count": 100,
+      "mean_iterations": 25.07,
+      "std_iterations": 1.357768519864617,
+      "min_iterations": 22,
+      "max_iterations": 29,
+      "maximum_gap": 9.968404241606718e-09,
+      "maximum_dual_residual": 3.086212405278661e-13
+    },
+    {
+      "dimension": 483,
+      "count": 100,
+      "mean_iterations": 26.04,
+      "std_iterations": 1.1093723769352968,
+      "min_iterations": 24,
+      "max_iterations": 28,
+      "maximum_gap": 9.905351946373047e-09,
+      "maximum_dual_residual": 4.4200470336805754e-13
+    },
+    {
+      "dimension": 616,
+      "count": 100,
+      "mean_iterations": 27.17,
+      "std_iterations": 1.214849202929559,
+      "min_iterations": 25,
+      "max_iterations": 31,
+      "maximum_gap": 9.883940452739997e-09,
+      "maximum_dual_residual": 5.980561459939536e-13
+    },
+    {
+      "dimension": 785,
+      "count": 100,
+      "mean_iterations": 28.01,
+      "std_iterations": 1.2267638301439665,
+      "min_iterations": 26,
+      "max_iterations": 31,
+      "maximum_gap": 9.62890348267547e-09,
+      "maximum_dual_residual": 8.158800411457939e-13
+    },
+    {
+      "dimension": 1000,
+      "count": 100,
+      "mean_iterations": 29.15,
+      "std_iterations": 1.2339883600452934,
+      "min_iterations": 27,
+      "max_iterations": 32,
+      "maximum_gap": 9.781907463398508e-09,
+      "maximum_dual_residual": 1.1833306662621345e-12
+    }
+  ],
+  "trial_count": 2000,
+  "dimension_count": 20,
+  "method": "primal_dual",
+  "execution": {
+    "executed_at": "2026-10-10T05:17:46.346074+00:00",
+    "completed_at": "2026-10-10T05:25:24.733385+00:00",
+    "duration_seconds": 458.3873213499992,
+    "invoked_argv": [
+      "/workspace/shared/convex-optimization/examples/algorithm_scaling.py",
+      "lp",
+      "--workers",
+      "4"
+    ],
+    "reproduction_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithms_ch11 fig_11_23",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "solver": "Explicit Python Newton/barrier/primal-dual implementation; SciPy LAPACK and SuperLU linear solves",
+    "generator": "NumPy PCG64; numeric seed and saved input arrays accompany each random instance",
+    "source_hashes": {
+      "examples/algorithm_common.py": "6746b9c07179edf8871b1e752c40d92dc8e05378edbcb525cdd623ccf00c970d",
+      "examples/algorithms_ch11.py": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "examples/algorithm_scaling.py": "f2b5917660567be5dcf6ac55e1248f9be9da4f777096b1287789cba3d5164064"
+    },
+    "data_hashes": {}
+  },
+  "id": "fig_11_23",
+  "title": "Primal-dual scaling across 2000 LPs",
+  "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=629",
+  "reproduction_basis": "method_reproduction_substituted_data",
+  "output_match_verified": false,
+  "source_code_urls": [],
+  "input_provenance": "Random instances use NumPy PCG64, with saved arrays and seeds. They are method reproductions; MATLAB rand(state,...) uses v5uniform and randn(state,...) uses v5normal, whereas seed selects the v4 family. Equal integer seeds do not identify equal arrays. No exact MATLAB fixture was published in the checked companion sources; exact book-figure matching is not claimed.",
+  "notes": [
+    "The original 20 dimension values and seeds are not published; the replacement uses 20 rounded geometric spacings from 10 through 1000. Every trial seed and independently recomputed feasibility/certificate check is saved. No sample count or maximum dimension is reduced."
+  ],
+  "trial_shards": [
+    {
+      "path": "trials_10.json",
+      "dimension": 10,
+      "count": 100,
+      "bytes": 267113,
+      "sha256": "7a865b5b8bcd8745d9d2f6eea0f7ec378e81c42bf77c66ee95a8bf897527b561"
+    },
+    {
+      "path": "trials_13.json",
+      "dimension": 13,
+      "count": 100,
+      "bytes": 274163,
+      "sha256": "82a50a0b6db2624999a34c7b85c10eb8f9baa80f2834bf4f2a6cb0ba0a8eaaec"
+    },
+    {
+      "path": "trials_16.json",
+      "dimension": 16,
+      "count": 100,
+      "bytes": 282669,
+      "sha256": "5f3fd117bf7a1efa89ef38df08fb44a72f96ccccd100bed7630ffd3716b931bc"
+    },
+    {
+      "path": "trials_21.json",
+      "dimension": 21,
+      "count": 100,
+      "bytes": 292825,
+      "sha256": "4a87ff6918f6c4921c0ca3e10b30ef5767dabcc7f7168be5f1b4c2ccb927338b"
+    },
+    {
+      "path": "trials_26.json",
+      "dimension": 26,
+      "count": 100,
+      "bytes": 301637,
+      "sha256": "48a8525f0df0ffa66026774f566b60233d5c4a1912fb9becfce776a6578da4fb"
+    },
+    {
+      "path": "trials_34.json",
+      "dimension": 34,
+      "count": 100,
+      "bytes": 312031,
+      "sha256": "23343c9bbe59779e23cfc3d92d40cff0b3ac28ad475b88bb81895ddb97ab4c09"
+    },
+    {
+      "path": "trials_43.json",
+      "dimension": 43,
+      "count": 100,
+      "bytes": 324171,
+      "sha256": "b7173af9033dfec5e0557c80cc6d7c1f169dafb685a80fca54327958eee2a88e"
+    },
+    {
+      "path": "trials_55.json",
+      "dimension": 55,
+      "count": 100,
+      "bytes": 334319,
+      "sha256": "3e348fc93245328f122fb34bdb520235d996e70c9ba91eb71858e6972989b87c"
+    },
+    {
+      "path": "trials_70.json",
+      "dimension": 70,
+      "count": 100,
+      "bytes": 346381,
+      "sha256": "a77d56aa7c133f870da981f5fd142a0fa27094d6bc2c1b6955e9546280eb1cb0"
+    },
+    {
+      "path": "trials_89.json",
+      "dimension": 89,
+      "count": 100,
+      "bytes": 357577,
+      "sha256": "a56c5dc13fa03c04dae401e36b86f81e8f769d230b83e635048cc5988686bbd5"
+    },
+    {
+      "path": "trials_113.json",
+      "dimension": 113,
+      "count": 100,
+      "bytes": 372048,
+      "sha256": "a1ee10d916dc7a2e325f929f782fc20d74d0af9bd90924df41ea2e0a5459967c"
+    },
+    {
+      "path": "trials_144.json",
+      "dimension": 144,
+      "count": 100,
+      "bytes": 384320,
+      "sha256": "af3cc541d7d9bfb9622e3854b1e43c4e30426b8ea3456bb192d7a9bfcd7972d4"
+    },
+    {
+      "path": "trials_183.json",
+      "dimension": 183,
+      "count": 100,
+      "bytes": 396403,
+      "sha256": "265bdc6ac70540c9b794029556eb2bf176cffffffc723e47399130155b035f00"
+    },
+    {
+      "path": "trials_234.json",
+      "dimension": 234,
+      "count": 100,
+      "bytes": 411129,
+      "sha256": "058f64d1ea676a3701860ddb91bfb34f4a9a1f0852d25c0c82f0aff38ee18155"
+    },
+    {
+      "path": "trials_298.json",
+      "dimension": 298,
+      "count": 100,
+      "bytes": 424747,
+      "sha256": "79d0006874b996b6caed8f3490b87249b21088de7d1da5fd97d15d2c254842f2"
+    },
+    {
+      "path": "trials_379.json",
+      "dimension": 379,
+      "count": 100,
+      "bytes": 439655,
+      "sha256": "b10cfed2854d1027bfa87f43de9ff5175cbb59dded220800107337b32ab2cd8d"
+    },
+    {
+      "path": "trials_483.json",
+      "dimension": 483,
+      "count": 100,
+      "bytes": 452836,
+      "sha256": "0a55a67f9ce70fcfa2b7e96219cdf061a47cc37952092259e59760101b641cbe"
+    },
+    {
+      "path": "trials_616.json",
+      "dimension": 616,
+      "count": 100,
+      "bytes": 469856,
+      "sha256": "00b0fe07028a536ea37baef03e785313467d4df502d379946b5bdd1ba19d379f"
+    },
+    {
+      "path": "trials_785.json",
+      "dimension": 785,
+      "count": 100,
+      "bytes": 481722,
+      "sha256": "755a46324d0e6a3c948c92ec17a14f809181c6e6f2a6dc8c7f8cf4f2799a728e"
+    },
+    {
+      "path": "trials_1000.json",
+      "dimension": 1000,
+      "count": 100,
+      "bytes": 499112,
+      "sha256": "4b7bdc9fd5128fe13d33929ec3e4e704515e524e370f3207377363703977bbb1"
+    }
+  ],
+  "all_trials_preserved": true,
+  "publication_partition": {
+    "script": "examples/algorithm_scaling_pack.py",
+    "sha256": "4cc5ac14a9799a5a8feaaa5617ffc04db706d76e4f4071f34b72fa0e5f20ba31",
+    "packaged_at": "2026-10-10T05:25:43.134290+00:00",
+    "description": "All2000trial records preserved; each study includes only its own method, partitioned into20dimension shards."
+  },
+  "publication": {
+    "packaged_at": "2026-10-10T05:25:43.135346+00:00",
+    "implementation": "examples/algorithm_evidence.py",
+    "implementation_sha256": "f729b9739f9167181d4b09e9f8afdff17d8446e707d5f90a49e96bf4a00530e5",
+    "input_manifest_sha256": "616f7529b260645f7fc312076f69a77bfd3f61e95e233afaeefcfb84ba5ee6ff",
+    "numeric_scope_reduced": false,
+    "verified_support_hashes": {
+      "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+    }
+  }
+}

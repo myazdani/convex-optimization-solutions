@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "8.11",
+      "reviewer": "duality_review",
+      "solution_sha256": "6240c4e8b82da76e0a7ec70427f5ad7bfd20966e1a955c8dacb9c7a0ebadf663",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked normalization relaxation, positive optimum norm saturation, zero-optimum hemisphere versus infeasibility via 2n LPs, apex and endpoint conventions. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.12",
+      "reviewer": "duality_review",
+      "solution_sha256": "65a75e1a4e10df7d575e83302c952655a50627d38e2ba0bcd6e934674fbfd349",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "inscribed uniqueness",
+        "covering uniqueness"
+      ],
+      "notes": "Checked strict-logdet shape uniqueness plus distinct-center capsule contradiction, covering-offset contraction, and counterexamples outside convex-body hypotheses. Surrounding section8.4 explicitly assumes boundedness/nonempty interior; text correctly identifies contextual hypotheses rather than relying on strict feasibility alone. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.13",
+      "reviewer": "duality_review",
+      "solution_sha256": "1f91eee07f81244e9d43d81948dadb2fbd7b3e18f719c3ff9817838cd45be8ab",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked simplex covariance/shape inverse, vertex boundary conditions, average containment and determinant inequality, all facet supports and exact 1/n shrink factor. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.14",
+      "reviewer": "duality_review",
+      "solution_sha256": "4b5158643f9716021499ec89ff8750f2395c26b84a5e769014627bc77180c0d8",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked normalized KKT contact identities with Slater, derivative factors, scalar interval inequality giving n, symmetry argument giving sqrt(n). Surrounding section8.4 states boundedness; literal exercise strict feasibility alone is insufficient, as accurately qualified. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.15",
+      "reviewer": "duality_review",
+      "solution_sha256": "203217895051d5b72c44fa488c66ef051269de4bb3e1f6a0ac151f2eedc63d20",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked S-lemma implication direction, nonnegative multiplier sign, affine Schur block, strict-feasible ellipsoid premise and parameter recovery. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.16",
+      "reviewer": "duality_review",
+      "solution_sha256": "04c5b7b7b1a199c51053c03833dc34bbba13a74125936b3340ec959973be89ec",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked row support over a box, affine nonexponential containment, concave log-volume and degenerate/unbounded alternatives. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.17",
+      "reviewer": "duality_review",
+      "solution_sha256": "174f796ba3f897f08ce2e01965795b646f7488f454faae1ffdb35399de5d3ef3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "affine invariance",
+        "positive scaling"
+      ],
+      "notes": "Checked affine-slack equality, bijective coordinate map, positive scaling constant and stated general-inequality extension. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.18",
+      "reviewer": "duality_review",
+      "solution_sha256": "bf459a53611c45c6c6acf1f73f78fbeae22c7363a38315ca07a98e8edc95f958",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked source and surrounding8.5.3: no general boundedness assumption guarantees the literal claim; halfline counterexample valid. Checked repeated redundant support inequality, integer q choice, gradient cancellation, strict convexity and sufficient bounded intended case. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.19",
+      "reviewer": "duality_review",
+      "solution_sha256": "e147e29687ef6a3532f54763e8fcc8d5fe2ef70231ecc5b7840c72eb6b68a706",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked normalized gradient/Hessian identities, m(m-1) radius bound, inverse-H nondegeneracy, boundary contradiction and segment proof of redundancy. Exact source checked; rendered GitHub preview is separate."
+    },
+    {
+      "id": "8.20",
+      "reviewer": "duality_review",
+      "solution_sha256": "7c694e3fe55a987a1b2403444c56699d16b0e5b2f54516d6769a015adeaf4ef4",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked trace-stationarity, Frobenius Hessian identity, spectral inner/outer bounds and singular-H cylinder interpretation. Exact source checked; rendered GitHub preview is separate."
+    }
+  ]
+}

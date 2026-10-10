@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "author": "solve_applications_algorithm_exercises",
+  "entries": [
+    {
+      "id": "7.1",
+      "title": "Exponential-noise maximum likelihood",
+      "solution_path": "docs/solutions/7.1.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "4ae7e4a8ee2e61790ecc8fff11bd9b9d376de435a9a2f4488ef29983f06b448f",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.2",
+      "title": "Uniform noise with unknown width",
+      "solution_path": "docs/solutions/7.2.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bede85c1273687242187fa8484c4cb1e0a7e7d476bf7db634d6f4c64946a3a9c",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.3",
+      "title": "Convex probit maximum likelihood",
+      "solution_path": "docs/solutions/7.3.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9f81dc4ffd9725fe23e03a8e7970de971d0405ff26498fbbdd0a631398f2c3c9",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.4",
+      "title": "Joint Gaussian mean and covariance estimation",
+      "solution_path": "docs/solutions/7.4.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "532ec6ed40a3ac472653f26a011bbea0263c6ecf7461501faa2862974016dc04",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.5",
+      "title": "Markov transition estimation",
+      "solution_path": "docs/solutions/7.5.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
+      "source_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "8cc6394c34f4f11d214ba114b1a8e4ac8089053a33f5466a50baf1829434e4f2",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.6",
+      "title": "Location-scale likelihood and the Laplace example",
+      "solution_path": "docs/solutions/7.6.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
+      "source_checked": true,
+      "subparts": [
+        "convexity",
+        "Laplacian analytical solution"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6f0cd132d0335ea71c4c8211b23d5a0bae11eb5aa61e17b3a29ed4511acce2d3",
+      "notes": "Printed density has variance 1/2 despite preceding unit-variance wording; solution gives both exact printed density and unit-variance normalization."
+    },
+    {
+      "id": "7.7",
+      "title": "Poisson emission estimation",
+      "solution_path": "docs/solutions/7.7.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "9fa085a936f01314910e1c9e35a4b203d10013c1ca5fe601db34de2776e2e108",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.8",
+      "title": "Log-concave noise and sign measurements",
+      "solution_path": "docs/solutions/7.8.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ea996b367824b7a86c7f6a8b0ed4d020f4dda1948ad076d3cefe909fd453e4ec",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.9",
+      "title": "Unknown monotone sensor calibration",
+      "solution_path": "docs/solutions/7.9.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
+      "source_checked": true,
+      "subparts": [
+        "inverse reformulation",
+        "likelihood",
+        "convex feasibility",
+        "calibration recovery"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "2fa7f62cfaa2a4858b0b4c142c01b4e071265849b3690255749e929edea1e5af",
+      "notes": "Includes likelihood Jacobian and exact nonclosed derivative-interpolation domain; distinguishes MLE from unattained likelihood supremum."
+    },
+    {
+      "id": "7.10",
+      "title": "A covariance lower bound as an LMI",
+      "solution_path": "docs/solutions/7.10.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "ca0a2b62b29155ce31614b721fbca3502684c8396e147f8c9861b41b1788fb70",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.11",
+      "title": "Decomposing randomized detectors",
+      "solution_path": "docs/solutions/7.11.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "bab2c31b4c00d3a17bc3f3fa74a1f5aa1655376d097c57f45adbef0024791c72",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.12",
+      "title": "Optimal randomized action is deterministic",
+      "solution_path": "docs/solutions/7.12.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "6ad350a39f34cd08eaf22b65e5d3d7723aaab7360bef7ccb6d9c304ce2a0673a",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    },
+    {
+      "id": "7.13",
+      "title": "Sharp finite-support moment bounds",
+      "solution_path": "docs/solutions/7.13.md",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410",
+      "source_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "all_subparts_completed": true,
+      "solution_sha256": "1b826db4d172e8edff767fc4238a84b829442da411a73007ef3825171dd39983",
+      "notes": "Exact exercise read; all listed parts addressed; proof and edge cases included."
+    }
+  ]
+}

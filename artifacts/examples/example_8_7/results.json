@@ -1,0 +1,271 @@
+{
+  "summary": {
+    "half_perimeters": [
+      47.93446178780976,
+      47.1562220587648,
+      48.669203564181565,
+      48.54574638321826
+    ],
+    "widths": [
+      25.573781946772858,
+      23.86901512698037,
+      25.00000048112376,
+      25.09366748638375
+    ],
+    "heights": [
+      22.3606798410369,
+      23.287206931784425,
+      23.669203083057806,
+      23.45207889683451
+    ]
+  },
+  "layouts": [
+    {
+      "minimum_areas": [
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "x": [
+        6.044722651702167e-09,
+        6.044722655928232e-09,
+        13.998861506884753,
+        9.616307573314828e-09,
+        21.10164599464928
+      ],
+      "y": [
+        8.6929814212847,
+        3.2959889976670425e-09,
+        6.923865152122974e-09,
+        17.385962839318957,
+        5.916137196797927e-08
+      ],
+      "width": [
+        12.998861494795305,
+        12.998861494795305,
+        6.102784485039924,
+        20.101645975416663,
+        4.472135950217955
+      ],
+      "height": [
+        7.692981414738265,
+        7.692981414692722,
+        16.385962825471225,
+        4.9747169997149205,
+        22.360679722714156
+      ],
+      "W": 25.573781946772858,
+      "H": 22.3606798410369,
+      "half_perimeter": 47.93446178780976
+    },
+    {
+      "minimum_areas": [
+        20,
+        50,
+        80,
+        150,
+        200
+      ],
+      "x": [
+        5.7703348551255404e-08,
+        1.908872188338435e-08,
+        7.491427291095029,
+        1.7098853153091464e-08,
+        15.280608699668848
+      ],
+      "y": [
+        8.702466383038301,
+        2.3006907500315448e-08,
+        2.565014515020208e-08,
+        12.783453010818924,
+        2.316942355953396e-08
+      ],
+      "width": [
+        6.491427175688332,
+        6.491427252917586,
+        6.789181395380518,
+        14.280608665471142,
+        8.58840642097282
+      ],
+      "height": [
+        3.080986604773716,
+        7.702466337024486,
+        11.783452959518634,
+        10.503753910046624,
+        23.287206885445578
+      ],
+      "W": 23.86901512698037,
+      "H": 23.287206931784425,
+      "half_perimeter": 47.1562220587648
+    },
+    {
+      "minimum_areas": [
+        180,
+        80,
+        80,
+        80,
+        80
+      ],
+      "x": [
+        2.5930674035935324e-08,
+        6.336939776320245e-08,
+        15.714868473226494,
+        2.925835371983664e-07,
+        21.000000482721877
+      ],
+      "y": [
+        6.436677958710513,
+        2.0639904810450432e-08,
+        8.461582321936888e-08,
+        19.669203031504185,
+        1.8346030988706021
+      ],
+      "width": [
+        14.714868421365148,
+        14.714868346487698,
+        4.285131992933365,
+        19.9999998975548,
+        3.9999999831997703
+      ],
+      "height": [
+        12.232525052153768,
+        5.436677917430703,
+        18.66920286227254,
+        4.000000036365489,
+        19.99999974335633
+      ],
+      "W": 25.00000048112376,
+      "H": 23.669203083057806,
+      "half_perimeter": 48.669203564181565
+    },
+    {
+      "minimum_areas": [
+        20,
+        150,
+        20,
+        200,
+        110
+      ],
+      "x": [
+        3.2016443089919715,
+        1.8218022674846652e-08,
+        17.403251724952668,
+        1.8670011993599503e-08,
+        20.40325177197533
+      ],
+      "y": [
+        10.144528293839162,
+        7.650437085807602e-09,
+        1.0722647087525063,
+        13.144528320509883,
+        2.0989932912215276e-07
+      ],
+      "width": [
+        10.00000002354981,
+        16.403251688516622,
+        2.0000000292587794,
+        19.403251734635305,
+        4.690415707133493
+      ],
+      "height": [
+        2.0000000190202836,
+        9.144528278538289,
+        10.00000006410891,
+        10.30755056846004,
+        23.452078477035855
+      ],
+      "W": 25.09366748638375,
+      "H": 23.45207889683451,
+      "half_perimeter": 48.54574638321826
+    }
+  ],
+  "checks": [
+    {
+      "name": "layout 1 reciprocal versus rotated-cone objective",
+      "measured": 3.896779787737614e-09,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "layout 1 min-area satisfaction",
+      "measured": 3.40740371029824e-07,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "layout 2 reciprocal versus rotated-cone objective",
+      "measured": 5.7673737785535195e-08,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "layout 2 min-area satisfaction",
+      "measured": 2.858516722881177e-06,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "layout 3 reciprocal versus rotated-cone objective",
+      "measured": 2.5642954426530196e-08,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "layout 3 min-area satisfaction",
+      "measured": 3.396504439479031e-06,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "layout 4 reciprocal versus rotated-cone objective",
+      "measured": 6.385973705391734e-08,
+      "tolerance": 2e-05,
+      "passed": true
+    },
+    {
+      "name": "layout 4 min-area satisfaction",
+      "measured": 2.746383700014121e-06,
+      "tolerance": 2e-05,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "floorplans.png"
+  ],
+  "id": "example_8_7",
+  "executed_at": "2026-10-10T05:03:41.189347+00:00",
+  "elapsed_seconds": 0.39799580899853026,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=455",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/floorplan.html",
+      "https://cvxopt.org/_downloads/70ce961772f98b5f2a84efdcc921cac4/floorplan.py"
+    ],
+    "official_data_files": [],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+  "runtime_source_sha256": {
+    "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {},
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py example_8_7",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

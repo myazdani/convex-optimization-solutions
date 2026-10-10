@@ -11,9 +11,9 @@
     "exact_reproduction_rule": "User approved documented method reproductions when exact textbook inputs are unavailable (2026-10-10). They may complete the task but never claim an exact output match."
   },
   "summary": {
-    "verified": 114,
-    "in_progress": 212,
-    "in_review": 73,
+    "verified": 399,
+    "in_progress": 0,
+    "in_review": 0,
     "blocked": 0
   },
   "entries": [
@@ -23,8 +23,10 @@
       "chapter": 4,
       "category": "examples",
       "title": "Scalar optimal values, attainment, and unboundedness",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=142"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=142",
+      "solution_path": "docs/examples/example_4_1.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json"
     },
     {
       "key": "example:example_4_10",
@@ -32,8 +34,10 @@
       "chapter": 4,
       "category": "examples",
       "title": "Minimal matrix upper bounds via weighted SDP",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=194"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=194",
+      "solution_path": "docs/examples/example_4_10.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json"
     },
     {
       "key": "example:fig_4_11",
@@ -41,8 +45,10 @@
       "chapter": 4,
       "category": "examples",
       "title": "Regularized least-squares achievable set and Pareto curve",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=198"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=198",
+      "solution_path": "docs/examples/fig_4_11.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json"
     },
     {
       "key": "example:fig_4_12",
@@ -50,8 +56,10 @@
       "chapter": 4,
       "category": "examples",
       "title": "Four-asset portfolio risk-return trade-off",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=200"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=200",
+      "solution_path": "docs/examples/fig_4_12.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json"
     },
     {
       "key": "example:fig_5_1_5_2",
@@ -59,8 +67,10 @@
       "chapter": 5,
       "category": "examples",
       "title": "Nonconvex scalar primal and Lagrangian dual numerical illustration",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=230"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=230",
+      "solution_path": "docs/examples/fig_5_1_5_2.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json"
     },
     {
       "key": "example:fig_6_2",
@@ -68,8 +78,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Comparing four residual penalties",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=310"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=310",
+      "solution_path": "docs/examples/fig_6_2.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json"
     },
     {
       "key": "example:example_6_2",
@@ -77,8 +89,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Huber regression with two outliers",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=313"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=313",
+      "solution_path": "docs/examples/example_6_2.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json"
     },
     {
       "key": "example:example_6_3",
@@ -86,8 +100,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Regularized input design",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=321"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=321",
+      "solution_path": "docs/examples/example_6_3.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json"
     },
     {
       "key": "example:example_6_4",
@@ -95,8 +111,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Sparse regressor selection",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=324"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=324",
+      "solution_path": "docs/examples/example_6_4.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json"
     },
     {
       "key": "example:fig_6_8",
@@ -104,8 +122,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Quadratic signal smoothing",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=326"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=326",
+      "solution_path": "docs/examples/fig_6_8.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json"
     },
     {
       "key": "example:fig_6_11",
@@ -113,8 +133,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Total-variation signal reconstruction",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=328"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=328",
+      "solution_path": "docs/examples/fig_6_11.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json"
     },
     {
       "key": "example:example_6_5",
@@ -122,8 +144,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Nominal, stochastic and worst-case least squares",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=333"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=333",
+      "solution_path": "docs/examples/example_6_5.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json"
     },
     {
       "key": "example:example_6_6",
@@ -131,8 +155,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Robust least squares with disk uncertainty",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=338"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=338",
+      "solution_path": "docs/examples/example_6_6.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json"
     },
     {
       "key": "example:example_6_7",
@@ -140,8 +166,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Degree-five polynomial fitting",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=345"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=345",
+      "solution_path": "docs/examples/example_6_7.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json"
     },
     {
       "key": "example:example_6_8",
@@ -149,8 +177,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Cubic spline fitting",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=346"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=346",
+      "solution_path": "docs/examples/example_6_8.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json"
     },
     {
       "key": "example:fig_6_21",
@@ -158,8 +188,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Gabor basis pursuit and time-frequency recovery",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=348"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=348",
+      "solution_path": "docs/examples/fig_6_21.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json"
     },
     {
       "key": "example:fig_6_24",
@@ -167,8 +199,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Convex least-squares function fitting",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=352"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=352",
+      "solution_path": "docs/examples/fig_6_24.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json"
     },
     {
       "key": "example:example_6_9",
@@ -176,8 +210,10 @@
       "chapter": 6,
       "category": "examples",
       "title": "Consumer preference bounds",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=355"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=355",
+      "solution_path": "docs/examples/example_6_9.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json"
     },
     {
       "key": "example:fig_7_1",
@@ -185,8 +221,10 @@
       "chapter": 7,
       "category": "examples",
       "title": "Logistic maximum-likelihood regression",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=368"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=368",
+      "solution_path": "docs/examples/fig_7_1.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json"
     },
     {
       "key": "example:example_7_2",
@@ -194,8 +232,10 @@
       "chapter": 7,
       "category": "examples",
       "title": "Maximum entropy and distribution bounds",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=376"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=376",
+      "solution_path": "docs/examples/example_7_2.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json"
     },
     {
       "key": "example:example_7_4",
@@ -214,8 +254,10 @@
       "chapter": 7,
       "category": "examples",
       "title": "Chebyshev bounds for symbol detection",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=395"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=395",
+      "solution_path": "docs/examples/fig_7_5.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json"
     },
     {
       "key": "example:fig_7_8",
@@ -223,8 +265,10 @@
       "chapter": 7,
       "category": "examples",
       "title": "Chernoff and Monte Carlo detection bounds",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=396"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=396",
+      "solution_path": "docs/examples/fig_7_8.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json"
     },
     {
       "key": "example:fig_7_9",
@@ -232,8 +276,10 @@
       "chapter": 7,
       "category": "examples",
       "title": "D-, E- and A-optimal experiment design",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=402"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=402",
+      "solution_path": "docs/examples/fig_7_9.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch002.json"
     },
     {
       "key": "example:example_8_1",
@@ -241,8 +287,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Projection of the origin on the unit-square boundary",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=411"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=411",
+      "solution_path": "docs/examples/example_8_1.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch001.json"
     },
     {
       "key": "example:example_8_3",
@@ -261,8 +309,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Minimum-volume enclosing and maximum-volume inscribed ellipsoids",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=426"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=426",
+      "solution_path": "docs/examples/fig_8_3.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json"
     },
     {
       "key": "example:fig_8_5",
@@ -270,8 +320,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Three centers of a polyhedron",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=431"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=431",
+      "solution_path": "docs/examples/fig_8_5.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json"
     },
     {
       "key": "example:fig_8_8",
@@ -279,8 +331,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Linear and maximum-margin discrimination",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=437"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=437",
+      "solution_path": "docs/examples/fig_8_8.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json"
     },
     {
       "key": "example:fig_8_10",
@@ -288,8 +342,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Approximate linear classification comparison",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=440"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=440",
+      "solution_path": "docs/examples/fig_8_10.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json"
     },
     {
       "key": "example:fig_8_13",
@@ -297,8 +353,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Quadratic ellipsoidal discrimination",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=444"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=444",
+      "solution_path": "docs/examples/fig_8_13.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json"
     },
     {
       "key": "example:fig_8_14",
@@ -306,8 +364,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Minimum-degree polynomial discrimination",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=444"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=444",
+      "solution_path": "docs/examples/fig_8_14.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch004.json"
     },
     {
       "key": "example:example_8_6",
@@ -315,8 +375,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Linear, quadratic and fourth-order placement",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=448"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=448",
+      "solution_path": "docs/examples/example_8_6.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json"
     },
     {
       "key": "example:example_8_7",
@@ -324,8 +386,10 @@
       "chapter": 8,
       "category": "examples",
       "title": "Five-cell floor planning",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=455"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=455",
+      "solution_path": "docs/examples/example_8_7.md",
+      "verification_path": "coverage/reviews/examples_ch04_08_batch003.json"
     },
     {
       "key": "example:fig_9_2",
@@ -333,8 +397,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Gradient descent on an ill-conditioned quadratic",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=483"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=483",
+      "solution_path": "docs/examples/fig_9_2.md",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json"
     },
     {
       "key": "example:fig_9_3",
@@ -342,8 +408,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Gradient descent on a two-variable exponential objective",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=484"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=484",
+      "solution_path": "docs/examples/fig_9_3.md",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json"
     },
     {
       "key": "example:fig_9_6",
@@ -351,8 +419,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Gradient descent for a 100-variable log-barrier objective",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=486"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=486",
+      "solution_path": "docs/examples/fig_9_6.md",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json"
     },
     {
       "key": "example:fig_9_7",
@@ -360,8 +430,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Conditioning and gradient-method convergence",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=487"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=487",
+      "solution_path": "docs/examples/fig_9_7.md",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json"
     },
     {
       "key": "example:fig_9_11",
@@ -369,8 +441,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Steepest descent under two quadratic norms",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=495"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=495",
+      "solution_path": "docs/examples/fig_9_11.md",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json"
     },
     {
       "key": "example:fig_9_19",
@@ -378,8 +452,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Newton descent on the two-variable exponential objective",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=506"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=506",
+      "solution_path": "docs/examples/fig_9_19.md",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json"
     },
     {
       "key": "example:fig_9_21",
@@ -387,8 +463,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Newton convergence and step lengths in 100 variables",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=506"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=506",
+      "solution_path": "docs/examples/fig_9_21.md",
+      "verification_path": "coverage/reviews/examples_ch09_batch001.json"
     },
     {
       "key": "example:fig_9_23",
@@ -396,8 +474,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Sparse Newton solve with 10000 variables",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=508"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=508",
+      "solution_path": "docs/examples/fig_9_23.md",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json"
     },
     {
       "key": "example:fig_9_25",
@@ -405,8 +485,10 @@
       "chapter": 9,
       "category": "examples",
       "title": "Newton iteration counts for self-concordant functions",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=520"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=520",
+      "solution_path": "docs/examples/fig_9_25.md",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json"
     },
     {
       "key": "example:fig_10_1",
@@ -414,8 +496,10 @@
       "chapter": 10,
       "category": "examples",
       "title": "Infeasible-start Newton on a feasible analytic-center problem",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=555"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=555",
+      "solution_path": "docs/examples/fig_10_1.md",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json"
     },
     {
       "key": "example:fig_10_3",
@@ -423,8 +507,10 @@
       "chapter": 10,
       "category": "examples",
       "title": "Infeasible-start Newton on an infeasible problem",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=556"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=556",
+      "solution_path": "docs/examples/fig_10_3.md",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json"
     },
     {
       "key": "example:fig_10_5",
@@ -432,8 +518,10 @@
       "chapter": 10,
       "category": "examples",
       "title": "Newton method for a convex-concave game",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=556"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=556",
+      "solution_path": "docs/examples/fig_10_5.md",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json"
     },
     {
       "key": "example:fig_10_6",
@@ -441,8 +529,10 @@
       "chapter": 10,
       "category": "examples",
       "title": "Three Newton formulations for analytic centering",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=562"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=562",
+      "solution_path": "docs/examples/fig_10_6.md",
+      "verification_path": "coverage/reviews/examples_ch09_10_batch002.json"
     },
     {
       "key": "example:example_11_1",
@@ -450,8 +540,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Central path of a two-variable linear program",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=579"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=579",
+      "solution_path": "docs/examples/example_11_1.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json"
     },
     {
       "key": "example:example_11_3",
@@ -459,8 +551,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Central path as a force equilibrium",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=581"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=581",
+      "solution_path": "docs/examples/example_11_3.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json"
     },
     {
       "key": "example:fig_11_4",
@@ -468,8 +562,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Barrier method on a small inequality-form LP",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=585"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=585",
+      "solution_path": "docs/examples/fig_11_4.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json"
     },
     {
       "key": "example:fig_11_6",
@@ -477,8 +573,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Barrier method on a small geometric program",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=587"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=587",
+      "solution_path": "docs/examples/fig_11_6.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json"
     },
     {
       "key": "example:fig_11_7",
@@ -486,8 +584,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Barrier method on three standard-form LP sizes",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=588"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=588",
+      "solution_path": "docs/examples/fig_11_7.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json"
     },
     {
       "key": "example:fig_11_8",
@@ -495,8 +595,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Barrier-method scaling across 2000 LPs",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=589"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=589",
+      "solution_path": "docs/examples/fig_11_8.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch003.json"
     },
     {
       "key": "example:example_11_4",
@@ -504,8 +606,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Comparing maximum and total phase-I infeasibility",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=594"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=594",
+      "solution_path": "docs/examples/example_11_4.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch001.json"
     },
     {
       "key": "example:fig_11_10",
@@ -513,8 +617,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Feasibility difficulty near the boundary",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=596"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=596",
+      "solution_path": "docs/examples/fig_11_10.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json"
     },
     {
       "key": "example:fig_11_15",
@@ -522,8 +628,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Barrier method on a small SOCP",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=615"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=615",
+      "solution_path": "docs/examples/fig_11_15.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json"
     },
     {
       "key": "example:fig_11_17",
@@ -531,8 +639,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Barrier method on a small SDP",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=616"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=616",
+      "solution_path": "docs/examples/fig_11_17.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json"
     },
     {
       "key": "example:fig_11_19",
@@ -540,8 +650,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Barrier method on three SDP sizes",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=617"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=617",
+      "solution_path": "docs/examples/fig_11_19.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json"
     },
     {
       "key": "example:fig_11_20",
@@ -549,8 +661,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Barrier-method scaling across 2000 SDPs",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=619"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=619",
+      "solution_path": "docs/examples/fig_11_20.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch003.json"
     },
     {
       "key": "example:fig_11_21",
@@ -558,8 +672,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Primal-dual method on a small LP",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=627"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=627",
+      "solution_path": "docs/examples/fig_11_21.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json"
     },
     {
       "key": "example:fig_11_22",
@@ -567,8 +683,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Primal-dual method on a small GP",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=627"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=627",
+      "solution_path": "docs/examples/fig_11_22.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch002.json"
     },
     {
       "key": "example:fig_11_23",
@@ -576,8 +694,10 @@
       "chapter": 11,
       "category": "examples",
       "title": "Primal-dual scaling across 2000 LPs",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=629"
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=629",
+      "solution_path": "docs/examples/fig_11_23.md",
+      "verification_path": "coverage/reviews/examples_ch11_batch003.json"
     },
     {
       "key": "exercise:2.1",
@@ -1013,540 +1133,660 @@
       "id": "3.1",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Secant slope picture",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127"
+      "title": "Secant slopes and derivatives of a convex function",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
+      "solution_path": "docs/solutions/3.1.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.2",
       "id": "3.2",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.2",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127"
+      "title": "What the two contour diagrams permit",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
+      "solution_path": "docs/solutions/3.2.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.3",
       "id": "3.3",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.3",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128"
+      "title": "Inverse of an increasing convex function",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "solution_path": "docs/solutions/3.3.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.4",
       "id": "3.4",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.4",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128"
+      "title": "An integral characterization of convexity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "solution_path": "docs/solutions/3.4.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.5",
       "id": "3.5",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.5",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128"
+      "title": "Convexity of a running average",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "solution_path": "docs/solutions/3.5.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.6",
       "id": "3.6",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.6",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128"
+      "title": "Halfspace, conic, and polyhedral epigraphs",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "solution_path": "docs/solutions/3.6.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.7",
       "id": "3.7",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.7",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128"
+      "title": "A globally upper-bounded convex function is constant",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "solution_path": "docs/solutions/3.7.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.8",
       "id": "3.8",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.8",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128"
+      "title": "The Hessian characterization of convexity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "solution_path": "docs/solutions/3.8.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.9",
       "id": "3.9",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.9",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128"
+      "title": "Convexity after restriction to an affine set",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "solution_path": "docs/solutions/3.9.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.10",
       "id": "3.10",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.10",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128"
+      "title": "Variance alone versus scaled zero-mean noise",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "solution_path": "docs/solutions/3.10.md",
+      "verification_path": "coverage/reviews/ch03_batch001.json"
     },
     {
       "key": "exercise:3.11",
       "id": "3.11",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.11",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129"
+      "title": "Monotone gradients and a non-gradient monotone map",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "solution_path": "docs/solutions/3.11.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.12",
       "id": "3.12",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.12",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129"
+      "title": "An affine function between convex and concave functions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "solution_path": "docs/solutions/3.12.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.13",
       "id": "3.13",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.13",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129"
+      "title": "Nonnegativity and equality of KL divergence",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "solution_path": "docs/solutions/3.13.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.14",
       "id": "3.14",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.14",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129"
+      "title": "Convex-concave functions and saddle points",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "solution_path": "docs/solutions/3.14.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.15",
       "id": "3.15",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.15",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129"
+      "title": "Power and logarithmic utility functions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "solution_path": "docs/solutions/3.15.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.16",
       "id": "3.16",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.16",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130"
+      "title": "Convexity and quasiconvexity classifications",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "solution_path": "docs/solutions/3.16.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.17",
       "id": "3.17",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.17",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130"
+      "title": "Concavity of power means below order one",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "solution_path": "docs/solutions/3.17.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.18",
       "id": "3.18",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.18",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130"
+      "title": "Trace inverse and determinant-root curvature",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "solution_path": "docs/solutions/3.18.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.19",
       "id": "3.19",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.19",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130"
+      "title": "Ordered weighted sums and an integrated log barrier",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "solution_path": "docs/solutions/3.19.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.20",
       "id": "3.20",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.20",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130"
+      "title": "Affine composition examples",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "solution_path": "docs/solutions/3.20.md",
+      "verification_path": "coverage/reviews/ch03_batch002.json"
     },
     {
       "key": "exercise:3.21",
       "id": "3.21",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.21",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131"
+      "title": "Convexity of maxima and ordered absolute sums",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "solution_path": "docs/solutions/3.21.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.22",
       "id": "3.22",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.22",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131"
+      "title": "Convexity by composition rules",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "solution_path": "docs/solutions/3.22.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.23",
       "id": "3.23",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.23",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131"
+      "title": "Two perspective constructions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "solution_path": "docs/solutions/3.23.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.24",
       "id": "3.24",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.24",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131"
+      "title": "Function classifications on the probability simplex",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "solution_path": "docs/solutions/3.24.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.25",
       "id": "3.25",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.25",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132"
+      "title": "Maximum event-probability distance",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "solution_path": "docs/solutions/3.25.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.26",
       "id": "3.26",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.26",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132"
+      "title": "Further convexity properties of eigenvalue functions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "solution_path": "docs/solutions/3.26.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.27",
       "id": "3.27",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.27",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132"
+      "title": "Concavity of Cholesky diagonal entries",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "solution_path": "docs/solutions/3.27.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.28",
       "id": "3.28",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.28",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133"
+      "title": "Affine minorants of a convex function",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "solution_path": "docs/solutions/3.28.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.29",
       "id": "3.29",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.29",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133"
+      "title": "A convex piecewise-affine function is a maximum",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "solution_path": "docs/solutions/3.29.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.30",
       "id": "3.30",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.30",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133"
+      "title": "The convex envelope as the greatest convex minorant",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "solution_path": "docs/solutions/3.30.md",
+      "verification_path": "coverage/reviews/ch03_batch003.json"
     },
     {
       "key": "exercise:3.31",
       "id": "3.31",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.31",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133"
+      "title": "The largest positively homogeneous minorant",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "solution_path": "docs/solutions/3.31.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.32",
       "id": "3.32",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.32",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133"
+      "title": "Products and ratios on an interval",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "solution_path": "docs/solutions/3.32.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.33",
       "id": "3.33",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.33",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133"
+      "title": "Direct proof of perspective convexity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "solution_path": "docs/solutions/3.33.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.34",
       "id": "3.34",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Minkowski functional geometry",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133"
+      "title": "The Minkowski functional and norms",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "solution_path": "docs/solutions/3.34.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.35",
       "id": "3.35",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.35",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134"
+      "title": "Support-function identities and set inclusion",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "solution_path": "docs/solutions/3.35.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.36",
       "id": "3.36",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.36",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134"
+      "title": "Six conjugate calculations",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "solution_path": "docs/solutions/3.36.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.37",
       "id": "3.37",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.37",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134"
+      "title": "Conjugate of the trace inverse",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "solution_path": "docs/solutions/3.37.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.38",
       "id": "3.38",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Young inequality geometry",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134"
+      "title": "Inverse-function integrals and Young inequality",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "solution_path": "docs/solutions/3.38.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.39",
       "id": "3.39",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.39",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134"
+      "title": "Conjugate transformation rules",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "solution_path": "docs/solutions/3.39.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.40",
       "id": "3.40",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.40",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135"
+      "title": "Derivatives of the conjugate via an inverse gradient",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "solution_path": "docs/solutions/3.40.md",
+      "verification_path": "coverage/reviews/ch03_batch004.json"
     },
     {
       "key": "exercise:3.41",
       "id": "3.41",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.41",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135"
+      "title": "Conjugate of negative normalized entropy",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "solution_path": "docs/solutions/3.41.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.42",
       "id": "3.42",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.42",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135"
+      "title": "Quasiconcavity of approximation width",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "solution_path": "docs/solutions/3.42.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.43",
       "id": "3.43",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.43",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135"
+      "title": "The first-order test for quasiconvexity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "solution_path": "docs/solutions/3.43.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.44",
       "id": "3.44",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.44",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135"
+      "title": "Rank-one updates and bordered-Hessian inertia",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "solution_path": "docs/solutions/3.44.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.45",
       "id": "3.45",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.45",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136"
+      "title": "First- and second-order tests for the negative product",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "solution_path": "docs/solutions/3.45.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.46",
       "id": "3.46",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.46",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136"
+      "title": "Full-domain continuous quasilinear functions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "solution_path": "docs/solutions/3.46.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.47",
       "id": "3.47",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.47",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136"
+      "title": "A first-order criterion for log-concavity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "solution_path": "docs/solutions/3.47.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.48",
       "id": "3.48",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.48",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136"
+      "title": "Subtracting a nonnegative constant preserves log-concavity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "solution_path": "docs/solutions/3.48.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.49",
       "id": "3.49",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.49",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136"
+      "title": "Four log-concave functions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "solution_path": "docs/solutions/3.49.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.50",
       "id": "3.50",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.50",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137"
+      "title": "Log-concavity of polynomial coefficients in negative roots",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "solution_path": "docs/solutions/3.50.md",
+      "verification_path": "coverage/reviews/ch03_batch005.json"
     },
     {
       "key": "exercise:3.51",
       "id": "3.51",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.51",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137"
+      "title": "Real-rooted polynomials on their positive intervals",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "solution_path": "docs/solutions/3.51.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.52",
       "id": "3.52",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.52",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137"
+      "title": "Log-convexity of moments and the gamma function",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "solution_path": "docs/solutions/3.52.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.53",
       "id": "3.53",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.53",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137"
+      "title": "Log-concavity of the density of an independent sum",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "solution_path": "docs/solutions/3.53.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.54",
       "id": "3.54",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.54",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137"
+      "title": "A direct proof for the Gaussian cumulative distribution",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "solution_path": "docs/solutions/3.54.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.55",
       "id": "3.55",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.55",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138"
+      "title": "A direct proof for cumulative log-concave densities",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "solution_path": "docs/solutions/3.55.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.56",
       "id": "3.56",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.56",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138"
+      "title": "Gamma and Dirichlet log-concavity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "solution_path": "docs/solutions/3.56.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.57",
       "id": "3.57",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.57",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138"
+      "title": "Matrix convexity of the inverse",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "solution_path": "docs/solutions/3.57.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.58",
       "id": "3.58",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.58",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138"
+      "title": "Matrix concavity of the Schur complement",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "solution_path": "docs/solutions/3.58.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.59",
       "id": "3.59",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.59",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138"
+      "title": "Second derivatives and cone-convexity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "solution_path": "docs/solutions/3.59.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:3.60",
       "id": "3.60",
       "chapter": 3,
       "category": "other_exercises",
-      "title": "Exercise 3.60",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=139"
+      "title": "Cone sublevels and cone epigraphs",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=139",
+      "solution_path": "docs/solutions/3.60.md",
+      "verification_path": "coverage/reviews/ch03_batch006.json"
     },
     {
       "key": "exercise:4.1",
@@ -1894,558 +2134,682 @@
       "id": "4.32",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.32",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213"
+      "title": "A first-order matching monomial",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "solution_path": "docs/solutions/4.32.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.33",
       "id": "4.33",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.33",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213"
+      "title": "Convex formulations of posynomial combinations",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "solution_path": "docs/solutions/4.33.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.34",
       "id": "4.34",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.34",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214"
+      "title": "Log-convexity of the Perron eigenvalue",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "solution_path": "docs/solutions/4.34.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.35",
       "id": "4.35",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.35",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214"
+      "title": "A sign-pattern class of signomial programs is geometric",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "solution_path": "docs/solutions/4.35.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.36",
       "id": "4.36",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.36",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214"
+      "title": "Reducing every GP posynomial to two terms",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "solution_path": "docs/solutions/4.36.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.37",
       "id": "4.37",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.37",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214"
+      "title": "Lifting generalized posynomials into a GP",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "solution_path": "docs/solutions/4.37.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.38",
       "id": "4.38",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.38",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215"
+      "title": "One-variable LMIs by simultaneous congruence",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
+      "solution_path": "docs/solutions/4.38.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.39",
       "id": "4.39",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.39",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215"
+      "title": "Congruence reductions of semidefinite programs",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
+      "solution_path": "docs/solutions/4.39.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.40",
       "id": "4.40",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.40",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216"
+      "title": "Linear and conic programs as semidefinite programs",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "solution_path": "docs/solutions/4.40.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.41",
       "id": "4.41",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.41",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216"
+      "title": "Semidefinite sufficient tests for copositivity and P0",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "solution_path": "docs/solutions/4.41.md",
+      "verification_path": "coverage/reviews/ch04_batch004.json"
     },
     {
       "key": "exercise:4.42",
       "id": "4.42",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.42",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216"
+      "title": "Realifying complex Hermitian LMIs",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "solution_path": "docs/solutions/4.42.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.43",
       "id": "4.43",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.43",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217"
+      "title": "Semidefinite eigenvalue optimization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "solution_path": "docs/solutions/4.43.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.44",
       "id": "4.44",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.44",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217"
+      "title": "Maximizing a polynomial lower bound by SDP",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "solution_path": "docs/solutions/4.44.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.45",
       "id": "4.45",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.45",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217"
+      "title": "Sum-of-squares Gram matrices and a bivariate quartic",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "solution_path": "docs/solutions/4.45.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.46",
       "id": "4.46",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.46",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218"
+      "title": "The multivariate moment matrix",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "solution_path": "docs/solutions/4.46.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.47",
       "id": "4.47",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.47",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218"
+      "title": "Positive semidefinite and maximum-determinant completion",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "solution_path": "docs/solutions/4.47.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.48",
       "id": "4.48",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Generalized-eigenvalue search",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218"
+      "title": "Generalized eigenvalues and perspective search",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "solution_path": "docs/solutions/4.48.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.49",
       "id": "4.49",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.49",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219"
+      "title": "Cone-valued denominators and fractional quasiconvexity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219",
+      "solution_path": "docs/solutions/4.49.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.50",
       "id": "4.50",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.50",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219"
+      "title": "Reading a least-squares trade-off figure",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219",
+      "solution_path": "docs/solutions/4.50.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.51",
       "id": "4.51",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.51",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220"
+      "title": "Order transformations: a counterexample and corrected theorem",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "solution_path": "docs/solutions/4.51.md",
+      "verification_path": "coverage/reviews/ch04_batch005.json"
     },
     {
       "key": "exercise:4.52",
       "id": "4.52",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.52",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220"
+      "title": "Pareto values lie on the achievable boundary",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "solution_path": "docs/solutions/4.52.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.53",
       "id": "4.53",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.53",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220"
+      "title": "The convex upper image and its minimal elements",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "solution_path": "docs/solutions/4.53.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.54",
       "id": "4.54",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.54",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220"
+      "title": "Optimal points and every positive scalarization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "solution_path": "docs/solutions/4.54.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.55",
       "id": "4.55",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.55",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220"
+      "title": "Increasing scalar objectives and Pareto optimality",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "solution_path": "docs/solutions/4.55.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.56",
       "id": "4.56",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.56",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221"
+      "title": "Convex hulls of unions through perspectives",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221",
+      "solution_path": "docs/solutions/4.56.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.57",
       "id": "4.57",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.57",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221"
+      "title": "Channel capacity as entropy maximization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221",
+      "solution_path": "docs/solutions/4.57.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.58",
       "id": "4.58",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.58",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222"
+      "title": "Consumption planning with concave returns",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222",
+      "solution_path": "docs/solutions/4.58.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.59",
       "id": "4.59",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.59",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222"
+      "title": "Convexity under stochastic and worst-case uncertainty",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222",
+      "solution_path": "docs/solutions/4.59.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.60",
       "id": "4.60",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.60",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=223"
+      "title": "Convexity of log-optimal portfolio allocation",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=223",
+      "solution_path": "docs/solutions/4.60.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.61",
       "id": "4.61",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.61",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224"
+      "title": "Convex optimization of logistic purchase probabilities",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224",
+      "solution_path": "docs/solutions/4.61.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.62",
       "id": "4.62",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.62",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224"
+      "title": "Joint power and bandwidth allocation",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224",
+      "solution_path": "docs/solutions/4.62.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.63",
       "id": "4.63",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Manufacturing cost-yield search",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225"
+      "title": "Manufacturing cost versus log-concave yield",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
+      "solution_path": "docs/solutions/4.63.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.64",
       "id": "4.64",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.64",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225"
+      "title": "A convex formulation for two-stage recourse",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
+      "solution_path": "docs/solutions/4.64.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:4.65",
       "id": "4.65",
       "chapter": 4,
       "category": "other_exercises",
-      "title": "Exercise 4.65",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=226"
+      "title": "Convex hybrid-vehicle fuel optimization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=226",
+      "solution_path": "docs/solutions/4.65.md",
+      "verification_path": "coverage/reviews/ch04_batch006.json"
     },
     {
       "key": "exercise:5.1",
       "id": "5.1",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Scalar duality and sensitivity pictures",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287"
+      "title": "A scalar primal-dual and sensitivity example",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "solution_path": "docs/solutions/5.1.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.2",
       "id": "5.2",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.2",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287"
+      "title": "Weak duality at extended optimal values",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "solution_path": "docs/solutions/5.2.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.3",
       "id": "5.3",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.3",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287"
+      "title": "One inequality and the conjugate perspective",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "solution_path": "docs/solutions/5.3.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.4",
       "id": "5.4",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.4",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287"
+      "title": "Aggregated-halfspace bounds and the LP dual",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "solution_path": "docs/solutions/5.4.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.5",
       "id": "5.5",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.5",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288"
+      "title": "The dual of a general linear program",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "solution_path": "docs/solutions/5.5.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.6",
       "id": "5.6",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.6",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288"
+      "title": "Least-squares certificates for Chebyshev approximation",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "solution_path": "docs/solutions/5.6.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.7",
       "id": "5.7",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.7",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288"
+      "title": "Piecewise-linear duals and log-sum-exp approximation",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "solution_path": "docs/solutions/5.7.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.8",
       "id": "5.8",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.8",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289"
+      "title": "Eliminating box-constraint dual multipliers",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289",
+      "solution_path": "docs/solutions/5.8.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.9",
       "id": "5.9",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.9",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289"
+      "title": "A volume bound for a simple enclosing ellipsoid",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289",
+      "solution_path": "docs/solutions/5.9.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.10",
       "id": "5.10",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.10",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290"
+      "title": "Duals for D- and A-optimal experiment design",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "solution_path": "docs/solutions/5.10.md",
+      "verification_path": "coverage/reviews/ch05_batch001_convexity_secondary.json"
     },
     {
       "key": "exercise:5.11",
       "id": "5.11",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.11",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290"
+      "title": "A dual for regularized sum-of-norms fitting",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "solution_path": "docs/solutions/5.11.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.12",
       "id": "5.12",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.12",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290"
+      "title": "The analytic-center dual",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "solution_path": "docs/solutions/5.12.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.13",
       "id": "5.13",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.13",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290"
+      "title": "Boolean Lagrangian relaxation equals the box LP bound",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "solution_path": "docs/solutions/5.13.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.14",
       "id": "5.14",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Equality-penalty dual certificate",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291"
+      "title": "A dual certificate from an equality penalty",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "solution_path": "docs/solutions/5.14.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.15",
       "id": "5.15",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "General inequality penalty certificate",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291"
+      "title": "Dual certificates from increasing convex penalties",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "solution_path": "docs/solutions/5.15.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.16",
       "id": "5.16",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exact inequality penalty",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291"
+      "title": "An exact maximum-violation penalty",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "solution_path": "docs/solutions/5.16.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.17",
       "id": "5.17",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.17",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292"
+      "title": "Exact LP robustification of polyhedral row uncertainty",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "solution_path": "docs/solutions/5.17.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.18",
       "id": "5.18",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.18",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292"
+      "title": "Strict polyhedral separation through LP multipliers",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "solution_path": "docs/solutions/5.18.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.19",
       "id": "5.19",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.19",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292"
+      "title": "A compact LP representation for largest-coordinate sums",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "solution_path": "docs/solutions/5.19.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.20",
       "id": "5.20",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.20",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=293"
+      "title": "A simplified dual for channel capacity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=293",
+      "solution_path": "docs/solutions/5.20.md",
+      "verification_path": "coverage/reviews/ch05_batch002.json"
     },
     {
       "key": "exercise:5.21",
       "id": "5.21",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Failure of strong duality",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294"
+      "title": "A convex problem with a positive duality gap",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "solution_path": "docs/solutions/5.21.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.22",
       "id": "5.22",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Perturbation-set geometry",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294"
+      "title": "Six geometries of Lagrange duality",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "solution_path": "docs/solutions/5.22.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.23",
       "id": "5.23",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Primal and dual infeasibility",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294"
+      "title": "Strong LP duality from active normals and alternatives",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "solution_path": "docs/solutions/5.23.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.24",
       "id": "5.24",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.24",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295"
+      "title": "The weak max-min inequality",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
+      "solution_path": "docs/solutions/5.24.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.25",
       "id": "5.25",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.25",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295"
+      "title": "Convex-concave minimax through conjugacy",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
+      "solution_path": "docs/solutions/5.25.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.26",
       "id": "5.26",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Tangent-disk degeneracy",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296"
+      "title": "Tangent disks: zero gap without KKT multipliers",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "solution_path": "docs/solutions/5.26.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.27",
       "id": "5.27",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.27",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296"
+      "title": "Equality-constrained least squares in closed form",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "solution_path": "docs/solutions/5.27.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.28",
       "id": "5.28",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.28",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296"
+      "title": "An exact LP optimum and uniqueness certificate",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "solution_path": "docs/solutions/5.28.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.29",
@@ -2463,27 +2827,33 @@
       "id": "5.30",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.30",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297"
+      "title": "A log-determinant matrix secant update",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "solution_path": "docs/solutions/5.30.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.31",
       "id": "5.31",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.31",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297"
+      "title": "KKT conditions imply the supporting-gradient criterion",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "solution_path": "docs/solutions/5.31.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.32",
       "id": "5.32",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.32",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297"
+      "title": "Convexity of the perturbed optimal value",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "solution_path": "docs/solutions/5.32.md",
+      "verification_path": "coverage/reviews/ch05_batch003.json"
     },
     {
       "key": "exercise:5.33",
@@ -2512,90 +2882,110 @@
       "id": "5.35",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.35",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=298"
+      "title": "Relative sensitivity of geometric programs",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=298",
+      "solution_path": "docs/solutions/5.35.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.36",
       "id": "5.36",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.36",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299"
+      "title": "Linear equality alternatives from inequality alternatives",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "solution_path": "docs/solutions/5.36.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.37",
       "id": "5.37",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.37",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299"
+      "title": "A stationary Markov distribution from Farkas lemma",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "solution_path": "docs/solutions/5.37.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.38",
       "id": "5.38",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.38",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299"
+      "title": "Unique no-arbitrage price in a two-state market",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "solution_path": "docs/solutions/5.38.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.39",
       "id": "5.39",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.39",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299"
+      "title": "Two equivalent semidefinite partitioning bounds",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "solution_path": "docs/solutions/5.39.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.40",
       "id": "5.40",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.40",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300"
+      "title": "A simple SDP dual for E-optimal design",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300",
+      "solution_path": "docs/solutions/5.40.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.41",
       "id": "5.41",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.41",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300"
+      "title": "Dual of the fastest mixing Markov chain problem",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300",
+      "solution_path": "docs/solutions/5.41.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.42",
       "id": "5.42",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.42",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301"
+      "title": "Dual of a conic inequality problem",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "solution_path": "docs/solutions/5.42.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.43",
       "id": "5.43",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "Exercise 5.43",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301"
+      "title": "Two derivations of the SOCP dual",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "solution_path": "docs/solutions/5.43.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:5.44",
       "id": "5.44",
       "chapter": 5,
       "category": "other_exercises",
-      "title": "SDP alternative-system pathology",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301"
+      "title": "Strong alternatives for nonstrict linear matrix inequalities",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "solution_path": "docs/solutions/5.44.md",
+      "verification_path": "coverage/reviews/ch05_batch004.json"
     },
     {
       "key": "exercise:6.1",
@@ -2899,351 +3289,429 @@
       "id": "8.1",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.1",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461"
+      "title": "Uniqueness of metric projection",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "solution_path": "docs/solutions/8.1.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.2",
       "id": "8.2",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.2",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461"
+      "title": "Chebyshev sets are closed and convex",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "solution_path": "docs/solutions/8.2.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.3",
       "id": "8.3",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Cone projection primitives",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461"
+      "title": "Projections on three proper cones",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "solution_path": "docs/solutions/8.3.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.4",
       "id": "8.4",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.4",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461"
+      "title": "A non-Euclidean projection need not give the Euclidean separator",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "solution_path": "docs/solutions/8.4.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.5",
       "id": "8.5",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.5",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461"
+      "title": "Depth and signed distance of a convex set",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "solution_path": "docs/solutions/8.5.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.6",
       "id": "8.6",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.6",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462"
+      "title": "Convexity of distances between translated and scaled sets",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "solution_path": "docs/solutions/8.6.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.7",
       "id": "8.7",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.7",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462"
+      "title": "Strict separation of two ellipsoids",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "solution_path": "docs/solutions/8.7.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.8",
       "id": "8.8",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.8",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462"
+      "title": "Polyhedral intersection and containment",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "solution_path": "docs/solutions/8.8.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.9",
       "id": "8.9",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.9",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462"
+      "title": "Least-squares fitting of Euclidean distances",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "solution_path": "docs/solutions/8.9.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.10",
       "id": "8.10",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.10",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462"
+      "title": "Minimax fitting of vector angles",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "solution_path": "docs/solutions/8.10.md",
+      "verification_path": "coverage/reviews/ch08_batch001.json"
     },
     {
       "key": "exercise:8.11",
       "id": "8.11",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.11",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463"
+      "title": "The narrowest circular cone through given directions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "solution_path": "docs/solutions/8.11.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.12",
       "id": "8.12",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.12",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463"
+      "title": "Uniqueness of extremal ellipsoids",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "solution_path": "docs/solutions/8.12.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.13",
       "id": "8.13",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.13",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463"
+      "title": "The covering ellipsoid of a simplex",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "solution_path": "docs/solutions/8.13.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.14",
       "id": "8.14",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.14",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463"
+      "title": "Dimension factors for an inscribed ellipsoid",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "solution_path": "docs/solutions/8.14.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.15",
       "id": "8.15",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.15",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463"
+      "title": "An ellipsoid covering several ellipsoids",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "solution_path": "docs/solutions/8.15.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.16",
       "id": "8.16",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.16",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463"
+      "title": "Maximum-volume axis-aligned rectangle",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "solution_path": "docs/solutions/8.16.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.17",
       "id": "8.17",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.17",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463"
+      "title": "Invariance properties of the analytic center",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "solution_path": "docs/solutions/8.17.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.18",
       "id": "8.18",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.18",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463"
+      "title": "Moving an analytic center with redundant inequalities",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "solution_path": "docs/solutions/8.18.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.19",
       "id": "8.19",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.19",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464"
+      "title": "A sufficient redundancy certificate at the analytic center",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "solution_path": "docs/solutions/8.19.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.20",
       "id": "8.20",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.20",
-      "state": "in_review",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464"
+      "title": "Analytic-center ellipsoids for an LMI",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "solution_path": "docs/solutions/8.20.md",
+      "verification_path": "coverage/reviews/ch08_batch002.json"
     },
     {
       "key": "exercise:8.21",
       "id": "8.21",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.21",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464"
+      "title": "Analytic center as a maximum-likelihood estimate",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "solution_path": "docs/solutions/8.21.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.22",
       "id": "8.22",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.22",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464"
+      "title": "Center of gravity minimizes integrated squared distance",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "solution_path": "docs/solutions/8.22.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.23",
       "id": "8.23",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.23",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465"
+      "title": "Margin maximization and the hard-margin quadratic program",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "solution_path": "docs/solutions/8.23.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.24",
       "id": "8.24",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.24",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465"
+      "title": "A classifier robust to perturbing its weights",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "solution_path": "docs/solutions/8.24.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.25",
       "id": "8.25",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.25",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465"
+      "title": "A separating ellipsoid of minimum eccentricity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "solution_path": "docs/solutions/8.25.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.26",
       "id": "8.26",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Quadratic graph placement",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465"
+      "title": "Quadratic placement by a graph Laplacian",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "solution_path": "docs/solutions/8.26.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.27",
       "id": "8.27",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Minimum-distance convex restriction",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466"
+      "title": "Convex restrictions for minimum separations",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
+      "solution_path": "docs/solutions/8.27.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.28",
       "id": "8.28",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.28",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466"
+      "title": "Inscribed and covering homothetic symmetric polyhedra",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
+      "solution_path": "docs/solutions/8.28.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.29",
       "id": "8.29",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.29",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467"
+      "title": "Outer polyhedral approximation using support functions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
+      "solution_path": "docs/solutions/8.29.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:8.30",
       "id": "8.30",
       "chapter": 8,
       "category": "other_exercises",
-      "title": "Exercise 8.30",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467"
+      "title": "Convex trade-off between arc length and tangent jumps",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
+      "solution_path": "docs/solutions/8.30.md",
+      "verification_path": "coverage/reviews/ch08_batch003.json"
     },
     {
       "key": "exercise:9.1",
       "id": "9.1",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.1",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528"
+      "title": "Unbounded quadratic minimization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "solution_path": "docs/solutions/9.1.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.2",
       "id": "9.2",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Quadratic-over-linear minimizer",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528"
+      "title": "A closed quadratic-over-linear minimization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "solution_path": "docs/solutions/9.2.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.3",
       "id": "9.3",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Open-domain gradient pathology",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528"
+      "title": "A nonclosed sublevel set breaks gradient convergence",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "solution_path": "docs/solutions/9.3.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.4",
       "id": "9.4",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.4",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528"
+      "title": "Why the perspective formulation is not a routine Newton problem",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "solution_path": "docs/solutions/9.4.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.5",
       "id": "9.5",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.5",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528"
+      "title": "An explicit backtracking bound",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "solution_path": "docs/solutions/9.5.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.6",
       "id": "9.6",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Quadratic gradient iterates",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529"
+      "title": "Exact iterates for a two-dimensional quadratic",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "solution_path": "docs/solutions/9.6.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.7",
       "id": "9.7",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.7",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529"
+      "title": "Steepest descent and the dual norm",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "solution_path": "docs/solutions/9.7.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.8",
       "id": "9.8",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Infinity-norm steepest direction",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529"
+      "title": "Steepest descent in the infinity norm",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "solution_path": "docs/solutions/9.8.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.9",
       "id": "9.9",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.9",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529"
+      "title": "Variational characterization of the Newton decrement",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "solution_path": "docs/solutions/9.9.md",
+      "verification_path": "coverage/reviews/ch09_batch001.json"
     },
     {
       "key": "exercise:9.10",
@@ -3261,171 +3729,209 @@
       "id": "9.11",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Composition effects on search steps",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529"
+      "title": "Gradient and Newton methods after an increasing composition",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "solution_path": "docs/solutions/9.11.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.12",
       "id": "9.12",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Trust-region Newton regularization",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529"
+      "title": "A trust region produces a regularized Newton model",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "solution_path": "docs/solutions/9.12.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.13",
       "id": "9.13",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.13",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530"
+      "title": "Self-concordance of an inverse-slack penalty",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "solution_path": "docs/solutions/9.13.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.14",
       "id": "9.14",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.14",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530"
+      "title": "The logarithmic-composition rule",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "solution_path": "docs/solutions/9.14.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.15",
       "id": "9.15",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.15",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530"
+      "title": "Three self-concordant conic barriers",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "solution_path": "docs/solutions/9.15.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.16",
       "id": "9.16",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.16",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530"
+      "title": "Curvature of a one-dimensional self-concordant function",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "solution_path": "docs/solutions/9.16.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.17",
       "id": "9.17",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.17",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530"
+      "title": "Mixed derivatives, fixed nullspace, and Hessian comparison",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "solution_path": "docs/solutions/9.17.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.18",
       "id": "9.18",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.18",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531"
+      "title": "Quadratic contraction of the Newton decrement",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "solution_path": "docs/solutions/9.18.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.19",
       "id": "9.19",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.19",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531"
+      "title": "Attainment and distance from the optimum",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "solution_path": "docs/solutions/9.19.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.20",
       "id": "9.20",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.20",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531"
+      "title": "Legendre duality preserves self-concordance",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "solution_path": "docs/solutions/9.20.md",
+      "verification_path": "coverage/reviews/ch09_batch002_root.json"
     },
     {
       "key": "exercise:9.21",
       "id": "9.21",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Line-search complexity parameters",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531"
+      "title": "Optimizing the stated Newton complexity bound",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "solution_path": "docs/solutions/9.21.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.22",
       "id": "9.22",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Exercise 9.22",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531"
+      "title": "Newton complexity under a scaled third-derivative condition",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "solution_path": "docs/solutions/9.22.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.23",
       "id": "9.23",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Line-search precomputation",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532"
+      "title": "Precomputations for efficient line searches",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "solution_path": "docs/solutions/9.23.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.24",
       "id": "9.24",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Block-diagonal Newton system",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532"
+      "title": "Block-diagonal Newton systems and separability",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "solution_path": "docs/solutions/9.24.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.25",
       "id": "9.25",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Structured smoothing Hessians",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532"
+      "title": "Hessian structure for one- and two-dimensional smoothing",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "solution_path": "docs/solutions/9.25.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.26",
       "id": "9.26",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Sparse affine-composition Newton",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532"
+      "title": "Sparse lifted Newton equations for affine compositions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "solution_path": "docs/solutions/9.26.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.27",
       "id": "9.27",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Bounded analytic-center Newton system",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532"
+      "title": "Efficient analytic-center Newton steps with box bounds",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "solution_path": "docs/solutions/9.27.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.28",
       "id": "9.28",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Quadratic analytic-center Newton system",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533"
+      "title": "Sparse-plus-low-rank Newton steps for quadratic barriers",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "solution_path": "docs/solutions/9.28.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.29",
       "id": "9.29",
       "chapter": 9,
       "category": "other_exercises",
-      "title": "Two-stage Newton structure",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533"
+      "title": "Arrowhead elimination for two-stage optimization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "solution_path": "docs/solutions/9.29.md",
+      "verification_path": "coverage/reviews/ch09_batch003.json"
     },
     {
       "key": "exercise:9.30",
@@ -3465,117 +3971,143 @@
       "id": "10.1",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Exercise 10.1",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571"
+      "title": "Nonsingularity and inertia of a KKT matrix",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "solution_path": "docs/solutions/10.1.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.2",
       "id": "10.2",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Projected-gradient method",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571"
+      "title": "Projected gradient descent and the reduced problem",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "solution_path": "docs/solutions/10.2.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.3",
       "id": "10.3",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Dual Newton direction",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571"
+      "title": "Newton steps for the equality-constrained dual",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "solution_path": "docs/solutions/10.3.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.4",
       "id": "10.4",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Exercise 10.4",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572"
+      "title": "Curvature and smoothness after eliminating equalities",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "solution_path": "docs/solutions/10.4.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.5",
       "id": "10.5",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Exercise 10.5",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572"
+      "title": "A quadratic equality penalty leaves Newton directions unchanged",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "solution_path": "docs/solutions/10.5.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.6",
       "id": "10.6",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Exercise 10.6",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572"
+      "title": "The constrained Newton decrement is model improvement",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "solution_path": "docs/solutions/10.6.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.7",
       "id": "10.7",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Exercise 10.7",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572"
+      "title": "Closedness and Lipschitz properties of the KKT residual",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "solution_path": "docs/solutions/10.7.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.8",
       "id": "10.8",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Exercise 10.8",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572"
+      "title": "Propagation of feasibility in infeasible-start Newton iterations",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "solution_path": "docs/solutions/10.8.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.9",
       "id": "10.9",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Entropy Newton assumptions",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572"
+      "title": "Equality-constrained entropy: existence and Newton assumptions",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "solution_path": "docs/solutions/10.9.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.10",
       "id": "10.10",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Exercise 10.10",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573"
+      "title": "A uniformly bounded inverse for a strongly convex-concave game",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "solution_path": "docs/solutions/10.10.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.11",
       "id": "10.11",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Resource-allocation Newton cost",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573"
+      "title": "Linear-time Newton steps for resource allocation",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "solution_path": "docs/solutions/10.11.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.12",
       "id": "10.12",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Trace-inverse Newton structure",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573"
+      "title": "Structured Newton steps for trace-inverse optimization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "solution_path": "docs/solutions/10.12.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.13",
       "id": "10.13",
       "chapter": 10,
       "category": "other_exercises",
-      "title": "Saddle Newton block elimination",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573"
+      "title": "Eliminating blocks in a convex-concave Newton system",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "solution_path": "docs/solutions/10.13.md",
+      "verification_path": "coverage/reviews/ch10_batch001.json"
     },
     {
       "key": "exercise:10.14",
@@ -3626,171 +4158,209 @@
       "id": "11.2",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Unbounded centering subproblem",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637"
+      "title": "A centering problem with no minimizer",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "solution_path": "docs/solutions/11.2.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.3",
       "id": "11.3",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.3",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637"
+      "title": "Bounded original sublevels imply bounded centering sublevels",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "solution_path": "docs/solutions/11.3.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.4",
       "id": "11.4",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.4",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637"
+      "title": "Uniform curvature from a Euclidean ball constraint",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "solution_path": "docs/solutions/11.4.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.5",
       "id": "11.5",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Scalar barrier for SOCP",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637"
+      "title": "A scalar-barrier formulation of an SOCP",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "solution_path": "docs/solutions/11.5.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.6",
       "id": "11.6",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "General barrier families",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638"
+      "title": "General scalar barriers and their duality gaps",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
+      "solution_path": "docs/solutions/11.6.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.7",
       "id": "11.7",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Central-path tangent",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638"
+      "title": "The central-path tangent and objective monotonicity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
+      "solution_path": "docs/solutions/11.7.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.8",
       "id": "11.8",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Predictor-corrector centering",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639"
+      "title": "First-order prediction versus a new centering Newton step",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
+      "solution_path": "docs/solutions/11.8.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.9",
       "id": "11.9",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.9",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639"
+      "title": "A dual certificate near a quadratic central path",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
+      "solution_path": "docs/solutions/11.9.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.10",
       "id": "11.10",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Alternative central-path parameter",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640"
+      "title": "The objective-bound parametrization of the central path",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
+      "solution_path": "docs/solutions/11.10.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.11",
       "id": "11.11",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Analytic-center method",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640"
+      "title": "Method of analytic centers: certificates and a point-limit counterexample",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
+      "solution_path": "docs/solutions/11.11.md",
+      "verification_path": "coverage/reviews/ch11_batch002_root.json"
     },
     {
       "key": "exercise:11.12",
       "id": "11.12",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Barrier method for games",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641"
+      "title": "Barrier approximation of a convex-concave game",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "solution_path": "docs/solutions/11.12.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.13",
       "id": "11.13",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.13",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641"
+      "title": "Entropy becomes self-concordant after adding a log barrier",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "solution_path": "docs/solutions/11.13.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.14",
       "id": "11.14",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.14",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641"
+      "title": "Positive curvature of centering problems: the equality qualification",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "solution_path": "docs/solutions/11.14.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.15",
       "id": "11.15",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.15",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642"
+      "title": "A generalized logarithm is strictly cone-increasing",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "solution_path": "docs/solutions/11.15.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.16",
       "id": "11.16",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.16",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642"
+      "title": "Differential identities for logarithmic homogeneity",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "solution_path": "docs/solutions/11.16.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.17",
       "id": "11.17",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.17",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642"
+      "title": "Log homogeneity of the dual logarithm",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "solution_path": "docs/solutions/11.17.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.18",
       "id": "11.18",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Exercise 11.18",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642"
+      "title": "A degree-one logarithm for the second-order cone",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "solution_path": "docs/solutions/11.18.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.19",
       "id": "11.19",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Expanded barrier Newton system",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642"
+      "title": "A lifted linear system for barrier Newton steps",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "solution_path": "docs/solutions/11.19.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.20",
       "id": "11.20",
       "chapter": 11,
       "category": "other_exercises",
-      "title": "Network-rate dual barrier",
-      "state": "in_progress",
-      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642"
+      "title": "A dual barrier method for network utility maximization",
+      "state": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "solution_path": "docs/solutions/11.20.md",
+      "verification_path": "coverage/reviews/ch11_batch001_root.json"
     },
     {
       "key": "exercise:11.21",

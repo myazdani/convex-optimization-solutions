@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "5.1",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "8887e9cd4c916e6c0d32702ed63144db1d18f601b7166ad668a2a5fb94f1798e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked primal/dual formulas, exact gap identity and perturbation branches. Independently executed plot/check script in temporary directory; numerical errors match embedded outputs, all three plots rendered/inspected."
+    },
+    {
+      "id": "5.2",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "5df9550a01f813e1910f80748ebd909c4b1d095ead7f74051fb92ab33396e679",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked weak duality at both extended-value extremes using sequences and a finite primal upper bound."
+    },
+    {
+      "id": "5.3",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "11fb881c866a59bdd75f9d63989ef35bb9c1dfcefe02f06fd9163b7c3b6b6282",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked conjugate perspective sign and concavity with nonconvex f; zero-multiplier restricted-domain qualification supplied."
+    },
+    {
+      "id": "5.4",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "e35e9a0a08c87edf965d42bd1132e6ba492d4b5406cf4c8c8e24cd3f72e411a7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked finite, unbounded and empty halfspace cases. Converse qualified for nonzero objective and feasible zero-objective case; infeasible-primal geometric/dual mismatch explicitly demonstrated."
+    },
+    {
+      "id": "5.5",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "8c81341f4cd795d290ff6c5d8e0a7c683416a749ce86648b759a4f0c70a59eff",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked affine infimum and free equality multipliers, stationarity equality and finite-optimum LP strong duality qualification."
+    },
+    {
+      "id": "5.6",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "7c07d827e7eb6980b6d00b0f5124a7e45f25b7b257246dcaa3e2bac1b5c5f109",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked residual normal equations, sign of both dual certificates and dominance over norm-comparison bound, including zero residual."
+    },
+    {
+      "id": "5.7",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "bd89cf10f86e39a994277d79cebd98acc3bcc28fc2cb625d9d694949d1e8f057",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked both PWL dual derivations, entropy smooth dual and uniform temperature error bound, including unbounded-value qualification."
+    },
+    {
+      "id": "5.8",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "1eaa23a9e4797a11a4184476392d57ac3b061b6940fed445c5d019fa93675c2e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked exact source Example5.9 signs, positive/negative multiplier elimination and objective-preserving maps."
+    },
+    {
+      "id": "5.9",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "eb12a0de2c132948ac91f5acbe522dc64dbfeb7a3f5c157e1795995879602692",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked Schur feasibility certificate, optimal uniform dual scalar and one-half determinant-to-volume exponent, plus attainment."
+    },
+    {
+      "id": "5.10",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "909ee3852119774eb4d024791c7858340ecd85e4ccfb2c77baec409cdf7ce5fa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked D-/A-design dual matrix minimizations, singular PSD boundary, normalization constants/squared A-design value and spanning feasibility conditions."
+    }
+  ]
+}

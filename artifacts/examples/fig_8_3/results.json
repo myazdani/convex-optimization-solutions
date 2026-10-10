@@ -1,0 +1,129 @@
+{
+  "summary": {
+    "enclosing": {
+      "area": 0.43610350298031236,
+      "center": [
+        0.14022620349413456,
+        0.02155390679359742
+      ]
+    },
+    "inscribed": {
+      "area": 0.2965923119885617,
+      "center": [
+        0.11152760332570773,
+        0.011759883582039912
+      ]
+    }
+  },
+  "ellipsoids": {
+    "enclosing": {
+      "center": [
+        0.14022620349413456,
+        0.02155390679359742
+      ],
+      "shape": [
+        [
+          0.4120010752094338,
+          0.007738247685616296
+        ],
+        [
+          0.007738247685616296,
+          0.33707663700796014
+        ]
+      ],
+      "area": 0.43610350298031236
+    },
+    "inscribed": {
+      "center": [
+        0.11152760332570773,
+        0.011759883582039912
+      ],
+      "shape": [
+        [
+          0.3425482130984632,
+          0.009535736129552441
+        ],
+        [
+          0.009535736129552441,
+          0.27587122548625204
+        ]
+      ],
+      "area": 0.2965923119885617
+    }
+  },
+  "checks": [
+    {
+      "name": "enclosing KKT stationarity",
+      "measured": 7.2733998873851635e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "inscribed KKT stationarity",
+      "measured": 4.6859096965778946e-05,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "enclosing feasibility",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "inscribed feasibility",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "half-sized enclosing ellipse inside polygon",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "twice-sized inscribed ellipse contains vertices",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "extremal_ellipsoids.png"
+  ],
+  "id": "fig_8_3",
+  "executed_at": "2026-10-10T05:03:39.895237+00:00",
+  "elapsed_seconds": 1.4687278319997858,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=426",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/ellipsoids.html",
+      "https://cvxopt.org/_downloads/c5acad6864ca8370986a44ad9fe55aee/ellipsoids.py"
+    ],
+    "official_data_files": [],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+  "runtime_source_sha256": {
+    "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {},
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py fig_8_3",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

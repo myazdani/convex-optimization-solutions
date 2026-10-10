@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "8.1",
+      "reviewer": "duality_review",
+      "solution_sha256": "1da610419bae013b94872be31ae8b189a1a667066d9b37f296ee7bb36df9057b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked finite-dimensional existence from a compact restricted level set and strict-unit-ball midpoint uniqueness. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.2",
+      "reviewer": "duality_review",
+      "solution_sha256": "127e1c1474e30ae82e8dbefd77cd47da9112593aecae6ea90646cd1a86ac28d2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "notes": "Checked all five parts: bounded projection sequences and uniqueness for continuity; triangle inequality for inward segment; differentiability of squared distance plus Peano existence and chain-rule equalities for the entire outward ray; separating-halfspace intersection for convexity. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.3",
+      "reviewer": "duality_review",
+      "solution_sha256": "25b89cdd053524081979a7e0b11a883cabbba126eca3c25a1a0fe53ee13ffb53",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked coordinate clipping, Frobenius spectral clipping, SOC three-case projection, shared boundaries and zero radial coordinate. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.4",
+      "reviewer": "duality_review",
+      "solution_sha256": "cf5b297a45556d553c0bf891541510366b67411e17c0a0590c74d443b7591118",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified weighted-Euclidean counterexample, unique projected point and exact separator expression crossing both signs on the line. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.5",
+      "reviewer": "duality_review",
+      "solution_sha256": "26101578104576929ed0b6f8aa6bb8e2a78a4530a8f35012ee125f00e4af90f7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked ball-inclusion concavity proof, support-function signed-distance representation inside and outside, closure invariance, empty-interior and full-space exceptions. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.6",
+      "reviewer": "duality_review",
+      "solution_sha256": "fba8d4005b3076e1555e79b1440a6e2862abb2c48f4c7262c6f9f488fd104dea",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked approximate-minimizer translation proof without attainment and perspective joint-convexity scaling weights. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.7",
+      "reviewer": "duality_review",
+      "solution_sha256": "51523064b2e039a5165c172855223fa320d7a65984b944a30a0da48a7cb4f01f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked support extrema and closest-pair strict separation with correct orientation and positive compact-set distance. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.8",
+      "reviewer": "duality_review",
+      "solution_sha256": "f27756f70fd34b7ffa82e6375fef7d5bfffc1a0845ad41776a3c3b52aae0ba06",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "H:a",
+        "H:b",
+        "V:a",
+        "V:b"
+      ],
+      "notes": "Checked all four H/V intersection/containment tasks, empty sets and nonempty-polyhedron LP-dual feasibility certificates. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.9",
+      "reviewer": "duality_review",
+      "solution_sha256": "400cb64a9373dd285ed09cb515e049bd153f95cb152793bc4f15ddcf3f1f2041",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked centered Gram representation and unrestricted recovered dimension, convexity in squared distances, exact 2x2-LMI square-root epigraph with zero target/diagonal cases. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    },
+    {
+      "id": "8.10",
+      "reviewer": "duality_review",
+      "solution_sha256": "6acdd62446c60fa0a54470d9c002f16dab40a5f488902b9bed87fca736e8313e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked positive-projection SOC equivalence for acute angles, strict nonzero feasibility via common positive slack, separate right-angle endpoint tests, convex-combination avoidance of finitely many affine zero sets, and nonattainment caveat. Checked exact PDF pp.461\u2013462; visual GitHub rendering remains a separate gate."
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "3.31",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "277ecacb41ed9e635a5d5db6053f2a336153641cd3b2c9b304cc0714aa945162",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "zero-scale-qualification"
+      ],
+      "notes": "Checked positive scaling, maximal homogeneous minorant and perspective partial minimization. Origin and improper-value caveats correctly qualify the printed zero-scale assertion."
+    },
+    {
+      "id": "3.32",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "562cbe0ff61a1003d432b4f71eebffba3f8551eafce7ee38c124e47267580f2c",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked endpoint product identity and monotonicity signs in all three cases; reciprocal composition gives the quotient case."
+    },
+    {
+      "id": "3.33",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "c6595e19be449ee3eb7902fe571b5063c1cb2d28f5b172edfcf1dffe3f887c44",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "domain",
+        "inequality"
+      ],
+      "notes": "Checked normalized perspective weights, convex domain and Jensen inequality including endpoint weights."
+    },
+    {
+      "id": "3.34",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "84b162ea9932c73f76b91bbe1caf72f67f7ce27db1e9b4741f17dfacf6594dc1",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "picture"
+      ],
+      "notes": "Checked exact domain union, positive homogeneity, origin caveat, convexity and norm/unit-ball proof. Rendered and inspected gauge illustration."
+    },
+    {
+      "id": "3.35",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "b3f2dd8a5bbd03d0e79624e46fb9fcb50b13d9f06f732cd811a884a9ecc25b52",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "Checked support of convex hull, Minkowski sum and union; strict separation proves inclusion converse. Empty-set extended-arithmetic caveats supplied."
+    },
+    {
+      "id": "3.36",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "e0b597f34169998850a184ae9db6821b25c9add9245470e76b25e7a67ac64e3e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d-positive",
+        "d-negative",
+        "e",
+        "f"
+      ],
+      "notes": "Independently checked all six conjugates, simplex and capped simplex domains, piecewise affine breakpoints, both power regimes, geometric-mean threshold and negative Lorentz cone boundary divergence."
+    },
+    {
+      "id": "3.37",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "0c0cc0a46326b8619f992729f03fc96e7797923a90498282134113a6d333f3d9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "formula",
+        "singular-boundary",
+        "outside-domain"
+      ],
+      "notes": "Verified Frobenius-square identity without assuming commutativity, positive-eigenvalue divergence and singular negative-semidefinite boundary limit."
+    },
+    {
+      "id": "3.38",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "5e1cc115958b43b85147f67039f6c3782793c1b7e8937a374e9ac3cafda9b750",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "conjugacy",
+        "inequality",
+        "picture"
+      ],
+      "notes": "Checked inverse-integral conjugacy and Young inequality, continuity/domain qualifications and finite endpoint closure. Rendered and inspected complementary-area illustration."
+    },
+    {
+      "id": "3.39",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "d631f35ad090f807d778197417e01cfc0be40ed72aada45d318ffc405dcea05a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "c-affine-image",
+        "d"
+      ],
+      "notes": "Checked all conjugate transformations, perspective sign, empty fibers and proper closed convex biconjugacy assumption."
+    },
+    {
+      "id": "3.40",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "4fd3d6dfe8e062842186cc462f0bcc9f76d821f840cfdb2f9f667f84bb50c2e6",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked inverse-function argument, global maximizing property, uniqueness from local positive definiteness and inverse Hessian formula."
+    }
+  ]
+}

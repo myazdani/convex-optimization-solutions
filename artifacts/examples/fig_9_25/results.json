@@ -1,0 +1,2039 @@
+{
+  "records": [
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 1,
+      "initial_gap": 1.4590954823598778,
+      "iterations": 6,
+      "final_gap": -3.197442310920451e-14,
+      "final_decrement_squared": 9.852333040432462e-18,
+      "minimum_slack": 0.10036331658443993
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 2,
+      "initial_gap": 2.8996609436244754,
+      "iterations": 7,
+      "final_gap": 1.6978418670987594e-11,
+      "final_decrement_squared": 3.3994302424619725e-11,
+      "minimum_slack": 0.10036333042493235
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 3,
+      "initial_gap": 4.305817772215615,
+      "iterations": 9,
+      "final_gap": 4.3286263462505303e-11,
+      "final_decrement_squared": 8.661475637536408e-11,
+      "minimum_slack": 0.10036332245480624
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 4,
+      "initial_gap": 8.341942656896798,
+      "iterations": 8,
+      "final_gap": -2.842170943040401e-14,
+      "final_decrement_squared": 2.816901348763759e-15,
+      "minimum_slack": 0.10036331675198847
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 5,
+      "initial_gap": 7.338932991698702,
+      "iterations": 13,
+      "final_gap": 2.6929569685307797e-12,
+      "final_decrement_squared": 5.3900734437955095e-12,
+      "minimum_slack": 0.10036332037131752
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 6,
+      "initial_gap": 10.050923686502781,
+      "iterations": 14,
+      "final_gap": 9.734435479913373e-13,
+      "final_decrement_squared": 1.9494999427683926e-12,
+      "minimum_slack": 0.1003633184206655
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 7,
+      "initial_gap": 10.344828385598412,
+      "iterations": 18,
+      "final_gap": -2.1316282072803006e-14,
+      "final_decrement_squared": 8.6180635126883e-17,
+      "minimum_slack": 0.1003633165925381
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 8,
+      "initial_gap": 16.743972419807303,
+      "iterations": 18,
+      "final_gap": 1.1368683772161603e-13,
+      "final_decrement_squared": 2.515980485359552e-13,
+      "minimum_slack": 0.1003633169363105
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 9,
+      "initial_gap": 14.266652108368998,
+      "iterations": 22,
+      "final_gap": -1.7763568394002505e-14,
+      "final_decrement_squared": 6.717611840187703e-19,
+      "minimum_slack": 0.10036331658081894
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 1,
+      "start": 10,
+      "initial_gap": 15.04153071567612,
+      "iterations": 24,
+      "final_gap": 0.0,
+      "final_decrement_squared": 9.2884448721592e-16,
+      "minimum_slack": 0.10036331661607802
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 1,
+      "initial_gap": 1.5183377754360663,
+      "iterations": 5,
+      "final_gap": 1.8264501022713375e-11,
+      "final_decrement_squared": 3.6504308530017615e-11,
+      "minimum_slack": 0.09847592511278525
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 2,
+      "initial_gap": 3.1587804102360906,
+      "iterations": 8,
+      "final_gap": 1.0658141036401503e-14,
+      "final_decrement_squared": 6.869163110242762e-20,
+      "minimum_slack": 0.09847591601650907
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 3,
+      "initial_gap": 4.7696530003423625,
+      "iterations": 8,
+      "final_gap": 4.0024872305366443e-11,
+      "final_decrement_squared": 8.013929197732012e-11,
+      "minimum_slack": 0.09847592598320587
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 4,
+      "initial_gap": 6.319628012411027,
+      "iterations": 10,
+      "final_gap": 9.581668791724951e-12,
+      "final_decrement_squared": 1.9181813671621497e-11,
+      "minimum_slack": 0.09847548805542694
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 5,
+      "initial_gap": 7.542183349627244,
+      "iterations": 13,
+      "final_gap": 3.161915174132446e-13,
+      "final_decrement_squared": 6.821709742755777e-13,
+      "minimum_slack": 0.0984758353312466
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 6,
+      "initial_gap": 9.681141491197826,
+      "iterations": 15,
+      "final_gap": 3.552713678800501e-15,
+      "final_decrement_squared": 3.703751322883979e-17,
+      "minimum_slack": 0.09847591544740919
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 7,
+      "initial_gap": 11.730175433106547,
+      "iterations": 17,
+      "final_gap": -1.0658141036401503e-14,
+      "final_decrement_squared": 3.571569073234939e-15,
+      "minimum_slack": 0.09847591610589357
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 8,
+      "initial_gap": 11.269789326765569,
+      "iterations": 20,
+      "final_gap": 2.1316282072803006e-14,
+      "final_decrement_squared": 3.483507112652549e-16,
+      "minimum_slack": 0.09847591421825108
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 9,
+      "initial_gap": 15.721367549201476,
+      "iterations": 22,
+      "final_gap": -3.197442310920451e-14,
+      "final_decrement_squared": 2.6487346192109876e-18,
+      "minimum_slack": 0.09847591604341066
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 2,
+      "start": 10,
+      "initial_gap": 15.63431887214962,
+      "iterations": 24,
+      "final_gap": 2.842170943040401e-14,
+      "final_decrement_squared": 5.110379567136062e-14,
+      "minimum_slack": 0.09847591624980423
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 1,
+      "initial_gap": 1.5478006194489353,
+      "iterations": 5,
+      "final_gap": 1.4793499758525286e-11,
+      "final_decrement_squared": 2.968851660762253e-11,
+      "minimum_slack": 0.1173534410991407
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 2,
+      "initial_gap": 2.9591113125566046,
+      "iterations": 7,
+      "final_gap": 2.1316282072803006e-13,
+      "final_decrement_squared": 5.834824204387331e-13,
+      "minimum_slack": 0.11735343467110948
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 3,
+      "initial_gap": 4.105735372757714,
+      "iterations": 10,
+      "final_gap": -7.815970093361102e-14,
+      "final_decrement_squared": 6.815663858654938e-14,
+      "minimum_slack": 0.11735343356102557
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 4,
+      "initial_gap": 7.506215733495875,
+      "iterations": 9,
+      "final_gap": -5.684341886080802e-14,
+      "final_decrement_squared": 7.850360282062705e-15,
+      "minimum_slack": 0.11735343341623328
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 5,
+      "initial_gap": 8.273579356404237,
+      "iterations": 12,
+      "final_gap": -3.552713678800501e-14,
+      "final_decrement_squared": 1.4740846676463566e-14,
+      "minimum_slack": 0.1173534333615548
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 6,
+      "initial_gap": 10.077120829568983,
+      "iterations": 14,
+      "final_gap": 7.744915819785092e-13,
+      "final_decrement_squared": 1.6560768185897161e-12,
+      "minimum_slack": 0.11735343402072906
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 7,
+      "initial_gap": 10.747266420951593,
+      "iterations": 17,
+      "final_gap": 1.2150280781497713e-12,
+      "final_decrement_squared": 2.5473538825592917e-12,
+      "minimum_slack": 0.11735343571907575
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 8,
+      "initial_gap": 15.706362238353833,
+      "iterations": 18,
+      "final_gap": 8.100187187665142e-13,
+      "final_decrement_squared": 1.769929318428476e-12,
+      "minimum_slack": 0.11735343568463175
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 9,
+      "initial_gap": 14.416396583647774,
+      "iterations": 22,
+      "final_gap": -9.237055564881302e-14,
+      "final_decrement_squared": 3.82313186309909e-19,
+      "minimum_slack": 0.11735343330557735
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 3,
+      "start": 10,
+      "initial_gap": 15.88538988863575,
+      "iterations": 24,
+      "final_gap": -7.105427357601002e-15,
+      "final_decrement_squared": 1.5847690552937194e-15,
+      "minimum_slack": 0.11735343337374537
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 1,
+      "initial_gap": 1.8436752709620072,
+      "iterations": 6,
+      "final_gap": 1.7763568394002505e-14,
+      "final_decrement_squared": 5.0246492627324294e-14,
+      "minimum_slack": 0.08485746149612466
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 2,
+      "initial_gap": 2.820686920846229,
+      "iterations": 8,
+      "final_gap": 8.43769498715119e-15,
+      "final_decrement_squared": 3.865686646749313e-17,
+      "minimum_slack": 0.08485746073539019
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 3,
+      "initial_gap": 4.703008422998154,
+      "iterations": 8,
+      "final_gap": 1.7192025580925474e-11,
+      "final_decrement_squared": 3.439930504402739e-11,
+      "minimum_slack": 0.08485746539754152
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 4,
+      "initial_gap": 9.002321968708078,
+      "iterations": 8,
+      "final_gap": 2.4424906541753444e-14,
+      "final_decrement_squared": 5.4641912539027064e-14,
+      "minimum_slack": 0.08485746130337518
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 5,
+      "initial_gap": 6.920876272202966,
+      "iterations": 14,
+      "final_gap": 2.353672812205332e-14,
+      "final_decrement_squared": 2.645918883404741e-15,
+      "minimum_slack": 0.08485746129419075
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 6,
+      "initial_gap": 13.132178954943619,
+      "iterations": 13,
+      "final_gap": 1.6431300764452317e-14,
+      "final_decrement_squared": 3.52118212268045e-19,
+      "minimum_slack": 0.08485746125819743
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 7,
+      "initial_gap": 10.150160380042863,
+      "iterations": 18,
+      "final_gap": 2.6201263381153694e-14,
+      "final_decrement_squared": 5.907734533127544e-19,
+      "minimum_slack": 0.08485746125852062
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 8,
+      "initial_gap": 11.00537121339554,
+      "iterations": 20,
+      "final_gap": 5.329070518200751e-15,
+      "final_decrement_squared": 3.0077494831304483e-15,
+      "minimum_slack": 0.08485745664906902
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 9,
+      "initial_gap": 18.68350151010589,
+      "iterations": 21,
+      "final_gap": 1.0658141036401503e-14,
+      "final_decrement_squared": 4.508414690195627e-16,
+      "minimum_slack": 0.08485746128049981
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 4,
+      "start": 10,
+      "initial_gap": 15.459398192555739,
+      "iterations": 24,
+      "final_gap": 2.3092638912203256e-14,
+      "final_decrement_squared": 9.88722724798335e-16,
+      "minimum_slack": 0.08485746127184407
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 1,
+      "initial_gap": 1.965124670232601,
+      "iterations": 5,
+      "final_gap": 3.859135233597044e-13,
+      "final_decrement_squared": 7.398050277965485e-13,
+      "minimum_slack": 0.08198904447777006
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 2,
+      "initial_gap": 2.997744187488254,
+      "iterations": 7,
+      "final_gap": 9.769962616701378e-15,
+      "final_decrement_squared": 2.4410011044115e-14,
+      "minimum_slack": 0.08198904352841041
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 3,
+      "initial_gap": 5.272644499502064,
+      "iterations": 7,
+      "final_gap": 1.5554224574998443e-11,
+      "final_decrement_squared": 3.11043429324289e-11,
+      "minimum_slack": 0.08198904787834
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 4,
+      "initial_gap": 5.562515783508356,
+      "iterations": 12,
+      "final_gap": 1.7763568394002505e-14,
+      "final_decrement_squared": 8.037371767325805e-16,
+      "minimum_slack": 0.08198904105762644
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 5,
+      "initial_gap": 7.257989970371494,
+      "iterations": 13,
+      "final_gap": 2.62341259826826e-11,
+      "final_decrement_squared": 5.246897944882309e-11,
+      "minimum_slack": 0.08198904945701552
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 6,
+      "initial_gap": 10.30584210905352,
+      "iterations": 14,
+      "final_gap": 2.5903723610554152e-12,
+      "final_decrement_squared": 5.15879298280553e-12,
+      "minimum_slack": 0.08198885840926878
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 7,
+      "initial_gap": 9.145582930435838,
+      "iterations": 18,
+      "final_gap": 1.2327916465437738e-12,
+      "final_decrement_squared": 2.447767502031401e-12,
+      "minimum_slack": 0.08198891596263319
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 8,
+      "initial_gap": 13.090994638479376,
+      "iterations": 19,
+      "final_gap": 5.203393271813184e-12,
+      "final_decrement_squared": 1.0444646017558101e-11,
+      "minimum_slack": 0.08198904657130474
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 9,
+      "initial_gap": 12.087987878520421,
+      "iterations": 22,
+      "final_gap": 1.4654943925052066e-14,
+      "final_decrement_squared": 6.863366101379559e-15,
+      "minimum_slack": 0.08198904344283403
+    },
+    {
+      "family": [
+        100,
+        50
+      ],
+      "problem": 5,
+      "start": 10,
+      "initial_gap": 16.670646657904143,
+      "iterations": 24,
+      "final_gap": 2.220446049250313e-14,
+      "final_decrement_squared": 3.9659216852930485e-14,
+      "minimum_slack": 0.08198904353371284
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 1,
+      "initial_gap": 2.057923903115352,
+      "iterations": 5,
+      "final_gap": 7.958078640513122e-13,
+      "final_decrement_squared": 8.189628515515853e-20,
+      "minimum_slack": 0.059276235152438406
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 2,
+      "initial_gap": 6.786832748143979,
+      "iterations": 6,
+      "final_gap": 7.958078640513122e-13,
+      "final_decrement_squared": 4.2513309694854693e-13,
+      "minimum_slack": 0.05927623520514469
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 3,
+      "initial_gap": 7.445041640419618,
+      "iterations": 10,
+      "final_gap": 6.821210263296962e-13,
+      "final_decrement_squared": 3.848229550952228e-14,
+      "minimum_slack": 0.05927623518624425
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 4,
+      "initial_gap": 12.560033722077947,
+      "iterations": 7,
+      "final_gap": 2.0463630789890885e-12,
+      "final_decrement_squared": 2.868073208123242e-15,
+      "minimum_slack": 0.0592762351737085
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 5,
+      "initial_gap": 10.696178189755983,
+      "iterations": 9,
+      "final_gap": 1.9326762412674725e-12,
+      "final_decrement_squared": 2.0800553030890923e-12,
+      "minimum_slack": 0.05927623526079706
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 6,
+      "initial_gap": 13.97246345717349,
+      "iterations": 11,
+      "final_gap": 1.4779288903810084e-12,
+      "final_decrement_squared": 7.186932430659447e-15,
+      "minimum_slack": 0.059276235174316905
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 7,
+      "initial_gap": 22.064752009323115,
+      "iterations": 12,
+      "final_gap": 1.3642420526593924e-12,
+      "final_decrement_squared": 1.1686076278067844e-15,
+      "minimum_slack": 0.0592762351710191
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 8,
+      "initial_gap": 27.11104506222182,
+      "iterations": 15,
+      "final_gap": 9.094947017729282e-13,
+      "final_decrement_squared": 2.932525255868362e-20,
+      "minimum_slack": 0.05927623516938041
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 9,
+      "initial_gap": 21.18270392090176,
+      "iterations": 21,
+      "final_gap": 5.684341886080801e-13,
+      "final_decrement_squared": 6.251721747027637e-20,
+      "minimum_slack": 0.059276235169391955
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 1,
+      "start": 10,
+      "initial_gap": 23.50486879944151,
+      "iterations": 24,
+      "final_gap": 5.684341886080801e-13,
+      "final_decrement_squared": 2.4874741459590196e-15,
+      "minimum_slack": 0.059276235171883296
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 1,
+      "initial_gap": 4.263214101282301,
+      "iterations": 5,
+      "final_gap": 4.9396930990042165e-11,
+      "final_decrement_squared": 9.809565730313262e-11,
+      "minimum_slack": 0.07562327257077564
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 2,
+      "initial_gap": 5.541047484890356,
+      "iterations": 6,
+      "final_gap": 3.126388037344441e-13,
+      "final_decrement_squared": 1.2249704290015097e-18,
+      "minimum_slack": 0.07562327162369734
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 3,
+      "initial_gap": 8.568149561753586,
+      "iterations": 6,
+      "final_gap": 1.7053025658242404e-13,
+      "final_decrement_squared": 7.994208332066116e-16,
+      "minimum_slack": 0.07562327162412064
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 4,
+      "initial_gap": 13.861194684361848,
+      "iterations": 7,
+      "final_gap": 3.126388037344441e-13,
+      "final_decrement_squared": 1.7735726596461067e-20,
+      "minimum_slack": 0.07562327162365542
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 5,
+      "initial_gap": 15.621045124577535,
+      "iterations": 8,
+      "final_gap": 1.4210854715202004e-13,
+      "final_decrement_squared": 1.4904243994194773e-20,
+      "minimum_slack": 0.07562327162366625
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 6,
+      "initial_gap": 19.126256941290364,
+      "iterations": 9,
+      "final_gap": 6.536993168992922e-13,
+      "final_decrement_squared": 1.5177046360145034e-13,
+      "minimum_slack": 0.07562327164220212
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 7,
+      "initial_gap": 21.25586248044155,
+      "iterations": 11,
+      "final_gap": 9.947598300641403e-13,
+      "final_decrement_squared": 9.956741185053782e-13,
+      "minimum_slack": 0.07562327174367911
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 8,
+      "initial_gap": 17.446676035522458,
+      "iterations": 18,
+      "final_gap": 1.7053025658242404e-13,
+      "final_decrement_squared": 1.1334757891154165e-18,
+      "minimum_slack": 0.07562327162371837
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 9,
+      "initial_gap": 19.161958218642923,
+      "iterations": 21,
+      "final_gap": 5.684341886080802e-14,
+      "final_decrement_squared": 4.1273894040568934e-16,
+      "minimum_slack": 0.0756232700912067
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 2,
+      "start": 10,
+      "initial_gap": 17.547861933066272,
+      "iterations": 24,
+      "final_gap": 1.1368683772161603e-13,
+      "final_decrement_squared": 1.666820081197424e-15,
+      "minimum_slack": 0.07562327163100346
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 1,
+      "initial_gap": 2.864628603192841,
+      "iterations": 5,
+      "final_gap": -1.3642420526593924e-12,
+      "final_decrement_squared": 1.7876216456834886e-15,
+      "minimum_slack": 0.06508188528678863
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 2,
+      "initial_gap": 8.032859777314002,
+      "iterations": 6,
+      "final_gap": -2.2737367544323206e-13,
+      "final_decrement_squared": 2.151962666515234e-18,
+      "minimum_slack": 0.06508188528452377
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 3,
+      "initial_gap": 7.759296131200472,
+      "iterations": 6,
+      "final_gap": 9.094947017729282e-13,
+      "final_decrement_squared": 6.656994641845282e-16,
+      "minimum_slack": 0.06508188528596084
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 4,
+      "initial_gap": 10.900971952909458,
+      "iterations": 7,
+      "final_gap": 0.0,
+      "final_decrement_squared": 5.0614767495545575e-14,
+      "minimum_slack": 0.0650818853006371
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 5,
+      "initial_gap": 13.868274084080326,
+      "iterations": 8,
+      "final_gap": -1.1368683772161603e-13,
+      "final_decrement_squared": 6.7792999199058636e-18,
+      "minimum_slack": 0.06508188528462858
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 6,
+      "initial_gap": 15.457378059413031,
+      "iterations": 10,
+      "final_gap": -3.410605131648481e-13,
+      "final_decrement_squared": 9.736645718455266e-14,
+      "minimum_slack": 0.06508186499737226
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 7,
+      "initial_gap": 20.97551977468629,
+      "iterations": 12,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.114893077492709e-16,
+      "minimum_slack": 0.06508188528515083
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 8,
+      "initial_gap": 22.163893781221304,
+      "iterations": 16,
+      "final_gap": 5.343281372915953e-12,
+      "final_decrement_squared": 1.1992959800253941e-11,
+      "minimum_slack": 0.06508188557532582
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 9,
+      "initial_gap": 21.781311310828187,
+      "iterations": 20,
+      "final_gap": 2.6716406864579767e-11,
+      "final_decrement_squared": 5.368599821706069e-11,
+      "minimum_slack": 0.06508188574874266
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 3,
+      "start": 10,
+      "initial_gap": 34.0532663861901,
+      "iterations": 24,
+      "final_gap": 7.958078640513122e-13,
+      "final_decrement_squared": 9.926898876277665e-13,
+      "minimum_slack": 0.06508188534575657
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 1,
+      "initial_gap": 3.704101957444209,
+      "iterations": 5,
+      "final_gap": 2.2737367544323206e-13,
+      "final_decrement_squared": 3.794444798849057e-20,
+      "minimum_slack": 0.06755994226758522
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 2,
+      "initial_gap": 5.073213747915588,
+      "iterations": 5,
+      "final_gap": 5.4569682106375694e-12,
+      "final_decrement_squared": 4.440950480298278e-12,
+      "minimum_slack": 0.06755994243082886
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 3,
+      "initial_gap": 5.568189699039294,
+      "iterations": 7,
+      "final_gap": 3.865352482534945e-12,
+      "final_decrement_squared": 2.346517195259186e-15,
+      "minimum_slack": 0.06755994227069384
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 4,
+      "initial_gap": 16.97915166407779,
+      "iterations": 7,
+      "final_gap": 1.1368683772161603e-12,
+      "final_decrement_squared": 6.366809456650472e-17,
+      "minimum_slack": 0.06755994226849116
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 5,
+      "initial_gap": 14.538991298460132,
+      "iterations": 7,
+      "final_gap": 1.7053025658242404e-11,
+      "final_decrement_squared": 2.9157625669699446e-11,
+      "minimum_slack": 0.06755994264835974
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 6,
+      "initial_gap": 19.65099273342571,
+      "iterations": 9,
+      "final_gap": -4.547473508864641e-13,
+      "final_decrement_squared": 3.630360978296964e-18,
+      "minimum_slack": 0.06755994226770601
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 7,
+      "initial_gap": 19.95880868324616,
+      "iterations": 12,
+      "final_gap": 3.183231456205249e-12,
+      "final_decrement_squared": 2.3364677354960845e-15,
+      "minimum_slack": 0.067559942271463
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 8,
+      "initial_gap": 17.223897215187435,
+      "iterations": 18,
+      "final_gap": 6.821210263296962e-13,
+      "final_decrement_squared": 1.3021856504720854e-17,
+      "minimum_slack": 0.06755994202396853
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 9,
+      "initial_gap": 21.41783732228282,
+      "iterations": 21,
+      "final_gap": 6.821210263296962e-13,
+      "final_decrement_squared": 1.8872057934663835e-20,
+      "minimum_slack": 0.0675599422675568
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 4,
+      "start": 10,
+      "initial_gap": 22.217029320212532,
+      "iterations": 24,
+      "final_gap": -9.094947017729282e-13,
+      "final_decrement_squared": 2.5328194808371227e-15,
+      "minimum_slack": 0.06755994227142392
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 1,
+      "initial_gap": 1.923606181976993,
+      "iterations": 5,
+      "final_gap": 2.0463630789890885e-12,
+      "final_decrement_squared": 3.426059380634969e-18,
+      "minimum_slack": 0.05988955113828259
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 2,
+      "initial_gap": 6.720982914355773,
+      "iterations": 8,
+      "final_gap": 1.0231815394945443e-12,
+      "final_decrement_squared": 4.2014601328612324e-13,
+      "minimum_slack": 0.059889551170505706
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 3,
+      "initial_gap": 8.018770339003936,
+      "iterations": 6,
+      "final_gap": -3.637978807091713e-12,
+      "final_decrement_squared": 2.0738251519236655e-14,
+      "minimum_slack": 0.059889551147477016
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 4,
+      "initial_gap": 12.870583189539047,
+      "iterations": 7,
+      "final_gap": -1.7053025658242404e-12,
+      "final_decrement_squared": 1.4610197545445074e-14,
+      "minimum_slack": 0.05988955114611633
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 5,
+      "initial_gap": 13.117624507837263,
+      "iterations": 8,
+      "final_gap": -6.821210263296962e-13,
+      "final_decrement_squared": 1.35062820232917e-14,
+      "minimum_slack": 0.059889551143952724
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 6,
+      "initial_gap": 11.777356944128769,
+      "iterations": 13,
+      "final_gap": -4.547473508864641e-13,
+      "final_decrement_squared": 2.191632351577389e-18,
+      "minimum_slack": 0.05988955113825062
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 7,
+      "initial_gap": 25.8562483337422,
+      "iterations": 12,
+      "final_gap": 6.821210263296962e-13,
+      "final_decrement_squared": 1.8313258764589905e-14,
+      "minimum_slack": 0.05988955114825506
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 8,
+      "initial_gap": 32.22997810594677,
+      "iterations": 13,
+      "final_gap": -2.3874235921539366e-12,
+      "final_decrement_squared": 1.310926383695783e-12,
+      "minimum_slack": 0.05988955120837053
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 9,
+      "initial_gap": 29.302914558315706,
+      "iterations": 20,
+      "final_gap": -5.684341886080801e-13,
+      "final_decrement_squared": 4.051883532299481e-20,
+      "minimum_slack": 0.0598895511381618
+    },
+    {
+      "family": [
+        1000,
+        500
+      ],
+      "problem": 5,
+      "start": 10,
+      "initial_gap": 26.92487947030304,
+      "iterations": 24,
+      "final_gap": -9.094947017729282e-13,
+      "final_decrement_squared": 2.5242570680310093e-15,
+      "minimum_slack": 0.05988955114099331
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 1,
+      "initial_gap": 2.1821297338412933,
+      "iterations": 5,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.6223220915524282e-18,
+      "minimum_slack": 0.01655064743779633
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 2,
+      "initial_gap": 3.39539136661449,
+      "iterations": 6,
+      "final_gap": 6.821210263296962e-13,
+      "final_decrement_squared": 1.3733913102877996e-12,
+      "minimum_slack": 0.016550629040021927
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 3,
+      "initial_gap": 4.340705605649418,
+      "iterations": 9,
+      "final_gap": 1.8189894035458565e-12,
+      "final_decrement_squared": 3.655155035606975e-12,
+      "minimum_slack": 0.016550647409353608
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 4,
+      "initial_gap": 6.276535121469351,
+      "iterations": 10,
+      "final_gap": 1.1368683772161603e-13,
+      "final_decrement_squared": 1.9888863549520906e-13,
+      "minimum_slack": 0.01655064748174763
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 5,
+      "initial_gap": 7.1194544531265365,
+      "iterations": 13,
+      "final_gap": 1.3869794202037156e-11,
+      "final_decrement_squared": 2.7524828044570654e-11,
+      "minimum_slack": 0.01655064910398575
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 6,
+      "initial_gap": 13.007948308818527,
+      "iterations": 11,
+      "final_gap": 3.751665644813329e-12,
+      "final_decrement_squared": 7.275844326194907e-12,
+      "minimum_slack": 0.01655064866608895
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 7,
+      "initial_gap": 10.134906158611102,
+      "iterations": 18,
+      "final_gap": 0.0,
+      "final_decrement_squared": 7.709263424180386e-20,
+      "minimum_slack": 0.016550647442381328
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 8,
+      "initial_gap": 12.444333009508,
+      "iterations": 19,
+      "final_gap": 5.002220859751105e-12,
+      "final_decrement_squared": 9.994284449635279e-12,
+      "minimum_slack": 0.016550647387826647
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 9,
+      "initial_gap": 19.00309696538079,
+      "iterations": 20,
+      "final_gap": 4.501998773775995e-11,
+      "final_decrement_squared": 8.981557090592629e-11,
+      "minimum_slack": 0.016550639162505265
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 1,
+      "start": 10,
+      "initial_gap": 15.831521125081508,
+      "iterations": 24,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.5903595169234077e-17,
+      "minimum_slack": 0.016550647443198882
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 1,
+      "initial_gap": 1.5560217495386723,
+      "iterations": 5,
+      "final_gap": 1.1368683772161603e-13,
+      "final_decrement_squared": 7.600777519324284e-14,
+      "minimum_slack": 0.008266261781533401
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 2,
+      "initial_gap": 3.2581801339731555,
+      "iterations": 6,
+      "final_gap": 2.2737367544323206e-13,
+      "final_decrement_squared": 5.1315411184357035e-14,
+      "minimum_slack": 0.008266261844538941
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 3,
+      "initial_gap": 5.877442368676384,
+      "iterations": 7,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.9091133657777938e-18,
+      "minimum_slack": 0.00826626177551183
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 4,
+      "initial_gap": 6.264683363825725,
+      "iterations": 10,
+      "final_gap": 9.094947017729282e-13,
+      "final_decrement_squared": 1.5376972488926972e-12,
+      "minimum_slack": 0.008266261931826583
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 5,
+      "initial_gap": 9.94993792976652,
+      "iterations": 10,
+      "final_gap": 2.2737367544323206e-13,
+      "final_decrement_squared": 2.2868246170112356e-13,
+      "minimum_slack": 0.008266257950194105
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 6,
+      "initial_gap": 10.41035355124211,
+      "iterations": 14,
+      "final_gap": 1.1368683772161603e-13,
+      "final_decrement_squared": 2.4706509185444236e-17,
+      "minimum_slack": 0.008266261774658338
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 7,
+      "initial_gap": 10.544143050086177,
+      "iterations": 17,
+      "final_gap": 4.774847184307873e-12,
+      "final_decrement_squared": 9.22396806845788e-12,
+      "minimum_slack": 0.008266237443222892
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 8,
+      "initial_gap": 12.464663421158662,
+      "iterations": 19,
+      "final_gap": 7.048583938740194e-12,
+      "final_decrement_squared": 1.3915844751832128e-11,
+      "minimum_slack": 0.008266231888744778
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 9,
+      "initial_gap": 15.275203059765204,
+      "iterations": 21,
+      "final_gap": 1.8189894035458565e-12,
+      "final_decrement_squared": 3.699245439990136e-12,
+      "minimum_slack": 0.00826626143587272
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 2,
+      "start": 10,
+      "initial_gap": 14.512845819927861,
+      "iterations": 24,
+      "final_gap": 1.1368683772161603e-13,
+      "final_decrement_squared": 1.0945187590897083e-17,
+      "minimum_slack": 0.008266261775607927
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 1,
+      "initial_gap": 1.7458681637397149,
+      "iterations": 5,
+      "final_gap": 0.0,
+      "final_decrement_squared": 7.127135023305812e-18,
+      "minimum_slack": 0.015896463407480188
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 2,
+      "initial_gap": 3.682962923605146,
+      "iterations": 5,
+      "final_gap": 2.1032064978498966e-11,
+      "final_decrement_squared": 4.211902935651526e-11,
+      "minimum_slack": 0.01589636668857229
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 3,
+      "initial_gap": 7.605776968383793,
+      "iterations": 6,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.37423748174926e-14,
+      "minimum_slack": 0.015896463485050298
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 4,
+      "initial_gap": 7.615682711912541,
+      "iterations": 8,
+      "final_gap": 0.0,
+      "final_decrement_squared": 7.761035782618991e-16,
+      "minimum_slack": 0.015896463431087537
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 5,
+      "initial_gap": 12.258171712227181,
+      "iterations": 9,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.1220945716761829e-20,
+      "minimum_slack": 0.01589646340571059
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 6,
+      "initial_gap": 12.461022764001541,
+      "iterations": 12,
+      "final_gap": 0.0,
+      "final_decrement_squared": 7.430231646649225e-16,
+      "minimum_slack": 0.015896463412110602
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 7,
+      "initial_gap": 14.979691604243385,
+      "iterations": 14,
+      "final_gap": 3.865352482534945e-11,
+      "final_decrement_squared": 7.749963805224717e-11,
+      "minimum_slack": 0.015896469378933752
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 8,
+      "initial_gap": 12.406076804699524,
+      "iterations": 19,
+      "final_gap": 4.547473508864641e-13,
+      "final_decrement_squared": 9.158533642477227e-13,
+      "minimum_slack": 0.015896463315556372
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 9,
+      "initial_gap": 13.132743842345008,
+      "iterations": 22,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.1517000643086426e-19,
+      "minimum_slack": 0.015896463405757216
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 3,
+      "start": 10,
+      "initial_gap": 17.730614223251905,
+      "iterations": 24,
+      "final_gap": 0.0,
+      "final_decrement_squared": 2.5860847956495216e-19,
+      "minimum_slack": 0.015896463405553132
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 1,
+      "initial_gap": 1.7065761536457558,
+      "iterations": 6,
+      "final_gap": -1.1368683772161603e-13,
+      "final_decrement_squared": 1.3975152851353672e-19,
+      "minimum_slack": 0.014980584899910485
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 2,
+      "initial_gap": 3.587791065077454,
+      "iterations": 6,
+      "final_gap": -1.1368683772161603e-13,
+      "final_decrement_squared": 1.0085792847715373e-19,
+      "minimum_slack": 0.014980584905182956
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 3,
+      "initial_gap": 5.101733619883021,
+      "iterations": 7,
+      "final_gap": 1.1368683772161603e-13,
+      "final_decrement_squared": 2.460389822034629e-13,
+      "minimum_slack": 0.014980584799758615
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 4,
+      "initial_gap": 7.163678889122707,
+      "iterations": 9,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.1509421735545979e-15,
+      "minimum_slack": 0.014980584428321831
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 5,
+      "initial_gap": 8.37489808520229,
+      "iterations": 12,
+      "final_gap": -1.1368683772161603e-13,
+      "final_decrement_squared": 1.390645175622577e-17,
+      "minimum_slack": 0.014980584852749779
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 6,
+      "initial_gap": 10.012806151678433,
+      "iterations": 14,
+      "final_gap": 0.0,
+      "final_decrement_squared": 5.3927843452534624e-20,
+      "minimum_slack": 0.014980584905147004
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 7,
+      "initial_gap": 12.823282389834617,
+      "iterations": 16,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.163553168213864e-16,
+      "minimum_slack": 0.014980584911373244
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 8,
+      "initial_gap": 12.48161138993612,
+      "iterations": 19,
+      "final_gap": 3.410605131648481e-13,
+      "final_decrement_squared": 8.311715209420273e-13,
+      "minimum_slack": 0.014980584591143018
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 9,
+      "initial_gap": 18.23319944126115,
+      "iterations": 21,
+      "final_gap": -1.1368683772161603e-13,
+      "final_decrement_squared": 5.4615380955976195e-21,
+      "minimum_slack": 0.014980584905144862
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 4,
+      "start": 10,
+      "initial_gap": 24.152431514969635,
+      "iterations": 23,
+      "final_gap": 2.2737367544323206e-13,
+      "final_decrement_squared": 5.471798683193398e-13,
+      "minimum_slack": 0.014980584847107917
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 1,
+      "initial_gap": 1.4353690899902176,
+      "iterations": 6,
+      "final_gap": 1.1368683772161603e-13,
+      "final_decrement_squared": 1.9690269859790374e-18,
+      "minimum_slack": 0.007518734229694556
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 2,
+      "initial_gap": 3.472690973636304,
+      "iterations": 8,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.020702817350127e-19,
+      "minimum_slack": 0.0075187342295586004
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 3,
+      "initial_gap": 4.871255116825978,
+      "iterations": 8,
+      "final_gap": 0.0,
+      "final_decrement_squared": 6.834597728014498e-15,
+      "minimum_slack": 0.007518733624966786
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 4,
+      "initial_gap": 5.661653681561006,
+      "iterations": 12,
+      "final_gap": 0.0,
+      "final_decrement_squared": 2.870854969885723e-19,
+      "minimum_slack": 0.007518734229585723
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 5,
+      "initial_gap": 12.092550153149887,
+      "iterations": 8,
+      "final_gap": 1.7962520360015333e-11,
+      "final_decrement_squared": 3.570400660832084e-11,
+      "minimum_slack": 0.007518735019345319
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 6,
+      "initial_gap": 9.968481468713208,
+      "iterations": 14,
+      "final_gap": 5.684341886080801e-13,
+      "final_decrement_squared": 1.2169384078116941e-12,
+      "minimum_slack": 0.0075187343459187685
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 7,
+      "initial_gap": 15.899632455954361,
+      "iterations": 14,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.8945196088636022e-17,
+      "minimum_slack": 0.007518734230084607
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 8,
+      "initial_gap": 12.751007995448504,
+      "iterations": 19,
+      "final_gap": 9.549694368615746e-12,
+      "final_decrement_squared": 1.901750524406669e-11,
+      "minimum_slack": 0.007518735386379597
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 9,
+      "initial_gap": 14.139993153135151,
+      "iterations": 21,
+      "final_gap": 4.263256414560601e-11,
+      "final_decrement_squared": 8.526764719863553e-11,
+      "minimum_slack": 0.007518733834048599
+    },
+    {
+      "family": [
+        1000,
+        50
+      ],
+      "problem": 5,
+      "start": 10,
+      "initial_gap": 19.780780029805783,
+      "iterations": 24,
+      "final_gap": 0.0,
+      "final_decrement_squared": 1.6729931482245187e-15,
+      "minimum_slack": 0.007518734228164977
+    }
+  ],
+  "accepted_instances": [
+    {
+      "dimensions": [
+        100,
+        50
+      ],
+      "accepted": 5,
+      "generated": 20
+    },
+    {
+      "dimensions": [
+        1000,
+        500
+      ],
+      "accepted": 5,
+      "generated": 6
+    },
+    {
+      "dimensions": [
+        1000,
+        50
+      ],
+      "accepted": 5,
+      "generated": 5
+    }
+  ],
+  "seed": 925,
+  "execution": {
+    "executed_at": "2026-10-10T04:59:33.472931+00:00",
+    "completed_at": "2026-10-10T04:59:45.506854+00:00",
+    "duration_seconds": 12.03392573200108,
+    "invoked_argv": [
+      "-"
+    ],
+    "reproduction_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithms_ch09 fig_9_25",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "solver": "Explicit Python Newton/barrier/primal-dual implementation; SciPy LAPACK and SuperLU linear solves",
+    "generator": "NumPy PCG64; numeric seed and saved input arrays accompany each random instance",
+    "source_hashes": {
+      "examples/algorithm_common.py": "6746b9c07179edf8871b1e752c40d92dc8e05378edbcb525cdd623ccf00c970d",
+      "examples/algorithms_ch09.py": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357"
+    },
+    "data_hashes": {
+      "family1_problem1.npz": "fb7547d6bd674b4d6bdc9739bbe8a8c374bd52bef9d8a824e5d9b49177b09946",
+      "family1_problem2.npz": "cf4f4aeb2a2ac726ab9dc12a49181ddf80cc9a8f13ceadfd6d36a8ee09a01d00",
+      "family1_problem3.npz": "adefc29202d156aad41674217deb667b363351026e2bcb68e53d6e6eaff5998d",
+      "family1_problem4.npz": "881b824c410172c06880235045c714fb213d879da3263624e990c503de78ce78",
+      "family1_problem5.npz": "443e2aeecafb1d94bf1a1c963124e475bab1511d0c0cc5b953717e66b308f7d5",
+      "family2_problem1.npz": "ff59676bf2b9750904bb0a15bad7d84185fec0841c4d5c84de0c7b68feb760cd",
+      "family2_problem2.npz": "290b18bff9cdb7fcf0c144ac39d695cf896e7f386ff46532446963ef4907d86f",
+      "family2_problem3.npz": "95aba9730b85d214aa9d7281a4d2cd59d280c1ea9be364df96e33f35f3ee1841",
+      "family2_problem4.npz": "d978f9cf4a94c9cf0eabfa5f6d478df875ca63b1cdee2d0c9980ab3830a5a952",
+      "family2_problem5.npz": "9bcfa595750660ddd5e07dd3d3da94382d8afc39226a18001f395c4905766bf5",
+      "family3_problem1.npz": "68f42d1f395a7b226335267a793bc69a2379f0fc2e3d4d9d95ee03fff7942e88",
+      "family3_problem2.npz": "b535938bcd775ca18c205be4559432d727ec2a0a1d8f814f2b076b0147f65c94",
+      "family3_problem3.npz": "70855acc4fe73f06beab93e0000113b9696b20036e549908a6f48cafd1572b7f",
+      "family3_problem4.npz": "7b7306cfcc3a20ab644a2d89d44e7189b85eb26ad975b90d500a45e8272152b6",
+      "family3_problem5.npz": "10ee31a2cd1c1db645007516dd38d803da593cd44e04a928ac7803698870cd15"
+    }
+  },
+  "id": "fig_9_25",
+  "title": "Newton iteration counts for self-concordant functions",
+  "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=520",
+  "reproduction_basis": "method_reproduction_substituted_data",
+  "output_match_verified": false,
+  "source_code_urls": [
+    "https://web.stanford.edu/~boyd/cvxbook/cvxbook_examples/chap9/figure_9_25.m"
+  ],
+  "input_provenance": "Random instances use NumPy PCG64, with saved arrays and seeds. They are method reproductions; MATLAB rand(state,...) uses v5uniform and randn(state,...) uses v5normal, whereas seed selects the v4 family. Equal integer seeds do not identify equal arrays. No exact MATLAB fixture was published in the checked companion sources; exact book-figure matching is not claimed.",
+  "notes": [
+    "The source uses MATLAB v4 seed semantics, unlike the state-based figures elsewhere. New PCG64 arrays are saved explicitly. The center rejection threshold is squared decrement 1e-12 after at most 20 steps; the source uses decrement 1e-8. The replacement right-hand sides use uniform (0.001,1). Rejection is recorded, rather than conflating nonconvergence in 20 steps with a mathematical proof of unboundedness."
+  ],
+  "publication": {
+    "packaged_at": "2026-10-10T05:07:03.167058+00:00",
+    "implementation": "examples/algorithm_evidence.py",
+    "implementation_sha256": "f729b9739f9167181d4b09e9f8afdff17d8446e707d5f90a49e96bf4a00530e5",
+    "input_manifest_sha256": "6fabaa23cb116b98126add347fb16e3ef7343cb238f7427212b5875a94a763b4",
+    "numeric_scope_reduced": false,
+    "verified_support_hashes": {
+      "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+    }
+  }
+}

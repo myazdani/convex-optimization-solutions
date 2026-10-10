@@ -1,0 +1,73 @@
+{
+  "summary": {
+    "l1_distance": 1.0,
+    "l2_distance": 1.0,
+    "linfinity_distance": 1.0,
+    "l1_l2_minimizers": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        -1
+      ]
+    ]
+  },
+  "checks": [
+    {
+      "name": "all infinity-norm values equal one",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "l1 and l2 exact minimum",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "boundary.png"
+  ],
+  "id": "example_8_1",
+  "executed_at": "2026-10-10T05:03:18.280447+00:00",
+  "elapsed_seconds": 0.10562670699982846,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=411",
+    "official_code_urls": [],
+    "official_data_files": [],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+  "runtime_source_sha256": {
+    "examples/application_basic.py": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {},
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basic.py example_8_1",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

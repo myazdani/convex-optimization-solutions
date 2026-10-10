@@ -1,0 +1,87 @@
+{
+  "summary": {
+    "least_squares_intercept": 4.184072009206104,
+    "least_squares_slope": 0.5754837533561795,
+    "huber_intercept": 4.935910507163158,
+    "huber_slope": 0.9684116402989513,
+    "huber_objective": 113.6319355154691
+  },
+  "coefficients": {
+    "least_squares": [
+      4.184072009206104,
+      0.5754837533561795
+    ],
+    "huber": [
+      4.935910507163158,
+      0.9684116402989513
+    ]
+  },
+  "checks": [
+    {
+      "name": "Huber gradient",
+      "measured": 1.4224504241155955e-08,
+      "tolerance": 1e-05,
+      "passed": true
+    },
+    {
+      "name": "Huber independent BFGS objective",
+      "measured": 0.0,
+      "tolerance": 1e-07,
+      "passed": true
+    },
+    {
+      "name": "least-squares normal equations",
+      "measured": 5.258016244624741e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "regression.png"
+  ],
+  "id": "example_6_2",
+  "executed_at": "2026-10-10T05:03:17.881454+00:00",
+  "elapsed_seconds": 0.06658069100012654,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=313",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/huber.html",
+      "https://cvxopt.org/_downloads/66d5b904ed3f10518d9d58312e547ddf/huber.py",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/fig6_5.m"
+    ],
+    "official_data_files": [
+      {
+        "url": "https://cvxopt.org/_downloads/0da371743999afbbd02ededb651d77e6/huber.bin",
+        "bytes": 1857,
+        "sha256": "efce5fbab1428361d776d8d01d73d8801e9531cf513d889374e65ca2a5c97515",
+        "download_verified": true,
+        "format": "legacy Python pickle; read only after reviewing source and using a controlled conversion"
+      }
+    ],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+  "runtime_source_sha256": {
+    "examples/application_basic.py": "415d35db002eb8e52a1dfd95ddcbabd8e8315075400da1aeec66c60552371254",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {
+    "data/worked_examples/huber.json": "3aae0e7883faaeb11108d195ab35e26b35ae3e1b6aba301ffd9e9d6ce04b9004"
+  },
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_basic.py example_6_2",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

@@ -2,9 +2,9 @@
 
 ## Three categories
 
-1. **[Examples](examples/README.md)**: **2 of 62** numerical worked-example studies reproduced and verified.
+1. **[Examples](examples/README.md)**: **62 of 62** numerical worked-example studies reproduced and verified.
 2. **[Computational exercises](computational-exercises/README.md)**: the **16 already-delivered numerical solutions**, with original derivations, executable code, and actual result tables.
-3. **[All other exercises](other-exercises/README.md)**: **96 of 321** remaining numbered exercises have complete, independently verified solutions; **225 remain open**.
+3. **[All other exercises](other-exercises/README.md)**: **321 of 321** remaining numbered exercises have complete, independently verified solutions; **0 remain open**.
 
 All 337 numbered exercises appear exactly once in categories 2 and 3. Worked examples are separate and do not count toward those 337. The [canonical manifest](../coverage/catalog.json) records categories, status, sources, and delivered files. The [work ledger](../coverage/solution_progress.json) tracks completion and blockers across the full request.
 

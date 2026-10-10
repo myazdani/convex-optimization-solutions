@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "example_11_1",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "a67fa7762af3208632a269d4a32931532d6a2be95664d04758726b8e1012df27",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "14a5324b34e08a9fce86d361b607929852d55a488eaa33026c001f0d399b928d",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked all 63 six-inequality central points, strict slacks, m/t gaps, stationarity, and objective bounds against an independent HiGHS optimum -1.46198404196655. Revision now includes the source-requested t=10 point, its barrier contour/tangent and an explicit optimal primal-dual witness. Plot visually inspected. Full official text/source, derivations, actual tables and plots inspected. Eight chapter 11 tests pass; two unrelated pending Monte Carlo sweeps are explicitly skipped. Execution/source/data and compact-publication dependency hashes verified."
+    },
+    {
+      "id": "example_11_3",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "29945629d7723a8e25df4f10e9fa8c09088c37af60c6307ad6fdafd9f9e14c16",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "fb15c3d43853ed9b159e37b1a94d160a901a698de550b6efe1180dfbbdbf64bc",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked five unit normals, all 63 path points, the t=1 and t=3 inverse-distance constraint forces and objective forces, m/t gaps, and independent LP optimum -1.48298380408091. Both force diagrams visually inspected. Full official text/source, derivations, actual tables and plots inspected. Eight chapter 11 tests pass; two unrelated pending Monte Carlo sweeps are explicitly skipped. Execution/source/data and compact-publication dependency hashes verified."
+    },
+    {
+      "id": "fig_11_4",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "fa7cf92064d21eb4288747d1144061961d7dfde90691c976433ee7eb2def63f7",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "4804f1e620914c812359108e2998035d34fedf9bf53dc461feae2e0d8f2537c2",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked the full 100-by-50 inequality LP, all three requested mu histories and 25-point sensitivity sweep. Recomputed positivity, dual stationarity and true objective gaps; independent HiGHS optimum is 1.0000000000000. Source generator sign/label discrepancies are disclosed correctly. Full official text/source, derivations, actual tables and plots inspected. Eight chapter 11 tests pass; two unrelated pending Monte Carlo sweeps are explicitly skipped. Execution/source/data and compact-publication dependency hashes verified."
+    },
+    {
+      "id": "fig_11_6",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "b91c97c2cceb8adfd66794b036148a8a1ba21e7e9b7aba001dba7d1c32542dd6",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "be65cb418b9031aae4595ca7d0ace876d99ca8b119b7eba82c215f815dbf7c98",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked the full 101-by-5-by-50 exponential arrays, all three requested histories and newly completed 25-point sensitivity sweep through mu=200. Independently recomputed positive entropy-dual arrays, normalized objective mass, linear equations and true gaps. A separate CLARABEL exponential-cone solve gives optimum 0.99999996701822, consistent within 1e-6. Both plots inspected. Full official text/source, derivations, actual tables and plots inspected. Eight chapter 11 tests pass; two unrelated pending Monte Carlo sweeps are explicitly skipped. Execution/source/data and compact-publication dependency hashes verified."
+    },
+    {
+      "id": "fig_11_7",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "5ece874918d71b063113b781213e74155cd665bb9209a6b7ce2e00f4a31627a1",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "06a638549be86e4b7ae87c8bf3b63528aad707cdb6401c6a9213f2324c5a3e1a",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Regenerated all saved arrays byte-for-byte for m=50,500,1000 and n=2m. Independently recomputed primal/dual equations, strict x/slack positivity and objective gaps; largest primal residual 1.5e-8, final gaps 0.0099996049/0.0999998078/0.1999999845 and relative gap reductions within 4e-5 of 10000. Correctly excludes initial centering and discloses book-relative versus companion-absolute stopping. Full official text/source, derivations, actual tables and plots inspected. Eight chapter 11 tests pass; two unrelated pending Monte Carlo sweeps are explicitly skipped. Execution/source/data and compact-publication dependency hashes verified."
+    },
+    {
+      "id": "example_11_4",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "46c08d3f3d0b0be67da531ccd257c82345f8fc3fef6dd5a897d81e2b4f2f7b06",
+      "code_sha256": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "results_sha256": "6c0331ffda202677cdf5c004ff22f02975673b9afc30ae19b4d80aa06049f5b1",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked the full 100-by-50 replacement system and explicit opposite-row infeasibility witness. Recomputed max/sum positive residual objectives 0.4/0.8, counts 42/99, multiplier signs/normalizations, stationarity and zero duality gaps. Both histogram panels inspected; missing-original counts are clearly distinguished. Full official text/source, derivations, actual tables and plots inspected. Eight chapter 11 tests pass; two unrelated pending Monte Carlo sweeps are explicitly skipped. Execution/source/data and compact-publication dependency hashes verified."
+    }
+  ]
+}

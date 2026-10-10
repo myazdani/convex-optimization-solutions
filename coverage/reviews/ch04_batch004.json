@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "4.32",
+      "reviewer": "convexity_review",
+      "solution_sha256": "ff46085b43bb9d71bf74e1a059ebdfbf5481eff435c21fef7f5444579f40df55",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified monomial value/gradient matching and unique exponents; differentiability supports o(norm) rather than an unjustified quadratic error bound."
+    },
+    {
+      "id": "4.33",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b81a91d3979e9762ca06ec59031cfc6959a1c955ef1b9deb2dfe5506bd7e5a34",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Verified all three original objectives, positive-variable log substitutions and exact fractional epigraph whose positive numerator enforces strict denominator positivity."
+    },
+    {
+      "id": "4.34",
+      "reviewer": "convexity_review",
+      "solution_sha256": "8ddab9fdd47ae3099a7f9f28045f5b8826aec68d63827c12299352e281bebdfa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified rowwise Holder inequality with positive Perron eigenvectors, Collatz-Wielandt bound, all interpolation weights and entrywise-log interpretation."
+    },
+    {
+      "id": "4.35",
+      "reviewer": "convexity_review",
+      "solution_sha256": "9f40062507cc9fd7b910b823a25a07a1b027ea5d8ce54f6875eec29550287258",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified positive monomial division for each prescribed sign pattern, unchanged feasible sets/objective and valid GP form."
+    },
+    {
+      "id": "4.36",
+      "reviewer": "convexity_review",
+      "solution_sha256": "20c3bd6bd29ac5b08452c7e41875f8df72870620449779fa24ac97f039012773",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified each two-term posynomial ratio, inductive partial-sum upper bound, exact lift for objectives and constraints and variable-count claim."
+    },
+    {
+      "id": "4.37",
+      "reviewer": "convexity_review",
+      "solution_sha256": "3728322258d104a88b8b22cf3939ea90026d064fe35b6d005e09e7febc27bebf",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Verified nonnegative outer exponent monotonicity, positive inner-posynomial auxiliary bounds, all objective/constraint lifts and exact projection without forcing every optimum tight."
+    },
+    {
+      "id": "4.38",
+      "reviewer": "convexity_review",
+      "solution_sha256": "bdb8f9be35dc4a4011f182117fc3ccb2f96979450db62b20903883306e405e2b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Verified congruence determinant factor, nonzero diagonal b entries, bound reversal for negative entries, infeasibility/unboundedness/zero-cost alternatives and all minimizers."
+    },
+    {
+      "id": "4.39",
+      "reviewer": "convexity_review",
+      "solution_sha256": "df79d768a5c964ec24ca3d5946515232864b1e217e87245a58ec09f6a1765038",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Verified invertible congruence in both directions, diagonal LP and negative arrow-matrix SOC signs, including zero vector/scalar cases."
+    },
+    {
+      "id": "4.40",
+      "reviewer": "convexity_review",
+      "solution_sha256": "7c7f2aca8238c1e4e8e0dfa0485ef9e3231548d219eebb7886aaa8a4853de6a3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b:QP",
+        "b:QCQP",
+        "b:SOCP",
+        "c"
+      ],
+      "notes": "Verified original LP/QP/QCQP/SOCP definitions, quadratic half factor, singular quadratic blocks, and strict F positive domain exactly enforced by the additional [F I; I S] LMI."
+    },
+    {
+      "id": "4.41",
+      "reviewer": "convexity_review",
+      "solution_sha256": "95ff998a8ebc8bf647d97a6fb04eee42bc18a166857c3df7aff6c78a7d625c4f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Verified both sufficient tests, copositive quadratic nonnegativity, positive diagonal weighted P0 implication and homogeneous normalization d_i>=1."
+    }
+  ]
+}

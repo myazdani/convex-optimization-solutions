@@ -1,0 +1,11 @@
+{
+  "kind": "upstream_numeric_data",
+  "source_url": "https://cvxopt.org/_downloads/da0d150f68832278ed35e574bd162715/linsep.bin",
+  "original_filename": "linsep.bin",
+  "original_sha256": "cf323f0d23ca8513c5fa2f07585ae9922d18c8f26be75ee543989c2d2639e14e",
+  "sha256": "577a35e737efb1623e54d047b6725e59615a6f872ba73da9fe8906652715da2b",
+  "rights": "CVXOPT data: GPL-3.0-or-later; see LICENSE-CVXOPT-DATA.txt and https://cvxopt.org/copyright.html",
+  "transformations": [
+    "Restricted pickle decoder only allows real cvxopt.base.matrix construction; preserve column-major shape; serialize numeric arrays as JSON."
+  ]
+}

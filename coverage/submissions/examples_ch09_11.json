@@ -1,0 +1,1184 @@
+{
+  "schema_version": 1,
+  "author": "algorithm_worked_examples",
+  "entries": [
+    {
+      "id": "fig_9_2",
+      "title": "Gradient descent on an ill-conditioned quadratic",
+      "solution_path": "docs/examples/fig_9_2.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_2/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_2/convergence.png",
+        "artifacts/examples/fig_9_2/input_manifest.json",
+        "artifacts/examples/fig_9_2/results.json",
+        "artifacts/examples/fig_9_2/trajectories.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=483",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "636182ce5703cc81f96ae455ed0426dc7f5ba944fa83f5139a1af688d2f571ca",
+      "reproduction_basis": "self_contained_exact_instance",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The companion contour code omits the objective factor 1/2. The book normalization is used here; this does not change the exact-search iterates."
+      ]
+    },
+    {
+      "id": "fig_9_3",
+      "title": "Gradient descent on a two-variable exponential objective",
+      "solution_path": "docs/examples/fig_9_3.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_3/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_3/convergence.png",
+        "artifacts/examples/fig_9_3/input_manifest.json",
+        "artifacts/examples/fig_9_3/results.json",
+        "artifacts/examples/fig_9_3/trajectories.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=484",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "38f991c66b76279f82721755f4ec42a94aa0da31a36e7021077524a108e83fe8",
+      "reproduction_basis": "self_contained_exact_instance",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The exact optimum is derived by symmetry: x2 = 0 and exp(2 x1) = 1/2. It provides an independent benchmark, rather than taking the last iterate as the optimum.",
+        "The companion approximates exact line search by bisection with a 0.001 interval width and caps backtracking at ten reductions. This implementation solves the directional derivative to numerical precision and requires the Armijo inequality before every accepted step. Thus the same instance and methods are reproduced, without claiming pixel-identical paths under the companion stopping approximations."
+      ]
+    },
+    {
+      "id": "fig_9_6",
+      "title": "Gradient descent for a 100-variable log-barrier objective",
+      "solution_path": "docs/examples/fig_9_6.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_6/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_6/convergence.png",
+        "artifacts/examples/fig_9_6/input_manifest.json",
+        "artifacts/examples/fig_9_6/results.json",
+        "artifacts/examples/fig_9_6/steps.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=486",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "2455f9d1da8970240bc03f87d5771a3713c72ba569d7aba7c2cf9fc8d2de20e8",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "Reference-data substitution: b is uniform (0.01,1), rather than the companion uniform (0,1). Domain tests require strictly positive slacks; the companion permits a small negative slack in an intermediate test, which is unsafe for real logarithms."
+      ]
+    },
+    {
+      "id": "fig_9_7",
+      "title": "Conditioning and gradient-method convergence",
+      "solution_path": "docs/examples/fig_9_7.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_7/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_7/conditioning.png",
+        "artifacts/examples/fig_9_7/input_manifest.json",
+        "artifacts/examples/fig_9_7/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=487",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "612f43def3198771cdb57c318a59b2af3528bea3486498d93f2c543fe0b2f609",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The source uses a uniform (0,1) right-hand side. This reproducible replacement uses uniform (0.01,1) to avoid accidental near-zero initialization slacks. Unconverged gradient runs are explicitly censored at the published 5000-update cap."
+      ]
+    },
+    {
+      "id": "fig_9_11",
+      "title": "Steepest descent under two quadratic norms",
+      "solution_path": "docs/examples/fig_9_11.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_11/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_11/convergence.png",
+        "artifacts/examples/fig_9_11/input_manifest.json",
+        "artifacts/examples/fig_9_11/results.json",
+        "artifacts/examples/fig_9_11/trajectories.png",
+        "artifacts/examples/fig_9_11/transformed.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=495",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "fa14d41b6867688e3d09ff062cdd192f313a44a7dbca988baf5f42c890d57696",
+      "reproduction_basis": "self_contained_exact_instance",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The exact optimum is derived by symmetry: x2 = 0 and exp(2 x1) = 1/2. It provides an independent benchmark, rather than taking the last iterate as the optimum.",
+        "The companion approximates exact line search by bisection with a 0.001 interval width and caps backtracking at ten reductions. This implementation solves the directional derivative to numerical precision and requires the Armijo inequality before every accepted step. Thus the same instance and methods are reproduced, without claiming pixel-identical paths under the companion stopping approximations."
+      ]
+    },
+    {
+      "id": "fig_9_19",
+      "title": "Newton descent on the two-variable exponential objective",
+      "solution_path": "docs/examples/fig_9_19.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_19/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_19/convergence.png",
+        "artifacts/examples/fig_9_19/input_manifest.json",
+        "artifacts/examples/fig_9_19/results.json",
+        "artifacts/examples/fig_9_19/trajectories.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=506",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "1974c9e27e5e1e9745c0a4a19713a9e1a1992538eabb23cdfa68628ddee2cf23",
+      "reproduction_basis": "self_contained_exact_instance",
+      "reproduction_kind": "exact",
+      "output_match_verified": true,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The exact optimum is derived by symmetry: x2 = 0 and exp(2 x1) = 1/2. It provides an independent benchmark, rather than taking the last iterate as the optimum.",
+        "The companion approximates exact line search by bisection with a 0.001 interval width and caps backtracking at ten reductions. This implementation solves the directional derivative to numerical precision and requires the Armijo inequality before every accepted step. Thus the same instance and methods are reproduced, without claiming pixel-identical paths under the companion stopping approximations."
+      ]
+    },
+    {
+      "id": "fig_9_21",
+      "title": "Newton convergence and step lengths in 100 variables",
+      "solution_path": "docs/examples/fig_9_21.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_21/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_21/convergence.png",
+        "artifacts/examples/fig_9_21/input_manifest.json",
+        "artifacts/examples/fig_9_21/results.json",
+        "artifacts/examples/fig_9_21/steps.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=506",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "3850e0983bfa778f80b99d7acab27b9348ebe8a2a8d5a7f28162de1ad27d4a28",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "Reference-data substitution: b is uniform (0.01,1), rather than the companion uniform (0,1). Domain tests require strictly positive slacks; the companion permits a small negative slack in an intermediate test, which is unsafe for real logarithms."
+      ]
+    },
+    {
+      "id": "fig_9_23",
+      "title": "Sparse Newton solve with 10000 variables",
+      "solution_path": "docs/examples/fig_9_23.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_23/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_23/convergence.png",
+        "artifacts/examples/fig_9_23/input_manifest.json",
+        "artifacts/examples/fig_9_23/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=508",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "3285225363d18efaa35f0b1f4f7431b265bd407c0bfcae86720bf2e0c8d006c0",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "Target choice: the companion has 100000 total rows including 20000 box rows; the book states 100000 additional log terms. This implementation follows the source dimensions and explicitly does not certify the larger book interpretation. The replacement b distribution is uniform (0.001,1)."
+      ]
+    },
+    {
+      "id": "fig_9_25",
+      "title": "Newton iteration counts for self-concordant functions",
+      "solution_path": "docs/examples/fig_9_25.md",
+      "code_path": "examples/algorithms_ch09.py",
+      "results_path": "artifacts/examples/fig_9_25/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_9_25/family1_problem1.npz",
+        "artifacts/examples/fig_9_25/family1_problem2.npz",
+        "artifacts/examples/fig_9_25/family1_problem3.npz",
+        "artifacts/examples/fig_9_25/family1_problem4.npz",
+        "artifacts/examples/fig_9_25/family1_problem5.npz",
+        "artifacts/examples/fig_9_25/input_manifest.json",
+        "artifacts/examples/fig_9_25/results.json",
+        "artifacts/examples/fig_9_25/self_concordant.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch09.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=520",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "e48b03d7c67d750395b54147e543e789a738fe504585cfa6fac43c5d8385b0c3",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The source uses MATLAB v4 seed semantics, unlike the state-based figures elsewhere. New PCG64 arrays are saved explicitly. The center rejection threshold is squared decrement 1e-12 after at most 20 steps; the source uses decrement 1e-8. The replacement right-hand sides use uniform (0.001,1). Rejection is recorded, rather than conflating nonconvergence in 20 steps with a mathematical proof of unboundedness."
+      ]
+    },
+    {
+      "id": "fig_10_1",
+      "title": "Infeasible-start Newton on a feasible analytic-center problem",
+      "solution_path": "docs/examples/fig_10_1.md",
+      "code_path": "examples/algorithms_ch10.py",
+      "results_path": "artifacts/examples/fig_10_1/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_10_1/convergence.png",
+        "artifacts/examples/fig_10_1/input_manifest.json",
+        "artifacts/examples/fig_10_1/instance.npz",
+        "artifacts/examples/fig_10_1/results.json",
+        "artifacts/examples/fig_10_1/steps.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "examples/algorithms_ch10.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch10.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=555",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "173ad9b9a994aa2f416eb2fe2a8c8d75e25367845f017a9404b7d7e582c5814a",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The substituted random family is conditioned by rejection: feasible experiments require a positive primal point and a strictly positive dual image; infeasible experiments require a Farkas certificate with A-transpose y nonnegative and b-transpose y = -1. This prevents assuming that a new random draw has the same feasibility outcome as the original MATLAB draw."
+      ]
+    },
+    {
+      "id": "fig_10_3",
+      "title": "Infeasible-start Newton on an infeasible problem",
+      "solution_path": "docs/examples/fig_10_3.md",
+      "code_path": "examples/algorithms_ch10.py",
+      "results_path": "artifacts/examples/fig_10_3/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_10_3/convergence.png",
+        "artifacts/examples/fig_10_3/input_manifest.json",
+        "artifacts/examples/fig_10_3/instance.npz",
+        "artifacts/examples/fig_10_3/results.json",
+        "artifacts/examples/fig_10_3/steps.png",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "examples/algorithms_ch10.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch10.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=556",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "1f0987af33096bd8182eb11d46be7332e62e4cf47e39d9f2fdcb541aee14afb5",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The substituted random family is conditioned by rejection: feasible experiments require a positive primal point and a strictly positive dual image; infeasible experiments require a Farkas certificate with A-transpose y nonnegative and b-transpose y = -1. This prevents assuming that a new random draw has the same feasibility outcome as the original MATLAB draw."
+      ]
+    },
+    {
+      "id": "fig_10_5",
+      "title": "Newton method for a convex-concave game",
+      "solution_path": "docs/examples/fig_10_5.md",
+      "code_path": "examples/algorithms_ch10.py",
+      "results_path": "artifacts/examples/fig_10_5/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_10_5/convergence.png",
+        "artifacts/examples/fig_10_5/input_manifest.json",
+        "artifacts/examples/fig_10_5/instance.npz",
+        "artifacts/examples/fig_10_5/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "examples/algorithms_ch10.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch10.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=556",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "c2185fa609564ea47f78d3f9cd82c50e1db8e4b7d8d48073addf611b04026014",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "The book starts at zero and the companion starts at 0.01 in every coordinate. Both are evaluated on the same replacement instance and reported separately."
+      ]
+    },
+    {
+      "id": "fig_10_6",
+      "title": "Three Newton formulations for analytic centering",
+      "solution_path": "docs/examples/fig_10_6.md",
+      "code_path": "examples/algorithms_ch10.py",
+      "results_path": "artifacts/examples/fig_10_6/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_10_6/dual.png",
+        "artifacts/examples/fig_10_6/feasible_primal.png",
+        "artifacts/examples/fig_10_6/infeasible_KKT.png",
+        "artifacts/examples/fig_10_6/input_manifest.json",
+        "artifacts/examples/fig_10_6/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch09.py",
+        "examples/algorithms_ch10.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch10.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=562",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "2bd0e3a3d79d333699480601f2125c977e83615ea1aa5295cc622c66d537ee04",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch09.py tests/test_worked_algorithms_ch10.py tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Saved-data feasibility and dual/objective certificates",
+          "Closed-form benchmarks or independent HiGHS comparisons",
+          "Finite-difference derivatives for smooth barrier models",
+          "Full original dimensions and150self-concordance trials",
+          "Exact-byte regeneration verified for omitted dense,sparse,large SDP and self-concordant fixtures"
+        ]
+      },
+      "notes": [
+        "Corrections to the published MATLAB script: the feasible-primal Armijo expression uses log(x+s dx), not log(1+x+s dx); its BETA*S typo is corrected; both primal and dual Armijo right-hand sides include the step length. These are implementation errors in the source, not changes to the textbook algorithms."
+      ]
+    },
+    {
+      "id": "example_11_1",
+      "title": "Central path of a two-variable linear program",
+      "solution_path": "docs/examples/example_11_1.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/example_11_1/results.json",
+      "supporting_paths": [
+        "artifacts/examples/example_11_1/central_path.png",
+        "artifacts/examples/example_11_1/input_manifest.json",
+        "artifacts/examples/example_11_1/instance.npz",
+        "artifacts/examples/example_11_1/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_phase.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=579",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "a67fa7762af3208632a269d4a32931532d6a2be95664d04758726b8e1012df27",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The book does not publish the pictured polytope coordinates. This replacement uses unit normals at angles 2 pi j/m + 0.17, offsets 1 + 0.15 sin(2 angle), and c = (1,0.65). The dimension and number of inequalities follow the book separately: six for Example 11.1 and five for Example 11.3."
+      ]
+    },
+    {
+      "id": "example_11_3",
+      "title": "Central path as a force equilibrium",
+      "solution_path": "docs/examples/example_11_3.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/example_11_3/results.json",
+      "supporting_paths": [
+        "artifacts/examples/example_11_3/central_path.png",
+        "artifacts/examples/example_11_3/input_manifest.json",
+        "artifacts/examples/example_11_3/instance.npz",
+        "artifacts/examples/example_11_3/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_phase.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=581",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "29945629d7723a8e25df4f10e9fa8c09088c37af60c6307ad6fdafd9f9e14c16",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The book does not publish the pictured polytope coordinates. This replacement uses unit normals at angles 2 pi j/m + 0.17, offsets 1 + 0.15 sin(2 angle), and c = (1,0.65). The dimension and number of inequalities follow the book separately: six for Example 11.1 and five for Example 11.3."
+      ]
+    },
+    {
+      "id": "fig_11_4",
+      "title": "Barrier method on a small inequality-form LP",
+      "solution_path": "docs/examples/fig_11_4.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_4/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_4/input_manifest.json",
+        "artifacts/examples/fig_11_4/instance.npz",
+        "artifacts/examples/fig_11_4/mu_sweep.png",
+        "artifacts/examples/fig_11_4/progress.png",
+        "artifacts/examples/fig_11_4/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=585",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "fa7cf92064d21eb4288747d1144061961d7dfde90691c976433ee7eb2def63f7",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The companion generator uses c = A-transpose z but labels z a strictly feasible dual multiplier, which would require c = -A-transpose z. The replacement enforces that negative sign, guaranteeing the declared strict dual feasibility. Its mu = 150 curve is mislabeled mu = 100 in one source annotation; the numeric parameter 150 is retained."
+      ]
+    },
+    {
+      "id": "fig_11_6",
+      "title": "Barrier method on a small geometric program",
+      "solution_path": "docs/examples/fig_11_6.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_6/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_6/input_manifest.json",
+        "artifacts/examples/fig_11_6/instance.npz",
+        "artifacts/examples/fig_11_6/mu_sweep.png",
+        "artifacts/examples/fig_11_6/progress.png",
+        "artifacts/examples/fig_11_6/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=587",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "b91c97c2cceb8adfd66794b036148a8a1ba21e7e9b7aba001dba7d1c32542dd6",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "A Newton correction is applied to the central-path dual variables, enforcing dual linear equations despite approximate centering. The corrected feasible-dual objective gap is plotted; nominal degree/t is retained separately in the JSON. Cone or entropy-dual feasibility is checked independently."
+      ]
+    },
+    {
+      "id": "fig_11_7",
+      "title": "Barrier method on three standard-form LP sizes",
+      "solution_path": "docs/examples/fig_11_7.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_7/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_7/input_manifest.json",
+        "artifacts/examples/fig_11_7/instance_50.npz",
+        "artifacts/examples/fig_11_7/progress.png",
+        "artifacts/examples/fig_11_7/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=588",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "5ece874918d71b063113b781213e74155cd665bb9209a6b7ce2e00f4a31627a1",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The textbook stops after relative gap reduction 10000 (LP) or 8000 (SDP); the companion instead requests absolute gaps 0.001 or 0.0001. This implementation follows the book relative-reduction experiment. For SDP it also retains the textbook random diagonal, unlike the companion zero-diagonal construction."
+      ]
+    },
+    {
+      "id": "example_11_4",
+      "title": "Comparing maximum and total phase-I infeasibility",
+      "solution_path": "docs/examples/example_11_4.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/example_11_4/results.json",
+      "supporting_paths": [
+        "artifacts/examples/example_11_4/input_manifest.json",
+        "artifacts/examples/example_11_4/instance.npz",
+        "artifacts/examples/example_11_4/residuals.png",
+        "artifacts/examples/example_11_4/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_phase.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=594",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "46c08d3f3d0b0be67da531ccd257c82345f8fc3fef6dd5a897d81e2b4f2f7b06",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The original 100-by-50 matrix is unpublished. The replacement seed is 1114; its first two rows are opposite normals with offsets -0.4, supplying an explicit infeasibility certificate. The book counts 39 and 79 apply only to its missing instance; the actual replacement counts are reported above."
+      ]
+    },
+    {
+      "id": "fig_11_10",
+      "title": "Feasibility difficulty near the boundary",
+      "solution_path": "docs/examples/fig_11_10.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_10/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_10/boundary.png",
+        "artifacts/examples/fig_11_10/input_manifest.json",
+        "artifacts/examples/fig_11_10/instance.npz",
+        "artifacts/examples/fig_11_10/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_phase.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=596",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "b5328178374d2d95e538982740b4ccfb78c341506b05b7985a43f1aa287dd695",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The unpublished original A, b and perturbation are replaced by the explicit seed-1110 family above. The 40-value main sweep, positive/negative near-boundary range down to 1e-6 and 25 positive infeasible-start tests are executed. Exact counts and slopes depend on the instance, so no claim is made to match the original curves."
+      ]
+    },
+    {
+      "id": "fig_11_15",
+      "title": "Barrier method on a small SOCP",
+      "solution_path": "docs/examples/fig_11_15.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_15/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_15/input_manifest.json",
+        "artifacts/examples/fig_11_15/instance.npz",
+        "artifacts/examples/fig_11_15/mu_sweep.png",
+        "artifacts/examples/fig_11_15/progress.png",
+        "artifacts/examples/fig_11_15/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=615",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "bdd07935bd6b0b4922bbf6539f0c5af01d62c745b24d37ea8391f8883b3aac5d",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "A Newton correction is applied to the central-path dual variables, enforcing dual linear equations despite approximate centering. The corrected feasible-dual objective gap is plotted; nominal degree/t is retained separately in the JSON. Cone or entropy-dual feasibility is checked independently."
+      ]
+    },
+    {
+      "id": "fig_11_17",
+      "title": "Barrier method on a small SDP",
+      "solution_path": "docs/examples/fig_11_17.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_17/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_17/input_manifest.json",
+        "artifacts/examples/fig_11_17/mu_sweep.png",
+        "artifacts/examples/fig_11_17/progress.png",
+        "artifacts/examples/fig_11_17/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=616",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "10a853d00b5022b3f44961a287377f45e85c2115d027e09900a66d2f205c7b73",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The textbook uses 100 variables and order-100 matrices; the published MATLAB source sets n = 50, m = 100. This implementation deliberately follows the textbook 100-variable dimension. The source comment calling its parameter sweep Figure 11.19 is a typo; it corresponds to Figure 11.18."
+      ]
+    },
+    {
+      "id": "fig_11_19",
+      "title": "Barrier method on three SDP sizes",
+      "solution_path": "docs/examples/fig_11_19.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_19/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_19/input_manifest.json",
+        "artifacts/examples/fig_11_19/instance_50.npz",
+        "artifacts/examples/fig_11_19/progress.png",
+        "artifacts/examples/fig_11_19/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=617",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "094f96a28baa57f96d5b485832ec2dc7d5ffd9eb29757b3edba16d21f1bc6fc2",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The textbook stops after relative gap reduction 10000 (LP) or 8000 (SDP); the companion instead requests absolute gaps 0.001 or 0.0001. This implementation follows the book relative-reduction experiment. For SDP it also retains the textbook random diagonal, unlike the companion zero-diagonal construction."
+      ]
+    },
+    {
+      "id": "fig_11_21",
+      "title": "Primal-dual method on a small LP",
+      "solution_path": "docs/examples/fig_11_21.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_21/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_21/input_manifest.json",
+        "artifacts/examples/fig_11_21/instance.npz",
+        "artifacts/examples/fig_11_21/progress.png",
+        "artifacts/examples/fig_11_21/residual.png",
+        "artifacts/examples/fig_11_21/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=627",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "2e5c2974f5b56963e974eddda59dc265c6877c67eb9e98b5d2e77e6c6747f0dc",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": []
+    },
+    {
+      "id": "fig_11_22",
+      "title": "Primal-dual method on a small GP",
+      "solution_path": "docs/examples/fig_11_22.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_22/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_22/input_manifest.json",
+        "artifacts/examples/fig_11_22/instance.npz",
+        "artifacts/examples/fig_11_22/progress.png",
+        "artifacts/examples/fig_11_22/residual.png",
+        "artifacts/examples/fig_11_22/results.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=627",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "d79003c55d9d91f2434a4243dda15425b339d0155a03b7b0011c99464f37a61e",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The primal-dual method plots the surrogate gap minus f(x)-transpose lambda and the combined KKT residual. It stops only when both are below 1e-8. Its lambda multipliers and saved primal point permit independent positivity, feasibility, stationarity and complementarity checks; no entropy-dual correction or nominal degree/t quantity is used in this experiment."
+      ]
+    },
+    {
+      "id": "fig_11_20",
+      "title": "Barrier-method scaling across 2000 SDPs",
+      "solution_path": "docs/examples/fig_11_20.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_20/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_20/input_manifest.json",
+        "artifacts/examples/fig_11_20/results.json",
+        "artifacts/examples/fig_11_20/scaling.png",
+        "artifacts/examples/fig_11_20/trials_10.json",
+        "artifacts/examples/fig_11_20/trials_1000.json",
+        "artifacts/examples/fig_11_20/trials_113.json",
+        "artifacts/examples/fig_11_20/trials_13.json",
+        "artifacts/examples/fig_11_20/trials_144.json",
+        "artifacts/examples/fig_11_20/trials_16.json",
+        "artifacts/examples/fig_11_20/trials_183.json",
+        "artifacts/examples/fig_11_20/trials_21.json",
+        "artifacts/examples/fig_11_20/trials_234.json",
+        "artifacts/examples/fig_11_20/trials_26.json",
+        "artifacts/examples/fig_11_20/trials_298.json",
+        "artifacts/examples/fig_11_20/trials_34.json",
+        "artifacts/examples/fig_11_20/trials_379.json",
+        "artifacts/examples/fig_11_20/trials_43.json",
+        "artifacts/examples/fig_11_20/trials_483.json",
+        "artifacts/examples/fig_11_20/trials_55.json",
+        "artifacts/examples/fig_11_20/trials_616.json",
+        "artifacts/examples/fig_11_20/trials_70.json",
+        "artifacts/examples/fig_11_20/trials_785.json",
+        "artifacts/examples/fig_11_20/trials_89.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithm_scaling_pack.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=619",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "cc19473c9ca578d40888f8c0c2e04f1da27f0c746529a04bad84b13264d9f657",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The original 20 dimension values and seeds are not published; the replacement uses 20 rounded geometric spacings from 10 through 1000. Every trial seed and independently recomputed feasibility/certificate check is saved. No sample count or maximum dimension is reduced.",
+        "The SDP companion zeros the diagonal of its random matrix, whereas the textbook samples the diagonal normally. These scaling experiments follow the textbook distribution."
+      ]
+    },
+    {
+      "id": "fig_11_8",
+      "title": "Barrier-method scaling across 2000 LPs",
+      "solution_path": "docs/examples/fig_11_8.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_8/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_8/input_manifest.json",
+        "artifacts/examples/fig_11_8/results.json",
+        "artifacts/examples/fig_11_8/scaling.png",
+        "artifacts/examples/fig_11_8/trials_10.json",
+        "artifacts/examples/fig_11_8/trials_1000.json",
+        "artifacts/examples/fig_11_8/trials_113.json",
+        "artifacts/examples/fig_11_8/trials_13.json",
+        "artifacts/examples/fig_11_8/trials_144.json",
+        "artifacts/examples/fig_11_8/trials_16.json",
+        "artifacts/examples/fig_11_8/trials_183.json",
+        "artifacts/examples/fig_11_8/trials_21.json",
+        "artifacts/examples/fig_11_8/trials_234.json",
+        "artifacts/examples/fig_11_8/trials_26.json",
+        "artifacts/examples/fig_11_8/trials_298.json",
+        "artifacts/examples/fig_11_8/trials_34.json",
+        "artifacts/examples/fig_11_8/trials_379.json",
+        "artifacts/examples/fig_11_8/trials_43.json",
+        "artifacts/examples/fig_11_8/trials_483.json",
+        "artifacts/examples/fig_11_8/trials_55.json",
+        "artifacts/examples/fig_11_8/trials_616.json",
+        "artifacts/examples/fig_11_8/trials_70.json",
+        "artifacts/examples/fig_11_8/trials_785.json",
+        "artifacts/examples/fig_11_8/trials_89.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithm_scaling_pack.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=589",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "e1d380cd4140dbfe2302972797f3c8617f8cb2dee6da72cf89bb467c51ef57f5",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The original 20 dimension values and seeds are not published; the replacement uses 20 rounded geometric spacings from 10 through 1000. Every trial seed and independently recomputed feasibility/certificate check is saved. No sample count or maximum dimension is reduced."
+      ]
+    },
+    {
+      "id": "fig_11_23",
+      "title": "Primal-dual scaling across 2000 LPs",
+      "solution_path": "docs/examples/fig_11_23.md",
+      "code_path": "examples/algorithms_ch11.py",
+      "results_path": "artifacts/examples/fig_11_23/results.json",
+      "supporting_paths": [
+        "artifacts/examples/fig_11_23/input_manifest.json",
+        "artifacts/examples/fig_11_23/results.json",
+        "artifacts/examples/fig_11_23/scaling.png",
+        "artifacts/examples/fig_11_23/trials_10.json",
+        "artifacts/examples/fig_11_23/trials_1000.json",
+        "artifacts/examples/fig_11_23/trials_113.json",
+        "artifacts/examples/fig_11_23/trials_13.json",
+        "artifacts/examples/fig_11_23/trials_144.json",
+        "artifacts/examples/fig_11_23/trials_16.json",
+        "artifacts/examples/fig_11_23/trials_183.json",
+        "artifacts/examples/fig_11_23/trials_21.json",
+        "artifacts/examples/fig_11_23/trials_234.json",
+        "artifacts/examples/fig_11_23/trials_26.json",
+        "artifacts/examples/fig_11_23/trials_298.json",
+        "artifacts/examples/fig_11_23/trials_34.json",
+        "artifacts/examples/fig_11_23/trials_379.json",
+        "artifacts/examples/fig_11_23/trials_43.json",
+        "artifacts/examples/fig_11_23/trials_483.json",
+        "artifacts/examples/fig_11_23/trials_55.json",
+        "artifacts/examples/fig_11_23/trials_616.json",
+        "artifacts/examples/fig_11_23/trials_70.json",
+        "artifacts/examples/fig_11_23/trials_785.json",
+        "artifacts/examples/fig_11_23/trials_89.json",
+        "examples/algorithm_common.py",
+        "examples/algorithm_evidence.py",
+        "examples/algorithm_scaling.py",
+        "examples/algorithm_scaling_pack.py",
+        "examples/algorithms_ch11.py",
+        "src/convex_solutions/plotting.py",
+        "tests/test_worked_algorithms_ch11.py"
+      ],
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=629",
+      "source_checked": true,
+      "all_subparts_completed": true,
+      "solution_sha256": "30081adc7958e8abdfb249dd2b89f397e9b9ad68300ded8f966ee5ad1006b6c0",
+      "reproduction_basis": "method_reproduction_substituted_data",
+      "reproduction_kind": "method",
+      "output_match_verified": false,
+      "verification": {
+        "test_command": "OPENBLAS_NUM_THREADS=1 .venv/bin/pytest tests/test_worked_algorithms_ch11.py tests/test_docs_formatting.py -q",
+        "test_result": "passed",
+        "independent_checks": [
+          "Independent primal/dual feasibility and objective-gap recomputation",
+          "HiGHS references for linear programs; entropy/cone/semidefinite dual certificates",
+          "Finite-difference Hessian checks and saved central-path optimality",
+          "Full stated dimensions and sweep sample counts; seeded regeneration with recomputed certificates at minimum and maximum dimensions",
+          "Explicit phase-I s < 0 and normalized Farkas stopping certificates"
+        ]
+      },
+      "notes": [
+        "The original 20 dimension values and seeds are not published; the replacement uses 20 rounded geometric spacings from 10 through 1000. Every trial seed and independently recomputed feasibility/certificate check is saved. No sample count or maximum dimension is reduced."
+      ]
+    }
+  ]
+}

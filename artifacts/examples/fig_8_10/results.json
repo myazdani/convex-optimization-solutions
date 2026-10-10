@@ -1,0 +1,136 @@
+{
+  "summary": {
+    "LP_slack": {
+      "a": [
+        2.0647121426855635,
+        -2.959732514566787
+      ],
+      "b": -0.7178103785481117,
+      "objective": 6.148569432367733,
+      "misclassified": 1,
+      "correct_inside_slab": 4
+    },
+    "SVM": {
+      "a": [
+        0.5117662413307719,
+        -0.6128169393276824
+      ],
+      "b": -0.06487031573431688,
+      "objective": 1.8257002191379126,
+      "misclassified": 3,
+      "correct_inside_slab": 14
+    },
+    "logistic": {
+      "a": [
+        3.198511497340165,
+        -4.7008606594691145
+      ],
+      "b": -1.4818989261516615,
+      "objective": 6.125421437042971,
+      "misclassified": 2,
+      "correct_inside_slab": 3
+    }
+  },
+  "checks": [
+    {
+      "name": "LP_slack independent dual gap",
+      "measured": 1.4364269773636806e-09,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "LP_slack objective re-evaluation",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "SVM independent dual gap",
+      "measured": 8.121481265277453e-11,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "SVM objective re-evaluation",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "logistic gradient",
+      "measured": 8.169851462014321e-09,
+      "tolerance": 0.0001,
+      "passed": true
+    },
+    {
+      "name": "logistic objective re-evaluation",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "printed misclassification counts",
+      "measured": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "verified companion correctly-classified slab counts",
+      "measured": 0.0,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "classifiers.png"
+  ],
+  "caveats": [
+    "Book reports correctly classified strict-slab counts 4/15/3; this published companion instance gives 4/14/3 at 1e-6 boundary tolerance. Misclassification counts match 1/3/2. Boundary points are reported separately from strict interior points; no count is silently forced to the book."
+  ],
+  "id": "fig_8_10",
+  "executed_at": "2026-10-10T05:03:40.468823+00:00",
+  "elapsed_seconds": 0.20667844699892157,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=440",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/linsep.html",
+      "https://cvxopt.org/_downloads/dcf8e07bee53213cc48e8418ad9a582a/linsep.py",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/svm_1.m",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch08_geometric_probs/svm_2.m"
+    ],
+    "official_data_files": [
+      {
+        "url": "https://cvxopt.org/_downloads/da0d150f68832278ed35e574bd162715/linsep.bin",
+        "bytes": 4433,
+        "sha256": "cf323f0d23ca8513c5fa2f07585ae9922d18c8f26be75ee543989c2d2639e14e",
+        "download_verified": true,
+        "format": "legacy Python pickle; read only after reviewing source and using a controlled conversion"
+      }
+    ],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+  "runtime_source_sha256": {
+    "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {
+    "data/worked_examples/linsep.json": "577a35e737efb1623e54d047b6725e59615a6f872ba73da9fe8906652715da2b"
+  },
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py fig_8_10",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "fig_8_3",
+      "reproduction_kind": "exact",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked literal official six-vertex polygon, log-determinant formulations, all primal supports and explicit stationarity derivations; independently recomputed enclosed vertices, inscribed supports, areas and half/double scaling bounds. Both plots visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "enclosing area",
+          "measured": 0.0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "all vertices enclosed",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "half ellipse contained",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "inscribed area",
+          "measured": 0.0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "inscribed support values",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "double ellipse contains",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "97da607e88d9a8585db5a8f4efdf41174f7655bc2e615678af8b90fa52a54302",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "37c3b4f71cff19568a484cacb0a9cf8416b42c3049cfef553e7b902ea526c1e8"
+    },
+    {
+      "id": "fig_8_5",
+      "reproduction_kind": "exact",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked all three center definitions, full source requested Hessian ellipse, and positive-definite analytic Hessian. Independently solved Chebyshev LP and recomputed analytic stationarity/Hessian; all three panels visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "analytic center stationarity",
+          "measured": 1.3988317845447072e-13,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "Hessian",
+          "measured": 0.0,
+          "tolerance": 1e-12
+        },
+        {
+          "name": "independent center radius",
+          "measured": 0.0,
+          "tolerance": 1e-10
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "a79d3a73a046d9e9f54cbea8300189d07b40eb9ca6de781b84e3794366d7d7ab",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "89f64819c163a16dd4361705cdece0a4253a278b35cccb0edeb2a32dc228814b"
+    },
+    {
+      "id": "example_4_10",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Approved method instance with explicit new matrices and two positive-definite objective weights. Independently solved both semidefinite duals, checked PSD feasibility and trace gaps, and verified minimal-upper-bound interpretation. Ellipses visually checked.",
+      "independent_recomputed_checks": [
+        {
+          "name": "0 feasibility",
+          "measured": 1.8744422680683215e-10,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "0 independently solved dual gap",
+          "measured": 7.189804307472514e-11,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "1 feasibility",
+          "measured": 3.552564908915201e-10,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "1 independently solved dual gap",
+          "measured": 1.0096403713077962e-09,
+          "tolerance": 1e-06
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "9f8369d13457bd053c2df746a4b6e4f2b9efb5365acd0a72c1416535d771efcd",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "c6f1fb1fd735d97e567b8bde2892b2a699222de6069f0cc838fbdeb196856f44"
+    },
+    {
+      "id": "fig_8_10",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked all three source objectives, signs, threshold conventions and original published data. Independently solved both hinge-loss duals and recomputed logistic gradient and every classification/slab count. Source discrepancy 4/14/3 versus printed 4/15/3 is explicitly disclosed and method classification retained.",
+      "independent_recomputed_checks": [
+        {
+          "name": "LP_slack error count",
+          "measured": 0.0,
+          "tolerance": 0
+        },
+        {
+          "name": "LP_slack strict slab count",
+          "measured": 0.0,
+          "tolerance": 0
+        },
+        {
+          "name": "LP_slack independent dual gap",
+          "measured": 3.455191688317427e-11,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "SVM error count",
+          "measured": 0.0,
+          "tolerance": 0
+        },
+        {
+          "name": "SVM strict slab count",
+          "measured": 0.0,
+          "tolerance": 0
+        },
+        {
+          "name": "SVM independent dual gap",
+          "measured": 8.121481265277453e-11,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "logistic error count",
+          "measured": 0.0,
+          "tolerance": 0
+        },
+        {
+          "name": "logistic strict slab count",
+          "measured": 0.0,
+          "tolerance": 0
+        },
+        {
+          "name": "logistic stationarity",
+          "measured": 8.169851462014321e-09,
+          "tolerance": 0.0001
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/linsep.json": "577a35e737efb1623e54d047b6725e59615a6f872ba73da9fe8906652715da2b"
+      },
+      "solution_sha256": "6b337227db8edf39222547f80a134225171cb1da97fac7225b5715f3272de3a1",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "016db3d2043bdd735b9b071f6b2bf48482c4609356eba0708cd0763b6050ecca"
+    },
+    {
+      "id": "example_8_6",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked official input caveat and all 28 edges, six free/eight fixed vertices. Independently recomputed all three power objectives, linear dual gap, quadratic and quartic stationarity. Placement/histogram panels inspected; companion data are correctly classified as method reproduction.",
+      "independent_recomputed_checks": [
+        {
+          "name": "1 objective",
+          "measured": 0.0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "linear dual gap",
+          "measured": 3.264077008680033e-09,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "2 objective",
+          "measured": 0.0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "2 gradient",
+          "measured": 6.8827947093397235e-06,
+          "tolerance": 0.0001
+        },
+        {
+          "name": "4 objective",
+          "measured": 0.0,
+          "tolerance": 1e-10
+        },
+        {
+          "name": "4 gradient",
+          "measured": 7.676052905591924e-05,
+          "tolerance": 0.0001
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {
+        "data/worked_examples/placement.json": "83dfae0a4c6ab78b3574e7063850b18acc0dd3f3354390d61705ca224fc59a2d"
+      },
+      "solution_sha256": "24ceb90afa36b49c5ec67f246869feb77cc9f8d16a5da6125b14b5a0f7421e79",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "37591723c43fd27beaa5a05b2a5d57313d3a492195ac1378be282e769ff986ad"
+    },
+    {
+      "id": "example_8_7",
+      "reproduction_kind": "exact",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked four exact area vectors, all layout order constraints, unit spacing and aspect limits against the official source. Verified reciprocal/rotated-cone equivalence and all stored geometric constraints and area products. Four layouts visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "layout 0 every constraint",
+          "measured": 3.40740371029824e-07,
+          "tolerance": 2e-05
+        },
+        {
+          "name": "layout 1 every constraint",
+          "measured": 2.858516722881177e-06,
+          "tolerance": 2e-05
+        },
+        {
+          "name": "layout 2 every constraint",
+          "measured": 3.396504439479031e-06,
+          "tolerance": 2e-05
+        },
+        {
+          "name": "layout 3 every constraint",
+          "measured": 2.746383700014121e-06,
+          "tolerance": 2e-05
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "56833594cfd8ff73b8082840b29b93da85bb479ebe319a1034e766519559712a",
+      "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+      "results_sha256": "21b011544744ddd26e32eefd2de91d8ed1b3a5094f51330a3a9e0dffbaa94249"
+    },
+    {
+      "id": "fig_8_8",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked source dimensions/transform and clearly disclosed replacement seed. Independently checked all margins, normal norm and convex-hull distance dual optimum; both separator panels visually inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "margin constraints",
+          "measured": 0.0,
+          "tolerance": 1e-06
+        },
+        {
+          "name": "independent convex hull distance",
+          "measured": 1.4890200183970137e-10,
+          "tolerance": 1e-06
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_classification_methods.py": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "a0367ef97001655c7dfc8583b5987b74fd635c885e4bcce882e97b0d1748b49c",
+      "code_sha256": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+      "results_sha256": "b70bdd2b82bf9f191039338869e36ea68c549b0c16ff2b57eff806f1a35a7b36"
+    },
+    {
+      "id": "fig_8_13",
+      "reproduction_kind": "method",
+      "reviewer": "integration_examples_review",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Checked 50+50 radial construction, transform, quadratic sign convention and strictly positive-definite ellipse. Independently recomputed every class inequality and curvature. New seed appropriately marked method; plot inspected.",
+      "independent_recomputed_checks": [
+        {
+          "name": "all classifications and curvature",
+          "measured": 9.893419417039695e-12,
+          "tolerance": 1e-06
+        }
+      ],
+      "runtime_source_sha256": {
+        "examples/application_classification_methods.py": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+        "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+        "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+        "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+        "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+      },
+      "input_file_sha256": {},
+      "solution_sha256": "29534a74c4f2bf610c4434cbb1d9149df54665325a0ad8c529bc26635e4580b2",
+      "code_sha256": "a7fce69cb016df9799787d8be438858b5b0b15d393939327abcf5abc6cfead86",
+      "results_sha256": "453e80bf136b8efcee262f3d554ae4142da279eb9d1341d780a4cb457a8550dd"
+    }
+  ]
+}

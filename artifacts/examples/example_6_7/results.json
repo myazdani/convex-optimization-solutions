@@ -1,0 +1,89 @@
+{
+  "summary": {
+    "basis": "degree-five monomials",
+    "least_squares_residual_l2": 0.11174315508454628,
+    "least_squares_residual_linf": 0.037518913169135804,
+    "minimax_residual_l2": 0.1191695177415338,
+    "minimax_residual_linf": 0.03015605910502464
+  },
+  "coefficients": {
+    "least_squares": [
+      0.17016223801450617,
+      -0.010143173453242532,
+      -0.4127675875800282,
+      0.13692915633698047,
+      0.27817739424226023,
+      -0.02479109655737867
+    ],
+    "minimax": [
+      0.17259184730590166,
+      -0.02119200429815275,
+      -0.4684955605569108,
+      0.1605152742136948,
+      0.34533558401596975,
+      -0.03794403235486553
+    ]
+  },
+  "checks": [
+    {
+      "name": "minimax objective versus independent HiGHS LP",
+      "measured": 2.8124239048743505e-12,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "LS normal equations",
+      "measured": 2.942091015256665e-15,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "fits.png"
+  ],
+  "id": "example_6_7",
+  "executed_at": "2026-10-10T05:03:20.599061+00:00",
+  "elapsed_seconds": 1.3972484420010005,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=345",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/polapprox.html",
+      "https://cvxopt.org/_downloads/ad5823961411da4165f3d7cb85b21f2c/polapprox.py",
+      "https://cvxr.com/cvx/examples/cvxbook/Ch06_approx_fitting/fig6_19.m"
+    ],
+    "official_data_files": [
+      {
+        "url": "https://cvxopt.org/_downloads/7e1f992be338a8c8dea5f5e165b529df/polapprox.bin",
+        "bytes": 1892,
+        "sha256": "bd181e2d598f6cb03bd8d1364fce8075e0dc18e3347cfaa820948ca35a345d69",
+        "download_verified": true,
+        "format": "legacy Python pickle; read only after reviewing source and using a controlled conversion"
+      }
+    ],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+  "runtime_source_sha256": {
+    "examples/application_fitting.py": "690b5a7271098bfb1f44202d42c94c4516a05b539546b46e9081dc1a6965b61c",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {
+    "data/worked_examples/polapprox.json": "6eef02dc6cad723719610924b93b160de88a2b1500baf0d7d3d9d6fe3c5acdfd"
+  },
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_fitting.py example_6_7",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}

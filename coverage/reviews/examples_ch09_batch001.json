@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "fig_9_2",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "636182ce5703cc81f96ae455ed0426dc7f5ba944fa83f5139a1af688d2f571ca",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "601a537fe0de72a5296cf2251275c4741060aebad79cece870b6b0fb79a76659",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "closed-form all-41-point trajectory checked. Source MATLAB formulations, replacement RNG disclosure, source-specific stopping differences, original derivations, tables and actual plots reviewed. Focused pytest: 5 passed. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_9_3",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "38f991c66b76279f82721755f4ec42a94aa0da31a36e7021077524a108e83fe8",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "c33d302975b738cccf92261a80d0af49aff304e300abae7181c3903d6097f7cb",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "backtracking iterates and Armijo/line-search directions independently reconstructed; exact iterates and Armijo/line-search directions independently reconstructed. Source MATLAB formulations, replacement RNG disclosure, source-specific stopping differences, original derivations, tables and actual plots reviewed. Focused pytest: 5 passed. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_9_6",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "2455f9d1da8970240bc03f87d5771a3713c72ba569d7aba7c2cf9fc8d2de20e8",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "114bfe39d64185a24be26f5593f094fa9435c52d6b0b1c7ea9823041febf9813",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "saved 500x100 instance, reference stationarity, all reported final feasibility, monotonicity, and 9 sensitivity cases checked. Source MATLAB formulations, replacement RNG disclosure, source-specific stopping differences, original derivations, tables and actual plots reviewed. Focused pytest: 5 passed. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_9_7",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "612f43def3198771cdb57c318a59b2af3528bea3486498d93f2c543fe0b2f609",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "757cb65730b759e6ed33df5590ad7b8856c43835ee6cb1041767e08e18d1f1e9",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "all nine actual transformed-Newton trajectories independently mapped; objective values recomputed; censored gradient runs labeled. Source MATLAB formulations, replacement RNG disclosure, source-specific stopping differences, original derivations, tables and actual plots reviewed. Focused pytest: 5 passed. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_9_11",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "fa14d41b6867688e3d09ff062cdd192f313a44a7dbca988baf5f42c890d57696",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "625214de9c0d0b2c6322e2bac48a174a4766a670d6d7e3e4c34b92d8b728fd7d",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "P1 = diag(2,8) iterates and Armijo/line-search directions independently reconstructed; P2 = diag(8,2) iterates and Armijo/line-search directions independently reconstructed. Source MATLAB formulations, replacement RNG disclosure, source-specific stopping differences, original derivations, tables and actual plots reviewed. Focused pytest: 5 passed. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_9_19",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "1974c9e27e5e1e9745c0a4a19713a9e1a1992538eabb23cdfa68628ddee2cf23",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "221fdce8e6ab153ece72a01217f774cfb4ab66dd36d78cae2f8948cd6a0c95d3",
+      "reproduction_kind": "exact",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "Newton iterates and Armijo/line-search directions independently reconstructed. Source MATLAB formulations, replacement RNG disclosure, source-specific stopping differences, original derivations, tables and actual plots reviewed. Focused pytest: 5 passed. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    },
+    {
+      "id": "fig_9_21",
+      "reviewer": "application_examples_review",
+      "solution_sha256": "3850e0983bfa778f80b99d7acab27b9348ebe8a2a8d5a7f28162de1ad27d4a28",
+      "code_sha256": "ba9490671774216ab4231b100dc3f3e0795e1ae1ebb1e3bfc081ffc5cdb17357",
+      "results_sha256": "eebe95374a3771efe5de76a40f48b9edb7c14a390dcc6f61340ed5e12e103b5c",
+      "reproduction_kind": "method",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "notes": "saved 500x100 instance, reference stationarity, all reported final feasibility, monotonicity, and 9 sensitivity cases checked. Source MATLAB formulations, replacement RNG disclosure, source-specific stopping differences, original derivations, tables and actual plots reviewed. Focused pytest: 5 passed. Compact delivery re-reviewed: publication helper and manifest hashes verified; no numerical values removed for this study, array-level regeneration contract and documentation checked. Large sparse, dense and self-concordant regeneration independently exercised."
+    }
+  ]
+}

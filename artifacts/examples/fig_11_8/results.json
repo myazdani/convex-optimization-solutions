@@ -1,0 +1,400 @@
+{
+  "summary": [
+    {
+      "dimension": 10,
+      "count": 100,
+      "mean_iterations": 18.84,
+      "std_iterations": 2.0583410010898766,
+      "min_iterations": 15,
+      "max_iterations": 26,
+      "maximum_gap": 0.001999997509088483,
+      "maximum_dual_residual": 2.7194799110210365e-16
+    },
+    {
+      "dimension": 13,
+      "count": 100,
+      "mean_iterations": 19.38,
+      "std_iterations": 1.6500994766462667,
+      "min_iterations": 16,
+      "max_iterations": 24,
+      "maximum_gap": 0.002599997578956795,
+      "maximum_dual_residual": 2.220446049250313e-16
+    },
+    {
+      "dimension": 16,
+      "count": 100,
+      "mean_iterations": 20.18,
+      "std_iterations": 2.2891046284519194,
+      "min_iterations": 15,
+      "max_iterations": 27,
+      "maximum_gap": 0.0031999978093555535,
+      "maximum_dual_residual": 5.087681048627601e-16
+    },
+    {
+      "dimension": 21,
+      "count": 100,
+      "mean_iterations": 21.26,
+      "std_iterations": 2.0381215356154287,
+      "min_iterations": 17,
+      "max_iterations": 28,
+      "maximum_gap": 0.004199997790487242,
+      "maximum_dual_residual": 4.440892098500626e-16
+    },
+    {
+      "dimension": 26,
+      "count": 100,
+      "mean_iterations": 21.69,
+      "std_iterations": 1.9211475947485348,
+      "min_iterations": 18,
+      "max_iterations": 26,
+      "maximum_gap": 0.0051999979186196305,
+      "maximum_dual_residual": 3.1401849173675503e-16
+    },
+    {
+      "dimension": 34,
+      "count": 100,
+      "mean_iterations": 22.05,
+      "std_iterations": 2.0468009037016617,
+      "min_iterations": 19,
+      "max_iterations": 28,
+      "maximum_gap": 0.006799997980424269,
+      "maximum_dual_residual": 4.440892098500626e-16
+    },
+    {
+      "dimension": 43,
+      "count": 100,
+      "mean_iterations": 22.75,
+      "std_iterations": 1.935187198942132,
+      "min_iterations": 19,
+      "max_iterations": 29,
+      "maximum_gap": 0.008599997903304743,
+      "maximum_dual_residual": 4.577566798522237e-16
+    },
+    {
+      "dimension": 55,
+      "count": 100,
+      "mean_iterations": 23.2,
+      "std_iterations": 1.8531981638085644,
+      "min_iterations": 19,
+      "max_iterations": 29,
+      "maximum_gap": 0.010999997865436588,
+      "maximum_dual_residual": 4.577566798522237e-16
+    },
+    {
+      "dimension": 70,
+      "count": 100,
+      "mean_iterations": 23.42,
+      "std_iterations": 2.2119053443864303,
+      "min_iterations": 19,
+      "max_iterations": 33,
+      "maximum_gap": 0.013999997859671912,
+      "maximum_dual_residual": 4.440892098500626e-16
+    },
+    {
+      "dimension": 89,
+      "count": 100,
+      "mean_iterations": 24.14,
+      "std_iterations": 2.1462676083062537,
+      "min_iterations": 20,
+      "max_iterations": 31,
+      "maximum_gap": 0.017799997556313573,
+      "maximum_dual_residual": 4.47545209131181e-16
+    },
+    {
+      "dimension": 113,
+      "count": 100,
+      "mean_iterations": 24.3,
+      "std_iterations": 2.162583565268098,
+      "min_iterations": 20,
+      "max_iterations": 29,
+      "maximum_gap": 0.022599997530946284,
+      "maximum_dual_residual": 4.440892098500626e-16
+    },
+    {
+      "dimension": 144,
+      "count": 100,
+      "mean_iterations": 24.56,
+      "std_iterations": 2.171067791096205,
+      "min_iterations": 21,
+      "max_iterations": 31,
+      "maximum_gap": 0.028799997764996903,
+      "maximum_dual_residual": 4.710277376051325e-16
+    },
+    {
+      "dimension": 183,
+      "count": 100,
+      "mean_iterations": 24.84,
+      "std_iterations": 2.557302872128755,
+      "min_iterations": 21,
+      "max_iterations": 33,
+      "maximum_gap": 0.03659999806701225,
+      "maximum_dual_residual": 3.6821932062951477e-16
+    },
+    {
+      "dimension": 234,
+      "count": 100,
+      "mean_iterations": 24.67,
+      "std_iterations": 2.490608623033999,
+      "min_iterations": 20,
+      "max_iterations": 32,
+      "maximum_gap": 0.0467999978038187,
+      "maximum_dual_residual": 5.087681048627601e-16
+    },
+    {
+      "dimension": 298,
+      "count": 100,
+      "mean_iterations": 24.83,
+      "std_iterations": 2.2385736800945644,
+      "min_iterations": 21,
+      "max_iterations": 32,
+      "maximum_gap": 0.059599998032666905,
+      "maximum_dual_residual": 4.839349969133127e-16
+    },
+    {
+      "dimension": 379,
+      "count": 100,
+      "mean_iterations": 25.12,
+      "std_iterations": 2.1894143859798114,
+      "min_iterations": 21,
+      "max_iterations": 31,
+      "maximum_gap": 0.07579999795257716,
+      "maximum_dual_residual": 3.510833468576701e-16
+    },
+    {
+      "dimension": 483,
+      "count": 100,
+      "mean_iterations": 25.33,
+      "std_iterations": 2.2610223842815493,
+      "min_iterations": 22,
+      "max_iterations": 32,
+      "maximum_gap": 0.09659999767645631,
+      "maximum_dual_residual": 6.730369402342474e-16
+    },
+    {
+      "dimension": 616,
+      "count": 100,
+      "mean_iterations": 25.46,
+      "std_iterations": 2.3112373702885174,
+      "min_iterations": 22,
+      "max_iterations": 32,
+      "maximum_gap": 0.12319999758125626,
+      "maximum_dual_residual": 4.644396126208125e-16
+    },
+    {
+      "dimension": 785,
+      "count": 100,
+      "mean_iterations": 25.4,
+      "std_iterations": 2.4700222875533124,
+      "min_iterations": 22,
+      "max_iterations": 34,
+      "maximum_gap": 0.15699999786728025,
+      "maximum_dual_residual": 5.4672143489065705e-16
+    },
+    {
+      "dimension": 1000,
+      "count": 100,
+      "mean_iterations": 25.23,
+      "std_iterations": 2.1642410665033123,
+      "min_iterations": 22,
+      "max_iterations": 33,
+      "maximum_gap": 0.1999999977261426,
+      "maximum_dual_residual": 5.551115123125783e-16
+    }
+  ],
+  "trial_count": 2000,
+  "dimension_count": 20,
+  "method": "barrier",
+  "execution": {
+    "executed_at": "2026-10-10T05:17:46.346062+00:00",
+    "completed_at": "2026-10-10T05:25:24.076572+00:00",
+    "duration_seconds": 457.7305112769991,
+    "invoked_argv": [
+      "/workspace/shared/convex-optimization/examples/algorithm_scaling.py",
+      "lp",
+      "--workers",
+      "4"
+    ],
+    "reproduction_command": "OPENBLAS_NUM_THREADS=1 python -m examples.algorithms_ch11 fig_11_8",
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "solver": "Explicit Python Newton/barrier/primal-dual implementation; SciPy LAPACK and SuperLU linear solves",
+    "generator": "NumPy PCG64; numeric seed and saved input arrays accompany each random instance",
+    "source_hashes": {
+      "examples/algorithm_common.py": "6746b9c07179edf8871b1e752c40d92dc8e05378edbcb525cdd623ccf00c970d",
+      "examples/algorithms_ch11.py": "8101a7b9bcbbf909f0e0a523529437356e09fc617bf5a63813d1e1466682a0b5",
+      "examples/algorithm_scaling.py": "f2b5917660567be5dcf6ac55e1248f9be9da4f777096b1287789cba3d5164064"
+    },
+    "data_hashes": {}
+  },
+  "id": "fig_11_8",
+  "title": "Barrier-method scaling across 2000 LPs",
+  "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=589",
+  "reproduction_basis": "method_reproduction_substituted_data",
+  "output_match_verified": false,
+  "source_code_urls": [],
+  "input_provenance": "Random instances use NumPy PCG64, with saved arrays and seeds. They are method reproductions; MATLAB rand(state,...) uses v5uniform and randn(state,...) uses v5normal, whereas seed selects the v4 family. Equal integer seeds do not identify equal arrays. No exact MATLAB fixture was published in the checked companion sources; exact book-figure matching is not claimed.",
+  "notes": [
+    "The original 20 dimension values and seeds are not published; the replacement uses 20 rounded geometric spacings from 10 through 1000. Every trial seed and independently recomputed feasibility/certificate check is saved. No sample count or maximum dimension is reduced."
+  ],
+  "trial_shards": [
+    {
+      "path": "trials_10.json",
+      "dimension": 10,
+      "count": 100,
+      "bytes": 110779,
+      "sha256": "4400b2be14e15eeada6596495f58d0773ee3444c576d89bd7245ee5037cb894c"
+    },
+    {
+      "path": "trials_13.json",
+      "dimension": 13,
+      "count": 100,
+      "bytes": 111096,
+      "sha256": "a267b30c581e0259f2952e3d517f96287f935007eb6ecf25e88ca09be9f06995"
+    },
+    {
+      "path": "trials_16.json",
+      "dimension": 16,
+      "count": 100,
+      "bytes": 110990,
+      "sha256": "14d6fbcfc1397c79db6dcdac607eed55bf42a059511225b60ec312213e05f2b3"
+    },
+    {
+      "path": "trials_21.json",
+      "dimension": 21,
+      "count": 100,
+      "bytes": 110892,
+      "sha256": "edf5c5d4da0389c6f259af158bc9cf5317136b246f7532d88b73a1e84a4b85e6"
+    },
+    {
+      "path": "trials_26.json",
+      "dimension": 26,
+      "count": 100,
+      "bytes": 110922,
+      "sha256": "06ffaab00c18322ea6037e0aec153fc7c3872aa60ec339ae0a1e9266fe3addd0"
+    },
+    {
+      "path": "trials_34.json",
+      "dimension": 34,
+      "count": 100,
+      "bytes": 111090,
+      "sha256": "1981f4bfa5ac399df09b09099122e11697c9f65bfb3479b0bdae3d3188c57aba"
+    },
+    {
+      "path": "trials_43.json",
+      "dimension": 43,
+      "count": 100,
+      "bytes": 111115,
+      "sha256": "5f3d85e78e4cb315e3860e3d13285e8fc0f06e26f864ab49225066733c77e7e5"
+    },
+    {
+      "path": "trials_55.json",
+      "dimension": 55,
+      "count": 100,
+      "bytes": 111419,
+      "sha256": "c6859249c738ecece67cefaf75c03e234ff5766f9281146ea5163aa6596c786e"
+    },
+    {
+      "path": "trials_70.json",
+      "dimension": 70,
+      "count": 100,
+      "bytes": 111395,
+      "sha256": "e013edd369bf77ef7beebe6f216ada7209e578d7fe380267d382d9d96ad7c857"
+    },
+    {
+      "path": "trials_89.json",
+      "dimension": 89,
+      "count": 100,
+      "bytes": 111398,
+      "sha256": "a37b9d7a2bd795471ae7ab97a9a74f251f5f43382857566f48ac219f01f73d70"
+    },
+    {
+      "path": "trials_113.json",
+      "dimension": 113,
+      "count": 100,
+      "bytes": 111726,
+      "sha256": "8c5f20ed1847344b068532433d8929b5339f8a20ef8696e1a167a03098a7c5f6"
+    },
+    {
+      "path": "trials_144.json",
+      "dimension": 144,
+      "count": 100,
+      "bytes": 111788,
+      "sha256": "5eb7d752f0c892397e6ba7fc480c5873b04117be2791dc1d461b1ff1f8b849d8"
+    },
+    {
+      "path": "trials_183.json",
+      "dimension": 183,
+      "count": 100,
+      "bytes": 111696,
+      "sha256": "c671a4125223a10c870fdb6135d4c6e54f361209d77ad0542827b71d7f076b10"
+    },
+    {
+      "path": "trials_234.json",
+      "dimension": 234,
+      "count": 100,
+      "bytes": 111638,
+      "sha256": "58ade0d2090c7734011da22765d5d5b3d924ae7304ba8c3d239948635c16ea38"
+    },
+    {
+      "path": "trials_298.json",
+      "dimension": 298,
+      "count": 100,
+      "bytes": 111588,
+      "sha256": "ea937a0e68d697ab2a70e0ea28b31da4982f044b0cf677d27d67f2424e2feb05"
+    },
+    {
+      "path": "trials_379.json",
+      "dimension": 379,
+      "count": 100,
+      "bytes": 111450,
+      "sha256": "e892ead9a892a34ec50448e444b73ca44d85e818135e3fd78bbef70611328b93"
+    },
+    {
+      "path": "trials_483.json",
+      "dimension": 483,
+      "count": 100,
+      "bytes": 111349,
+      "sha256": "88dfc1a6052a991aedd0ced85850443e065f37eeeb1632c213644f1fc5ea8e56"
+    },
+    {
+      "path": "trials_616.json",
+      "dimension": 616,
+      "count": 100,
+      "bytes": 111632,
+      "sha256": "1939c8e0d726b885e646ad5921fca0f171e3ae95c5016e6a7327990c92f46cb9"
+    },
+    {
+      "path": "trials_785.json",
+      "dimension": 785,
+      "count": 100,
+      "bytes": 111704,
+      "sha256": "f74ee9e8748f9bac79d06bc4ef5e247c44f7c2fdfebb1fc8e3e054816656aa23"
+    },
+    {
+      "path": "trials_1000.json",
+      "dimension": 1000,
+      "count": 100,
+      "bytes": 111854,
+      "sha256": "727eaedadece05c87e595cf1b750ef502da544a8f7337522d24c81c975cc0e1c"
+    }
+  ],
+  "all_trials_preserved": true,
+  "publication_partition": {
+    "script": "examples/algorithm_scaling_pack.py",
+    "sha256": "4cc5ac14a9799a5a8feaaa5617ffc04db706d76e4f4071f34b72fa0e5f20ba31",
+    "packaged_at": "2026-10-10T05:25:42.899359+00:00",
+    "description": "All2000trial records preserved; each study includes only its own method, partitioned into20dimension shards."
+  },
+  "publication": {
+    "packaged_at": "2026-10-10T05:25:42.900443+00:00",
+    "implementation": "examples/algorithm_evidence.py",
+    "implementation_sha256": "f729b9739f9167181d4b09e9f8afdff17d8446e707d5f90a49e96bf4a00530e5",
+    "input_manifest_sha256": "334efd3d3214bac5fa8cd0523d00774d26d692a22e59b7d4f4e8e78ccb5ae4bd",
+    "numeric_scope_reduced": false,
+    "verified_support_hashes": {
+      "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+    }
+  }
+}

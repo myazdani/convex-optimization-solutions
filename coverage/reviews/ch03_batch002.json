@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "3.11",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "4fe857b46e0e1ad0dd01654df89c34be616eaea15e1c0af63f09005840a529e2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "gradient-monotonicity",
+        "converse"
+      ],
+      "notes": "Checked summed first-order inequalities and smooth skew-symmetric counterexample, including integrability contradiction."
+    },
+    {
+      "id": "3.12",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "1fd283095165c9658ee534e06ab3143b1aee9c45085b2a94b063064956da76b4",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked open convex epigraph/hypograph separation, full-domain exclusion of vertical separator, and affine sandwich signs."
+    },
+    {
+      "id": "3.13",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "d79e5704944e7945829e3d7e9dcf5f15ab253e3d19632573ecf988140b19af8b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "nonnegativity",
+        "equality"
+      ],
+      "notes": "Checked the unnormalized KL definition and exact Bregman/integral remainder identity, including strict equality characterization."
+    },
+    {
+      "id": "3.14",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "8d0b9d4ba40f6522a8de590cb7d53303d73c16c03d94d7014ddbfd8403fde699",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked both Hessian blocks, full saddle/max-min proof, and necessary interior qualification with boundary counterexample."
+    },
+    {
+      "id": "3.15",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "573172ae245a6ffd70979235b59c095b1430900d5e1055c0f2e0e5d11442a30c",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked logarithmic limit, derivatives, endpoint extension at zero and alpha=0/1 cases."
+    },
+    {
+      "id": "3.16",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "62cd461469ef6edcf1e44d4df6d06fcbd5f5ce64b0b2f5d76f1e9b811523b57f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "notes": "Checked every convex/concave/quasiconvex/quasiconcave classification and supplied Hessians, level-set arguments and counterexamples; weighted geometric mean endpoints handled."
+    },
+    {
+      "id": "3.17",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "1ede657b1c68b14c74241040b8930369bd2074c6a5333468a0de38beaafc113e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Recomputed power-mean Hessian and Cauchy-Schwarz sign for both negative and positive allowed p, including n=1."
+    },
+    {
+      "id": "3.18",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "70f4011300e3b1f480440edce4f3cf1742645be9b54ffbebb1e171e2a1d976f8",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked congruence transformation with trace weights retained and determinant-root line curvature via Cauchy-Schwarz."
+    },
+    {
+      "id": "3.19",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "7cc6e6b02eea8cc578273f8dc3354750808a4acc1d2d69a67670e8f925dff3db",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked ordered-sum telescoping coefficients and finite integral argument using compactness and positivity."
+    },
+    {
+      "id": "3.20",
+      "reviewer": "root_independent_mathematical_review",
+      "solution_sha256": "557c0d720be5911243788aaaf51c4a7e35b885b7cfc861c80891edf843d2fb58",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked all affine-composition domains and norm inequality, with matrix-concavity/convexity justified by preceding proof."
+    }
+  ]
+}

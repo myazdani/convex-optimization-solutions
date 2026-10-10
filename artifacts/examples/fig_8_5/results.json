@@ -1,0 +1,120 @@
+{
+  "summary": {
+    "Chebyshev_center": [
+      0.16050776756592386,
+      0.02690464518140243
+    ],
+    "Chebyshev_radius": 0.2782152380556206,
+    "maximum_volume_center": [
+      0.11152760332570773,
+      0.011759883582039912
+    ],
+    "analytic_center": [
+      0.14038886195804942,
+      0.06126227818159585
+    ]
+  },
+  "analytic_hessian": [
+    [
+      25.416115076813604,
+      -2.17712160513378
+    ],
+    [
+      -2.1771216051337796,
+      38.26279643103399
+    ]
+  ],
+  "checks": [
+    {
+      "name": "enclosing KKT stationarity",
+      "measured": 7.2733998873851635e-06,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "inscribed KKT stationarity",
+      "measured": 4.6859096965778946e-05,
+      "tolerance": 0.0002,
+      "passed": true
+    },
+    {
+      "name": "enclosing feasibility",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "inscribed feasibility",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "half-sized enclosing ellipse inside polygon",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "twice-sized inscribed ellipse contains vertices",
+      "measured": 0.0,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "analytic center convex versus Newton objective",
+      "measured": 5.941913627793838e-13,
+      "tolerance": 1e-08,
+      "passed": true
+    },
+    {
+      "name": "analytic center gradient",
+      "measured": 1.3988317845447072e-13,
+      "tolerance": 1e-06,
+      "passed": true
+    },
+    {
+      "name": "Chebyshev LP dual gap",
+      "measured": 0.0,
+      "tolerance": 1e-08,
+      "passed": true
+    }
+  ],
+  "plots": [
+    "centers.png"
+  ],
+  "id": "fig_8_5",
+  "executed_at": "2026-10-10T05:03:40.160095+00:00",
+  "elapsed_seconds": 0.2615187549999973,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "cvxpy": "1.9.3",
+  "source": {
+    "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=431",
+    "official_code_urls": [
+      "https://cvxopt.org/examples/book/centers.html",
+      "https://cvxopt.org/_downloads/37e398394eac2ba64d27afed043e8a59/centers.py"
+    ],
+    "official_data_files": [],
+    "implementation": "Original Python formulation and implementation; upstream numeric data attributed separately."
+  },
+  "code_sha256": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+  "runtime_source_sha256": {
+    "examples/application_geometry.py": "556351f7dfc03589ae889b1935ac250af4e5110d7cc52de8c44d003f572f7487",
+    "examples/application_support.py": "cfccfed37c07974f02c743d41d58f2ba43acd165a57f07ac90d0669366beac6b",
+    "src/convex_solutions/io.py": "077ab7cfd5250381f13c26d41e5ddd241c711a15c3756fbd80f66d2a663255ff",
+    "src/convex_solutions/numerics.py": "de02d21337c85b6df5ddf898f0871a5316273e9836b4582140fbbd4bb3e44174",
+    "src/convex_solutions/plotting.py": "0c38e9b3dc5493aa825b126e896f8960a9d87738683ff1bb618330b50671e6e0"
+  },
+  "input_file_sha256": {},
+  "execution_command": "OPENBLAS_NUM_THREADS=1 python examples/application_geometry.py fig_8_5",
+  "scipy": "1.17.0",
+  "installed_solvers": [
+    "CLARABEL",
+    "SCS",
+    "SCIPY",
+    "HIGHS",
+    "OSQP"
+  ]
+}
