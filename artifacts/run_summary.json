@@ -1,0 +1,173 @@
+{
+  "coverage": {
+    "audit_status": "complete",
+    "required_count": 11,
+    "status_counts": {
+      "blocked": 0,
+      "implemented": 0,
+      "not_applicable": 0,
+      "pending": 55,
+      "verified": 16
+    },
+    "implemented_ids": [
+      "4.3",
+      "5.29",
+      "5.33",
+      "5.34",
+      "9.10",
+      "9.30",
+      "9.31",
+      "9.32",
+      "10.14",
+      "10.15",
+      "10.16",
+      "11.1",
+      "11.21",
+      "11.22",
+      "11.23",
+      "11.24"
+    ],
+    "missing_required": [],
+    "selected_count": 16,
+    "missing_selected": [],
+    "required_complete": true,
+    "selected_complete": true,
+    "issues": [],
+    "complete": true
+  },
+  "runs": [
+    {
+      "duration_seconds": 0.6047136700001374,
+      "id": "4.3",
+      "results": "artifacts/4.3/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 1.6594463370001904,
+      "id": "5.29",
+      "results": "artifacts/5.29/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.16294008800014126,
+      "id": "5.33",
+      "results": "artifacts/5.33/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.3085646849999648,
+      "id": "5.34",
+      "results": "artifacts/5.34/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.405595306999885,
+      "id": "9.10",
+      "results": "artifacts/9.10/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 25.38487067899996,
+      "id": "9.30",
+      "results": "artifacts/9.30/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 3.3836300419998224,
+      "id": "9.31",
+      "results": "artifacts/9.31/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.7909870250000495,
+      "id": "9.32",
+      "results": "artifacts/9.32/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.38561232100005327,
+      "id": "10.14",
+      "results": "artifacts/10.14/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.36010156899988033,
+      "id": "10.15",
+      "results": "artifacts/10.15/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.4078393810000307,
+      "id": "10.16",
+      "results": "artifacts/10.16/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.5159382140000162,
+      "id": "11.1",
+      "results": "artifacts/11.1/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.3633624869999039,
+      "id": "11.21",
+      "results": "artifacts/11.21/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.2752748939999492,
+      "id": "11.22",
+      "results": "artifacts/11.22/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.8042056649999267,
+      "id": "11.23",
+      "results": "artifacts/11.23/results.json",
+      "status": "success"
+    },
+    {
+      "duration_seconds": 0.3787588280001728,
+      "id": "11.24",
+      "results": "artifacts/11.24/results.json",
+      "status": "success"
+    }
+  ],
+  "coverage_at_execution": {
+    "audit_status": "complete",
+    "complete": false,
+    "implemented_ids": [
+      "4.3",
+      "5.29",
+      "5.33",
+      "5.34",
+      "9.10",
+      "9.30",
+      "9.31",
+      "9.32",
+      "10.14",
+      "10.15",
+      "10.16",
+      "11.1",
+      "11.21",
+      "11.22",
+      "11.23",
+      "11.24"
+    ],
+    "issues": [],
+    "missing_required": [],
+    "missing_selected": [],
+    "required_complete": false,
+    "required_count": 11,
+    "selected_complete": false,
+    "selected_count": 16,
+    "status_counts": {
+      "blocked": 0,
+      "implemented": 0,
+      "not_applicable": 0,
+      "pending": 71,
+      "verified": 0
+    }
+  },
+  "coverage_verified_at": "2026-10-10T02:37:37.701348+00:00"
+}

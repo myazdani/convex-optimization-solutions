@@ -1,0 +1,63 @@
+{
+  "certificate": {
+    "complementarity_residual": 0.0,
+    "eigenvalues": [
+      0.2589388144473769,
+      13.84291164172509,
+      27.898149543827536
+    ],
+    "gradient": [
+      -1.0,
+      0.0,
+      2.0
+    ],
+    "leading_principal_minors": [
+      13,
+      77,
+      100
+    ],
+    "lower_multipliers": [
+      0.0,
+      0.0,
+      2.0
+    ],
+    "objective": -21.625,
+    "primal_violation": 0.0,
+    "stationarity_residual": 0.0,
+    "unique": true,
+    "upper_multipliers": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "x": [
+      1.0,
+      0.5,
+      -1.0
+    ]
+  },
+  "exercise": "4.3",
+  "plots": [],
+  "reference": {
+    "attempts": [
+      {
+        "solver": "CLARABEL",
+        "status": "optimal"
+      }
+    ],
+    "objective": -21.62499998049554,
+    "objective_error": 1.950445849274729e-08,
+    "point_error": 1.32344224832722e-08,
+    "primal_violation": 0.0,
+    "solver": "CLARABEL",
+    "stationarity_residual": 1.101295819876276e-12,
+    "status": "optimal",
+    "x": [
+      0.9999999889304378,
+      0.5000000059015134,
+      -0.9999999957825515
+    ]
+  },
+  "scope": "optional numerical illustration",
+  "seed": 0
+}

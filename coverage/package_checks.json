@@ -1,0 +1,39 @@
+{
+  "source_tests": {
+    "passed": 95,
+    "failed": 0,
+    "warnings": 0
+  },
+  "wheel": {
+    "built": true,
+    "isolated_import": true,
+    "bundled_inventory_verified": true,
+    "all_16_modules_import": true,
+    "exercise_4_3_smoke": true,
+    "source_fingerprint_matches": true
+  },
+  "archive_policy": {
+    "excluded": [
+      ".venv",
+      ".git",
+      "__pycache__",
+      ".pytest_cache",
+      "build",
+      "dist",
+      "*.egg-info",
+      "textbook PDF"
+    ],
+    "included": [
+      "source",
+      "tests",
+      "original notes",
+      "coverage audit",
+      "provenance",
+      "19 figures",
+      "16 result envelopes",
+      "generated data",
+      "35 dependency pins"
+    ]
+  },
+  "archive_integrity": "ZIP CRC verification is performed by the packaging script; member exclusions were independently checked after creation."
+}

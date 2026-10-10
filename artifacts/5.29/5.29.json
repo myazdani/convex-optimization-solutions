@@ -1,0 +1,250 @@
+{
+  "certified_duality_gap": 0.0,
+  "exercise": "5.29",
+  "global_maximum": {
+    "classification": "strict local maximum",
+    "dual_status": "unbounded below",
+    "dual_value": null,
+    "global_minimum_certificate": false,
+    "nu": -3.1492898066182637,
+    "objective": 4.64728273748022,
+    "shifted_hessian_eigenvalues": [
+      -12.298579613236527,
+      -4.2985796132365275,
+      -2.2985796132365275
+    ],
+    "sphere_residual": 3.552713678800501e-15,
+    "stationarity_residual": 2.220446049250313e-16,
+    "tangent_hessian_eigenvalues": [
+      -12.048118449639151,
+      -3.8516345283464895
+    ],
+    "x": [
+      0.16262040519276474,
+      0.46526996821029937,
+      0.8701025574589035
+    ]
+  },
+  "global_minimum": {
+    "classification": "strict local minimum",
+    "dual_status": "finite",
+    "dual_value": -5.365493342948376,
+    "global_minimum_certificate": true,
+    "nu": 4.035225946182602,
+    "objective": -5.365493342948376,
+    "shifted_hessian_eigenvalues": [
+      2.070451892365204,
+      10.070451892365204,
+      12.070451892365204
+    ],
+    "sphere_residual": 0.0,
+    "stationarity_residual": 0.0,
+    "tangent_hessian_eigenvalues": [
+      9.713316695730219,
+      11.837504187833845
+    ],
+    "x": [
+      -0.9659726977356993,
+      -0.1986008196430864,
+      -0.1656938793869879
+    ]
+  },
+  "independent_polynomial_real_roots": [
+    -3.149289806618259,
+    0.22350899648281705,
+    1.891898984175425,
+    4.035225946182604
+  ],
+  "interval_analysis": [
+    {
+      "interval": [
+        null,
+        -2.0
+      ],
+      "root_count": 1
+    },
+    {
+      "interval": [
+        -2.0,
+        -1.0
+      ],
+      "minimum_at": -1.5001143031124407,
+      "minimum_value": 7.049381461694132,
+      "root_count": 0
+    },
+    {
+      "interval": [
+        -1.0,
+        3.0
+      ],
+      "minimum_at": 1.0897962921206543,
+      "minimum_value": -0.3922193577493359,
+      "root_count": 2
+    },
+    {
+      "interval": [
+        3.0,
+        null
+      ],
+      "root_count": 1
+    }
+  ],
+  "plots": [
+    "5_29_secular.png"
+  ],
+  "points": [
+    {
+      "classification": "strict local maximum",
+      "dual_status": "unbounded below",
+      "dual_value": null,
+      "global_minimum_certificate": false,
+      "nu": -3.1492898066182637,
+      "objective": 4.64728273748022,
+      "shifted_hessian_eigenvalues": [
+        -12.298579613236527,
+        -4.2985796132365275,
+        -2.2985796132365275
+      ],
+      "sphere_residual": 3.552713678800501e-15,
+      "stationarity_residual": 2.220446049250313e-16,
+      "tangent_hessian_eigenvalues": [
+        -12.048118449639151,
+        -3.8516345283464895
+      ],
+      "x": [
+        0.16262040519276474,
+        0.46526996821029937,
+        0.8701025574589035
+      ]
+    },
+    {
+      "classification": "saddle",
+      "dual_status": "unbounded below",
+      "dual_value": null,
+      "global_minimum_certificate": false,
+      "nu": 0.22350899648281694,
+      "objective": -1.130403062036431,
+      "shifted_hessian_eigenvalues": [
+        -5.552982007034366,
+        2.447017992965634,
+        4.447017992965634
+      ],
+      "sphere_residual": 2.220446049250313e-16,
+      "stationarity_residual": 0.0,
+      "tangent_hessian_eigenvalues": [
+        -4.4658802781957725,
+        3.9931461259854464
+      ],
+      "x": [
+        0.3601668432324208,
+        -0.8173213297774423,
+        -0.44973957900859246
+      ]
+    },
+    {
+      "classification": "strict local minimum",
+      "dual_status": "unbounded below",
+      "dual_value": null,
+      "global_minimum_certificate": false,
+      "nu": 1.8918989841754243,
+      "objective": -1.5921917045034912,
+      "shifted_hessian_eigenvalues": [
+        -2.2162020316491513,
+        5.783797968350848,
+        7.783797968350848
+      ],
+      "sphere_residual": 4.440892098500626e-16,
+      "stationarity_residual": 2.220446049250313e-16,
+      "tangent_hessian_eigenvalues": [
+        4.579021846621645,
+        7.371786617774767
+      ],
+      "x": [
+        0.9024448003559188,
+        -0.3457935444744219,
+        -0.2569439762095649
+      ]
+    },
+    {
+      "classification": "strict local minimum",
+      "dual_status": "finite",
+      "dual_value": -5.365493342948376,
+      "global_minimum_certificate": true,
+      "nu": 4.035225946182602,
+      "objective": -5.365493342948376,
+      "shifted_hessian_eigenvalues": [
+        2.070451892365204,
+        10.070451892365204,
+        12.070451892365204
+      ],
+      "sphere_residual": 0.0,
+      "stationarity_residual": 0.0,
+      "tangent_hessian_eigenvalues": [
+        9.713316695730219,
+        11.837504187833845
+      ],
+      "x": [
+        -0.9659726977356993,
+        -0.1986008196430864,
+        -0.1656938793869879
+      ]
+    }
+  ],
+  "poles": [
+    -2.0,
+    -1.0,
+    3.0
+  ],
+  "poles_stationarity_consistent": false,
+  "polynomial_coefficients_ascending": [
+    -13.0,
+    48.0,
+    49.0,
+    -12.0,
+    -17.0,
+    0.0,
+    1.0
+  ],
+  "polynomial_root_error": 4.884981308350689e-15,
+  "reference": {
+    "X": [
+      [
+        0.9330795641427276,
+        0.19187814891788108,
+        0.16007770349845354
+      ],
+      [
+        0.19187814891788108,
+        0.03945775179556748,
+        0.03291832037249917
+      ],
+      [
+        0.16007770349845354,
+        0.03291832037249917,
+        0.027462684061704858
+      ]
+    ],
+    "attempts": [
+      {
+        "solver": "CLARABEL",
+        "status": "optimal"
+      }
+    ],
+    "formulation": "lifted semidefinite relaxation",
+    "objective": -5.365493331735102,
+    "objective_error": 1.1213273864996154e-08,
+    "point_error": 4.777218668503862e-05,
+    "psd_violation": 3.770317596384656e-09,
+    "rank_one_residual": 1.3125799079100185e-08,
+    "solver": "CLARABEL",
+    "status": "optimal",
+    "trace_residual": 1.1102230246251565e-16,
+    "x": [
+      -0.9659604310788286,
+      -0.19863975524905353,
+      -0.16571869328506658
+    ]
+  },
+  "scope": "optional numerical illustration",
+  "seed": 0
+}

@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Convex Optimization exercise inventory",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "source",
+    "audit_status",
+    "exercises"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "source": {
+      "type": [
+        "string",
+        "object"
+      ]
+    },
+    "audit_status": {
+      "enum": [
+        "in_progress",
+        "complete"
+      ]
+    },
+    "exercises": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "chapter",
+          "title",
+          "scope",
+          "status",
+          "source_page",
+          "computational_basis",
+          "task_summary",
+          "inputs",
+          "dependencies",
+          "deliverables",
+          "validation"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[1-9][0-9]*\\.[1-9][0-9]*[a-z]?$"
+          },
+          "chapter": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "enum": [
+              "required",
+              "optional"
+            ]
+          },
+          "status": {
+            "enum": [
+              "pending",
+              "implemented",
+              "verified",
+              "blocked",
+              "not_applicable"
+            ]
+          },
+          "source_url": {
+            "type": "string"
+          },
+          "source_page": {
+            "type": [
+              "integer",
+              "array",
+              "string"
+            ]
+          },
+          "source_pdf_page": {
+            "type": [
+              "integer",
+              "array",
+              "string"
+            ]
+          },
+          "computational_basis": {
+            "type": "string"
+          },
+          "task_summary": {
+            "type": [
+              "string",
+              "array"
+            ]
+          },
+          "inputs": {
+            "type": [
+              "array",
+              "object",
+              "string"
+            ]
+          },
+          "dependencies": {
+            "type": "array"
+          },
+          "deliverables": {
+            "type": [
+              "array",
+              "object",
+              "string"
+            ]
+          },
+          "validation": {
+            "type": [
+              "array",
+              "object",
+              "string"
+            ]
+          },
+          "selected_for_implementation": {
+            "type": "boolean"
+          }
+        }
+      }
+    }
+  }
+}

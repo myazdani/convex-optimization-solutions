@@ -1,0 +1,105 @@
+{
+  "duration_seconds": 0.38561232100005327,
+  "environment": {
+    "available_solvers": [
+      "CLARABEL",
+      "SCS",
+      "SCIPY",
+      "HIGHS",
+      "OSQP"
+    ],
+    "packages": {
+      "clarabel": "0.11.1",
+      "cvxpy": "1.9.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.3.5",
+      "osqp": "1.1.3",
+      "scipy": "1.17.0",
+      "scs": "3.3.1"
+    },
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": null,
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  },
+  "executed_at": "2026-10-10T02:35:14.978036+00:00",
+  "exercise_id": "10.14",
+  "inventory_sha256": "8884c5edeb027c0d4b6da40b2254d7895991846ccf5bd864e60e67b994217a06",
+  "results": {
+    "exercise": "10.14",
+    "growth_rate": 0.06227157949654021,
+    "newton": {
+      "backtracks": [
+        0,
+        0,
+        0
+      ],
+      "dual_residuals": [
+        0.07223008802721131,
+        0.002097187142906436,
+        1.0467763306176011e-06,
+        3.3844954301998126e-12
+      ],
+      "iterations": 3,
+      "multiplier": [
+        1.0
+      ],
+      "objective": -0.06227157949654021,
+      "objectives": [
+        -0.05511754946800082,
+        -0.062264408671302104,
+        -0.06227157949160573,
+        -0.06227157949654021
+      ],
+      "primal_residuals": [
+        0.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0
+      ],
+      "residuals": [
+        0.07223008802721131,
+        0.002097187142906436,
+        1.0467763306176011e-06,
+        3.3844954301998126e-12
+      ],
+      "step_lengths": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "x": [
+        0.49725104853768126,
+        0.19936802213791205,
+        0.30338092932440686
+      ]
+    },
+    "plots": [
+      "10_14_newton.png"
+    ],
+    "reference": {
+      "objective": -0.06227157948149185,
+      "objective_error": 1.5048365331615798e-11,
+      "point_error": 4.831515484778755e-06,
+      "solver": "CVXPY/CLARABEL",
+      "status": "optimal",
+      "x": [
+        0.49725245916704125,
+        0.19937050732633851,
+        0.3033770334926377
+      ]
+    },
+    "scenario_returns": [
+      1.557061455179055,
+      1.3975670374687255,
+      0.8111848823725332,
+      0.6516904646622035
+    ],
+    "seed": 0
+  },
+  "seed": 0,
+  "source_tree_sha256": "660d8ae1eef35d77906e13b576567906ade2e8a52ea9f5cb508c9685f4fe924b"
+}

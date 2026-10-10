@@ -1,0 +1,36 @@
+{
+  "audit_status": "complete",
+  "required_count": 11,
+  "status_counts": {
+    "blocked": 0,
+    "implemented": 0,
+    "not_applicable": 0,
+    "pending": 55,
+    "verified": 16
+  },
+  "implemented_ids": [
+    "4.3",
+    "5.29",
+    "5.33",
+    "5.34",
+    "9.10",
+    "9.30",
+    "9.31",
+    "9.32",
+    "10.14",
+    "10.15",
+    "10.16",
+    "11.1",
+    "11.21",
+    "11.22",
+    "11.23",
+    "11.24"
+  ],
+  "missing_required": [],
+  "selected_count": 16,
+  "missing_selected": [],
+  "required_complete": true,
+  "selected_complete": true,
+  "issues": [],
+  "complete": true
+}

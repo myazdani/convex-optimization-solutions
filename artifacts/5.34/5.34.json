@@ -1,0 +1,478 @@
+{
+  "active_determinant": 8029,
+  "active_rows_one_based": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "checks": [
+    {
+      "analytic": {
+        "complementarity_residual": 0.0,
+        "dual_objective": 2.25,
+        "dual_unique": true,
+        "dual_violation": 0.0,
+        "duality_gap": 0.0,
+        "epsilon": -0.5,
+        "formula_value": 2.25,
+        "objective": 2.25,
+        "primal_unique": false,
+        "primal_violation": 0.0,
+        "slack": [
+          1.5,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stationarity_residual": 0.0,
+        "x": [
+          1.0,
+          0.5,
+          0.0,
+          1.5
+        ],
+        "z": [
+          0.0,
+          2.5,
+          0.0,
+          2.0,
+          1.0
+        ]
+      },
+      "dual_point_error": 8.308148362110449e-16,
+      "objective_error": 7.105427357601002e-15,
+      "primal_point_error": 3.3306690738754696e-16,
+      "reference": {
+        "complementarity_residual": 9.565974336450908e-15,
+        "dual_objective": 2.249999999999984,
+        "dual_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "dual_violation": 0.0,
+        "objective": 2.250000000000007,
+        "primal_dual_gap": 2.3092638912203256e-14,
+        "primal_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "primal_violation": 1.7763568394002505e-15,
+        "solver": "SciPy/HiGHS",
+        "stationarity_residual": 1.0048591735576161e-14,
+        "x": [
+          1.0000000000000002,
+          0.5000000000000001,
+          -0.0,
+          1.4999999999999998
+        ],
+        "z": [
+          0.0,
+          2.5000000000000004,
+          -0.0,
+          1.9999999999999998,
+          0.9999999999999993
+        ]
+      }
+    },
+    {
+      "analytic": {
+        "complementarity_residual": 0.0,
+        "dual_objective": -20.4375,
+        "dual_unique": true,
+        "dual_violation": 0.0,
+        "duality_gap": 0.0,
+        "epsilon": -0.25,
+        "formula_value": -20.4375,
+        "objective": -20.4375,
+        "primal_unique": true,
+        "primal_violation": 0.0,
+        "slack": [
+          1.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stationarity_residual": 0.0,
+        "x": [
+          1.0,
+          0.75,
+          0.5,
+          1.25
+        ],
+        "z": [
+          0.0,
+          2.25,
+          0.5,
+          2.0,
+          1.5
+        ]
+      },
+      "dual_point_error": 3.352800008858181e-15,
+      "objective_error": 0.0,
+      "primal_point_error": 2.482534153247273e-16,
+      "reference": {
+        "complementarity_residual": 1.1102230246251634e-16,
+        "dual_objective": -20.437499999999993,
+        "dual_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "dual_violation": 0.0,
+        "objective": -20.4375,
+        "primal_dual_gap": 7.105427357601002e-15,
+        "primal_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "primal_violation": 0.0,
+        "solver": "SciPy/HiGHS",
+        "stationarity_residual": 7.944109290391274e-15,
+        "x": [
+          1.0,
+          0.7500000000000001,
+          0.5,
+          1.2499999999999998
+        ],
+        "z": [
+          0.0,
+          2.25,
+          0.5000000000000031,
+          2.000000000000001,
+          1.5000000000000009
+        ]
+      }
+    },
+    {
+      "analytic": {
+        "complementarity_residual": 0.0,
+        "dual_objective": -40.0,
+        "dual_unique": true,
+        "dual_violation": 0.0,
+        "duality_gap": 0.0,
+        "epsilon": 0.0,
+        "formula_value": -40.0,
+        "objective": -40.0,
+        "primal_unique": true,
+        "primal_violation": 0.0,
+        "slack": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stationarity_residual": 0.0,
+        "x": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "z": [
+          0.0,
+          2.0,
+          1.0,
+          2.0,
+          2.0
+        ]
+      },
+      "dual_point_error": 1.0877919644084146e-15,
+      "objective_error": 7.105427357601002e-15,
+      "primal_point_error": 5.087681048627601e-16,
+      "reference": {
+        "complementarity_residual": 0.0,
+        "dual_objective": -40.0,
+        "dual_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "dual_violation": 0.0,
+        "objective": -39.99999999999999,
+        "primal_dual_gap": 7.105427357601002e-15,
+        "primal_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "primal_violation": 0.0,
+        "solver": "SciPy/HiGHS",
+        "stationarity_residual": 7.944109290391274e-15,
+        "x": [
+          0.9999999999999999,
+          0.9999999999999996,
+          1.0,
+          1.0000000000000002
+        ],
+        "z": [
+          0.0,
+          2.0,
+          1.0000000000000009,
+          2.0000000000000004,
+          2.0000000000000004
+        ]
+      }
+    },
+    {
+      "analytic": {
+        "complementarity_residual": 0.0,
+        "dual_objective": -56.4375,
+        "dual_unique": true,
+        "dual_violation": 0.0,
+        "duality_gap": 0.0,
+        "epsilon": 0.25,
+        "formula_value": -56.4375,
+        "objective": -56.4375,
+        "primal_unique": true,
+        "primal_violation": 0.0,
+        "slack": [
+          0.75,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stationarity_residual": 0.0,
+        "x": [
+          1.0,
+          1.25,
+          1.5,
+          0.75
+        ],
+        "z": [
+          0.0,
+          1.75,
+          1.5,
+          2.0,
+          2.5
+        ]
+      },
+      "dual_point_error": 1.616509124176106e-15,
+      "objective_error": 7.105427357601002e-15,
+      "primal_point_error": 1.7235296186091125e-15,
+      "reference": {
+        "complementarity_residual": 2.6645352591003785e-15,
+        "dual_objective": -56.4375,
+        "dual_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "dual_violation": 0.0,
+        "objective": -56.43749999999999,
+        "primal_dual_gap": 7.105427357601002e-15,
+        "primal_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "primal_violation": 0.0,
+        "solver": "SciPy/HiGHS",
+        "stationarity_residual": 0.0,
+        "x": [
+          0.9999999999999994,
+          1.2499999999999984,
+          1.5000000000000002,
+          0.7500000000000004
+        ],
+        "z": [
+          0.0,
+          1.75,
+          1.5000000000000016,
+          2.0000000000000004,
+          2.5
+        ]
+      }
+    },
+    {
+      "analytic": {
+        "complementarity_residual": 0.0,
+        "dual_objective": -79.9375,
+        "dual_unique": true,
+        "dual_violation": 0.0,
+        "duality_gap": 0.0,
+        "epsilon": 0.75,
+        "formula_value": -79.9375,
+        "objective": -79.9375,
+        "primal_unique": true,
+        "primal_violation": 0.0,
+        "slack": [
+          0.25,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stationarity_residual": 0.0,
+        "x": [
+          1.0,
+          1.75,
+          2.5,
+          0.25
+        ],
+        "z": [
+          0.0,
+          1.25,
+          2.5,
+          2.0,
+          3.5
+        ]
+      },
+      "dual_point_error": 1.6616296724220897e-15,
+      "objective_error": 1.4210854715202004e-14,
+      "primal_point_error": 1.431499025786612e-15,
+      "reference": {
+        "complementarity_residual": 4.440892098500626e-15,
+        "dual_objective": -79.9375,
+        "dual_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "dual_violation": 0.0,
+        "objective": -79.93749999999999,
+        "primal_dual_gap": 1.4210854715202004e-14,
+        "primal_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "primal_violation": 0.0,
+        "solver": "SciPy/HiGHS",
+        "stationarity_residual": 1.0048591735576161e-14,
+        "x": [
+          0.9999999999999996,
+          1.7499999999999987,
+          2.5,
+          0.2500000000000003
+        ],
+        "z": [
+          0.0,
+          1.25,
+          2.5000000000000013,
+          2.0000000000000004,
+          3.500000000000001
+        ]
+      }
+    },
+    {
+      "analytic": {
+        "complementarity_residual": 0.0,
+        "dual_objective": -87.0,
+        "dual_unique": false,
+        "dual_violation": 0.0,
+        "duality_gap": 0.0,
+        "epsilon": 1.0,
+        "formula_value": -87.0,
+        "objective": -87.0,
+        "primal_unique": true,
+        "primal_violation": 0.0,
+        "slack": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stationarity_residual": 0.0,
+        "x": [
+          1.0,
+          2.0,
+          3.0,
+          0.0
+        ],
+        "z": [
+          0.0,
+          1.0,
+          3.0,
+          2.0,
+          4.0
+        ]
+      },
+      "dual_point_error": 3.149684436393234,
+      "objective_error": 0.0,
+      "primal_point_error": 4.965068306494546e-16,
+      "reference": {
+        "complementarity_residual": 4.154557422273754e-15,
+        "dual_objective": -87.00000000000001,
+        "dual_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "dual_violation": 0.0,
+        "objective": -87.0,
+        "primal_dual_gap": 1.4210854715202004e-14,
+        "primal_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "primal_violation": 7.105427357601002e-15,
+        "solver": "SciPy/HiGHS",
+        "stationarity_residual": 7.944109290391274e-15,
+        "x": [
+          1.0000000000000002,
+          2.0000000000000004,
+          3.0,
+          -0.0
+        ],
+        "z": [
+          0.39294919899507363,
+          0.8659499494273873,
+          0.0,
+          1.2413129302750499,
+          3.5846357140526606
+        ]
+      }
+    }
+  ],
+  "exercise": "5.34",
+  "first_order_sensitivity_at_zero": -72.0,
+  "free_variable_check": {
+    "epsilon": 1.1,
+    "purpose": "free-variable regression; outside the affine-basis interval",
+    "reference": {
+      "complementarity_residual": 2.7906105925690708e-15,
+      "dual_objective": -88.90808541877387,
+      "dual_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "dual_violation": 0.0,
+      "objective": -88.9080854187739,
+      "primal_dual_gap": 2.842170943040401e-14,
+      "primal_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+      "primal_violation": 3.552713678800501e-15,
+      "solver": "SciPy/HiGHS",
+      "stationarity_residual": 3.552713678800501e-15,
+      "x": [
+        0.9959427713791643,
+        2.090402623250351,
+        3.201995171131196,
+        -0.09707005122516271
+      ],
+      "z": [
+        0.41914581226141184,
+        0.7570132793892129,
+        0.0,
+        1.1907337922933865,
+        3.7569447616561717
+      ]
+    }
+  },
+  "interval": [
+    -0.5,
+    1.0
+  ],
+  "interval_exact": [
+    "-1/2",
+    "1"
+  ],
+  "plots": [
+    "5_34_sensitivity.png"
+  ],
+  "scope": "optional numerical illustration",
+  "seed": 0,
+  "slack_intercept": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "slack_slope": [
+    -1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "value_coefficients_ascending": [
+    -40,
+    -72,
+    25
+  ],
+  "x_intercept": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "x_slope": [
+    0.0,
+    1.0,
+    2.0,
+    -1.0
+  ],
+  "z_intercept": [
+    0.0,
+    2.0,
+    1.0,
+    2.0,
+    2.0
+  ],
+  "z_slope": [
+    0.0,
+    -1.0,
+    2.0,
+    0.0,
+    2.0
+  ]
+}

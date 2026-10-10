@@ -1,0 +1,2720 @@
+{
+  "schema_version": 1,
+  "source": {
+    "title": "Convex Optimization",
+    "authors": [
+      "Stephen Boyd",
+      "Lieven Vandenberghe"
+    ],
+    "official_page": "https://web.stanford.edu/~boyd/cvxbook/",
+    "pdf_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+    "downloaded_utc_date": "2026-10-10",
+    "pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "edition_note": "2004; seventh printing with corrections 2009, as identified in the downloaded PDF",
+    "supplemental_exercises_included": false,
+    "worked_examples_included": false
+  },
+  "audit_status": "complete",
+  "scope_definition": {
+    "required": "Exercises explicitly requiring a numerical algorithm run, implementation, generated-instance testing, or numerical experimentation.",
+    "optional": "Explicit visual deliverables, concrete-data analytical fixtures, and algorithm/complexity derivations that are reasonable numerical extensions; these are not required machine exercises. Optional entries are a conservative borderline catalogue, not a claim that all other mathematical problems lack numerical applications.",
+    "excluded": "Pure proofs and abstract reformulations without an explicit computational/graphical task; separate additional exercises; reproducing worked examples.",
+    "selected_delivery": "All 11 strictly required exercises plus planned extras 4.3, 5.29, 5.33, 5.34, and 11.1; sixteen selected modules total."
+  },
+  "chapter_audit": {
+    "2": {
+      "status": "complete",
+      "exercise_count": 39,
+      "exercise_range": "2.1-2.39",
+      "printed_pages": [
+        60,
+        66
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "2.7",
+        "2.25",
+        "2.29",
+        "2.37"
+      ]
+    },
+    "3": {
+      "status": "complete",
+      "exercise_count": 60,
+      "exercise_range": "3.1-3.60",
+      "printed_pages": [
+        113,
+        125
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "3.1",
+        "3.34",
+        "3.38"
+      ]
+    },
+    "4": {
+      "status": "complete",
+      "exercise_count": 65,
+      "exercise_range": "4.1-4.65",
+      "printed_pages": [
+        189,
+        213
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "4.1",
+        "4.3",
+        "4.22",
+        "4.48",
+        "4.63"
+      ]
+    },
+    "5": {
+      "status": "complete",
+      "exercise_count": 44,
+      "exercise_range": "5.1-5.44",
+      "printed_pages": [
+        273,
+        287
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "5.1",
+        "5.14",
+        "5.15",
+        "5.16",
+        "5.21",
+        "5.22",
+        "5.23",
+        "5.26",
+        "5.29",
+        "5.33",
+        "5.34",
+        "5.44"
+      ]
+    },
+    "6": {
+      "status": "complete",
+      "exercise_count": 14,
+      "exercise_range": "6.1-6.14",
+      "printed_pages": [
+        344,
+        349
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "6.4",
+        "6.7"
+      ]
+    },
+    "7": {
+      "status": "complete",
+      "exercise_count": 13,
+      "exercise_range": "7.1-7.13",
+      "printed_pages": [
+        393,
+        396
+      ],
+      "required_ids": [],
+      "optional_ids": []
+    },
+    "8": {
+      "status": "complete",
+      "exercise_count": 30,
+      "exercise_range": "8.1-8.30",
+      "printed_pages": [
+        447,
+        453
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "8.3",
+        "8.26",
+        "8.27"
+      ]
+    },
+    "9": {
+      "status": "complete",
+      "exercise_count": 32,
+      "exercise_range": "9.1-9.32",
+      "printed_pages": [
+        514,
+        520
+      ],
+      "required_ids": [
+        "9.10",
+        "9.30",
+        "9.31",
+        "9.32"
+      ],
+      "optional_ids": [
+        "9.2",
+        "9.3",
+        "9.6",
+        "9.8",
+        "9.11",
+        "9.12",
+        "9.21",
+        "9.23",
+        "9.24",
+        "9.25",
+        "9.26",
+        "9.27",
+        "9.28",
+        "9.29"
+      ]
+    },
+    "10": {
+      "status": "complete",
+      "exercise_count": 16,
+      "exercise_range": "10.1-10.16",
+      "printed_pages": [
+        557,
+        560
+      ],
+      "required_ids": [
+        "10.14",
+        "10.15",
+        "10.16"
+      ],
+      "optional_ids": [
+        "10.2",
+        "10.3",
+        "10.9",
+        "10.11",
+        "10.12",
+        "10.13"
+      ]
+    },
+    "11": {
+      "status": "complete",
+      "exercise_count": 24,
+      "exercise_range": "11.1-11.24",
+      "printed_pages": [
+        623,
+        630
+      ],
+      "required_ids": [
+        "11.21",
+        "11.22",
+        "11.23",
+        "11.24"
+      ],
+      "optional_ids": [
+        "11.1",
+        "11.2",
+        "11.5",
+        "11.6",
+        "11.7",
+        "11.8",
+        "11.10",
+        "11.11",
+        "11.12",
+        "11.19",
+        "11.20"
+      ]
+    }
+  },
+  "exercises": [
+    {
+      "id": "2.7",
+      "chapter": 2,
+      "title": "Bisector halfspace picture",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "source_page": 60,
+      "source_pdf_page": 74,
+      "computational_basis": "Visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Illustrate the region closer to one of two points."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose two distinct planar points."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "2.25",
+      "chapter": 2,
+      "title": "Polyhedral containment picture",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "source_page": 63,
+      "source_pdf_page": 77,
+      "computational_basis": "Visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Show boundary-point inner and supporting-plane outer approximations."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose a convex planar set and supporting points/normals."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "2.29",
+      "chapter": 2,
+      "title": "Cone and generalized-order pictures",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
+      "source_page": 64,
+      "source_pdf_page": 78,
+      "computational_basis": "Visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Illustrate the cone/dual relation and cone-induced inequality."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose a closed convex planar cone; use a proper cone for the order."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "2.37",
+      "chapter": 2,
+      "title": "Moment-cone closure pathology",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79",
+      "source_page": 65,
+      "source_pdf_page": 79,
+      "computational_basis": "Concrete-data boundary case; no numerical execution is required by the book.",
+      "task_summary": [
+        "Distinguish PSD moment-matrix membership from moment-cone membership."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Part(e): k=2; z=(1,0,0,0,1); construct an approximating sequence."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "3.1",
+      "chapter": 3,
+      "title": "Secant slope picture",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
+      "source_page": 113,
+      "source_pdf_page": 127,
+      "computational_basis": "Visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Draw the three ordered secant slopes of a convex function."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose a convex scalar function and a<x<b; relevant subpart (b)."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "3.34",
+      "chapter": 3,
+      "title": "Minkowski functional geometry",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "source_page": 119,
+      "source_pdf_page": 133,
+      "computational_basis": "Visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Explain radial rescaling into a convex set geometrically."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose an appropriate convex set and point; relevant subpart (a)."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "3.38",
+      "chapter": 3,
+      "title": "Young inequality geometry",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "source_page": 120,
+      "source_pdf_page": 134,
+      "computational_basis": "Visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Illustrate complementary areas for a monotone function and inverse."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose increasing f with f(0)=0 and sample x,y."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "4.1",
+      "chapter": 4,
+      "title": "Planar objective comparisons",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "source_page": 189,
+      "source_pdf_page": 203,
+      "computational_basis": "Concrete-data visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Sketch the feasible region and analyze five objectives."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "2*x1+x2>=1; x1+3*x2>=1; x>=0; objectives sum(x), -sum(x), x1, max(x), x1**2+9*x2**2."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "4.3",
+      "chapter": 4,
+      "title": "Box-QP optimality certificate",
+      "scope": "optional",
+      "status": "verified",
+      "planned_extra": true,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "source_page": 189,
+      "source_pdf_page": 203,
+      "computational_basis": "Concrete numerical data; source requests proof, not machine execution.",
+      "task_summary": [
+        "Certify the supplied box-QP optimizer analytically, then use a numerical solve as an independent regression check."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "P": [
+            [
+              13,
+              12,
+              -2
+            ],
+            [
+              12,
+              17,
+              6
+            ],
+            [
+              -2,
+              6,
+              12
+            ]
+          ],
+          "q": [
+            -22,
+            -14.5,
+            13
+          ],
+          "r": 1,
+          "lower": [
+            -1,
+            -1,
+            -1
+          ],
+          "upper": [
+            1,
+            1,
+            1
+          ],
+          "candidate": [
+            1,
+            0.5,
+            -1
+          ]
+        }
+      },
+      "dependencies": [],
+      "deliverables": [
+        "An original derivation plus an explicitly labeled numerical illustration, if implemented."
+      ],
+      "validation": [
+        "Check positive definiteness/convexity",
+        "Give box-normal-cone or nonnegative-multiplier KKT certificate",
+        "Compute objective and independent solver agreement",
+        "Establish uniqueness from strict convexity"
+      ],
+      "notes": [],
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/4.3/results.json",
+        "notes": "docs/solutions/4.3.md"
+      }
+    },
+    {
+      "id": "4.22",
+      "chapter": 4,
+      "title": "Trust-region secular equation",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "source_page": 197,
+      "source_pdf_page": 211,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive a scalar-root route to the positive-definite ball-constrained QP."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose P positive definite, q,r; unit-ball constraint."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "4.48",
+      "chapter": 4,
+      "title": "Generalized-eigenvalue search",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "source_page": 204,
+      "source_pdf_page": 218,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Describe convex feasibility search and the scalar-denominator specialization."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose affine symmetric A and B with positive-definite feasible denominator and finite search bounds."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "4.63",
+      "chapter": 4,
+      "title": "Manufacturing cost-yield search",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
+      "source_page": 211,
+      "source_pdf_page": 225,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Explain a one-dimensional outer search using convex inner problems."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose log-concave yield, costs, constraints, and search range; no numerical manufacturing model supplied."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.1",
+      "chapter": 5,
+      "title": "Scalar duality and sensitivity pictures",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "source_page": 273,
+      "source_pdf_page": 287,
+      "computational_basis": "Concrete-data visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive and visualize the objective, Lagrangian, dual, and perturbed value."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Objective x**2+1; constraint (x-2)*(x-4)<=0; subparts (b,d)."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.14",
+      "chapter": 5,
+      "title": "Equality-penalty dual certificate",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "source_page": 277,
+      "source_pdf_page": 291,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Recover a dual point and lower bound from a penalty minimizer."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose convex objective, A,b, penalty coefficient, and auxiliary minimizer."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.15",
+      "chapter": 5,
+      "title": "General inequality penalty certificate",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "source_page": 277,
+      "source_pdf_page": 291,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Analyze dual certificates for smooth inequality penalties."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose convex functions, suitable penalty, and auxiliary minimizer."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.16",
+      "chapter": 5,
+      "title": "Exact inequality penalty",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "source_page": 277,
+      "source_pdf_page": 291,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Analyze the maximum-violation penalty and threshold behavior."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose convex functions and penalty coefficient."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.21",
+      "chapter": 5,
+      "title": "Failure of strong duality",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "source_page": 280,
+      "source_pdf_page": 294,
+      "computational_basis": "Concrete-data boundary case; no numerical execution is required by the book.",
+      "task_summary": [
+        "Explain the duality gap and discontinuous perturbation behavior."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Min exp(-x), x**2/y<=0, y>0; then perturb RHS."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.22",
+      "chapter": 5,
+      "title": "Perturbation-set geometry",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "source_page": 280,
+      "source_pdf_page": 294,
+      "computational_basis": "Concrete-data visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Analyze six scalar primal/dual examples and sketch their attainable sets."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Six exact scalar cases in source; use analytic boundaries."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.23",
+      "chapter": 5,
+      "title": "Primal and dual infeasibility",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "source_page": 280,
+      "source_pdf_page": 294,
+      "computational_basis": "Concrete-data boundary case; no numerical execution is required by the book.",
+      "task_summary": [
+        "Optionally demonstrate the infeasible scalar LP in part(c)."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Objective x; constraints 0*x<=-1 and x<=1."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.26",
+      "chapter": 5,
+      "title": "Tangent-disk degeneracy",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "source_page": 282,
+      "source_pdf_page": 296,
+      "computational_basis": "Concrete-data visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Explain the singleton feasible set and multiplier pathology."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Two unit disks centered at (1,1) and (1,-1); source objective and subparts."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "5.29",
+      "chapter": 5,
+      "title": "Nonconvex sphere-QP stationary points",
+      "scope": "optional",
+      "status": "verified",
+      "planned_extra": true,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "source_page": 282,
+      "source_pdf_page": 296,
+      "computational_basis": "Concrete numerical data; source requests every KKT solution and the global optimum.",
+      "task_summary": [
+        "Enumerate every stationary point/multiplier pair of the sphere-constrained quadratic and identify the global optimum with a certificate."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "quadratic_diagonal": [
+            -3,
+            1,
+            2
+          ],
+          "linear": [
+            2,
+            2,
+            2
+          ],
+          "radius": 1,
+          "constraint": "sum(x**2)=1",
+          "lagrangian_convention": "f(x)+nu*(sum(x**2)-1)"
+        }
+      },
+      "dependencies": [],
+      "deliverables": [
+        "An original derivation plus an explicitly labeled numerical illustration, if implemented."
+      ],
+      "validation": [
+        "Derive (diag([-3,1,2])+nu*I)@x=-ones",
+        "All real roots of sum(1/(diag+nu)**2)=1 must be found, including multiple roots inside pole-separated intervals",
+        "Check poles nu in {-2,-1,3}: stationarity is inconsistent because each linear coefficient is nonzero",
+        "Compare all stationary objectives; a local solver alone is insufficient",
+        "For the global solution show shifted Hessian PSD and matching dual value"
+      ],
+      "notes": [],
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/5.29/results.json",
+        "notes": "docs/solutions/5.29.md"
+      }
+    },
+    {
+      "id": "5.33",
+      "chapter": 5,
+      "title": "L1 fitting sensitivity certificate",
+      "scope": "optional",
+      "status": "verified",
+      "planned_extra": true,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "source_page": 283,
+      "source_pdf_page": 297,
+      "computational_basis": "Concrete numerical data; analytic optimality, uniqueness, and local sensitivity.",
+      "task_summary": [
+        "Certify x=ones at zero perturbation and derive a locally affine value function using an active-residual and dual certificate; verify by LP."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "A": [
+            [
+              -2,
+              7,
+              1
+            ],
+            [
+              -5,
+              -1,
+              3
+            ],
+            [
+              -7,
+              3,
+              -5
+            ],
+            [
+              -1,
+              4,
+              -4
+            ],
+            [
+              1,
+              5,
+              5
+            ],
+            [
+              2,
+              -5,
+              -1
+            ]
+          ],
+          "b": [
+            -4,
+            3,
+            9,
+            0,
+            -11,
+            5
+          ],
+          "d": [
+            -10,
+            -13,
+            -27,
+            -10,
+            -7,
+            14
+          ],
+          "objective": "norm(A@x+b+epsilon*d,1)",
+          "candidate": [
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "dependencies": [],
+      "deliverables": [
+        "An original derivation plus an explicitly labeled numerical illustration, if implemented."
+      ],
+      "validation": [
+        "Dual certificate s satisfies A.T@s=0 and abs(s)<=1; signs agree with nonzero residuals",
+        "Establish uniqueness with full-rank active residual rows and strict dual signs on zero residuals",
+        "Derive x(epsilon), p(epsilon), and a valid interval from residual sign inequalities",
+        "Check several interior points and endpoints using an LP; do not infer a formula from a numerical plot"
+      ],
+      "notes": [],
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/5.33/results.json",
+        "notes": "docs/solutions/5.33.md"
+      }
+    },
+    {
+      "id": "5.34",
+      "chapter": 5,
+      "title": "LP primal-dual sensitivity",
+      "scope": "optional",
+      "status": "verified",
+      "planned_extra": true,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=298",
+      "source_page": 284,
+      "source_pdf_page": 298,
+      "computational_basis": "Concrete numerical data; exact primal/dual formulas and perturbation interval.",
+      "task_summary": [
+        "Certify primal and dual optimality and uniqueness at zero, continue their active sets in epsilon, and derive the exact validity interval and value polynomial."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "A": [
+            [
+              -4,
+              12,
+              -2,
+              1
+            ],
+            [
+              -17,
+              12,
+              7,
+              11
+            ],
+            [
+              1,
+              0,
+              -6,
+              1
+            ],
+            [
+              3,
+              3,
+              22,
+              -1
+            ],
+            [
+              -11,
+              2,
+              -1,
+              -8
+            ]
+          ],
+          "b": [
+            8,
+            13,
+            -4,
+            27,
+            -18
+          ],
+          "f": [
+            6,
+            15,
+            -13,
+            48,
+            8
+          ],
+          "c": [
+            49,
+            -34,
+            -50,
+            -5
+          ],
+          "d": [
+            3,
+            8,
+            21,
+            25
+          ],
+          "primal": "min (c+epsilon*d).T@x s.t. A@x<=b+epsilon*f; x free",
+          "dual": "max -(b+epsilon*f).T@z s.t. A.T@z+c+epsilon*d=0; z>=0",
+          "candidate": [
+            1,
+            1,
+            1,
+            1
+          ]
+        }
+      },
+      "dependencies": [],
+      "deliverables": [
+        "An original derivation plus an explicitly labeled numerical illustration, if implemented."
+      ],
+      "validation": [
+        "Primal/dual feasibility, complementarity, equal objectives",
+        "Do not impose x>=0; the primal variables are free",
+        "Prove primal and dual uniqueness at epsilon=0",
+        "Intersect every primal slack and dual nonnegativity condition to obtain interval",
+        "The changing objective and RHS generally produce a quadratic value function",
+        "Check exact/rational formulas against independent LP solves"
+      ],
+      "notes": [],
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/5.34/results.json",
+        "notes": "docs/solutions/5.34.md"
+      }
+    },
+    {
+      "id": "5.44",
+      "chapter": 5,
+      "title": "SDP alternative-system pathology",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "source_page": 287,
+      "source_pdf_page": 301,
+      "computational_basis": "Concrete-data boundary case; no numerical execution is required by the book.",
+      "task_summary": [
+        "Explain why both stated semidefinite systems may be infeasible."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Part(b): G=[[0,1],[1,0]], F1=[[0,0],[0,1]]."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "6.4",
+      "chapter": 6,
+      "title": "Smooth L1 approximation certificate",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
+      "source_page": 345,
+      "source_pdf_page": 359,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive smooth fitting and a posteriori L1 suboptimality bounds."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose full-column-rank A,b and positive smoothing epsilon."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "6.7",
+      "chapter": 6,
+      "title": "SVD regularization trade-offs",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360",
+      "source_page": 346,
+      "source_pdf_page": 360,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive SVD-based computations for regularized and constrained residuals."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose A,b and trade-off parameters; no plot is required by source."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "8.3",
+      "chapter": 8,
+      "title": "Cone projection primitives",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "source_page": 447,
+      "source_pdf_page": 461,
+      "computational_basis": "Closed-form computational primitive; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive projection formulas for orthant, PSD, and second-order cones."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose a vector or symmetric matrix for optional numerical tests."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "8.26",
+      "chapter": 8,
+      "title": "Quadratic graph placement",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "source_page": 451,
+      "source_pdf_page": 465,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Reduce planar placement to two solves sharing a graph-derived matrix."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose graph, free/fixed partition, and fixed-node positions."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "8.27",
+      "chapter": 8,
+      "title": "Minimum-distance convex restriction",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
+      "source_page": 452,
+      "source_pdf_page": 466,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Explain convex restrictions and a direction-selection heuristic."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose objective, constraints, minimum distance, and approximate configuration."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.2",
+      "chapter": 9,
+      "title": "Quadratic-over-linear minimizer",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "source_page": 514,
+      "source_pdf_page": 528,
+      "computational_basis": "Closed-form computational primitive; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive the minimizer using linear solves and a scalar quadratic."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose A,b,c,d satisfying full column rank and b outside range(A)."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.3",
+      "chapter": 9,
+      "title": "Open-domain gradient pathology",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "source_page": 514,
+      "source_pdf_page": 528,
+      "computational_basis": "Concrete-data visualization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Analyze and illustrate the open sublevel set and gradient behavior."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "f=x1**2+x2**2 with x1>1; initial point (2,2)."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.6",
+      "chapter": 9,
+      "title": "Quadratic gradient iterates",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_page": 515,
+      "source_pdf_page": 529,
+      "computational_basis": "Algorithm verification by derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Verify the explicit iterates in the referenced two-dimensional example."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Use the symbolic example in section9.3.2; optionally choose its conditioning parameter."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.8",
+      "chapter": 9,
+      "title": "Infinity-norm steepest direction",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_page": 515,
+      "source_pdf_page": 529,
+      "computational_basis": "Closed-form computational primitive; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive the steepest direction for an infinity-norm trust ball."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose a differentiable convex objective and point."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.10",
+      "chapter": 9,
+      "title": "Undamped Newton behavior",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_page": 515,
+      "source_pdf_page": 529,
+      "computational_basis": "Explicit numerical iteration and plotting outside the numerical-experiments subsection.",
+      "task_summary": [
+        "Run undamped Newton iterations on the two specified scalar objectives and diagnose convergence, divergence, or domain failure."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "case_a": {
+            "objective": "log(exp(x)+exp(-x))",
+            "initial_values": [
+              1.0,
+              1.1
+            ]
+          },
+          "case_b": {
+            "objective": "-log(x)+x",
+            "initial_values": [
+              3.0
+            ]
+          }
+        },
+        "generated": null
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Objective and derivative plots with initial iterates",
+        "Iteration tables and failure/convergence explanations"
+      ],
+      "validation": [
+        "Compare derivatives against independent finite differences",
+        "For case a use stable logaddexp/tanh evaluation; clearly detect explosive steps",
+        "For case b do not evaluate log outside x>0; first proposed step is -3",
+        "Known minimizers: 0 for case a, 1 for case b"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/9.10/results.json",
+        "notes": "docs/solutions/9.10.md"
+      }
+    },
+    {
+      "id": "9.11",
+      "chapter": 9,
+      "title": "Composition effects on search steps",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_page": 515,
+      "source_pdf_page": 529,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Compare gradient/Newton directions before and after a scalar convex transformation."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose increasing convex transformation and twice-differentiable convex objective."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.12",
+      "chapter": 9,
+      "title": "Trust-region Newton regularization",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "source_page": 515,
+      "source_pdf_page": 529,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Relate the bounded Newton step to a regularized quadratic model."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose PSD Hessian, gradient, and positive radius."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.21",
+      "chapter": 9,
+      "title": "Line-search complexity parameters",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "source_page": 517,
+      "source_pdf_page": 531,
+      "computational_basis": "Scalar analytic optimization; no numerical execution is required by the book.",
+      "task_summary": [
+        "Optimize the stated Newton-iteration upper bound over line-search parameters."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Use equation9.56 and admissible alpha,beta."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.23",
+      "chapter": 9,
+      "title": "Line-search precomputation",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_page": 518,
+      "source_pdf_page": 532,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Compare direct and precomputed line-search evaluation costs for three function families."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose feasible instances for the log-barrier, log-sum-exp, and matrix-fractional cases."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.24",
+      "chapter": 9,
+      "title": "Block-diagonal Newton system",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_page": 518,
+      "source_pdf_page": 532,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive independent block solves and the function separability implication."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose a block-diagonal positive-definite Hessian and gradient."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.25",
+      "chapter": 9,
+      "title": "Structured smoothing Hessians",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_page": 518,
+      "source_pdf_page": 532,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive the one- and two-dimensional smoothing Hessian patterns."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose convex penalty, observations, and positive regularization weight."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.26",
+      "chapter": 9,
+      "title": "Sparse affine-composition Newton",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_page": 518,
+      "source_pdf_page": 532,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Describe a structured Newton solve when local affine maps are sparse but assembled Hessian is dense."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose sparse A_i, offsets, and convex twice-differentiable local losses."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.27",
+      "chapter": 9,
+      "title": "Bounded analytic-center Newton system",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "source_page": 518,
+      "source_pdf_page": 532,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive efficient Newton solves for the two relative dimension regimes."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose dense A,b with a strictly feasible point; related to9.30."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.28",
+      "chapter": 9,
+      "title": "Quadratic analytic-center Newton system",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "source_page": 519,
+      "source_pdf_page": 533,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive a structured Newton solve for sparse quadratic inequalities."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose sparse positive-definite A_i,b_i,c_i and interior point."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.29",
+      "chapter": 9,
+      "title": "Two-stage Newton structure",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "source_page": 519,
+      "source_pdf_page": 533,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Exploit scenario structure in a recourse problem and compare operation counts."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose a smooth two-stage model corresponding to4.64."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "9.30",
+      "chapter": 9,
+      "title": "Gradient versus Newton centering",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "source_page": 519,
+      "source_pdf_page": 533,
+      "computational_basis": "Numerical experiments subsection; both methods, parameter sweeps, and multiple dimensions are explicitly requested.",
+      "task_summary": [
+        "Implement gradient descent and Newton with domain-preserving backtracking for the analytic-centering objective.",
+        "Compare convergence across sizes and line-search settings."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "objective": "-sum(log(1-A@x))-sum(log(1-x**2))",
+          "initial_point": "zero vector",
+          "domain": "A@x < 1 and abs(x) < 1"
+        },
+        "generated": "Seeded random rows of A; several dimensions."
+      },
+      "dependencies": [
+        "9.27 (optional structured Newton derivation)"
+      ],
+      "deliverables": [
+        "Objective and step-length histories",
+        "Gradient method parameter study",
+        "Newton decrement stopping and quadratic-convergence evidence"
+      ],
+      "validation": [
+        "Check analytic gradient/Hessian by finite differences",
+        "All accepted iterates strictly feasible",
+        "Compare terminal objectives and independently computed reference",
+        "Track gradient norm, decrement, and termination reason"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/9.30/results.json",
+        "notes": "docs/solutions/9.30.md"
+      }
+    },
+    {
+      "id": "9.31",
+      "chapter": 9,
+      "title": "Approximate Newton centering",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "source_page": 519,
+      "source_pdf_page": 533,
+      "computational_basis": "Numerical experiments subsection; comparisons explicitly requested.",
+      "task_summary": [
+        "Compare cached-Hessian and diagonal-Hessian directions with the exact Newton and gradient baselines."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "problem": "same as 9.30",
+          "refresh_intervals": "integers greater than one"
+        },
+        "generated": "Reuse seeded instances from 9.30."
+      },
+      "dependencies": [
+        "9.30"
+      ],
+      "deliverables": [
+        "Convergence and work comparison across refresh intervals and diagonal approximation",
+        "Evaluation and factorization counts"
+      ],
+      "validation": [
+        "All methods reach the same optimum within declared tolerance",
+        "Check strict feasibility and descent of accepted iterates",
+        "Measure Hessian/factorization work separately from iterations"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/9.31/results.json",
+        "notes": "docs/solutions/9.31.md"
+      }
+    },
+    {
+      "id": "9.32",
+      "chapter": 9,
+      "title": "Gauss\u2013Newton for convex residuals",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=534",
+      "source_page": 520,
+      "source_pdf_page": 534,
+      "computational_basis": "Numerical experiments subsection; testing generated instances explicitly requested.",
+      "task_summary": [
+        "Implement Gauss\u2013Newton using a linear least-squares step and line search on the nonlinear residual objective."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "residual": "r_i(x)=0.5*x.T@A_i@x+b_i.T@x+1",
+          "conditions": "A_i positive definite; b_i.T@solve(A_i,b_i)<=2"
+        },
+        "generated": "Seeded SPD matrices and scaled linear terms satisfying the condition."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Instance-generation rationale",
+        "Convergence history and comparison with a Newton or independent optimum reference"
+      ],
+      "validation": [
+        "Verify residual nonnegativity condition",
+        "Finite-difference derivative checks",
+        "Check Jacobian rank before solving step",
+        "Report singular or stalled cases honestly; choose well-conditioned validation fixtures"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/9.32/results.json",
+        "notes": "docs/solutions/9.32.md"
+      }
+    },
+    {
+      "id": "10.2",
+      "chapter": 10,
+      "title": "Projected-gradient method",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "source_page": 557,
+      "source_pdf_page": 571,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive the projected direction and convergence conditions."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose smooth convex objective, full-row-rank A,b, feasible start."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "10.3",
+      "chapter": 10,
+      "title": "Dual Newton direction",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "source_page": 557,
+      "source_pdf_page": 571,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive a dual Newton step from primal curvature."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose equality-constrained strictly convex model satisfying source assumptions."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "10.9",
+      "chapter": 10,
+      "title": "Entropy Newton assumptions",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "source_page": 558,
+      "source_pdf_page": 572,
+      "computational_basis": "Algorithm analysis; no numerical execution is required by the book.",
+      "task_summary": [
+        "Analyze entropy existence, convergence assumptions, and the dual."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose full-row-rank A,b admitting a positive feasible point; numerics are assigned separately in10.15."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "10.11",
+      "chapter": 10,
+      "title": "Resource-allocation Newton cost",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "source_page": 559,
+      "source_pdf_page": 573,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Compare reduced, dual, and KKT Newton work using separability."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose strongly convex separable costs and scalar allocation budget."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "10.12",
+      "chapter": 10,
+      "title": "Trace-inverse Newton structure",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "source_page": 559,
+      "source_pdf_page": 573,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive efficient primal/dual Newton steps and operation counts."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose trace-equality data with an SPD feasible matrix."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "10.13",
+      "chapter": 10,
+      "title": "Saddle Newton block elimination",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "source_page": 559,
+      "source_pdf_page": 573,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Compare Cholesky-based elimination and generic indefinite factorization."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose strongly convex-concave Hessian blocks; include diagonal/block-diagonal variants."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "10.14",
+      "chapter": 10,
+      "title": "Log-growth portfolio Newton solve",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "source_page": 559,
+      "source_pdf_page": 573,
+      "computational_basis": "Numerical experiments subsection; an explicit Newton solve with supplied data.",
+      "task_summary": [
+        "Solve expected-log-growth allocation using equality-constrained Newton; permit short positions while requiring positive scenario wealth."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "scenario_rows": [
+            [
+              2,
+              1.3,
+              1
+            ],
+            [
+              2,
+              0.5,
+              1
+            ],
+            [
+              0.5,
+              1.3,
+              1
+            ],
+            [
+              0.5,
+              0.5,
+              1
+            ]
+          ],
+          "probabilities": [
+            0.3333333333333333,
+            0.16666666666666666,
+            0.3333333333333333,
+            0.16666666666666666
+          ],
+          "budget": "sum(x)=1",
+          "nonnegativity": "not imposed"
+        },
+        "generated": null
+      },
+      "dependencies": [
+        "4.60 (formulation)"
+      ],
+      "deliverables": [
+        "Allocation, growth objective, multiplier, residuals, Newton history"
+      ],
+      "validation": [
+        "Budget and strictly positive scenario wealth",
+        "Independent convex-model comparison",
+        "KKT stationarity",
+        "Allow short positions; do not impose nonnegativity or clip iterates"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/10.14/results.json",
+        "notes": "docs/solutions/10.14.md"
+      }
+    },
+    {
+      "id": "10.15",
+      "chapter": 10,
+      "title": "Three entropy Newton formulations",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=574",
+      "source_page": 560,
+      "source_pdf_page": 574,
+      "computational_basis": "Numerical experiments subsection; three formulations and multiple starts explicitly requested.",
+      "task_summary": [
+        "Implement feasible primal, infeasible-start primal-dual, and dual Newton for constrained negative entropy.",
+        "Compare solutions, equality multipliers, and linear-algebra cost."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "n": 100,
+          "p": 30,
+          "objective": "sum(x*log(x))",
+          "constraints": "A@x=b; x>0",
+          "starts": [
+            "feasible xhat",
+            "ones for infeasible-start method"
+          ]
+        },
+        "generated": "Full-row-rank random A, strictly positive xhat, b=A@xhat."
+      },
+      "dependencies": [
+        "10.9 (analysis)"
+      ],
+      "deliverables": [
+        "Feasible Newton run",
+        "Infeasible Newton runs from xhat and ones",
+        "Dual Newton run",
+        "Primal/multiplier agreement and per-step complexity discussion"
+      ],
+      "validation": [
+        "Rank(A)=30",
+        "Positive accepted primal iterates",
+        "Primal residual and stationarity",
+        "Same optimum and sign-consistent multipliers across all methods",
+        "Do not replace the requested n=100,p=30 run by only tiny tests"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/10.15/results.json",
+        "notes": "docs/solutions/10.15.md"
+      }
+    },
+    {
+      "id": "10.16",
+      "chapter": 10,
+      "title": "Newton saddle-point game",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=574",
+      "source_page": 560,
+      "source_pdf_page": 574,
+      "computational_basis": "Numerical experiments subsection; seeded games, histories, parameter/start experiments.",
+      "task_summary": [
+        "Solve the saddle-point stationarity system by residual-backtracking Newton on the two open unit balls."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "payoff": "u.T@A@v+b.T@u+c.T@v-log(1-u.T@u)+log(1-v.T@v)",
+          "domain": "norm(u)<1; norm(v)<1"
+        },
+        "generated": "Seeded random A,b,c; multiple valid starts and backtracking settings."
+      },
+      "dependencies": [
+        "Equation 10.32, printed p542"
+      ],
+      "deliverables": [
+        "Residual-norm and step-size plots",
+        "Line-search and initialization comparisons",
+        "Saddle point and payoff"
+      ],
+      "validation": [
+        "Gradient/Jacobian finite-difference checks",
+        "Both points stay inside unit balls",
+        "Terminal stationarity residual",
+        "Validate convexity in u and concavity in v; do not minimize the indefinite payoff jointly"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/10.16/results.json",
+        "notes": "docs/solutions/10.16.md"
+      }
+    },
+    {
+      "id": "11.1",
+      "chapter": 11,
+      "title": "Scalar barrier path visualization",
+      "scope": "optional",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "source_page": 623,
+      "source_pdf_page": 637,
+      "computational_basis": "Plot-only exercise; optional under the strict run/implement/test scope.",
+      "task_summary": [
+        "Visualize the constrained scalar objective and barrier objectives as the central point approaches the boundary optimum."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "objective": "x**2+1",
+          "constraints": "2<=x<=4"
+        },
+        "generated": "Several positive barrier multipliers."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Objective/barrier curves labeled with central points"
+      ],
+      "validation": [
+        "Central derivative residual",
+        "Central points lie in (2,4) and approach 2",
+        "Original optimum is 5"
+      ],
+      "notes": [],
+      "planned_extra": true,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/11.1/results.json",
+        "notes": "docs/solutions/11.1.md"
+      }
+    },
+    {
+      "id": "11.2",
+      "chapter": 11,
+      "title": "Unbounded centering subproblem",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "source_page": 623,
+      "source_pdf_page": 637,
+      "computational_basis": "Concrete-data boundary case; no numerical execution is required by the book.",
+      "task_summary": [
+        "Explain why the stated LP has no centering minimizer."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Min x2 with x1<=x2 and x2>=0."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.5",
+      "chapter": 11,
+      "title": "Scalar barrier for SOCP",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "source_page": 623,
+      "source_pdf_page": 637,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive the differentiable scalar reformulation, barrier, and gap bound."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose strictly feasible SOCP instance; assess possible boundary optimal points."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.6",
+      "chapter": 11,
+      "title": "General barrier families",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
+      "source_page": 624,
+      "source_pdf_page": 638,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Analyze generalized barriers and their dual certificates."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose smooth convex inequalities and an admissible barrier-generating function."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.7",
+      "chapter": 11,
+      "title": "Central-path tangent",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
+      "source_page": 624,
+      "source_pdf_page": 638,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive the parameter derivative and objective monotonicity."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose twice-differentiable problem with well-defined central path."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.8",
+      "chapter": 11,
+      "title": "Predictor-corrector centering",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
+      "source_page": 625,
+      "source_pdf_page": 639,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Compare the tangent predictor and Newton update."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Use a problem and central point from11.7; distinguish linear objectives."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.10",
+      "chapter": 11,
+      "title": "Alternative central-path parameter",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
+      "source_page": 626,
+      "source_pdf_page": 640,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Relate objective-level centering to barrier-parameter centering."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose convex objective/constraints and feasible objective-level parameter."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.11",
+      "chapter": 11,
+      "title": "Analytic-center method",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
+      "source_page": 626,
+      "source_pdf_page": 640,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Prove convergence and derive a certified stopping rule."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose strictly feasible point and objective upper bound."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.12",
+      "chapter": 11,
+      "title": "Barrier method for games",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "source_page": 627,
+      "source_pdf_page": 641,
+      "computational_basis": "Algorithm derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive the convex-concave barrier and saddle-gap certificate."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose constrained convex-concave game with strictly feasible strategies."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.19",
+      "chapter": 11,
+      "title": "Expanded barrier Newton system",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "source_page": 628,
+      "source_pdf_page": 642,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Show equivalence of expanded and condensed Newton systems and identify useful structure."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose derivatives/slacks/equality matrix from a feasible barrier iterate."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.20",
+      "chapter": 11,
+      "title": "Network-rate dual barrier",
+      "scope": "optional",
+      "status": "pending",
+      "planned_extra": false,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "source_page": 628,
+      "source_pdf_page": 642,
+      "computational_basis": "Implementation/complexity derivation; no numerical execution is required by the book.",
+      "task_summary": [
+        "Derive the dual barrier formulation and compare sparsity-sensitive cost."
+      ],
+      "inputs": {
+        "external_files": [],
+        "requirements": "Choose routing matrix, capacities, and strictly concave utilities satisfying source assumptions."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Analytic reasoning required by the source; optional reproducible illustration."
+      ],
+      "validation": [
+        "Illustration must agree with the analytic result and cannot substitute for proof."
+      ],
+      "notes": [],
+      "selected_for_implementation": false
+    },
+    {
+      "id": "11.21",
+      "chapter": 11,
+      "title": "Fractional Chebyshev barrier solver",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=643",
+      "source_page": 629,
+      "source_pdf_page": 643,
+      "computational_basis": "Numerical experiments subsection; smooth reformulation and custom barrier implementation explicitly requested.",
+      "task_summary": [
+        "Derive a smooth convex epigraph formulation and implement a strict-feasibility-preserving barrier method."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "data": "A,b,lower,upper,strictly feasible x0",
+          "conditions": "b>0; lower<upper; lower<x0<upper; A@x0>0",
+          "criterion": "largest multiplicative mismatch between A@x and b"
+        },
+        "generated": "Seeded feasible instances with positive target b and known strictly feasible start."
+      },
+      "dependencies": [
+        "6.3(c) (related approximation)"
+      ],
+      "deliverables": [
+        "Reformulation and analytic derivatives",
+        "Custom barrier solve with residual and gap history"
+      ],
+      "validation": [
+        "Compare with independent convex epigraph solver",
+        "Check variable bounds and positive predictions",
+        "Evaluate mismatch in original variables",
+        "Audit dimensions: printed max index n is a typo when A has m rows"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/11.21/results.json",
+        "notes": "docs/solutions/11.21.md"
+      }
+    },
+    {
+      "id": "11.22",
+      "chapter": 11,
+      "title": "Inscribed rectangle barrier solver",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=643",
+      "source_page": 629,
+      "source_pdf_page": 643,
+      "computational_basis": "Numerical experiments subsection; supplied numerical geometry and plotting.",
+      "task_summary": [
+        "Implement a barrier method for maximum-volume axis-aligned rectangles in a polyhedron; test simple fixtures and the supplied polygon."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "A": [
+            [
+              0,
+              -1
+            ],
+            [
+              2,
+              -4
+            ],
+            [
+              2,
+              1
+            ],
+            [
+              -4,
+              4
+            ],
+            [
+              -4,
+              0
+            ]
+          ],
+          "b": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          "variables": "lower and upper corners"
+        },
+        "generated": "Additional bounded simple examples with b>0."
+      },
+      "dependencies": [
+        "8.16 (formulation)"
+      ],
+      "deliverables": [
+        "Custom solver and derivative formulas",
+        "Polygon/optimal-rectangle figure",
+        "Corner coordinates and volume"
+      ],
+      "validation": [
+        "Positive side lengths",
+        "Every corner satisfies A@x<=b",
+        "Compare log-volume with independent convex model",
+        "Validate containment using positive/negative parts of A"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/11.22/results.json",
+        "notes": "docs/solutions/11.22.md"
+      }
+    },
+    {
+      "id": "11.23",
+      "chapter": 11,
+      "title": "Partitioning SDP and rounding",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=643",
+      "source_page": 629,
+      "source_pdf_page": 643,
+      "computational_basis": "Numerical experiments subsection; custom SDP barrier, enumeration, rounding, greedy refinement.",
+      "task_summary": [
+        "Implement a log-determinant barrier for the diagonal-shift SDP and recover its dual correlation matrix.",
+        "Evaluate eigenvector rounding, Gaussian rounding, and one-flip greedy refinement."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "W": "symmetric with zero diagonal",
+          "large_dimension": 100,
+          "rounding": "principal eigenvector sign; Gaussian samples with dual matrix covariance"
+        },
+        "generated": "Seeded small enumerable W and a larger n=100 W."
+      },
+      "dependencies": [
+        "5.39 (relaxation)"
+      ],
+      "deliverables": [
+        "Primal/dual SDP solutions and certified gap",
+        "Exact optima for small instances",
+        "n=100 case",
+        "Heuristic costs before/after greedy refinement"
+      ],
+      "validation": [
+        "W+diag(nu) PSD; X PSD; diag(X) approximately one",
+        "SDP lower bound <= exact small optimum <= heuristic cost",
+        "Greedy cost nonincreasing and no improving single flip at termination",
+        "Use symmetric eigendecomposition and numerical PSD tolerances",
+        "Do not substitute a library SDP call for the requested custom barrier method"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/11.23/results.json",
+        "notes": "docs/solutions/11.23.md"
+      }
+    },
+    {
+      "id": "11.24",
+      "chapter": 11,
+      "title": "QP barrier and primal-dual methods",
+      "scope": "required",
+      "status": "verified",
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=644",
+      "source_page": 630,
+      "source_pdf_page": 644,
+      "computational_basis": "Numerical experiments subsection; two custom solvers and convergence figures.",
+      "task_summary": [
+        "Implement a primal barrier method and primal-dual interior-point method for inequality-constrained convex QPs."
+      ],
+      "inputs": {
+        "external_files": [],
+        "specified": {
+          "objective": "0.5*x.T@P@x+q.T@x",
+          "constraints": "A@x<=b",
+          "start": "strictly feasible x0 supplied"
+        },
+        "generated": "Several seeded PSD/SPD QPs with guaranteed strict feasibility."
+      },
+      "dependencies": [],
+      "deliverables": [
+        "Barrier gap versus cumulative Newton steps",
+        "Primal-dual surrogate gap and dual-residual curves",
+        "Comparison across multiple examples"
+      ],
+      "validation": [
+        "Independent QP reference objective",
+        "Primal feasibility, dual nonnegativity, stationarity, complementarity",
+        "Accept steps preserving positive slacks and multipliers",
+        "Distinguish surrogate gap from a valid duality gap before stationarity is achieved"
+      ],
+      "notes": [],
+      "planned_extra": false,
+      "selected_for_implementation": true,
+      "verification": {
+        "verified_at": "2026-10-10T02:37:37.701348+00:00",
+        "evidence": "coverage/verification.json",
+        "result": "artifacts/11.24/results.json",
+        "notes": "docs/solutions/11.24.md"
+      }
+    }
+  ],
+  "audit_summary": {
+    "numbered_exercises_reviewed": 337,
+    "strict_required": 11,
+    "optional_candidates": 60,
+    "planned_extras": 5,
+    "selected_modules": 16,
+    "external_datasets_required": 0,
+    "chapters_without_exercises": [
+      1
+    ],
+    "appendix_exercises": 0
+  },
+  "important_exclusions": [
+    {
+      "id": "3.2",
+      "reason": "Interprets existing contour diagrams; no numerical function is supplied."
+    },
+    {
+      "id": "4.50",
+      "reason": "Interprets existing Figure4.11. The underlying numerical A,b are not supplied, so generated replacements would not reproduce the assigned input."
+    },
+    {
+      "id": "5.28",
+      "reason": "Explicitly requests proof without linear-programming code; a solver result is not a solution to the exercise."
+    }
+  ],
+  "verification_note": "All 16 selected modules are verified; 55 unselected optional extensions remain catalogued and unimplemented."
+}

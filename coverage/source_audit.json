@@ -1,0 +1,2928 @@
+{
+  "source": {
+    "title": "Convex Optimization",
+    "authors": [
+      "Stephen Boyd",
+      "Lieven Vandenberghe"
+    ],
+    "official_page": "https://web.stanford.edu/~boyd/cvxbook/",
+    "pdf_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf",
+    "downloaded_utc_date": "2026-10-10",
+    "pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+    "edition_note": "2004; seventh printing with corrections 2009, as identified in the downloaded PDF",
+    "supplemental_exercises_included": false,
+    "worked_examples_included": false
+  },
+  "scope_definition": {
+    "required": "Exercises explicitly requiring a numerical algorithm run, implementation, generated-instance testing, or numerical experimentation.",
+    "optional": "Explicit visual deliverables, concrete-data analytical fixtures, and algorithm/complexity derivations that are reasonable numerical extensions; these are not required machine exercises. Optional entries are a conservative borderline catalogue, not a claim that all other mathematical problems lack numerical applications.",
+    "excluded": "Pure proofs and abstract reformulations without an explicit computational/graphical task; separate additional exercises; reproducing worked examples.",
+    "selected_delivery": "All 11 strictly required exercises plus planned extras 4.3, 5.29, 5.33, 5.34, and 11.1; sixteen selected modules total."
+  },
+  "summary": {
+    "numbered_exercises_reviewed": 337,
+    "strict_required": 11,
+    "optional_candidates": 60,
+    "planned_extras": 5,
+    "selected_modules": 16,
+    "external_datasets_required": 0,
+    "chapters_without_exercises": [
+      1
+    ],
+    "appendix_exercises": 0
+  },
+  "method": "Every end-of-chapter exercise was read in the official PDF text, with an independent second scan of Chapters4-8 for execution, data, verification, and plotting language. Exercise IDs were extracted and checked against complete sequential chapter ranges. Numeric matrices for the planned Chapter5 extras were also visually checked in rendered PDF pages.",
+  "chapters": {
+    "2": {
+      "status": "complete",
+      "exercise_count": 39,
+      "exercise_range": "2.1-2.39",
+      "printed_pages": [
+        60,
+        66
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "2.7",
+        "2.25",
+        "2.29",
+        "2.37"
+      ]
+    },
+    "3": {
+      "status": "complete",
+      "exercise_count": 60,
+      "exercise_range": "3.1-3.60",
+      "printed_pages": [
+        113,
+        125
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "3.1",
+        "3.34",
+        "3.38"
+      ]
+    },
+    "4": {
+      "status": "complete",
+      "exercise_count": 65,
+      "exercise_range": "4.1-4.65",
+      "printed_pages": [
+        189,
+        213
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "4.1",
+        "4.3",
+        "4.22",
+        "4.48",
+        "4.63"
+      ]
+    },
+    "5": {
+      "status": "complete",
+      "exercise_count": 44,
+      "exercise_range": "5.1-5.44",
+      "printed_pages": [
+        273,
+        287
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "5.1",
+        "5.14",
+        "5.15",
+        "5.16",
+        "5.21",
+        "5.22",
+        "5.23",
+        "5.26",
+        "5.29",
+        "5.33",
+        "5.34",
+        "5.44"
+      ]
+    },
+    "6": {
+      "status": "complete",
+      "exercise_count": 14,
+      "exercise_range": "6.1-6.14",
+      "printed_pages": [
+        344,
+        349
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "6.4",
+        "6.7"
+      ]
+    },
+    "7": {
+      "status": "complete",
+      "exercise_count": 13,
+      "exercise_range": "7.1-7.13",
+      "printed_pages": [
+        393,
+        396
+      ],
+      "required_ids": [],
+      "optional_ids": []
+    },
+    "8": {
+      "status": "complete",
+      "exercise_count": 30,
+      "exercise_range": "8.1-8.30",
+      "printed_pages": [
+        447,
+        453
+      ],
+      "required_ids": [],
+      "optional_ids": [
+        "8.3",
+        "8.26",
+        "8.27"
+      ]
+    },
+    "9": {
+      "status": "complete",
+      "exercise_count": 32,
+      "exercise_range": "9.1-9.32",
+      "printed_pages": [
+        514,
+        520
+      ],
+      "required_ids": [
+        "9.10",
+        "9.30",
+        "9.31",
+        "9.32"
+      ],
+      "optional_ids": [
+        "9.2",
+        "9.3",
+        "9.6",
+        "9.8",
+        "9.11",
+        "9.12",
+        "9.21",
+        "9.23",
+        "9.24",
+        "9.25",
+        "9.26",
+        "9.27",
+        "9.28",
+        "9.29"
+      ]
+    },
+    "10": {
+      "status": "complete",
+      "exercise_count": 16,
+      "exercise_range": "10.1-10.16",
+      "printed_pages": [
+        557,
+        560
+      ],
+      "required_ids": [
+        "10.14",
+        "10.15",
+        "10.16"
+      ],
+      "optional_ids": [
+        "10.2",
+        "10.3",
+        "10.9",
+        "10.11",
+        "10.12",
+        "10.13"
+      ]
+    },
+    "11": {
+      "status": "complete",
+      "exercise_count": 24,
+      "exercise_range": "11.1-11.24",
+      "printed_pages": [
+        623,
+        630
+      ],
+      "required_ids": [
+        "11.21",
+        "11.22",
+        "11.23",
+        "11.24"
+      ],
+      "optional_ids": [
+        "11.1",
+        "11.2",
+        "11.5",
+        "11.6",
+        "11.7",
+        "11.8",
+        "11.10",
+        "11.11",
+        "11.12",
+        "11.19",
+        "11.20"
+      ]
+    }
+  },
+  "exercises": [
+    {
+      "id": "2.1",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.2",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.3",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.4",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.5",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.6",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.7",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "2.8",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.9",
+      "source_page": 60,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.10",
+      "source_page": 61,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.11",
+      "source_page": 61,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.12",
+      "source_page": 61,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.13",
+      "source_page": 61,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.14",
+      "source_page": 61,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.15",
+      "source_page": 62,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.16",
+      "source_page": 62,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.17",
+      "source_page": 62,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.18",
+      "source_page": 62,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.19",
+      "source_page": 62,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.20",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.21",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.22",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.23",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.24",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.25",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "2.26",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.27",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.28",
+      "source_page": 63,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.29",
+      "source_page": 64,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "2.30",
+      "source_page": 64,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.31",
+      "source_page": 64,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.32",
+      "source_page": 64,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.33",
+      "source_page": 64,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.34",
+      "source_page": 64,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.35",
+      "source_page": 64,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.36",
+      "source_page": 65,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.37",
+      "source_page": 65,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data boundary case; no numerical execution is required by the book."
+    },
+    {
+      "id": "2.38",
+      "source_page": 66,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "2.39",
+      "source_page": 66,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.1",
+      "source_page": 113,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "3.2",
+      "source_page": 113,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=127",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Interprets existing contour diagrams; no numerical function is supplied."
+    },
+    {
+      "id": "3.3",
+      "source_page": 114,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.4",
+      "source_page": 114,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.5",
+      "source_page": 114,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.6",
+      "source_page": 114,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.7",
+      "source_page": 114,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.8",
+      "source_page": 114,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.9",
+      "source_page": 114,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.10",
+      "source_page": 114,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=128",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.11",
+      "source_page": 115,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.12",
+      "source_page": 115,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.13",
+      "source_page": 115,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.14",
+      "source_page": 115,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.15",
+      "source_page": 115,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=129",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.16",
+      "source_page": 116,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.17",
+      "source_page": 116,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.18",
+      "source_page": 116,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.19",
+      "source_page": 116,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.20",
+      "source_page": 116,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=130",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.21",
+      "source_page": 117,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.22",
+      "source_page": 117,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.23",
+      "source_page": 117,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.24",
+      "source_page": 117,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=131",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.25",
+      "source_page": 118,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.26",
+      "source_page": 118,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.27",
+      "source_page": 118,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=132",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.28",
+      "source_page": 119,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.29",
+      "source_page": 119,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.30",
+      "source_page": 119,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.31",
+      "source_page": 119,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.32",
+      "source_page": 119,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.33",
+      "source_page": 119,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.34",
+      "source_page": 119,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=133",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "3.35",
+      "source_page": 120,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.36",
+      "source_page": 120,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.37",
+      "source_page": 120,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.38",
+      "source_page": 120,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "3.39",
+      "source_page": 120,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=134",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.40",
+      "source_page": 121,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.41",
+      "source_page": 121,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.42",
+      "source_page": 121,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.43",
+      "source_page": 121,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.44",
+      "source_page": 121,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=135",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.45",
+      "source_page": 122,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.46",
+      "source_page": 122,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.47",
+      "source_page": 122,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.48",
+      "source_page": 122,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.49",
+      "source_page": 122,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=136",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.50",
+      "source_page": 123,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.51",
+      "source_page": 123,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.52",
+      "source_page": 123,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.53",
+      "source_page": 123,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.54",
+      "source_page": 123,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=137",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.55",
+      "source_page": 124,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.56",
+      "source_page": 124,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.57",
+      "source_page": 124,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.58",
+      "source_page": 124,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.59",
+      "source_page": 124,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=138",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "3.60",
+      "source_page": 125,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=139",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.1",
+      "source_page": 189,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "4.2",
+      "source_page": 189,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.3",
+      "source_page": 189,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "disposition": "optional",
+      "selected_for_implementation": true,
+      "reason": "Concrete numerical data; source requests proof, not machine execution."
+    },
+    {
+      "id": "4.4",
+      "source_page": 189,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=203",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.5",
+      "source_page": 190,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=204",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.6",
+      "source_page": 191,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.7",
+      "source_page": 191,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=205",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.8",
+      "source_page": 192,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=206",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.9",
+      "source_page": 193,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.10",
+      "source_page": 193,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.11",
+      "source_page": 193,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.12",
+      "source_page": 193,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.13",
+      "source_page": 193,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.14",
+      "source_page": 194,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.15",
+      "source_page": 194,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.16",
+      "source_page": 194,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.17",
+      "source_page": 195,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.18",
+      "source_page": 195,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.19",
+      "source_page": 196,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.20",
+      "source_page": 196,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.21",
+      "source_page": 196,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.22",
+      "source_page": 197,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "4.23",
+      "source_page": 197,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.24",
+      "source_page": 197,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.25",
+      "source_page": 197,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.26",
+      "source_page": 197,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.27",
+      "source_page": 198,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.28",
+      "source_page": 198,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.29",
+      "source_page": 199,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.30",
+      "source_page": 199,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.31",
+      "source_page": 199,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.32",
+      "source_page": 199,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.33",
+      "source_page": 199,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.34",
+      "source_page": 200,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.35",
+      "source_page": 200,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.36",
+      "source_page": 200,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.37",
+      "source_page": 200,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.38",
+      "source_page": 201,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.39",
+      "source_page": 201,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=215",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.40",
+      "source_page": 202,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.41",
+      "source_page": 202,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.42",
+      "source_page": 202,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=216",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.43",
+      "source_page": 203,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.44",
+      "source_page": 203,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.45",
+      "source_page": 203,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=217",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.46",
+      "source_page": 204,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.47",
+      "source_page": 204,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.48",
+      "source_page": 204,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=218",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "4.49",
+      "source_page": 205,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.50",
+      "source_page": 205,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=219",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Interprets existing Figure4.11. The underlying numerical A,b are not supplied, so generated replacements would not reproduce the assigned input."
+    },
+    {
+      "id": "4.51",
+      "source_page": 206,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.52",
+      "source_page": 206,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.53",
+      "source_page": 206,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.54",
+      "source_page": 206,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.55",
+      "source_page": 206,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=220",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.56",
+      "source_page": 207,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.57",
+      "source_page": 207,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=221",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.58",
+      "source_page": 208,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.59",
+      "source_page": 208,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=222",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.60",
+      "source_page": 209,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=223",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.61",
+      "source_page": 210,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.62",
+      "source_page": 210,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=224",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.63",
+      "source_page": 211,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "4.64",
+      "source_page": 211,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=225",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "4.65",
+      "source_page": 212,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=226",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.1",
+      "source_page": 273,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "5.2",
+      "source_page": 273,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.3",
+      "source_page": 273,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.4",
+      "source_page": 273,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=287",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.5",
+      "source_page": 274,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.6",
+      "source_page": 274,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.7",
+      "source_page": 274,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=288",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.8",
+      "source_page": 275,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.9",
+      "source_page": 275,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=289",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.10",
+      "source_page": 276,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.11",
+      "source_page": 276,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.12",
+      "source_page": 276,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.13",
+      "source_page": 276,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=290",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.14",
+      "source_page": 277,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "5.15",
+      "source_page": 277,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "5.16",
+      "source_page": 277,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=291",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "5.17",
+      "source_page": 278,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.18",
+      "source_page": 278,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.19",
+      "source_page": 278,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=292",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.20",
+      "source_page": 279,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=293",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.21",
+      "source_page": 280,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data boundary case; no numerical execution is required by the book."
+    },
+    {
+      "id": "5.22",
+      "source_page": 280,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "5.23",
+      "source_page": 280,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=294",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data boundary case; no numerical execution is required by the book."
+    },
+    {
+      "id": "5.24",
+      "source_page": 281,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.25",
+      "source_page": 281,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=295",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.26",
+      "source_page": 282,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "5.27",
+      "source_page": 282,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.28",
+      "source_page": 282,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Explicitly requests proof without linear-programming code; a solver result is not a solution to the exercise."
+    },
+    {
+      "id": "5.29",
+      "source_page": 282,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=296",
+      "disposition": "optional",
+      "selected_for_implementation": true,
+      "reason": "Concrete numerical data; source requests every KKT solution and the global optimum."
+    },
+    {
+      "id": "5.30",
+      "source_page": 283,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.31",
+      "source_page": 283,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.32",
+      "source_page": 283,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.33",
+      "source_page": 283,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=297",
+      "disposition": "optional",
+      "selected_for_implementation": true,
+      "reason": "Concrete numerical data; analytic optimality, uniqueness, and local sensitivity."
+    },
+    {
+      "id": "5.34",
+      "source_page": 284,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=298",
+      "disposition": "optional",
+      "selected_for_implementation": true,
+      "reason": "Concrete numerical data; exact primal/dual formulas and perturbation interval."
+    },
+    {
+      "id": "5.35",
+      "source_page": 284,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=298",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.36",
+      "source_page": 285,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.37",
+      "source_page": 285,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.38",
+      "source_page": 285,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.39",
+      "source_page": 285,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=299",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.40",
+      "source_page": 286,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.41",
+      "source_page": 286,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=300",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.42",
+      "source_page": 287,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.43",
+      "source_page": 287,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "5.44",
+      "source_page": 287,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=301",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data boundary case; no numerical execution is required by the book."
+    },
+    {
+      "id": "6.1",
+      "source_page": 344,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.2",
+      "source_page": 344,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.3",
+      "source_page": 344,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=358",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.4",
+      "source_page": 345,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "6.5",
+      "source_page": 345,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.6",
+      "source_page": 345,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=359",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.7",
+      "source_page": 346,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "6.8",
+      "source_page": 346,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=360",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.9",
+      "source_page": 347,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.10",
+      "source_page": 347,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.11",
+      "source_page": 347,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.12",
+      "source_page": 347,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.13",
+      "source_page": 348,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "6.14",
+      "source_page": 348,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.1",
+      "source_page": 393,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.2",
+      "source_page": 393,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.3",
+      "source_page": 393,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.4",
+      "source_page": 393,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.5",
+      "source_page": 394,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.6",
+      "source_page": 394,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.7",
+      "source_page": 394,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.8",
+      "source_page": 395,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.9",
+      "source_page": 395,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.10",
+      "source_page": 395,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.11",
+      "source_page": 395,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.12",
+      "source_page": 396,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "7.13",
+      "source_page": 396,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.1",
+      "source_page": 447,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.2",
+      "source_page": 447,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.3",
+      "source_page": 447,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Closed-form computational primitive; no numerical execution is required by the book."
+    },
+    {
+      "id": "8.4",
+      "source_page": 447,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.5",
+      "source_page": 447,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=461",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.6",
+      "source_page": 448,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.7",
+      "source_page": 448,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.8",
+      "source_page": 448,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.9",
+      "source_page": 448,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.10",
+      "source_page": 448,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=462",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.11",
+      "source_page": 449,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.12",
+      "source_page": 449,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.13",
+      "source_page": 449,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.14",
+      "source_page": 449,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.15",
+      "source_page": 449,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.16",
+      "source_page": 449,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.17",
+      "source_page": 449,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.18",
+      "source_page": 449,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=463",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.19",
+      "source_page": 450,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.20",
+      "source_page": 450,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.21",
+      "source_page": 450,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.22",
+      "source_page": 450,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=464",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.23",
+      "source_page": 451,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.24",
+      "source_page": 451,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.25",
+      "source_page": 451,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.26",
+      "source_page": 451,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=465",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "8.27",
+      "source_page": 452,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "8.28",
+      "source_page": 452,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=466",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.29",
+      "source_page": 453,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "8.30",
+      "source_page": 453,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=467",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.1",
+      "source_page": 514,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.2",
+      "source_page": 514,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Closed-form computational primitive; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.3",
+      "source_page": 514,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data visualization; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.4",
+      "source_page": 514,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.5",
+      "source_page": 514,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=528",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.6",
+      "source_page": 515,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm verification by derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.7",
+      "source_page": 515,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.8",
+      "source_page": 515,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Closed-form computational primitive; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.9",
+      "source_page": 515,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.10",
+      "source_page": 515,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Explicit numerical iteration and plotting outside the numerical-experiments subsection."
+    },
+    {
+      "id": "9.11",
+      "source_page": 515,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.12",
+      "source_page": 515,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=529",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.13",
+      "source_page": 516,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.14",
+      "source_page": 516,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.15",
+      "source_page": 516,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.16",
+      "source_page": 516,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.17",
+      "source_page": 516,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=530",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.18",
+      "source_page": 517,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.19",
+      "source_page": 517,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.20",
+      "source_page": 517,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.21",
+      "source_page": 517,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Scalar analytic optimization; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.22",
+      "source_page": 517,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=531",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "9.23",
+      "source_page": 518,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.24",
+      "source_page": 518,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.25",
+      "source_page": 518,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.26",
+      "source_page": 518,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.27",
+      "source_page": 518,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=532",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.28",
+      "source_page": 519,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.29",
+      "source_page": 519,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "9.30",
+      "source_page": 519,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; both methods, parameter sweeps, and multiple dimensions are explicitly requested."
+    },
+    {
+      "id": "9.31",
+      "source_page": 519,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=533",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; comparisons explicitly requested."
+    },
+    {
+      "id": "9.32",
+      "source_page": 520,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=534",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; testing generated instances explicitly requested."
+    },
+    {
+      "id": "10.1",
+      "source_page": 557,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "10.2",
+      "source_page": 557,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "10.3",
+      "source_page": 557,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=571",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "10.4",
+      "source_page": 558,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "10.5",
+      "source_page": 558,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "10.6",
+      "source_page": 558,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "10.7",
+      "source_page": 558,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "10.8",
+      "source_page": 558,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "10.9",
+      "source_page": 558,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=572",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm analysis; no numerical execution is required by the book."
+    },
+    {
+      "id": "10.10",
+      "source_page": 559,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "10.11",
+      "source_page": 559,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "10.12",
+      "source_page": 559,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "10.13",
+      "source_page": 559,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "10.14",
+      "source_page": 559,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=573",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; an explicit Newton solve with supplied data."
+    },
+    {
+      "id": "10.15",
+      "source_page": 560,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=574",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; three formulations and multiple starts explicitly requested."
+    },
+    {
+      "id": "10.16",
+      "source_page": 560,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=574",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; seeded games, histories, parameter/start experiments."
+    },
+    {
+      "id": "11.1",
+      "source_page": 623,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "disposition": "optional",
+      "selected_for_implementation": true,
+      "reason": "Plot-only exercise; optional under the strict run/implement/test scope."
+    },
+    {
+      "id": "11.2",
+      "source_page": 623,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Concrete-data boundary case; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.3",
+      "source_page": 623,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.4",
+      "source_page": 623,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.5",
+      "source_page": 623,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=637",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.6",
+      "source_page": 624,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.7",
+      "source_page": 624,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=638",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.8",
+      "source_page": 625,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.9",
+      "source_page": 625,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=639",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.10",
+      "source_page": 626,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.11",
+      "source_page": 626,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=640",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.12",
+      "source_page": 627,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Algorithm derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.13",
+      "source_page": 627,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.14",
+      "source_page": 627,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=641",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.15",
+      "source_page": 628,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.16",
+      "source_page": 628,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.17",
+      "source_page": 628,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.18",
+      "source_page": 628,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "disposition": "excluded",
+      "selected_for_implementation": false,
+      "reason": "Analytical proof, symbolic optimization, or abstract modeling; no explicit numerical execution under the inclusion rule."
+    },
+    {
+      "id": "11.19",
+      "source_page": 628,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.20",
+      "source_page": 628,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=642",
+      "disposition": "optional",
+      "selected_for_implementation": false,
+      "reason": "Implementation/complexity derivation; no numerical execution is required by the book."
+    },
+    {
+      "id": "11.21",
+      "source_page": 629,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=643",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; smooth reformulation and custom barrier implementation explicitly requested."
+    },
+    {
+      "id": "11.22",
+      "source_page": 629,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=643",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; supplied numerical geometry and plotting."
+    },
+    {
+      "id": "11.23",
+      "source_page": 629,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=643",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; custom SDP barrier, enumeration, rounding, greedy refinement."
+    },
+    {
+      "id": "11.24",
+      "source_page": 630,
+      "source_url": "https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=644",
+      "disposition": "required",
+      "selected_for_implementation": true,
+      "reason": "Numerical experiments subsection; two custom solvers and convergence figures."
+    }
+  ]
+}
