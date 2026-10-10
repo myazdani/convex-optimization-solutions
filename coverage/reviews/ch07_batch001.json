@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "7.1",
+      "reviewer": "duality_review",
+      "solution_sha256": "4ae7e4a8ee2e61790ecc8fff11bd9b9d376de435a9a2f4488ef29983f06b448f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked likelihood support and sign, objective residual equivalence, infeasible-support interpretation and LP attainment. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.2",
+      "reviewer": "duality_review",
+      "solution_sha256": "bede85c1273687242187fa8484c4cb1e0a7e7d476bf7db634d6f4c64946a3a9c",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked joint likelihood including scale power, infinity-norm correspondence and exact-fit zero-scale nonattainment. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.3",
+      "reviewer": "duality_review",
+      "solution_sha256": "9f81dc4ffd9725fe23e03a8e7970de971d0405ff26498fbbdd0a631398f2c3c9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked the source observation coding, Gaussian-tail sign and strict log-CDF concavity proof. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.4",
+      "reviewer": "duality_review",
+      "solution_sha256": "532ec6ed40a3ac472653f26a011bbea0263c6ecf7461501faa2862974016dc04",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked centering expansion and unique mean/covariance estimates, matrix directional second derivative and joint matrix-fractional concavity on R<=2Y. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.5",
+      "reviewer": "duality_review",
+      "solution_sha256": "8cc6394c34f4f11d214ba114b1a8e4ac8089053a33f5466a50baf1829434e4f2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked transition orientation, N-1 departure counts, unobserved columns, divergence argument and stationarity-constrained likelihood. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.6",
+      "reviewer": "duality_review",
+      "solution_sha256": "6f0cd132d0335ea71c4c8211b23d5a0bae11eb5aa61e17b3a29ed4511acce2d3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "convexity",
+        "Laplacian analytical solution"
+      ],
+      "notes": "Checked Jacobian, log-concave affine transformation, median and scale optimization, zero-deviation nonattainment, and source density variance discrepancy. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.7",
+      "reviewer": "duality_review",
+      "solution_sha256": "9fa085a936f01314910e1c9e35a4b203d10013c1ca5fe601db34de2776e2e108",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked marked-Poisson generating function, independent aggregate counts, full likelihood and zero-intensity convention. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.8",
+      "reviewer": "duality_review",
+      "solution_sha256": "ea996b367824b7a86c7f6a8b0ed4d020f4dda1948ad076d3cefe909fd453e4ec",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked both asymmetric distribution tails, joint log-concave indicator supports and marginalization, likelihood signs and infinite-value cases. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.9",
+      "reviewer": "duality_review",
+      "solution_sha256": "2fa7f62cfaa2a4858b0b4c142c01b4e071265849b3690255749e929edea1e5af",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "inverse reformulation",
+        "likelihood",
+        "convex feasibility",
+        "calibration recovery"
+      ],
+      "notes": "Checked inverse slope bounds, essential change-of-variable Jacobian, repeated-sample values/derivatives, saturated-secant conditions, explicit derivative interpolation, convex but nonclosed feasible set, and recovery/nonattainment qualifications. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.10",
+      "reviewer": "duality_review",
+      "solution_sha256": "ca0a2b62b29155ce31614b721fbca3502684c8396e147f8c9861b41b1788fb70",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked covariance second-moment expansion and affine Schur-complement LMI with unrestricted symmetric lower bound. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.11",
+      "reviewer": "duality_review",
+      "solution_sha256": "bab2c31b4c00d3a17bc3f3fa74a1f5aa1655376d097c57f45adbef0024791c72",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked explicit product decomposition, affine-dimension reduction and sharp worst-case bound using finite union of lower-dimensional hulls. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.12",
+      "reviewer": "duality_review",
+      "solution_sha256": "6ad350a39f34cd08eaf22b65e5d3d7723aaab7360bef7ccb6d9c304ce2a0673a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked separability in strategy columns, coordinatewise probability bound and simultaneous deterministic attainment. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    },
+    {
+      "id": "7.13",
+      "reviewer": "duality_review",
+      "solution_sha256": "1b826db4d172e8edff767fc4238a84b829442da411a73007ef3825171dd39983",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked pointwise indicator domination, exact finite-support probability LP dual signs, compatibility and primal/dual attainment. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    }
+  ]
+}

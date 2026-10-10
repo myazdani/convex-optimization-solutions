@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "4.22",
+      "reviewer": "convexity_review",
+      "solution_sha256": "92657329719fd851b9715d506df79d961798c0578a6b2b330703aa030e7e4eb3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked KKT scaling, strict-convex uniqueness, unconstrained feasibility test and unique positive secular root; source q=0 no-root exception is explicitly corrected without manufacturing a root."
+    },
+    {
+      "id": "4.23",
+      "reviewer": "convexity_review",
+      "solution_sha256": "d80d8ccbb01e9bd9a40668763139c8f5bf67391278388f407939ef73eea5d8b7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked true quadratic lifted objective/constraints, nonnegative squared-residual bounds, strict-monotone fourth-power map and optimizer/value recovery."
+    },
+    {
+      "id": "4.24",
+      "reviewer": "convexity_review",
+      "solution_sha256": "e834c95787abd0ef2e8120c238ea61fd332e10dbd7df64cc4799b84ba231ce13",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "p=1",
+        "p=2",
+        "p=infinity"
+      ],
+      "notes": "Checked real block matrix signs, complex magnitudes as 2D Euclidean norms, all three norm formulations and squared-value versus norm-value distinction."
+    },
+    {
+      "id": "4.25",
+      "reviewer": "convexity_review",
+      "solution_sha256": "6e2b11acfd5337910a86d1608119f41bad5fd92c9918cdd4465fcdec1d5dc851",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked min/max support values of every ellipsoid, signs of unit margins, strict-to-uniform scaling by compactness and degeneracy of singular P matrices."
+    },
+    {
+      "id": "4.26",
+      "reviewer": "convexity_review",
+      "solution_sha256": "b9cd902a610e379fdadfd97747de8cb83e3c26237be424b6f1ba5efd09ae0015",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "identity",
+        "a",
+        "b"
+      ],
+      "notes": "Checked rotated-cone equivalence at zero factors, harmonic positive-domain exactness, and arbitrary-size geometric-mean padded binary tree including t=0."
+    },
+    {
+      "id": "4.27",
+      "reviewer": "convexity_review",
+      "solution_sha256": "8c4a97313d1843f4abe4f17643f9fed3816b1873d2864908c6133aca6c092eb5",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked completing-square identity coefficient by coefficient, valid zero-coordinate convention, positive definiteness of I+BDB^T and every rotated cone in exact lift."
+    },
+    {
+      "id": "4.28",
+      "reviewer": "convexity_review",
+      "solution_sha256": "6af92992ba387d7bc7e44aafbae2b18e21070e282683852a6de403de205dddb1",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked finite, spectral and ellipsoidal uncertainty maximizations, one-half constants, gamma sign qualification and monotone norm epigraph over nonnegative quadratic forms."
+    },
+    {
+      "id": "4.29",
+      "reviewer": "convexity_review",
+      "solution_sha256": "2ee7374a3e7f1566baab334c893bc53ed598f63e4f369f75d87ba6011621d0e6",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked normal probability standardization, singular-covariance deterministic equality case, nonnegative-level reduction, SOC feasibility search and possible nonattainment."
+    },
+    {
+      "id": "4.30",
+      "reviewer": "convexity_review",
+      "solution_sha256": "63e5125465c3575a149e541c9accdc1f6ca1ad3b402357d064cd64a7dbe1fcee",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked each physical cost monomial, reciprocal heat objective, all six variable bounds and thin-insulation inequality, with strict variable positivity."
+    },
+    {
+      "id": "4.31",
+      "reviewer": "convexity_review",
+      "solution_sha256": "d0718774fefc9b979cc08260c11a06d9eaf9baeb734b0d20212333035c453460",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked source equations 4.45 and 4.46, positive lifted physical values, zero terminal constants, exact monomial d relation and backward-induction proof of feasible design projection."
+    }
+  ]
+}

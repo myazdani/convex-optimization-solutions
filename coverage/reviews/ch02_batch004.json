@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "2.31",
+      "reviewer": "applications_review",
+      "solution_sha256": "0a3239327fb267797563d2688d635517b69c5835b04e9bcaa99b5d74df5fe0a9",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "notes": "All seven cone properties checked; part(d) correctly excludes zero, bipolar and pointedness-to-solid proof include closure and compactness."
+    },
+    {
+      "id": "2.32",
+      "reviewer": "applications_review",
+      "solution_sha256": "225ed9b6d7f5f4afe9296f283d0efdb00f44bcc3d67483351b7bdcfb06ac8f83",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Dual finite-generator cone obtained in both directions without rank assumptions."
+    },
+    {
+      "id": "2.33",
+      "reviewer": "applications_review",
+      "solution_sha256": "49e864ec354e05452285f4e4ed2cf1df5ec70d54279ca5726c6a1c75f3a86dd0",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Properness and telescoping prefix-sum dual verified for all dimensions."
+    },
+    {
+      "id": "2.34",
+      "reviewer": "applications_review",
+      "solution_sha256": "61bbab18b821cf137fa7f66cf200eb1c8658dfd9a5e81868eb3c4f88b377a1b2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Convexity, total order and ray dual verified; n=1 exception to source nonproperness identified correctly."
+    },
+    {
+      "id": "2.35",
+      "reviewer": "applications_review",
+      "solution_sha256": "07f4561a45b25e0ae25180536ba8e46f7b07ff5c9ad01d36d7b6ca1fed3ac97e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "properness",
+        "dual"
+      ],
+      "notes": "Copositive properness and completely positive dual checked; explicit trace-normalized compact base proves required closure."
+    },
+    {
+      "id": "2.36",
+      "reviewer": "applications_review",
+      "solution_sha256": "b6fbc83db1f4dabae5fb0109df9215f885b8318f864798e4a4fb80e5fa63418b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Both homogeneous-halfspace and concatenated-point proofs valid; variable ambient embedding dimension matches source."
+    },
+    {
+      "id": "2.37",
+      "reviewer": "applications_review",
+      "solution_sha256": "ee686a85782ab35495160db9222db1535afbb199b6dbb90687d4b36b7866e1a2",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "notes": "Checked all five parts across source pages65\u201366: coefficient-space solidity, Gram map, correct Hankel adjoint, finite moment representation via expectation dimension reduction, and escaping-mass sequence. Parent separate spot-check agrees."
+    },
+    {
+      "id": "2.38",
+      "reviewer": "applications_review",
+      "solution_sha256": "414260c8304cb2bbea64189142b68615c3d5fd87b0ddb2e61ce326449a360afa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Barrier and recession duality verified with source minus-sign convention; normal-cone active-generator proof handles lower-dimensional polyhedra."
+    },
+    {
+      "id": "2.39",
+      "reviewer": "applications_review",
+      "solution_sha256": "3a73bf5ec15ad6bb7a2194497467a6e51db59ab08c62f616204000001718f213",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Separation of open interiors, zero separating level by scaling, and closure-of-interior extension all checked."
+    }
+  ]
+}

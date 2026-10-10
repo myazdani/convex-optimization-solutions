@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "4.12",
+      "reviewer": "convexity_review",
+      "solution_sha256": "e7bcc1e8559d65dc541697649291422cd8feaa62153010f0534f2cbdf3d0276b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked source flow balance sign, all directed link capacities, summed conservation, self-link convention and feasibility qualifications."
+    },
+    {
+      "id": "4.13",
+      "reviewer": "convexity_review",
+      "solution_sha256": "6424c0bf41505e3c3189128ff06a0cf7d8228fb425fc499e70388023f2471124",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked exact robust row maximization, nonnegative uncertainty widths, two-direction lift/projection proof and linear-size LP; empty uncertainty case explicitly separated."
+    },
+    {
+      "id": "4.14",
+      "reviewer": "convexity_review",
+      "solution_sha256": "c564d69d93e0df8c3d94d3e61979e00b75e6f24048945617fda863daf605be81",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked induced max-row-sum norm rather than entrywise maximum, epigraph bounds, exact optimizer maps, permissible slack U entries and attainment in matrix space."
+    },
+    {
+      "id": "4.15",
+      "reviewer": "convexity_review",
+      "solution_sha256": "a9893b583ea1d6a33436a170ae29bf37fd18167b38ef63a1b523a32bd91a04ed",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked relaxation lower bound, infeasibility implication, fractional converse counterexample and integral-optimum matching certificate."
+    },
+    {
+      "id": "4.16",
+      "reviewer": "convexity_review",
+      "solution_sha256": "20100174d3f50f9d9b5fbe7e21452fbad6ec3a758c79cd1dc065ede5fcf0e1dd",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked all four affine fuel branches, exact time indices, dynamics and both endpoint constraints, epigraph tightness and controllability-matrix elimination."
+    },
+    {
+      "id": "4.17",
+      "reviewer": "convexity_review",
+      "solution_sha256": "38460da4b30c8815714763564a85d345aa3c7b560921a078a7bc7a892927d96a",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked discounted-revenue minimum of affine functions, exact hypograph LP, positive objective coefficients, negative resource coefficients and unboundedness qualifications."
+    },
+    {
+      "id": "4.18",
+      "reviewer": "convexity_review",
+      "solution_sha256": "aecc037bc723ad745b6a1e6140ad82c7f5ed24401f6f9972b250b32df94256a6",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked weak-separator normalization under full augmented rank, exclusion of a=0 without demanding strict separation, sphere linearization and nonnegative radius recovery."
+    },
+    {
+      "id": "4.19",
+      "reviewer": "convexity_review",
+      "solution_sha256": "6485e00d1adb86b664ad65e29f6fa71087c603cbfd733010183fa0dad9df29a7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Checked positive denominator on the entire box, both objective-preserving maps, implication t>0 from displayed constraints, and compactness/attainment."
+    },
+    {
+      "id": "4.20",
+      "reviewer": "convexity_review",
+      "solution_sha256": "de6977d58b5e4fae229d4c4a9c55854df5d822544961ceac685bd9698876c4fa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Checked all individual/group/received-power constraints, strictly positive noise, zero direct-gain case and valid signed generalized fractional formulation without illegal reciprocal zero division."
+    },
+    {
+      "id": "4.21",
+      "reviewer": "convexity_review",
+      "solution_sha256": "f0a7d802d98a88891c46ab181a547898874ab649d8cd22509feb4bbbc0e6cbdb",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c"
+      ],
+      "notes": "Checked all three explicit optimizers/values, non-PSD constraint unboundedness proof, singular PSD qualification, translated ellipsoid and complete minimum-eigenspace solution for nonconvex quadratic objectives."
+    }
+  ]
+}

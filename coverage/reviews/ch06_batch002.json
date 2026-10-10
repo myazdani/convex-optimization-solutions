@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "6.14",
+      "reviewer": "duality_review",
+      "solution_sha256": "696b46a1ad515c2b927a27a23990e4b2c0958527cbc5a03a0e78ce0cc6179ed3",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+      ],
+      "notes": "Checked measure-mass closedness, both dual directions, rational-kernel identity, cancellation of extreme trigonometric coefficients, Fejer factor/partial-fraction argument and injectivity, conjugated-Q trace pairing, bipolar theorem and fitting SDP. Executed seeded complex dual-map and trace identity checks at 31 angles. Source checked directly in official PDF. GitHub visual rendering remains a separate gate."
+    }
+  ]
+}

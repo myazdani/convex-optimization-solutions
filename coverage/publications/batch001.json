@@ -1,0 +1,328 @@
+{
+  "repository": "myazdani/convex-optimization-solutions",
+  "branch": "main",
+  "commit": "ca739e1a15838ffca0417455ed1643020dd6137a",
+  "parent": "b8350895e43f32b5ceee941954d41c1f0a4ac1a4",
+  "summary": {
+    "numbered_exercises": 337,
+    "computational_exercises_verified": 16,
+    "numbered_exercises_verified": 49,
+    "other_exercises_total": 321,
+    "other_exercises_verified": 33,
+    "other_exercises_pending": 288,
+    "worked_examples_catalogued": 62,
+    "worked_examples_reproduced": 2,
+    "worked_examples_exact": 2,
+    "worked_examples_method": 0
+  },
+  "verified_remote": "ca739e1a15838ffca0417455ed1643020dd6137a",
+  "local_tests": 160,
+  "rendered_new_proofs": 33,
+  "rendered_math": 713,
+  "rendering_errors": 0,
+  "preserved_numerical_source_files": 115,
+  "published_at": "2026-10-10T04:59:17Z",
+  "test_command": "OPENBLAS_NUM_THREADS=1 PYTHONPATH=src python -m pytest -q",
+  "test_log": "coverage/publications/batch001-tests.log",
+  "github_commit_statuses": [],
+  "note": "Only independently reviewed solutions were included in the frozen tested snapshot; pending author drafts were excluded. All reviewed file bytes were checked before publication.",
+  "rendering": [
+    {
+      "id": "2.1",
+      "path": "docs/solutions/2.1.md",
+      "expected_math": 10,
+      "rendered_math": 10,
+      "renderers": 10,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.2",
+      "path": "docs/solutions/2.2.md",
+      "expected_math": 10,
+      "rendered_math": 10,
+      "renderers": 10,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.3",
+      "path": "docs/solutions/2.3.md",
+      "expected_math": 12,
+      "rendered_math": 12,
+      "renderers": 12,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.4",
+      "path": "docs/solutions/2.4.md",
+      "expected_math": 14,
+      "rendered_math": 14,
+      "renderers": 14,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.5",
+      "path": "docs/solutions/2.5.md",
+      "expected_math": 8,
+      "rendered_math": 8,
+      "renderers": 8,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.6",
+      "path": "docs/solutions/2.6.md",
+      "expected_math": 26,
+      "rendered_math": 26,
+      "renderers": 26,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.7",
+      "path": "docs/solutions/2.7.md",
+      "expected_math": 10,
+      "rendered_math": 10,
+      "renderers": 10,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.8",
+      "path": "docs/solutions/2.8.md",
+      "expected_math": 34,
+      "rendered_math": 34,
+      "renderers": 34,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.9",
+      "path": "docs/solutions/2.9.md",
+      "expected_math": 21,
+      "rendered_math": 21,
+      "renderers": 21,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "2.10",
+      "path": "docs/solutions/2.10.md",
+      "expected_math": 18,
+      "rendered_math": 18,
+      "renderers": 18,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.1",
+      "path": "docs/solutions/4.1.md",
+      "expected_math": 25,
+      "rendered_math": 25,
+      "renderers": 25,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.2",
+      "path": "docs/solutions/4.2.md",
+      "expected_math": 34,
+      "rendered_math": 34,
+      "renderers": 34,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.4",
+      "path": "docs/solutions/4.4.md",
+      "expected_math": 14,
+      "rendered_math": 14,
+      "renderers": 14,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.5",
+      "path": "docs/solutions/4.5.md",
+      "expected_math": 30,
+      "rendered_math": 30,
+      "renderers": 30,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.6",
+      "path": "docs/solutions/4.6.md",
+      "expected_math": 17,
+      "rendered_math": 17,
+      "renderers": 17,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.7",
+      "path": "docs/solutions/4.7.md",
+      "expected_math": 28,
+      "rendered_math": 28,
+      "renderers": 28,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.8",
+      "path": "docs/solutions/4.8.md",
+      "expected_math": 54,
+      "rendered_math": 54,
+      "renderers": 54,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.9",
+      "path": "docs/solutions/4.9.md",
+      "expected_math": 17,
+      "rendered_math": 17,
+      "renderers": 17,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.10",
+      "path": "docs/solutions/4.10.md",
+      "expected_math": 20,
+      "rendered_math": 20,
+      "renderers": 20,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "4.11",
+      "path": "docs/solutions/4.11.md",
+      "expected_math": 18,
+      "rendered_math": 18,
+      "renderers": 18,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.1",
+      "path": "docs/solutions/6.1.md",
+      "expected_math": 12,
+      "rendered_math": 12,
+      "renderers": 12,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.2",
+      "path": "docs/solutions/6.2.md",
+      "expected_math": 8,
+      "rendered_math": 8,
+      "renderers": 8,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.3",
+      "path": "docs/solutions/6.3.md",
+      "expected_math": 46,
+      "rendered_math": 46,
+      "renderers": 46,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.4",
+      "path": "docs/solutions/6.4.md",
+      "expected_math": 13,
+      "rendered_math": 13,
+      "renderers": 13,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.5",
+      "path": "docs/solutions/6.5.md",
+      "expected_math": 13,
+      "rendered_math": 13,
+      "renderers": 13,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.6",
+      "path": "docs/solutions/6.6.md",
+      "expected_math": 41,
+      "rendered_math": 41,
+      "renderers": 41,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.7",
+      "path": "docs/solutions/6.7.md",
+      "expected_math": 41,
+      "rendered_math": 41,
+      "renderers": 41,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.8",
+      "path": "docs/solutions/6.8.md",
+      "expected_math": 33,
+      "rendered_math": 33,
+      "renderers": 33,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.9",
+      "path": "docs/solutions/6.9.md",
+      "expected_math": 9,
+      "rendered_math": 9,
+      "renderers": 9,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.10",
+      "path": "docs/solutions/6.10.md",
+      "expected_math": 15,
+      "rendered_math": 15,
+      "renderers": 15,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.11",
+      "path": "docs/solutions/6.11.md",
+      "expected_math": 12,
+      "rendered_math": 12,
+      "renderers": 12,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.12",
+      "path": "docs/solutions/6.12.md",
+      "expected_math": 23,
+      "rendered_math": 23,
+      "renderers": 23,
+      "errors": [],
+      "broken_images": false
+    },
+    {
+      "id": "6.13",
+      "path": "docs/solutions/6.13.md",
+      "expected_math": 27,
+      "rendered_math": 27,
+      "renderers": 27,
+      "errors": [],
+      "broken_images": false
+    }
+  ]
+}

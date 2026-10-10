@@ -36,3 +36,8 @@ def validate_solution_evidence(entry: dict, root: Path = ROOT) -> None:
     for key in ("results_path", "code_path"):
         if key in entry:
             assert (root / entry[key]).is_file(), f"Missing computational evidence: {eid}: {key}"
+
+    for relative, expected in review.get("artifact_hashes", {}).items():
+        artifact = (root / relative).resolve()
+        assert artifact.is_relative_to(root.resolve()) and artifact.is_file(), f"Missing reviewed artifact: {eid}: {relative}"
+        assert hashlib.sha256(artifact.read_bytes()).hexdigest() == expected, f"Changed reviewed artifact: {eid}: {relative}"

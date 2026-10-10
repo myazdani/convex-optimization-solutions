@@ -1,0 +1,169 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "2.11",
+      "reviewer": "applications_review",
+      "solution_sha256": "7c27560d36b6590d7cab66a95df0e4c18617f5c44a5dd3dee5d1041d16582682",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "two-dimensional",
+        "generalization"
+      ],
+      "notes": "Checked both 2D hyperbolic set and general product superlevel statement against full source page 75, including extraction line wrap; weighted AM\u2013GM proof valid."
+    },
+    {
+      "id": "2.12",
+      "reviewer": "applications_review",
+      "solution_sha256": "c6118d74ee793f2a3436c05cb65c7c48bb5edc1024fc8c89bc8233b10d80ecdd",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "notes": "All seven geometric cases checked; nonconvex counterexample and fractional-distance ball formula verified, including endpoint weights."
+    },
+    {
+      "id": "2.13",
+      "reviewer": "applications_review",
+      "solution_sha256": "49e37e680098db5e86dbdce34eccf624a690a37da793189bea1f8a6075c6286b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Exact nonclosed rank-at-least-k cone characterized; nullspace argument and binomial spectral decomposition verified."
+    },
+    {
+      "id": "2.14",
+      "reviewer": "applications_review",
+      "solution_sha256": "46f7ca29c672fb245d57914ee51917fe0c1f78171c61b9d846f0aefc1bf416b7",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Expansion proof handles nonattainment/nonclosed sets; restriction is correct intersection of translates, including radius zero."
+    },
+    {
+      "id": "2.15",
+      "reviewer": "applications_review",
+      "solution_sha256": "7321e09f5e02eb306272e81769006beda7c60b8c64b8576aa650ee7e8da414cb",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i"
+      ],
+      "notes": "All nine distribution constraints checked; quartile lower bound uses essential strict inequality and variance counterexample is valid."
+    },
+    {
+      "id": "2.16",
+      "reviewer": "applications_review",
+      "solution_sha256": "00313d102091abfb923e30cfb0684a119a1d3e21df4d52aac37443b7d1f7b64f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Witness convex combination proves shared-first-coordinate partial sum closure."
+    },
+    {
+      "id": "2.17",
+      "reviewer": "applications_review",
+      "solution_sha256": "ed4941c9750aca1a156320b550d9e8c3c4abb001df4641cdf9ab0f3fac67e268",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "All four perspective images checked; signs/strict scalar bounds correct including absent lower or upper constraints."
+    },
+    {
+      "id": "2.18",
+      "reviewer": "applications_review",
+      "solution_sha256": "48540e44a85a15f6378dcc80f1cae0c8e2ca956c72ff6daa8a24c513190072bb",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main",
+        "inverse-domain"
+      ],
+      "notes": "Homogeneous inverse and positive-domain reciprocity checked in both directions, including possible empty domain."
+    },
+    {
+      "id": "2.19",
+      "reviewer": "applications_review",
+      "solution_sha256": "575d49e18e9d2d21198d5e5a3d97650cc316a58e4f52be653deb69c7f3e16b7b",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "notes": "All four inverse images retain positive denominator; SOC and LMI scaling exactly equivalent."
+    },
+    {
+      "id": "2.20",
+      "reviewer": "applications_review",
+      "solution_sha256": "89c975ebe2b61f857f3eec338721277991d7d4487ef60742444389cebc9a4e6f",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "linear-algebra-lemma",
+        "main"
+      ],
+      "notes": "Linear algebra lemma and separation certificate correctly use nonempty affine set and nonzero orthant normal."
+    }
+  ]
+}

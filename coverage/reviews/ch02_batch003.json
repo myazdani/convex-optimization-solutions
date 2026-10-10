@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id": "2.21",
+      "reviewer": "applications_review",
+      "solution_sha256": "03456b0b2c0a8ace5af980d807e87c8d9cc38926c39692d3335d8f5979662189",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main",
+        "degenerate-sets"
+      ],
+      "notes": "Cone closure under nonnegative sums checked; source parenthetical corrected appropriately for empty-set cases."
+    },
+    {
+      "id": "2.22",
+      "reviewer": "applications_review",
+      "solution_sha256": "1f8324ac05ce1a19f810e45baab5d38d0b7bb325a91b757735b759ce866f124d",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Nonattained-distance separation proof valid; closure-interior lemma and bounded support levels justified without assuming closest original pair."
+    },
+    {
+      "id": "2.23",
+      "reviewer": "applications_review",
+      "solution_sha256": "4f226ad21988387c6f1558091a36c5a29abf9969cf44f9409d2be58dbd429d09",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Closed exponential epigraph versus axis counterexample checked against pointwise strict separation definition."
+    },
+    {
+      "id": "2.24",
+      "reviewer": "applications_review",
+      "solution_sha256": "0aabbbd6531e29d2dd56c623a013c6244454ae1102dacd43252f1c228352980e",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b"
+      ],
+      "notes": "Hyperbola supporting-halfspace intersection and complete cube normal cone checked, including zero-coordinate degeneracies."
+    },
+    {
+      "id": "2.25",
+      "reviewer": "applications_review",
+      "solution_sha256": "514bef2d16d06a035e562a6d1d9f9d380cc082775bf40023c47f2d92815f87aa",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main",
+        "picture"
+      ],
+      "notes": "Both inclusions proven; linked SVG exists and was rendered and visually inspected, with exact diamond\u2013disk\u2013square geometry.",
+      "artifact_hashes": {
+        "docs/figures/ex_2_25.svg": "9d387ec710785f67825003fe94cde58db2c404ccc8b850ab01647aca3573de96"
+      }
+    },
+    {
+      "id": "2.26",
+      "reviewer": "applications_review",
+      "solution_sha256": "a087ffbb5629508b6a1ead2bd85f099be23d0008df6b678b74d1b235128d713d",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "Support functions separate distinct nonempty closed convex sets; empty-set convention explicitly handled."
+    },
+    {
+      "id": "2.27",
+      "reviewer": "applications_review",
+      "solution_sha256": "57eb7b4257504e922e8582f5daf3e14a20436179dfb1a29104159b26fadc9e83",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "main"
+      ],
+      "notes": "First exit from segment argument does not presuppose convexity and chosen support strictly excludes exterior point."
+    },
+    {
+      "id": "2.28",
+      "reviewer": "applications_review",
+      "solution_sha256": "661fc0e9396414b3a01230990f1cc85575cab518656ed2ac99c6100dc870049d",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "n=1",
+        "n=2",
+        "n=3"
+      ],
+      "notes": "All coefficient arrangements and seven 3x3 principal minors checked; characteristic polynomial sufficiency valid for singular matrices."
+    },
+    {
+      "id": "2.29",
+      "reviewer": "applications_review",
+      "solution_sha256": "ddfbb864f740e628c5cad6afe07ebc97d49b3d8075570452d27af0fff0b4a388",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "pictures"
+      ],
+      "notes": "Planar cone classification, dual angle interval, pointedness and properness checked; both requested diagram panels rendered and visually inspected.",
+      "artifact_hashes": {
+        "docs/figures/ex_2_29.svg": "5d26e14c918e66960fbe7916eadc9f5cf4089e81f3b1f28b95d064df7ebce242"
+      }
+    },
+    {
+      "id": "2.30",
+      "reviewer": "applications_review",
+      "solution_sha256": "542a6c82f13ec338f38d17a50be95e8307a630fe67a6a197b2f158590b34dfa5",
+      "accepted": true,
+      "source_checked": true,
+      "all_subparts_checked": true,
+      "correctness_checked": true,
+      "assumptions_checked": true,
+      "subparts": [
+        "nonstrict-addition",
+        "transitivity",
+        "scaling",
+        "reflexivity",
+        "antisymmetry",
+        "limits",
+        "strict-implies-nonstrict",
+        "mixed-addition",
+        "strict-scaling",
+        "irreflexivity",
+        "perturbations"
+      ],
+      "notes": "Compared all eleven properties to actual section 2.4.1 text; each proof uses correct proper-cone hypotheses."
+    }
+  ]
+}

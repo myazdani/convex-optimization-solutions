@@ -2,7 +2,7 @@
 
 [Book index](../README.md) · [1. Examples](../examples/README.md) · [2. Computational exercises](../computational-exercises/README.md) · [3. All other exercises](../other-exercises/README.md)
 
-**321 numbered exercises; 33 solutions verified, 288 still open.** This is the complete complement of the 16 delivered computational solutions within the book's 337 numbered exercises.
+**321 numbered exercises; 96 solutions verified, 225 still open.** This is the complete complement of the 16 delivered computational solutions within the book's 337 numbered exercises.
 
 Theoretical proofs, symbolic problems, modeling exercises, and additional numerical possibilities all belong here. Verified entries link to complete original solutions and independent, source-checked review evidence. Category membership does not change when a solution is completed.
 
@@ -10,12 +10,12 @@ Theoretical proofs, symbolic problems, modeling exercises, and additional numeri
 
 | Chapter | Verified | Open | Numbered exercises in chapter |
 |---|---|---|---|
-| [Chapter 2: Convex sets](#chapter-2) | 10 | 29 | 39 |
+| [Chapter 2: Convex sets](#chapter-2) | 39 | 0 | 39 |
 | [Chapter 3: Convex functions](#chapter-3) | 0 | 60 | 60 |
-| [Chapter 4: Convex optimization problems](#chapter-4) | 10 | 54 | 65 |
+| [Chapter 4: Convex optimization problems](#chapter-4) | 30 | 34 | 65 |
 | [Chapter 5: Duality](#chapter-5) | 0 | 41 | 44 |
-| [Chapter 6: Approximation and fitting](#chapter-6) | 13 | 1 | 14 |
-| [Chapter 7: Statistical estimation](#chapter-7) | 0 | 13 | 13 |
+| [Chapter 6: Approximation and fitting](#chapter-6) | 14 | 0 | 14 |
+| [Chapter 7: Statistical estimation](#chapter-7) | 13 | 0 | 13 |
 | [Chapter 8: Geometric problems](#chapter-8) | 0 | 30 | 30 |
 | [Chapter 9: Unconstrained minimization](#chapter-9) | 0 | 28 | 32 |
 | [Chapter 10: Equality constrained minimization](#chapter-10) | 0 | 13 | 16 |
@@ -25,7 +25,7 @@ Chapter 1 and the appendices contain no numbered end-of-chapter exercises. The s
 
 ## Chapter 2
 
-Convex sets · **10 verified, 29 open**
+Convex sets · **39 verified, 0 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -39,35 +39,35 @@ Convex sets · **10 verified, 29 open**
 | 2.8 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.8.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
 | 2.9 | [Printed p. 60 / PDF p. 74](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=74) | [Verified](../../docs/solutions/2.9.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
 | 2.10 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.10.md) · [Review](../../coverage/reviews/ch02_batch001.json) |
-| 2.11 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | Pending |
-| 2.12 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | Pending |
-| 2.13 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | Pending |
-| 2.14 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | Pending |
-| 2.15 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | Pending |
-| 2.16 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | Pending |
-| 2.17 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | Pending |
-| 2.18 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | Pending |
-| 2.19 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | Pending |
-| 2.20 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.21 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.22 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.23 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.24 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.25 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.26 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.27 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.28 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | Pending |
-| 2.29 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | Pending |
-| 2.30 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | Pending |
-| 2.31 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | Pending |
-| 2.32 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | Pending |
-| 2.33 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | Pending |
-| 2.34 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | Pending |
-| 2.35 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | Pending |
-| 2.36 | [Printed p. 65 / PDF p. 79](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79) | Pending |
-| 2.37 | [Printed p. 65 / PDF p. 79](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79) | Pending |
-| 2.38 | [Printed p. 66 / PDF p. 80](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80) | Pending |
-| 2.39 | [Printed p. 66 / PDF p. 80](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80) | Pending |
+| 2.11 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.11.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.12 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.12.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.13 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.13.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.14 | [Printed p. 61 / PDF p. 75](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=75) | [Verified](../../docs/solutions/2.14.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.15 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.15.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.16 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.16.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.17 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.17.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.18 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.18.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.19 | [Printed p. 62 / PDF p. 76](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=76) | [Verified](../../docs/solutions/2.19.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.20 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.20.md) · [Review](../../coverage/reviews/ch02_batch002.json) |
+| 2.21 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.21.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.22 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.22.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.23 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.23.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.24 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.24.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.25 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.25.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.26 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.26.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.27 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.27.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.28 | [Printed p. 63 / PDF p. 77](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=77) | [Verified](../../docs/solutions/2.28.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.29 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | [Verified](../../docs/solutions/2.29.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.30 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | [Verified](../../docs/solutions/2.30.md) · [Review](../../coverage/reviews/ch02_batch003.json) |
+| 2.31 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | [Verified](../../docs/solutions/2.31.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.32 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | [Verified](../../docs/solutions/2.32.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.33 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | [Verified](../../docs/solutions/2.33.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.34 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | [Verified](../../docs/solutions/2.34.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.35 | [Printed p. 64 / PDF p. 78](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=78) | [Verified](../../docs/solutions/2.35.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.36 | [Printed p. 65 / PDF p. 79](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79) | [Verified](../../docs/solutions/2.36.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.37 | [Printed p. 65 / PDF p. 79](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=79) | [Verified](../../docs/solutions/2.37.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.38 | [Printed p. 66 / PDF p. 80](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80) | [Verified](../../docs/solutions/2.38.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
+| 2.39 | [Printed p. 66 / PDF p. 80](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=80) | [Verified](../../docs/solutions/2.39.md) · [Review](../../coverage/reviews/ch02_batch004.json) |
 
 ## Chapter 3
 
@@ -138,7 +138,7 @@ Convex functions · **0 verified, 60 open**
 
 ## Chapter 4
 
-Convex optimization problems · **10 verified, 54 open**
+Convex optimization problems · **30 verified, 34 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -152,26 +152,26 @@ Convex optimization problems · **10 verified, 54 open**
 | 4.9 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.9.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
 | 4.10 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.10.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
 | 4.11 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.11.md) · [Review](../../coverage/reviews/ch04_batch001.json) |
-| 4.12 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | Pending |
-| 4.13 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | Pending |
-| 4.14 | [Printed p. 194 / PDF p. 208](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208) | Pending |
-| 4.15 | [Printed p. 194 / PDF p. 208](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208) | Pending |
-| 4.16 | [Printed p. 194 / PDF p. 208](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208) | Pending |
-| 4.17 | [Printed p. 195 / PDF p. 209](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209) | Pending |
-| 4.18 | [Printed p. 195 / PDF p. 209](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209) | Pending |
-| 4.19 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | Pending |
-| 4.20 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | Pending |
-| 4.21 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | Pending |
-| 4.22 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | Pending |
-| 4.23 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | Pending |
-| 4.24 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | Pending |
-| 4.25 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | Pending |
-| 4.26 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | Pending |
-| 4.27 | [Printed p. 198 / PDF p. 212](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212) | Pending |
-| 4.28 | [Printed p. 198 / PDF p. 212](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212) | Pending |
-| 4.29 | [Printed p. 199 / PDF p. 213](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213) | Pending |
-| 4.30 | [Printed p. 199 / PDF p. 213](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213) | Pending |
-| 4.31 | [Printed p. 199 / PDF p. 213](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213) | Pending |
+| 4.12 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.12.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.13 | [Printed p. 193 / PDF p. 207](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=207) | [Verified](../../docs/solutions/4.13.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.14 | [Printed p. 194 / PDF p. 208](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208) | [Verified](../../docs/solutions/4.14.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.15 | [Printed p. 194 / PDF p. 208](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208) | [Verified](../../docs/solutions/4.15.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.16 | [Printed p. 194 / PDF p. 208](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=208) | [Verified](../../docs/solutions/4.16.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.17 | [Printed p. 195 / PDF p. 209](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209) | [Verified](../../docs/solutions/4.17.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.18 | [Printed p. 195 / PDF p. 209](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=209) | [Verified](../../docs/solutions/4.18.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.19 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | [Verified](../../docs/solutions/4.19.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.20 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | [Verified](../../docs/solutions/4.20.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.21 | [Printed p. 196 / PDF p. 210](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=210) | [Verified](../../docs/solutions/4.21.md) · [Review](../../coverage/reviews/ch04_batch002.json) |
+| 4.22 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.22.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.23 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.23.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.24 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.24.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.25 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.25.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.26 | [Printed p. 197 / PDF p. 211](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=211) | [Verified](../../docs/solutions/4.26.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.27 | [Printed p. 198 / PDF p. 212](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212) | [Verified](../../docs/solutions/4.27.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.28 | [Printed p. 198 / PDF p. 212](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=212) | [Verified](../../docs/solutions/4.28.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.29 | [Printed p. 199 / PDF p. 213](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213) | [Verified](../../docs/solutions/4.29.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.30 | [Printed p. 199 / PDF p. 213](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213) | [Verified](../../docs/solutions/4.30.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
+| 4.31 | [Printed p. 199 / PDF p. 213](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213) | [Verified](../../docs/solutions/4.31.md) · [Review](../../coverage/reviews/ch04_batch003.json) |
 | 4.32 | [Printed p. 199 / PDF p. 213](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213) | Pending |
 | 4.33 | [Printed p. 199 / PDF p. 213](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=213) | Pending |
 | 4.34 | [Printed p. 200 / PDF p. 214](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=214) | Pending |
@@ -257,7 +257,7 @@ Duality · **0 verified, 41 open**
 
 ## Chapter 6
 
-Approximation and fitting · **13 verified, 1 open**
+Approximation and fitting · **14 verified, 0 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
@@ -274,27 +274,27 @@ Approximation and fitting · **13 verified, 1 open**
 | 6.11 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | [Verified](../../docs/solutions/6.11.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
 | 6.12 | [Printed p. 347 / PDF p. 361](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=361) | [Verified](../../docs/solutions/6.12.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
 | 6.13 | [Printed p. 348 / PDF p. 362](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362) | [Verified](../../docs/solutions/6.13.md) · [Review](../../coverage/reviews/ch06_batch001.json) |
-| 6.14 | [Printed p. 348 / PDF p. 362](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362) | Pending |
+| 6.14 | [Printed p. 348 / PDF p. 362](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=362) | [Verified](../../docs/solutions/6.14.md) · [Review](../../coverage/reviews/ch06_batch002.json) |
 
 ## Chapter 7
 
-Statistical estimation · **0 verified, 13 open**
+Statistical estimation · **13 verified, 0 open**
 
 | Exercise | Source in official book | Status |
 |---|---|---|
-| 7.1 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | Pending |
-| 7.2 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | Pending |
-| 7.3 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | Pending |
-| 7.4 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | Pending |
-| 7.5 | [Printed p. 394 / PDF p. 408](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408) | Pending |
-| 7.6 | [Printed p. 394 / PDF p. 408](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408) | Pending |
-| 7.7 | [Printed p. 394 / PDF p. 408](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408) | Pending |
-| 7.8 | [Printed p. 395 / PDF p. 409](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409) | Pending |
-| 7.9 | [Printed p. 395 / PDF p. 409](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409) | Pending |
-| 7.10 | [Printed p. 395 / PDF p. 409](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409) | Pending |
-| 7.11 | [Printed p. 395 / PDF p. 409](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409) | Pending |
-| 7.12 | [Printed p. 396 / PDF p. 410](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410) | Pending |
-| 7.13 | [Printed p. 396 / PDF p. 410](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410) | Pending |
+| 7.1 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.1.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.2 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.2.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.3 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.3.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.4 | [Printed p. 393 / PDF p. 407](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=407) | [Verified](../../docs/solutions/7.4.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.5 | [Printed p. 394 / PDF p. 408](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408) | [Verified](../../docs/solutions/7.5.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.6 | [Printed p. 394 / PDF p. 408](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408) | [Verified](../../docs/solutions/7.6.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.7 | [Printed p. 394 / PDF p. 408](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=408) | [Verified](../../docs/solutions/7.7.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.8 | [Printed p. 395 / PDF p. 409](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409) | [Verified](../../docs/solutions/7.8.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.9 | [Printed p. 395 / PDF p. 409](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409) | [Verified](../../docs/solutions/7.9.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.10 | [Printed p. 395 / PDF p. 409](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409) | [Verified](../../docs/solutions/7.10.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.11 | [Printed p. 395 / PDF p. 409](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=409) | [Verified](../../docs/solutions/7.11.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.12 | [Printed p. 396 / PDF p. 410](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410) | [Verified](../../docs/solutions/7.12.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
+| 7.13 | [Printed p. 396 / PDF p. 410](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=410) | [Verified](../../docs/solutions/7.13.md) · [Review](../../coverage/reviews/ch07_batch001.json) |
 
 ## Chapter 8
 

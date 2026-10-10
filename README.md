@@ -11,7 +11,7 @@ are not reproduced.
 
 1. **[Examples](docs/examples/README.md)**: **2 of 62** numerical worked-example studies reproduced and verified.
 2. **[Computational exercises](docs/computational-exercises/README.md)**: the **16 already-delivered numerical solutions**, with original derivations, executable code, and actual result tables.
-3. **[All other exercises](docs/other-exercises/README.md)**: **33 of 321** remaining numbered exercises have complete, independently verified solutions; **288 remain open**.
+3. **[All other exercises](docs/other-exercises/README.md)**: **96 of 321** remaining numbered exercises have complete, independently verified solutions; **225 remain open**.
 
 The [canonical category manifest](coverage/catalog.json) accounts for all **337 numbered exercises exactly once** across categories 2 and 3. Worked examples are tracked separately. The [work ledger](coverage/solution_progress.json) records all 399 items and distinguishes active work, independent review, completion, and exact blockers. Inventory coverage is not solution completion.
 
@@ -110,8 +110,10 @@ Each solution states its convex formulation and checks feasibility or stationari
 as appropriate. Where possible, a separate derivation, closed form, or independent
 solver supplies a cross-check. Tests use tolerances appropriate to the solver and
 problem conditioning; they do not require bitwise equality across platforms.
-Prescribed textbook datasets must be used when available. Synthetic substitutes
-must be explicitly labeled and never counted as completing a prescribed-data task.
+Prescribed textbook datasets must be used when available. When original inputs
+are unavailable, the approved scope allows documented method reproductions with
+new inputs. These are counted separately from exact-data reproductions and never
+claimed to match an unavailable textbook instance.
 
 The upstream textbook, figures, and external datasets retain their original rights. These original code
 and notes are provided as a study companion, without an implied license to any
