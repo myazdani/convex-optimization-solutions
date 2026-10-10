@@ -9,7 +9,7 @@ explanations; it does not reproduce the textbook or its solution manual.
 
 ## Verified scope
 
-**16 runnable solutions, 97 passing tests, 19 generated figures.** The full
+**16 runnable solutions, 115 passing tests, 19 generated figures.** The full
 source audit covers all 337 numbered exercises and identifies 11 that explicitly
 request numerical algorithm execution or implementation. All 11 are implemented
 and verified, together with five concrete-data or visualization extras:
@@ -20,6 +20,10 @@ and verified, together with five concrete-data or visualization extras:
 Start with the [solution index](docs/README.md), which links each original
 explanation and recorded result. This snapshot includes the full-size seed-0
 experiments, including the 100-variable partitioning SDP, and all required plots.
+Every solution page now includes **actual executed results in Markdown tables**,
+generated directly from its recorded JSON output. The fresh
+[execution record](coverage/results-refresh.json) records the rerun's command,
+time, package versions, output checksums, and validation.
 
 The [source audit](coverage/source_audit.json) and
 [inventory](coverage/inventory.json) make exclusions explicit. **55 additional
@@ -31,7 +35,9 @@ exercise collection are outside this scope. This is not a solution set for all
 The [verification report](coverage/verification.json) records the clean-environment
 installation, numerical tests, independent mathematical checks, full reproduction,
 and figure review. The [formatting regression log](coverage/formatting-tests.log)
-records a later full-suite run with two additional GitHub Markdown checks.
+records the earlier math-formatting checks. The current
+[115-test regression log](coverage/results-tests.log) also checks every displayed
+result against the executed outputs.
 No known failures remain within the selected scope.
 
 ## Setup
@@ -57,7 +63,13 @@ convex-solutions list
 convex-solutions audit
 convex-solutions run 9.30 --output artifacts/9.30 --seed 0
 convex-solutions run all --output artifacts --seed 0
+python scripts/render_results.py
+python scripts/render_results.py --check
 ```
+
+For the complete publication workflow, use `python scripts/reproduce_results.py`
+(or `make reproduce`). It executes all 16 full-size experiments, records the
+actual command and output checksums, and updates every Markdown result table.
 
 Only implemented modules run. `run all` reports both executed modules and
 required/selected coverage; optional unimplemented extensions stay visible in
@@ -68,6 +80,12 @@ All randomness uses a local seeded NumPy generator. Source and inventory SHA-256
 fingerprints are recorded in each CLI output. Figures use a noninteractive
 backend, so scripts also run on headless machines.
 
+`render_results.py` updates only the marked results block in each solution page;
+derivations stay intact. Its `--check` mode fails if any displayed table differs
+from the recorded run. Run it after rerunning the experiments. The table
+renderers never substitute expected values when output is missing. Numerical
+residuals, runtimes, and final solver digits can vary across environments.
+
 ## Repository layout
 
 - `coverage/`: source-backed scope audit, manifest schema, completion evidence
@@ -75,7 +93,7 @@ backend, so scripts also run on headless machines.
 - `docs/solutions/`: derivations, modeling choices, results, and exercise caveats
 - `data/`: source provenance and permitted data; generated data labeled clearly
 - `tests/`: mathematical checks, numerical regressions, and CLI tests
-- `artifacts/`: regenerated outputs, excluded from source control
+- `artifacts/`: checked-in executed snapshot, figures, and generated datasets
 - `scripts/`: validation and reproducibility helpers
 
 ## Numerical standards

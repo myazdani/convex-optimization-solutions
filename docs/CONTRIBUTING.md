@@ -27,6 +27,20 @@ Do not edit another worker's chapter without coordination. Integration owns the
 CLI, shared helpers, manifest schema, README, and aggregate tests. Inventory
 research owns the initial `coverage/inventory.json` source audit.
 
+## Executed results in the notes
+
+Each solution includes one `BEGIN GENERATED RESULTS` / `END GENERATED RESULTS`
+HTML-comment pair. Run `python scripts/reproduce_results.py` to execute the full
+seed-0 profile, record its provenance, and fill those blocks from
+`artifacts/*/results.json`. To refresh only the tables from existing outputs,
+run `python scripts/render_results.py`.
+Use `python scripts/render_results.py --check` before publishing: it compares the
+entire displayed result section with freshly rendered tables. Extend the chapter
+renderers in `scripts/result_sections_early.py` or `scripts/result_sections_later.py`
+when adding metrics. They must compute their tables from the execution envelope,
+not copy expected numeric values into text. Preserve the artifact JSON alongside
+the Markdown so readers can inspect unrounded values and execution provenance.
+
 ## GitHub Markdown mathematics
 
 Use GitHub's dollar/backtick pairs for inline math, as in $`x^2`$, and fenced

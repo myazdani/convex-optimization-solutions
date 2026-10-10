@@ -1,0 +1,227 @@
+{
+  "description": "Fresh full execution used to generate numerical tables in every solution Markdown page. Earlier coverage reports are historical validation evidence.",
+  "started_at": "2026-10-10T03:18:55.594737+00:00",
+  "finished_at": "2026-10-10T03:19:30.672714+00:00",
+  "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 /workspace/shared/convex-optimization/.venv/bin/python -u -m convex_solutions run all --output artifacts --seed 0",
+  "reproduce_command": "python scripts/reproduce_results.py",
+  "exit_code": 0,
+  "mode": "full",
+  "seed": 0,
+  "exercise_ids": [
+    "4.3",
+    "5.29",
+    "5.33",
+    "5.34",
+    "9.10",
+    "9.30",
+    "9.31",
+    "9.32",
+    "10.14",
+    "10.15",
+    "10.16",
+    "11.1",
+    "11.21",
+    "11.22",
+    "11.23",
+    "11.24"
+  ],
+  "successful_exercises": 16,
+  "failed_exercises": 0,
+  "source_tree_sha256": "660d8ae1eef35d77906e13b576567906ade2e8a52ea9f5cb508c9685f4fe924b",
+  "inventory_sha256": "8c510a98a4368c3c006183df4cfd445cc1f4a1ad02b26e7eecc855b34db769ba",
+  "environment": {
+    "available_solvers": [
+      "CLARABEL",
+      "SCS",
+      "SCIPY",
+      "HIGHS",
+      "OSQP"
+    ],
+    "packages": {
+      "clarabel": "0.11.1",
+      "cvxpy": "1.9.3",
+      "matplotlib": "3.10.8",
+      "numpy": "2.3.5",
+      "osqp": "1.1.3",
+      "scipy": "1.17.0",
+      "scs": "3.3.1"
+    },
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "thread_environment": {
+      "MKL_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1"
+    }
+  },
+  "total_solver_plot_seconds": 34.43782165599987,
+  "log": "coverage/results-rerun.log",
+  "outputs": [
+    {
+      "exercise_id": "4.3",
+      "path": "artifacts/4.3/results.json",
+      "executed_at": "2026-10-10T03:18:56.256306+00:00",
+      "duration_seconds": 0.5855129920000763,
+      "sha256": "8781033bc5b6deff990b20a2a8352167105d33c20de089f5fccb5007d4897837"
+    },
+    {
+      "exercise_id": "5.29",
+      "path": "artifacts/5.29/results.json",
+      "executed_at": "2026-10-10T03:18:57.703524+00:00",
+      "duration_seconds": 1.4329733360000318,
+      "sha256": "cb22ee727931225e6db33b6ab66352e820c89ab47317b77ea88a0548aeb35d52"
+    },
+    {
+      "exercise_id": "5.33",
+      "path": "artifacts/5.33/results.json",
+      "executed_at": "2026-10-10T03:18:57.922265+00:00",
+      "duration_seconds": 0.207256654000048,
+      "sha256": "18f261ee2b418fc0f1e3b15b9dd36f1389a468cfef10122bb6bfe1930e0ed1aa"
+    },
+    {
+      "exercise_id": "5.34",
+      "path": "artifacts/5.34/results.json",
+      "executed_at": "2026-10-10T03:18:58.162922+00:00",
+      "duration_seconds": 0.22908957800063945,
+      "sha256": "9dfbd0e5b35a165e04e3f50cd11a1083721ed515dd24a7ea0620bcc8cee66d99"
+    },
+    {
+      "exercise_id": "9.10",
+      "path": "artifacts/9.10/results.json",
+      "executed_at": "2026-10-10T03:18:58.524757+00:00",
+      "duration_seconds": 0.3496693150000283,
+      "sha256": "f932c70df0430ba9dfbe73bfc05fe12cb231f06bdac3eef12550eadd0df62ee8"
+    },
+    {
+      "exercise_id": "9.30",
+      "path": "artifacts/9.30/results.json",
+      "executed_at": "2026-10-10T03:19:23.000173+00:00",
+      "duration_seconds": 24.46323169199968,
+      "sha256": "6f2207e8ea8ffe80805b6c9bd31daf558b0fcd7ff31bb19fbc376245ebb481f1"
+    },
+    {
+      "exercise_id": "9.31",
+      "path": "artifacts/9.31/results.json",
+      "executed_at": "2026-10-10T03:19:26.090310+00:00",
+      "duration_seconds": 3.072990957000002,
+      "sha256": "4848eb961f265c26631ccf7318160c864ed53035c2cec9775067584fc2a4a1c9"
+    },
+    {
+      "exercise_id": "9.32",
+      "path": "artifacts/9.32/results.json",
+      "executed_at": "2026-10-10T03:19:26.859466+00:00",
+      "duration_seconds": 0.722572737999144,
+      "sha256": "839c58362c9e88852f0c954a2c2c8cc0ba1df6a9515fcdf243090f3c9b6a2bb4"
+    },
+    {
+      "exercise_id": "10.14",
+      "path": "artifacts/10.14/results.json",
+      "executed_at": "2026-10-10T03:19:27.221924+00:00",
+      "duration_seconds": 0.34548120199997356,
+      "sha256": "ef9cc1687483244a6554a750130147566753d531bd2528aa7eb1ebc1731a17cd"
+    },
+    {
+      "exercise_id": "10.15",
+      "path": "artifacts/10.15/results.json",
+      "executed_at": "2026-10-10T03:19:27.548003+00:00",
+      "duration_seconds": 0.31530195899995306,
+      "sha256": "797f85e8b45cc7b423c645a7fdad4005626f20a36bcc41bc2e0defd98e10160f"
+    },
+    {
+      "exercise_id": "10.16",
+      "path": "artifacts/10.16/results.json",
+      "executed_at": "2026-10-10T03:19:27.911874+00:00",
+      "duration_seconds": 0.3515317929995945,
+      "sha256": "b5c414153f3e331ee111a3e02ece5bda006f48da0be41549ea067682a0bb2e00"
+    },
+    {
+      "exercise_id": "11.1",
+      "path": "artifacts/11.1/results.json",
+      "executed_at": "2026-10-10T03:19:28.536425+00:00",
+      "duration_seconds": 0.6074642530002166,
+      "sha256": "5f078362281450ace11257def46d67342e9b1f7648286426225c2512b5f423e6"
+    },
+    {
+      "exercise_id": "11.21",
+      "path": "artifacts/11.21/results.json",
+      "executed_at": "2026-10-10T03:19:28.774894+00:00",
+      "duration_seconds": 0.2268081930005792,
+      "sha256": "e794cf9a2eea71af28bd1020a19e241538a3b6b2659ac829ce3603c4a400475f"
+    },
+    {
+      "exercise_id": "11.22",
+      "path": "artifacts/11.22/results.json",
+      "executed_at": "2026-10-10T03:19:29.061498+00:00",
+      "duration_seconds": 0.27223213799970836,
+      "sha256": "004c181ab7be966f10bd6e5f1e7127e5737290e540425b1d8589be11aa58fb2c"
+    },
+    {
+      "exercise_id": "11.23",
+      "path": "artifacts/11.23/results.json",
+      "executed_at": "2026-10-10T03:19:29.844480+00:00",
+      "duration_seconds": 0.7690801970002212,
+      "sha256": "bb028cba7de7c47af9315a812b698c70eedaa71405d10294dce7b8f00d77642b"
+    },
+    {
+      "exercise_id": "11.24",
+      "path": "artifacts/11.24/results.json",
+      "executed_at": "2026-10-10T03:19:30.395001+00:00",
+      "duration_seconds": 0.48662465899997187,
+      "sha256": "ec389a936282507bee9812edc4e8da1e6d6d006ecc21e567d76bfa6c51ae6f47"
+    }
+  ],
+  "checks": [
+    {
+      "name": "full_seed_zero_execution",
+      "status": "passed",
+      "exercises": 16,
+      "evidence": "coverage/results-rerun.log"
+    },
+    {
+      "name": "complete_test_suite",
+      "status": "passed",
+      "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MKL_NUM_THREADS=1 .venv/bin/python -m pytest -q --junitxml=coverage/results-tests.xml",
+      "passed": 115,
+      "failed": 0,
+      "duration_seconds": 4.36,
+      "evidence": "coverage/results-tests.log"
+    },
+    {
+      "name": "generated_markdown_matches_executed_outputs",
+      "status": "passed",
+      "command": ".venv/bin/python scripts/render_results.py --check",
+      "exercises": 16,
+      "changed": 0
+    },
+    {
+      "name": "artifact_integrity",
+      "status": "passed",
+      "command": ".venv/bin/python scripts/verify_outputs.py",
+      "exercises": 16,
+      "figure_count": 19,
+      "evidence": "coverage/results-artifact-checks.json"
+    },
+    {
+      "name": "inventory_schema",
+      "status": "passed",
+      "command": ".venv/bin/python scripts/validate_inventory.py",
+      "records": 71
+    },
+    {
+      "name": "environment_dependencies",
+      "status": "passed",
+      "command": ".venv/bin/python -m pip check",
+      "result": "No broken requirements found."
+    },
+    {
+      "name": "independent_numeric_and_drift_review",
+      "status": "passed",
+      "detail": "All16 generated bodies checked against JSON and independent arithmetic; displayed-objective and source-JSON mutation tests fail check mode as intended; regeneration repairs only changed page; second regeneration is idempotent; all19plots linked once."
+    }
+  ],
+  "limitations": [
+    "Runtime and final floating-point digits vary by machine and solver versions.",
+    "Embedded results are numerical checks, not interval-arithmetic proofs.",
+    "The 16 selected solutions cover 11 required computational exercises plus five selected extras, not every analytical textbook exercise."
+  ]
+}

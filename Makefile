@@ -1,4 +1,4 @@
-.PHONY: setup test audit reproduce bundle-inventory package
+.PHONY: setup test audit reproduce results check-results bundle-inventory package
 
 PYTHON ?= python
 
@@ -13,7 +13,13 @@ audit:
 	$(PYTHON) -m convex_solutions audit
 
 reproduce:
-	$(PYTHON) -m convex_solutions run all --output artifacts --seed 0
+	$(PYTHON) scripts/reproduce_results.py
+
+results:
+	$(PYTHON) scripts/render_results.py
+
+check-results:
+	$(PYTHON) scripts/render_results.py --check
 
 bundle-inventory:
 	$(PYTHON) scripts/package_inventory.py
