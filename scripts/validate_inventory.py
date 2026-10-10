@@ -1,4 +1,4 @@
-"""Validate the canonical source manifest with its JSON Schema."""
+"""Validate the historical computational inventory with its JSON Schema."""
 import json
 from pathlib import Path
 import jsonschema

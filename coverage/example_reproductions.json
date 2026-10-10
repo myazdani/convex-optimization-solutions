@@ -1,0 +1,50 @@
+{
+  "entries": [
+    {
+      "code_path": "examples/ex_7_4.py",
+      "id": "example_7_4",
+      "output_match_verified": true,
+      "results_path": "artifacts/examples/7.4/results.json",
+      "solution_path": "docs/examples/7.4.md",
+      "status": "verified",
+      "verification": {
+        "executed_at": "2026-10-10T04:08:34.485204+00:00",
+        "independent_checks": [
+          "SciPy/HiGHS LP",
+          "exact weighted-error certificate",
+          "all 16 deterministic rules",
+          "102-point CVXPY frontier versus exact threshold polygon"
+        ],
+        "plot_review": "Passed direct visual inspection: labels, axes, values, legends, and layout.",
+        "test_command": "OPENBLAS_NUM_THREADS=1 python -m pytest tests/test_worked_examples_7_4_8_3.py tests/test_docs_formatting.py -q",
+        "test_log": "coverage/example-probability-tests.log",
+        "test_result": "25 passed; 23 worked-example tests and 2 repository-wide Markdown-format tests"
+      },
+      "verification_path": "coverage/example-probability-verification.json"
+    },
+    {
+      "code_path": "examples/ex_8_3.py",
+      "id": "example_8_3",
+      "output_match_verified": true,
+      "results_path": "artifacts/examples/8.3/results.json",
+      "solution_path": "docs/examples/8.3.md",
+      "status": "verified",
+      "verification": {
+        "executed_at": "2026-10-10T04:08:36.840204+00:00",
+        "independent_checks": [
+          "SCS SDP backend",
+          "closed-form principal-minor endpoints",
+          "full four-vector Gram attainability certificates",
+          "primal/dual feasibility, stationarity, and complementarity"
+        ],
+        "plot_review": "Passed direct visual inspection: labels, axes, values, legends, and layout.",
+        "test_command": "OPENBLAS_NUM_THREADS=1 python -m pytest tests/test_worked_examples_7_4_8_3.py tests/test_docs_formatting.py -q",
+        "test_log": "coverage/example-probability-tests.log",
+        "test_result": "25 passed; 23 worked-example tests and 2 repository-wide Markdown-format tests"
+      },
+      "verification_path": "coverage/example-probability-verification.json"
+    }
+  ],
+  "schema_version": 1,
+  "verified_at": "2026-10-10T04:09:34.625477+00:00"
+}

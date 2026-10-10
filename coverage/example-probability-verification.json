@@ -1,0 +1,109 @@
+{
+  "book_pdf_sha256": "40d976c83c18cce1900eff8c41bd5ad408c102b813af39d05ff85678ccf8d76e",
+  "data_provenance": "All problem data transcribed from printed textbook data; no synthetic replacement datasets. Official CVX source consulted; original implementation without copied MATLAB code.",
+  "examples": {
+    "7.4": {
+      "artifact_sha256": {
+        "artifacts/examples/7.4/7.4.json": "20a0d433c8dda105317e20564ecf8398ea3a9c1c61ef14f5db18ee118c4db919",
+        "artifacts/examples/7.4/receiver_operating_curve.png": "5c785dfb08abfa2d4b81ab8bf58bfa182ffcdb34006ccfcab9e5040584857a41",
+        "artifacts/examples/7.4/results.json": "332ba2bcd0ca04f3c1dd48be004a96156d45f9231298ec2e08a6e95cc26451df"
+      },
+      "execution": {
+        "command": "/workspace/shared/convex-optimization/.venv/bin/python /workspace/shared/convex-optimization/examples/ex_7_4.py --output artifacts/examples/7.4 --seed 0",
+        "duration_seconds": 1.958056243000101,
+        "environment": {
+          "available_solvers": [
+            "CLARABEL",
+            "SCS",
+            "SCIPY",
+            "HIGHS",
+            "OSQP"
+          ],
+          "packages": {
+            "clarabel": "0.11.1",
+            "cvxpy": "1.9.3",
+            "matplotlib": "3.10.8",
+            "numpy": "2.3.5",
+            "osqp": "1.1.3",
+            "scipy": "1.17.0",
+            "scs": "3.3.1"
+          },
+          "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+          "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "thread_environment": {
+            "MKL_NUM_THREADS": null,
+            "OMP_NUM_THREADS": null,
+            "OPENBLAS_NUM_THREADS": "1"
+          }
+        },
+        "executed_at": "2026-10-10T04:08:34.485204+00:00",
+        "implementation_sha256": "ecc994359e09617c46e188af43b92cc1bd3add795aee3a8a444e4562b4bf7ecd",
+        "source_tree_sha256": "660d8ae1eef35d77906e13b576567906ade2e8a52ea9f5cb508c9685f4fe924b",
+        "working_directory": "/workspace/shared/convex-optimization"
+      },
+      "numerical_checks": {
+        "independent_solver_error": 5.53335155473178e-13,
+        "minimax_exact_error": 5.533073998975624e-13,
+        "randomization_improvement": 0.033333333332758563
+      }
+    },
+    "8.3": {
+      "artifact_sha256": {
+        "artifacts/examples/8.3/8.3.json": "6f095387a5c4a1d5ab00d295dd6d6282e0cb25c8672bc6e02ce90270d6e3cbce",
+        "artifacts/examples/8.3/correlation_bound_matrices.png": "e612c6937930fc300f3e6c911ff83c7835fa09004074d0704c3721d4bdd3f26e",
+        "artifacts/examples/8.3/results.json": "9f0d325be5a98feed5cc48f74b9f49559494862738b2e2b756b22591ea3d8f33"
+      },
+      "execution": {
+        "command": "/workspace/shared/convex-optimization/.venv/bin/python /workspace/shared/convex-optimization/examples/ex_8_3.py --output artifacts/examples/8.3 --seed 0",
+        "duration_seconds": 2.1235446370001227,
+        "environment": {
+          "available_solvers": [
+            "CLARABEL",
+            "SCS",
+            "SCIPY",
+            "HIGHS",
+            "OSQP"
+          ],
+          "packages": {
+            "clarabel": "0.11.1",
+            "cvxpy": "1.9.3",
+            "matplotlib": "3.10.8",
+            "numpy": "2.3.5",
+            "osqp": "1.1.3",
+            "scipy": "1.17.0",
+            "scs": "3.3.1"
+          },
+          "platform": "Linux-6.18.44-x86_64-with-glibc2.41",
+          "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+          "thread_environment": {
+            "MKL_NUM_THREADS": null,
+            "OMP_NUM_THREADS": null,
+            "OPENBLAS_NUM_THREADS": "1"
+          }
+        },
+        "executed_at": "2026-10-10T04:08:36.840204+00:00",
+        "implementation_sha256": "e578c7a716ff6054d6ac2a86a34b1cba61023bf2b5f3ed074b68acd042707946",
+        "source_tree_sha256": "660d8ae1eef35d77906e13b576567906ade2e8a52ea9f5cb508c9685f4fe924b",
+        "working_directory": "/workspace/shared/convex-optimization"
+      },
+      "numerical_checks": {
+        "lower_analytic_error": 9.040213022615262e-12,
+        "lower_solver_difference": 6.483896752840224e-11,
+        "upper_analytic_error": 3.905939460757679e-11,
+        "upper_solver_difference": 5.023689797489794e-11
+      }
+    }
+  },
+  "plots_reviewed": [
+    "artifacts/examples/7.4/receiver_operating_curve.png",
+    "artifacts/examples/8.3/correlation_bound_matrices.png"
+  ],
+  "scope": "Two exact-data worked-example pilots, not a claim of completing the worked-example inventory.",
+  "test_log": "coverage/example-probability-tests.log",
+  "test_log_sha256": "3a03745ef959a4399c82130c13d4ee7d7e1ce42bafef24caea79f68e97d5a9c1",
+  "tests": {
+    "command": "OPENBLAS_NUM_THREADS=1 .venv/bin/python -m pytest tests/test_worked_examples_7_4_8_3.py tests/test_docs_formatting.py -q",
+    "result": "25 passed in 6.01s"
+  },
+  "verified_at": "2026-10-10T04:09:34.625477+00:00"
+}

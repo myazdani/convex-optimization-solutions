@@ -1,8 +1,27 @@
 # Solution index
 
-All 16 selected solutions include original explanation, executable code, and actual executed numerical results embedded directly in their Markdown pages. The 11 required entries explicitly request numerical execution or implementation; the five extras add concrete numerical examples.
+## Three categories
 
-| Exercise | Scope | Topic | Results |
+1. **[Examples](examples/README.md)**: numerical worked examples in the text with
+   supplied results or figures to reproduce: **2 verified, 60 pending** across 62 studies.
+   Start with [Example 7.4](examples/7.4.md) and [Example 8.3](examples/8.3.md).
+2. **[Computational exercises](computational-exercises/README.md)**: the 16 existing
+   numerical exercise solutions, including five numerical extensions, all verified.
+3. **[All other exercises](other-exercises/README.md)**: the other 321 numbered
+   exercises, including theoretical work, with chapter/source links and pending status.
+
+All 337 numbered exercises appear exactly once in categories 2 and 3. The worked
+examples in category 1 are a different kind of book content and do not count toward
+those 337 exercises. The [canonical manifest](../coverage/catalog.json) records
+categories, status, source pages, and delivered files.
+
+## Existing solution links
+
+The 16 solution URLs below are preserved. "Required" and "Extra" describe the
+historical numerical selection, not the current three-category scope. In particular,
+the five extras are numbered exercises, not worked examples from the text.
+
+| Exercise | Historical numerical selection | Topic | Results |
 |---|---|---|---|
 | [4.3](solutions/4.3.md) | Extra | Box-QP optimality certificate | [Tables](solutions/4.3.md#executed-results) · [JSON](../artifacts/4.3/results.json) |
 | [5.29](solutions/5.29.md) | Extra | Nonconvex sphere-QP stationary points | [Tables](solutions/5.29.md#executed-results) · [JSON](../artifacts/5.29/results.json) |
@@ -23,11 +42,16 @@ All 16 selected solutions include original explanation, executable code, and act
 
 ## Coverage and verification
 
-- [Full book source audit](../coverage/source_audit.json): 337 numbered exercises
-- [Detailed inventory](../coverage/inventory.json): required and optional candidates
-- [Verification report](../coverage/verification.json): checks, environment, limits
-- [Fresh execution record](../coverage/results-refresh.json), [test log](../coverage/results-tests.log), and [run log](../coverage/results-rerun.log)
-- [Check or refresh the Markdown tables](../scripts/render_results.py) directly from executed output
+- [Canonical three-category manifest](../coverage/catalog.json)
+- [Worked-example source inventory](../coverage/worked_examples.json)
+- [Coverage definitions and validation](../coverage/README.md)
+- [Historical book source audit](../coverage/source_audit.json): source pages for 337 numbered exercises
+- [Historical computational inventory](../coverage/inventory.json): the numerical delivery's selection
+- [Verification report](../coverage/verification.json): existing exercise checks, environment, and limits
+- [Exercise execution record](../coverage/results-refresh.json), [test log](../coverage/results-tests.log), and [run log](../coverage/results-rerun.log)
+- [Check or refresh the exercise result tables](../scripts/render_results.py) from executed output
 - [Generated figures and data](../artifacts/)
 
-The optional catalogue contains 55 further unimplemented extensions. Their presence documents the boundary of this computational companion; it does not claim they have solutions.
+An entry marked pending has no delivered solution. Inventory completeness and
+solution completeness are separate claims. See [contributing](CONTRIBUTING.md)
+for the evidence needed to add a solution or example reproduction.

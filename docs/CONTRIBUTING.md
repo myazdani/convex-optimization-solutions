@@ -1,6 +1,32 @@
-# Implementing an exercise
+# Adding solutions and reproductions
 
-1. Verify the exact exercise in the official book and its entry in the inventory.
+## Choose the category and deliverable
+
+Start with the [canonical catalog](../coverage/catalog.json) and the official
+source page. A pending catalog entry is not an invitation to create a placeholder
+solution page.
+
+- For a worked example in the text, add original reproduction notes under
+  `docs/examples/`, standalone implementation under `examples/`, and executed
+  artifacts under `artifacts/examples/`. Preserve its source identity and describe
+  whether the book's exact inputs are available. Update `coverage/example_reproductions.json`
+  only with tested implementation evidence. Do not relabel a synthetic illustration
+  as an exact reproduction of unknown textbook data.
+- For a numbered theoretical exercise, give an original, complete proof or derivation
+  with all hypotheses and subparts checked. Code and plots are required only when
+  they support the requested mathematics; they do not replace a proof.
+- For a numbered computational exercise, follow the implementation contract below.
+  The existing 16 solution paths remain under `docs/solutions/`.
+
+After adding verified work, update the relevant source/status records, regenerate
+with `python scripts/build_catalog.py`, and run `python scripts/validate_catalog.py`.
+The catalog's current 16/321 organization is a delivery snapshot; adding a solution
+requires deliberately updating its status and coverage checks rather than claiming
+that a new file automatically completes an entry.
+
+## Computational exercise contract
+
+1. Verify the exact exercise in the official book and its category/source record.
 2. Create `src/convex_solutions/chapters/chNN/ex_N_NN.py` and chapter `__init__.py`.
 3. Expose `solve(output_dir: Path | None = None, seed: int = 0) -> dict`. Return
    serializable metrics/data (NumPy values are supported by the CLI serializer).
@@ -23,9 +49,12 @@ Shared helpers:
 - `convex_solutions.io.write_json(path, value)` serializes NumPy arrays/scalars.
 - `convex_solutions.provenance.file_sha256(path)` checks stored data.
 
-Do not edit another worker's chapter without coordination. Integration owns the
-CLI, shared helpers, manifest schema, README, and aggregate tests. Inventory
-research owns the initial `coverage/inventory.json` source audit.
+Keep shared CLI/solver helpers and provenance checks consistent. The historical
+computational inventory and `src/convex_solutions/` source tree are hashed in the
+16 existing execution envelopes. Worked-example pilots live outside that package
+so adding examples does not invalidate the delivered exercises' provenance.
+If the existing numerical source changes, rerun the affected reproduction and
+validation workflow before publishing new results.
 
 ## Executed results in the notes
 

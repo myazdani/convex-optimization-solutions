@@ -1,4 +1,4 @@
-.PHONY: setup test audit reproduce results check-results bundle-inventory package
+.PHONY: setup test audit reproduce results check-results catalog check-catalog bundle-inventory package
 
 PYTHON ?= python
 
@@ -9,6 +9,7 @@ test:
 	$(PYTHON) -m pytest
 
 audit:
+	$(PYTHON) scripts/validate_catalog.py
 	$(PYTHON) scripts/validate_inventory.py
 	$(PYTHON) -m convex_solutions audit
 
@@ -20,6 +21,13 @@ results:
 
 check-results:
 	$(PYTHON) scripts/render_results.py --check
+
+catalog:
+	$(PYTHON) scripts/build_catalog.py
+
+check-catalog:
+	$(PYTHON) scripts/build_catalog.py --check
+	$(PYTHON) scripts/validate_catalog.py
 
 bundle-inventory:
 	$(PYTHON) scripts/package_inventory.py
